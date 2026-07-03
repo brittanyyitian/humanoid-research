@@ -1,6 +1,124 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T09:13:35.457Z",
-  "statusCounts": {},
-  "rows": []
+  "generatedAt": "2026-07-03T09:32:17.088Z",
+  "statusCounts": {
+    "pending": 4
+  },
+  "rows": [
+    {
+      "id": "fu_2026_06_01_unitree_h2plus_delivery",
+      "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+      "status": "pending",
+      "entityNames": [
+        "宇树科技"
+      ],
+      "sourceIds": [
+        "src_unitree_news_center",
+        "src_unitree_h2plus_product"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网新闻中心列表。"
+        },
+        {
+          "id": "src_unitree_h2plus_product",
+          "title": "Unitree H2 PLUS 产研一体 全栈启航",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网 H2 Plus 产品页。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_11_zhiyuan_ecosystem_spending",
+      "subject": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人"
+      ],
+      "sourceIds": [
+        "src_agibot_20260611_aima_ecosystem_plan"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260611_aima_ecosystem_plan",
+          "title": "2026元苼生态共建行动计划",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/169.html",
+          "publishedAt": "2026-06-11T11:06:01+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+      "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sourceIds": [
+        "src_agibot_20260625_3c_line_live"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260625_3c_line_live",
+          "title": "全球首个3C产线质检工段全覆盖机器人作业直播，智元加速“部署态”规模化落地",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/170.html",
+          "publishedAt": "2026-06-25T10:10:20+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+      "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sourceIds": [
+        "src_agibot_20260629_15000_robots_downline"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    }
+  ]
 }

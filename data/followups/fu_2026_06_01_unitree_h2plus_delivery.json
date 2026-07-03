@@ -1,0 +1,18 @@
+{
+  "id": "fu_2026_06_01_unitree_h2plus_delivery",
+  "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+  "entityIds": ["unitree"],
+  "originEventId": "evt_2026_06_01_unitree_h2plus_product",
+  "status": "pending",
+  "openedAt": "2026-07-03",
+  "closedAt": null,
+  "sourceIds": ["src_unitree_news_center", "src_unitree_h2plus_product"],
+  "history": [
+    {
+      "date": "2026-07-03",
+      "status": "pending",
+      "sourceIds": ["src_unitree_news_center", "src_unitree_h2plus_product"],
+      "note": "官网已披露H2 Plus产品页和新闻中心条目；后续跟踪售价、交付和订单数据。"
+    }
+  ]
+}

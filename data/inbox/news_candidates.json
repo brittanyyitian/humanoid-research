@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-03",
+  "capturedAt": "2026-07-03T17:30:40+08:00",
+  "reviewStatus": "pending_manual_review",
+  "policy": "抓取结果只进入 inbox。人工确认事实、来源和证据等级后，才写入 data/events。",
+  "candidates": [
+    {
+      "id": "candidate_3bce947be604",
+      "title": "动态速递-智元创新（上海）科技股份有限公司",
+      "sourceName": "智元机器人官网新闻",
+      "publisher": "智元创新（上海）科技股份有限公司",
+      "sourceUrl": "https://www.agibot.com.cn/news",
+      "suggestedEvidenceLevel": "A",
+      "moduleHint": "整机厂",
+      "reviewStatus": "pending",
+      "rawTitle": "动态速递-智元创新（上海）科技股份有限公司"
+    },
+    {
+      "id": "candidate_570270729fc4",
+      "title": "新闻中心 - 宇树科技",
+      "sourceName": "宇树科技新闻中心",
+      "publisher": "宇树科技股份有限公司",
+      "sourceUrl": "https://www.unitree.com/cn/news/",
+      "suggestedEvidenceLevel": "A",
+      "moduleHint": "整机厂",
+      "reviewStatus": "pending",
+      "rawTitle": "新闻中心 - 宇树科技"
+    }
+  ],
+  "errors": []
+}

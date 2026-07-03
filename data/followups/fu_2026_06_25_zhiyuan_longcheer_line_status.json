@@ -1,0 +1,18 @@
+{
+  "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+  "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "originEventId": "evt_2026_06_25_zhiyuan_3c_line_live",
+  "status": "pending",
+  "openedAt": "2026-07-03",
+  "closedAt": null,
+  "sourceIds": ["src_agibot_20260625_3c_line_live"],
+  "history": [
+    {
+      "date": "2026-07-03",
+      "status": "pending",
+      "sourceIds": ["src_agibot_20260625_3c_line_live"],
+      "note": "官方已披露多台智元精灵G2进驻龙旗科技江西南昌量产工厂并进行产线直播；后续跟踪是否披露常态化运行、订单金额或交付规模。"
+    }
+  ]
+}

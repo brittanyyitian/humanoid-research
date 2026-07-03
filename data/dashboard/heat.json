@@ -1,15 +1,47 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T09:13:35.457Z",
+  "generatedAt": "2026-07-03T09:32:17.088Z",
   "windowDays": 30,
   "modules": [
     {
-      "name": "产业生态",
-      "count": 1
+      "name": "整机",
+      "count": 2
     },
     {
-      "name": "整机厂",
-      "count": 2
+      "name": "力传感器",
+      "count": 0
+    },
+    {
+      "name": "丝杠",
+      "count": 0
+    },
+    {
+      "name": "减速器",
+      "count": 0
+    },
+    {
+      "name": "灵巧手",
+      "count": 0
+    },
+    {
+      "name": "电机",
+      "count": 0
+    },
+    {
+      "name": "AI",
+      "count": 0
+    },
+    {
+      "name": "政策",
+      "count": 0
+    },
+    {
+      "name": "会议",
+      "count": 0
+    },
+    {
+      "name": "资本/IPO",
+      "count": 0
     }
   ],
   "eventTypes": [

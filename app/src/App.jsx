@@ -102,7 +102,7 @@ function buildMarketEvidence(row) {
   const company = row.displayName || row.company || row.name;
   return {
     title: `${company}行情快照`,
-    fact: `${company}（${stockCodeText(row)}）：价格 ${formatValue(row.price)}，涨跌幅 ${formatPct(row.changePct)}，成交额 ${formatValue(row.turnoverAmount)}，换手率 ${formatRate(row.turnoverRate)}。`,
+    fact: `${company}（${stockCodeText(row)}）：价格 ${formatValue(row.price)}，涨跌幅 ${formatPct(row.changePct)}，成交额 ${formatValue(row.turnoverAmount)}，换手率 ${formatRate(row.turnoverRate)}，总市值 ${formatValue(row.totalMarketCap)}，流通市值 ${formatValue(row.floatMarketCap)}，近5日 ${formatPct(row.fiveDayChangePct)}，近20日 ${formatPct(row.twentyDayChangePct)}。`,
     date: row.capturedAt || market.date,
     evidenceLevel: firstSource(row)?.evidenceLevel || "B",
     module: "市场",
@@ -164,6 +164,8 @@ function getMarketRows() {
         changePct: null,
         turnoverAmount: null,
         turnoverRate: null,
+        totalMarketCap: null,
+        floatMarketCap: null,
         mainNetInflow: null,
         fiveDayChangePct: null,
         twentyDayChangePct: null,
@@ -202,6 +204,8 @@ function MarketRow({ row, openEvidence, compact = false }) {
       <div className="market-extra">
         <span>成交额 {formatValue(row.turnoverAmount)}</span>
         <span>换手 {formatRate(row.turnoverRate)}</span>
+        <span>总市值 {formatValue(row.totalMarketCap)}</span>
+        <span>流通 {formatValue(row.floatMarketCap)}</span>
         <span>主力 {formatValue(row.mainNetInflow)}</span>
         <span>近5日 {formatPct(row.fiveDayChangePct)}</span>
         <span>近20日 {formatPct(row.twentyDayChangePct)}</span>
@@ -253,6 +257,11 @@ function Dashboard({ setView, openEvidence }) {
   const updatedMarketRows = marketRows.filter((row) => row.quoteStatus === "已更新").length;
   const pendingRows = followup.rows.filter((item) => item.status === "pending");
   const recentNodes = timeline.nodes || [];
+  const focusEvents = today.importantEvents.length ? today.importantEvents : recentNodes.slice(0, 3);
+  const marketTopRows = marketRows
+    .filter((row) => row.quoteStatus === "已更新")
+    .sort((a, b) => Math.abs(b.changePct || 0) - Math.abs(a.changePct || 0))
+    .concat(marketRows.filter((row) => row.quoteStatus !== "已更新"));
   const heatRows = Object.entries(today.moduleCounts || {}).map(([name, count]) => ({ name, count }));
 
   return (
@@ -279,28 +288,28 @@ function Dashboard({ setView, openEvidence }) {
       <div className="dashboard-columns">
         <section className="panel panel-focus">
           <header>
-            <h3>今日重点</h3>
+            <h3>{today.importantEvents.length ? "今日重点" : "最近重点"}</h3>
             <button onClick={() => setView("timeline")}>全部</button>
           </header>
-          {today.importantEvents.length ? (
+          {focusEvents.length ? (
             <div className="event-list">
-              {today.importantEvents.slice(0, 3).map((event) => (
+              {focusEvents.slice(0, 3).map((event) => (
                 <EventRow key={event.id} event={event} openEvidence={openEvidence} />
               ))}
             </div>
           ) : (
-            <EmptyState>今日暂无新增入库事件</EmptyState>
+            <EmptyState>暂无入库事件</EmptyState>
           )}
         </section>
 
         <section className="panel panel-market">
           <header>
-            <h3>关注股票</h3>
+            <h3>今日股票异动</h3>
             <button onClick={() => setView("market")}>全部</button>
           </header>
           {marketRows.length ? (
             <div className="market-list">
-              {marketRows.slice(0, 5).map((row) => (
+              {marketTopRows.slice(0, 5).map((row) => (
                 <MarketRow key={row.id || row.stockCode} row={row} openEvidence={openEvidence} compact />
               ))}
             </div>

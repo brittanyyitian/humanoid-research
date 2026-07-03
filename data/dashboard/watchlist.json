@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T09:13:35.457Z",
+  "generatedAt": "2026-07-03T09:32:17.088Z",
   "rows": [
     {
       "id": "unitree",
@@ -26,7 +26,7 @@
       "kind": "robot_oem",
       "segment": null,
       "listed": true,
-      "stockCode": null,
+      "stockCode": "09880",
       "market": "HKEX"
     },
     {
@@ -44,8 +44,89 @@
       "kind": "supply_chain",
       "segment": "力传感器",
       "listed": true,
-      "stockCode": null,
-      "market": null
+      "stockCode": "603662",
+      "market": "SSE"
+    },
+    {
+      "id": "hanwei_electronics",
+      "name": "汉威科技",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "300007",
+      "market": "SZSE"
+    },
+    {
+      "id": "donghua_testing",
+      "name": "东华测试",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "300354",
+      "market": "SZSE"
+    },
+    {
+      "id": "leaderdrive",
+      "name": "绿的谐波",
+      "kind": "supply_chain",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "688017",
+      "market": "SSE"
+    },
+    {
+      "id": "zhongda_leader",
+      "name": "中大力德",
+      "kind": "supply_chain",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "002896",
+      "market": "SZSE"
+    },
+    {
+      "id": "shuanghuan_driveline",
+      "name": "双环传动",
+      "kind": "supply_chain",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "002472",
+      "market": "SZSE"
+    },
+    {
+      "id": "shuanglin",
+      "name": "双林股份",
+      "kind": "supply_chain",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "300100",
+      "market": "SZSE"
+    },
+    {
+      "id": "best",
+      "name": "贝斯特",
+      "kind": "supply_chain",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "300580",
+      "market": "SZSE"
+    },
+    {
+      "id": "beite_technology",
+      "name": "北特科技",
+      "kind": "supply_chain",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "603009",
+      "market": "SSE"
+    },
+    {
+      "id": "wuzhou_xinchun",
+      "name": "五洲新春",
+      "kind": "supply_chain",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "603667",
+      "market": "SSE"
     },
     {
       "id": "inovance",
@@ -53,8 +134,35 @@
       "kind": "supply_chain",
       "segment": "电机",
       "listed": true,
-      "stockCode": null,
-      "market": null
+      "stockCode": "300124",
+      "market": "SZSE"
+    },
+    {
+      "id": "moons",
+      "name": "鸣志电器",
+      "kind": "supply_chain",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": "603728",
+      "market": "SSE"
+    },
+    {
+      "id": "hechuan_technology",
+      "name": "禾川科技",
+      "kind": "supply_chain",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": "688320",
+      "market": "SSE"
+    },
+    {
+      "id": "zhaowei_machinery",
+      "name": "兆威机电",
+      "kind": "supply_chain",
+      "segment": "灵巧手 / 传动",
+      "listed": true,
+      "stockCode": "003021",
+      "market": "SZSE"
     }
   ]
 }

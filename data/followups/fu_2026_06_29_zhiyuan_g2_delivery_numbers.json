@@ -1,0 +1,18 @@
+{
+  "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+  "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "originEventId": "evt_2026_06_29_zhiyuan_15000_robot_downline",
+  "status": "pending",
+  "openedAt": "2026-07-03",
+  "closedAt": null,
+  "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+  "history": [
+    {
+      "date": "2026-07-03",
+      "status": "pending",
+      "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+      "note": "官方已披露第15000台下线及交付龙旗科技工厂；后续跟踪累计交付、客户扩展和常态化部署数据。"
+    }
+  ]
+}

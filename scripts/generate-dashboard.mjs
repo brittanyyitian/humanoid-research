@@ -10,6 +10,7 @@ import {
 } from "./data-utils.mjs";
 
 const targetDate = process.env.RESEARCH_DATE || todayInShanghai();
+const HEAT_MODULES = ["整机", "力传感器", "丝杠", "减速器", "灵巧手", "电机", "AI", "政策", "会议", "资本/IPO"];
 
 const entitiesIndex = await readJsonFile(path.join(DATA_DIR, "entities", "index.json"));
 const entities = entitiesIndex.entities || [];
@@ -29,7 +30,7 @@ function enrichSources(sourceIds = []) {
 function enrichStockSources(stock) {
   const rows = enrichSources(stock.sourceIds);
   if (!stock.providerSourceUrl || rows.length === 0) return rows;
-  return rows.map((source, index) =>
+  const quoteSources = rows.map((source, index) =>
     index === 0
       ? {
           ...source,
@@ -38,6 +39,16 @@ function enrichStockSources(stock) {
         }
       : source
   );
+  if (!stock.klineSourceUrl) return quoteSources;
+  return [
+    ...quoteSources,
+    {
+      ...quoteSources[0],
+      id: `${quoteSources[0].id}_kline_${stock.stockCode}`,
+      title: `腾讯财经K线接口 · ${stock.stockCode}`,
+      url: stock.klineSourceUrl,
+    },
+  ];
 }
 
 function entityNames(entityIds = []) {
@@ -65,8 +76,24 @@ const todayModuleCounts = todayEvents.reduce((acc, event) => {
   return acc;
 }, {});
 
+function heatModuleName(event) {
+  if (event.eventType === "policy") return "政策";
+  if (event.eventType === "conference") return "会议";
+  if (event.eventType === "ipo" || event.eventType === "funding") return "资本/IPO";
+  const moduleName = event.module || "";
+  if (moduleName.includes("整机")) return "整机";
+  if (moduleName.includes("力传感器")) return "力传感器";
+  if (moduleName.includes("丝杠")) return "丝杠";
+  if (moduleName.includes("减速器")) return "减速器";
+  if (moduleName.includes("灵巧手")) return "灵巧手";
+  if (moduleName.includes("电机") || moduleName.includes("控制")) return "电机";
+  if (moduleName.includes("AI") || moduleName.includes("模型")) return "AI";
+  return null;
+}
+
 const windowModuleCounts = windowEvents.reduce((acc, event) => {
-  acc[event.module] = (acc[event.module] || 0) + 1;
+  const moduleName = heatModuleName(event);
+  if (moduleName) acc[moduleName] = (acc[moduleName] || 0) + 1;
   return acc;
 }, {});
 
@@ -87,6 +114,8 @@ const marketRows = todayStocks.map((stock) => ({
   changePct: stock.changePct ?? null,
   turnoverAmount: stock.turnoverAmount ?? null,
   turnoverRate: stock.turnoverRate ?? null,
+  totalMarketCap: stock.totalMarketCap ?? null,
+  floatMarketCap: stock.floatMarketCap ?? null,
   mainNetInflow: stock.mainNetInflow ?? null,
   fiveDayChangePct: stock.fiveDayChangePct ?? null,
   twentyDayChangePct: stock.twentyDayChangePct ?? null,
@@ -95,6 +124,8 @@ const marketRows = todayStocks.map((stock) => ({
   capturedAt: stock.capturedAt,
   providerSourceUrl: stock.providerSourceUrl ?? null,
   quoteUrl: stock.quoteUrl ?? null,
+  klineSourceUrl: stock.klineSourceUrl ?? null,
+  quoteTime: stock.quoteTime ?? null,
 }));
 
 const importantEvents = todayEvents
@@ -155,7 +186,7 @@ const heat = {
   date: targetDate,
   generatedAt: today.generatedAt,
   windowDays: heatWindowDays,
-  modules: Object.entries(windowModuleCounts).map(([name, count]) => ({ name, count })),
+  modules: HEAT_MODULES.map((name) => ({ name, count: windowModuleCounts[name] || 0 })),
   eventTypes: Object.entries(
     windowEvents.reduce((acc, event) => {
       acc[event.eventType] = (acc[event.eventType] || 0) + 1;

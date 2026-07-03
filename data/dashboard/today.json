@@ -1,25 +1,77 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T09:13:35.457Z",
+  "generatedAt": "2026-07-03T09:32:17.088Z",
   "status": "ready",
   "signals": {
     "changes": "neutral",
-    "market": "yellow",
-    "followup": "neutral"
+    "market": "green",
+    "followup": "green"
   },
   "totals": {
     "changes": 0,
     "events": 0,
     "relations": 0,
-    "stocks": 1,
+    "stocks": 16,
     "sources": 9,
     "importantEvents": 0,
-    "pendingFollowups": 0
+    "pendingFollowups": 4
   },
   "eventTypeCounts": {},
   "moduleCounts": {},
   "importantEvents": [],
   "marketRows": [
+    {
+      "id": "stock_2026-07-03_ubtech",
+      "entityId": "ubtech",
+      "company": "优必选",
+      "stockCode": "09880",
+      "market": "HKEX",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 108.9,
+      "changePct": 17.6,
+      "turnoverAmount": "33.53亿",
+      "turnoverRate": 0,
+      "totalMarketCap": "548.20亿港元",
+      "floatMarketCap": "471.25亿港元",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 17.35,
+      "twentyDayChangePct": -2.24,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=hk09880",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_09880",
+          "title": "腾讯财经K线接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=hk09880",
+      "quoteUrl": "https://qt.gtimg.cn/q=hk09880",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+      "quoteTime": "2026/07/03 16:08:17"
+    },
     {
       "id": "stock_2026-07-03_anpeilong",
       "entityId": "anpeilong",
@@ -32,9 +84,11 @@
       "changePct": 11.42,
       "turnoverAmount": "9.31亿",
       "turnoverRate": 15.12,
+      "totalMarketCap": "106.18亿",
+      "floatMarketCap": "63.39亿",
       "mainNetInflow": null,
-      "fiveDayChangePct": null,
-      "twentyDayChangePct": null,
+      "fiveDayChangePct": 27.34,
+      "twentyDayChangePct": -5.79,
       "sourceIds": [
         "src_tencent_market_quote"
       ],
@@ -50,11 +104,753 @@
           "evidenceLevel": "B",
           "status": "active",
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_301413",
+          "title": "腾讯财经K线接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-07-03T17:12:21+08:00",
+      "capturedAt": "2026-07-03T17:27:24+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz301413",
-      "quoteUrl": "https://qt.gtimg.cn/q=sz301413"
+      "quoteUrl": "https://qt.gtimg.cn/q=sz301413",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+      "quoteTime": "20260703161448"
+    },
+    {
+      "id": "stock_2026-07-03_keli_sensing",
+      "entityId": "keli_sensing",
+      "company": "柯力传感",
+      "stockCode": "603662",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 80,
+      "changePct": 8.37,
+      "turnoverAmount": "27.98亿",
+      "turnoverRate": 12.72,
+      "totalMarketCap": "224.66亿",
+      "floatMarketCap": "224.66亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 23.02,
+      "twentyDayChangePct": 27.13,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 603662",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh603662",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_603662",
+          "title": "腾讯财经K线接口 · 603662",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603662,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh603662",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh603662",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603662,day,,,30,qfq",
+      "quoteTime": "20260703161455"
+    },
+    {
+      "id": "stock_2026-07-03_hanwei_electronics",
+      "entityId": "hanwei_electronics",
+      "company": "汉威科技",
+      "stockCode": "300007",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 43.27,
+      "changePct": 9.38,
+      "turnoverAmount": "15.75亿",
+      "turnoverRate": 13.17,
+      "totalMarketCap": "141.69亿",
+      "floatMarketCap": "122.43亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 24.37,
+      "twentyDayChangePct": 4.57,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300007",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300007",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300007",
+          "title": "腾讯财经K线接口 · 300007",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz300007",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz300007",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+      "quoteTime": "20260703161424"
+    },
+    {
+      "id": "stock_2026-07-03_donghua_testing",
+      "entityId": "donghua_testing",
+      "company": "东华测试",
+      "stockCode": "300354",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 37.21,
+      "changePct": 0.59,
+      "turnoverAmount": "2.02亿",
+      "turnoverRate": 6.59,
+      "totalMarketCap": "51.47亿",
+      "floatMarketCap": "30.26亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 18.16,
+      "twentyDayChangePct": 16.87,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300354",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300354",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300354",
+          "title": "腾讯财经K线接口 · 300354",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300354,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz300354",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz300354",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300354,day,,,30,qfq",
+      "quoteTime": "20260703161436"
+    },
+    {
+      "id": "stock_2026-07-03_leaderdrive",
+      "entityId": "leaderdrive",
+      "company": "绿的谐波",
+      "stockCode": "688017",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 488,
+      "changePct": 18.15,
+      "turnoverAmount": "125.29亿",
+      "turnoverRate": 14.7,
+      "totalMarketCap": "894.65亿",
+      "floatMarketCap": "894.65亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 32.08,
+      "twentyDayChangePct": 49.01,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688017",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688017",
+          "title": "腾讯财经K线接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh688017",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh688017",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+      "quoteTime": "20260703161443"
+    },
+    {
+      "id": "stock_2026-07-03_zhongda_leader",
+      "entityId": "zhongda_leader",
+      "company": "中大力德",
+      "stockCode": "002896",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 85.62,
+      "changePct": 9.99,
+      "turnoverAmount": "17.01亿",
+      "turnoverRate": 10.3,
+      "totalMarketCap": "168.26亿",
+      "floatMarketCap": "168.26亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 21.79,
+      "twentyDayChangePct": 8.54,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002896",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002896",
+          "title": "腾讯财经K线接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz002896",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz002896",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+      "quoteTime": "20260703161457"
+    },
+    {
+      "id": "stock_2026-07-03_shuanghuan_driveline",
+      "entityId": "shuanghuan_driveline",
+      "company": "双环传动",
+      "stockCode": "002472",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 47.01,
+      "changePct": 9.99,
+      "turnoverAmount": "34.12亿",
+      "turnoverRate": 9.97,
+      "totalMarketCap": "399.58亿",
+      "floatMarketCap": "351.91亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 26.54,
+      "twentyDayChangePct": 13.58,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002472",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002472",
+          "title": "腾讯财经K线接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz002472",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz002472",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+      "quoteTime": "20260703161448"
+    },
+    {
+      "id": "stock_2026-07-03_shuanglin",
+      "entityId": "shuanglin",
+      "company": "双林股份",
+      "stockCode": "300100",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 30.83,
+      "changePct": 7.53,
+      "turnoverAmount": "8.71亿",
+      "turnoverRate": 5.17,
+      "totalMarketCap": "176.60亿",
+      "floatMarketCap": "170.18亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 13.01,
+      "twentyDayChangePct": 0.23,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300100",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300100",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300100",
+          "title": "腾讯财经K线接口 · 300100",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300100,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz300100",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz300100",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300100,day,,,30,qfq",
+      "quoteTime": "20260703161457"
+    },
+    {
+      "id": "stock_2026-07-03_best",
+      "entityId": "best",
+      "company": "贝斯特",
+      "stockCode": "300580",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 25.96,
+      "changePct": 20.02,
+      "turnoverAmount": "10.79亿",
+      "turnoverRate": 9.28,
+      "totalMarketCap": "130.40亿",
+      "floatMarketCap": "122.69亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 43.9,
+      "twentyDayChangePct": 14.92,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300580",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300580",
+          "title": "腾讯财经K线接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz300580",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz300580",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+      "quoteTime": "20260703161415"
+    },
+    {
+      "id": "stock_2026-07-03_beite_technology",
+      "entityId": "beite_technology",
+      "company": "北特科技",
+      "stockCode": "603009",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 53.34,
+      "changePct": 5.62,
+      "turnoverAmount": "7.60亿",
+      "turnoverRate": 4.27,
+      "totalMarketCap": "184.76亿",
+      "floatMarketCap": "180.51亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 22.37,
+      "twentyDayChangePct": 5.73,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 603009",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh603009",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_603009",
+          "title": "腾讯财经K线接口 · 603009",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
+      "quoteTime": "20260703161457"
+    },
+    {
+      "id": "stock_2026-07-03_wuzhou_xinchun",
+      "entityId": "wuzhou_xinchun",
+      "company": "五洲新春",
+      "stockCode": "603667",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 76.15,
+      "changePct": 8.51,
+      "turnoverAmount": "41.09亿",
+      "turnoverRate": 15.17,
+      "totalMarketCap": "291.77亿",
+      "floatMarketCap": "278.86亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 25.54,
+      "twentyDayChangePct": 6.18,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 603667",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh603667",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_603667",
+          "title": "腾讯财经K线接口 · 603667",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603667,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh603667",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh603667",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603667,day,,,30,qfq",
+      "quoteTime": "20260703161431"
+    },
+    {
+      "id": "stock_2026-07-03_inovance",
+      "entityId": "inovance",
+      "company": "汇川技术",
+      "stockCode": "300124",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 72.15,
+      "changePct": 5.48,
+      "turnoverAmount": "69.38亿",
+      "turnoverRate": 4.03,
+      "totalMarketCap": "1953.54亿",
+      "floatMarketCap": "1739.04亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 14.02,
+      "twentyDayChangePct": -2.7,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300124",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300124",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300124",
+          "title": "腾讯财经K线接口 · 300124",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300124,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz300124",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz300124",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300124,day,,,30,qfq",
+      "quoteTime": "20260703161409"
+    },
+    {
+      "id": "stock_2026-07-03_moons",
+      "entityId": "moons",
+      "company": "鸣志电器",
+      "stockCode": "603728",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 68.02,
+      "changePct": 7.34,
+      "turnoverAmount": "17.77亿",
+      "turnoverRate": 6.3,
+      "totalMarketCap": "284.92亿",
+      "floatMarketCap": "284.92亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 21.81,
+      "twentyDayChangePct": 7.13,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 603728",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh603728",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_603728",
+          "title": "腾讯财经K线接口 · 603728",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603728,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh603728",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh603728",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603728,day,,,30,qfq",
+      "quoteTime": "20260703161447"
+    },
+    {
+      "id": "stock_2026-07-03_hechuan_technology",
+      "entityId": "hechuan_technology",
+      "company": "禾川科技",
+      "stockCode": "688320",
+      "market": "SSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 42.95,
+      "changePct": 3.97,
+      "turnoverAmount": "6.01亿",
+      "turnoverRate": 9.31,
+      "totalMarketCap": "64.86亿",
+      "floatMarketCap": "64.86亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 16.62,
+      "twentyDayChangePct": 15.92,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688320",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688320",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688320",
+          "title": "腾讯财经K线接口 · 688320",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688320,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sh688320",
+      "quoteUrl": "https://qt.gtimg.cn/q=sh688320",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688320,day,,,30,qfq",
+      "quoteTime": "20260703161442"
+    },
+    {
+      "id": "stock_2026-07-03_zhaowei_machinery",
+      "entityId": "zhaowei_machinery",
+      "company": "兆威机电",
+      "stockCode": "003021",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 100.8,
+      "changePct": 10,
+      "turnoverAmount": "9.38亿",
+      "turnoverRate": 4.63,
+      "totalMarketCap": "269.70亿",
+      "floatMarketCap": "209.04亿",
+      "mainNetInflow": null,
+      "fiveDayChangePct": 23.61,
+      "twentyDayChangePct": 2.65,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz003021",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_003021",
+          "title": "腾讯财经K线接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:27:24+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz003021",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz003021",
+      "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+      "quoteTime": "20260703161448"
     }
   ],
   "noVerifiedData": false
