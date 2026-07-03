@@ -1,0 +1,55 @@
+{
+  "generatedFrom": "user_defined_watchlist",
+  "updatedAt": "2026-07-03T00:00:00+08:00",
+  "entities": [
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "kind": "robot_oem",
+      "tags": ["整机厂", "人形机器人", "Watchlist"],
+      "listed": false
+    },
+    {
+      "id": "zhiyuan_robot",
+      "name": "智元机器人",
+      "kind": "robot_oem",
+      "tags": ["整机厂", "人形机器人", "Watchlist"],
+      "listed": false
+    },
+    {
+      "id": "ubtech",
+      "name": "优必选",
+      "kind": "robot_oem",
+      "tags": ["整机厂", "人形机器人", "Watchlist"],
+      "listed": true,
+      "market": "HKEX"
+    },
+    {
+      "id": "anpeilong",
+      "name": "安培龙",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "tags": ["力传感器", "六维力传感器", "A股", "Watchlist"],
+      "listed": true,
+      "stockCode": "301413",
+      "market": "SZSE"
+    },
+    {
+      "id": "keli_sensing",
+      "name": "柯力传感",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "tags": ["力传感器", "A股", "Watchlist"],
+      "listed": true
+    },
+    {
+      "id": "inovance",
+      "name": "汇川技术",
+      "kind": "supply_chain",
+      "segment": "电机",
+      "tags": ["电机", "控制器", "A股", "Watchlist"],
+      "listed": true
+    }
+  ]
+}
+

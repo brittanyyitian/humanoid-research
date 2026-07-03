@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "followup.schema.json",
+  "title": "Research Follow-up",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "entityIds",
+    "status",
+    "openedAt",
+    "sourceIds",
+    "history"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^fu_[a-z0-9_\\-]+$" },
+    "subject": { "type": "string", "minLength": 1 },
+    "entityIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "originEventId": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "confirmed", "completed", "archived", "cancelled", "stale"]
+    },
+    "openedAt": { "type": "string", "minLength": 1 },
+    "closedAt": { "type": ["string", "null"] },
+    "sourceIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "status"],
+        "properties": {
+          "date": { "type": "string" },
+          "status": { "type": "string" },
+          "sourceIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "note": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

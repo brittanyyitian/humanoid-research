@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T08:25:32.083Z",
+  "rows": [
+    {
+      "id": "src_sse_market_overview",
+      "title": "上海证券交易所每日股票情况",
+      "publisher": "上海证券交易所",
+      "sourceType": "webpage",
+      "url": "https://www.sse.com.cn/market/stockdata/overview/day/",
+      "evidenceLevel": "A",
+      "status": "active"
+    },
+    {
+      "id": "src_szse_market_trend",
+      "title": "深圳证券交易所行情信息",
+      "publisher": "深圳证券交易所",
+      "sourceType": "webpage",
+      "url": "https://www.szse.cn/market/trend/index.html",
+      "evidenceLevel": "A",
+      "status": "active"
+    }
+  ]
+}

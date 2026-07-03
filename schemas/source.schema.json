@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Research Source",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "publisher",
+    "sourceType",
+    "url",
+    "capturedAt",
+    "evidenceLevel",
+    "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^src_[a-z0-9_\\-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "sourceType": {
+      "type": "string",
+      "enum": ["webpage", "pdf", "video", "filing", "wechat", "news", "exchange", "government"]
+    },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "publishedAt": { "type": ["string", "null"] },
+    "capturedAt": { "type": "string", "minLength": 1 },
+    "evidenceLevel": { "type": "string", "enum": ["A", "B", "C", "D"] },
+    "status": { "type": "string", "enum": ["active", "archived", "superseded"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}
+

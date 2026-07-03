@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T08:25:32.083Z",
+  "rows": [
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "kind": "robot_oem",
+      "segment": null,
+      "listed": false,
+      "stockCode": null,
+      "market": null
+    },
+    {
+      "id": "zhiyuan_robot",
+      "name": "智元机器人",
+      "kind": "robot_oem",
+      "segment": null,
+      "listed": false,
+      "stockCode": null,
+      "market": null
+    },
+    {
+      "id": "ubtech",
+      "name": "优必选",
+      "kind": "robot_oem",
+      "segment": null,
+      "listed": true,
+      "stockCode": null,
+      "market": "HKEX"
+    },
+    {
+      "id": "anpeilong",
+      "name": "安培龙",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "301413",
+      "market": "SZSE"
+    },
+    {
+      "id": "keli_sensing",
+      "name": "柯力传感",
+      "kind": "supply_chain",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": null,
+      "market": null
+    },
+    {
+      "id": "inovance",
+      "name": "汇川技术",
+      "kind": "supply_chain",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": null,
+      "market": null
+    }
+  ]
+}
