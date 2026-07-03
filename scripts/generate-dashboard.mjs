@@ -200,6 +200,21 @@ const timeline = {
   generatedAt: today.generatedAt,
   nodes: events
     .slice()
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((event) => ({
+      id: event.id,
+      date: event.date,
+      title: event.title,
+      fact: event.fact,
+      eventType: event.eventType,
+      module: event.module,
+      entityNames: entityNames(event.entityIds),
+      evidenceLevel: event.evidenceLevel,
+      sourceIds: event.sourceIds,
+      sources: enrichSources(event.sourceIds),
+    })),
+  recentNodes: events
+    .slice()
     .sort((a, b) => b.date.localeCompare(a.date))
     .map((event) => ({
       id: event.id,

@@ -256,8 +256,10 @@ function Dashboard({ setView, openEvidence }) {
   const marketRows = getMarketRows();
   const updatedMarketRows = marketRows.filter((row) => row.quoteStatus === "已更新").length;
   const pendingRows = followup.rows.filter((item) => item.status === "pending");
-  const recentNodes = timeline.nodes || [];
-  const focusEvents = today.importantEvents.length ? today.importantEvents : recentNodes.slice(0, 3);
+  const chronologicalNodes = timeline.nodes || [];
+  const latestNodes = timeline.recentNodes || chronologicalNodes.slice().reverse();
+  const recentTimelineNodes = chronologicalNodes.slice(-5);
+  const focusEvents = today.importantEvents.length ? today.importantEvents : latestNodes.slice(0, 3);
   const marketTopRows = marketRows
     .filter((row) => row.quoteStatus === "已更新")
     .sort((a, b) => Math.abs(b.changePct || 0) - Math.abs(a.changePct || 0))
@@ -343,7 +345,7 @@ function Dashboard({ setView, openEvidence }) {
           <h3>最近产业时间轴</h3>
           <button onClick={() => setView("timeline")}>全部</button>
         </header>
-        <TimelineNodes nodes={recentNodes} openEvidence={openEvidence} limit={5} />
+        <TimelineNodes nodes={recentTimelineNodes} openEvidence={openEvidence} />
       </section>
 
       <section className="heat-strip" aria-label="今日热度分布">
