@@ -5,6 +5,7 @@ import companies from "@data/dashboard/companies.json";
 import eventDashboard from "@data/dashboard/events.json";
 import followup from "@data/dashboard/followup.json";
 import market from "@data/dashboard/market.json";
+import observations from "@data/dashboard/observations.json";
 import relations from "@data/dashboard/relations.json";
 import sourceRegistry from "@data/dashboard/sources.json";
 import stats from "@data/dashboard/stats.json";
@@ -101,6 +102,11 @@ function amountRank(value) {
   if (value.includes("亿")) return number * 100000000;
   if (value.includes("万")) return number * 10000;
   return number;
+}
+
+function sourceNames(sources = []) {
+  const names = Array.from(new Set(sources.map((source) => source.publisher || source.title).filter(Boolean)));
+  return names.slice(0, 3);
 }
 
 function stockFromCompany(company) {
@@ -238,7 +244,7 @@ function EventCard({ event, openCompany, openEvidence, compact = false }) {
   const directStocks = event.directMarketRows || [];
   const contextStocks = event.watchlistMarketContext || [];
   const stockRows = directStocks.length ? directStocks : contextStocks.slice(0, 3);
-  const stockTitle = directStocks.length ? "涉及股票" : "今日Watchlist";
+  const stockTitle = "同日 Watchlist 股票表现";
   const followups = event.followups || [];
 
   return (
@@ -300,91 +306,166 @@ function EventCard({ event, openCompany, openEvidence, compact = false }) {
   );
 }
 
-function Dashboard({ setView, openCompany, openEvidence }) {
-  const rows = marketRows();
-  const updatedMarketRows = rows.filter((row) => row.quoteStatus === "已更新");
-  const pendingRows = followup.rows.filter((item) => item.status === "pending");
-  const todayEvents = eventDashboard.todayEvents || [];
-  const eventRows = todayEvents.length ? todayEvents : (eventDashboard.recentEvents || []).slice(0, 3);
-  const involvedCompanies = new Set(eventRows.flatMap((event) => event.entityIds || []));
-  const recentTimeline = (timeline.recentNodes || []).slice(0, 5);
+function ObservationCard({ observation, openCompany, openEvidence }) {
+  const stockRows = observation.sameDayWatchlistRows || [];
+  const followups = observation.followups || [];
+  const relatedRows = observation.relatedObservations || [];
+  const publishers = sourceNames(observation.sources);
 
   return (
-    <div className="dashboard-v3">
-      <section className="overview-strip" aria-label="今日概览">
-        <OverviewItem label="新增事件" value={todayEvents.length} note={today.date} />
-        <OverviewItem label={todayEvents.length ? "涉及公司" : "最近公司"} value={involvedCompanies.size} note="事件内公司" />
-        <OverviewItem label="关注股票" value={rows.length} note={`${updatedMarketRows.length}已更新`} />
-        <OverviewItem label="待验证" value={pendingRows.length} note="Follow-up" />
-      </section>
+    <article className="observation-card">
+      <button className="observation-head" onClick={() => openEvidence(observation)}>
+        <span>{observation.number}｜{observation.date}｜{observation.module || "未分类"}</span>
+        <h3>{observation.title}</h3>
+      </button>
 
-      <section className="dashboard-lead">
-        <div>
-          <span>今日</span>
-          <h2>{todayEvents.length ? "新增事件已入库" : "今日暂无新增正式事件"}</h2>
-        </div>
-        <button onClick={() => setView("timeline")}>查看时间轴</button>
-      </section>
+      <div className="observation-fact">
+        <small>事实</small>
+        <p>{observation.fact}</p>
+      </div>
 
-      <section className="panel event-driven-panel">
-        <header>
-          <h3>{todayEvents.length ? "今日重点事件" : "最近重点事件"}</h3>
-          <button onClick={() => setView("timeline")}>全部事件</button>
-        </header>
-        {eventRows.length ? (
-          <div className="event-card-grid">
-            {eventRows.slice(0, 3).map((event) => (
-              <EventCard
-                key={event.id}
-                event={event}
-                openCompany={openCompany}
-                openEvidence={openEvidence}
-              />
-            ))}
-          </div>
-        ) : (
-          <EmptyState>暂无入库事件</EmptyState>
-        )}
-      </section>
-
-      <div className="dashboard-bottom-grid">
-        <section className="panel">
-          <header>
-            <h3>关注股票</h3>
-            <button onClick={() => setView("market")}>全部</button>
-          </header>
-          <div className="stock-list-compact">
-            {rows.slice(0, 6).map((row) => (
-              <StockLine key={row.id || row.entityId} row={row} />
+      <div className="observation-grid">
+        <section>
+          <small>涉及公司</small>
+          <div className="research-company-list">
+            {(observation.entities || []).map((entity) => (
+              <button key={entity.id} onClick={() => openCompany(entity.id)}>
+                <span>✓</span>
+                {entity.name}
+              </button>
             ))}
           </div>
         </section>
 
-        <section className="panel">
-          <header>
-            <h3>待验证事项</h3>
-          </header>
-          {pendingRows.length ? (
-            <div className="mini-followups">
-              {pendingRows.slice(0, 5).map((item) => (
-                <button key={item.id} onClick={() => openEvidence(item)}>
-                  <strong>{item.subject}</strong>
-                  <span>{item.entityNames?.join(" / ") || "未关联公司"}</span>
+        <section>
+          <small>同日 Watchlist 股票表现</small>
+          {stockRows.length ? (
+            <div className="observation-stock-list">
+              {stockRows.slice(0, 4).map((row) => (
+                <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
+                  <div>
+                    <strong>{row.company}</strong>
+                    <span>{stockCodeText(row)}</span>
+                  </div>
+                  <b>{formatValue(row.price)}</b>
+                  <em className={changeClass(row.changePct)}>{formatPct(row.changePct)}</em>
+                  <p>
+                    成交额 {formatValue(row.turnoverAmount)}｜近5日 {formatPct(row.fiveDayChangePct)}
+                  </p>
                 </button>
               ))}
             </div>
           ) : (
-            <EmptyState>暂无待验证事项</EmptyState>
+            <span className="muted-text">暂无同日行情快照</span>
+          )}
+        </section>
+
+        <section>
+          <small>待验证</small>
+          {followups.length ? (
+            <div className="observation-checklist">
+              {followups.slice(0, 4).map((item) => (
+                <div key={item.id}>
+                  <span>□</span>
+                  <strong>{item.subject}</strong>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <span className="muted-text">暂无直接待验证事项</span>
+          )}
+        </section>
+
+        <section>
+          <small>来源</small>
+          {publishers.length ? (
+            <div className="source-chip-list">
+              {publishers.map((name) => (
+                <button key={name} onClick={() => openEvidence(observation)}>
+                  {name}
+                </button>
+              ))}
+            </div>
+          ) : (
+            <span className="muted-text">暂无来源</span>
           )}
         </section>
       </div>
 
-      <section className="panel timeline-panel">
-        <header>
-          <h3>最近时间轴</h3>
-          <button onClick={() => setView("timeline")}>全部</button>
-        </header>
-        <GithubTimeline nodes={recentTimeline} openEvidence={openEvidence} />
+      <div className="related-observations">
+        <small>相关 Observation</small>
+        {relatedRows.length ? (
+          <div>
+            {relatedRows.map((row) => (
+              <button key={row.id} onClick={() => openEvidence(row)}>
+                <span>{row.date}</span>
+                <strong>{row.title}</strong>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <span className="muted-text">暂无历史相似项</span>
+        )}
+      </div>
+
+      <footer>
+        <EvidenceBadge level={observation.evidenceLevel} />
+        <button onClick={() => openEvidence(observation)}>查看证据</button>
+      </footer>
+    </article>
+  );
+}
+
+function Dashboard({ setView, openCompany, openEvidence }) {
+  const rows = marketRows();
+  const updatedMarketRows = rows.filter((row) => row.quoteStatus === "已更新");
+  const pendingRows = followup.rows.filter((item) => item.status === "pending");
+  const observationRows = observations.researchRows || [];
+  const todayObservationRows = observations.todayRows || [];
+  const involvedCompanies = new Set(observationRows.flatMap((row) => row.entityIds || []));
+
+  return (
+    <div className="dashboard-v3">
+      <section className="overview-strip" aria-label="今日概览">
+        <OverviewItem label="值得研究" value={observationRows.length} note="Observation" />
+        <OverviewItem label="今日新增" value={todayObservationRows.length} note={today.date} />
+        <OverviewItem label="涉及公司" value={involvedCompanies.size} note="卡片内公司" />
+        <OverviewItem label="关注股票" value={rows.length} note={`${updatedMarketRows.length}已更新`} />
+      </section>
+
+      <section className="dashboard-lead">
+        <div>
+          <span>今日研究</span>
+          <h2>{observationRows.length ? `值得研究 ${observationRows.length} 件事情` : "暂无正式 Observation"}</h2>
+        </div>
+        <button onClick={() => setView("database")}>查看数据库</button>
+      </section>
+
+      <section className="whats-new-panel">
+        <div>
+          <span>What’s New</span>
+          <strong>{observations.whatsNew?.addedToday || 0}</strong>
+          <small>今日新增 Observation</small>
+        </div>
+        <p>
+          昨日库 {observations.whatsNew?.previousTotal || 0} · 今日库{" "}
+          {observations.whatsNew?.currentTotal || 0} · 待验证 {pendingRows.length}
+        </p>
+      </section>
+
+      <section className="observation-stack">
+        {observationRows.length ? (
+          observationRows.slice(0, 5).map((observation) => (
+            <ObservationCard
+              key={observation.id}
+              observation={observation}
+              openCompany={openCompany}
+              openEvidence={openEvidence}
+            />
+          ))
+        ) : (
+          <EmptyState>暂无 Observation 数据</EmptyState>
+        )}
       </section>
     </div>
   );
@@ -588,6 +669,7 @@ function DatabaseView({ openEvidence }) {
         <OverviewItem label="事件" value={stats.events} />
         <OverviewItem label="合作" value={stats.relations} />
         <OverviewItem label="跟踪" value={stats.followups} />
+        <OverviewItem label="Observation" value={stats.observations || 0} />
         <OverviewItem label="股票快照" value={stats.stockSnapshots} />
         <OverviewItem label="来源" value={stats.sources} />
       </div>

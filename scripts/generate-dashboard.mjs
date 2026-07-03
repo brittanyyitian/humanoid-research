@@ -209,6 +209,78 @@ const allEventRows = events
 
 const latestEventRows = allEventRows.slice(0, 8);
 
+const evidenceRank = { A: 4, B: 3, C: 2, D: 1 };
+
+function observationSort(a, b) {
+  return (
+    (evidenceRank[b.evidenceLevel] || 0) - (evidenceRank[a.evidenceLevel] || 0) ||
+    (b.importance || 0) - (a.importance || 0) ||
+    (b.entityIds?.length || 0) - (a.entityIds?.length || 0) ||
+    String(b.date || "").localeCompare(String(a.date || ""))
+  );
+}
+
+function relatedObservationScore(event, candidate) {
+  if (event.id === candidate.id) return -1;
+  let score = 0;
+  if (event.eventType === candidate.eventType) score += 4;
+  if (event.module === candidate.module) score += 3;
+  const eventTags = new Set(event.tags || []);
+  for (const tag of candidate.tags || []) {
+    if (eventTags.has(tag)) score += 1;
+  }
+  return score;
+}
+
+function observationRow(event, index, sortedRows) {
+  const relatedObservations = sortedRows
+    .map((candidate) => ({ candidate, score: relatedObservationScore(event, candidate) }))
+    .filter((row) => row.score > 0)
+    .sort((a, b) => b.score - a.score || observationSort(a.candidate, b.candidate))
+    .slice(0, 3)
+    .map(({ candidate }) => ({
+      id: `obs_${candidate.id}`,
+      eventId: candidate.id,
+      date: candidate.date,
+      title: candidate.title,
+      fact: candidate.fact,
+      module: candidate.module,
+      eventType: candidate.eventType,
+      evidenceLevel: candidate.evidenceLevel,
+      entityNames: candidate.entityNames,
+      sources: candidate.sources,
+    }));
+
+  return {
+    id: `obs_${event.id}`,
+    number: `#${String(index + 1).padStart(3, "0")}`,
+    eventId: event.id,
+    date: event.date,
+    title: event.title,
+    fact: event.fact,
+    eventType: event.eventType,
+    module: event.module,
+    importance: event.importance || 1,
+    evidenceLevel: event.evidenceLevel,
+    entityIds: event.entityIds,
+    entityNames: event.entityNames,
+    entities: event.entities,
+    sameDayWatchlistRows: event.watchlistMarketContext,
+    followups: event.followups,
+    sourceIds: event.sourceIds,
+    sources: event.sources,
+    relatedObservations,
+    tags: event.tags || [],
+  };
+}
+
+const sortedObservationEvents = allEventRows.slice().sort(observationSort);
+const allObservationRows = sortedObservationEvents.map((event, index) =>
+  observationRow(event, index, sortedObservationEvents)
+);
+const todayObservationRows = allObservationRows.filter((row) => row.date === targetDate);
+const researchObservationRows = (todayObservationRows.length ? todayObservationRows : allObservationRows).slice(0, 5);
+
 const companyRows = entities
   .filter((entity) => entity.tags?.includes("Watchlist"))
   .map((entity) => {
@@ -283,6 +355,26 @@ const eventDashboard = {
     directStocksToday: new Set(
       todayEvents.flatMap((event) => event.entityIds).filter((entityId) => marketByEntityId.has(entityId))
     ).size,
+  },
+};
+
+const observationsDashboard = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  sortPolicy: "证据等级 > 事件重要性 > 涉及公司数量 > 日期",
+  sourcePolicy: "股票只展示同日 Watchlist 行情事实，不表达因果判断。",
+  todayRows: todayObservationRows,
+  researchRows: researchObservationRows,
+  rows: allObservationRows,
+  whatsNew: {
+    previousTotal: allObservationRows.filter((row) => row.date < targetDate).length,
+    currentTotal: allObservationRows.length,
+    addedToday: todayObservationRows.length,
+  },
+  totals: {
+    today: todayObservationRows.length,
+    all: allObservationRows.length,
+    research: researchObservationRows.length,
   },
 };
 
@@ -389,6 +481,7 @@ const stats = {
   events: events.length,
   relations: relations.length,
   followups: followups.length,
+  observations: allObservationRows.length,
   stockSnapshots: stockRows.length,
   sources: sources.length,
   evidenceLevels: sources.reduce((acc, source) => {
@@ -431,6 +524,7 @@ const sourceRegistry = {
 
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "today.json"), today);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "events.json"), eventDashboard);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"), observationsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "heat.json"), heat);
