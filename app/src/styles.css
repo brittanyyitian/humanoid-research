@@ -253,6 +253,7 @@ main {
 .status-stack,
 .timeline-mini,
 .heat-bars,
+.relation-mini,
 .watch-mini,
 .stats-mini {
   display: grid;
@@ -400,6 +401,44 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.relation-mini button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft-line);
+  cursor: pointer;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 42px 1fr;
+  padding: 8px 0;
+  text-align: left;
+}
+
+.relation-mini span,
+.relation-mini strong {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.relation-mini i {
+  background: var(--ink);
+  display: block;
+  height: 1px;
+  position: relative;
+}
+
+.relation-mini i::after {
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid var(--ink);
+  border-top: 4px solid transparent;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -3px;
 }
 
 .watch-mini span {
@@ -588,6 +627,42 @@ th {
   display: flex;
   min-height: 360px;
   padding: 22px;
+}
+
+.relation-list {
+  display: grid;
+  gap: 0;
+}
+
+.relation-list button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft-line);
+  cursor: pointer;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 120px 1fr auto;
+  padding: 14px 0;
+  text-align: left;
+}
+
+.relation-list span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.relation-list strong {
+  font-size: 14px;
+}
+
+.relation-list em {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: 11px;
+  font-style: normal;
+  padding: 3px 7px;
 }
 
 .drawer-backdrop {

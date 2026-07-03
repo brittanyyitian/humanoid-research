@@ -33,6 +33,7 @@ import timeline from "@data/dashboard/timeline.json";
 import followup from "@data/dashboard/followup.json";
 import watchlist from "@data/dashboard/watchlist.json";
 import stats from "@data/dashboard/stats.json";
+import relations from "@data/dashboard/relations.json";
 import sourceRegistry from "@data/dashboard/sources.json";
 
 const navItems = [
@@ -245,8 +246,25 @@ function Dashboard({ setView, openEvidence }) {
         </div>
       </Widget>
 
-      <Widget title="Cooperation Graph" icon={GitBranch} signal="neutral" action={() => setView("relations")}>
-        <EmptyState />
+      <Widget
+        title="Cooperation Graph"
+        icon={GitBranch}
+        signal={relations.rows.length ? "yellow" : "neutral"}
+        action={() => setView("relations")}
+      >
+        {relations.rows.length ? (
+          <div className="relation-mini">
+            {relations.rows.slice(0, 2).map((row) => (
+              <button key={row.id} onClick={() => openEvidence(row)}>
+                <span>{row.entityAName}</span>
+                <i />
+                <strong>{row.entityBName}</strong>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <EmptyState />
+        )}
       </Widget>
 
       <Widget title="Watchlist" icon={ShieldCheck} signal="neutral" action={() => setView("stats")}>
@@ -441,12 +459,26 @@ function SupplyView() {
   );
 }
 
-function RelationsView() {
+function RelationsView({ openEvidence }) {
   return (
     <DetailShell title="Company Relation" meta="Evidence only">
-      <div className="relation-canvas">
-        <EmptyState />
-      </div>
+      {relations.rows.length ? (
+        <div className="relation-list">
+          {relations.rows.map((row) => (
+            <button key={row.id} onClick={() => openEvidence(row)}>
+              <span>{row.date || "N/A"}</span>
+              <strong>
+                {row.entityAName} {"->"} {row.entityBName}
+              </strong>
+              <em>{row.evidenceLevel}</em>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <div className="relation-canvas">
+          <EmptyState />
+        </div>
+      )}
     </DetailShell>
   );
 }
@@ -590,7 +622,7 @@ export default function App() {
       case "supply":
         return <SupplyView />;
       case "relations":
-        return <RelationsView />;
+        return <RelationsView openEvidence={setEvidence} />;
       case "stats":
         return <StatsView openEvidence={setEvidence} />;
       default:

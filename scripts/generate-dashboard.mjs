@@ -33,13 +33,20 @@ function entityNames(entityIds = []) {
 const todayEvents = events.filter((event) => event.date === targetDate);
 const todayStocks = stockRows.filter((stock) => stock.date === targetDate);
 const todayRelations = relations.filter((relation) => relation.date === targetDate);
+const targetTime = new Date(`${targetDate}T00:00:00+08:00`).getTime();
+const heatWindowDays = 30;
+const heatStartTime = targetTime - (heatWindowDays - 1) * 24 * 60 * 60 * 1000;
+const windowEvents = events.filter((event) => {
+  const time = new Date(`${event.date}T00:00:00+08:00`).getTime();
+  return time >= heatStartTime && time <= targetTime;
+});
 
 const eventTypeCounts = todayEvents.reduce((acc, event) => {
   acc[event.eventType] = (acc[event.eventType] || 0) + 1;
   return acc;
 }, {});
 
-const moduleCounts = todayEvents.reduce((acc, event) => {
+const moduleCounts = windowEvents.reduce((acc, event) => {
   acc[event.module] = (acc[event.module] || 0) + 1;
   return acc;
 }, {});
@@ -122,22 +129,30 @@ const market = {
 const heat = {
   date: targetDate,
   generatedAt: today.generatedAt,
-  score: Math.min(100, todayEvents.reduce((sum, event) => sum + (event.importance || 1), 0) * 10),
+  windowDays: heatWindowDays,
+  score: Math.min(100, windowEvents.reduce((sum, event) => sum + (event.importance || 1), 0) * 10),
   modules: Object.entries(moduleCounts).map(([name, count]) => ({ name, count })),
-  eventTypes: Object.entries(eventTypeCounts).map(([name, count]) => ({ name, count })),
+  eventTypes: Object.entries(
+    windowEvents.reduce((acc, event) => {
+      acc[event.eventType] = (acc[event.eventType] || 0) + 1;
+      return acc;
+    }, {})
+  ).map(([name, count]) => ({ name, count })),
 };
 
 const timeline = {
   date: targetDate,
   generatedAt: today.generatedAt,
-  nodes: todayEvents
+  nodes: events
     .slice()
-    .sort((a, b) => a.date.localeCompare(b.date))
+    .sort((a, b) => b.date.localeCompare(a.date))
     .map((event) => ({
       id: event.id,
       date: event.date,
       title: event.title,
+      fact: event.fact,
       eventType: event.eventType,
+      module: event.module,
       entityNames: entityNames(event.entityIds),
       evidenceLevel: event.evidenceLevel,
       sourceIds: event.sourceIds,
@@ -190,6 +205,24 @@ const stats = {
   }, {}),
 };
 
+const relationDashboard = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  rows: relations.map((relation) => ({
+    id: relation.id,
+    date: relation.date || null,
+    entityAId: relation.entityAId,
+    entityBId: relation.entityBId,
+    entityAName: entityById.get(relation.entityAId)?.name || relation.entityAId,
+    entityBName: entityById.get(relation.entityBId)?.name || relation.entityBId,
+    relationType: relation.relationType,
+    fact: relation.fact || relation.relationType,
+    evidenceLevel: relation.evidenceLevel,
+    sourceIds: relation.sourceIds,
+    sources: enrichSources(relation.sourceIds),
+  })),
+};
+
 const sourceRegistry = {
   date: targetDate,
   generatedAt: today.generatedAt,
@@ -211,6 +244,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "timeline.json"), timeline)
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "followup.json"), followup);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "watchlist.json"), watchlist);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "stats.json"), stats);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "relations.json"), relationDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "sources.json"), sourceRegistry);
 
 console.log(`Dashboard cache generated for ${targetDate}.`);

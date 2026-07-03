@@ -1,0 +1,15 @@
+{
+  "id": "evt_2026_06_29_zhiyuan_15000_robot_downline",
+  "date": "2026-06-29",
+  "eventType": "delivery",
+  "module": "整机厂",
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "title": "智元第15000台具身机器人量产下线",
+  "fact": "智元官方发布：6月28日，智元第15000台具身智能机器人下线；该产品型号为智元精灵G2，当天交付给龙旗科技工厂。",
+  "importance": 5,
+  "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+  "evidenceLevel": "A",
+  "createdAt": "2026-07-03T16:55:00+08:00",
+  "tags": ["整机厂", "量产", "交付", "3C制造", "智元精灵G2"]
+}
+

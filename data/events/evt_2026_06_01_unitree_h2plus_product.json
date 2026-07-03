@@ -1,0 +1,15 @@
+{
+  "id": "evt_2026_06_01_unitree_h2plus_product",
+  "date": "2026-06-01",
+  "eventType": "product",
+  "module": "整机厂",
+  "entityIds": ["unitree"],
+  "title": "宇树科技发布 H2 Plus",
+  "fact": "宇树官网新闻中心列出2026-06-01发布 H2 Plus；产品页显示 Unitree H2 PLUS 定位为“产研一体 全栈启航”，并披露 NVIDIA Jetson T5000 机载算力、双 SharpaWave 触觉五指灵巧手等配置。",
+  "importance": 4,
+  "sourceIds": ["src_unitree_news_center", "src_unitree_h2plus_product"],
+  "evidenceLevel": "A",
+  "createdAt": "2026-07-03T16:55:00+08:00",
+  "tags": ["整机厂", "产品", "H2 Plus", "灵巧手", "端侧算力"]
+}
+

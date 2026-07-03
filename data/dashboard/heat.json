@@ -1,7 +1,30 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T08:25:32.083Z",
-  "score": 0,
-  "modules": [],
-  "eventTypes": []
+  "generatedAt": "2026-07-03T08:53:47.555Z",
+  "windowDays": 30,
+  "score": 100,
+  "modules": [
+    {
+      "name": "产业生态",
+      "count": 1
+    },
+    {
+      "name": "整机厂",
+      "count": 2
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "announcement",
+      "count": 1
+    },
+    {
+      "name": "demo",
+      "count": 1
+    },
+    {
+      "name": "delivery",
+      "count": 1
+    }
+  ]
 }

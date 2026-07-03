@@ -1,0 +1,12 @@
+{
+  "id": "rel_2026_06_29_zhiyuan_longcheer_deployment",
+  "date": "2026-06-29",
+  "entityAId": "zhiyuan_robot",
+  "entityBId": "longcheer_technology",
+  "relationType": "deployment_customer",
+  "fact": "智元官方披露第15000台精灵G2当天交付给龙旗科技工厂；此前精灵G2已进驻龙旗科技南昌工厂产线。",
+  "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+  "evidenceLevel": "A",
+  "createdAt": "2026-07-03T16:55:00+08:00",
+  "tags": ["部署", "交付", "3C制造"]
+}

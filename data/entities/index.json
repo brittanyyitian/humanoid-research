@@ -49,7 +49,16 @@
       "segment": "电机",
       "tags": ["电机", "控制器", "A股", "Watchlist"],
       "listed": true
+    },
+    {
+      "id": "longcheer_technology",
+      "name": "龙旗科技",
+      "kind": "customer",
+      "segment": "3C制造",
+      "tags": ["3C制造", "A股", "部署场景"],
+      "listed": true,
+      "stockCode": "603341",
+      "market": "SSE"
     }
   ]
 }
-

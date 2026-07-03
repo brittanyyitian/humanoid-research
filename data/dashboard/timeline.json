@@ -1,5 +1,166 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T08:25:32.083Z",
-  "nodes": []
+  "generatedAt": "2026-07-03T08:53:47.555Z",
+  "nodes": [
+    {
+      "id": "evt_2026_06_29_zhiyuan_15000_robot_downline",
+      "date": "2026-06-29",
+      "title": "智元第15000台具身机器人量产下线",
+      "fact": "智元官方发布：6月28日，智元第15000台具身智能机器人下线；该产品型号为智元精灵G2，当天交付给龙旗科技工厂。",
+      "eventType": "delivery",
+      "module": "整机厂",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "evidenceLevel": "A",
+      "sourceIds": [
+        "src_agibot_20260629_15000_robots_downline"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "evt_2026_06_25_zhiyuan_3c_line_live",
+      "date": "2026-06-25",
+      "title": "智元精灵G2进驻龙旗科技3C产线并进行全工段直播",
+      "fact": "智元官方发布：6月23日，多台智元精灵G2机器人集群进驻龙旗科技江西南昌量产工厂，开启6天产线直播作业，覆盖平板量产质检工段。",
+      "eventType": "demo",
+      "module": "整机厂",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "evidenceLevel": "A",
+      "sourceIds": [
+        "src_agibot_20260625_3c_line_live"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260625_3c_line_live",
+          "title": "全球首个3C产线质检工段全覆盖机器人作业直播，智元加速“部署态”规模化落地",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/170.html",
+          "publishedAt": "2026-06-25T10:10:20+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "evt_2026_06_11_zhiyuan_aima_ecosystem_plan",
+      "date": "2026-06-11",
+      "title": "智元发布2026元苼生态共建行动计划",
+      "fact": "智元官方发布2026元苼生态共建行动计划，披露未来五年20亿元、2026年1亿元的投入承诺，并覆盖科研学术创新、教育人才培养、生态伙伴发展、开发社区运营四个维度。",
+      "eventType": "announcement",
+      "module": "产业生态",
+      "entityNames": [
+        "智元机器人"
+      ],
+      "evidenceLevel": "A",
+      "sourceIds": [
+        "src_agibot_20260611_aima_ecosystem_plan"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260611_aima_ecosystem_plan",
+          "title": "2026元苼生态共建行动计划",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/169.html",
+          "publishedAt": "2026-06-11T11:06:01+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "evt_2026_06_01_unitree_h2plus_product",
+      "date": "2026-06-01",
+      "title": "宇树科技发布 H2 Plus",
+      "fact": "宇树官网新闻中心列出2026-06-01发布 H2 Plus；产品页显示 Unitree H2 PLUS 定位为“产研一体 全栈启航”，并披露 NVIDIA Jetson T5000 机载算力、双 SharpaWave 触觉五指灵巧手等配置。",
+      "eventType": "product",
+      "module": "整机厂",
+      "entityNames": [
+        "宇树科技"
+      ],
+      "evidenceLevel": "A",
+      "sourceIds": [
+        "src_unitree_news_center",
+        "src_unitree_h2plus_product"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网新闻中心列表。"
+        },
+        {
+          "id": "src_unitree_h2plus_product",
+          "title": "Unitree H2 PLUS 产研一体 全栈启航",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网 H2 Plus 产品页。"
+        }
+      ]
+    },
+    {
+      "id": "evt_2024_07_05_unitree_g1_release",
+      "date": "2024-07-05",
+      "title": "宇树发布 Unitree G1 人形智能体",
+      "fact": "宇树官网新闻中心列出2024-07-05发布“Unitree G1 人形智能体 AI化身 ¥9.9万元起”。",
+      "eventType": "product",
+      "module": "整机厂",
+      "entityNames": [
+        "宇树科技"
+      ],
+      "evidenceLevel": "A",
+      "sourceIds": [
+        "src_unitree_news_center"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网新闻中心列表。"
+        }
+      ]
+    }
+  ]
 }

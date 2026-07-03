@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T08:25:32.083Z",
+  "generatedAt": "2026-07-03T08:53:47.555Z",
   "status": "empty",
   "signals": {
     "changes": "neutral",
@@ -12,10 +12,13 @@
     "events": 0,
     "relations": 0,
     "stocks": 0,
-    "sources": 2
+    "sources": 7
   },
   "eventTypeCounts": {},
-  "moduleCounts": {},
+  "moduleCounts": {
+    "产业生态": 1,
+    "整机厂": 2
+  },
   "importantEvents": [],
   "marketRows": [],
   "noVerifiedData": true
