@@ -316,6 +316,27 @@ const companyRows = entities
     };
   });
 
+const dataGaps = companyRows
+  .map((company) => {
+    const gaps = [];
+    if (!company.events.length) gaps.push("缺正式事件");
+    if (!company.followups.length) gaps.push("缺Follow-up");
+    if (company.listed && !company.stock) gaps.push("缺股票快照");
+    if (!company.sources.length) gaps.push("缺来源引用");
+    return {
+      entityId: company.id,
+      name: company.name,
+      segment: company.segment,
+      listed: company.listed,
+      stockCode: company.stockCode,
+      market: company.market,
+      gapCount: gaps.length,
+      gaps,
+    };
+  })
+  .filter((row) => row.gaps.length)
+  .sort((a, b) => b.gapCount - a.gapCount || a.name.localeCompare(b.name, "zh-Hans-CN"));
+
 const today = {
   date: targetDate,
   generatedAt: new Date().toISOString(),
@@ -382,6 +403,20 @@ const companiesDashboard = {
   date: targetDate,
   generatedAt: today.generatedAt,
   rows: companyRows,
+};
+
+const gapsDashboard = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "只标记缺口，不自动补正式事件；正式库仍要求事实、日期、来源链接和证据等级。",
+  rows: dataGaps,
+  totals: {
+    companiesWithGaps: dataGaps.length,
+    missingEvents: dataGaps.filter((row) => row.gaps.includes("缺正式事件")).length,
+    missingFollowups: dataGaps.filter((row) => row.gaps.includes("缺Follow-up")).length,
+    missingStocks: dataGaps.filter((row) => row.gaps.includes("缺股票快照")).length,
+    missingSources: dataGaps.filter((row) => row.gaps.includes("缺来源引用")).length,
+  },
 };
 
 const market = {
@@ -482,6 +517,7 @@ const stats = {
   relations: relations.length,
   followups: followups.length,
   observations: allObservationRows.length,
+  dataGaps: dataGaps.length,
   stockSnapshots: stockRows.length,
   sources: sources.length,
   evidenceLevels: sources.reduce((acc, source) => {
@@ -526,6 +562,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "today.json"), today);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "events.json"), eventDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"), observationsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "heat.json"), heat);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "timeline.json"), timeline);

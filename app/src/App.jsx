@@ -4,6 +4,7 @@ import { ArrowUpRight, X } from "lucide-react";
 import companies from "@data/dashboard/companies.json";
 import eventDashboard from "@data/dashboard/events.json";
 import followup from "@data/dashboard/followup.json";
+import gaps from "@data/dashboard/gaps.json";
 import market from "@data/dashboard/market.json";
 import observations from "@data/dashboard/observations.json";
 import relations from "@data/dashboard/relations.json";
@@ -240,6 +241,22 @@ function StockCard({ row, openCompany, openEvidence, compact = false }) {
   );
 }
 
+function SummaryStockText({ rows }) {
+  const visibleRows = rows.slice(0, 2);
+  if (!visibleRows.length) return <span className="summary-muted">暂无行情</span>;
+
+  return (
+    <>
+      {visibleRows.map((row, index) => (
+        <span key={row.id || row.entityId}>
+          {index > 0 ? "、" : ""}
+          {row.company} {formatPct(row.changePct)}
+        </span>
+      ))}
+    </>
+  );
+}
+
 function EventCard({ event, openCompany, openEvidence, compact = false }) {
   const directStocks = event.directMarketRows || [];
   const contextStocks = event.watchlistMarketContext || [];
@@ -306,117 +323,170 @@ function EventCard({ event, openCompany, openEvidence, compact = false }) {
   );
 }
 
-function ObservationCard({ observation, openCompany, openEvidence }) {
+function ObservationCard({ observation, openCompany, openEvidence, expanded, onToggle }) {
   const stockRows = observation.sameDayWatchlistRows || [];
   const followups = observation.followups || [];
   const relatedRows = observation.relatedObservations || [];
   const publishers = sourceNames(observation.sources);
+  const companyNames = (observation.entities || []).map((entity) => entity.name).slice(0, 3);
+  const sourceLabel = observation.evidenceLevel ? `${observation.evidenceLevel}级` : "--";
 
   return (
-    <article className="observation-card">
-      <button className="observation-head" onClick={() => openEvidence(observation)}>
-        <span>{observation.number}｜{observation.date}｜{observation.module || "未分类"}</span>
-        <h3>{observation.title}</h3>
-      </button>
+    <article className={`observation-card ${expanded ? "is-expanded" : "is-collapsed"}`}>
+      <div className="observation-summary">
+        <button className="observation-title" onClick={() => openEvidence(observation)}>
+          <span>
+            {observation.number}｜{observation.date}｜{observation.module || "未分类"}
+          </span>
+          <h3>{observation.title}</h3>
+        </button>
 
-      <div className="observation-fact">
-        <small>事实</small>
-        <p>{observation.fact}</p>
-      </div>
-
-      <div className="observation-grid">
-        <section>
+        <div className="summary-cell">
           <small>涉及公司</small>
-          <div className="research-company-list">
-            {(observation.entities || []).map((entity) => (
-              <button key={entity.id} onClick={() => openCompany(entity.id)}>
-                <span>✓</span>
-                {entity.name}
-              </button>
-            ))}
+          <strong>{companyNames.length ? companyNames.join("、") : "--"}</strong>
+        </div>
+
+        <div className="summary-cell">
+          <small>同日 Watchlist</small>
+          <strong>
+            <SummaryStockText rows={stockRows} />
+          </strong>
+        </div>
+
+        <div className="summary-cell compact">
+          <small>待验证 / 来源</small>
+          <strong>
+            {followups.length} 项 · {sourceLabel}
+          </strong>
+        </div>
+
+        <button className="summary-expand" onClick={onToggle}>
+          {expanded ? "收起" : "展开"}
+        </button>
+      </div>
+
+      {expanded ? (
+        <div className="observation-detail">
+          <div className="observation-fact">
+            <small>完整事实</small>
+            <p>{observation.fact}</p>
           </div>
-        </section>
 
-        <section>
-          <small>同日 Watchlist 股票表现</small>
-          {stockRows.length ? (
-            <div className="observation-stock-list">
-              {stockRows.slice(0, 4).map((row) => (
-                <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
-                  <div>
-                    <strong>{row.company}</strong>
-                    <span>{stockCodeText(row)}</span>
-                  </div>
-                  <b>{formatValue(row.price)}</b>
-                  <em className={changeClass(row.changePct)}>{formatPct(row.changePct)}</em>
-                  <p>
-                    成交额 {formatValue(row.turnoverAmount)}｜近5日 {formatPct(row.fiveDayChangePct)}
-                  </p>
-                </button>
-              ))}
-            </div>
-          ) : (
-            <span className="muted-text">暂无同日行情快照</span>
-          )}
-        </section>
+          <div className="observation-grid">
+            <section>
+              <small>涉及公司</small>
+              <div className="research-company-list">
+                {(observation.entities || []).map((entity) => (
+                  <button key={entity.id} onClick={() => openCompany(entity.id)}>
+                    <span>✓</span>
+                    {entity.name}
+                  </button>
+                ))}
+              </div>
+            </section>
 
-        <section>
-          <small>待验证</small>
-          {followups.length ? (
-            <div className="observation-checklist">
-              {followups.slice(0, 4).map((item) => (
-                <div key={item.id}>
-                  <span>□</span>
-                  <strong>{item.subject}</strong>
+            <section>
+              <small>同日 Watchlist 股票表现</small>
+              {stockRows.length ? (
+                <div className="observation-stock-list">
+                  {stockRows.slice(0, 4).map((row) => (
+                    <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
+                      <div>
+                        <strong>{row.company}</strong>
+                        <span>{stockCodeText(row)}</span>
+                      </div>
+                      <b>{formatValue(row.price)}</b>
+                      <em className={changeClass(row.changePct)}>{formatPct(row.changePct)}</em>
+                      <p>
+                        成交额 {formatValue(row.turnoverAmount)}｜近5日 {formatPct(row.fiveDayChangePct)}
+                      </p>
+                    </button>
+                  ))}
                 </div>
-              ))}
-            </div>
-          ) : (
-            <span className="muted-text">暂无直接待验证事项</span>
-          )}
-        </section>
+              ) : (
+                <span className="muted-text">暂无同日行情快照</span>
+              )}
+            </section>
 
-        <section>
-          <small>来源</small>
-          {publishers.length ? (
-            <div className="source-chip-list">
-              {publishers.map((name) => (
-                <button key={name} onClick={() => openEvidence(observation)}>
-                  {name}
-                </button>
-              ))}
-            </div>
-          ) : (
-            <span className="muted-text">暂无来源</span>
-          )}
-        </section>
-      </div>
+            <section>
+              <small>待验证</small>
+              {followups.length ? (
+                <div className="observation-checklist">
+                  {followups.slice(0, 4).map((item) => (
+                    <div key={item.id}>
+                      <span>□</span>
+                      <strong>{item.subject}</strong>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <span className="muted-text">暂无直接待验证事项</span>
+              )}
+            </section>
 
-      <div className="related-observations">
-        <small>相关 Observation</small>
-        {relatedRows.length ? (
-          <div>
-            {relatedRows.map((row) => (
-              <button key={row.id} onClick={() => openEvidence(row)}>
-                <span>{row.date}</span>
-                <strong>{row.title}</strong>
-              </button>
-            ))}
+            <section>
+              <small>来源</small>
+              {publishers.length ? (
+                <div className="source-chip-list">
+                  {publishers.map((name) => (
+                    <button key={name} onClick={() => openEvidence(observation)}>
+                      {name}
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <span className="muted-text">暂无来源</span>
+              )}
+            </section>
           </div>
-        ) : (
-          <span className="muted-text">暂无历史相似项</span>
-        )}
-      </div>
 
-      <footer>
-        <EvidenceBadge level={observation.evidenceLevel} />
-        <button onClick={() => openEvidence(observation)}>查看证据</button>
-      </footer>
+          <div className="related-observations">
+            <small>相关 Observation</small>
+            {relatedRows.length ? (
+              <div>
+                {relatedRows.map((row) => (
+                  <button key={row.id} onClick={() => openEvidence(row)}>
+                    <span>{row.date}</span>
+                    <strong>{row.title}</strong>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <span className="muted-text">暂无历史相似项</span>
+            )}
+          </div>
+
+          <footer>
+            <EvidenceBadge level={observation.evidenceLevel} />
+            <button onClick={() => openEvidence(observation)}>查看证据</button>
+          </footer>
+        </div>
+      ) : null}
     </article>
   );
 }
 
+function DataGapStrip({ setView }) {
+  const totals = gaps.totals || {};
+
+  return (
+    <section className="data-gap-strip">
+      <div>
+        <span>数据缺口</span>
+        <strong>{totals.companiesWithGaps || 0}</strong>
+        <small>家公司仍需补资料</small>
+      </div>
+      <p>
+        缺事件 {totals.missingEvents || 0} · 缺Follow-up {totals.missingFollowups || 0} · 缺来源{" "}
+        {totals.missingSources || 0}
+      </p>
+      <button onClick={() => setView("database")}>查看清单</button>
+    </section>
+  );
+}
+
 function Dashboard({ setView, openCompany, openEvidence }) {
+  const [expandedObservationId, setExpandedObservationId] = useState(null);
   const rows = marketRows();
   const updatedMarketRows = rows.filter((row) => row.quoteStatus === "已更新");
   const pendingRows = followup.rows.filter((item) => item.status === "pending");
@@ -453,6 +523,8 @@ function Dashboard({ setView, openCompany, openEvidence }) {
         </p>
       </section>
 
+      <DataGapStrip setView={setView} />
+
       <section className="observation-stack">
         {observationRows.length ? (
           observationRows.slice(0, 5).map((observation) => (
@@ -461,6 +533,10 @@ function Dashboard({ setView, openCompany, openEvidence }) {
               observation={observation}
               openCompany={openCompany}
               openEvidence={openEvidence}
+              expanded={expandedObservationId === observation.id}
+              onToggle={() =>
+                setExpandedObservationId((current) => (current === observation.id ? null : observation.id))
+              }
             />
           ))
         ) : (
@@ -670,9 +746,30 @@ function DatabaseView({ openEvidence }) {
         <OverviewItem label="合作" value={stats.relations} />
         <OverviewItem label="跟踪" value={stats.followups} />
         <OverviewItem label="Observation" value={stats.observations || 0} />
+        <OverviewItem label="数据缺口" value={stats.dataGaps || 0} />
         <OverviewItem label="股票快照" value={stats.stockSnapshots} />
         <OverviewItem label="来源" value={stats.sources} />
       </div>
+
+      <section className="workspace-section">
+        <header>
+          <h3>数据缺口</h3>
+          <span>{gaps.rows?.length || 0}</span>
+        </header>
+        {gaps.rows?.length ? (
+          <div className="gap-list">
+            {gaps.rows.slice(0, 12).map((row) => (
+              <div key={row.entityId}>
+                <strong>{row.name}</strong>
+                <span>{row.segment || "未分类"}</span>
+                <p>{row.gaps.join(" / ")}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <EmptyState>暂无数据缺口</EmptyState>
+        )}
+      </section>
 
       <section className="workspace-section">
         <header>

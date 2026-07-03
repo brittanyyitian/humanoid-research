@@ -1,0 +1,352 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T10:37:16.662Z",
+  "policy": "只标记缺口，不自动补正式事件；正式库仍要求事实、日期、来源链接和证据等级。",
+  "rows": [
+    {
+      "entityId": "estun",
+      "name": "埃斯顿",
+      "segment": "控制器 / 机器人",
+      "listed": true,
+      "stockCode": "002747",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "anpeilong",
+      "name": "安培龙",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "301413",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "segment": "视觉传感器",
+      "listed": true,
+      "stockCode": "688322",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "beite_technology",
+      "name": "北特科技",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "603009",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "best",
+      "name": "贝斯特",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "300580",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "kinco",
+      "name": "步科股份",
+      "segment": "控制器 / 驱动",
+      "listed": true,
+      "stockCode": "688160",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "300354",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "hanwei_electronics",
+      "name": "汉威科技",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "300007",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "hechuan_technology",
+      "name": "禾川科技",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": "688320",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "highly_electric",
+      "name": "华依科技",
+      "segment": "测试设备 / 传感",
+      "listed": true,
+      "stockCode": "688071",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "inovance",
+      "name": "汇川技术",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": "300124",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "siasun_robot",
+      "name": "机器人",
+      "segment": "机器人本体 / 系统集成",
+      "listed": true,
+      "stockCode": "300024",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "piotech",
+      "name": "均普智能",
+      "segment": "智能制造装备",
+      "listed": true,
+      "stockCode": "688306",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "segment": "力传感器",
+      "listed": true,
+      "stockCode": "603662",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "luster_lighttech",
+      "name": "凌云光",
+      "segment": "机器视觉",
+      "listed": true,
+      "stockCode": "688400",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "688017",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "moons",
+      "name": "鸣志电器",
+      "segment": "电机",
+      "listed": true,
+      "stockCode": "603728",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "sanhuazk",
+      "name": "三花智控",
+      "segment": "执行器 / 热管理",
+      "listed": true,
+      "stockCode": "002050",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "shuanghuan_driveline",
+      "name": "双环传动",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "002472",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "shuanglin",
+      "name": "双林股份",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "300100",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "segment": "执行器 / 汽车零部件",
+      "listed": true,
+      "stockCode": "601689",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "wuzhou_xinchun",
+      "name": "五洲新春",
+      "segment": "丝杠",
+      "listed": true,
+      "stockCode": "603667",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "yeeda",
+      "name": "怡合达",
+      "segment": "FA零部件",
+      "listed": true,
+      "stockCode": "301029",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "ubtech",
+      "name": "优必选",
+      "segment": null,
+      "listed": true,
+      "stockCode": "09880",
+      "market": "HKEX",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "segment": "灵巧手 / 传动",
+      "listed": true,
+      "stockCode": "003021",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "zhongda_leader",
+      "name": "中大力德",
+      "segment": "减速器",
+      "listed": true,
+      "stockCode": "002896",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    }
+  ],
+  "totals": {
+    "companiesWithGaps": 26,
+    "missingEvents": 26,
+    "missingFollowups": 26,
+    "missingStocks": 0,
+    "missingSources": 0
+  }
+}
