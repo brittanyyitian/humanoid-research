@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
     "generate": "node scripts/generate-dashboard.mjs",
+    "fetch:market": "python3 scripts/fetch_market.py",
+    "fetch:market:promote": "python3 scripts/fetch_market.py --promote",
+    "fetch:news": "python3 scripts/fetch_news.py",
     "validate": "node scripts/validate-data.mjs",
     "check": "npm run validate && npm run build"
   },

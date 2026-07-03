@@ -1,0 +1,23 @@
+[
+  {
+    "id": "stock_2026-07-03_anpeilong",
+    "date": "2026-07-03",
+    "entityId": "anpeilong",
+    "stockCode": "301413",
+    "market": "SZSE",
+    "snapshotType": "intraday_or_latest",
+    "isFinal": false,
+    "price": 83.0,
+    "changePct": 11.42,
+    "turnoverAmount": "9.31亿",
+    "turnoverRate": 15.12,
+    "mainNetInflow": null,
+    "sourceIds": [
+      "src_tencent_market_quote"
+    ],
+    "capturedAt": "2026-07-03T17:12:21+08:00",
+    "provider": "tencent",
+    "providerSourceUrl": "https://qt.gtimg.cn/q=sz301413",
+    "quoteUrl": "https://qt.gtimg.cn/q=sz301413"
+  }
+]

@@ -26,6 +26,20 @@ function enrichSources(sourceIds = []) {
   return sourceIds.map((sourceId) => sourceById.get(sourceId)).filter(Boolean);
 }
 
+function enrichStockSources(stock) {
+  const rows = enrichSources(stock.sourceIds);
+  if (!stock.providerSourceUrl || rows.length === 0) return rows;
+  return rows.map((source, index) =>
+    index === 0
+      ? {
+          ...source,
+          title: `${source.title} · ${stock.stockCode}`,
+          url: stock.providerSourceUrl,
+        }
+      : source
+  );
+}
+
 function entityNames(entityIds = []) {
   return entityIds.map((entityId) => entityById.get(entityId)?.name || entityId);
 }
@@ -46,7 +60,12 @@ const eventTypeCounts = todayEvents.reduce((acc, event) => {
   return acc;
 }, {});
 
-const moduleCounts = windowEvents.reduce((acc, event) => {
+const todayModuleCounts = todayEvents.reduce((acc, event) => {
+  acc[event.module] = (acc[event.module] || 0) + 1;
+  return acc;
+}, {});
+
+const windowModuleCounts = windowEvents.reduce((acc, event) => {
   acc[event.module] = (acc[event.module] || 0) + 1;
   return acc;
 }, {});
@@ -69,9 +88,13 @@ const marketRows = todayStocks.map((stock) => ({
   turnoverAmount: stock.turnoverAmount ?? null,
   turnoverRate: stock.turnoverRate ?? null,
   mainNetInflow: stock.mainNetInflow ?? null,
+  fiveDayChangePct: stock.fiveDayChangePct ?? null,
+  twentyDayChangePct: stock.twentyDayChangePct ?? null,
   sourceIds: stock.sourceIds,
-  sources: enrichSources(stock.sourceIds),
+  sources: enrichStockSources(stock),
   capturedAt: stock.capturedAt,
+  providerSourceUrl: stock.providerSourceUrl ?? null,
+  quoteUrl: stock.quoteUrl ?? null,
 }));
 
 const importantEvents = todayEvents
@@ -106,9 +129,11 @@ const today = {
     relations: todayRelations.length,
     stocks: todayStocks.length,
     sources: sources.length,
+    importantEvents: importantEvents.length,
+    pendingFollowups: followups.filter((item) => item.status === "pending").length,
   },
   eventTypeCounts,
-  moduleCounts,
+  moduleCounts: todayModuleCounts,
   importantEvents,
   marketRows,
   noVerifiedData: todayEvents.length === 0 && todayStocks.length === 0,
@@ -130,8 +155,7 @@ const heat = {
   date: targetDate,
   generatedAt: today.generatedAt,
   windowDays: heatWindowDays,
-  score: Math.min(100, windowEvents.reduce((sum, event) => sum + (event.importance || 1), 0) * 10),
-  modules: Object.entries(moduleCounts).map(([name, count]) => ({ name, count })),
+  modules: Object.entries(windowModuleCounts).map(([name, count]) => ({ name, count })),
   eventTypes: Object.entries(
     windowEvents.reduce((acc, event) => {
       acc[event.eventType] = (acc[event.eventType] || 0) + 1;

@@ -1,25 +1,9 @@
 import { Fragment, useMemo, useState } from "react";
-import {
-  Activity,
-  ArrowUpRight,
-  BarChart3,
-  CalendarDays,
-  Database,
-  FileSearch,
-  Gauge,
-  GitBranch,
-  LineChart,
-  Network,
-  ShieldCheck,
-  X,
-} from "lucide-react";
+import { ArrowUpRight, X } from "lucide-react";
 import {
   Bar,
   BarChart,
   CartesianGrid,
-  Cell,
-  Pie,
-  PieChart,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -37,14 +21,14 @@ import relations from "@data/dashboard/relations.json";
 import sourceRegistry from "@data/dashboard/sources.json";
 
 const navItems = [
-  { id: "dashboard", label: "Dashboard" },
-  { id: "market", label: "Market" },
-  { id: "followup", label: "Follow-up" },
-  { id: "timeline", label: "Timeline" },
-  { id: "heat", label: "Heat" },
-  { id: "supply", label: "Supply Chain" },
-  { id: "relations", label: "Relations" },
-  { id: "stats", label: "Statistics" },
+  { id: "dashboard", label: "首页" },
+  { id: "market", label: "市场" },
+  { id: "followup", label: "跟踪" },
+  { id: "timeline", label: "时间轴" },
+  { id: "heat", label: "热度" },
+  { id: "supply", label: "供应链" },
+  { id: "relations", label: "关系" },
+  { id: "stats", label: "统计" },
 ];
 
 const eventLabels = {
@@ -64,367 +48,390 @@ const eventLabels = {
   financial_report: "财报",
 };
 
-const signalMap = {
-  green: { label: "Update", className: "signal-green" },
-  yellow: { label: "Light", className: "signal-yellow" },
-  neutral: { label: "No Update", className: "signal-neutral" },
-  stale: { label: "Stale", className: "signal-stale" },
+const followupLabels = {
+  pending: "待验证",
+  confirmed: "已确认",
+  completed: "已完成",
+  archived: "已归档",
+  cancelled: "已取消",
+  stale: "已过期",
+};
+
+const sourceTypeLabels = {
+  webpage: "网页",
+  pdf: "PDF",
+  announcement: "公告",
+  news: "新闻",
+  exchange: "交易所",
 };
 
 function formatPct(value) {
-  if (typeof value !== "number") return "N/A";
+  if (typeof value !== "number") return "--";
   return `${value > 0 ? "+" : ""}${value.toFixed(2)}%`;
+}
+
+function formatValue(value) {
+  if (value === null || value === undefined || value === "") return "--";
+  return value;
+}
+
+function formatRate(value) {
+  if (typeof value !== "number") return "--";
+  return `${value.toFixed(2)}%`;
+}
+
+function formatTime(value) {
+  if (!value) return "--";
+  return String(value).replace("T", " ").replace("+08:00", "");
+}
+
+function stockCodeText(row) {
+  if (!row.stockCode) return row.listed ? "缺股票代码" : "未上市";
+  return `${row.stockCode}${row.market ? ` · ${row.market}` : ""}`;
 }
 
 function firstSource(item) {
   return item?.sources?.[0] || null;
 }
 
-function Signal({ tone = "neutral" }) {
-  const signal = signalMap[tone] || signalMap.neutral;
+function itemHasSource(item) {
+  return Boolean(firstSource(item)?.url || item?.url);
+}
+
+function buildMarketEvidence(row) {
+  const company = row.displayName || row.company || row.name;
+  return {
+    title: `${company}行情快照`,
+    fact: `${company}（${stockCodeText(row)}）：价格 ${formatValue(row.price)}，涨跌幅 ${formatPct(row.changePct)}，成交额 ${formatValue(row.turnoverAmount)}，换手率 ${formatRate(row.turnoverRate)}。`,
+    date: row.capturedAt || market.date,
+    evidenceLevel: firstSource(row)?.evidenceLevel || "B",
+    module: "市场",
+    entityNames: [company],
+    sources: row.sources || [],
+  };
+}
+
+function buildEvidenceFromSource(source) {
+  return {
+    title: source.title,
+    fact: source.title,
+    evidenceLevel: source.evidenceLevel,
+    module: source.sourceType,
+    date: source.publishedAt || source.capturedAt || today.date,
+    sources: [source],
+  };
+}
+
+function EvidenceBadge({ level }) {
+  return <span className="evidence-badge">{level || "--"}级</span>;
+}
+
+function OverviewItem({ label, value, note }) {
   return (
-    <span className={`signal ${signal.className}`}>
-      <span />
-      {signal.label}
-    </span>
+    <div className="overview-item">
+      <span>{label}</span>
+      <strong>{value}</strong>
+      {note ? <small>{note}</small> : null}
+    </div>
   );
 }
 
-function Widget({ title, icon: Icon, signal = "neutral", action, children, className = "" }) {
-  return (
-    <section className={`widget ${className}`} onClick={action}>
-      <header className="widget-header">
-        <div className="widget-title">
-          {Icon ? <Icon size={15} strokeWidth={1.7} /> : null}
-          <span>{title}</span>
-        </div>
-        <Signal tone={signal} />
-      </header>
-      {children}
-    </section>
-  );
+function EmptyState({ children = "暂无已验证数据" }) {
+  return <div className="empty-state">{children}</div>;
 }
 
-function EmptyState({ label = "No verified data" }) {
-  return <div className="empty-state">{label}</div>;
+function getMarketRows() {
+  const stockByEntity = new Map((market.rows || []).map((row) => [row.entityId, row]));
+  const statusRank = { 已更新: 0, 待抓取: 1, 缺代码: 2 };
+
+  return (watchlist.rows || [])
+    .filter((row) => row.listed)
+    .map((row) => {
+      const stock = stockByEntity.get(row.id);
+      if (stock) {
+        return {
+          ...row,
+          ...stock,
+          displayName: stock.company || row.name,
+          quoteStatus: "已更新",
+        };
+      }
+
+      return {
+        ...row,
+        displayName: row.name,
+        price: null,
+        changePct: null,
+        turnoverAmount: null,
+        turnoverRate: null,
+        mainNetInflow: null,
+        fiveDayChangePct: null,
+        twentyDayChangePct: null,
+        capturedAt: null,
+        sources: [],
+        quoteStatus: row.stockCode ? "待抓取" : "缺代码",
+      };
+    })
+    .sort((a, b) => (statusRank[a.quoteStatus] ?? 9) - (statusRank[b.quoteStatus] ?? 9));
 }
 
-function SourceButton({ item, onOpen, compact = false }) {
-  const source = firstSource(item) || item;
-  if (!source?.url) return <span className="source-muted">No source</span>;
+function MarketRow({ row, openEvidence, compact = false }) {
+  const hasSource = itemHasSource(row);
+  const changeClass =
+    typeof row.changePct === "number" && row.changePct > 0
+      ? "rise"
+      : typeof row.changePct === "number" && row.changePct < 0
+        ? "fall"
+        : "";
+  const Wrapper = hasSource ? "button" : "div";
+
   return (
-    <button
-      className={`source-button ${compact ? "source-button-compact" : ""}`}
-      onClick={(event) => {
-        event.stopPropagation();
-        onOpen({
-          title: item.title || item.fact || source.title,
-          fact: item.fact || source.title,
-          date: item.date || today.date,
-          evidenceLevel: item.evidenceLevel || source.evidenceLevel,
-          module: item.module || item.sourceType,
-          entityNames: item.entityNames || [],
-          sources: item.sources || [source],
-        });
-      }}
+    <Wrapper
+      className={`market-row ${compact ? "market-row-compact" : ""}`}
+      onClick={hasSource ? () => openEvidence(buildMarketEvidence(row)) : undefined}
     >
-      Source
-      <ArrowUpRight size={12} />
+      <div className="market-company">
+        <strong>{row.displayName || row.company || row.name}</strong>
+        <span>{stockCodeText(row)}</span>
+      </div>
+      <div className="market-price">
+        <strong>{formatValue(row.price)}</strong>
+        <span className={changeClass}>{formatPct(row.changePct)}</span>
+      </div>
+      {!compact ? (
+      <div className="market-extra">
+        <span>成交额 {formatValue(row.turnoverAmount)}</span>
+        <span>换手 {formatRate(row.turnoverRate)}</span>
+        <span>主力 {formatValue(row.mainNetInflow)}</span>
+        <span>近5日 {formatPct(row.fiveDayChangePct)}</span>
+        <span>近20日 {formatPct(row.twentyDayChangePct)}</span>
+        <span>数据 {formatTime(row.capturedAt)}</span>
+      </div>
+      ) : null}
+      <span className="quote-status">{row.quoteStatus}</span>
+    </Wrapper>
+  );
+}
+
+function EventRow({ event, openEvidence, compact = false }) {
+  return (
+    <button className={`event-row ${compact ? "event-row-compact" : ""}`} onClick={() => openEvidence(event)}>
+      <div>
+        <strong>{event.title}</strong>
+        {!compact ? <p>{event.fact}</p> : null}
+      </div>
+      <span>{eventLabels[event.eventType] || event.eventType || "事件"}</span>
+      <EvidenceBadge level={event.evidenceLevel} />
     </button>
   );
 }
 
-function Metric({ label, value, detail }) {
+function TimelineNodes({ nodes, openEvidence, limit }) {
+  const rows = typeof limit === "number" ? nodes.slice(0, limit) : nodes;
+  if (!rows.length) return <EmptyState />;
+
   return (
-    <div className="metric">
-      <span>{label}</span>
-      <strong>{value}</strong>
-      {detail ? <small>{detail}</small> : null}
+    <div className="vertical-timeline">
+      {rows.map((node) => (
+        <button key={node.id} className="timeline-node" onClick={() => openEvidence(node)}>
+          <time>{node.date}</time>
+          <span className="timeline-dot" />
+          <div>
+            <strong>{node.title}</strong>
+            <small>
+              {node.module || "未分类"}｜{node.evidenceLevel || "--"}级来源
+            </small>
+          </div>
+        </button>
+      ))}
     </div>
   );
 }
 
 function Dashboard({ setView, openEvidence }) {
-  const topMarket = market.rows.slice(0, 3);
-  const followupRows = followup.rows.slice(0, 4);
-  const heatRows = heat.modules.length
-    ? heat.modules
-    : [
-        { name: "整机", count: 0 },
-        { name: "力传感器", count: 0 },
-        { name: "丝杠", count: 0 },
-        { name: "减速器", count: 0 },
-        { name: "AI", count: 0 },
-      ];
+  const marketRows = getMarketRows();
+  const updatedMarketRows = marketRows.filter((row) => row.quoteStatus === "已更新").length;
+  const pendingRows = followup.rows.filter((item) => item.status === "pending");
+  const recentNodes = timeline.nodes || [];
+  const heatRows = Object.entries(today.moduleCounts || {}).map(([name, count]) => ({ name, count }));
 
   return (
-    <div className="dashboard-grid">
-      <section className="hero-strip">
-        <Metric label="Today Changes" value={`+${today.totals.changes}`} detail={today.date} />
-        <Metric label="Market" value={`${market.summary.up} Up / ${market.summary.down} Down`} />
-        <Metric label="Heat Score" value={`${heat.score}/100`} />
-        <Metric label="A Sources" value={stats.evidenceLevels.A || 0} detail={`${stats.sources} sources`} />
+    <div className="dashboard-v2">
+      <section className="overview-strip" aria-label="今日概览">
+        <OverviewItem label="今日新增" value={today.totals.changes} note={`${today.date}`} />
+        <OverviewItem label="重点事件" value={today.importantEvents.length} note="已验证" />
+        <OverviewItem
+          label="关注股票"
+          value={marketRows.length}
+          note={`${updatedMarketRows}已更新 / ${marketRows.length - updatedMarketRows}待补`}
+        />
+        <OverviewItem label="待验证" value={pendingRows.length} note="待处理" />
       </section>
 
-      <Widget
-        title="Today Focus"
-        icon={Activity}
-        signal={today.signals.changes}
-        action={() => setView("timeline")}
-      >
-        {today.importantEvents.length ? (
-          <div className="focus-list">
-            {today.importantEvents.map((event) => (
-              <button className="focus-row" key={event.id} onClick={() => openEvidence(event)}>
-                <span>{eventLabels[event.eventType] || event.eventType}</span>
-                <strong>{event.title}</strong>
-                <em>{event.evidenceLevel}</em>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <EmptyState />
-        )}
-      </Widget>
-
-      <Widget title="Market" icon={LineChart} signal={today.signals.market} action={() => setView("market")}>
-        {topMarket.length ? (
-          <div className="market-mini">
-            {topMarket.map((row) => (
-              <button className="market-line" key={row.id} onClick={() => openEvidence(row)}>
-                <span>{row.company}</span>
-                <strong className={Number(row.changePct) >= 0 ? "rise" : "fall"}>{formatPct(row.changePct)}</strong>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <EmptyState />
-        )}
-      </Widget>
-
-      <Widget title="Follow-up" icon={FileSearch} signal={today.signals.followup} action={() => setView("followup")}>
-        <div className="status-stack">
-          {["pending", "confirmed", "completed", "stale"].map((status) => (
-            <div className="status-row" key={status}>
-              <span>{status}</span>
-              <strong>{followup.statusCounts[status] || 0}</strong>
-            </div>
-          ))}
+      <section className="dashboard-lead">
+        <div>
+          <span>今日</span>
+          <h2>{today.importantEvents.length ? "有新增重点事件" : "暂无新增重点事件"}</h2>
         </div>
-      </Widget>
+        <button onClick={() => setView("timeline")}>查看时间轴</button>
+      </section>
 
-      <Widget title="Supply Chain Matrix" icon={Network} signal="neutral" action={() => setView("supply")}>
-        <MiniMatrix />
-      </Widget>
+      <div className="dashboard-columns">
+        <section className="panel panel-focus">
+          <header>
+            <h3>今日重点</h3>
+            <button onClick={() => setView("timeline")}>全部</button>
+          </header>
+          {today.importantEvents.length ? (
+            <div className="event-list">
+              {today.importantEvents.slice(0, 3).map((event) => (
+                <EventRow key={event.id} event={event} openEvidence={openEvidence} />
+              ))}
+            </div>
+          ) : (
+            <EmptyState>今日暂无新增入库事件</EmptyState>
+          )}
+        </section>
 
-      <Widget title="Timeline" icon={CalendarDays} signal={today.signals.changes} action={() => setView("timeline")}>
-        {timeline.nodes.length ? (
-          <div className="timeline-mini">
-            {timeline.nodes.slice(0, 4).map((node) => (
-              <button key={node.id} onClick={() => openEvidence(node)}>
-                <span>{node.date}</span>
-                <strong>{node.title}</strong>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <EmptyState />
-        )}
-      </Widget>
+        <section className="panel panel-market">
+          <header>
+            <h3>关注股票</h3>
+            <button onClick={() => setView("market")}>全部</button>
+          </header>
+          {marketRows.length ? (
+            <div className="market-list">
+              {marketRows.slice(0, 5).map((row) => (
+                <MarketRow key={row.id || row.stockCode} row={row} openEvidence={openEvidence} compact />
+              ))}
+            </div>
+          ) : (
+            <EmptyState>暂无关注股票</EmptyState>
+          )}
+        </section>
 
-      <Widget title="Heat Map" icon={Gauge} signal={heat.score > 0 ? "yellow" : "neutral"} action={() => setView("heat")}>
-        <div className="heat-bars">
-          {heatRows.slice(0, 5).map((row) => (
-            <div className="heat-row" key={row.name}>
-              <span>{row.name}</span>
-              <div>
-                <i style={{ width: `${Math.min(100, row.count * 18)}%` }} />
-              </div>
+        <section className="panel panel-followup">
+          <header>
+            <h3>待验证</h3>
+            <button onClick={() => setView("followup")}>全部</button>
+          </header>
+          {pendingRows.length ? (
+            <div className="followup-list">
+              {pendingRows.slice(0, 5).map((item) => (
+                <button key={item.id} onClick={() => openEvidence(item)}>
+                  <strong>{item.subject}</strong>
+                  <span>{item.entityNames?.join(" / ") || "未关联公司"}</span>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <EmptyState>暂无待验证事项</EmptyState>
+          )}
+        </section>
+      </div>
+
+      <section className="panel timeline-panel">
+        <header>
+          <h3>最近产业时间轴</h3>
+          <button onClick={() => setView("timeline")}>全部</button>
+        </header>
+        <TimelineNodes nodes={recentNodes} openEvidence={openEvidence} limit={5} />
+      </section>
+
+      <section className="heat-strip" aria-label="今日热度分布">
+        <span>今日热度分布</span>
+        <div>
+          {(heatRows.length
+            ? heatRows
+            : [
+                { name: "整机厂", count: 0 },
+                { name: "产业链", count: 0 },
+                { name: "政策", count: 0 },
+              ]
+          )
+            .slice(0, 5)
+            .map((row) => (
+            <p key={row.name}>
+              <b>{row.name}</b>
+              <i style={{ width: `${Math.max(4, Math.min(100, row.count * 22))}%` }} />
               <strong>{row.count}</strong>
-            </div>
+            </p>
           ))}
         </div>
-      </Widget>
-
-      <Widget
-        title="Cooperation Graph"
-        icon={GitBranch}
-        signal={relations.rows.length ? "yellow" : "neutral"}
-        action={() => setView("relations")}
-      >
-        {relations.rows.length ? (
-          <div className="relation-mini">
-            {relations.rows.slice(0, 2).map((row) => (
-              <button key={row.id} onClick={() => openEvidence(row)}>
-                <span>{row.entityAName}</span>
-                <i />
-                <strong>{row.entityBName}</strong>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <EmptyState />
-        )}
-      </Widget>
-
-      <Widget title="Watchlist" icon={ShieldCheck} signal="neutral" action={() => setView("stats")}>
-        <div className="watch-mini">
-          {watchlist.rows.slice(0, 6).map((row) => (
-            <span key={row.id}>{row.name}</span>
-          ))}
-        </div>
-      </Widget>
-
-      <Widget title="Database Stats" icon={Database} signal="neutral" action={() => setView("stats")}>
-        <div className="stats-mini">
-          <Metric label="Entities" value={stats.entities} />
-          <Metric label="Events" value={stats.events} />
-          <Metric label="Sources" value={stats.sources} />
-        </div>
-      </Widget>
+      </section>
     </div>
-  );
-}
-
-function MiniMatrix() {
-  const rows = ["宇树科技", "智元机器人", "优必选"];
-  const cols = ["力", "丝", "减", "手", "电"];
-  return (
-    <div className="mini-matrix" aria-label="Supply chain matrix preview">
-      <div />
-      {cols.map((col) => (
-        <b key={col}>{col}</b>
-      ))}
-      {rows.map((row) => (
-        <FragmentRow key={row} row={row} cols={cols} />
-      ))}
-    </div>
-  );
-}
-
-function FragmentRow({ row, cols }) {
-  return (
-    <>
-      <span>{row}</span>
-      {cols.map((col) => (
-        <i key={`${row}-${col}`} title="No verified data" />
-      ))}
-    </>
   );
 }
 
 function MarketView({ openEvidence }) {
+  const rows = getMarketRows();
+
   return (
-    <DetailShell title="Market" meta={market.date}>
-      <div className="table-shell">
-        <table>
-          <thead>
-            <tr>
-              <th>Company</th>
-              <th>Code</th>
-              <th>Price</th>
-              <th>Change</th>
-              <th>Turnover</th>
-              <th>Source</th>
-            </tr>
-          </thead>
-          <tbody>
-            {market.rows.length ? (
-              market.rows.map((row) => (
-                <tr key={row.id}>
-                  <td>{row.company}</td>
-                  <td>{row.stockCode}</td>
-                  <td>{row.price ?? "N/A"}</td>
-                  <td className={Number(row.changePct) >= 0 ? "rise" : "fall"}>{formatPct(row.changePct)}</td>
-                  <td>{row.turnoverAmount || "N/A"}</td>
-                  <td>
-                    <SourceButton item={row} onOpen={openEvidence} compact />
-                  </td>
-                </tr>
-              ))
-            ) : (
-              <tr>
-                <td colSpan="6">
-                  <EmptyState />
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
+    <DetailShell title="市场" meta={market.date}>
+      <div className="market-page-list">
+        {rows.length ? (
+          rows.map((row) => <MarketRow key={row.id || row.stockCode} row={row} openEvidence={openEvidence} />)
+        ) : (
+          <EmptyState>暂无市场数据</EmptyState>
+        )}
       </div>
     </DetailShell>
   );
 }
 
 function FollowupView({ openEvidence }) {
+  const statuses = ["pending", "confirmed", "completed", "archived", "cancelled", "stale"];
+
   return (
-    <DetailShell title="Follow-up" meta={followup.date}>
+    <DetailShell title="跟踪" meta={followup.date}>
       <div className="status-board">
-        {["pending", "confirmed", "completed", "archived", "cancelled", "stale"].map((status) => (
-          <Metric key={status} label={status} value={followup.statusCounts[status] || 0} />
+        {statuses.map((status) => (
+          <OverviewItem
+            key={status}
+            label={followupLabels[status] || status}
+            value={followup.statusCounts[status] || 0}
+          />
         ))}
       </div>
-      <ListRows rows={followup.rows} openEvidence={openEvidence} empty="No open follow-up" />
+      {followup.rows.length ? (
+        <div className="followup-table">
+          {followup.rows.map((row) => (
+            <button key={row.id} onClick={() => openEvidence(row)}>
+              <strong>{row.subject}</strong>
+              <span>{followupLabels[row.status] || row.status}</span>
+              <small>{row.entityNames?.join(" / ") || "--"}</small>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <EmptyState>暂无跟踪事项</EmptyState>
+      )}
     </DetailShell>
   );
 }
 
 function TimelineView({ openEvidence }) {
   return (
-    <DetailShell title="Timeline" meta={timeline.date}>
-      <div className="timeline-list">
-        {timeline.nodes.length ? (
-          timeline.nodes.map((node) => (
-            <button key={node.id} onClick={() => openEvidence(node)}>
-              <span>{node.date}</span>
-              <strong>{node.title}</strong>
-              <em>{node.evidenceLevel}</em>
-            </button>
-          ))
-        ) : (
-          <EmptyState />
-        )}
-      </div>
+    <DetailShell title="时间轴" meta={timeline.date}>
+      <TimelineNodes nodes={timeline.nodes} openEvidence={openEvidence} />
     </DetailShell>
   );
 }
 
 function HeatView() {
-  const chartRows = heat.modules.length ? heat.modules : [{ name: "No verified data", count: 0 }];
-  const pieRows = Object.entries(stats.evidenceLevels).map(([name, value]) => ({ name, value }));
+  const chartRows = heat.modules?.length ? heat.modules : [{ name: "暂无", count: 0 }];
 
   return (
-    <DetailShell title="Heat" meta={`${heat.score}/100`}>
-      <div className="chart-grid">
-        <section className="chart-panel">
-          <h3>Module Heat</h3>
-          <ResponsiveContainer width="100%" height={260}>
-            <BarChart data={chartRows}>
-              <CartesianGrid stroke="#e8e4dc" vertical={false} />
-              <XAxis dataKey="name" tickLine={false} axisLine={false} />
-              <YAxis allowDecimals={false} tickLine={false} axisLine={false} />
-              <Tooltip cursor={{ fill: "#f3f0e8" }} />
-              <Bar dataKey="count" radius={[4, 4, 0, 0]} fill="#171717" />
-            </BarChart>
-          </ResponsiveContainer>
-        </section>
-        <section className="chart-panel">
-          <h3>Evidence</h3>
-          {pieRows.length ? (
-            <ResponsiveContainer width="100%" height={260}>
-              <PieChart>
-                <Pie data={pieRows} dataKey="value" nameKey="name" outerRadius={86} innerRadius={54}>
-                  {pieRows.map((entry, index) => (
-                    <Cell key={entry.name} fill={["#111111", "#6b7280", "#a16207", "#991b1b"][index % 4]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
-          ) : (
-            <EmptyState />
-          )}
-        </section>
+    <DetailShell title="热度" meta={`近${heat.windowDays || 30}天`}>
+      <div className="chart-panel">
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart data={chartRows} margin={{ top: 10, right: 18, bottom: 0, left: 0 }}>
+            <CartesianGrid stroke="#eeeeee" vertical={false} />
+            <XAxis dataKey="name" tickLine={false} axisLine={false} />
+            <YAxis allowDecimals={false} tickLine={false} axisLine={false} />
+            <Tooltip cursor={{ fill: "#f6f6f6" }} />
+            <Bar dataKey="count" radius={[3, 3, 0, 0]} fill="#111111" />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </DetailShell>
   );
@@ -433,10 +440,11 @@ function HeatView() {
 function SupplyView() {
   const rows = ["宇树科技", "智元机器人", "优必选", "银河通用", "傅利叶"];
   const cols = ["力传感器", "丝杠", "减速器", "灵巧手", "电机", "控制器"];
+
   return (
-    <DetailShell title="Supply Chain Matrix" meta="Evidence only">
+    <DetailShell title="供应链" meta="公开证据">
       <div className="matrix-large">
-        <div className="matrix-head">OEM</div>
+        <div className="matrix-head">整机厂</div>
         {cols.map((col) => (
           <div className="matrix-head" key={col}>
             {col}
@@ -444,9 +452,7 @@ function SupplyView() {
         ))}
         {rows.map((row) => (
           <Fragment key={row}>
-            <div className="matrix-row-head" key={`${row}-head`}>
-              {row}
-            </div>
+            <div className="matrix-row-head">{row}</div>
             {cols.map((col) => (
               <button className="matrix-cell-empty" key={`${row}-${col}`}>
                 未公开
@@ -461,62 +467,59 @@ function SupplyView() {
 
 function RelationsView({ openEvidence }) {
   return (
-    <DetailShell title="Company Relation" meta="Evidence only">
+    <DetailShell title="关系" meta="公开合作">
       {relations.rows.length ? (
         <div className="relation-list">
           {relations.rows.map((row) => (
             <button key={row.id} onClick={() => openEvidence(row)}>
-              <span>{row.date || "N/A"}</span>
+              <span>{row.date || "--"}</span>
               <strong>
-                {row.entityAName} {"->"} {row.entityBName}
+                {row.entityAName} → {row.entityBName}
               </strong>
-              <em>{row.evidenceLevel}</em>
+              <EvidenceBadge level={row.evidenceLevel} />
             </button>
           ))}
         </div>
       ) : (
-        <div className="relation-canvas">
-          <EmptyState />
-        </div>
+        <EmptyState>暂无公开关系</EmptyState>
       )}
     </DetailShell>
   );
 }
 
 function StatsView({ openEvidence }) {
-  const rows = sourceRegistry.rows;
+  const sourceRows = sourceRegistry.rows || [];
+  const levelRows = Object.entries(stats.evidenceLevels || {});
+
   return (
-    <DetailShell title="Database Statistics" meta={stats.date}>
-      <div className="status-board">
-        <Metric label="Entities" value={stats.entities} />
-        <Metric label="Events" value={stats.events} />
-        <Metric label="Relations" value={stats.relations} />
-        <Metric label="Stocks" value={stats.stockSnapshots} />
-        <Metric label="Sources" value={stats.sources} />
+    <DetailShell title="统计" meta={stats.date}>
+      <div className="status-board stats-board">
+        <OverviewItem label="公司" value={stats.entities} />
+        <OverviewItem label="事件" value={stats.events} />
+        <OverviewItem label="合作" value={stats.relations} />
+        <OverviewItem label="股票快照" value={stats.stockSnapshots} />
+        <OverviewItem label="来源" value={stats.sources} />
       </div>
-      <div className="table-shell source-table">
-        <table>
-          <thead>
-            <tr>
-              <th>Source</th>
-              <th>Publisher</th>
-              <th>Level</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row) => (
-              <tr key={row.id}>
-                <td>{row.title}</td>
-                <td>{row.publisher}</td>
-                <td>{row.evidenceLevel}</td>
-                <td>
-                  <SourceButton item={row} onOpen={openEvidence} compact />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+
+      <div className="level-list">
+        {levelRows.map(([level, value]) => (
+          <p key={level}>
+            <span>{level}级来源</span>
+            <strong>{value}</strong>
+          </p>
+        ))}
+      </div>
+
+      <div className="source-table">
+        {sourceRows.map((row) => (
+          <button key={row.id} onClick={() => openEvidence(buildEvidenceFromSource(row))}>
+            <div>
+              <strong>{row.title}</strong>
+              <span>{row.publisher}</span>
+            </div>
+            <EvidenceBadge level={row.evidenceLevel} />
+          </button>
+        ))}
       </div>
     </DetailShell>
   );
@@ -526,25 +529,13 @@ function DetailShell({ title, meta, children }) {
   return (
     <section className="detail-shell">
       <header>
-        <h2>{title}</h2>
-        <span>{meta}</span>
+        <div>
+          <span>{meta}</span>
+          <h2>{title}</h2>
+        </div>
       </header>
       {children}
     </section>
-  );
-}
-
-function ListRows({ rows, openEvidence, empty }) {
-  if (!rows.length) return <EmptyState label={empty} />;
-  return (
-    <div className="list-rows">
-      {rows.map((row) => (
-        <button key={row.id} onClick={() => openEvidence(row)}>
-          <strong>{row.subject || row.title}</strong>
-          <span>{row.status || row.evidenceLevel}</span>
-        </button>
-      ))}
-    </div>
   );
 }
 
@@ -557,46 +548,34 @@ function EvidenceDrawer({ evidence, onClose }) {
       <aside className="evidence-drawer" onClick={(event) => event.stopPropagation()}>
         <header>
           <div>
-            <span>Evidence</span>
-            <h2>{evidence.title || evidence.fact || "Source"}</h2>
+            <span>证据</span>
+            <h2>{evidence.title || evidence.fact || "来源"}</h2>
           </div>
-          <button onClick={onClose} aria-label="Close evidence drawer">
+          <button onClick={onClose} aria-label="关闭证据抽屉">
             <X size={18} />
           </button>
         </header>
-        <dl>
-          <div>
-            <dt>Fact</dt>
-            <dd>{evidence.fact || evidence.title || "N/A"}</dd>
-          </div>
-          <div>
-            <dt>Date</dt>
-            <dd>{evidence.date || today.date}</dd>
-          </div>
-          <div>
-            <dt>Level</dt>
-            <dd>{evidence.evidenceLevel || "N/A"}</dd>
-          </div>
-          <div>
-            <dt>Module</dt>
-            <dd>{evidence.module || "N/A"}</dd>
-          </div>
-          <div>
-            <dt>Entity</dt>
-            <dd>{evidence.entityNames?.join(" / ") || "N/A"}</dd>
-          </div>
-        </dl>
+
+        <p className="drawer-fact">{evidence.fact || evidence.title || "--"}</p>
+
+        <div className="drawer-meta">
+          <span>{evidence.date || today.date}</span>
+          <span>{evidence.module || "--"}</span>
+          <span>{evidence.evidenceLevel || "--"}级来源</span>
+          {evidence.entityNames?.length ? <span>{evidence.entityNames.join(" / ")}</span> : null}
+        </div>
+
         <div className="drawer-sources">
           {sources.length ? (
             sources.map((source) => (
               <a key={source.id || source.url} href={source.url} target="_blank" rel="noreferrer">
-                <span>{source.publisher || source.sourceType}</span>
+                <span>{source.publisher || sourceTypeLabels[source.sourceType] || "来源"}</span>
                 <strong>{source.title}</strong>
                 <ArrowUpRight size={14} />
               </a>
             ))
           ) : (
-            <EmptyState label="No source link" />
+            <EmptyState>暂无来源链接</EmptyState>
           )}
         </div>
       </aside>
@@ -634,16 +613,16 @@ export default function App() {
     <div className="app-shell">
       <header className="topbar">
         <div>
-          <span className="eyebrow">China Humanoid Robotics</span>
-          <h1>Research Dashboard</h1>
+          <span className="eyebrow">国内人形机器人产业</span>
+          <h1>研究看板</h1>
         </div>
         <div className="topbar-meta">
           <span>{today.date}</span>
-          <Signal tone={today.status === "empty" ? "neutral" : "green"} />
+          <span>{today.status === "empty" ? "今日无新增" : "今日有更新"}</span>
         </div>
       </header>
 
-      <nav className="nav-strip">
+      <nav className="nav-strip" aria-label="主导航">
         {navItems.map((item) => (
           <button
             key={item.id}

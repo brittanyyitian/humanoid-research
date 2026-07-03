@@ -1,13 +1,14 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T08:53:47.555Z",
+  "generatedAt": "2026-07-03T09:13:35.457Z",
   "entities": 7,
   "events": 5,
   "relations": 1,
   "followups": 0,
-  "stockSnapshots": 0,
-  "sources": 7,
+  "stockSnapshots": 1,
+  "sources": 9,
   "evidenceLevels": {
-    "A": 7
+    "A": 7,
+    "B": 2
   }
 }

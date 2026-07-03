@@ -1,10 +1,47 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T08:53:47.555Z",
-  "rows": [],
+  "generatedAt": "2026-07-03T09:13:35.457Z",
+  "rows": [
+    {
+      "id": "stock_2026-07-03_anpeilong",
+      "entityId": "anpeilong",
+      "company": "安培龙",
+      "stockCode": "301413",
+      "market": "SZSE",
+      "snapshotType": "intraday_or_latest",
+      "isFinal": false,
+      "price": 83,
+      "changePct": 11.42,
+      "turnoverAmount": "9.31亿",
+      "turnoverRate": 15.12,
+      "mainNetInflow": null,
+      "fiveDayChangePct": null,
+      "twentyDayChangePct": null,
+      "sourceIds": [
+        "src_tencent_market_quote"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz301413",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T00:00:00+08:00",
+          "evidenceLevel": "B",
+          "status": "active",
+          "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
+        }
+      ],
+      "capturedAt": "2026-07-03T17:12:21+08:00",
+      "providerSourceUrl": "https://qt.gtimg.cn/q=sz301413",
+      "quoteUrl": "https://qt.gtimg.cn/q=sz301413"
+    }
+  ],
   "summary": {
-    "tracked": 0,
-    "up": 0,
+    "tracked": 1,
+    "up": 1,
     "down": 0,
     "flat": 0
   }
