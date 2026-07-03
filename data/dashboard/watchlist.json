@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T09:35:44.448Z",
+  "generatedAt": "2026-07-03T10:00:48.203Z",
   "rows": [
     {
       "id": "unitree",
@@ -163,6 +163,96 @@
       "listed": true,
       "stockCode": "003021",
       "market": "SZSE"
+    },
+    {
+      "id": "sanhuazk",
+      "name": "三花智控",
+      "kind": "supply_chain",
+      "segment": "执行器 / 热管理",
+      "listed": true,
+      "stockCode": "002050",
+      "market": "SZSE"
+    },
+    {
+      "id": "tuopu_group",
+      "name": "拓普集团",
+      "kind": "supply_chain",
+      "segment": "执行器 / 汽车零部件",
+      "listed": true,
+      "stockCode": "601689",
+      "market": "SSE"
+    },
+    {
+      "id": "siasun_robot",
+      "name": "机器人",
+      "kind": "supply_chain",
+      "segment": "机器人本体 / 系统集成",
+      "listed": true,
+      "stockCode": "300024",
+      "market": "SZSE"
+    },
+    {
+      "id": "estun",
+      "name": "埃斯顿",
+      "kind": "supply_chain",
+      "segment": "控制器 / 机器人",
+      "listed": true,
+      "stockCode": "002747",
+      "market": "SZSE"
+    },
+    {
+      "id": "orbbec",
+      "name": "奥比中光",
+      "kind": "supply_chain",
+      "segment": "视觉传感器",
+      "listed": true,
+      "stockCode": "688322",
+      "market": "SSE"
+    },
+    {
+      "id": "kinco",
+      "name": "步科股份",
+      "kind": "supply_chain",
+      "segment": "控制器 / 驱动",
+      "listed": true,
+      "stockCode": "688160",
+      "market": "SSE"
+    },
+    {
+      "id": "highly_electric",
+      "name": "华依科技",
+      "kind": "supply_chain",
+      "segment": "测试设备 / 传感",
+      "listed": true,
+      "stockCode": "688071",
+      "market": "SSE"
+    },
+    {
+      "id": "luster_lighttech",
+      "name": "凌云光",
+      "kind": "supply_chain",
+      "segment": "机器视觉",
+      "listed": true,
+      "stockCode": "688400",
+      "market": "SSE"
+    },
+    {
+      "id": "yeeda",
+      "name": "怡合达",
+      "kind": "supply_chain",
+      "segment": "FA零部件",
+      "listed": true,
+      "stockCode": "301029",
+      "market": "SZSE"
+    },
+    {
+      "id": "piotech",
+      "name": "均普智能",
+      "kind": "supply_chain",
+      "segment": "智能制造装备",
+      "listed": true,
+      "stockCode": "688306",
+      "market": "SSE"
     }
   ]
 }

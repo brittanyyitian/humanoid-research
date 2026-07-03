@@ -119,7 +119,8 @@ main {
   max-width: 1440px;
 }
 
-.dashboard-v2 {
+.dashboard-v2,
+.dashboard-v3 {
   display: grid;
   gap: 18px;
 }
@@ -190,6 +191,443 @@ main {
   cursor: pointer;
   font-size: 13px;
   padding: 6px 0;
+}
+
+.event-driven-panel {
+  padding: 24px;
+}
+
+.event-card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.event-card-grid.single {
+  grid-template-columns: 1fr;
+}
+
+.event-card {
+  background: var(--surface);
+  border: 1px solid var(--soft);
+  border-radius: 16px;
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+  padding: 18px;
+}
+
+.event-card-head,
+.stock-card-main {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.event-card-head span,
+.event-card-body small,
+.stock-card-main span,
+.stock-card-foot span,
+.workspace-section > header span,
+.company-rail span,
+.muted-text {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.event-card-head h3 {
+  font-size: clamp(21px, 2vw, 30px);
+  font-weight: 650;
+  line-height: 1.22;
+  margin-top: 8px;
+}
+
+.event-card-head p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.75;
+  margin-top: 12px;
+}
+
+.event-card-body {
+  display: grid;
+  gap: 16px;
+}
+
+.event-card-body section {
+  display: grid;
+  gap: 8px;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill-list button {
+  background: var(--soft);
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 7px 10px;
+}
+
+.stock-mini-list,
+.stock-list-compact {
+  display: grid;
+  gap: 0;
+}
+
+.stock-line {
+  align-items: center;
+  border-bottom: 1px solid var(--soft);
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  min-height: 46px;
+}
+
+.stock-line strong,
+.stock-card-main strong,
+.company-rail strong,
+.mini-followups strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.stock-line span {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.stock-line b {
+  font-size: 15px;
+  font-weight: 620;
+}
+
+.stock-line em,
+.stock-card-main em {
+  font-style: normal;
+  font-weight: 650;
+}
+
+.mini-followups {
+  display: grid;
+  gap: 0;
+}
+
+.mini-followups button {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft);
+  cursor: pointer;
+  display: grid;
+  gap: 3px;
+  min-height: 44px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.mini-followups span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.event-card footer,
+.stock-card-foot,
+.workspace-section > header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card footer button,
+.stock-card-foot button {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.dashboard-bottom-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+}
+
+.company-layout {
+  align-items: start;
+  display: grid;
+  gap: 22px;
+  grid-template-columns: 260px minmax(0, 1fr);
+}
+
+.company-rail {
+  background: var(--soft);
+  border-radius: 16px;
+  display: grid;
+  gap: 2px;
+  max-height: calc(100vh - 230px);
+  overflow-y: auto;
+  padding: 6px;
+}
+
+.company-rail button {
+  background: transparent;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 11px 12px;
+  text-align: left;
+}
+
+.company-rail button.active {
+  background: var(--surface);
+}
+
+.company-workspace {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.workspace-section {
+  background: var(--surface);
+  border: 1px solid var(--soft);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.workspace-section > header {
+  margin-bottom: 12px;
+}
+
+.workspace-section h3,
+.market-summary-grid h3 {
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.stock-card {
+  background: var(--surface);
+  border: 1px solid var(--soft);
+  border-radius: 16px;
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.stock-card-main strong {
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.stock-card-main b {
+  display: block;
+  font-size: clamp(34px, 5vw, 62px);
+  font-weight: 520;
+  line-height: 1;
+  margin-top: 18px;
+}
+
+.stock-card-main em {
+  display: block;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.stock-card-metrics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stock-card-metrics p {
+  background: var(--soft);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.stock-card-metrics span {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stock-card-metrics strong {
+  display: block;
+  font-size: 17px;
+  font-weight: 650;
+  margin-top: 8px;
+}
+
+.stock-card-compact .stock-card-main b {
+  font-size: 38px;
+}
+
+.market-summary-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 18px;
+}
+
+.market-summary-grid section {
+  background: var(--soft);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.stock-card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.github-timeline {
+  display: grid;
+  gap: 28px;
+}
+
+.github-timeline section {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 92px minmax(0, 1fr);
+}
+
+.github-timeline h3 {
+  font-size: 26px;
+  font-weight: 650;
+  padding-top: 2px;
+}
+
+.github-timeline-node {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 64px 16px minmax(0, 1fr);
+  min-height: 78px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.github-timeline-node span {
+  color: var(--muted);
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.github-timeline-node i {
+  border-left: 1px solid #d4d4d4;
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.github-timeline-node i::before {
+  background: var(--ink);
+  border: 4px solid var(--surface);
+  border-radius: 999px;
+  content: "";
+  height: 8px;
+  left: -8px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.github-timeline-node > div {
+  border-bottom: 1px solid var(--soft);
+  padding-bottom: 22px;
+}
+
+.github-timeline-node strong {
+  display: block;
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.github-timeline-node small {
+  color: var(--muted);
+  display: block;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.database-board {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.database-list {
+  display: grid;
+  gap: 0;
+}
+
+.database-list button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft);
+  cursor: pointer;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 110px minmax(0, 1fr) auto;
+  padding: 14px 0;
+  text-align: left;
+}
+
+.database-list span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.database-list strong {
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.source-links {
+  display: grid;
+  gap: 10px;
+}
+
+.source-links a {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: inherit;
+  display: grid;
+  gap: 5px 12px;
+  grid-template-columns: 1fr auto;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.source-links span {
+  color: var(--muted);
+  font-size: 12px;
+  grid-column: 1 / -1;
+}
+
+.source-links strong {
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .dashboard-columns {
@@ -668,13 +1106,25 @@ main {
 }
 
 @media (max-width: 1120px) {
-  .dashboard-columns {
+  .dashboard-columns,
+  .dashboard-bottom-grid,
+  .company-layout,
+  .market-summary-grid {
     grid-template-columns: 1fr;
+  }
+
+  .event-card-grid,
+  .stock-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .overview-strip,
   .status-board {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .company-rail {
+    max-height: none;
   }
 }
 
@@ -719,17 +1169,32 @@ main {
   .market-row,
   .followup-table button,
   .relation-list button,
-  .timeline-node {
+  .timeline-node,
+  .event-card-grid,
+  .stock-card-grid,
+  .stock-card-metrics,
+  .github-timeline section,
+  .github-timeline-node,
+  .database-list button {
     grid-template-columns: 1fr;
   }
 
-  .timeline-dot {
+  .timeline-dot,
+  .github-timeline-node i {
     display: none;
   }
 
   .market-price,
   .quote-status {
     text-align: left;
+  }
+
+  .stock-line {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .stock-line em {
+    grid-column: 2;
   }
 
   .heat-strip {

@@ -128,22 +128,121 @@ const marketRows = todayStocks.map((stock) => ({
   quoteTime: stock.quoteTime ?? null,
 }));
 
-const importantEvents = todayEvents
+const marketByEntityId = new Map(marketRows.map((row) => [row.entityId, row]));
+const watchlistMarketContext = marketRows
   .slice()
-  .sort((a, b) => (b.importance || 0) - (a.importance || 0))
-  .slice(0, 5)
-  .map((event) => ({
+  .sort((a, b) => Math.abs(Number(b.changePct) || 0) - Math.abs(Number(a.changePct) || 0))
+  .slice(0, 5);
+
+function enrichedEntity(entityId) {
+  const entity = entityById.get(entityId);
+  if (!entity) {
+    return {
+      id: entityId,
+      name: entityId,
+      kind: "unknown",
+      segment: null,
+      listed: false,
+      stockCode: null,
+      market: null,
+    };
+  }
+
+  return {
+    id: entity.id,
+    name: entity.name,
+    kind: entity.kind,
+    segment: entity.segment || null,
+    listed: Boolean(entity.listed),
+    stockCode: entity.stockCode || null,
+    market: entity.market || null,
+  };
+}
+
+function eventDashboardRow(event) {
+  const involvedEntities = event.entityIds.map(enrichedEntity);
+  const directMarketRows = event.entityIds
+    .map((entityId) => marketByEntityId.get(entityId))
+    .filter(Boolean);
+  const relatedFollowups = followups
+    .filter((item) => ensureArray(item.entityIds).some((entityId) => event.entityIds.includes(entityId)))
+    .map((item) => ({
+      id: item.id,
+      subject: item.subject,
+      status: item.status,
+      entityNames: entityNames(item.entityIds),
+      sourceIds: item.sourceIds,
+      sources: enrichSources(item.sourceIds),
+    }));
+
+  return {
     id: event.id,
+    date: event.date,
     title: event.title,
     fact: event.fact,
     eventType: event.eventType,
     module: event.module,
     importance: event.importance || 1,
+    entityIds: event.entityIds,
     entityNames: entityNames(event.entityIds),
+    entities: involvedEntities,
+    directMarketRows,
+    watchlistMarketContext,
+    followups: relatedFollowups,
     evidenceLevel: event.evidenceLevel,
     sourceIds: event.sourceIds,
     sources: enrichSources(event.sourceIds),
-  }));
+    tags: event.tags || [],
+  };
+}
+
+const importantEvents = todayEvents
+  .slice()
+  .sort((a, b) => (b.importance || 0) - (a.importance || 0))
+  .slice(0, 5)
+  .map(eventDashboardRow);
+
+const allEventRows = events
+  .slice()
+  .sort((a, b) => b.date.localeCompare(a.date) || (b.importance || 0) - (a.importance || 0))
+  .map(eventDashboardRow);
+
+const latestEventRows = allEventRows.slice(0, 8);
+
+const companyRows = entities
+  .filter((entity) => entity.tags?.includes("Watchlist"))
+  .map((entity) => {
+    const companyEvents = allEventRows.filter((event) => event.entityIds.includes(entity.id));
+    const companyFollowups = followups
+      .filter((item) => ensureArray(item.entityIds).includes(entity.id))
+      .map((item) => ({
+        id: item.id,
+        subject: item.subject,
+        status: item.status,
+        entityNames: entityNames(item.entityIds),
+        sourceIds: item.sourceIds,
+        sources: enrichSources(item.sourceIds),
+      }));
+    const stock = marketByEntityId.get(entity.id) || null;
+    const sourceMap = new Map();
+    for (const source of stock?.sources || []) sourceMap.set(source.id || source.url, source);
+    for (const event of companyEvents) {
+      for (const source of event.sources || []) sourceMap.set(source.id || source.url, source);
+    }
+    for (const item of companyFollowups) {
+      for (const source of item.sources || []) sourceMap.set(source.id || source.url, source);
+    }
+
+    return {
+      ...enrichedEntity(entity.id),
+      tags: entity.tags || [],
+      stock,
+      events: companyEvents.slice(0, 8),
+      followups: companyFollowups,
+      sources: Array.from(sourceMap.values()),
+      todayEventCount: companyEvents.filter((event) => event.date === targetDate).length,
+    };
+  });
 
 const today = {
   date: targetDate,
@@ -166,8 +265,31 @@ const today = {
   eventTypeCounts,
   moduleCounts: todayModuleCounts,
   importantEvents,
+  latestEvents: latestEventRows.slice(0, 5),
   marketRows,
   noVerifiedData: todayEvents.length === 0 && todayStocks.length === 0,
+};
+
+const eventDashboard = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  todayEvents: importantEvents,
+  recentEvents: latestEventRows,
+  rows: allEventRows,
+  totals: {
+    today: todayEvents.length,
+    all: allEventRows.length,
+    involvedCompaniesToday: new Set(todayEvents.flatMap((event) => event.entityIds)).size,
+    directStocksToday: new Set(
+      todayEvents.flatMap((event) => event.entityIds).filter((entityId) => marketByEntityId.has(entityId))
+    ).size,
+  },
+};
+
+const companiesDashboard = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  rows: companyRows,
 };
 
 const market = {
@@ -308,6 +430,8 @@ const sourceRegistry = {
 };
 
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "today.json"), today);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "events.json"), eventDashboard);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "heat.json"), heat);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "timeline.json"), timeline);
