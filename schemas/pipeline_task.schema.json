@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pipeline_task.schema.json",
+  "title": "Pipeline Task",
+  "type": "object",
+  "required": [
+    "id",
+    "rawArtifactId",
+    "routeDecisionId",
+    "pipeline",
+    "type",
+    "entityId",
+    "entityIds",
+    "inputType",
+    "sourceKind",
+    "status",
+    "createdAt",
+    "updatedAt",
+    "nextAction"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^ptask_[0-9]{4}_[0-9]{2}_[0-9]{2}_[a-z0-9_\\-]+$" },
+    "rawArtifactId": { "type": "string" },
+    "routeDecisionId": { "type": "string" },
+    "pipeline": {
+      "type": "string",
+      "enum": [
+        "company_pipeline",
+        "product_pipeline",
+        "filing_pipeline",
+        "event_pipeline",
+        "policy_pipeline",
+        "supply_chain_pipeline"
+      ]
+    },
+    "type": { "type": "string", "enum": ["company", "product", "filing", "event", "policy", "supply_chain"] },
+    "entityId": { "type": "string", "minLength": 1 },
+    "entityIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "inputType": { "type": "string", "enum": ["url", "rss", "api", "manual"] },
+    "sourceKind": { "type": "string", "enum": ["official", "filing", "media", "social", "internal", "market", "unknown"] },
+    "status": { "type": "string", "enum": ["queued", "running", "completed", "failed", "skipped", "needs_review"] },
+    "createdAt": { "type": "string", "minLength": 1 },
+    "updatedAt": { "type": "string", "minLength": 1 },
+    "startedAt": { "type": ["string", "null"] },
+    "finishedAt": { "type": ["string", "null"] },
+    "nextAction": { "type": "string", "minLength": 1 },
+    "error": { "type": ["string", "null"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

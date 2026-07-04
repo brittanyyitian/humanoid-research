@@ -20,7 +20,7 @@
     "sourceName": { "type": "string", "minLength": 1 },
     "sourceType": {
       "type": "string",
-      "enum": ["company_official", "product_release", "filing", "market", "serenity_bridge", "manual_link"]
+      "enum": ["company_official", "product_release", "filing", "market", "serenity_bridge", "manual_link", "ingestion"]
     },
     "startedAt": { "type": "string", "minLength": 1 },
     "finishedAt": { "type": "string", "minLength": 1 },

@@ -1,0 +1,20 @@
+{
+  "id": "raw_2026_07_04_unitree_com_75867f61e9",
+  "artifactType": "product_page",
+  "title": "Unitree H2 PLUS 产研一体 全栈启航",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/H2plus/",
+  "sourceId": "src_unitree_h2plus_product",
+  "fetchRunId": "fetch_2026_07_04_unitree_com_75867f61e9",
+  "publishedAt": null,
+  "firstSeenAt": "2026-07-04T16:39:33+08:00",
+  "capturedAt": "2026-07-04T16:39:33+08:00",
+  "contentHash": "sha256:75867f61e952c1d652dd043b1144e344b89ae1083740409a133938833c80d065",
+  "storagePath": null,
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [],
+  "status": "active",
+  "notes": "Ingestion sample reusing existing official H2 PLUS source."
+}

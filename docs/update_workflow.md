@@ -40,6 +40,51 @@ Before adding a fact:
 
 If validation fails, the fact should not appear in Dashboard.
 
+## V2.1 Ingestion Entry
+
+Use ingestion as the unified entry layer for URL/RSS/API/manual inputs. It turns
+an input into a raw artifact, routes it, then queues the pipeline handoff.
+
+```bash
+npm run ingest:input -- \
+  --url "https://example.com/product" \
+  --title "Official product page title" \
+  --publisher "Company name" \
+  --entity-ids "unitree" \
+  --artifact-type product_page \
+  --source-type webpage \
+  --published-at "2026-07-04T10:00:00+08:00"
+```
+
+Supported entry types:
+
+```text
+url
+rss
+api
+manual
+```
+
+The output chain is:
+
+```text
+source
+raw_artifact
+fetch_run(sourceType=ingestion)
+inbox artifact candidate
+route_decision
+pipeline_task(status=queued)
+```
+
+For a non-writing check:
+
+```bash
+npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitree" --dry-run
+```
+
+This step does not extract claims and does not promote observations. It only
+creates the durable handoff into the routed pipeline.
+
 ## Inbox Fetch Gate
 
 Use inbox for raw or semi-structured fetch results:
@@ -77,7 +122,9 @@ Serenity Bridge automation.
 
 ## Manual Evidence CLI
 
-Use these scripts for the first manual-link workflow.
+Use these scripts for the first manual-link workflow or for compatibility with
+older v1 evidence-loop commands. New v2.1 automation should prefer
+`ingest:input`.
 
 Capture an official source or product page:
 

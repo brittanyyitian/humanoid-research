@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-04",
+  "capturedAt": "2026-07-04T16:39:33+08:00",
+  "reviewStatus": "pending_manual_review",
+  "policy": "Ingestion entries become raw artifacts first, then Router decides the pipeline.",
+  "candidates": [
+    {
+      "id": "artifact_candidate_75867f61e9",
+      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "sourceId": "src_unitree_h2plus_product",
+      "fetchRunId": "fetch_2026_07_04_unitree_com_75867f61e9",
+      "title": "Unitree H2 PLUS 产研一体 全栈启航",
+      "publisher": "宇树科技股份有限公司",
+      "sourceUrl": "https://www.unitree.com/cn/H2plus/",
+      "entityIds": [
+        "unitree"
+      ],
+      "inputType": "url",
+      "reviewStatus": "pending",
+      "capturedAt": "2026-07-04T16:39:33+08:00"
+    }
+  ]
+}

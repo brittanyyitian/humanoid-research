@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:31:24.290Z",
+  "generatedAt": "2026-07-04T08:40:02.668Z",
   "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   "rows": [
     {
@@ -14,9 +14,9 @@
     {
       "id": "official_artifacts",
       "label": "产业原始材料",
-      "lastSeenAt": "2026-07-03T16:50:00+08:00",
+      "lastSeenAt": "2026-07-04T16:39:33+08:00",
       "status": "fresh",
-      "count": 1,
+      "count": 2,
       "maxAgeHours": 72
     },
     {
@@ -30,17 +30,17 @@
     {
       "id": "fetch_runs",
       "label": "抓取运行",
-      "lastSeenAt": "2026-07-03T16:50:00+08:00",
+      "lastSeenAt": "2026-07-04T16:39:33+08:00",
       "status": "fresh",
-      "count": 1,
+      "count": 2,
       "failedCount": 0
     }
   ],
   "failedSources": [],
   "totals": {
-    "pendingInbox": 2,
+    "pendingInbox": 3,
     "pendingClaims": 0,
-    "fetchRuns": 1,
+    "fetchRuns": 2,
     "fetchFailures": 0
   }
 }

@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / route_decisions / claims / evidence / fetch_runs / milestones / state_transitions
+  raw_artifacts / route_decisions / pipeline_tasks / claims / evidence / fetch_runs / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -23,6 +23,7 @@ Dashboard Layer
   dashboard/freshness.json
   dashboard/window_summary.json
   dashboard/upcoming.json
+  dashboard/ingestion.json
 ```
 
 ## SSOT Boundary
@@ -103,6 +104,31 @@ AI investment judgments
 Serenity output must be converted into this repository's evidence layer before it
 can affect dashboard projections.
 
+## Ingestion Boundary
+
+Ingestion is the v2.1 entry layer:
+
+```text
+URL / RSS / API / manual input
+-> raw_artifact
+-> route_decision
+-> pipeline_task
+-> claim/evidence
+```
+
+It is not a crawler and it is not a scheduler. Its only job is to make every
+outside input enter the same evidence pipeline before any claim or observation
+can be created.
+
+The current entry command is:
+
+```bash
+npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitree"
+```
+
+`capture:artifact` remains a compatibility tool for manual captures, but v2.1
+automation should enter through `ingest:input`.
+
 ## Router Boundary
 
 Router is the first v2.1 automation layer:
@@ -137,6 +163,17 @@ The route decision shape must include the user-facing minimum:
 
 Full decisions are stored under `data/route_decisions/` and the configured
 mapping lives in `data/pipelines/pipeline_map.json`.
+
+## Pipeline Task Boundary
+
+`pipeline_tasks` are durable handoff records created by ingestion after routing.
+They mean "this artifact is ready for a pipeline", not "the fact is true".
+
+```text
+route_decision -> pipeline_task(status=queued) -> pipeline execution
+```
+
+Pipeline tasks can be replayed, retried, completed or marked as needing review.
 
 ## Source
 

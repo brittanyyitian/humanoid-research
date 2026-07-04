@@ -39,6 +39,7 @@ const allowedFetchSourceTypes = new Set([
   "market",
   "serenity_bridge",
   "manual_link",
+  "ingestion",
 ]);
 const allowedFetchStatus = new Set(["success", "partial", "failed", "manual", "skipped"]);
 const allowedMilestoneStatus = new Set(["upcoming", "due", "resolved", "stale", "cancelled"]);
@@ -56,6 +57,8 @@ const allowedPipelineNames = new Set([
 const allowedRouteConfidence = new Set(["high", "medium", "low"]);
 const allowedRouteSourceKind = new Set(["official", "filing", "media", "social", "internal", "market", "unknown"]);
 const allowedRouteStatus = new Set(["routed", "needs_review", "skipped", "manual_override"]);
+const allowedPipelineTaskStatus = new Set(["queued", "running", "completed", "failed", "skipped", "needs_review"]);
+const allowedInputTypes = new Set(["url", "rss", "api", "manual"]);
 const allowedEventTypes = new Set([
   "order",
   "ipo",
@@ -229,6 +232,7 @@ const evidence = await readJsonDir("evidence");
 const milestones = await readJsonDir("milestones");
 const stateTransitions = await readJsonDir("state_transitions");
 const routeDecisions = await readJsonDir("route_decisions");
+const pipelineTasks = await readJsonDir("pipeline_tasks");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 
 const fetchRunIds = new Set();
@@ -237,6 +241,7 @@ const claimIds = new Set();
 const evidenceIds = new Set();
 const milestoneIds = new Set();
 const stateTransitionIds = new Set();
+const pipelineTaskIds = new Set();
 
 for (const { file, data } of fetchRuns) registerId(data, file, "id", fetchRunIds, "fetch run");
 for (const { file, data } of rawArtifacts) registerId(data, file, "id", rawArtifactIds, "raw artifact");
@@ -246,6 +251,7 @@ for (const { file, data } of milestones) registerId(data, file, "id", milestoneI
 for (const { file, data } of stateTransitions) {
   registerId(data, file, "id", stateTransitionIds, "state transition");
 }
+for (const { file, data } of pipelineTasks) registerId(data, file, "id", pipelineTaskIds, "pipeline task");
 
 const configuredPipelineByType = new Map();
 if (!Array.isArray(pipelineMap.routes) || pipelineMap.routes.length === 0) {
@@ -378,10 +384,41 @@ for (const { file, data } of routeDecisions) {
   if (!Array.isArray(data.matchedSignals)) fail(file, "matchedSignals must be an array");
 }
 
+for (const { file, data } of pipelineTasks) {
+  requireString(data, file, "rawArtifactId");
+  requireString(data, file, "routeDecisionId");
+  requireString(data, file, "pipeline");
+  requireString(data, file, "type");
+  requireString(data, file, "entityId");
+  requireString(data, file, "inputType");
+  requireString(data, file, "sourceKind");
+  requireString(data, file, "status");
+  requireString(data, file, "createdAt");
+  requireString(data, file, "updatedAt");
+  requireString(data, file, "nextAction");
+  if (!rawArtifactIds.has(data.rawArtifactId)) fail(file, `unknown rawArtifactId "${data.rawArtifactId}"`);
+  if (!routeDecisionIds.has(data.routeDecisionId)) fail(file, `unknown routeDecisionId "${data.routeDecisionId}"`);
+  if (!allowedPipelineNames.has(data.pipeline)) fail(file, `invalid pipeline "${data.pipeline}"`);
+  if (!allowedRouteTypes.has(data.type)) fail(file, `invalid route type "${data.type}"`);
+  if (!entityIds.has(data.entityId)) fail(file, `unknown entityId "${data.entityId}"`);
+  requireKnownIds(data, file, "entityIds", entityIds, "entityId", { required: true });
+  if (!allowedInputTypes.has(data.inputType)) fail(file, `invalid inputType "${data.inputType}"`);
+  if (!allowedRouteSourceKind.has(data.sourceKind)) fail(file, `invalid sourceKind "${data.sourceKind}"`);
+  if (!allowedPipelineTaskStatus.has(data.status)) fail(file, `invalid pipeline task status "${data.status}"`);
+  const route = routeDecisions.find((row) => row.data.id === data.routeDecisionId)?.data;
+  if (route) {
+    if (route.rawArtifactId !== data.rawArtifactId) fail(file, "rawArtifactId does not match route decision");
+    if (route.pipeline !== data.pipeline) fail(file, "pipeline does not match route decision");
+    if (route.type !== data.type) fail(file, "type does not match route decision");
+  }
+}
+
 if (errors.length > 0) {
   console.error("Data validation failed:");
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
 }
 
-console.log(`Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}.`);
+console.log(
+  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}.`
+);

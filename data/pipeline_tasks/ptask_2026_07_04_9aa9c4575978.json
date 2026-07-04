@@ -1,0 +1,18 @@
+{
+  "id": "ptask_2026_07_04_9aa9c4575978",
+  "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+  "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+  "pipeline": "product_pipeline",
+  "type": "product",
+  "entityId": "unitree",
+  "entityIds": [
+    "unitree"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "queued",
+  "createdAt": "2026-07-04T16:39:33+08:00",
+  "updatedAt": "2026-07-04T16:39:33+08:00",
+  "nextAction": "run product_pipeline",
+  "notes": "Queued by ingestion entry layer. Pipeline execution is a separate step."
+}

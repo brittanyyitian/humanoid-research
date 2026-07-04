@@ -30,9 +30,11 @@ const milestones = (await readJsonDir("milestones")).map((row) => row.data);
 const stateTransitions = (await readJsonDir("state_transitions")).map((row) => row.data);
 const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
 const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
+const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 
 const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, artifact]));
+const routeDecisionById = new Map(routeDecisions.map((route) => [route.id, route]));
 const evidenceByClaimId = new Map();
 const claimsByEventId = new Map();
 const transitionsBySubject = new Map();
@@ -711,6 +713,45 @@ const router = {
   },
 };
 
+const ingestion = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Ingestion turns URL/RSS/API/manual inputs into raw_artifacts, then routes and queues pipeline tasks.",
+  rows: pipelineTasks
+    .slice()
+    .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)) || String(a.id).localeCompare(String(b.id)))
+    .map((task) => {
+      const artifact = rawArtifactById.get(task.rawArtifactId);
+      const route = routeDecisionById.get(task.routeDecisionId);
+      return {
+        ...task,
+        routeDecision: route || null,
+        rawArtifact: artifact
+          ? {
+              id: artifact.id,
+              title: artifact.title,
+              artifactType: artifact.artifactType,
+              publisher: artifact.publisher,
+              url: artifact.url,
+              publishedAt: artifact.publishedAt || null,
+              firstSeenAt: artifact.firstSeenAt,
+              capturedAt: artifact.capturedAt,
+            }
+          : null,
+      };
+    }),
+  totals: {
+    all: pipelineTasks.length,
+    queued: pipelineTasks.filter((task) => task.status === "queued").length,
+    needsReview: pipelineTasks.filter((task) => task.status === "needs_review").length,
+    completed: pipelineTasks.filter((task) => task.status === "completed").length,
+    failed: pipelineTasks.filter((task) => task.status === "failed").length,
+    byInputType: countBy(pipelineTasks, (task) => task.inputType),
+    byPipeline: countBy(pipelineTasks, (task) => task.pipeline),
+    byStatus: countBy(pipelineTasks, (task) => task.status),
+  },
+};
+
 const dayMs = 24 * 60 * 60 * 1000;
 
 function withinPastWindow(value, days) {
@@ -926,6 +967,7 @@ const stats = {
   entities: entities.length,
   rawArtifacts: rawArtifacts.length,
   routeDecisions: routeDecisions.length,
+  pipelineTasks: pipelineTasks.length,
   claims: claims.length,
   evidence: evidenceRows.length,
   fetchRuns: fetchRuns.length,
@@ -983,6 +1025,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companie
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "router.json"), router);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "ingestion.json"), ingestion);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);
