@@ -14,6 +14,7 @@
     "capture:artifact": "node scripts/capture_artifact.mjs",
     "extract:claims": "node scripts/extract_claims.mjs",
     "promote:claim": "node scripts/promote_claim.mjs",
+    "route:artifact": "node scripts/route_artifact.mjs",
     "validate": "node scripts/validate-data.mjs",
     "check": "npm run validate && npm run build"
   },

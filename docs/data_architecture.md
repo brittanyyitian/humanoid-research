@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / claims / evidence / fetch_runs / milestones / state_transitions
+  raw_artifacts / route_decisions / claims / evidence / fetch_runs / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -102,6 +102,41 @@ AI investment judgments
 
 Serenity output must be converted into this repository's evidence layer before it
 can affect dashboard projections.
+
+## Router Boundary
+
+Router is the first v2.1 automation layer:
+
+```text
+raw_artifact -> route_decision -> pipeline -> claim/evidence
+```
+
+It only decides where a raw artifact should go. It does not promote facts and it
+does not create observations directly.
+
+Supported route types:
+
+```text
+company
+product
+filing
+event
+policy
+supply_chain
+```
+
+The route decision shape must include the user-facing minimum:
+
+```json
+{
+  "type": "product",
+  "entity": "Unitree",
+  "pipeline": "product_pipeline"
+}
+```
+
+Full decisions are stored under `data/route_decisions/` and the configured
+mapping lives in `data/pipelines/pipeline_map.json`.
 
 ## Source
 

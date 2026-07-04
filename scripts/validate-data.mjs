@@ -44,6 +44,18 @@ const allowedFetchStatus = new Set(["success", "partial", "failed", "manual", "s
 const allowedMilestoneStatus = new Set(["upcoming", "due", "resolved", "stale", "cancelled"]);
 const allowedMilestonePrecision = new Set(["day", "month", "quarter", "year", "window"]);
 const allowedTransitionSubjectTypes = new Set(["claim", "followup", "event", "milestone", "source"]);
+const allowedRouteTypes = new Set(["company", "product", "filing", "event", "policy", "supply_chain"]);
+const allowedPipelineNames = new Set([
+  "company_pipeline",
+  "product_pipeline",
+  "filing_pipeline",
+  "event_pipeline",
+  "policy_pipeline",
+  "supply_chain_pipeline",
+]);
+const allowedRouteConfidence = new Set(["high", "medium", "low"]);
+const allowedRouteSourceKind = new Set(["official", "filing", "media", "social", "internal", "market", "unknown"]);
+const allowedRouteStatus = new Set(["routed", "needs_review", "skipped", "manual_override"]);
 const allowedEventTypes = new Set([
   "order",
   "ipo",
@@ -216,6 +228,8 @@ const claims = await readJsonDir("claims");
 const evidence = await readJsonDir("evidence");
 const milestones = await readJsonDir("milestones");
 const stateTransitions = await readJsonDir("state_transitions");
+const routeDecisions = await readJsonDir("route_decisions");
+const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 
 const fetchRunIds = new Set();
 const rawArtifactIds = new Set();
@@ -231,6 +245,21 @@ for (const { file, data } of evidence) registerId(data, file, "id", evidenceIds,
 for (const { file, data } of milestones) registerId(data, file, "id", milestoneIds, "milestone");
 for (const { file, data } of stateTransitions) {
   registerId(data, file, "id", stateTransitionIds, "state transition");
+}
+
+const configuredPipelineByType = new Map();
+if (!Array.isArray(pipelineMap.routes) || pipelineMap.routes.length === 0) {
+  fail("data/pipelines/pipeline_map.json", "routes must be a non-empty array");
+} else {
+  for (const route of pipelineMap.routes) {
+    if (!allowedRouteTypes.has(route.type)) {
+      fail("data/pipelines/pipeline_map.json", `invalid route type "${route.type}"`);
+    }
+    if (!allowedPipelineNames.has(route.pipeline)) {
+      fail("data/pipelines/pipeline_map.json", `invalid pipeline "${route.pipeline}"`);
+    }
+    configuredPipelineByType.set(route.type, route.pipeline);
+  }
 }
 
 for (const { file, data } of fetchRuns) {
@@ -323,6 +352,30 @@ for (const { file, data } of stateTransitions) {
   requireString(data, file, "reason");
   requireKnownIds(data, file, "evidenceIds", evidenceIds, "evidenceId");
   requireKnownIds(data, file, "sourceIds", sourceIds, "sourceId");
+}
+
+const routeDecisionIds = new Set();
+for (const { file, data } of routeDecisions) {
+  registerId(data, file, "id", routeDecisionIds, "route decision");
+  requireString(data, file, "rawArtifactId");
+  requireString(data, file, "entity");
+  requireString(data, file, "entityId");
+  requireString(data, file, "pipeline");
+  requireString(data, file, "reason");
+  requireString(data, file, "createdAt");
+  requireString(data, file, "nextAction");
+  if (!rawArtifactIds.has(data.rawArtifactId)) fail(file, `unknown rawArtifactId "${data.rawArtifactId}"`);
+  if (!allowedRouteTypes.has(data.type)) fail(file, `invalid route type "${data.type}"`);
+  if (!entityIds.has(data.entityId)) fail(file, `unknown entityId "${data.entityId}"`);
+  requireKnownIds(data, file, "entityIds", entityIds, "entityId", { required: true });
+  if (!allowedPipelineNames.has(data.pipeline)) fail(file, `invalid pipeline "${data.pipeline}"`);
+  if (configuredPipelineByType.get(data.type) !== data.pipeline) {
+    fail(file, `pipeline "${data.pipeline}" does not match configured type "${data.type}"`);
+  }
+  if (!allowedRouteConfidence.has(data.confidence)) fail(file, `invalid confidence "${data.confidence}"`);
+  if (!allowedRouteSourceKind.has(data.sourceKind)) fail(file, `invalid sourceKind "${data.sourceKind}"`);
+  if (!allowedRouteStatus.has(data.status)) fail(file, `invalid route status "${data.status}"`);
+  if (!Array.isArray(data.matchedSignals)) fail(file, "matchedSignals must be an array");
 }
 
 if (errors.length > 0) {

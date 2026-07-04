@@ -29,6 +29,8 @@ const fetchRuns = (await readJsonDir("fetch_runs")).map((row) => row.data);
 const milestones = (await readJsonDir("milestones")).map((row) => row.data);
 const stateTransitions = (await readJsonDir("state_transitions")).map((row) => row.data);
 const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
+const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
+const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 
 const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, artifact]));
 const evidenceByClaimId = new Map();
@@ -676,6 +678,39 @@ const freshness = {
   },
 };
 
+const router = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Router decides which pipeline should process each raw artifact. It does not promote facts.",
+  pipelineMap,
+  rows: routeDecisions
+    .slice()
+    .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)) || String(a.id).localeCompare(String(b.id)))
+    .map((route) => {
+      const artifact = rawArtifactById.get(route.rawArtifactId);
+      return {
+        ...route,
+        rawArtifact: artifact
+          ? {
+              id: artifact.id,
+              title: artifact.title,
+              artifactType: artifact.artifactType,
+              publisher: artifact.publisher,
+              url: artifact.url,
+              capturedAt: artifact.capturedAt,
+            }
+          : null,
+      };
+    }),
+  totals: {
+    all: routeDecisions.length,
+    routed: routeDecisions.filter((route) => route.status === "routed").length,
+    needsReview: routeDecisions.filter((route) => route.status === "needs_review").length,
+    byType: countBy(routeDecisions, (route) => route.type),
+    byPipeline: countBy(routeDecisions, (route) => route.pipeline),
+  },
+};
+
 const dayMs = 24 * 60 * 60 * 1000;
 
 function withinPastWindow(value, days) {
@@ -890,6 +925,7 @@ const stats = {
   generatedAt: today.generatedAt,
   entities: entities.length,
   rawArtifacts: rawArtifacts.length,
+  routeDecisions: routeDecisions.length,
   claims: claims.length,
   evidence: evidenceRows.length,
   fetchRuns: fetchRuns.length,
@@ -946,6 +982,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"), obser
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "router.json"), router);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);

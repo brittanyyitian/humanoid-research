@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T16:40:00+08:00",
+  "routes": [
+    {
+      "type": "company",
+      "pipeline": "company_pipeline",
+      "description": "Company official news, profile updates, financing or general corporate movement.",
+      "claimTypes": ["partnership", "milestone", "other"]
+    },
+    {
+      "type": "product",
+      "pipeline": "product_pipeline",
+      "description": "Product pages, launch posts, specification pages and release notes.",
+      "claimTypes": ["product_release", "product_spec", "delivery", "milestone"]
+    },
+    {
+      "type": "filing",
+      "pipeline": "filing_pipeline",
+      "description": "Exchange filings, announcements, financial reports and formal disclosures.",
+      "claimTypes": ["filing", "financial", "order", "partnership", "data_gap"]
+    },
+    {
+      "type": "event",
+      "pipeline": "event_pipeline",
+      "description": "Official event news, delivery milestones, conference posts and deployment updates.",
+      "claimTypes": ["delivery", "order", "partnership", "milestone", "other"]
+    },
+    {
+      "type": "policy",
+      "pipeline": "policy_pipeline",
+      "description": "Government policies, notices, guidelines, subsidy programs and deadlines.",
+      "claimTypes": ["milestone", "data_gap", "other"]
+    },
+    {
+      "type": "supply_chain",
+      "pipeline": "supply_chain_pipeline",
+      "description": "Supply-chain company pages, component disclosures and customer relationship signals.",
+      "claimTypes": ["partnership", "order", "product_spec", "data_gap"]
+    }
+  ]
+}

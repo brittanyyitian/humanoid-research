@@ -115,3 +115,20 @@ npm run promote:claim -- \
 ```
 
 All three scripts support `--dry-run`.
+
+## Router CLI
+
+Route one captured raw artifact:
+
+```bash
+npm run route:artifact -- --artifact-id raw_2026_07_04_example_com_abcd123456
+```
+
+Route all artifacts that do not already have route decisions:
+
+```bash
+npm run route:artifact -- --all
+```
+
+Router output goes to `data/route_decisions/`. It decides the pipeline only; it
+does not extract claims and does not promote formal events.
