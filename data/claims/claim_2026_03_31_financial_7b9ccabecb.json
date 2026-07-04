@@ -1,0 +1,27 @@
+{
+  "id": "claim_2026_03_31_financial_7b9ccabecb",
+  "claimType": "financial",
+  "text": "奥比中光2026-03-31一季报结构化财务数据进入待审核：营收 2.03亿元，净利润 3099.66万元，经营现金流 -1.17亿元。",
+  "normalizedFact": "奥比中光 latest structured financial period 2026-03-31: revenue=202887914.06, net_income=30996569.3, operating_cash_flow=-117430404.43.",
+  "entityIds": [
+    "orbbec"
+  ],
+  "productIds": [],
+  "artifactIds": [
+    "raw_2026_03_31_serenity_688322_financials_2026_03_31"
+  ],
+  "status": "candidate",
+  "reviewStatus": "inbox",
+  "confidence": "low",
+  "occurredAt": "2026-03-31",
+  "publishedAt": "2026-03-31",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "processedAt": "2026-07-04T18:20:00+08:00",
+  "dueAt": null,
+  "resolvedAt": null,
+  "promotedEventIds": [],
+  "promotedFollowupIds": [],
+  "whyNow": "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
+  "notes": "Generated from Serenity financials at 2026-07-04T18:20:00+08:00. Source level=C; do not treat as verified filing until review."
+}

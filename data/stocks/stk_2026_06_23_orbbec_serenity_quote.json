@@ -1,0 +1,27 @@
+{
+  "id": "stk_2026_06_23_orbbec_serenity_quote",
+  "date": "2026-06-23",
+  "time": "08:00",
+  "snapshotType": "intraday",
+  "isFinal": false,
+  "entityId": "orbbec",
+  "stockCode": "688322",
+  "market": "SSE",
+  "close": null,
+  "price": 124.99,
+  "changePct": -5.44,
+  "turnoverAmount": null,
+  "turnoverRate": null,
+  "mainNetInflow": null,
+  "changePct5d": null,
+  "changePct20d": null,
+  "sourceIds": [
+    "src_serenity_688322_current_quote_yahoo_chart_l2"
+  ],
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "provider": "serenity",
+  "providerSourceUrl": "https://quote.eastmoney.com/688322.html",
+  "quoteUrl": "https://quote.eastmoney.com/688322.html",
+  "quoteTime": "2026-06-23T08:00:00+08:00",
+  "notes": "Imported by Serenity Bridge v0 as market context only; not an investment signal."
+}

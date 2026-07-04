@@ -52,9 +52,10 @@ async function runOneTask(task, options) {
   const source = await readJsonFile(path.join(DATA_DIR, "sources", `${artifact.sourceId}.json`));
   const fetchRun = await readJsonFile(path.join(DATA_DIR, "fetch_runs", `${artifact.fetchRunId}.json`));
   const routeDecision = await readJsonFile(path.join(DATA_DIR, "route_decisions", `${task.routeDecisionId}.json`));
+  const rawPayload = await readRawPayload(artifact);
   const handler = PIPELINE_HANDLERS[task.pipeline] || genericClaim;
   const processedAt = options.startedAt;
-  const claimDraft = handler({ task, artifact, source, routeDecision, processedAt });
+  const claimDraft = handler({ task, artifact, source, routeDecision, rawPayload, processedAt });
   const { claim, evidence, paths } = buildClaimEvidence({
     task,
     artifact,
@@ -228,7 +229,53 @@ function productClaim({ artifact, routeDecision, processedAt }) {
   };
 }
 
-function filingClaim({ artifact, processedAt }) {
+function filingClaim({ artifact, source, rawPayload, processedAt }) {
+  const serenity = rawPayload?.content?.serenityBridge;
+  if (serenity?.dataset === "filings_announcements") {
+    const item = serenity.payload || {};
+    const publishedAt = item.announcement_date || artifact.publishedAt;
+    return {
+      claimType: "filing",
+      text: `${entityDisplayName(rawPayload, artifact)}披露公告《${artifact.title}》（${dateFrom(publishedAt)}）。`,
+      normalizedFact: `${entityDisplayName(rawPayload, artifact)} disclosed filing "${artifact.title}" on ${dateFrom(publishedAt)}.`,
+      confidence: "medium",
+      occurredAt: dateFrom(publishedAt),
+      publishedAt,
+      relation: "supports",
+      sourceLevel: source.evidenceLevel || "A",
+      strength: source.evidenceLevel === "A" ? "strong" : "medium",
+      quote: artifact.title,
+      whyNow: "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
+      notes: `Generated from Serenity filings_announcements at ${processedAt}. Candidate only; no automatic promotion.`,
+      evidenceNotes: "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion.",
+    };
+  }
+
+  if (serenity?.dataset === "financials") {
+    const latest = serenity.payload?.latestPeriod || {};
+    const currency = serenity.payload?.currency || "CNY";
+    const period = latest.period || artifact.publishedAt;
+    const reportType = latest.report_type || "财报";
+    const revenue = formatMoney(latest.revenue, currency);
+    const netIncome = formatMoney(latest.net_income, currency);
+    const operatingCashFlow = formatMoney(latest.operating_cash_flow, currency);
+    return {
+      claimType: "financial",
+      text: `${entityDisplayName(rawPayload, artifact)}${dateFrom(period)}${reportType}结构化财务数据进入待审核：营收 ${revenue}，净利润 ${netIncome}，经营现金流 ${operatingCashFlow}。`,
+      normalizedFact: `${entityDisplayName(rawPayload, artifact)} latest structured financial period ${dateFrom(period)}: revenue=${latest.revenue}, net_income=${latest.net_income}, operating_cash_flow=${latest.operating_cash_flow}.`,
+      confidence: source.evidenceLevel === "A" || source.evidenceLevel === "B" ? "medium" : "low",
+      occurredAt: dateFrom(period),
+      publishedAt: period,
+      relation: "mentions",
+      sourceLevel: source.evidenceLevel || "C",
+      strength: source.evidenceLevel === "A" ? "strong" : source.evidenceLevel === "B" ? "medium" : "weak",
+      quote: `${period} ${reportType}: revenue ${latest.revenue}, net_income ${latest.net_income}`,
+      whyNow: "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
+      notes: `Generated from Serenity financials at ${processedAt}. Source level=${source.evidenceLevel}; do not treat as verified filing until review.`,
+      evidenceNotes: "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard.",
+    };
+  }
+
   return {
     claimType: "filing",
     text: `${artifact.publisher}存在待审核公告/披露材料《${artifact.title}》。`,
@@ -343,6 +390,36 @@ async function readOrDefault(file, fallback) {
   }
 }
 
+async function readRawPayload(artifact) {
+  if (!artifact.storagePath) return null;
+  try {
+    return await readJsonFile(path.join(DATA_DIR, artifact.storagePath));
+  } catch {
+    return null;
+  }
+}
+
 function upsertById(rows, row) {
   return [...rows.filter((item) => item.id !== row.id), row];
+}
+
+function entityDisplayName(rawPayload, artifact) {
+  const serenity = rawPayload?.content?.serenityBridge;
+  return (
+    serenity?.entityName ||
+    serenity?.payload?.name ||
+    serenity?.payload?.security_name ||
+    serenity?.payload?.latestPeriod?.security_name ||
+    artifact.publisher
+  );
+}
+
+function formatMoney(value, currency) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "--";
+  const unit = currency === "CNY" ? "元" : currency || "";
+  const abs = Math.abs(number);
+  if (abs >= 100000000) return `${(number / 100000000).toFixed(2)}亿${unit}`;
+  if (abs >= 10000) return `${(number / 10000).toFixed(2)}万${unit}`;
+  return `${number.toFixed(2)}${unit}`;
 }

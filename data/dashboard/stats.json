@@ -1,17 +1,17 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:22:41.406Z",
+  "generatedAt": "2026-07-04T09:38:26.704Z",
   "entities": 29,
-  "rawArtifacts": 2,
-  "routeDecisions": 2,
-  "pipelineTasks": 1,
-  "pipelineRuns": 1,
+  "rawArtifacts": 7,
+  "routeDecisions": 7,
+  "pipelineTasks": 5,
+  "pipelineRuns": 5,
   "observationRuns": 1,
   "schedulerSources": 1,
   "schedulerRuns": 1,
-  "claims": 3,
-  "evidence": 3,
-  "fetchRuns": 2,
+  "claims": 7,
+  "evidence": 7,
+  "fetchRuns": 5,
   "milestones": 1,
   "stateTransitions": 2,
   "events": 5,
@@ -19,10 +19,11 @@
   "followups": 4,
   "observations": 1,
   "dataGaps": 26,
-  "stockSnapshots": 26,
-  "sources": 9,
+  "stockSnapshots": 27,
+  "sources": 12,
   "evidenceLevels": {
-    "A": 7,
-    "B": 2
+    "A": 8,
+    "B": 3,
+    "C": 1
   }
 }

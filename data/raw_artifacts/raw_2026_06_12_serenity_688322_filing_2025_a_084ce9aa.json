@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+  "artifactType": "filing",
+  "title": "2025年度向特定对象发行A股股票发行情况报告书",
+  "publisher": "CNINFO_Announcements_L0",
+  "url": "https://static.cninfo.com.cn/finalpage/example-688322-placement.pdf",
+  "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+  "fetchRunId": "fetch_2026_06_23_serenity_688322_filings_announcements",
+  "publishedAt": "2026-06-12",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "contentHash": "sha256:f2c8a9f9ef609e3cf4dd99e4938d3e768e94852047343944cbf8853bc24fa6f1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_5bf12d6891"
+  ],
+  "status": "active",
+  "notes": "Serenity Bridge v0 CNINFO announcement artifact. Candidate claim must stay in inbox until review."
+}

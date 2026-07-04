@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T18:20:00+08:00",
+  "policy": "Serenity Bridge v0 imports evidence-bearing market/disclosure datasets only. Valuation, rating, portfolio, buy-point and investment-decision outputs are intentionally excluded.",
+  "datasets": {
+    "current_quote": {
+      "mode": "stock_snapshot",
+      "artifactType": "market_quote",
+      "sourceType": "exchange",
+      "route": true,
+      "enqueuePipeline": false,
+      "description": "Latest quote payload becomes a stock snapshot and source-backed raw artifact."
+    },
+    "filings_announcements": {
+      "mode": "filing_claims",
+      "artifactType": "filing",
+      "sourceType": "filing",
+      "route": true,
+      "enqueuePipeline": true,
+      "description": "Each announcement becomes a filing artifact routed to filing_pipeline."
+    },
+    "financials": {
+      "mode": "financial_claim",
+      "artifactType": "filing",
+      "sourceType": "filing",
+      "route": true,
+      "enqueuePipeline": true,
+      "description": "Latest structured financial period becomes a financial claim candidate with source-level limits."
+    },
+    "provider_health": {
+      "mode": "source_health",
+      "artifactType": "serenity_output",
+      "sourceType": "exchange",
+      "route": false,
+      "enqueuePipeline": false,
+      "description": "Provider health is summarized in dashboard/serenity_bridge.json."
+    },
+    "data_gaps": {
+      "mode": "data_gap",
+      "artifactType": "serenity_output",
+      "sourceType": "exchange",
+      "route": false,
+      "enqueuePipeline": false,
+      "description": "Data gaps are retained on fetch_runs and the Serenity dashboard projection."
+    }
+  },
+  "blockedDatasets": [
+    "valuation_inputs",
+    "rating",
+    "portfolio",
+    "buy_point",
+    "technical_signal",
+    "position_sizing",
+    "investment_recommendation"
+  ],
+  "sourceLevelMap": {
+    "L0": "A",
+    "L1": "A",
+    "L2": "B",
+    "L3": "C",
+    "L4": "D",
+    "L5": "D"
+  }
+}

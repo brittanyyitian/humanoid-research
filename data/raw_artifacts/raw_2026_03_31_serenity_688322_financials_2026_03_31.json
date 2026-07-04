@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+  "artifactType": "filing",
+  "title": "奥比中光 2026-03-31 一季报结构化财务数据",
+  "publisher": "Eastmoney_F10_Financials_L3",
+  "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+  "sourceId": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+  "fetchRunId": "fetch_2026_06_23_serenity_688322_financials",
+  "publishedAt": "2026-03-31",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "contentHash": "sha256:3d8484b844b93dab847395b1c6dcd6d6dcfb35b573146612205b6b2071be7ebd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_31_serenity_688322_financials_2026_03_31.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_03_31_financial_7b9ccabecb"
+  ],
+  "status": "active",
+  "notes": "Serenity Bridge v0 structured financial artifact. L3 financial data remains a candidate until L0/L1 review."
+}

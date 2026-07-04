@@ -1,0 +1,33 @@
+{
+  "id": "fetch_2026_06_23_serenity_688322_filings_announcements",
+  "fetcher": "serenity_bridge_v0",
+  "sourceName": "Serenity filings_announcements · CNINFO_Announcements_L0",
+  "sourceType": "serenity_bridge",
+  "startedAt": "2026-07-04T18:20:00+08:00",
+  "finishedAt": "2026-07-04T18:20:00+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+    "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+    "raw_2026_06_01_serenity_688322_filing_item_78302bd5"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_5bf12d6891",
+    "claim_2026_05_15_filing_4ec343f48a",
+    "claim_2026_06_01_filing_80c064155f"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "serenity_dataset_import",
+      "inputType": "api",
+      "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+      "status": "OK",
+      "startedAt": "2026-06-23T08:00:00+08:00",
+      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "contentHash": "14eba715eda28864",
+      "storagePath": "serenity:filings_announcements"
+    }
+  ]
+}

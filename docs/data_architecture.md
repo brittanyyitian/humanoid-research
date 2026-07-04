@@ -25,6 +25,7 @@ Dashboard Layer
   dashboard/upcoming.json
   dashboard/ingestion.json
   dashboard/pipelines.json
+  dashboard/serenity_bridge.json
   dashboard/observation_projection.json
   dashboard/scheduler.json
 ```
@@ -106,6 +107,28 @@ AI investment judgments
 
 Serenity output must be converted into this repository's evidence layer before it
 can affect dashboard projections.
+
+Bridge v0 is an adapter, not a replacement data model:
+
+```text
+Serenity manifest/results
+-> source
+-> raw_artifact + raw_artifacts/payloads
+-> fetch_run(sourceType=serenity_bridge)
+-> route_decision
+-> pipeline_task for filings/financials only
+-> claim/evidence candidate
+-> inbox
+```
+
+Market quotes are routed as `skipped` claim pipelines and feed stock snapshots
+only. Filing announcements and financial datasets route to `filing_pipeline`.
+Serenity financials from L3 sources remain low-confidence candidates and carry
+data gaps until reconciled against L0/L1 disclosures.
+
+Dataset admission rules live in `data/serenity_bridge/dataset_map.json`.
+Decision-layer datasets such as `valuation_inputs`, `rating`, `portfolio`,
+`buy_point`, and sizing outputs stay blocked there.
 
 ## Ingestion Boundary
 

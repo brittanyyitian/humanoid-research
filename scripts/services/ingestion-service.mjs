@@ -197,7 +197,7 @@ export async function ingestInput(options = {}) {
       data: routeDecision,
     };
 
-    if (options.enqueuePipeline !== false) {
+    if (options.enqueuePipeline !== false && routeDecision.status !== "skipped") {
       const existingTask = await findPipelineTaskByRoute(routeDecision.id);
       const pipelineTask =
         existingTask && !options.forceTask

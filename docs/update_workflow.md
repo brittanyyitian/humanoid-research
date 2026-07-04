@@ -195,6 +195,48 @@ data/inbox/claim_candidates.json
 Pipeline output is still only a candidate. It must remain in inbox until manual
 review promotes it into events, relations, follow-ups or stocks.
 
+## V2 Serenity Bridge
+
+Use Serenity Bridge as the real-world listed-company adapter. It imports
+Serenity fetch manifests into this repository's evidence pipeline without
+accepting Serenity's decision layer.
+
+```bash
+npm run serenity:bridge -- \
+  --manifest data/serenity_bridge/samples/orbbec_688322/manifest.json \
+  --run-pipeline
+```
+
+For a non-writing check:
+
+```bash
+npm run serenity:bridge -- \
+  --manifest data/serenity_bridge/samples/orbbec_688322/manifest.json \
+  --dry-run
+```
+
+Bridge v0 writes:
+
+```text
+data/sources/src_serenity_*.json
+data/raw_artifacts/raw_*_serenity_*.json
+data/raw_artifacts/payloads/raw_*_serenity_*.json
+data/fetch_runs/fetch_*_serenity_*.json
+data/route_decisions/route_*.json
+data/pipeline_tasks/ptask_*.json for filings/financials
+data/stocks/stk_*_serenity_quote.json
+data/dashboard/serenity_bridge.json after generate
+```
+
+Rules:
+
+- `current_quote` becomes a stock snapshot and does not generate a claim.
+- `filings_announcements` becomes filing claim candidates in inbox.
+- `financials` becomes a low-confidence financial claim candidate when the source is L3.
+- Serenity data gaps stay on `fetch_runs.gaps` and `dashboard/serenity_bridge.json`.
+- `valuation_inputs`, `rating`, `portfolio`, `buy_point`, and sizing outputs are blocked by `data/serenity_bridge/dataset_map.json`.
+- Nothing from Bridge is promoted into `events`, `followups`, or `observations` automatically.
+
 ## V2.1 Observation Projection
 
 Use Observation Projection after `npm run generate` has refreshed dashboard

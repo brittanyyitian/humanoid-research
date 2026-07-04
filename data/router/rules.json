@@ -13,6 +13,18 @@
   },
   "routes": [
     {
+      "type": "company",
+      "confidence": "medium",
+      "status": "skipped",
+      "nextAction": "stock snapshot only; no claim pipeline",
+      "reason": "Market quote artifacts update stock snapshots and should not create claim candidates.",
+      "artifactTypes": ["market_quote"],
+      "signal": {
+        "field": "artifact",
+        "reason": "market quote snapshot"
+      }
+    },
+    {
       "type": "filing",
       "confidence": "high",
       "reason": "Artifact looks like a formal filing or exchange announcement.",

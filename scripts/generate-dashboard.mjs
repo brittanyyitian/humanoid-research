@@ -34,6 +34,7 @@ const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.dat
 const pipelineRuns = (await readJsonDir("pipeline_runs")).map((row) => row.data);
 const observationRuns = (await readJsonDir("observation_runs")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
+const serenityDatasetMap = await readJsonFile(path.join(DATA_DIR, "serenity_bridge", "dataset_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
 const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
 const schedulerRuns = (await readJsonDir("scheduler_runs")).map((row) => row.data);
@@ -870,6 +871,94 @@ const pipelines = {
   },
 };
 
+const serenityFetchRuns = fetchRuns.filter((run) => run.fetcher === "serenity_bridge_v0");
+const serenityArtifactIdSet = new Set(serenityFetchRuns.flatMap((run) => run.artifactIds || []));
+const serenityRawArtifacts = rawArtifacts.filter((artifact) => serenityArtifactIdSet.has(artifact.id));
+const serenityClaimRows = claims.filter((claim) =>
+  (claim.artifactIds || []).some((artifactId) => serenityArtifactIdSet.has(artifactId))
+);
+const serenityStockRows = stockRows.filter((stock) =>
+  (stock.sourceIds || []).some((sourceId) => String(sourceId).startsWith("src_serenity_"))
+);
+const serenityBridge = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Serenity Bridge only imports evidence-bearing datasets. Rating, valuation, portfolio, buy-point and sizing outputs are excluded.",
+  acceptedDatasets: Object.keys(serenityDatasetMap.datasets || {}),
+  excludedDatasets: serenityDatasetMap.blockedDatasets || [],
+  rows: serenityFetchRuns
+    .slice()
+    .sort((a, b) => String(b.finishedAt).localeCompare(String(a.finishedAt)) || String(a.id).localeCompare(String(b.id)))
+    .map((run) => ({
+      id: run.id,
+      sourceName: run.sourceName,
+      status: run.status,
+      startedAt: run.startedAt,
+      finishedAt: run.finishedAt,
+      artifactIds: run.artifactIds || [],
+      claimIds: run.claimIds || [],
+      gaps: run.gaps || [],
+      attempts: run.attemptLedger || [],
+      rawArtifacts: (run.artifactIds || [])
+        .map((artifactId) => rawArtifactById.get(artifactId))
+        .filter(Boolean)
+        .map((artifact) => ({
+          id: artifact.id,
+          title: artifact.title,
+          artifactType: artifact.artifactType,
+          publisher: artifact.publisher,
+          url: artifact.url,
+          publishedAt: artifact.publishedAt || null,
+          capturedAt: artifact.capturedAt,
+          routeDecision: routeDecisions.find((route) => route.rawArtifactId === artifact.id) || null,
+        })),
+    })),
+  stockSnapshots: serenityStockRows.map((stock) => ({
+    id: stock.id,
+    date: stock.date,
+    time: stock.time || null,
+    entityId: stock.entityId,
+    company: entityById.get(stock.entityId)?.name || stock.entityId,
+    stockCode: stock.stockCode,
+    market: stock.market,
+    price: stock.price ?? stock.close ?? null,
+    changePct: stock.changePct ?? null,
+    capturedAt: stock.capturedAt,
+    quoteTime: stock.quoteTime || null,
+    sources: enrichSources(stock.sourceIds),
+  })),
+  claimCandidates: serenityClaimRows.map((claim) => ({
+    id: claim.id,
+    claimType: claim.claimType,
+    text: claim.text,
+    status: claim.status,
+    reviewStatus: claim.reviewStatus,
+    confidence: claim.confidence,
+    artifactIds: claim.artifactIds,
+    evidence: (evidenceByClaimId.get(claim.id) || []).map((row) => ({
+      id: row.id,
+      relation: row.relation,
+      sourceLevel: row.sourceLevel,
+      strength: row.strength,
+      source: sourceById.get(row.sourceId) || null,
+    })),
+  })),
+  dataGaps: serenityFetchRuns.flatMap((run) =>
+    (run.gaps || []).map((gap) => ({
+      fetchRunId: run.id,
+      sourceName: run.sourceName,
+      ...gap,
+    }))
+  ),
+  totals: {
+    fetchRuns: serenityFetchRuns.length,
+    rawArtifacts: serenityRawArtifacts.length,
+    stockSnapshots: serenityStockRows.length,
+    claimCandidates: serenityClaimRows.length,
+    dataGaps: serenityFetchRuns.reduce((total, run) => total + (run.gaps?.length || 0), 0),
+  },
+};
+
 const schedulerRows = (schedulerConfig.sources || []).map((source) => {
   const cadence = schedulerCadenceById.get(source.cadenceKey);
   const state = schedulerState.sources?.[source.id] || {};
@@ -1200,6 +1289,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshnes
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "router.json"), router);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "ingestion.json"), ingestion);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "pipelines.json"), pipelines);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "serenity_bridge.json"), serenityBridge);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "scheduler.json"), scheduler);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);

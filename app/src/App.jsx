@@ -9,6 +9,7 @@ import gaps from "@data/dashboard/gaps.json";
 import market from "@data/dashboard/market.json";
 import observations from "@data/dashboard/observations.json";
 import relations from "@data/dashboard/relations.json";
+import serenityBridge from "@data/dashboard/serenity_bridge.json";
 import sourceRegistry from "@data/dashboard/sources.json";
 import stats from "@data/dashboard/stats.json";
 import timeline from "@data/dashboard/timeline.json";
@@ -818,6 +819,7 @@ function TimelineView({ openEvidence }) {
 function DatabaseView({ openEvidence }) {
   const sourceRows = sourceRegistry.rows || [];
   const levelRows = Object.entries(stats.evidenceLevels || {});
+  const serenityTotals = serenityBridge.totals || {};
 
   return (
     <DetailShell title="数据库" meta={stats.date}>
@@ -836,6 +838,56 @@ function DatabaseView({ openEvidence }) {
         <OverviewItem label="股票快照" value={stats.stockSnapshots} />
         <OverviewItem label="来源" value={stats.sources} />
       </div>
+
+      <section className="workspace-section">
+        <header>
+          <h3>Serenity Bridge</h3>
+          <span>{serenityTotals.fetchRuns || 0}</span>
+        </header>
+        <div className="status-board database-board">
+          <OverviewItem label="Raw" value={serenityTotals.rawArtifacts || 0} />
+          <OverviewItem label="候选" value={serenityTotals.claimCandidates || 0} />
+          <OverviewItem label="行情" value={serenityTotals.stockSnapshots || 0} />
+          <OverviewItem label="缺口" value={serenityTotals.dataGaps || 0} />
+        </div>
+        {serenityBridge.dataGaps?.length ? (
+          <div className="gap-list">
+            {serenityBridge.dataGaps.slice(0, 4).map((row) => (
+              <div key={`${row.fetchRunId}_${row.kind}`}>
+                <strong>{row.dataset}</strong>
+                <span>{row.evidenceLevel || "--"}级</span>
+                <p>{row.description}</p>
+              </div>
+            ))}
+          </div>
+        ) : null}
+        {serenityBridge.claimCandidates?.length ? (
+          <div className="database-list">
+            {serenityBridge.claimCandidates.slice(0, 4).map((row) => (
+              <button
+                key={row.id}
+                onClick={() =>
+                  openEvidence({
+                    title: row.text,
+                    fact: row.text,
+                    module: "Serenity Bridge",
+                    evidenceLevel: row.evidence?.[0]?.sourceLevel || "--",
+                    sources: row.evidence?.map((item) => item.source).filter(Boolean) || [],
+                  })
+                }
+              >
+                <span>{row.claimType}</span>
+                <strong>{row.text}</strong>
+                <small>
+                  {row.reviewStatus} · {row.confidence}
+                </small>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <EmptyState>暂无 Serenity 候选</EmptyState>
+        )}
+      </section>
 
       <section className="workspace-section">
         <header>

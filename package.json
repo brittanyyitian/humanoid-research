@@ -14,6 +14,7 @@
     "capture:artifact": "node scripts/capture_artifact.mjs",
     "ingest:input": "node scripts/ingest_input.mjs",
     "scheduler:tick": "node scripts/scheduler_tick.mjs",
+    "serenity:bridge": "node scripts/serenity_bridge.mjs",
     "pipeline:run": "node scripts/run_pipeline.mjs",
     "observation:project": "node scripts/project_observations.mjs",
     "hardening:check": "node scripts/hardening_check.mjs",

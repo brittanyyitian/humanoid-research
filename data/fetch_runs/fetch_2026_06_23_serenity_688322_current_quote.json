@@ -1,0 +1,27 @@
+{
+  "id": "fetch_2026_06_23_serenity_688322_current_quote",
+  "fetcher": "serenity_bridge_v0",
+  "sourceName": "Serenity current_quote · Yahoo_Chart_L2",
+  "sourceType": "serenity_bridge",
+  "startedAt": "2026-07-04T18:20:00+08:00",
+  "finishedAt": "2026-07-04T18:20:00+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_23_serenity_688322_current_quote"
+  ],
+  "claimIds": [],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "serenity_dataset_import",
+      "inputType": "api",
+      "url": "https://quote.eastmoney.com/688322.html",
+      "status": "OK",
+      "startedAt": "2026-06-23T08:00:00+08:00",
+      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "contentHash": "sha256:0ba3fbba9be00e705589e01faaaf4e27bfd90e168ea76a1705139764407c9b7b",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_23_serenity_688322_current_quote.json"
+    }
+  ]
+}

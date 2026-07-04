@@ -1,0 +1,43 @@
+{
+  "id": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "api",
+    "url": "https://static.cninfo.com.cn/finalpage/example-688322-reduction.pdf",
+    "title": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告",
+    "publisher": "CNINFO_Announcements_L0",
+    "publishedAt": "2026-05-15",
+    "sourceType": "filing",
+    "artifactType": "filing",
+    "entityIds": [
+      "orbbec"
+    ],
+    "serenityBridge": {
+      "version": 0,
+      "dataset": "filings_announcements",
+      "mode": "filing_claims",
+      "entityName": "奥比中光",
+      "retrievedAt": "2026-06-23T08:00:00+08:00",
+      "symbol": {
+        "input_value": "688322",
+        "symbol": "688322.SH",
+        "market": "CN_A",
+        "exchange": "SH",
+        "currency": "CNY"
+      },
+      "result": {
+        "dataset": "filings_announcements",
+        "status": "OK",
+        "source": "CNINFO_Announcements_L0",
+        "source_level": "L0_OFFICIAL_DISCLOSURE",
+        "data_path": "announcements.json"
+      },
+      "payload": {
+        "title": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告",
+        "announcement_date": "2026-05-15",
+        "pdf_url": "https://static.cninfo.com.cn/finalpage/example-688322-reduction.pdf"
+      }
+    }
+  }
+}

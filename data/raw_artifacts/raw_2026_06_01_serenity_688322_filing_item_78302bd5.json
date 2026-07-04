@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
+  "artifactType": "filing",
+  "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+  "publisher": "CNINFO_Announcements_L0",
+  "url": "https://static.cninfo.com.cn/finalpage/example-688322-buyback.pdf",
+  "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+  "fetchRunId": "fetch_2026_06_23_serenity_688322_filings_announcements",
+  "publishedAt": "2026-06-01",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "contentHash": "sha256:9345ade24a239427a94853c4bb7abe24aec85b33c6cc7c006d38a89fff877d0b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_01_serenity_688322_filing_item_78302bd5.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_06_01_filing_80c064155f"
+  ],
+  "status": "active",
+  "notes": "Serenity Bridge v0 CNINFO announcement artifact. Candidate claim must stay in inbox until review."
+}

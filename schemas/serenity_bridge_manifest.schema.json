@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "serenity_bridge_manifest.schema.json",
+  "title": "Serenity Bridge Manifest",
+  "type": "object",
+  "required": ["symbol", "retrieved_at", "data_acquisition", "results"],
+  "properties": {
+    "symbol": {
+      "type": "object",
+      "required": ["symbol"],
+      "properties": {
+        "input_value": { "type": "string" },
+        "symbol": { "type": "string", "minLength": 1 },
+        "market": { "type": "string" },
+        "exchange": { "type": "string" },
+        "currency": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "retrieved_at": { "type": "string", "minLength": 1 },
+    "data_acquisition": { "type": "object" },
+    "data_quality": { "type": "object" },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dataset", "status", "source", "source_level"],
+        "properties": {
+          "dataset": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "minLength": 1 },
+          "source_level": { "type": "string", "minLength": 1 },
+          "data_path": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:22:41.406Z",
+  "generatedAt": "2026-07-04T09:38:26.704Z",
   "rows": [
     {
       "id": "src_agibot_20260611_aima_ecosystem_plan",
@@ -36,6 +36,33 @@
       "sourceType": "market_data",
       "url": "https://quote.eastmoney.com/",
       "evidenceLevel": "B",
+      "status": "active"
+    },
+    {
+      "id": "src_serenity_688322_current_quote_yahoo_chart_l2",
+      "title": "奥比中光 行情 · Serenity Bridge",
+      "publisher": "Yahoo_Chart_L2",
+      "sourceType": "exchange",
+      "url": "https://quote.eastmoney.com/688322.html",
+      "evidenceLevel": "B",
+      "status": "active"
+    },
+    {
+      "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+      "title": "奥比中光 公告 · Serenity Bridge",
+      "publisher": "CNINFO_Announcements_L0",
+      "sourceType": "filing",
+      "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+      "evidenceLevel": "A",
+      "status": "active"
+    },
+    {
+      "id": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+      "title": "奥比中光 财报 · Serenity Bridge",
+      "publisher": "Eastmoney_F10_Financials_L3",
+      "sourceType": "filing",
+      "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+      "evidenceLevel": "C",
       "status": "active"
     },
     {

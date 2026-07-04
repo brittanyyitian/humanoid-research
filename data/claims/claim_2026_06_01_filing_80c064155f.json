@@ -1,0 +1,27 @@
+{
+  "id": "claim_2026_06_01_filing_80c064155f",
+  "claimType": "filing",
+  "text": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+  "normalizedFact": "奥比中光 disclosed filing \"关于以集中竞价交易方式回购公司股份的进展公告\" on 2026-06-01.",
+  "entityIds": [
+    "orbbec"
+  ],
+  "productIds": [],
+  "artifactIds": [
+    "raw_2026_06_01_serenity_688322_filing_item_78302bd5"
+  ],
+  "status": "candidate",
+  "reviewStatus": "inbox",
+  "confidence": "medium",
+  "occurredAt": "2026-06-01",
+  "publishedAt": "2026-06-01",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "processedAt": "2026-07-04T18:20:00+08:00",
+  "dueAt": null,
+  "resolvedAt": null,
+  "promotedEventIds": [],
+  "promotedFollowupIds": [],
+  "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
+  "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+}

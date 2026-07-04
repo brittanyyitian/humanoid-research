@@ -1,0 +1,47 @@
+{
+  "id": "raw_2026_06_23_serenity_688322_current_quote",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "api",
+    "url": "https://quote.eastmoney.com/688322.html",
+    "title": "奥比中光 688322 Serenity 行情快照",
+    "publisher": "Yahoo_Chart_L2",
+    "publishedAt": "2026-06-23T08:00:00+08:00",
+    "sourceType": "exchange",
+    "artifactType": "market_quote",
+    "entityIds": [
+      "orbbec"
+    ],
+    "serenityBridge": {
+      "version": 0,
+      "dataset": "current_quote",
+      "mode": "stock_snapshot",
+      "entityName": "奥比中光",
+      "retrievedAt": "2026-06-23T08:00:00+08:00",
+      "symbol": {
+        "input_value": "688322",
+        "symbol": "688322.SH",
+        "market": "CN_A",
+        "exchange": "SH",
+        "currency": "CNY"
+      },
+      "result": {
+        "dataset": "current_quote",
+        "status": "OK",
+        "source": "Yahoo_Chart_L2",
+        "source_level": "L2_FREE_API_OR_OPEN_SOURCE",
+        "data_path": "quote.json"
+      },
+      "payload": {
+        "symbol": "688322.SS",
+        "name": "奥比中光",
+        "currency": "CNY",
+        "regular_market_price": 124.99,
+        "previous_close": 132.18,
+        "fifty_two_week_high": 150,
+        "fifty_two_week_low": 55.61
+      }
+    }
+  }
+}

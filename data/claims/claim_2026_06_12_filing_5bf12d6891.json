@@ -1,0 +1,27 @@
+{
+  "id": "claim_2026_06_12_filing_5bf12d6891",
+  "claimType": "filing",
+  "text": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+  "normalizedFact": "奥比中光 disclosed filing \"2025年度向特定对象发行A股股票发行情况报告书\" on 2026-06-12.",
+  "entityIds": [
+    "orbbec"
+  ],
+  "productIds": [],
+  "artifactIds": [
+    "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa"
+  ],
+  "status": "candidate",
+  "reviewStatus": "inbox",
+  "confidence": "medium",
+  "occurredAt": "2026-06-12",
+  "publishedAt": "2026-06-12",
+  "firstSeenAt": "2026-07-04T18:20:00+08:00",
+  "capturedAt": "2026-07-04T18:20:00+08:00",
+  "processedAt": "2026-07-04T18:20:00+08:00",
+  "dueAt": null,
+  "resolvedAt": null,
+  "promotedEventIds": [],
+  "promotedFollowupIds": [],
+  "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
+  "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+}

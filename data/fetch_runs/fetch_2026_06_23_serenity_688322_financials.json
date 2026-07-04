@@ -1,0 +1,43 @@
+{
+  "id": "fetch_2026_06_23_serenity_688322_financials",
+  "fetcher": "serenity_bridge_v0",
+  "sourceName": "Serenity financials · Eastmoney_F10_Financials_L3",
+  "sourceType": "serenity_bridge",
+  "startedAt": "2026-07-04T18:20:00+08:00",
+  "finishedAt": "2026-07-04T18:20:00+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_03_31_serenity_688322_financials_2026_03_31"
+  ],
+  "claimIds": [
+    "claim_2026_03_31_financial_7b9ccabecb"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "dataset": "financials",
+      "status": "PARTIAL",
+      "gap_type": "NOT_MACHINE_READABLE",
+      "decision_impact": "EVIDENCE_IMPACT",
+      "next_action": "Reconcile financial statement lines against official filings or L1 export.",
+      "source_name": "Eastmoney_F10_Financials_L3",
+      "source_level": "L3_MEDIA_F10_RESEARCH",
+      "evidenceLevel": "C",
+      "kind": "serenity_not_machine_readable",
+      "description": "financials: Reconcile financial statement lines against official filings or L1 export.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "serenity_dataset_import",
+      "inputType": "api",
+      "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+      "status": "OK",
+      "startedAt": "2026-06-23T08:00:00+08:00",
+      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "contentHash": "sha256:3d8484b844b93dab847395b1c6dcd6d6dcfb35b573146612205b6b2071be7ebd",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_31_serenity_688322_financials_2026_03_31.json"
+    }
+  ]
+}

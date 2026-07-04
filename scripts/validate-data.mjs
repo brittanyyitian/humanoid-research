@@ -245,6 +245,7 @@ const pipelineRuns = await readJsonDir("pipeline_runs");
 const observationRuns = await readJsonDir("observation_runs");
 const schedulerRuns = await readJsonDir("scheduler_runs");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
+const serenityDatasetMap = await readJsonFile(path.join(DATA_DIR, "serenity_bridge", "dataset_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
 const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
 
@@ -284,6 +285,36 @@ if (!Array.isArray(pipelineMap.routes) || pipelineMap.routes.length === 0) {
       fail("data/pipelines/pipeline_map.json", `invalid pipeline "${route.pipeline}"`);
     }
     configuredPipelineByType.set(route.type, route.pipeline);
+  }
+}
+
+const allowedSerenityModes = new Set(["stock_snapshot", "filing_claims", "financial_claim", "source_health", "data_gap"]);
+if (!serenityDatasetMap || typeof serenityDatasetMap !== "object") {
+  fail("data/serenity_bridge/dataset_map.json", "dataset map must be an object");
+} else {
+  if (!serenityDatasetMap.datasets || typeof serenityDatasetMap.datasets !== "object") {
+    fail("data/serenity_bridge/dataset_map.json", "datasets must be an object");
+  } else {
+    for (const [dataset, config] of Object.entries(serenityDatasetMap.datasets)) {
+      if (!allowedSerenityModes.has(config.mode)) {
+        fail("data/serenity_bridge/dataset_map.json", `invalid mode "${config.mode}" for ${dataset}`);
+      }
+      if (!allowedArtifactTypes.has(config.artifactType)) {
+        fail("data/serenity_bridge/dataset_map.json", `invalid artifactType "${config.artifactType}" for ${dataset}`);
+      }
+      if (!allowedIngestionSourceTypes.has(config.sourceType)) {
+        fail("data/serenity_bridge/dataset_map.json", `invalid sourceType "${config.sourceType}" for ${dataset}`);
+      }
+      if (typeof config.route !== "boolean" || typeof config.enqueuePipeline !== "boolean") {
+        fail("data/serenity_bridge/dataset_map.json", `${dataset} must declare boolean route/enqueuePipeline`);
+      }
+    }
+  }
+  const blocked = new Set(serenityDatasetMap.blockedDatasets || []);
+  for (const dataset of ["valuation_inputs", "rating", "portfolio", "buy_point"]) {
+    if (!blocked.has(dataset)) {
+      fail("data/serenity_bridge/dataset_map.json", `blockedDatasets must include ${dataset}`);
+    }
   }
 }
 

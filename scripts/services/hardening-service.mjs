@@ -60,6 +60,7 @@ async function loadData() {
   const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
   const routerRules = await readJsonFile(path.join(DATA_DIR, "router", "rules.json"));
   const ingestionRules = await readJsonFile(path.join(DATA_DIR, "ingestion", "rules.json"));
+  const serenityDatasetMap = await readJsonFile(path.join(DATA_DIR, "serenity_bridge", "dataset_map.json"));
   const lifecycleFixtures = (await readOptionalJson(path.join(DATA_DIR, "hardening", "lifecycle_fixtures.json"))) || {
     claims: [],
   };
@@ -73,6 +74,7 @@ async function loadData() {
     pipelineMap,
     routerRules,
     ingestionRules,
+    serenityDatasetMap,
     lifecycleFixtures,
     maps: {
       rawById: mapById(rows.rawArtifacts),
@@ -395,9 +397,23 @@ async function checkRuleIsolation(data) {
   if (!Array.isArray(data.ingestionRules.sourceTypes) || !Array.isArray(data.ingestionRules.artifactTypes)) {
     errors.push("ingestion rules must declare sourceTypes and artifactTypes");
   }
+  for (const dataset of ["current_quote", "filings_announcements", "financials"]) {
+    if (!data.serenityDatasetMap.datasets?.[dataset]) {
+      errors.push(`serenity dataset map must declare ${dataset}`);
+    }
+  }
+  for (const dataset of ["valuation_inputs", "rating", "portfolio", "buy_point"]) {
+    if (!(data.serenityDatasetMap.blockedDatasets || []).includes(dataset)) {
+      errors.push(`serenity dataset map must block ${dataset}`);
+    }
+  }
 
   const routerSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "router-service.mjs"), "utf8");
   const ingestionSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "ingestion-service.mjs"), "utf8");
+  const serenityBridgeSource = await fs.readFile(
+    path.join(DATA_DIR, "..", "scripts", "services", "serenity-bridge-service.mjs"),
+    "utf8"
+  );
   if (/hasAny\([^)]*\[[^\]]+\]/s.test(routerSource)) {
     errors.push("router-service contains inline keyword arrays; move route keywords to data/router/rules.json");
   }
@@ -410,6 +426,9 @@ async function checkRuleIsolation(data) {
   if (!ingestionSource.includes('path.join(DATA_DIR, "ingestion", "rules.json")')) {
     errors.push("ingestion-service does not load data/ingestion/rules.json");
   }
+  if (!serenityBridgeSource.includes('path.join(DATA_DIR, "serenity_bridge", "dataset_map.json")')) {
+    errors.push("serenity-bridge-service does not load data/serenity_bridge/dataset_map.json");
+  }
   if ((data.routerRules.routes || []).some((rule) => !rule.signal)) {
     warnings.push("some router rules have no signal metadata");
   }
@@ -417,6 +436,7 @@ async function checkRuleIsolation(data) {
   return result("rule_isolation", errors, warnings, {
     routeTypes: routeTypes.size,
     routerRules: data.routerRules.routes?.length || 0,
+    serenityDatasets: Object.keys(data.serenityDatasetMap.datasets || {}).length,
   });
 }
 
