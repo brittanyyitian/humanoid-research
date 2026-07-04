@@ -8,7 +8,7 @@
   "fetchRunId": "fetch_2026_07_04_unitree_com_75867f61e9",
   "publishedAt": null,
   "firstSeenAt": "2026-07-04T16:39:33+08:00",
-  "capturedAt": "2026-07-04T16:39:33+08:00",
+  "capturedAt": "2026-07-04T16:49:01+08:00",
   "contentHash": "sha256:75867f61e952c1d652dd043b1144e344b89ae1083740409a133938833c80d065",
   "storagePath": null,
   "entityIds": [
@@ -16,5 +16,5 @@
   ],
   "claimIds": [],
   "status": "active",
-  "notes": "Ingestion sample reusing existing official H2 PLUS source."
+  "notes": "Scheduled industry source for the v2.1 scheduler heartbeat sample."
 }

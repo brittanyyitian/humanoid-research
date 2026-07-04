@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T16:45:00+08:00",
+  "policy": "Scheduler feeds configured sources into ingestion only. It does not extract claims, promote facts or generate observations.",
+  "cadences": [
+    {
+      "id": "market",
+      "label": "Market sources",
+      "seconds": 60,
+      "minSeconds": 30,
+      "maxSeconds": 60
+    },
+    {
+      "id": "filing",
+      "label": "Filing sources",
+      "seconds": 1800,
+      "minSeconds": 600,
+      "maxSeconds": 1800
+    },
+    {
+      "id": "industry",
+      "label": "Industry sources",
+      "seconds": 7200,
+      "minSeconds": 3600,
+      "maxSeconds": 10800
+    }
+  ],
+  "sources": [
+    {
+      "id": "industry_unitree_h2plus_product",
+      "enabled": true,
+      "cadenceKey": "industry",
+      "inputType": "url",
+      "title": "Unitree H2 PLUS 产研一体 全栈启航",
+      "publisher": "宇树科技股份有限公司",
+      "url": "https://www.unitree.com/cn/H2plus/",
+      "entityIds": ["unitree"],
+      "artifactType": "product_page",
+      "sourceType": "webpage",
+      "sourceId": "src_unitree_h2plus_product",
+      "sourceLevel": "A",
+      "notes": "Scheduled industry source for the v2.1 scheduler heartbeat sample."
+    }
+  ]
+}

@@ -64,6 +64,7 @@ export async function ingestInput(options = {}) {
   const artifactPath = path.join(DATA_DIR, "raw_artifacts", `${artifactId}.json`);
   const fetchRunPath = path.join(DATA_DIR, "fetch_runs", `${fetchRunId}.json`);
   const inboxPath = path.join(DATA_DIR, "inbox", "artifact_candidates.json");
+  const existingRawArtifact = await readOrDefault(artifactPath, null);
 
   const source = {
     id: sourceId,
@@ -87,7 +88,7 @@ export async function ingestInput(options = {}) {
     sourceId,
     fetchRunId,
     publishedAt: options.publishedAt || null,
-    firstSeenAt: capturedAt,
+    firstSeenAt: existingRawArtifact?.firstSeenAt || capturedAt,
     capturedAt,
     contentHash: `sha256:${hash(`${inputType}|${options.url}|${title}|${options.publishedAt || ""}`, 64)}`,
     storagePath: null,

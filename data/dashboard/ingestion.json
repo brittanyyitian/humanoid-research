@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:40:02.668Z",
+  "generatedAt": "2026-07-04T08:50:17.554Z",
   "policy": "Ingestion turns URL/RSS/API/manual inputs into raw_artifacts, then routes and queues pipeline tasks.",
   "rows": [
     {
@@ -53,7 +53,7 @@
         "url": "https://www.unitree.com/cn/H2plus/",
         "publishedAt": null,
         "firstSeenAt": "2026-07-04T16:39:33+08:00",
-        "capturedAt": "2026-07-04T16:39:33+08:00"
+        "capturedAt": "2026-07-04T16:49:01+08:00"
       }
     }
   ],

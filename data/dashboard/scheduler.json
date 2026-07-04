@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-04T08:50:17.554Z",
+  "policy": "Scheduler feeds configured sources into ingestion only. It does not extract claims, promote facts or generate observations.",
+  "cadences": [
+    {
+      "id": "market",
+      "label": "Market sources",
+      "seconds": 60,
+      "minSeconds": 30,
+      "maxSeconds": 60
+    },
+    {
+      "id": "filing",
+      "label": "Filing sources",
+      "seconds": 1800,
+      "minSeconds": 600,
+      "maxSeconds": 1800
+    },
+    {
+      "id": "industry",
+      "label": "Industry sources",
+      "seconds": 7200,
+      "minSeconds": 3600,
+      "maxSeconds": 10800
+    }
+  ],
+  "rows": [
+    {
+      "id": "industry_unitree_h2plus_product",
+      "enabled": true,
+      "cadenceKey": "industry",
+      "cadenceSeconds": 7200,
+      "inputType": "url",
+      "title": "Unitree H2 PLUS 产研一体 全栈启航",
+      "publisher": "宇树科技股份有限公司",
+      "url": "https://www.unitree.com/cn/H2plus/",
+      "entityIds": [
+        "unitree"
+      ],
+      "artifactType": "product_page",
+      "sourceType": "webpage",
+      "sourceId": "src_unitree_h2plus_product",
+      "lastRunAt": "2026-07-04T16:49:01+08:00",
+      "lastSuccessAt": "2026-07-04T16:49:01+08:00",
+      "lastStatus": "success",
+      "nextDueAt": "2026-07-04T18:49:01+08:00",
+      "dueStatus": "waiting",
+      "lastSchedulerRunId": "sched_2026_07_04_dacd36a5a52b",
+      "lastRawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "lastRouteDecisionId": "route_2026_07_04_9bf207e29f78",
+      "lastPipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+      "consecutiveFailures": 0
+    }
+  ],
+  "recentRuns": [
+    {
+      "id": "sched_2026_07_04_dacd36a5a52b",
+      "mode": "tick",
+      "dryRun": false,
+      "status": "success",
+      "startedAt": "2026-07-04T16:49:01+08:00",
+      "finishedAt": "2026-07-04T16:49:01+08:00",
+      "sourceCount": 1,
+      "selectedCount": 1,
+      "dueCount": 1,
+      "attemptedCount": 1,
+      "successCount": 1,
+      "failureCount": 0,
+      "skippedCount": 0,
+      "cadenceKeys": [
+        "industry"
+      ],
+      "results": [
+        {
+          "sourceId": "industry_unitree_h2plus_product",
+          "cadenceKey": "industry",
+          "inputType": "url",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "status": "success",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+          "pipeline": "product_pipeline",
+          "error": null,
+          "reason": "forced"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "sources": 1,
+    "enabledSources": 1,
+    "dueSources": 0,
+    "runs": 1,
+    "failedRuns": 0,
+    "byCadence": {
+      "industry": 1
+    },
+    "byStatus": {
+      "success": 1
+    }
+  }
+}

@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / route_decisions / pipeline_tasks / claims / evidence / fetch_runs / milestones / state_transitions
+  raw_artifacts / route_decisions / pipeline_tasks / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -24,6 +24,7 @@ Dashboard Layer
   dashboard/window_summary.json
   dashboard/upcoming.json
   dashboard/ingestion.json
+  dashboard/scheduler.json
 ```
 
 ## SSOT Boundary
@@ -128,6 +129,44 @@ npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitre
 
 `capture:artifact` remains a compatibility tool for manual captures, but v2.1
 automation should enter through `ingest:input`.
+
+## Scheduler Boundary
+
+Scheduler is the v2.1 heartbeat layer:
+
+```text
+scheduler source config
+-> scheduler tick
+-> ingestion entry
+-> raw_artifact
+-> route_decision
+-> pipeline_task
+```
+
+It does not fetch broad web pages, extract claims, run pipelines or promote
+observations. It only decides which configured source is due and hands that
+source to ingestion.
+
+The cadence buckets are:
+
+```text
+market    30-60 seconds
+filing    10-30 minutes
+industry  1-3 hours
+```
+
+Source configuration lives in `data/scheduler/sources.json`, run history lives
+under `data/scheduler_runs/`, and last-run state lives in
+`data/scheduler/state.json`.
+
+The one-shot heartbeat command is:
+
+```bash
+npm run scheduler:tick
+```
+
+This one-shot shape is intentional: cron, GitHub Actions, a local daemon or a
+future service can all call the same tick without duplicating scheduling logic.
 
 ## Router Boundary
 

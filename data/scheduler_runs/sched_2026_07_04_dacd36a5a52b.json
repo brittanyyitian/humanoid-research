@@ -1,0 +1,33 @@
+{
+  "id": "sched_2026_07_04_dacd36a5a52b",
+  "mode": "tick",
+  "dryRun": false,
+  "status": "success",
+  "startedAt": "2026-07-04T16:49:01+08:00",
+  "finishedAt": "2026-07-04T16:49:01+08:00",
+  "sourceCount": 1,
+  "selectedCount": 1,
+  "dueCount": 1,
+  "attemptedCount": 1,
+  "successCount": 1,
+  "failureCount": 0,
+  "skippedCount": 0,
+  "cadenceKeys": [
+    "industry"
+  ],
+  "results": [
+    {
+      "sourceId": "industry_unitree_h2plus_product",
+      "cadenceKey": "industry",
+      "inputType": "url",
+      "url": "https://www.unitree.com/cn/H2plus/",
+      "status": "success",
+      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+      "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+      "pipeline": "product_pipeline",
+      "error": null,
+      "reason": "forced"
+    }
+  ]
+}

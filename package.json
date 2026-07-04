@@ -13,6 +13,7 @@
     "fetch:news": "python3 scripts/fetch_news.py",
     "capture:artifact": "node scripts/capture_artifact.mjs",
     "ingest:input": "node scripts/ingest_input.mjs",
+    "scheduler:tick": "node scripts/scheduler_tick.mjs",
     "extract:claims": "node scripts/extract_claims.mjs",
     "promote:claim": "node scripts/promote_claim.mjs",
     "route:artifact": "node scripts/route_artifact.mjs",

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "capturedAt": "2026-07-04T16:39:33+08:00",
+  "capturedAt": "2026-07-04T16:49:01+08:00",
   "reviewStatus": "pending_manual_review",
   "policy": "Ingestion entries become raw artifacts first, then Router decides the pipeline.",
   "candidates": [
@@ -17,7 +17,7 @@
       ],
       "inputType": "url",
       "reviewStatus": "pending",
-      "capturedAt": "2026-07-04T16:39:33+08:00"
+      "capturedAt": "2026-07-04T16:49:01+08:00"
     }
   ]
 }

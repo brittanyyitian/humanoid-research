@@ -85,6 +85,45 @@ npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitre
 This step does not extract claims and does not promote observations. It only
 creates the durable handoff into the routed pipeline.
 
+## V2.1 Scheduler Tick
+
+Use Scheduler as the system heartbeat. It reads configured sources, checks
+whether each source is due, then calls ingestion for due items.
+
+```bash
+npm run scheduler:tick
+```
+
+For a non-writing check:
+
+```bash
+npm run scheduler:tick -- --dry-run --force
+```
+
+Run only one source:
+
+```bash
+npm run scheduler:tick -- --source-id industry_unitree_h2plus_product --force
+```
+
+Scheduler writes:
+
+```text
+data/scheduler/state.json
+data/scheduler_runs/sched_*.json
+```
+
+The frequencies are configured in `data/scheduler/sources.json`:
+
+```text
+market    30-60 seconds
+filing    10-30 minutes
+industry  1-3 hours
+```
+
+Scheduler must not extract claims, promote facts or edit observations. Those
+remain downstream pipeline and review steps.
+
 ## Inbox Fetch Gate
 
 Use inbox for raw or semi-structured fetch results:

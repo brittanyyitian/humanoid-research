@@ -59,6 +59,10 @@ const allowedRouteSourceKind = new Set(["official", "filing", "media", "social",
 const allowedRouteStatus = new Set(["routed", "needs_review", "skipped", "manual_override"]);
 const allowedPipelineTaskStatus = new Set(["queued", "running", "completed", "failed", "skipped", "needs_review"]);
 const allowedInputTypes = new Set(["url", "rss", "api", "manual"]);
+const allowedIngestionSourceTypes = new Set(["webpage", "pdf", "video", "filing", "wechat", "news", "exchange", "government"]);
+const allowedSchedulerCadenceKeys = new Set(["market", "filing", "industry"]);
+const allowedSchedulerRunStatus = new Set(["success", "partial", "failed", "skipped", "dry_run"]);
+const allowedSchedulerResultStatus = new Set(["success", "failed", "planned"]);
 const allowedEventTypes = new Set([
   "order",
   "ipo",
@@ -233,7 +237,10 @@ const milestones = await readJsonDir("milestones");
 const stateTransitions = await readJsonDir("state_transitions");
 const routeDecisions = await readJsonDir("route_decisions");
 const pipelineTasks = await readJsonDir("pipeline_tasks");
+const schedulerRuns = await readJsonDir("scheduler_runs");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
+const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
+const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
 
 const fetchRunIds = new Set();
 const rawArtifactIds = new Set();
@@ -242,6 +249,7 @@ const evidenceIds = new Set();
 const milestoneIds = new Set();
 const stateTransitionIds = new Set();
 const pipelineTaskIds = new Set();
+const schedulerRunIds = new Set();
 
 for (const { file, data } of fetchRuns) registerId(data, file, "id", fetchRunIds, "fetch run");
 for (const { file, data } of rawArtifacts) registerId(data, file, "id", rawArtifactIds, "raw artifact");
@@ -252,6 +260,7 @@ for (const { file, data } of stateTransitions) {
   registerId(data, file, "id", stateTransitionIds, "state transition");
 }
 for (const { file, data } of pipelineTasks) registerId(data, file, "id", pipelineTaskIds, "pipeline task");
+for (const { file, data } of schedulerRuns) registerId(data, file, "id", schedulerRunIds, "scheduler run");
 
 const configuredPipelineByType = new Map();
 if (!Array.isArray(pipelineMap.routes) || pipelineMap.routes.length === 0) {
@@ -265,6 +274,63 @@ if (!Array.isArray(pipelineMap.routes) || pipelineMap.routes.length === 0) {
       fail("data/pipelines/pipeline_map.json", `invalid pipeline "${route.pipeline}"`);
     }
     configuredPipelineByType.set(route.type, route.pipeline);
+  }
+}
+
+const schedulerCadenceIds = new Set();
+if (!Array.isArray(schedulerConfig.cadences) || schedulerConfig.cadences.length === 0) {
+  fail("data/scheduler/sources.json", "cadences must be a non-empty array");
+} else {
+  for (const cadence of schedulerConfig.cadences) {
+    requireString(cadence, "data/scheduler/sources.json", "id");
+    requireString(cadence, "data/scheduler/sources.json", "label");
+    if (!allowedSchedulerCadenceKeys.has(cadence.id)) {
+      fail("data/scheduler/sources.json", `invalid cadence id "${cadence.id}"`);
+    }
+    if (!Number.isInteger(cadence.seconds) || cadence.seconds <= 0) {
+      fail("data/scheduler/sources.json", `cadence "${cadence.id}" seconds must be positive`);
+    }
+    if (schedulerCadenceIds.has(cadence.id)) {
+      fail("data/scheduler/sources.json", `duplicate cadence id "${cadence.id}"`);
+    }
+    schedulerCadenceIds.add(cadence.id);
+  }
+}
+
+const schedulerSourceIds = new Set();
+if (!Array.isArray(schedulerConfig.sources)) {
+  fail("data/scheduler/sources.json", "sources must be an array");
+} else {
+  for (const source of schedulerConfig.sources) {
+    requireString(source, "data/scheduler/sources.json", "id");
+    requireString(source, "data/scheduler/sources.json", "cadenceKey");
+    requireString(source, "data/scheduler/sources.json", "inputType");
+    requireString(source, "data/scheduler/sources.json", "title");
+    requireString(source, "data/scheduler/sources.json", "publisher");
+    requireString(source, "data/scheduler/sources.json", "url");
+    if (schedulerSourceIds.has(source.id)) {
+      fail("data/scheduler/sources.json", `duplicate scheduler source id "${source.id}"`);
+    }
+    schedulerSourceIds.add(source.id);
+    if (!schedulerCadenceIds.has(source.cadenceKey)) {
+      fail("data/scheduler/sources.json", `unknown cadenceKey "${source.cadenceKey}"`);
+    }
+    if (!allowedInputTypes.has(source.inputType)) {
+      fail("data/scheduler/sources.json", `invalid inputType "${source.inputType}"`);
+    }
+    if (!String(source.url || "").startsWith("http")) {
+      fail("data/scheduler/sources.json", "source url must be clickable http(s)");
+    }
+    if (!allowedArtifactTypes.has(source.artifactType)) {
+      fail("data/scheduler/sources.json", `invalid artifactType "${source.artifactType}"`);
+    }
+    if (!allowedIngestionSourceTypes.has(source.sourceType)) {
+      fail("data/scheduler/sources.json", `invalid sourceType "${source.sourceType}"`);
+    }
+    if (!allowedEvidence.has(source.sourceLevel)) {
+      fail("data/scheduler/sources.json", "sourceLevel must be A/B/C/D");
+    }
+    requireKnownIds(source, "data/scheduler/sources.json", "entityIds", entityIds, "entityId", { required: true });
   }
 }
 
@@ -413,6 +479,72 @@ for (const { file, data } of pipelineTasks) {
   }
 }
 
+for (const { file, data } of schedulerRuns) {
+  requireString(data, file, "mode");
+  requireString(data, file, "status");
+  requireString(data, file, "startedAt");
+  if (!allowedSchedulerRunStatus.has(data.status)) fail(file, `invalid scheduler status "${data.status}"`);
+  if (!Array.isArray(data.cadenceKeys)) fail(file, "cadenceKeys must be an array");
+  for (const cadenceKey of data.cadenceKeys || []) {
+    if (!schedulerCadenceIds.has(cadenceKey)) fail(file, `unknown cadenceKey "${cadenceKey}"`);
+  }
+  if (!Array.isArray(data.results)) {
+    fail(file, "results must be an array");
+    continue;
+  }
+  for (const result of data.results) {
+    requireString(result, file, "sourceId");
+    requireString(result, file, "cadenceKey");
+    requireString(result, file, "inputType");
+    requireString(result, file, "url");
+    requireString(result, file, "status");
+    requireString(result, file, "reason");
+    if (!schedulerSourceIds.has(result.sourceId)) fail(file, `unknown scheduler sourceId "${result.sourceId}"`);
+    if (!schedulerCadenceIds.has(result.cadenceKey)) fail(file, `unknown cadenceKey "${result.cadenceKey}"`);
+    if (!allowedInputTypes.has(result.inputType)) fail(file, `invalid inputType "${result.inputType}"`);
+    if (!allowedSchedulerResultStatus.has(result.status)) fail(file, `invalid result status "${result.status}"`);
+    if (result.rawArtifactId && !rawArtifactIds.has(result.rawArtifactId)) {
+      fail(file, `unknown rawArtifactId "${result.rawArtifactId}"`);
+    }
+    if (result.routeDecisionId && !routeDecisionIds.has(result.routeDecisionId)) {
+      fail(file, `unknown routeDecisionId "${result.routeDecisionId}"`);
+    }
+    if (result.pipelineTaskId && !pipelineTaskIds.has(result.pipelineTaskId)) {
+      fail(file, `unknown pipelineTaskId "${result.pipelineTaskId}"`);
+    }
+    if (result.pipeline && !allowedPipelineNames.has(result.pipeline)) fail(file, `invalid pipeline "${result.pipeline}"`);
+  }
+}
+
+if (!schedulerState || typeof schedulerState !== "object") {
+  fail("data/scheduler/state.json", "state must be an object");
+} else {
+  requireString(schedulerState, "data/scheduler/state.json", "updatedAt");
+  const stateSources = schedulerState.sources || {};
+  for (const [sourceId, sourceState] of Object.entries(stateSources)) {
+    if (!schedulerSourceIds.has(sourceId)) fail("data/scheduler/state.json", `unknown state source "${sourceId}"`);
+    requireString(sourceState, "data/scheduler/state.json", "lastCheckedAt");
+    requireString(sourceState, "data/scheduler/state.json", "lastRunAt");
+    requireString(sourceState, "data/scheduler/state.json", "lastSchedulerRunId");
+    requireString(sourceState, "data/scheduler/state.json", "lastStatus");
+    if (!allowedSchedulerResultStatus.has(sourceState.lastStatus)) {
+      fail("data/scheduler/state.json", `invalid lastStatus "${sourceState.lastStatus}"`);
+    }
+    if (schedulerRunIds.size > 0 && !schedulerRunIds.has(sourceState.lastSchedulerRunId)) {
+      fail("data/scheduler/state.json", `unknown lastSchedulerRunId "${sourceState.lastSchedulerRunId}"`);
+    }
+    if (sourceState.lastRawArtifactId && !rawArtifactIds.has(sourceState.lastRawArtifactId)) {
+      fail("data/scheduler/state.json", `unknown lastRawArtifactId "${sourceState.lastRawArtifactId}"`);
+    }
+    if (sourceState.lastRouteDecisionId && !routeDecisionIds.has(sourceState.lastRouteDecisionId)) {
+      fail("data/scheduler/state.json", `unknown lastRouteDecisionId "${sourceState.lastRouteDecisionId}"`);
+    }
+    if (sourceState.lastPipelineTaskId && !pipelineTaskIds.has(sourceState.lastPipelineTaskId)) {
+      fail("data/scheduler/state.json", `unknown lastPipelineTaskId "${sourceState.lastPipelineTaskId}"`);
+    }
+  }
+}
+
 if (errors.length > 0) {
   console.error("Data validation failed:");
   for (const error of errors) console.error(`- ${error}`);
@@ -420,5 +552,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}.`
+  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, scheduler runs: ${schedulerRunIds.size}.`
 );

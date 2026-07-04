@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scheduler_sources.schema.json",
+  "title": "Scheduler Sources",
+  "type": "object",
+  "required": ["version", "updatedAt", "policy", "cadences", "sources"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "updatedAt": { "type": "string", "minLength": 1 },
+    "policy": { "type": "string", "minLength": 1 },
+    "cadences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "seconds"],
+        "properties": {
+          "id": { "type": "string", "enum": ["market", "filing", "industry"] },
+          "label": { "type": "string", "minLength": 1 },
+          "seconds": { "type": "integer", "minimum": 1 },
+          "minSeconds": { "type": "integer", "minimum": 1 },
+          "maxSeconds": { "type": "integer", "minimum": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "enabled",
+          "cadenceKey",
+          "inputType",
+          "title",
+          "publisher",
+          "url",
+          "entityIds",
+          "artifactType",
+          "sourceType",
+          "sourceLevel"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_\\-]+$" },
+          "enabled": { "type": "boolean" },
+          "cadenceKey": { "type": "string", "enum": ["market", "filing", "industry"] },
+          "inputType": { "type": "string", "enum": ["url", "rss", "api", "manual"] },
+          "title": { "type": "string", "minLength": 1 },
+          "publisher": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "pattern": "^https?://" },
+          "entityIds": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "artifactType": {
+            "type": "string",
+            "enum": [
+              "webpage",
+              "product_page",
+              "news_page",
+              "filing",
+              "pdf",
+              "video_transcript",
+              "wechat",
+              "market_quote",
+              "serenity_output"
+            ]
+          },
+          "sourceType": {
+            "type": "string",
+            "enum": ["webpage", "pdf", "video", "filing", "wechat", "news", "exchange", "government"]
+          },
+          "sourceId": { "type": "string" },
+          "sourceLevel": { "type": "string", "enum": ["A", "B", "C", "D"] },
+          "publishedAt": { "type": ["string", "null"] },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

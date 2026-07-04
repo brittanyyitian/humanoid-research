@@ -32,9 +32,13 @@ const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
 const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
 const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
+const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
+const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
+const schedulerRuns = (await readJsonDir("scheduler_runs")).map((row) => row.data);
 
 const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, artifact]));
 const routeDecisionById = new Map(routeDecisions.map((route) => [route.id, route]));
+const schedulerCadenceById = new Map((schedulerConfig.cadences || []).map((cadence) => [cadence.id, cadence]));
 const evidenceByClaimId = new Map();
 const claimsByEventId = new Map();
 const transitionsBySubject = new Map();
@@ -99,6 +103,33 @@ function latestTime(values) {
     .map(String)
     .sort()
     .at(-1);
+}
+
+function addSeconds(value, seconds) {
+  const time = dateTime(value);
+  if (!time || !seconds) return null;
+  return shanghaiDateTime(time + seconds * 1000);
+}
+
+function shanghaiDateTime(time) {
+  const parts = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).format(new Date(time));
+  return `${parts.replace(" ", "T")}+08:00`;
+}
+
+function dueStatus(lastRunAt, seconds) {
+  if (!lastRunAt) return "never_run";
+  const nextDue = addSeconds(lastRunAt, seconds);
+  if (!nextDue) return "unknown";
+  return Date.parse(nextDue) <= Date.now() ? "due" : "waiting";
 }
 
 function freshnessStatus(lastSeenAt, maxAgeHours) {
@@ -625,6 +656,8 @@ const market = {
 
 const pendingClaims = claims.filter((claim) => claim.reviewStatus === "inbox" || claim.status === "candidate");
 const fetchFailures = fetchRuns.filter((run) => run.status === "failed" || run.status === "partial");
+const schedulerFailures = schedulerRuns.filter((run) => run.status === "failed" || run.status === "partial");
+const latestSchedulerFinishedAt = latestTime(schedulerRuns.map((run) => run.finishedAt));
 const freshnessRows = [
   {
     id: "market",
@@ -658,6 +691,14 @@ const freshnessRows = [
     count: fetchRuns.length,
     failedCount: fetchFailures.length,
   },
+  {
+    id: "scheduler",
+    label: "Scheduler 心跳",
+    lastSeenAt: latestSchedulerFinishedAt,
+    status: schedulerFailures.length ? "has_failures" : freshnessStatus(latestSchedulerFinishedAt, 6),
+    count: schedulerRuns.length,
+    failedCount: schedulerFailures.length,
+  },
 ];
 
 const freshness = {
@@ -677,6 +718,8 @@ const freshness = {
     pendingClaims: pendingClaims.length,
     fetchRuns: fetchRuns.length,
     fetchFailures: fetchFailures.length,
+    schedulerRuns: schedulerRuns.length,
+    schedulerFailures: schedulerFailures.length,
   },
 };
 
@@ -749,6 +792,57 @@ const ingestion = {
     byInputType: countBy(pipelineTasks, (task) => task.inputType),
     byPipeline: countBy(pipelineTasks, (task) => task.pipeline),
     byStatus: countBy(pipelineTasks, (task) => task.status),
+  },
+};
+
+const schedulerRows = (schedulerConfig.sources || []).map((source) => {
+  const cadence = schedulerCadenceById.get(source.cadenceKey);
+  const state = schedulerState.sources?.[source.id] || {};
+  const nextDueAt = addSeconds(state.lastRunAt, cadence?.seconds);
+  return {
+    id: source.id,
+    enabled: source.enabled !== false,
+    cadenceKey: source.cadenceKey,
+    cadenceSeconds: cadence?.seconds || null,
+    inputType: source.inputType,
+    title: source.title,
+    publisher: source.publisher,
+    url: source.url,
+    entityIds: source.entityIds,
+    artifactType: source.artifactType,
+    sourceType: source.sourceType,
+    sourceId: source.sourceId || null,
+    lastRunAt: state.lastRunAt || null,
+    lastSuccessAt: state.lastSuccessAt || null,
+    lastStatus: state.lastStatus || "never_run",
+    nextDueAt,
+    dueStatus: dueStatus(state.lastRunAt, cadence?.seconds),
+    lastSchedulerRunId: state.lastSchedulerRunId || null,
+    lastRawArtifactId: state.lastRawArtifactId || null,
+    lastRouteDecisionId: state.lastRouteDecisionId || null,
+    lastPipelineTaskId: state.lastPipelineTaskId || null,
+    consecutiveFailures: state.consecutiveFailures || 0,
+  };
+});
+
+const scheduler = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: schedulerConfig.policy,
+  cadences: schedulerConfig.cadences || [],
+  rows: schedulerRows,
+  recentRuns: schedulerRuns
+    .slice()
+    .sort((a, b) => String(b.startedAt).localeCompare(String(a.startedAt)) || String(b.id).localeCompare(String(a.id)))
+    .slice(0, 10),
+  totals: {
+    sources: schedulerRows.length,
+    enabledSources: schedulerRows.filter((row) => row.enabled).length,
+    dueSources: schedulerRows.filter((row) => row.enabled && row.dueStatus !== "waiting").length,
+    runs: schedulerRuns.length,
+    failedRuns: schedulerFailures.length,
+    byCadence: countBy(schedulerRows, (row) => row.cadenceKey),
+    byStatus: countBy(schedulerRows, (row) => row.lastStatus),
   },
 };
 
@@ -968,6 +1062,8 @@ const stats = {
   rawArtifacts: rawArtifacts.length,
   routeDecisions: routeDecisions.length,
   pipelineTasks: pipelineTasks.length,
+  schedulerSources: schedulerRows.length,
+  schedulerRuns: schedulerRuns.length,
   claims: claims.length,
   evidence: evidenceRows.length,
   fetchRuns: fetchRuns.length,
@@ -1026,6 +1122,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "router.json"), router);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "ingestion.json"), ingestion);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "scheduler.json"), scheduler);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);

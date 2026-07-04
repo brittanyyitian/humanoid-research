@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scheduler_state.schema.json",
+  "title": "Scheduler State",
+  "type": "object",
+  "required": ["updatedAt", "sources"],
+  "properties": {
+    "updatedAt": { "type": "string", "minLength": 1 },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["lastCheckedAt", "lastRunAt", "lastSchedulerRunId", "lastStatus", "consecutiveFailures"],
+        "properties": {
+          "lastCheckedAt": { "type": "string", "minLength": 1 },
+          "lastRunAt": { "type": "string", "minLength": 1 },
+          "lastSuccessAt": { "type": ["string", "null"] },
+          "lastSchedulerRunId": { "type": "string" },
+          "lastStatus": { "type": "string", "enum": ["success", "failed", "planned"] },
+          "lastRawArtifactId": { "type": ["string", "null"] },
+          "lastRouteDecisionId": { "type": ["string", "null"] },
+          "lastPipelineTaskId": { "type": ["string", "null"] },
+          "consecutiveFailures": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,10 +1,12 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:40:02.668Z",
+  "generatedAt": "2026-07-04T08:50:17.554Z",
   "entities": 29,
   "rawArtifacts": 2,
   "routeDecisions": 2,
   "pipelineTasks": 1,
+  "schedulerSources": 1,
+  "schedulerRuns": 1,
   "claims": 2,
   "evidence": 2,
   "fetchRuns": 2,
