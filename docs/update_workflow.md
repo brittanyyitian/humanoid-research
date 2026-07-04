@@ -186,6 +186,7 @@ npm run pipeline:run -- --task-id ptask_2026_07_04_9aa9c4575978 --dry-run
 Pipeline writes:
 
 ```text
+data/rule_outputs/rout_*.json
 data/pipeline_runs/prun_*.json
 data/claims/claim_*.json
 data/evidence/evd_*.json
@@ -194,6 +195,35 @@ data/inbox/claim_candidates.json
 
 Pipeline output is still only a candidate. It must remain in inbox until manual
 review promotes it into events, relations, follow-ups or stocks.
+
+## V2 Skill Rule Contract
+
+All pipelines must generate `rule_outputs` before writing claim/evidence
+candidates. The contract is:
+
+```text
+raw_artifact + source + payload
+-> skill_rule_contract_v0
+-> claimCandidates
+-> evidenceCandidates
+-> unknowns
+-> followupHints
+-> dataGaps
+-> timeFields
+-> reviewRequirements
+```
+
+Rules:
+
+- `sourceLevel` stays on evidence, not on claim.
+- Unknown fields must be explicit instead of hidden in prose.
+- Review requirements must travel into `inbox/claim_candidates.json`.
+- Data gaps from fetch runs must remain attached to the rule output.
+- A completed `pipeline_task` must reference at least one `ruleOutputId`.
+
+The rule engine currently covers `product_pipeline` and `filing_pipeline` with
+dedicated rules. Other pipelines use a generic rule output until their domain
+rules are added.
 
 ## V2 Serenity Bridge
 

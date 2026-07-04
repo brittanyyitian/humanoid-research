@@ -12,11 +12,11 @@
   "sourceKind": "filing",
   "status": "completed",
   "createdAt": "2026-07-04T18:20:00+08:00",
-  "updatedAt": "2026-07-04T18:20:00+08:00",
+  "updatedAt": "2026-07-04T18:15:32+08:00",
   "nextAction": "review generated claim candidates",
   "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
   "startedAt": "2026-07-04T18:20:00+08:00",
-  "finishedAt": "2026-07-04T18:20:00+08:00",
+  "finishedAt": "2026-07-04T18:15:32+08:00",
   "error": null,
   "claimIds": [
     "claim_2026_06_01_filing_80c064155f"
@@ -25,6 +25,10 @@
     "evd_2026_06_01_filing_80c064155f"
   ],
   "pipelineRunIds": [
-    "prun_2026_07_04_d539dba3e9bc"
+    "prun_2026_07_04_d539dba3e9bc",
+    "prun_2026_07_04_310ab4640b59"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
   ]
 }

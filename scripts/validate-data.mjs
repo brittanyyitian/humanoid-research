@@ -242,6 +242,7 @@ const stateTransitions = await readJsonDir("state_transitions");
 const routeDecisions = await readJsonDir("route_decisions");
 const pipelineTasks = await readJsonDir("pipeline_tasks");
 const pipelineRuns = await readJsonDir("pipeline_runs");
+const ruleOutputs = await readJsonDir("rule_outputs");
 const observationRuns = await readJsonDir("observation_runs");
 const schedulerRuns = await readJsonDir("scheduler_runs");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
@@ -257,6 +258,7 @@ const milestoneIds = new Set();
 const stateTransitionIds = new Set();
 const pipelineTaskIds = new Set();
 const pipelineRunIds = new Set();
+const ruleOutputIds = new Set();
 const observationRunIds = new Set();
 const schedulerRunIds = new Set();
 
@@ -270,6 +272,7 @@ for (const { file, data } of stateTransitions) {
 }
 for (const { file, data } of pipelineTasks) registerId(data, file, "id", pipelineTaskIds, "pipeline task");
 for (const { file, data } of pipelineRuns) registerId(data, file, "id", pipelineRunIds, "pipeline run");
+for (const { file, data } of ruleOutputs) registerId(data, file, "id", ruleOutputIds, "rule output");
 for (const { file, data } of observationRuns) registerId(data, file, "id", observationRunIds, "observation run");
 for (const { file, data } of schedulerRuns) registerId(data, file, "id", schedulerRunIds, "scheduler run");
 
@@ -415,6 +418,7 @@ for (const { file, data } of claims) {
   requireKnownIds(data, file, "artifactIds", rawArtifactIds, "rawArtifactId", { required: true });
   requireKnownIds(data, file, "promotedEventIds", eventIds, "eventId");
   requireKnownIds(data, file, "promotedFollowupIds", followupIds, "followupId");
+  requireKnownIds(data, file, "ruleOutputIds", ruleOutputIds, "ruleOutputId");
   requireString(data, file, "firstSeenAt");
   requireString(data, file, "capturedAt");
   requireString(data, file, "processedAt");
@@ -430,11 +434,53 @@ for (const { file, data } of evidence) {
   if (!claimIds.has(data.claimId)) fail(file, `unknown claimId "${data.claimId}"`);
   if (!rawArtifactIds.has(data.rawArtifactId)) fail(file, `unknown rawArtifactId "${data.rawArtifactId}"`);
   if (!sourceIds.has(data.sourceId)) fail(file, `unknown sourceId "${data.sourceId}"`);
+  if (data.ruleOutputId && !ruleOutputIds.has(data.ruleOutputId)) fail(file, `unknown ruleOutputId "${data.ruleOutputId}"`);
   if (!allowedEvidenceRelation.has(data.relation)) fail(file, `invalid evidence relation "${data.relation}"`);
   if (!allowedEvidence.has(data.sourceLevel)) fail(file, "sourceLevel must be A/B/C/D");
   if (!allowedEvidenceStrength.has(data.strength)) fail(file, `invalid evidence strength "${data.strength}"`);
   requireString(data, file, "capturedAt");
   requireString(data, file, "assessedAt");
+}
+
+for (const { file, data } of ruleOutputs) {
+  requireString(data, file, "contractVersion");
+  requireString(data, file, "ruleId");
+  requireString(data, file, "pipeline");
+  requireString(data, file, "rawArtifactId");
+  requireString(data, file, "sourceId");
+  requireString(data, file, "generatedAt");
+  if (data.contractVersion !== "skill_rule_contract_v0") {
+    fail(file, `unsupported contractVersion "${data.contractVersion}"`);
+  }
+  if (!allowedPipelineNames.has(data.pipeline)) fail(file, `invalid pipeline "${data.pipeline}"`);
+  if (!rawArtifactIds.has(data.rawArtifactId)) fail(file, `unknown rawArtifactId "${data.rawArtifactId}"`);
+  if (!sourceIds.has(data.sourceId)) fail(file, `unknown sourceId "${data.sourceId}"`);
+  if (data.routeDecisionId && !routeDecisions.some((row) => row.data.id === data.routeDecisionId)) {
+    fail(file, `unknown routeDecisionId "${data.routeDecisionId}"`);
+  }
+  if (!Array.isArray(data.claimCandidates) || data.claimCandidates.length === 0) {
+    fail(file, "claimCandidates must be a non-empty array");
+  } else {
+    for (const candidate of data.claimCandidates) {
+      if (!allowedClaimTypes.has(candidate.claimType)) fail(file, `invalid claimType "${candidate.claimType}"`);
+      requireString(candidate, file, "text");
+      if (!allowedClaimConfidence.has(candidate.confidence)) fail(file, `invalid confidence "${candidate.confidence}"`);
+    }
+  }
+  if (!Array.isArray(data.evidenceCandidates) || data.evidenceCandidates.length === 0) {
+    fail(file, "evidenceCandidates must be a non-empty array");
+  } else {
+    for (const candidate of data.evidenceCandidates) {
+      if (!allowedEvidenceRelation.has(candidate.relation)) fail(file, `invalid evidence relation "${candidate.relation}"`);
+      if (!allowedEvidence.has(candidate.sourceLevel)) fail(file, "evidence candidate sourceLevel must be A/B/C/D");
+      if (!allowedEvidenceStrength.has(candidate.strength)) fail(file, `invalid evidence strength "${candidate.strength}"`);
+    }
+  }
+  if (!Array.isArray(data.unknowns)) fail(file, "unknowns must be an array");
+  if (!Array.isArray(data.followupHints)) fail(file, "followupHints must be an array");
+  if (!Array.isArray(data.dataGaps)) fail(file, "dataGaps must be an array");
+  if (!Array.isArray(data.reviewRequirements)) fail(file, "reviewRequirements must be an array");
+  if (!data.timeFields || typeof data.timeFields !== "object") fail(file, "timeFields must be an object");
 }
 
 for (const { file, data } of milestones) {
@@ -518,6 +564,7 @@ for (const { file, data } of pipelineTasks) {
   if (!allowedPipelineTaskStatus.has(data.status)) fail(file, `invalid pipeline task status "${data.status}"`);
   requireKnownIds(data, file, "claimIds", claimIds, "claimId");
   requireKnownIds(data, file, "evidenceIds", evidenceIds, "evidenceId");
+  requireKnownIds(data, file, "ruleOutputIds", ruleOutputIds, "ruleOutputId");
   requireKnownIds(data, file, "pipelineRunIds", pipelineRunIds, "pipelineRunId");
   const route = routeDecisions.find((row) => row.data.id === data.routeDecisionId)?.data;
   if (route) {
@@ -541,6 +588,7 @@ for (const { file, data } of pipelineRuns) {
   if (!allowedPipelineRunStatus.has(data.status)) fail(file, `invalid pipeline run status "${data.status}"`);
   requireKnownIds(data, file, "claimIds", claimIds, "claimId");
   requireKnownIds(data, file, "evidenceIds", evidenceIds, "evidenceId");
+  requireKnownIds(data, file, "ruleOutputIds", ruleOutputIds, "ruleOutputId");
   const task = pipelineTasks.find((row) => row.data.id === data.pipelineTaskId)?.data;
   if (task) {
     if (task.rawArtifactId !== data.rawArtifactId) fail(file, "rawArtifactId does not match pipeline task");
@@ -704,5 +752,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, pipeline runs: ${pipelineRunIds.size}, observation runs: ${observationRunIds.size}, scheduler runs: ${schedulerRunIds.size}.`
+  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, pipeline runs: ${pipelineRunIds.size}, rule outputs: ${ruleOutputIds.size}, observation runs: ${observationRunIds.size}, scheduler runs: ${schedulerRunIds.size}.`
 );

@@ -70,6 +70,26 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "ruleOutputIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "followupHints": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "dataGaps": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "reviewRequirements": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
     "whyNow": { "type": "string" },
     "notes": { "type": "string" }
   },

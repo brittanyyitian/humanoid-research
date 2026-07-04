@@ -42,6 +42,10 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "ruleOutputIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "error": { "type": ["string", "null"] },
     "notes": { "type": "string" }
   },

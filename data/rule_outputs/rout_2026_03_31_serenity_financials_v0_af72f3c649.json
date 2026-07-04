@@ -1,0 +1,84 @@
+{
+  "id": "rout_2026_03_31_serenity_financials_v0_af72f3c649",
+  "contractVersion": "skill_rule_contract_v0",
+  "ruleId": "serenity_financials_v0",
+  "pipeline": "filing_pipeline",
+  "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+  "sourceId": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+  "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+  "generatedAt": "2026-07-04T18:15:32+08:00",
+  "payloadStatus": "captured_payload",
+  "claimCandidates": [
+    {
+      "claimType": "financial",
+      "text": "奥比中光2026-03-31一季报结构化财务数据进入待审核：营收 2.03亿元，净利润 3099.66万元，经营现金流 -1.17亿元。",
+      "normalizedFact": "奥比中光 latest structured financial period 2026-03-31: revenue=202887914.06, net_income=30996569.3, operating_cash_flow=-117430404.43.",
+      "confidence": "low",
+      "occurredAt": "2026-03-31",
+      "publishedAt": "2026-03-31",
+      "whyNow": "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
+      "notes": "Generated from Serenity financials at 2026-07-04T18:15:32+08:00. Source level=C; do not treat as verified filing until review."
+    }
+  ],
+  "evidenceCandidates": [
+    {
+      "relation": "mentions",
+      "sourceLevel": "C",
+      "strength": "weak",
+      "quote": "2026-03-31 一季报: revenue 202887914.06, net_income 30996569.3",
+      "notes": "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard."
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "official_financial_reconciliation",
+      "reason": "结构化财务数据尚未与 L0/L1 正式披露逐项核对。",
+      "severity": "high"
+    }
+  ],
+  "followupHints": [
+    {
+      "kind": "financial_reconciliation",
+      "description": "用公告 PDF、XBRL 或 L1 数据源复核营收、净利、现金流、资产和负债。",
+      "priority": "high",
+      "dueAt": null
+    }
+  ],
+  "dataGaps": [
+    {
+      "dataset": "financials",
+      "status": "PARTIAL",
+      "gap_type": "NOT_MACHINE_READABLE",
+      "decision_impact": "EVIDENCE_IMPACT",
+      "next_action": "Reconcile financial statement lines against official filings or L1 export.",
+      "source_name": "Eastmoney_F10_Financials_L3",
+      "source_level": "L3_MEDIA_F10_RESEARCH",
+      "evidenceLevel": "C",
+      "kind": "serenity_not_machine_readable",
+      "description": "financials: Reconcile financial statement lines against official filings or L1 export.",
+      "severity": "medium"
+    }
+  ],
+  "timeFields": {
+    "occurredAt": "2026-03-31",
+    "publishedAt": "2026-03-31",
+    "firstSeenAt": "2026-07-04T18:20:00+08:00",
+    "capturedAt": "2026-07-04T18:20:00+08:00",
+    "processedAt": "2026-07-04T18:15:32+08:00",
+    "dueAt": null,
+    "resolvedAt": null
+  },
+  "reviewRequirements": [
+    {
+      "kind": "reconcile_l0_l1",
+      "description": "在 promotion 前必须用 L0/L1 披露核对核心财务字段。",
+      "required": true
+    },
+    {
+      "kind": "avoid_rating_use",
+      "description": "不得将该候选用于评级、买点、仓位或估值结论。",
+      "required": true
+    }
+  ],
+  "notes": "Financial rule v0 preserves Serenity source-level limits and forces review before formal use."
+}

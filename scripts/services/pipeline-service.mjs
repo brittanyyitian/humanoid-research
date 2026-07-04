@@ -1,15 +1,7 @@
 import path from "node:path";
 import { DATA_DIR, readJsonDir, readJsonFile, writeJsonFile } from "../data-utils.mjs";
 import { dateFrom, hash, nowShanghai } from "./router-service.mjs";
-
-const PIPELINE_HANDLERS = {
-  company_pipeline: companyClaim,
-  product_pipeline: productClaim,
-  filing_pipeline: filingClaim,
-  event_pipeline: eventClaim,
-  policy_pipeline: policyClaim,
-  supply_chain_pipeline: supplyChainClaim,
-};
+import { applySkillRule, claimDraftFromRuleOutput, ruleOutputPath } from "./rule-engine-service.mjs";
 
 export async function runPipelineTasks(options = {}) {
   const startedAt = options.now || nowShanghai();
@@ -53,17 +45,18 @@ async function runOneTask(task, options) {
   const fetchRun = await readJsonFile(path.join(DATA_DIR, "fetch_runs", `${artifact.fetchRunId}.json`));
   const routeDecision = await readJsonFile(path.join(DATA_DIR, "route_decisions", `${task.routeDecisionId}.json`));
   const rawPayload = await readRawPayload(artifact);
-  const handler = PIPELINE_HANDLERS[task.pipeline] || genericClaim;
   const processedAt = options.startedAt;
-  const claimDraft = handler({ task, artifact, source, routeDecision, rawPayload, processedAt });
+  const ruleOutput = applySkillRule({ task, artifact, source, fetchRun, routeDecision, rawPayload, processedAt });
+  const claimDraft = claimDraftFromRuleOutput(ruleOutput);
   const { claim, evidence, paths } = buildClaimEvidence({
     task,
     artifact,
     source,
     claimDraft,
+    ruleOutput,
     processedAt,
   });
-  const pipelineRun = buildPipelineRun({ task, claim, evidence, processedAt });
+  const pipelineRun = buildPipelineRun({ task, claim, evidence, ruleOutput, processedAt });
   const updatedArtifact = {
     ...artifact,
     claimIds: unique([...(artifact.claimIds || []), claim.id]),
@@ -82,12 +75,14 @@ async function runOneTask(task, options) {
     error: null,
     claimIds: unique([...(task.claimIds || []), claim.id]),
     evidenceIds: unique([...(task.evidenceIds || []), evidence.id]),
+    ruleOutputIds: unique([...(task.ruleOutputIds || []), ruleOutput.id]),
     pipelineRunIds: unique([...(task.pipelineRunIds || []), pipelineRun.id]),
     notes: "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
   };
-  const inbox = await buildClaimInbox({ claim, evidence, artifact, source, processedAt });
+  const inbox = await buildClaimInbox({ claim, evidence, ruleOutput, artifact, source, processedAt });
 
   if (!options.dryRun) {
+    await writeJsonFile(ruleOutputPath(ruleOutput.id), ruleOutput);
     await writeJsonFile(paths.claim, claim);
     await writeJsonFile(paths.evidence, evidence);
     await writeJsonFile(path.join(DATA_DIR, "raw_artifacts", `${artifact.id}.json`), updatedArtifact);
@@ -104,12 +99,13 @@ async function runOneTask(task, options) {
     reason: "generated claim/evidence candidate",
     claimIds: [claim.id],
     evidenceIds: [evidence.id],
+    ruleOutputIds: [ruleOutput.id],
     pipelineRunId: pipelineRun.id,
     error: null,
   };
 }
 
-function buildClaimEvidence({ task, artifact, source, claimDraft, processedAt }) {
+function buildClaimEvidence({ task, artifact, source, claimDraft, ruleOutput, processedAt }) {
   const date = dateFrom(claimDraft.occurredAt || claimDraft.publishedAt || artifact.publishedAt || artifact.firstSeenAt);
   const digest = hash(`${task.id}|${artifact.id}|${claimDraft.text}`, 10);
   const token = `${slug(claimDraft.claimType)}_${digest}`;
@@ -136,6 +132,11 @@ function buildClaimEvidence({ task, artifact, source, claimDraft, processedAt })
     resolvedAt: null,
     promotedEventIds: [],
     promotedFollowupIds: [],
+    ruleOutputIds: [ruleOutput.id],
+    unknowns: claimDraft.unknowns || [],
+    followupHints: claimDraft.followupHints || [],
+    dataGaps: claimDraft.dataGaps || [],
+    reviewRequirements: claimDraft.reviewRequirements || [],
     whyNow: claimDraft.whyNow,
     notes: claimDraft.notes,
   };
@@ -145,6 +146,7 @@ function buildClaimEvidence({ task, artifact, source, claimDraft, processedAt })
     claimId,
     rawArtifactId: artifact.id,
     sourceId: artifact.sourceId,
+    ruleOutputId: ruleOutput.id,
     relation: claimDraft.relation || "mentions",
     sourceLevel: claimDraft.sourceLevel || source.evidenceLevel || "A",
     strength: claimDraft.strength || "medium",
@@ -164,7 +166,7 @@ function buildClaimEvidence({ task, artifact, source, claimDraft, processedAt })
   };
 }
 
-function buildPipelineRun({ task, claim, evidence, processedAt }) {
+function buildPipelineRun({ task, claim, evidence, ruleOutput, processedAt }) {
   const date = dateFrom(processedAt);
   return {
     id: `prun_${date.replaceAll("-", "_")}_${hash(`${task.id}|${claim.id}|${processedAt}`, 12)}`,
@@ -177,12 +179,13 @@ function buildPipelineRun({ task, claim, evidence, processedAt }) {
     finishedAt: processedAt,
     claimIds: [claim.id],
     evidenceIds: [evidence.id],
+    ruleOutputIds: [ruleOutput.id],
     error: null,
-    notes: "Pipeline execution created inbox claim/evidence candidates only.",
+    notes: "Pipeline execution created rule_output plus inbox claim/evidence candidates only.",
   };
 }
 
-async function buildClaimInbox({ claim, evidence, artifact, source, processedAt }) {
+async function buildClaimInbox({ claim, evidence, ruleOutput, artifact, source, processedAt }) {
   const inboxPath = path.join(DATA_DIR, "inbox", "claim_candidates.json");
   const inbox = await readOrDefault(inboxPath, {
     date: processedAt.slice(0, 10),
@@ -196,6 +199,7 @@ async function buildClaimInbox({ claim, evidence, artifact, source, processedAt 
     claimId: claim.id,
     rawArtifactId: artifact.id,
     evidenceId: evidence.id,
+    ruleOutputId: ruleOutput.id,
     text: claim.text,
     normalizedFact: claim.normalizedFact,
     claimType: claim.claimType,
@@ -203,6 +207,10 @@ async function buildClaimInbox({ claim, evidence, artifact, source, processedAt 
     sourceId: artifact.sourceId,
     sourceLevel: evidence.sourceLevel,
     confidence: claim.confidence,
+    unknowns: claim.unknowns || [],
+    followupHints: claim.followupHints || [],
+    dataGaps: claim.dataGaps || [],
+    reviewRequirements: claim.reviewRequirements || [],
     reviewStatus: "pending",
     processedAt,
     sourceTitle: source.title,
@@ -212,151 +220,6 @@ async function buildClaimInbox({ claim, evidence, artifact, source, processedAt 
   inbox.policy = "Claim candidates are not formal truth until promoted by review.";
   inbox.candidates = upsertById(inbox.candidates || [], candidate);
   return inbox;
-}
-
-function productClaim({ artifact, routeDecision, processedAt }) {
-  return {
-    claimType: "product_release",
-    text: `${artifact.publisher}存在官方产品材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has official product material for "${artifact.title}".`,
-    confidence: routeDecision.confidence === "high" ? "medium" : "low",
-    relation: "supports",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 product_pipeline，pipeline 生成待审核产品事实候选。",
-    notes: `Generated by product_pipeline at ${processedAt}. This candidate is not promoted truth.`,
-    evidenceNotes: "Official product material supports the existence of a product-related candidate.",
-  };
-}
-
-function filingClaim({ artifact, source, rawPayload, processedAt }) {
-  const serenity = rawPayload?.content?.serenityBridge;
-  if (serenity?.dataset === "filings_announcements") {
-    const item = serenity.payload || {};
-    const publishedAt = item.announcement_date || artifact.publishedAt;
-    return {
-      claimType: "filing",
-      text: `${entityDisplayName(rawPayload, artifact)}披露公告《${artifact.title}》（${dateFrom(publishedAt)}）。`,
-      normalizedFact: `${entityDisplayName(rawPayload, artifact)} disclosed filing "${artifact.title}" on ${dateFrom(publishedAt)}.`,
-      confidence: "medium",
-      occurredAt: dateFrom(publishedAt),
-      publishedAt,
-      relation: "supports",
-      sourceLevel: source.evidenceLevel || "A",
-      strength: source.evidenceLevel === "A" ? "strong" : "medium",
-      quote: artifact.title,
-      whyNow: "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
-      notes: `Generated from Serenity filings_announcements at ${processedAt}. Candidate only; no automatic promotion.`,
-      evidenceNotes: "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion.",
-    };
-  }
-
-  if (serenity?.dataset === "financials") {
-    const latest = serenity.payload?.latestPeriod || {};
-    const currency = serenity.payload?.currency || "CNY";
-    const period = latest.period || artifact.publishedAt;
-    const reportType = latest.report_type || "财报";
-    const revenue = formatMoney(latest.revenue, currency);
-    const netIncome = formatMoney(latest.net_income, currency);
-    const operatingCashFlow = formatMoney(latest.operating_cash_flow, currency);
-    return {
-      claimType: "financial",
-      text: `${entityDisplayName(rawPayload, artifact)}${dateFrom(period)}${reportType}结构化财务数据进入待审核：营收 ${revenue}，净利润 ${netIncome}，经营现金流 ${operatingCashFlow}。`,
-      normalizedFact: `${entityDisplayName(rawPayload, artifact)} latest structured financial period ${dateFrom(period)}: revenue=${latest.revenue}, net_income=${latest.net_income}, operating_cash_flow=${latest.operating_cash_flow}.`,
-      confidence: source.evidenceLevel === "A" || source.evidenceLevel === "B" ? "medium" : "low",
-      occurredAt: dateFrom(period),
-      publishedAt: period,
-      relation: "mentions",
-      sourceLevel: source.evidenceLevel || "C",
-      strength: source.evidenceLevel === "A" ? "strong" : source.evidenceLevel === "B" ? "medium" : "weak",
-      quote: `${period} ${reportType}: revenue ${latest.revenue}, net_income ${latest.net_income}`,
-      whyNow: "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
-      notes: `Generated from Serenity financials at ${processedAt}. Source level=${source.evidenceLevel}; do not treat as verified filing until review.`,
-      evidenceNotes: "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard.",
-    };
-  }
-
-  return {
-    claimType: "filing",
-    text: `${artifact.publisher}存在待审核公告/披露材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has filing/disclosure material: "${artifact.title}".`,
-    confidence: "medium",
-    relation: "mentions",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 filing_pipeline，pipeline 生成待审核披露事实候选。",
-    notes: `Generated by filing_pipeline at ${processedAt}. Review required.`,
-  };
-}
-
-function policyClaim({ artifact, processedAt }) {
-  return {
-    claimType: "other",
-    text: `${artifact.publisher}存在待审核政策相关材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has policy-related material: "${artifact.title}".`,
-    confidence: "medium",
-    relation: "mentions",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 policy_pipeline，pipeline 生成待审核政策事实候选。",
-    notes: `Generated by policy_pipeline at ${processedAt}. Review required.`,
-  };
-}
-
-function companyClaim({ artifact, processedAt }) {
-  return {
-    claimType: "other",
-    text: `${artifact.publisher}存在待审核公司动态材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has company update material: "${artifact.title}".`,
-    confidence: "medium",
-    relation: "mentions",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 company_pipeline，pipeline 生成待审核公司事实候选。",
-    notes: `Generated by company_pipeline at ${processedAt}. Review required.`,
-  };
-}
-
-function eventClaim({ artifact, processedAt }) {
-  return {
-    claimType: "other",
-    text: `${artifact.publisher}存在待审核事件材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has event-like material: "${artifact.title}".`,
-    confidence: "medium",
-    relation: "mentions",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 event_pipeline，pipeline 生成待审核事件事实候选。",
-    notes: `Generated by event_pipeline at ${processedAt}. Review required.`,
-  };
-}
-
-function supplyChainClaim({ artifact, processedAt }) {
-  return {
-    claimType: "other",
-    text: `${artifact.publisher}存在待审核供应链相关材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has supply-chain-related material: "${artifact.title}".`,
-    confidence: "medium",
-    relation: "mentions",
-    strength: "medium",
-    quote: artifact.title,
-    whyNow: "Router 将原始材料分配至 supply_chain_pipeline，pipeline 生成待审核供应链事实候选。",
-    notes: `Generated by supply_chain_pipeline at ${processedAt}. Review required.`,
-  };
-}
-
-function genericClaim({ artifact, processedAt }) {
-  return {
-    claimType: "other",
-    text: `${artifact.publisher}存在待审核材料《${artifact.title}》。`,
-    normalizedFact: `${artifact.publisher} has review material: "${artifact.title}".`,
-    confidence: "low",
-    relation: "mentions",
-    strength: "weak",
-    quote: artifact.title,
-    whyNow: "Pipeline 生成待审核事实候选。",
-    notes: `Generated by generic pipeline at ${processedAt}. Review required.`,
-  };
 }
 
 function selectTasks(tasks, options) {
@@ -401,25 +264,4 @@ async function readRawPayload(artifact) {
 
 function upsertById(rows, row) {
   return [...rows.filter((item) => item.id !== row.id), row];
-}
-
-function entityDisplayName(rawPayload, artifact) {
-  const serenity = rawPayload?.content?.serenityBridge;
-  return (
-    serenity?.entityName ||
-    serenity?.payload?.name ||
-    serenity?.payload?.security_name ||
-    serenity?.payload?.latestPeriod?.security_name ||
-    artifact.publisher
-  );
-}
-
-function formatMoney(value, currency) {
-  const number = Number(value);
-  if (!Number.isFinite(number)) return "--";
-  const unit = currency === "CNY" ? "元" : currency || "";
-  const abs = Math.abs(number);
-  if (abs >= 100000000) return `${(number / 100000000).toFixed(2)}亿${unit}`;
-  if (abs >= 10000) return `${(number / 10000).toFixed(2)}万${unit}`;
-  return `${number.toFixed(2)}${unit}`;
 }

@@ -19,6 +19,7 @@
     "claimId": { "type": "string" },
     "rawArtifactId": { "type": "string" },
     "sourceId": { "type": "string" },
+    "ruleOutputId": { "type": "string" },
     "relation": { "type": "string", "enum": ["supports", "mentions", "refutes", "updates"] },
     "sourceLevel": { "type": "string", "enum": ["A", "B", "C", "D"] },
     "strength": { "type": "string", "enum": ["strong", "medium", "weak"] },

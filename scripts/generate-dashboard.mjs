@@ -32,6 +32,7 @@ const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
 const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
 const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.data);
 const pipelineRuns = (await readJsonDir("pipeline_runs")).map((row) => row.data);
+const ruleOutputs = (await readJsonDir("rule_outputs")).map((row) => row.data);
 const observationRuns = (await readJsonDir("observation_runs")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 const serenityDatasetMap = await readJsonFile(path.join(DATA_DIR, "serenity_bridge", "dataset_map.json"));
@@ -43,6 +44,7 @@ const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, art
 const routeDecisionById = new Map(routeDecisions.map((route) => [route.id, route]));
 const claimById = new Map(claims.map((claim) => [claim.id, claim]));
 const evidenceById = new Map(evidenceRows.map((row) => [row.id, row]));
+const ruleOutputById = new Map(ruleOutputs.map((row) => [row.id, row]));
 const schedulerCadenceById = new Map((schedulerConfig.cadences || []).map((cadence) => [cadence.id, cadence]));
 const evidenceByClaimId = new Map();
 const claimsByEventId = new Map();
@@ -848,6 +850,7 @@ const pipelineRows = pipelineTasks
       runs,
       claims: (task.claimIds || []).map((claimId) => claimById.get(claimId)).filter(Boolean),
       evidence: (task.evidenceIds || []).map((evidenceId) => evidenceById.get(evidenceId)).filter(Boolean),
+      ruleOutputs: (task.ruleOutputIds || []).map((ruleOutputId) => ruleOutputById.get(ruleOutputId)).filter(Boolean),
     };
   });
 
@@ -863,6 +866,7 @@ const pipelines = {
   totals: {
     tasks: pipelineTasks.length,
     runs: pipelineRuns.length,
+    ruleOutputs: ruleOutputs.length,
     queued: pipelineTasks.filter((task) => task.status === "queued").length,
     completed: pipelineTasks.filter((task) => task.status === "completed").length,
     failed: pipelineTasks.filter((task) => task.status === "failed").length,
@@ -1227,6 +1231,7 @@ const stats = {
   routeDecisions: routeDecisions.length,
   pipelineTasks: pipelineTasks.length,
   pipelineRuns: pipelineRuns.length,
+  ruleOutputs: ruleOutputs.length,
   observationRuns: observationRuns.length,
   schedulerSources: schedulerRows.length,
   schedulerRuns: schedulerRuns.length,

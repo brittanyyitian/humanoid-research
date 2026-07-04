@@ -3,11 +3,12 @@
   "claimId": "claim_2026_03_31_financial_7b9ccabecb",
   "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
   "sourceId": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+  "ruleOutputId": "rout_2026_03_31_serenity_financials_v0_af72f3c649",
   "relation": "mentions",
   "sourceLevel": "C",
   "strength": "weak",
   "quote": "2026-03-31 一季报: revenue 202887914.06, net_income 30996569.3",
   "capturedAt": "2026-07-04T18:20:00+08:00",
-  "assessedAt": "2026-07-04T18:20:00+08:00",
+  "assessedAt": "2026-07-04T18:15:32+08:00",
   "notes": "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard."
 }

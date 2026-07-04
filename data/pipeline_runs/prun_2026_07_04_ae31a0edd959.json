@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_04_ae31a0edd959",
+  "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
+  "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+  "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+  "pipeline": "filing_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-04T18:15:32+08:00",
+  "finishedAt": "2026-07-04T18:15:32+08:00",
+  "claimIds": [
+    "claim_2026_03_31_financial_7b9ccabecb"
+  ],
+  "evidenceIds": [
+    "evd_2026_03_31_financial_7b9ccabecb"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

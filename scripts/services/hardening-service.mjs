@@ -14,6 +14,7 @@ export async function runHardeningChecks() {
   checks.push(await checkDedup(data));
   checks.push(await checkIngestionIdempotency(data));
   checks.push(await checkPipelineIdempotency(data));
+  checks.push(await checkRuleContract(data));
   checks.push(await checkObservationReplay(data));
   checks.push(await checkContamination(data));
   checks.push(await checkLifecycle(data));
@@ -45,6 +46,7 @@ async function loadData() {
     routeDecisions: await readDataDir("route_decisions"),
     pipelineTasks: await readDataDir("pipeline_tasks"),
     pipelineRuns: await readDataDir("pipeline_runs"),
+    ruleOutputs: await readDataDir("rule_outputs"),
     observationRuns: await readDataDir("observation_runs"),
     schedulerRuns: await readDataDir("scheduler_runs"),
     claims: await readDataDir("claims"),
@@ -83,6 +85,7 @@ async function loadData() {
       taskByRouteId: mapBy(rows.pipelineTasks, (row) => row.routeDecisionId),
       taskById: mapById(rows.pipelineTasks),
       runByTaskId: groupBy(rows.pipelineRuns, (row) => row.pipelineTaskId),
+      ruleOutputById: mapById(rows.ruleOutputs),
       claimById: mapById(rows.claims),
       evidenceById: mapById(rows.evidence),
       evidenceByClaimId: groupBy(rows.evidence, (row) => row.claimId),
@@ -209,12 +212,69 @@ async function checkPipelineIdempotency(data) {
     if (!sameJson(stableList(row.evidenceIds), stableList(task.evidenceIds))) {
       errors.push(`pipeline replay evidenceIds drift for ${task.id}`);
     }
+    if (task.ruleOutputIds?.length && !sameJson(stableList(row.ruleOutputIds || []), stableList(task.ruleOutputIds))) {
+      errors.push(`pipeline replay ruleOutputIds drift for ${task.id}`);
+    }
     if (task.pipelineRunIds?.length && !task.pipelineRunIds.includes(row.pipelineRunId)) {
       errors.push(`pipeline replay run id drift for ${task.id}: ${row.pipelineRunId}`);
     }
   }
 
   return result("pipeline_idempotency", errors, [], { tasks: data.pipelineTasks.length });
+}
+
+async function checkRuleContract(data) {
+  const errors = [];
+  const claimInbox = await readOptionalJson(path.join(DATA_DIR, "inbox", "claim_candidates.json"));
+  const inboxCandidates = claimInbox?.candidates || [];
+  const ruleOutputIds = new Set(data.ruleOutputs.map((row) => row.id));
+
+  for (const task of data.pipelineTasks) {
+    if (task.status !== "completed") continue;
+    if (!task.ruleOutputIds?.length) {
+      errors.push(`completed pipeline_task ${task.id} has no ruleOutputIds`);
+      continue;
+    }
+    for (const ruleOutputId of task.ruleOutputIds || []) {
+      if (!ruleOutputIds.has(ruleOutputId)) errors.push(`pipeline_task ${task.id} references missing rule_output ${ruleOutputId}`);
+    }
+  }
+
+  for (const ruleOutput of data.ruleOutputs) {
+    if (ruleOutput.contractVersion !== "skill_rule_contract_v0") {
+      errors.push(`rule_output ${ruleOutput.id} has unsupported contractVersion ${ruleOutput.contractVersion}`);
+    }
+    if (!ruleOutput.claimCandidates?.length) errors.push(`rule_output ${ruleOutput.id} has no claimCandidates`);
+    if (!ruleOutput.evidenceCandidates?.length) errors.push(`rule_output ${ruleOutput.id} has no evidenceCandidates`);
+    if (!Array.isArray(ruleOutput.unknowns)) errors.push(`rule_output ${ruleOutput.id} unknowns must be an array`);
+    if (!Array.isArray(ruleOutput.followupHints)) errors.push(`rule_output ${ruleOutput.id} followupHints must be an array`);
+    if (!Array.isArray(ruleOutput.dataGaps)) errors.push(`rule_output ${ruleOutput.id} dataGaps must be an array`);
+    if (!Array.isArray(ruleOutput.reviewRequirements) || ruleOutput.reviewRequirements.length === 0) {
+      errors.push(`rule_output ${ruleOutput.id} must declare reviewRequirements`);
+    }
+    if (!ruleOutput.timeFields?.processedAt || !ruleOutput.timeFields?.capturedAt) {
+      errors.push(`rule_output ${ruleOutput.id} must declare timeFields`);
+    }
+  }
+
+  for (const claim of data.claims.filter((row) => row.reviewStatus === "inbox" || row.status === "candidate")) {
+    if (!claim.ruleOutputIds?.length) errors.push(`candidate claim ${claim.id} has no ruleOutputIds`);
+    for (const ruleOutputId of claim.ruleOutputIds || []) {
+      if (!ruleOutputIds.has(ruleOutputId)) errors.push(`candidate claim ${claim.id} references missing rule_output ${ruleOutputId}`);
+    }
+  }
+
+  for (const candidate of inboxCandidates) {
+    if (!candidate.ruleOutputId) errors.push(`inbox candidate ${candidate.id} has no ruleOutputId`);
+    if (!Array.isArray(candidate.reviewRequirements) || candidate.reviewRequirements.length === 0) {
+      errors.push(`inbox candidate ${candidate.id} has no reviewRequirements`);
+    }
+  }
+
+  return result("rule_contract", errors, [], {
+    ruleOutputs: data.ruleOutputs.length,
+    inboxCandidates: inboxCandidates.length,
+  });
 }
 
 async function checkObservationReplay(data) {
@@ -410,6 +470,8 @@ async function checkRuleIsolation(data) {
 
   const routerSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "router-service.mjs"), "utf8");
   const ingestionSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "ingestion-service.mjs"), "utf8");
+  const pipelineSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "pipeline-service.mjs"), "utf8");
+  const ruleEngineSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "rule-engine-service.mjs"), "utf8");
   const serenityBridgeSource = await fs.readFile(
     path.join(DATA_DIR, "..", "scripts", "services", "serenity-bridge-service.mjs"),
     "utf8"
@@ -428,6 +490,12 @@ async function checkRuleIsolation(data) {
   }
   if (!serenityBridgeSource.includes('path.join(DATA_DIR, "serenity_bridge", "dataset_map.json")')) {
     errors.push("serenity-bridge-service does not load data/serenity_bridge/dataset_map.json");
+  }
+  if (!pipelineSource.includes("applySkillRule")) {
+    errors.push("pipeline-service must use Skill Rule Contract via rule-engine-service");
+  }
+  if (!ruleEngineSource.includes("skill_rule_contract_v0")) {
+    errors.push("rule-engine-service must declare skill_rule_contract_v0");
   }
   if ((data.routerRules.routes || []).some((rule) => !rule.signal)) {
     warnings.push("some router rules have no signal metadata");

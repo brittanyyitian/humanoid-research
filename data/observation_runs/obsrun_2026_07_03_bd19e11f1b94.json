@@ -1,15 +1,14 @@
 {
-  "date": "2026-07-03",
+  "id": "obsrun_2026_07_03_bd19e11f1b94",
+  "targetDate": "2026-07-03",
   "generatedAt": "2026-07-04T18:15:38+08:00",
-  "policy": "Observations are projected only from formal events with promoted claims and supporting evidence. Pipeline candidates stay in inbox.",
-  "latestRunId": "obsrun_2026_07_03_bd19e11f1b94",
+  "sourceDashboardGeneratedAt": "2026-07-04T10:15:35.414Z",
   "status": "completed",
-  "totals": {
-    "observations": 1,
-    "projected": 1,
-    "excludedClaims": 5,
-    "violations": 0
-  },
+  "projectionPolicy": "Observations are projected only from formal events with promoted claims and supporting evidence. Pipeline candidates stay in inbox.",
+  "observationCount": 1,
+  "projectedCount": 1,
+  "excludedClaimCount": 5,
+  "violationCount": 0,
   "rows": [
     {
       "observationId": "obs_evt_2026_06_29_zhiyuan_15000_robot_downline",

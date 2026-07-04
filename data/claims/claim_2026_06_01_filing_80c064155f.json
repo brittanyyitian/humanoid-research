@@ -17,11 +17,42 @@
   "publishedAt": "2026-06-01",
   "firstSeenAt": "2026-07-04T18:20:00+08:00",
   "capturedAt": "2026-07-04T18:20:00+08:00",
-  "processedAt": "2026-07-04T18:20:00+08:00",
+  "processedAt": "2026-07-04T18:15:32+08:00",
   "dueAt": null,
   "resolvedAt": null,
   "promotedEventIds": [],
   "promotedFollowupIds": [],
-  "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
-  "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+  "ruleOutputIds": [
+    "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
+  ],
+  "unknowns": [
+    {
+      "field": "announcement_materiality",
+      "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+      "severity": "medium"
+    }
+  ],
+  "followupHints": [
+    {
+      "kind": "filing_materiality_review",
+      "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+      "priority": "medium",
+      "dueAt": null
+    }
+  ],
+  "dataGaps": [],
+  "reviewRequirements": [
+    {
+      "kind": "verify_pdf_source",
+      "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+      "required": true
+    },
+    {
+      "kind": "classify_materiality",
+      "description": "判断公告是否构成正式研究事件或仅保留候选。",
+      "required": true
+    }
+  ],
+  "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+  "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
 }

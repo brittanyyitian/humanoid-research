@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / route_decisions / pipeline_tasks / pipeline_runs / observation_runs / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
+  raw_artifacts / route_decisions / pipeline_tasks / pipeline_runs / rule_outputs / observation_runs / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -49,6 +49,38 @@ The evidence layer answers:
 - When was it published, first seen, captured and processed?
 - How did the claim status change?
 - What future milestone still needs verification?
+
+## Skill Rule Contract
+
+The Skill Rule layer is where Serenity-style evidence processing belongs.
+Serenity Bridge is only one input adapter; the shared contract defines how any
+pipeline turns material into candidate facts.
+
+```text
+raw_artifact + source + payload
+-> skill_rule_contract_v0
+-> rule_output
+-> claim/evidence candidate
+-> inbox
+```
+
+Every pipeline rule output must declare:
+
+```text
+claimCandidates
+evidenceCandidates
+unknowns
+followupHints
+dataGaps
+timeFields
+reviewRequirements
+```
+
+`rule_outputs` are durable audit records. They preserve what the rule inferred,
+what it did not know, what still needs review, and which time fields were used.
+Claims and evidence may reference `ruleOutputIds`, but promotion still happens
+only through review. This keeps claim richness from turning into scattered
+pipeline-specific logic.
 
 ## Claim and Evidence
 
@@ -117,6 +149,7 @@ Serenity manifest/results
 -> fetch_run(sourceType=serenity_bridge)
 -> route_decision
 -> pipeline_task for filings/financials only
+-> rule_output(skill_rule_contract_v0)
 -> claim/evidence candidate
 -> inbox
 ```

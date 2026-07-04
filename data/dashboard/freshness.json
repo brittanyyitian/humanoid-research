@@ -1,13 +1,13 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:38:26.704Z",
+  "generatedAt": "2026-07-04T10:15:35.414Z",
   "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   "rows": [
     {
       "id": "market",
       "label": "Watchlist 行情",
       "lastSeenAt": "2026-07-03T17:55:11+08:00",
-      "status": "fresh",
+      "status": "aging",
       "count": 26,
       "maxAgeHours": 24
     },
@@ -22,7 +22,7 @@
     {
       "id": "claim_review",
       "label": "Claim 审核",
-      "lastSeenAt": "2026-07-04T18:20:00+08:00",
+      "lastSeenAt": "2026-07-04T18:15:32+08:00",
       "status": "needs_review",
       "count": 7,
       "pendingCount": 5

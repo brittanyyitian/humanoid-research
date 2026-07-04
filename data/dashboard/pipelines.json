@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:38:26.704Z",
+  "generatedAt": "2026-07-04T10:15:35.414Z",
   "policy": "Pipelines turn routed tasks into claim/evidence candidates only. Review and promotion remain separate.",
   "rows": [
     {
@@ -17,11 +17,11 @@
       "sourceKind": "filing",
       "status": "completed",
       "createdAt": "2026-07-04T18:20:00+08:00",
-      "updatedAt": "2026-07-04T18:20:00+08:00",
+      "updatedAt": "2026-07-04T18:15:32+08:00",
       "nextAction": "review generated claim candidates",
       "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
       "startedAt": "2026-07-04T18:20:00+08:00",
-      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
       "error": null,
       "claimIds": [
         "claim_2026_06_12_filing_5bf12d6891"
@@ -30,7 +30,12 @@
         "evd_2026_06_12_filing_5bf12d6891"
       ],
       "pipelineRunIds": [
-        "prun_2026_07_04_4e6f8a9d6cb5"
+        "prun_2026_07_04_4e6f8a9d6cb5",
+        "prun_2026_07_04_37678d497565",
+        "prun_2026_07_04_eb4bd41a9f33"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
       ],
       "rawArtifact": {
         "id": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
@@ -84,6 +89,48 @@
           ],
           "error": null,
           "notes": "Pipeline execution created inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_eb4bd41a9f33",
+          "pipelineTaskId": "ptask_2026_07_04_1ac6259a0d63",
+          "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+          "routeDecisionId": "route_2026_06_12_1fb6a4548b79",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:15:32+08:00",
+          "finishedAt": "2026-07-04T18:15:32+08:00",
+          "claimIds": [
+            "claim_2026_06_12_filing_5bf12d6891"
+          ],
+          "evidenceIds": [
+            "evd_2026_06_12_filing_5bf12d6891"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_37678d497565",
+          "pipelineTaskId": "ptask_2026_07_04_1ac6259a0d63",
+          "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+          "routeDecisionId": "route_2026_06_12_1fb6a4548b79",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:14:44+08:00",
+          "finishedAt": "2026-07-04T18:14:44+08:00",
+          "claimIds": [
+            "claim_2026_06_12_filing_5bf12d6891"
+          ],
+          "evidenceIds": [
+            "evd_2026_06_12_filing_5bf12d6891"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
         }
       ],
       "claims": [
@@ -106,13 +153,44 @@
           "publishedAt": "2026-06-12",
           "firstSeenAt": "2026-07-04T18:20:00+08:00",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "processedAt": "2026-07-04T18:20:00+08:00",
+          "processedAt": "2026-07-04T18:15:32+08:00",
           "dueAt": null,
           "resolvedAt": null,
           "promotedEventIds": [],
           "promotedFollowupIds": [],
-          "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
-          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+          "ruleOutputIds": [
+            "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
+          ],
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [],
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
         }
       ],
       "evidence": [
@@ -121,13 +199,86 @@
           "claimId": "claim_2026_06_12_filing_5bf12d6891",
           "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
           "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "ruleOutputId": "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3",
           "relation": "supports",
           "sourceLevel": "A",
           "strength": "strong",
           "quote": "2025年度向特定对象发行A股股票发行情况报告书",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "assessedAt": "2026-07-04T18:20:00+08:00",
+          "assessedAt": "2026-07-04T18:15:32+08:00",
           "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
+        }
+      ],
+      "ruleOutputs": [
+        {
+          "id": "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3",
+          "contractVersion": "skill_rule_contract_v0",
+          "ruleId": "serenity_filing_announcement_v0",
+          "pipeline": "filing_pipeline",
+          "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+          "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "routeDecisionId": "route_2026_06_12_1fb6a4548b79",
+          "generatedAt": "2026-07-04T18:15:32+08:00",
+          "payloadStatus": "captured_payload",
+          "claimCandidates": [
+            {
+              "claimType": "filing",
+              "text": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+              "normalizedFact": "奥比中光 disclosed filing \"2025年度向特定对象发行A股股票发行情况报告书\" on 2026-06-12.",
+              "confidence": "medium",
+              "occurredAt": "2026-06-12",
+              "publishedAt": "2026-06-12",
+              "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+              "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
+            }
+          ],
+          "evidenceCandidates": [
+            {
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "quote": "2025年度向特定对象发行A股股票发行情况报告书",
+              "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
+            }
+          ],
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [],
+          "timeFields": {
+            "occurredAt": "2026-06-12",
+            "publishedAt": "2026-06-12",
+            "firstSeenAt": "2026-07-04T18:20:00+08:00",
+            "capturedAt": "2026-07-04T18:20:00+08:00",
+            "processedAt": "2026-07-04T18:15:32+08:00",
+            "dueAt": null,
+            "resolvedAt": null
+          },
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "notes": "Filing announcement rule v0 keeps official disclosure evidence strong but blocks automatic promotion."
         }
       ]
     },
@@ -145,11 +296,11 @@
       "sourceKind": "filing",
       "status": "completed",
       "createdAt": "2026-07-04T18:20:00+08:00",
-      "updatedAt": "2026-07-04T18:20:00+08:00",
+      "updatedAt": "2026-07-04T18:15:32+08:00",
       "nextAction": "review generated claim candidates",
       "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
       "startedAt": "2026-07-04T18:20:00+08:00",
-      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
       "error": null,
       "claimIds": [
         "claim_2026_05_15_filing_4ec343f48a"
@@ -158,7 +309,12 @@
         "evd_2026_05_15_filing_4ec343f48a"
       ],
       "pipelineRunIds": [
-        "prun_2026_07_04_19b67fa31d53"
+        "prun_2026_07_04_19b67fa31d53",
+        "prun_2026_07_04_953c23a29e22",
+        "prun_2026_07_04_69225f5542fe"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
       ],
       "rawArtifact": {
         "id": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
@@ -212,6 +368,48 @@
           ],
           "error": null,
           "notes": "Pipeline execution created inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_69225f5542fe",
+          "pipelineTaskId": "ptask_2026_07_04_284e9683232f",
+          "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+          "routeDecisionId": "route_2026_05_15_344c32b83f43",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:15:32+08:00",
+          "finishedAt": "2026-07-04T18:15:32+08:00",
+          "claimIds": [
+            "claim_2026_05_15_filing_4ec343f48a"
+          ],
+          "evidenceIds": [
+            "evd_2026_05_15_filing_4ec343f48a"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_953c23a29e22",
+          "pipelineTaskId": "ptask_2026_07_04_284e9683232f",
+          "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+          "routeDecisionId": "route_2026_05_15_344c32b83f43",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:14:44+08:00",
+          "finishedAt": "2026-07-04T18:14:44+08:00",
+          "claimIds": [
+            "claim_2026_05_15_filing_4ec343f48a"
+          ],
+          "evidenceIds": [
+            "evd_2026_05_15_filing_4ec343f48a"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
         }
       ],
       "claims": [
@@ -234,13 +432,44 @@
           "publishedAt": "2026-05-15",
           "firstSeenAt": "2026-07-04T18:20:00+08:00",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "processedAt": "2026-07-04T18:20:00+08:00",
+          "processedAt": "2026-07-04T18:15:32+08:00",
           "dueAt": null,
           "resolvedAt": null,
           "promotedEventIds": [],
           "promotedFollowupIds": [],
-          "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
-          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+          "ruleOutputIds": [
+            "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
+          ],
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [],
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
         }
       ],
       "evidence": [
@@ -249,13 +478,406 @@
           "claimId": "claim_2026_05_15_filing_4ec343f48a",
           "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
           "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "ruleOutputId": "rout_2026_05_15_serenity_filing_announcement_v0_650b969123",
           "relation": "supports",
           "sourceLevel": "A",
           "strength": "strong",
           "quote": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "assessedAt": "2026-07-04T18:20:00+08:00",
+          "assessedAt": "2026-07-04T18:15:32+08:00",
           "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
+        }
+      ],
+      "ruleOutputs": [
+        {
+          "id": "rout_2026_05_15_serenity_filing_announcement_v0_650b969123",
+          "contractVersion": "skill_rule_contract_v0",
+          "ruleId": "serenity_filing_announcement_v0",
+          "pipeline": "filing_pipeline",
+          "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+          "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "routeDecisionId": "route_2026_05_15_344c32b83f43",
+          "generatedAt": "2026-07-04T18:15:32+08:00",
+          "payloadStatus": "captured_payload",
+          "claimCandidates": [
+            {
+              "claimType": "filing",
+              "text": "奥比中光披露公告《控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告》（2026-05-15）。",
+              "normalizedFact": "奥比中光 disclosed filing \"控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告\" on 2026-05-15.",
+              "confidence": "medium",
+              "occurredAt": "2026-05-15",
+              "publishedAt": "2026-05-15",
+              "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+              "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
+            }
+          ],
+          "evidenceCandidates": [
+            {
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "quote": "控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告",
+              "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
+            }
+          ],
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [],
+          "timeFields": {
+            "occurredAt": "2026-05-15",
+            "publishedAt": "2026-05-15",
+            "firstSeenAt": "2026-07-04T18:20:00+08:00",
+            "capturedAt": "2026-07-04T18:20:00+08:00",
+            "processedAt": "2026-07-04T18:15:32+08:00",
+            "dueAt": null,
+            "resolvedAt": null
+          },
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "notes": "Filing announcement rule v0 keeps official disclosure evidence strong but blocks automatic promotion."
+        }
+      ]
+    },
+    {
+      "id": "ptask_2026_07_04_9aa9c4575978",
+      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+      "pipeline": "product_pipeline",
+      "type": "product",
+      "entityId": "unitree",
+      "entityIds": [
+        "unitree"
+      ],
+      "inputType": "url",
+      "sourceKind": "official",
+      "status": "completed",
+      "createdAt": "2026-07-04T16:39:33+08:00",
+      "updatedAt": "2026-07-04T18:15:32+08:00",
+      "nextAction": "review generated claim candidates",
+      "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+      "startedAt": "2026-07-04T16:54:58+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
+      "error": null,
+      "claimIds": [
+        "claim_2026_07_04_product_release_5e689f029f"
+      ],
+      "evidenceIds": [
+        "evd_2026_07_04_product_release_5e689f029f"
+      ],
+      "pipelineRunIds": [
+        "prun_2026_07_04_585179270af3",
+        "prun_2026_07_04_463b334b11e1",
+        "prun_2026_07_04_14cb9f84b42d"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_07_04_product_material_v0_3c7c917d74"
+      ],
+      "rawArtifact": {
+        "id": "raw_2026_07_04_unitree_com_75867f61e9",
+        "title": "Unitree H2 PLUS 产研一体 全栈启航",
+        "artifactType": "product_page",
+        "publisher": "宇树科技股份有限公司",
+        "url": "https://www.unitree.com/cn/H2plus/",
+        "firstSeenAt": "2026-07-04T16:39:33+08:00",
+        "capturedAt": "2026-07-04T16:49:01+08:00"
+      },
+      "routeDecision": {
+        "id": "route_2026_07_04_9bf207e29f78",
+        "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+        "type": "product",
+        "entity": "宇树科技",
+        "entityId": "unitree",
+        "entityIds": [
+          "unitree"
+        ],
+        "pipeline": "product_pipeline",
+        "confidence": "high",
+        "reason": "Artifact contains product page or launch/specification signals.",
+        "matchedSignals": [
+          {
+            "field": "artifact/title",
+            "value": "product_page Unitree H2 PLUS 产研一体 全栈启航",
+            "reason": "product release/spec signal"
+          }
+        ],
+        "sourceKind": "official",
+        "status": "routed",
+        "createdAt": "2026-07-04T16:39:33+08:00",
+        "nextAction": "run product_pipeline",
+        "notes": "Generated by route_artifact v1 rules."
+      },
+      "runs": [
+        {
+          "id": "prun_2026_07_04_14cb9f84b42d",
+          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+          "pipeline": "product_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:15:32+08:00",
+          "finishedAt": "2026-07-04T18:15:32+08:00",
+          "claimIds": [
+            "claim_2026_07_04_product_release_5e689f029f"
+          ],
+          "evidenceIds": [
+            "evd_2026_07_04_product_release_5e689f029f"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_07_04_product_material_v0_3c7c917d74"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_463b334b11e1",
+          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+          "pipeline": "product_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:14:44+08:00",
+          "finishedAt": "2026-07-04T18:14:44+08:00",
+          "claimIds": [
+            "claim_2026_07_04_product_release_5e689f029f"
+          ],
+          "evidenceIds": [
+            "evd_2026_07_04_product_release_5e689f029f"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_07_04_product_material_v0_3c7c917d74"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_585179270af3",
+          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+          "pipeline": "product_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T16:54:58+08:00",
+          "finishedAt": "2026-07-04T16:54:58+08:00",
+          "claimIds": [
+            "claim_2026_07_04_product_release_5e689f029f"
+          ],
+          "evidenceIds": [
+            "evd_2026_07_04_product_release_5e689f029f"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created inbox claim/evidence candidates only."
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim_2026_07_04_product_release_5e689f029f",
+          "claimType": "product_release",
+          "text": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+          "normalizedFact": "宇树科技股份有限公司 has official product material for \"Unitree H2 PLUS 产研一体 全栈启航\".",
+          "entityIds": [
+            "unitree"
+          ],
+          "productIds": [],
+          "artifactIds": [
+            "raw_2026_07_04_unitree_com_75867f61e9"
+          ],
+          "status": "candidate",
+          "reviewStatus": "inbox",
+          "confidence": "medium",
+          "occurredAt": null,
+          "publishedAt": null,
+          "firstSeenAt": "2026-07-04T16:39:33+08:00",
+          "capturedAt": "2026-07-04T16:49:01+08:00",
+          "processedAt": "2026-07-04T18:15:32+08:00",
+          "dueAt": null,
+          "resolvedAt": null,
+          "promotedEventIds": [],
+          "promotedFollowupIds": [],
+          "ruleOutputIds": [
+            "rout_2026_07_04_product_material_v0_3c7c917d74"
+          ],
+          "unknowns": [
+            {
+              "field": "product_name",
+              "reason": "需要人工确认标题是否等同于标准产品名。",
+              "severity": "medium"
+            },
+            {
+              "field": "product_specs",
+              "reason": "未从材料中结构化抽取关键参数。",
+              "severity": "medium"
+            },
+            {
+              "field": "delivery_window",
+              "reason": "未确认交付时间、量产时间或验证窗口。",
+              "severity": "medium"
+            },
+            {
+              "field": "partner_or_customer",
+              "reason": "未确认是否涉及合作方、客户或供应链对象。",
+              "severity": "low"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "product_spec_review",
+              "description": "复核原始材料，提取产品名、参数、发布时间、交付窗口和合作方。",
+              "priority": "high",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [
+            {
+              "kind": "raw_payload_not_fetched",
+              "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+              "severity": "medium"
+            }
+          ],
+          "reviewRequirements": [
+            {
+              "kind": "confirm_product_identity",
+              "description": "确认标题、页面正文和标准产品名是否一致。",
+              "required": true
+            },
+            {
+              "kind": "extract_product_fields",
+              "description": "补全产品名、参数、交付窗口、合作方和待验证点。",
+              "required": true
+            }
+          ],
+          "whyNow": "Router 将原始材料分配至 product_pipeline，Skill Rule Contract 生成待审核产品事实候选。",
+          "notes": "Generated by product_pipeline rule at 2026-07-04T18:15:32+08:00. This candidate is not promoted truth."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_07_04_product_release_5e689f029f",
+          "claimId": "claim_2026_07_04_product_release_5e689f029f",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "sourceId": "src_unitree_h2plus_product",
+          "ruleOutputId": "rout_2026_07_04_product_material_v0_3c7c917d74",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "medium",
+          "quote": "Unitree H2 PLUS 产研一体 全栈启航",
+          "capturedAt": "2026-07-04T16:49:01+08:00",
+          "assessedAt": "2026-07-04T18:15:32+08:00",
+          "notes": "Official product material supports the existence of a product-related candidate."
+        }
+      ],
+      "ruleOutputs": [
+        {
+          "id": "rout_2026_07_04_product_material_v0_3c7c917d74",
+          "contractVersion": "skill_rule_contract_v0",
+          "ruleId": "product_material_v0",
+          "pipeline": "product_pipeline",
+          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+          "sourceId": "src_unitree_h2plus_product",
+          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+          "generatedAt": "2026-07-04T18:15:32+08:00",
+          "payloadStatus": "metadata_only",
+          "claimCandidates": [
+            {
+              "claimType": "product_release",
+              "text": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+              "normalizedFact": "宇树科技股份有限公司 has official product material for \"Unitree H2 PLUS 产研一体 全栈启航\".",
+              "confidence": "medium",
+              "publishedAt": null,
+              "whyNow": "Router 将原始材料分配至 product_pipeline，Skill Rule Contract 生成待审核产品事实候选。",
+              "notes": "Generated by product_pipeline rule at 2026-07-04T18:15:32+08:00. This candidate is not promoted truth."
+            }
+          ],
+          "evidenceCandidates": [
+            {
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "medium",
+              "quote": "Unitree H2 PLUS 产研一体 全栈启航",
+              "notes": "Official product material supports the existence of a product-related candidate."
+            }
+          ],
+          "unknowns": [
+            {
+              "field": "product_name",
+              "reason": "需要人工确认标题是否等同于标准产品名。",
+              "severity": "medium"
+            },
+            {
+              "field": "product_specs",
+              "reason": "未从材料中结构化抽取关键参数。",
+              "severity": "medium"
+            },
+            {
+              "field": "delivery_window",
+              "reason": "未确认交付时间、量产时间或验证窗口。",
+              "severity": "medium"
+            },
+            {
+              "field": "partner_or_customer",
+              "reason": "未确认是否涉及合作方、客户或供应链对象。",
+              "severity": "low"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "product_spec_review",
+              "description": "复核原始材料，提取产品名、参数、发布时间、交付窗口和合作方。",
+              "priority": "high",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [
+            {
+              "kind": "raw_payload_not_fetched",
+              "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+              "severity": "medium"
+            }
+          ],
+          "timeFields": {
+            "occurredAt": null,
+            "publishedAt": null,
+            "firstSeenAt": "2026-07-04T16:39:33+08:00",
+            "capturedAt": "2026-07-04T16:49:01+08:00",
+            "processedAt": "2026-07-04T18:15:32+08:00",
+            "dueAt": null,
+            "resolvedAt": null
+          },
+          "reviewRequirements": [
+            {
+              "kind": "confirm_product_identity",
+              "description": "确认标题、页面正文和标准产品名是否一致。",
+              "required": true
+            },
+            {
+              "kind": "extract_product_fields",
+              "description": "补全产品名、参数、交付窗口、合作方和待验证点。",
+              "required": true
+            }
+          ],
+          "notes": "Product rule v0 preserves the existing claim text but exposes missing richness as unknowns and follow-up hints."
         }
       ]
     },
@@ -273,11 +895,11 @@
       "sourceKind": "filing",
       "status": "completed",
       "createdAt": "2026-07-04T18:20:00+08:00",
-      "updatedAt": "2026-07-04T18:20:00+08:00",
+      "updatedAt": "2026-07-04T18:15:32+08:00",
       "nextAction": "review generated claim candidates",
       "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
       "startedAt": "2026-07-04T18:20:00+08:00",
-      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
       "error": null,
       "claimIds": [
         "claim_2026_03_31_financial_7b9ccabecb"
@@ -286,7 +908,12 @@
         "evd_2026_03_31_financial_7b9ccabecb"
       ],
       "pipelineRunIds": [
-        "prun_2026_07_04_3703a7647549"
+        "prun_2026_07_04_3703a7647549",
+        "prun_2026_07_04_b7413d319cbd",
+        "prun_2026_07_04_ae31a0edd959"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_03_31_serenity_financials_v0_af72f3c649"
       ],
       "rawArtifact": {
         "id": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
@@ -340,6 +967,48 @@
           ],
           "error": null,
           "notes": "Pipeline execution created inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_ae31a0edd959",
+          "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
+          "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+          "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:15:32+08:00",
+          "finishedAt": "2026-07-04T18:15:32+08:00",
+          "claimIds": [
+            "claim_2026_03_31_financial_7b9ccabecb"
+          ],
+          "evidenceIds": [
+            "evd_2026_03_31_financial_7b9ccabecb"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_b7413d319cbd",
+          "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
+          "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+          "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:14:44+08:00",
+          "finishedAt": "2026-07-04T18:14:44+08:00",
+          "claimIds": [
+            "claim_2026_03_31_financial_7b9ccabecb"
+          ],
+          "evidenceIds": [
+            "evd_2026_03_31_financial_7b9ccabecb"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
         }
       ],
       "claims": [
@@ -362,13 +1031,58 @@
           "publishedAt": "2026-03-31",
           "firstSeenAt": "2026-07-04T18:20:00+08:00",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "processedAt": "2026-07-04T18:20:00+08:00",
+          "processedAt": "2026-07-04T18:15:32+08:00",
           "dueAt": null,
           "resolvedAt": null,
           "promotedEventIds": [],
           "promotedFollowupIds": [],
+          "ruleOutputIds": [
+            "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+          ],
+          "unknowns": [
+            {
+              "field": "official_financial_reconciliation",
+              "reason": "结构化财务数据尚未与 L0/L1 正式披露逐项核对。",
+              "severity": "high"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "financial_reconciliation",
+              "description": "用公告 PDF、XBRL 或 L1 数据源复核营收、净利、现金流、资产和负债。",
+              "priority": "high",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [
+            {
+              "dataset": "financials",
+              "status": "PARTIAL",
+              "gap_type": "NOT_MACHINE_READABLE",
+              "decision_impact": "EVIDENCE_IMPACT",
+              "next_action": "Reconcile financial statement lines against official filings or L1 export.",
+              "source_name": "Eastmoney_F10_Financials_L3",
+              "source_level": "L3_MEDIA_F10_RESEARCH",
+              "evidenceLevel": "C",
+              "kind": "serenity_not_machine_readable",
+              "description": "financials: Reconcile financial statement lines against official filings or L1 export.",
+              "severity": "medium"
+            }
+          ],
+          "reviewRequirements": [
+            {
+              "kind": "reconcile_l0_l1",
+              "description": "在 promotion 前必须用 L0/L1 披露核对核心财务字段。",
+              "required": true
+            },
+            {
+              "kind": "avoid_rating_use",
+              "description": "不得将该候选用于评级、买点、仓位或估值结论。",
+              "required": true
+            }
+          ],
           "whyNow": "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
-          "notes": "Generated from Serenity financials at 2026-07-04T18:20:00+08:00. Source level=C; do not treat as verified filing until review."
+          "notes": "Generated from Serenity financials at 2026-07-04T18:15:32+08:00. Source level=C; do not treat as verified filing until review."
         }
       ],
       "evidence": [
@@ -377,13 +1091,100 @@
           "claimId": "claim_2026_03_31_financial_7b9ccabecb",
           "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
           "sourceId": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+          "ruleOutputId": "rout_2026_03_31_serenity_financials_v0_af72f3c649",
           "relation": "mentions",
           "sourceLevel": "C",
           "strength": "weak",
           "quote": "2026-03-31 一季报: revenue 202887914.06, net_income 30996569.3",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "assessedAt": "2026-07-04T18:20:00+08:00",
+          "assessedAt": "2026-07-04T18:15:32+08:00",
           "notes": "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard."
+        }
+      ],
+      "ruleOutputs": [
+        {
+          "id": "rout_2026_03_31_serenity_financials_v0_af72f3c649",
+          "contractVersion": "skill_rule_contract_v0",
+          "ruleId": "serenity_financials_v0",
+          "pipeline": "filing_pipeline",
+          "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+          "sourceId": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+          "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+          "generatedAt": "2026-07-04T18:15:32+08:00",
+          "payloadStatus": "captured_payload",
+          "claimCandidates": [
+            {
+              "claimType": "financial",
+              "text": "奥比中光2026-03-31一季报结构化财务数据进入待审核：营收 2.03亿元，净利润 3099.66万元，经营现金流 -1.17亿元。",
+              "normalizedFact": "奥比中光 latest structured financial period 2026-03-31: revenue=202887914.06, net_income=30996569.3, operating_cash_flow=-117430404.43.",
+              "confidence": "low",
+              "occurredAt": "2026-03-31",
+              "publishedAt": "2026-03-31",
+              "whyNow": "Serenity Bridge 接入结构化财报数据，但该来源级别仍需 L0/L1 披露复核。",
+              "notes": "Generated from Serenity financials at 2026-07-04T18:15:32+08:00. Source level=C; do not treat as verified filing until review."
+            }
+          ],
+          "evidenceCandidates": [
+            {
+              "relation": "mentions",
+              "sourceLevel": "C",
+              "strength": "weak",
+              "quote": "2026-03-31 一季报: revenue 202887914.06, net_income 30996569.3",
+              "notes": "Structured financial data supports a candidate only; source-level gap remains visible in fetch_runs/dashboard."
+            }
+          ],
+          "unknowns": [
+            {
+              "field": "official_financial_reconciliation",
+              "reason": "结构化财务数据尚未与 L0/L1 正式披露逐项核对。",
+              "severity": "high"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "financial_reconciliation",
+              "description": "用公告 PDF、XBRL 或 L1 数据源复核营收、净利、现金流、资产和负债。",
+              "priority": "high",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [
+            {
+              "dataset": "financials",
+              "status": "PARTIAL",
+              "gap_type": "NOT_MACHINE_READABLE",
+              "decision_impact": "EVIDENCE_IMPACT",
+              "next_action": "Reconcile financial statement lines against official filings or L1 export.",
+              "source_name": "Eastmoney_F10_Financials_L3",
+              "source_level": "L3_MEDIA_F10_RESEARCH",
+              "evidenceLevel": "C",
+              "kind": "serenity_not_machine_readable",
+              "description": "financials: Reconcile financial statement lines against official filings or L1 export.",
+              "severity": "medium"
+            }
+          ],
+          "timeFields": {
+            "occurredAt": "2026-03-31",
+            "publishedAt": "2026-03-31",
+            "firstSeenAt": "2026-07-04T18:20:00+08:00",
+            "capturedAt": "2026-07-04T18:20:00+08:00",
+            "processedAt": "2026-07-04T18:15:32+08:00",
+            "dueAt": null,
+            "resolvedAt": null
+          },
+          "reviewRequirements": [
+            {
+              "kind": "reconcile_l0_l1",
+              "description": "在 promotion 前必须用 L0/L1 披露核对核心财务字段。",
+              "required": true
+            },
+            {
+              "kind": "avoid_rating_use",
+              "description": "不得将该候选用于评级、买点、仓位或估值结论。",
+              "required": true
+            }
+          ],
+          "notes": "Financial rule v0 preserves Serenity source-level limits and forces review before formal use."
         }
       ]
     },
@@ -401,11 +1202,11 @@
       "sourceKind": "filing",
       "status": "completed",
       "createdAt": "2026-07-04T18:20:00+08:00",
-      "updatedAt": "2026-07-04T18:20:00+08:00",
+      "updatedAt": "2026-07-04T18:15:32+08:00",
       "nextAction": "review generated claim candidates",
       "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
       "startedAt": "2026-07-04T18:20:00+08:00",
-      "finishedAt": "2026-07-04T18:20:00+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
       "error": null,
       "claimIds": [
         "claim_2026_06_01_filing_80c064155f"
@@ -414,7 +1215,12 @@
         "evd_2026_06_01_filing_80c064155f"
       ],
       "pipelineRunIds": [
-        "prun_2026_07_04_d539dba3e9bc"
+        "prun_2026_07_04_d539dba3e9bc",
+        "prun_2026_07_04_6ba14d06ea5d",
+        "prun_2026_07_04_310ab4640b59"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
       ],
       "rawArtifact": {
         "id": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
@@ -468,6 +1274,48 @@
           ],
           "error": null,
           "notes": "Pipeline execution created inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_310ab4640b59",
+          "pipelineTaskId": "ptask_2026_07_04_e1a17d7a5e7c",
+          "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
+          "routeDecisionId": "route_2026_06_01_383550ca09c5",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:15:32+08:00",
+          "finishedAt": "2026-07-04T18:15:32+08:00",
+          "claimIds": [
+            "claim_2026_06_01_filing_80c064155f"
+          ],
+          "evidenceIds": [
+            "evd_2026_06_01_filing_80c064155f"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+        },
+        {
+          "id": "prun_2026_07_04_6ba14d06ea5d",
+          "pipelineTaskId": "ptask_2026_07_04_e1a17d7a5e7c",
+          "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
+          "routeDecisionId": "route_2026_06_01_383550ca09c5",
+          "pipeline": "filing_pipeline",
+          "status": "completed",
+          "startedAt": "2026-07-04T18:14:44+08:00",
+          "finishedAt": "2026-07-04T18:14:44+08:00",
+          "claimIds": [
+            "claim_2026_06_01_filing_80c064155f"
+          ],
+          "evidenceIds": [
+            "evd_2026_06_01_filing_80c064155f"
+          ],
+          "ruleOutputIds": [
+            "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
+          ],
+          "error": null,
+          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
         }
       ],
       "claims": [
@@ -490,13 +1338,44 @@
           "publishedAt": "2026-06-01",
           "firstSeenAt": "2026-07-04T18:20:00+08:00",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "processedAt": "2026-07-04T18:20:00+08:00",
+          "processedAt": "2026-07-04T18:15:32+08:00",
           "dueAt": null,
           "resolvedAt": null,
           "promotedEventIds": [],
           "promotedFollowupIds": [],
-          "whyNow": "Serenity Bridge 接入上市公司公告数据，filing_pipeline 生成待人工审核的披露事实候选。",
-          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:20:00+08:00. Candidate only; no automatic promotion."
+          "ruleOutputIds": [
+            "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
+          ],
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
+          ],
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
+          ],
+          "dataGaps": [],
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+          "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
         }
       ],
       "evidence": [
@@ -505,141 +1384,86 @@
           "claimId": "claim_2026_06_01_filing_80c064155f",
           "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
           "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "ruleOutputId": "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b",
           "relation": "supports",
           "sourceLevel": "A",
           "strength": "strong",
           "quote": "关于以集中竞价交易方式回购公司股份的进展公告",
           "capturedAt": "2026-07-04T18:20:00+08:00",
-          "assessedAt": "2026-07-04T18:20:00+08:00",
+          "assessedAt": "2026-07-04T18:15:32+08:00",
           "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
         }
-      ]
-    },
-    {
-      "id": "ptask_2026_07_04_9aa9c4575978",
-      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
-      "routeDecisionId": "route_2026_07_04_9bf207e29f78",
-      "pipeline": "product_pipeline",
-      "type": "product",
-      "entityId": "unitree",
-      "entityIds": [
-        "unitree"
       ],
-      "inputType": "url",
-      "sourceKind": "official",
-      "status": "completed",
-      "createdAt": "2026-07-04T16:39:33+08:00",
-      "updatedAt": "2026-07-04T16:54:58+08:00",
-      "nextAction": "review generated claim candidates",
-      "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
-      "startedAt": "2026-07-04T16:54:58+08:00",
-      "finishedAt": "2026-07-04T16:54:58+08:00",
-      "error": null,
-      "claimIds": [
-        "claim_2026_07_04_product_release_5e689f029f"
-      ],
-      "evidenceIds": [
-        "evd_2026_07_04_product_release_5e689f029f"
-      ],
-      "pipelineRunIds": [
-        "prun_2026_07_04_585179270af3"
-      ],
-      "rawArtifact": {
-        "id": "raw_2026_07_04_unitree_com_75867f61e9",
-        "title": "Unitree H2 PLUS 产研一体 全栈启航",
-        "artifactType": "product_page",
-        "publisher": "宇树科技股份有限公司",
-        "url": "https://www.unitree.com/cn/H2plus/",
-        "firstSeenAt": "2026-07-04T16:39:33+08:00",
-        "capturedAt": "2026-07-04T16:49:01+08:00"
-      },
-      "routeDecision": {
-        "id": "route_2026_07_04_9bf207e29f78",
-        "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
-        "type": "product",
-        "entity": "宇树科技",
-        "entityId": "unitree",
-        "entityIds": [
-          "unitree"
-        ],
-        "pipeline": "product_pipeline",
-        "confidence": "high",
-        "reason": "Artifact contains product page or launch/specification signals.",
-        "matchedSignals": [
-          {
-            "field": "artifact/title",
-            "value": "product_page Unitree H2 PLUS 产研一体 全栈启航",
-            "reason": "product release/spec signal"
-          }
-        ],
-        "sourceKind": "official",
-        "status": "routed",
-        "createdAt": "2026-07-04T16:39:33+08:00",
-        "nextAction": "run product_pipeline",
-        "notes": "Generated by route_artifact v1 rules."
-      },
-      "runs": [
+      "ruleOutputs": [
         {
-          "id": "prun_2026_07_04_585179270af3",
-          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
-          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
-          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
-          "pipeline": "product_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T16:54:58+08:00",
-          "finishedAt": "2026-07-04T16:54:58+08:00",
-          "claimIds": [
-            "claim_2026_07_04_product_release_5e689f029f"
+          "id": "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b",
+          "contractVersion": "skill_rule_contract_v0",
+          "ruleId": "serenity_filing_announcement_v0",
+          "pipeline": "filing_pipeline",
+          "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
+          "sourceId": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "routeDecisionId": "route_2026_06_01_383550ca09c5",
+          "generatedAt": "2026-07-04T18:15:32+08:00",
+          "payloadStatus": "captured_payload",
+          "claimCandidates": [
+            {
+              "claimType": "filing",
+              "text": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+              "normalizedFact": "奥比中光 disclosed filing \"关于以集中竞价交易方式回购公司股份的进展公告\" on 2026-06-01.",
+              "confidence": "medium",
+              "occurredAt": "2026-06-01",
+              "publishedAt": "2026-06-01",
+              "whyNow": "Serenity Bridge 接入上市公司公告数据，Skill Rule Contract 生成待人工审核的披露事实候选。",
+              "notes": "Generated from Serenity filings_announcements at 2026-07-04T18:15:32+08:00. Candidate only; no automatic promotion."
+            }
           ],
-          "evidenceIds": [
-            "evd_2026_07_04_product_release_5e689f029f"
+          "evidenceCandidates": [
+            {
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "quote": "关于以集中竞价交易方式回购公司股份的进展公告",
+              "notes": "Serenity Bridge preserved the announcement payload and source level; reviewer must verify before promotion."
+            }
           ],
-          "error": null,
-          "notes": "Pipeline execution created inbox claim/evidence candidates only."
-        }
-      ],
-      "claims": [
-        {
-          "id": "claim_2026_07_04_product_release_5e689f029f",
-          "claimType": "product_release",
-          "text": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
-          "normalizedFact": "宇树科技股份有限公司 has official product material for \"Unitree H2 PLUS 产研一体 全栈启航\".",
-          "entityIds": [
-            "unitree"
+          "unknowns": [
+            {
+              "field": "announcement_materiality",
+              "reason": "公告是否与人形机器人产业链相关仍需人工判断。",
+              "severity": "medium"
+            }
           ],
-          "productIds": [],
-          "artifactIds": [
-            "raw_2026_07_04_unitree_com_75867f61e9"
+          "followupHints": [
+            {
+              "kind": "filing_materiality_review",
+              "description": "阅读公告正文，判断是否需要 promotion 为事件、follow-up 或仅归档为背景材料。",
+              "priority": "medium",
+              "dueAt": null
+            }
           ],
-          "status": "candidate",
-          "reviewStatus": "inbox",
-          "confidence": "medium",
-          "occurredAt": null,
-          "publishedAt": null,
-          "firstSeenAt": "2026-07-04T16:39:33+08:00",
-          "capturedAt": "2026-07-04T16:49:01+08:00",
-          "processedAt": "2026-07-04T16:54:58+08:00",
-          "dueAt": null,
-          "resolvedAt": null,
-          "promotedEventIds": [],
-          "promotedFollowupIds": [],
-          "whyNow": "Router 将原始材料分配至 product_pipeline，pipeline 生成待审核产品事实候选。",
-          "notes": "Generated by product_pipeline at 2026-07-04T16:54:58+08:00. This candidate is not promoted truth."
-        }
-      ],
-      "evidence": [
-        {
-          "id": "evd_2026_07_04_product_release_5e689f029f",
-          "claimId": "claim_2026_07_04_product_release_5e689f029f",
-          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
-          "sourceId": "src_unitree_h2plus_product",
-          "relation": "supports",
-          "sourceLevel": "A",
-          "strength": "medium",
-          "quote": "Unitree H2 PLUS 产研一体 全栈启航",
-          "capturedAt": "2026-07-04T16:49:01+08:00",
-          "assessedAt": "2026-07-04T16:54:58+08:00",
-          "notes": "Official product material supports the existence of a product-related candidate."
+          "dataGaps": [],
+          "timeFields": {
+            "occurredAt": "2026-06-01",
+            "publishedAt": "2026-06-01",
+            "firstSeenAt": "2026-07-04T18:20:00+08:00",
+            "capturedAt": "2026-07-04T18:20:00+08:00",
+            "processedAt": "2026-07-04T18:15:32+08:00",
+            "dueAt": null,
+            "resolvedAt": null
+          },
+          "reviewRequirements": [
+            {
+              "kind": "verify_pdf_source",
+              "description": "打开公告 PDF 或交易所页面确认标题和披露日。",
+              "required": true
+            },
+            {
+              "kind": "classify_materiality",
+              "description": "判断公告是否构成正式研究事件或仅保留候选。",
+              "required": true
+            }
+          ],
+          "notes": "Filing announcement rule v0 keeps official disclosure evidence strong but blocks automatic promotion."
         }
       ]
     }
@@ -718,27 +1542,136 @@
       "notes": "Pipeline execution created inbox claim/evidence candidates only."
     },
     {
-      "id": "prun_2026_07_04_585179270af3",
+      "id": "prun_2026_07_04_eb4bd41a9f33",
+      "pipelineTaskId": "ptask_2026_07_04_1ac6259a0d63",
+      "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
+      "routeDecisionId": "route_2026_06_12_1fb6a4548b79",
+      "pipeline": "filing_pipeline",
+      "status": "completed",
+      "startedAt": "2026-07-04T18:15:32+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
+      "claimIds": [
+        "claim_2026_06_12_filing_5bf12d6891"
+      ],
+      "evidenceIds": [
+        "evd_2026_06_12_filing_5bf12d6891"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
+      ],
+      "error": null,
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+    },
+    {
+      "id": "prun_2026_07_04_ae31a0edd959",
+      "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
+      "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+      "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+      "pipeline": "filing_pipeline",
+      "status": "completed",
+      "startedAt": "2026-07-04T18:15:32+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
+      "claimIds": [
+        "claim_2026_03_31_financial_7b9ccabecb"
+      ],
+      "evidenceIds": [
+        "evd_2026_03_31_financial_7b9ccabecb"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+      ],
+      "error": null,
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+    },
+    {
+      "id": "prun_2026_07_04_69225f5542fe",
+      "pipelineTaskId": "ptask_2026_07_04_284e9683232f",
+      "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
+      "routeDecisionId": "route_2026_05_15_344c32b83f43",
+      "pipeline": "filing_pipeline",
+      "status": "completed",
+      "startedAt": "2026-07-04T18:15:32+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
+      "claimIds": [
+        "claim_2026_05_15_filing_4ec343f48a"
+      ],
+      "evidenceIds": [
+        "evd_2026_05_15_filing_4ec343f48a"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
+      ],
+      "error": null,
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+    },
+    {
+      "id": "prun_2026_07_04_310ab4640b59",
+      "pipelineTaskId": "ptask_2026_07_04_e1a17d7a5e7c",
+      "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
+      "routeDecisionId": "route_2026_06_01_383550ca09c5",
+      "pipeline": "filing_pipeline",
+      "status": "completed",
+      "startedAt": "2026-07-04T18:15:32+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
+      "claimIds": [
+        "claim_2026_06_01_filing_80c064155f"
+      ],
+      "evidenceIds": [
+        "evd_2026_06_01_filing_80c064155f"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
+      ],
+      "error": null,
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+    },
+    {
+      "id": "prun_2026_07_04_14cb9f84b42d",
       "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
       "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
       "routeDecisionId": "route_2026_07_04_9bf207e29f78",
       "pipeline": "product_pipeline",
       "status": "completed",
-      "startedAt": "2026-07-04T16:54:58+08:00",
-      "finishedAt": "2026-07-04T16:54:58+08:00",
+      "startedAt": "2026-07-04T18:15:32+08:00",
+      "finishedAt": "2026-07-04T18:15:32+08:00",
       "claimIds": [
         "claim_2026_07_04_product_release_5e689f029f"
       ],
       "evidenceIds": [
         "evd_2026_07_04_product_release_5e689f029f"
       ],
+      "ruleOutputIds": [
+        "rout_2026_07_04_product_material_v0_3c7c917d74"
+      ],
       "error": null,
-      "notes": "Pipeline execution created inbox claim/evidence candidates only."
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+    },
+    {
+      "id": "prun_2026_07_04_b7413d319cbd",
+      "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
+      "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
+      "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
+      "pipeline": "filing_pipeline",
+      "status": "completed",
+      "startedAt": "2026-07-04T18:14:44+08:00",
+      "finishedAt": "2026-07-04T18:14:44+08:00",
+      "claimIds": [
+        "claim_2026_03_31_financial_7b9ccabecb"
+      ],
+      "evidenceIds": [
+        "evd_2026_03_31_financial_7b9ccabecb"
+      ],
+      "ruleOutputIds": [
+        "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+      ],
+      "error": null,
+      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
     }
   ],
   "totals": {
     "tasks": 5,
-    "runs": 5,
+    "runs": 15,
+    "ruleOutputs": 5,
     "queued": 0,
     "completed": 5,
     "failed": 0,
