@@ -11,6 +11,9 @@
     "fetch:market": "python3 scripts/fetch_market.py",
     "fetch:market:promote": "python3 scripts/fetch_market.py --promote",
     "fetch:news": "python3 scripts/fetch_news.py",
+    "capture:artifact": "node scripts/capture_artifact.mjs",
+    "extract:claims": "node scripts/extract_claims.mjs",
+    "promote:claim": "node scripts/promote_claim.mjs",
     "validate": "node scripts/validate-data.mjs",
     "check": "npm run validate && npm run build"
   },

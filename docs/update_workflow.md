@@ -74,3 +74,44 @@ manual official/product link
 
 Only after this loop validates cleanly should the project add heavier fetchers or
 Serenity Bridge automation.
+
+## Manual Evidence CLI
+
+Use these scripts for the first manual-link workflow.
+
+Capture an official source or product page:
+
+```bash
+npm run capture:artifact -- \
+  --url "https://example.com/product" \
+  --title "Official product page title" \
+  --publisher "Company name" \
+  --entity-ids "unitree" \
+  --artifact-type product_page \
+  --source-type webpage \
+  --published-at "2026-07-04T10:00:00+08:00"
+```
+
+Extract a reviewed claim candidate from that artifact:
+
+```bash
+npm run extract:claims -- \
+  --artifact-id raw_2026_07_04_example_com_abcd123456 \
+  --claim-type product_release \
+  --claim "Company released product X." \
+  --entity-ids "unitree" \
+  --confidence medium
+```
+
+Promote a claim only after manual review:
+
+```bash
+npm run promote:claim -- \
+  --claim-id claim_2026_07_04_product_release_abcd123456 \
+  --event-type product \
+  --module "整机厂" \
+  --title "Company released product X" \
+  --importance 3
+```
+
+All three scripts support `--dry-run`.
