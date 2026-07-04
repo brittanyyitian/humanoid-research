@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "observation_run.schema.json",
+  "title": "Observation Projection Run",
+  "type": "object",
+  "required": [
+    "id",
+    "targetDate",
+    "generatedAt",
+    "sourceDashboardGeneratedAt",
+    "status",
+    "projectionPolicy",
+    "observationCount",
+    "projectedCount",
+    "excludedClaimCount",
+    "violationCount",
+    "rows",
+    "excludedClaims",
+    "violations"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^obsrun_[0-9]{4}_[0-9]{2}_[0-9]{2}_[a-z0-9_\\-]+$" },
+    "targetDate": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "minLength": 1 },
+    "sourceDashboardGeneratedAt": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "enum": ["completed", "failed"] },
+    "projectionPolicy": { "type": "string", "minLength": 1 },
+    "observationCount": { "type": "integer", "minimum": 0 },
+    "projectedCount": { "type": "integer", "minimum": 0 },
+    "excludedClaimCount": { "type": "integer", "minimum": 0 },
+    "violationCount": { "type": "integer", "minimum": 0 },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "observationId",
+          "eventId",
+          "gate",
+          "status",
+          "title",
+          "date",
+          "claimIds",
+          "evidenceIds",
+          "stateTransitionIds",
+          "violations"
+        ],
+        "properties": {
+          "observationId": { "type": "string" },
+          "eventId": { "type": "string" },
+          "gate": { "type": "string", "enum": ["formal_event_and_promoted_claims"] },
+          "status": { "type": "string", "enum": ["projected", "blocked"] },
+          "title": { "type": "string" },
+          "date": { "type": "string" },
+          "claimIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "evidenceIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "stateTransitionIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "violations": {
+            "type": "array",
+            "items": { "type": "object" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "excludedClaims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claimId", "status", "reviewStatus", "reason"],
+        "properties": {
+          "claimId": { "type": "string" },
+          "status": { "type": "string" },
+          "reviewStatus": { "type": "string" },
+          "reason": { "type": "string", "enum": ["claim_not_promoted", "claim_has_no_promoted_event"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "violations": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  },
+  "additionalProperties": false
+}

@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / route_decisions / pipeline_tasks / pipeline_runs / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
+  raw_artifacts / route_decisions / pipeline_tasks / pipeline_runs / observation_runs / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -25,6 +25,7 @@ Dashboard Layer
   dashboard/upcoming.json
   dashboard/ingestion.json
   dashboard/pipelines.json
+  dashboard/observation_projection.json
   dashboard/scheduler.json
 ```
 
@@ -220,6 +221,24 @@ route_decision
 Pipeline tasks can be replayed, retried, completed or marked as needing review.
 Pipeline runs create claim/evidence candidates only. They must not promote
 events, relations, follow-ups or observations.
+
+## Observation Projection Boundary
+
+Observation projection is the final v2.1 automation gate:
+
+```text
+formal event
++ promoted claim/evidence/state_transition
+-> observation projection
+-> observation card
+```
+
+The projection audit lives under `data/observation_runs/` and the latest
+dashboard-facing audit is `data/dashboard/observation_projection.json`.
+
+Candidate claims are explicitly excluded until review promotes them into a
+formal event, relation, follow-up or stock snapshot. Observation projection must
+not read directly from `pipeline_tasks`, `pipeline_runs` or inbox candidates.
 
 ## Source
 

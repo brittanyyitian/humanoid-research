@@ -158,6 +158,40 @@ data/inbox/claim_candidates.json
 Pipeline output is still only a candidate. It must remain in inbox until manual
 review promotes it into events, relations, follow-ups or stocks.
 
+## V2.1 Observation Projection
+
+Use Observation Projection after `npm run generate` has refreshed dashboard
+observations.
+
+```bash
+npm run observation:project
+```
+
+For a non-writing check:
+
+```bash
+npm run observation:project -- --dry-run
+```
+
+Observation projection writes:
+
+```text
+data/observation_runs/obsrun_*.json
+data/dashboard/observation_projection.json
+```
+
+Projection can include only:
+
+```text
+formal events
+promoted claims
+evidence attached to promoted claims
+state transitions attached to promoted claims
+```
+
+Pipeline candidates stay excluded until review promotes them. A projection run
+with unpromoted claims in observation rows must fail validation.
+
 ## Inbox Fetch Gate
 
 Use inbox for raw or semi-structured fetch results:

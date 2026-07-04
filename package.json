@@ -15,6 +15,7 @@
     "ingest:input": "node scripts/ingest_input.mjs",
     "scheduler:tick": "node scripts/scheduler_tick.mjs",
     "pipeline:run": "node scripts/run_pipeline.mjs",
+    "observation:project": "node scripts/project_observations.mjs",
     "extract:claims": "node scripts/extract_claims.mjs",
     "promote:claim": "node scripts/promote_claim.mjs",
     "route:artifact": "node scripts/route_artifact.mjs",

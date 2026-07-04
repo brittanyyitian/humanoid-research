@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:55:18.620Z",
+  "generatedAt": "2026-07-04T09:00:27.784Z",
   "sortPolicy": "证据等级 > 事件重要性 > 涉及公司数量 > 日期",
   "sourcePolicy": "股票只展示同日 Watchlist 行情事实，不表达因果判断。",
   "projectionPolicy": "Observation 是从 event/followup/claim/evidence 派生的展示层，不是事实源。",

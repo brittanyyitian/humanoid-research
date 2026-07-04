@@ -32,6 +32,7 @@ const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
 const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
 const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.data);
 const pipelineRuns = (await readJsonDir("pipeline_runs")).map((row) => row.data);
+const observationRuns = (await readJsonDir("observation_runs")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
 const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
@@ -1118,6 +1119,7 @@ const stats = {
   routeDecisions: routeDecisions.length,
   pipelineTasks: pipelineTasks.length,
   pipelineRuns: pipelineRuns.length,
+  observationRuns: observationRuns.length,
   schedulerSources: schedulerRows.length,
   schedulerRuns: schedulerRuns.length,
   claims: claims.length,

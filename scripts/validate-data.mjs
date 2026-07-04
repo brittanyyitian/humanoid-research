@@ -59,6 +59,7 @@ const allowedRouteSourceKind = new Set(["official", "filing", "media", "social",
 const allowedRouteStatus = new Set(["routed", "needs_review", "skipped", "manual_override"]);
 const allowedPipelineTaskStatus = new Set(["queued", "running", "completed", "failed", "skipped", "needs_review"]);
 const allowedPipelineRunStatus = new Set(["completed", "failed", "skipped"]);
+const allowedObservationRunStatus = new Set(["completed", "failed"]);
 const allowedInputTypes = new Set(["url", "rss", "api", "manual"]);
 const allowedIngestionSourceTypes = new Set(["webpage", "pdf", "video", "filing", "wechat", "news", "exchange", "government"]);
 const allowedSchedulerCadenceKeys = new Set(["market", "filing", "industry"]);
@@ -239,6 +240,7 @@ const stateTransitions = await readJsonDir("state_transitions");
 const routeDecisions = await readJsonDir("route_decisions");
 const pipelineTasks = await readJsonDir("pipeline_tasks");
 const pipelineRuns = await readJsonDir("pipeline_runs");
+const observationRuns = await readJsonDir("observation_runs");
 const schedulerRuns = await readJsonDir("scheduler_runs");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
@@ -252,6 +254,7 @@ const milestoneIds = new Set();
 const stateTransitionIds = new Set();
 const pipelineTaskIds = new Set();
 const pipelineRunIds = new Set();
+const observationRunIds = new Set();
 const schedulerRunIds = new Set();
 
 for (const { file, data } of fetchRuns) registerId(data, file, "id", fetchRunIds, "fetch run");
@@ -264,6 +267,7 @@ for (const { file, data } of stateTransitions) {
 }
 for (const { file, data } of pipelineTasks) registerId(data, file, "id", pipelineTaskIds, "pipeline task");
 for (const { file, data } of pipelineRuns) registerId(data, file, "id", pipelineRunIds, "pipeline run");
+for (const { file, data } of observationRuns) registerId(data, file, "id", observationRunIds, "observation run");
 for (const { file, data } of schedulerRuns) registerId(data, file, "id", schedulerRunIds, "scheduler run");
 
 const configuredPipelineByType = new Map();
@@ -508,6 +512,46 @@ for (const { file, data } of pipelineRuns) {
   }
 }
 
+for (const { file, data } of observationRuns) {
+  requireString(data, file, "targetDate");
+  requireString(data, file, "generatedAt");
+  requireString(data, file, "sourceDashboardGeneratedAt");
+  requireString(data, file, "status");
+  requireString(data, file, "projectionPolicy");
+  if (!allowedObservationRunStatus.has(data.status)) fail(file, `invalid observation run status "${data.status}"`);
+  if (!Array.isArray(data.rows)) {
+    fail(file, "rows must be an array");
+  } else {
+    for (const row of data.rows) {
+      requireString(row, file, "observationId");
+      requireString(row, file, "eventId");
+      requireString(row, file, "gate");
+      requireString(row, file, "status");
+      if (!eventIds.has(row.eventId)) fail(file, `unknown eventId "${row.eventId}"`);
+      requireKnownIds(row, file, "claimIds", claimIds, "claimId");
+      requireKnownIds(row, file, "evidenceIds", evidenceIds, "evidenceId");
+      requireKnownIds(row, file, "stateTransitionIds", stateTransitionIds, "stateTransitionId");
+      for (const claimId of row.claimIds || []) {
+        const claim = claims.find((item) => item.data.id === claimId)?.data;
+        if (claim && (claim.reviewStatus !== "promoted" || !claim.promotedEventIds?.includes(row.eventId))) {
+          fail(file, `observation row includes unpromoted claim "${claimId}"`);
+        }
+      }
+    }
+  }
+  if (!Array.isArray(data.excludedClaims)) {
+    fail(file, "excludedClaims must be an array");
+  } else {
+    for (const excluded of data.excludedClaims) {
+      requireString(excluded, file, "claimId");
+      if (!claimIds.has(excluded.claimId)) fail(file, `unknown excluded claimId "${excluded.claimId}"`);
+    }
+  }
+  if (Number(data.violationCount || 0) > 0 && data.status !== "failed") {
+    fail(file, "observation run with violations must be failed");
+  }
+}
+
 for (const { file, data } of schedulerRuns) {
   requireString(data, file, "mode");
   requireString(data, file, "status");
@@ -581,5 +625,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, pipeline runs: ${pipelineRunIds.size}, scheduler runs: ${schedulerRunIds.size}.`
+  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, pipeline runs: ${pipelineRunIds.size}, observation runs: ${observationRunIds.size}, scheduler runs: ${schedulerRunIds.size}.`
 );
