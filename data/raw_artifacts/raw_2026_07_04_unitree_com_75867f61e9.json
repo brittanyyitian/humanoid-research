@@ -14,7 +14,9 @@
   "entityIds": [
     "unitree"
   ],
-  "claimIds": [],
+  "claimIds": [
+    "claim_2026_07_04_product_release_5e689f029f"
+  ],
   "status": "active",
   "notes": "Scheduled industry source for the v2.1 scheduler heartbeat sample."
 }

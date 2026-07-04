@@ -124,6 +124,40 @@ industry  1-3 hours
 Scheduler must not extract claims, promote facts or edit observations. Those
 remain downstream pipeline and review steps.
 
+## V2.1 Pipeline Run
+
+Use Pipeline Run after Router and Scheduler have queued `pipeline_tasks`.
+
+Run one task:
+
+```bash
+npm run pipeline:run -- --task-id ptask_2026_07_04_9aa9c4575978
+```
+
+Run all queued tasks:
+
+```bash
+npm run pipeline:run -- --all
+```
+
+For a non-writing check:
+
+```bash
+npm run pipeline:run -- --task-id ptask_2026_07_04_9aa9c4575978 --dry-run
+```
+
+Pipeline writes:
+
+```text
+data/pipeline_runs/prun_*.json
+data/claims/claim_*.json
+data/evidence/evd_*.json
+data/inbox/claim_candidates.json
+```
+
+Pipeline output is still only a candidate. It must remain in inbox until manual
+review promotes it into events, relations, follow-ups or stocks.
+
 ## Inbox Fetch Gate
 
 Use inbox for raw or semi-structured fetch results:

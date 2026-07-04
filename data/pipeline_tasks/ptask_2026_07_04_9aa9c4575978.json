@@ -10,9 +10,21 @@
   ],
   "inputType": "url",
   "sourceKind": "official",
-  "status": "queued",
+  "status": "completed",
   "createdAt": "2026-07-04T16:39:33+08:00",
-  "updatedAt": "2026-07-04T16:39:33+08:00",
-  "nextAction": "run product_pipeline",
-  "notes": "Queued by ingestion entry layer. Pipeline execution is a separate step."
+  "updatedAt": "2026-07-04T16:54:58+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-04T16:54:58+08:00",
+  "finishedAt": "2026-07-04T16:54:58+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_04_product_release_5e689f029f"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_04_product_release_5e689f029f"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_04_585179270af3"
+  ]
 }

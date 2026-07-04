@@ -48,6 +48,18 @@
     "startedAt": { "type": ["string", "null"] },
     "finishedAt": { "type": ["string", "null"] },
     "nextAction": { "type": "string", "minLength": 1 },
+    "claimIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidenceIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pipelineRunIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "error": { "type": ["string", "null"] },
     "notes": { "type": "string" }
   },

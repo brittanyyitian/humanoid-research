@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:50:17.554Z",
+  "generatedAt": "2026-07-04T08:55:18.620Z",
   "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   "rows": [
     {
@@ -22,10 +22,10 @@
     {
       "id": "claim_review",
       "label": "Claim 审核",
-      "lastSeenAt": "2026-07-03T16:55:00+08:00",
-      "status": "clear",
-      "count": 2,
-      "pendingCount": 0
+      "lastSeenAt": "2026-07-04T16:54:58+08:00",
+      "status": "needs_review",
+      "count": 3,
+      "pendingCount": 1
     },
     {
       "id": "fetch_runs",
@@ -46,8 +46,8 @@
   ],
   "failedSources": [],
   "totals": {
-    "pendingInbox": 3,
-    "pendingClaims": 0,
+    "pendingInbox": 4,
+    "pendingClaims": 1,
     "fetchRuns": 2,
     "fetchFailures": 0,
     "schedulerRuns": 1,

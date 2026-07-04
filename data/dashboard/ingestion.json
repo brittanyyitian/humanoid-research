@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T08:50:17.554Z",
+  "generatedAt": "2026-07-04T08:55:18.620Z",
   "policy": "Ingestion turns URL/RSS/API/manual inputs into raw_artifacts, then routes and queues pipeline tasks.",
   "rows": [
     {
@@ -15,11 +15,23 @@
       ],
       "inputType": "url",
       "sourceKind": "official",
-      "status": "queued",
+      "status": "completed",
       "createdAt": "2026-07-04T16:39:33+08:00",
-      "updatedAt": "2026-07-04T16:39:33+08:00",
-      "nextAction": "run product_pipeline",
-      "notes": "Queued by ingestion entry layer. Pipeline execution is a separate step.",
+      "updatedAt": "2026-07-04T16:54:58+08:00",
+      "nextAction": "review generated claim candidates",
+      "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+      "startedAt": "2026-07-04T16:54:58+08:00",
+      "finishedAt": "2026-07-04T16:54:58+08:00",
+      "error": null,
+      "claimIds": [
+        "claim_2026_07_04_product_release_5e689f029f"
+      ],
+      "evidenceIds": [
+        "evd_2026_07_04_product_release_5e689f029f"
+      ],
+      "pipelineRunIds": [
+        "prun_2026_07_04_585179270af3"
+      ],
       "routeDecision": {
         "id": "route_2026_07_04_9bf207e29f78",
         "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
@@ -59,9 +71,9 @@
   ],
   "totals": {
     "all": 1,
-    "queued": 1,
+    "queued": 0,
     "needsReview": 0,
-    "completed": 0,
+    "completed": 1,
     "failed": 0,
     "byInputType": {
       "url": 1
@@ -70,7 +82,7 @@
       "product_pipeline": 1
     },
     "byStatus": {
-      "queued": 1
+      "completed": 1
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-04",
+  "capturedAt": "2026-07-04T16:54:58+08:00",
+  "reviewStatus": "pending_manual_review",
+  "policy": "Claim candidates are not formal truth until promoted by review.",
+  "candidates": [
+    {
+      "id": "claim_candidate_767daaadbc",
+      "claimId": "claim_2026_07_04_product_release_5e689f029f",
+      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "evidenceId": "evd_2026_07_04_product_release_5e689f029f",
+      "text": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+      "normalizedFact": "宇树科技股份有限公司 has official product material for \"Unitree H2 PLUS 产研一体 全栈启航\".",
+      "claimType": "product_release",
+      "entityIds": [
+        "unitree"
+      ],
+      "sourceId": "src_unitree_h2plus_product",
+      "sourceLevel": "A",
+      "confidence": "medium",
+      "reviewStatus": "pending",
+      "processedAt": "2026-07-04T16:54:58+08:00",
+      "sourceTitle": "Unitree H2 PLUS 产研一体 全栈启航"
+    }
+  ]
+}

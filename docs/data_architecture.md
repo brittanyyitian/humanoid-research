@@ -4,7 +4,7 @@ The repository follows SSOT first, dashboard derived.
 
 ```text
 Evidence Layer
-  raw_artifacts / route_decisions / pipeline_tasks / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
+  raw_artifacts / route_decisions / pipeline_tasks / pipeline_runs / fetch_runs / scheduler_runs / claims / evidence / milestones / state_transitions
 
 Data Layer
   entities / events / sources / relations / stocks
@@ -24,6 +24,7 @@ Dashboard Layer
   dashboard/window_summary.json
   dashboard/upcoming.json
   dashboard/ingestion.json
+  dashboard/pipelines.json
   dashboard/scheduler.json
 ```
 
@@ -209,10 +210,16 @@ mapping lives in `data/pipelines/pipeline_map.json`.
 They mean "this artifact is ready for a pipeline", not "the fact is true".
 
 ```text
-route_decision -> pipeline_task(status=queued) -> pipeline execution
+route_decision
+-> pipeline_task(status=queued)
+-> pipeline_run
+-> claim/evidence candidate
+-> inbox review
 ```
 
 Pipeline tasks can be replayed, retried, completed or marked as needing review.
+Pipeline runs create claim/evidence candidates only. They must not promote
+events, relations, follow-ups or observations.
 
 ## Source
 

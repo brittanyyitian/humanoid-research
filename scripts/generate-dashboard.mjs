@@ -31,6 +31,7 @@ const stateTransitions = (await readJsonDir("state_transitions")).map((row) => r
 const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
 const routeDecisions = (await readJsonDir("route_decisions")).map((row) => row.data);
 const pipelineTasks = (await readJsonDir("pipeline_tasks")).map((row) => row.data);
+const pipelineRuns = (await readJsonDir("pipeline_runs")).map((row) => row.data);
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
 const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
@@ -38,6 +39,8 @@ const schedulerRuns = (await readJsonDir("scheduler_runs")).map((row) => row.dat
 
 const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, artifact]));
 const routeDecisionById = new Map(routeDecisions.map((route) => [route.id, route]));
+const claimById = new Map(claims.map((claim) => [claim.id, claim]));
+const evidenceById = new Map(evidenceRows.map((row) => [row.id, row]));
 const schedulerCadenceById = new Map((schedulerConfig.cadences || []).map((cadence) => [cadence.id, cadence]));
 const evidenceByClaimId = new Map();
 const claimsByEventId = new Map();
@@ -795,6 +798,58 @@ const ingestion = {
   },
 };
 
+const pipelineRunsByTaskId = new Map();
+for (const run of pipelineRuns) pushMap(pipelineRunsByTaskId, run.pipelineTaskId, run);
+
+const pipelineRows = pipelineTasks
+  .slice()
+  .sort((a, b) => String(b.updatedAt).localeCompare(String(a.updatedAt)) || String(a.id).localeCompare(String(b.id)))
+  .map((task) => {
+    const artifact = rawArtifactById.get(task.rawArtifactId);
+    const route = routeDecisionById.get(task.routeDecisionId);
+    const runs = (pipelineRunsByTaskId.get(task.id) || [])
+      .slice()
+      .sort((a, b) => String(b.startedAt).localeCompare(String(a.startedAt)));
+    return {
+      ...task,
+      rawArtifact: artifact
+        ? {
+            id: artifact.id,
+            title: artifact.title,
+            artifactType: artifact.artifactType,
+            publisher: artifact.publisher,
+            url: artifact.url,
+            firstSeenAt: artifact.firstSeenAt,
+            capturedAt: artifact.capturedAt,
+          }
+        : null,
+      routeDecision: route || null,
+      runs,
+      claims: (task.claimIds || []).map((claimId) => claimById.get(claimId)).filter(Boolean),
+      evidence: (task.evidenceIds || []).map((evidenceId) => evidenceById.get(evidenceId)).filter(Boolean),
+    };
+  });
+
+const pipelines = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Pipelines turn routed tasks into claim/evidence candidates only. Review and promotion remain separate.",
+  rows: pipelineRows,
+  recentRuns: pipelineRuns
+    .slice()
+    .sort((a, b) => String(b.startedAt).localeCompare(String(a.startedAt)) || String(b.id).localeCompare(String(a.id)))
+    .slice(0, 10),
+  totals: {
+    tasks: pipelineTasks.length,
+    runs: pipelineRuns.length,
+    queued: pipelineTasks.filter((task) => task.status === "queued").length,
+    completed: pipelineTasks.filter((task) => task.status === "completed").length,
+    failed: pipelineTasks.filter((task) => task.status === "failed").length,
+    byPipeline: countBy(pipelineTasks, (task) => task.pipeline),
+    byStatus: countBy(pipelineTasks, (task) => task.status),
+  },
+};
+
 const schedulerRows = (schedulerConfig.sources || []).map((source) => {
   const cadence = schedulerCadenceById.get(source.cadenceKey);
   const state = schedulerState.sources?.[source.id] || {};
@@ -1062,6 +1117,7 @@ const stats = {
   rawArtifacts: rawArtifacts.length,
   routeDecisions: routeDecisions.length,
   pipelineTasks: pipelineTasks.length,
+  pipelineRuns: pipelineRuns.length,
   schedulerSources: schedulerRows.length,
   schedulerRuns: schedulerRuns.length,
   claims: claims.length,
@@ -1122,6 +1178,7 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "router.json"), router);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "ingestion.json"), ingestion);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "pipelines.json"), pipelines);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "scheduler.json"), scheduler);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);

@@ -58,6 +58,7 @@ const allowedRouteConfidence = new Set(["high", "medium", "low"]);
 const allowedRouteSourceKind = new Set(["official", "filing", "media", "social", "internal", "market", "unknown"]);
 const allowedRouteStatus = new Set(["routed", "needs_review", "skipped", "manual_override"]);
 const allowedPipelineTaskStatus = new Set(["queued", "running", "completed", "failed", "skipped", "needs_review"]);
+const allowedPipelineRunStatus = new Set(["completed", "failed", "skipped"]);
 const allowedInputTypes = new Set(["url", "rss", "api", "manual"]);
 const allowedIngestionSourceTypes = new Set(["webpage", "pdf", "video", "filing", "wechat", "news", "exchange", "government"]);
 const allowedSchedulerCadenceKeys = new Set(["market", "filing", "industry"]);
@@ -237,6 +238,7 @@ const milestones = await readJsonDir("milestones");
 const stateTransitions = await readJsonDir("state_transitions");
 const routeDecisions = await readJsonDir("route_decisions");
 const pipelineTasks = await readJsonDir("pipeline_tasks");
+const pipelineRuns = await readJsonDir("pipeline_runs");
 const schedulerRuns = await readJsonDir("scheduler_runs");
 const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
 const schedulerConfig = await readJsonFile(path.join(DATA_DIR, "scheduler", "sources.json"));
@@ -249,6 +251,7 @@ const evidenceIds = new Set();
 const milestoneIds = new Set();
 const stateTransitionIds = new Set();
 const pipelineTaskIds = new Set();
+const pipelineRunIds = new Set();
 const schedulerRunIds = new Set();
 
 for (const { file, data } of fetchRuns) registerId(data, file, "id", fetchRunIds, "fetch run");
@@ -260,6 +263,7 @@ for (const { file, data } of stateTransitions) {
   registerId(data, file, "id", stateTransitionIds, "state transition");
 }
 for (const { file, data } of pipelineTasks) registerId(data, file, "id", pipelineTaskIds, "pipeline task");
+for (const { file, data } of pipelineRuns) registerId(data, file, "id", pipelineRunIds, "pipeline run");
 for (const { file, data } of schedulerRuns) registerId(data, file, "id", schedulerRunIds, "scheduler run");
 
 const configuredPipelineByType = new Map();
@@ -471,11 +475,36 @@ for (const { file, data } of pipelineTasks) {
   if (!allowedInputTypes.has(data.inputType)) fail(file, `invalid inputType "${data.inputType}"`);
   if (!allowedRouteSourceKind.has(data.sourceKind)) fail(file, `invalid sourceKind "${data.sourceKind}"`);
   if (!allowedPipelineTaskStatus.has(data.status)) fail(file, `invalid pipeline task status "${data.status}"`);
+  requireKnownIds(data, file, "claimIds", claimIds, "claimId");
+  requireKnownIds(data, file, "evidenceIds", evidenceIds, "evidenceId");
+  requireKnownIds(data, file, "pipelineRunIds", pipelineRunIds, "pipelineRunId");
   const route = routeDecisions.find((row) => row.data.id === data.routeDecisionId)?.data;
   if (route) {
     if (route.rawArtifactId !== data.rawArtifactId) fail(file, "rawArtifactId does not match route decision");
     if (route.pipeline !== data.pipeline) fail(file, "pipeline does not match route decision");
     if (route.type !== data.type) fail(file, "type does not match route decision");
+  }
+}
+
+for (const { file, data } of pipelineRuns) {
+  requireString(data, file, "pipelineTaskId");
+  requireString(data, file, "rawArtifactId");
+  requireString(data, file, "routeDecisionId");
+  requireString(data, file, "pipeline");
+  requireString(data, file, "status");
+  requireString(data, file, "startedAt");
+  if (!pipelineTaskIds.has(data.pipelineTaskId)) fail(file, `unknown pipelineTaskId "${data.pipelineTaskId}"`);
+  if (!rawArtifactIds.has(data.rawArtifactId)) fail(file, `unknown rawArtifactId "${data.rawArtifactId}"`);
+  if (!routeDecisionIds.has(data.routeDecisionId)) fail(file, `unknown routeDecisionId "${data.routeDecisionId}"`);
+  if (!allowedPipelineNames.has(data.pipeline)) fail(file, `invalid pipeline "${data.pipeline}"`);
+  if (!allowedPipelineRunStatus.has(data.status)) fail(file, `invalid pipeline run status "${data.status}"`);
+  requireKnownIds(data, file, "claimIds", claimIds, "claimId");
+  requireKnownIds(data, file, "evidenceIds", evidenceIds, "evidenceId");
+  const task = pipelineTasks.find((row) => row.data.id === data.pipelineTaskId)?.data;
+  if (task) {
+    if (task.rawArtifactId !== data.rawArtifactId) fail(file, "rawArtifactId does not match pipeline task");
+    if (task.routeDecisionId !== data.routeDecisionId) fail(file, "routeDecisionId does not match pipeline task");
+    if (task.pipeline !== data.pipeline) fail(file, "pipeline does not match pipeline task");
   }
 }
 
@@ -552,5 +581,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, scheduler runs: ${schedulerRunIds.size}.`
+  `Data validation passed. Sources: ${sourceIds.size}, entities: ${entityIds.size}, pipeline tasks: ${pipelineTaskIds.size}, pipeline runs: ${pipelineRunIds.size}, scheduler runs: ${schedulerRunIds.size}.`
 );

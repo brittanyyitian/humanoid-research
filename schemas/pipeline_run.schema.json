@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pipeline_run.schema.json",
+  "title": "Pipeline Run",
+  "type": "object",
+  "required": [
+    "id",
+    "pipelineTaskId",
+    "rawArtifactId",
+    "routeDecisionId",
+    "pipeline",
+    "status",
+    "startedAt",
+    "finishedAt",
+    "claimIds",
+    "evidenceIds"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^prun_[0-9]{4}_[0-9]{2}_[0-9]{2}_[a-z0-9_\\-]+$" },
+    "pipelineTaskId": { "type": "string" },
+    "rawArtifactId": { "type": "string" },
+    "routeDecisionId": { "type": "string" },
+    "pipeline": {
+      "type": "string",
+      "enum": [
+        "company_pipeline",
+        "product_pipeline",
+        "filing_pipeline",
+        "event_pipeline",
+        "policy_pipeline",
+        "supply_chain_pipeline"
+      ]
+    },
+    "status": { "type": "string", "enum": ["completed", "failed", "skipped"] },
+    "startedAt": { "type": "string", "minLength": 1 },
+    "finishedAt": { "type": ["string", "null"] },
+    "claimIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidenceIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "error": { "type": ["string", "null"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}
