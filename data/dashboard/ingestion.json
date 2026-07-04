@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T10:15:35.414Z",
+  "generatedAt": "2026-07-04T12:17:01.593Z",
   "policy": "Ingestion turns URL/RSS/API/manual inputs into raw_artifacts, then routes and queues pipeline tasks.",
   "rows": [
     {
@@ -31,7 +31,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_4e6f8a9d6cb5",
-        "prun_2026_07_04_37678d497565",
         "prun_2026_07_04_eb4bd41a9f33"
       ],
       "ruleOutputIds": [
@@ -101,7 +100,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_19b67fa31d53",
-        "prun_2026_07_04_953c23a29e22",
         "prun_2026_07_04_69225f5542fe"
       ],
       "ruleOutputIds": [
@@ -171,7 +169,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_3703a7647549",
-        "prun_2026_07_04_b7413d319cbd",
         "prun_2026_07_04_ae31a0edd959"
       ],
       "ruleOutputIds": [
@@ -241,7 +238,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_d539dba3e9bc",
-        "prun_2026_07_04_6ba14d06ea5d",
         "prun_2026_07_04_310ab4640b59"
       ],
       "ruleOutputIds": [
@@ -311,7 +307,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_585179270af3",
-        "prun_2026_07_04_463b334b11e1",
         "prun_2026_07_04_14cb9f84b42d"
       ],
       "ruleOutputIds": [

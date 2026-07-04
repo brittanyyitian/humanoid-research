@@ -1,0 +1,3840 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-04T12:17:01.593Z",
+  "title": "Change Wall",
+  "policy": "Change Wall only places product, company, supply-chain, policy and market changes side by side. It does not infer causality or make recommendations.",
+  "lanes": [
+    {
+      "id": "product",
+      "label": "产品/技术",
+      "description": "产品发布、参数、交付和技术进展",
+      "count": 5
+    },
+    {
+      "id": "company",
+      "label": "公司动态",
+      "description": "公司事件、公告、合作和经营动作",
+      "count": 5
+    },
+    {
+      "id": "supply_chain",
+      "label": "产业链/供应链",
+      "description": "供应链、客户、部件和产线线索",
+      "count": 1
+    },
+    {
+      "id": "policy",
+      "label": "政策/行业",
+      "description": "政策、会议、行业节点和公开计划",
+      "count": 0
+    },
+    {
+      "id": "market",
+      "label": "股票市场",
+      "description": "股票涨跌、成交和行情事实",
+      "count": 12
+    }
+  ],
+  "rows": [
+    {
+      "id": "chg_claim_2026_07_04_product_release_5e689f029f",
+      "sourceType": "claim",
+      "lane": "product",
+      "date": "2026-07-04",
+      "time": "2026-07-04T16:39:33+08:00",
+      "objectId": "unitree",
+      "objectName": "宇树科技",
+      "title": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+      "change": "宇树科技股份有限公司 has official product material for \"Unitree H2 PLUS 产研一体 全栈启航\".",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "medium",
+      "entityIds": [
+        "unitree"
+      ],
+      "entityNames": [
+        "宇树科技"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_h2plus_product",
+          "title": "Unitree H2 PLUS 产研一体 全栈启航",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_07_04_product_release_5e689f029f",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "medium",
+          "source": {
+            "id": "src_unitree_h2plus_product",
+            "title": "Unitree H2 PLUS 产研一体 全栈启航",
+            "publisher": "宇树科技股份有限公司",
+            "sourceType": "webpage",
+            "url": "https://www.unitree.com/cn/H2plus/",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "confirm_product_identity",
+          "subject": "确认标题、页面正文和标准产品名是否一致。",
+          "status": "required"
+        },
+        {
+          "id": "extract_product_fields",
+          "subject": "补全产品名、参数、交付窗口、合作方和待验证点。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "candidate claims are not facts until review"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_anpeilong",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "anpeilong",
+      "objectName": "安培龙",
+      "title": "安培龙 +11.42%，成交额 9.31亿",
+      "change": "价格 83，涨跌幅 +11.42%，成交额 9.31亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "anpeilong"
+      ],
+      "entityNames": [
+        "安培龙"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz301413",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_301413",
+          "title": "腾讯财经K线接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_anpeilong",
+          "entityId": "anpeilong",
+          "company": "安培龙",
+          "stockCode": "301413",
+          "market": "SZSE",
+          "price": 83,
+          "changePct": 11.42,
+          "turnoverAmount": "9.31亿",
+          "turnoverRate": 15.12,
+          "fiveDayChangePct": 27.34,
+          "twentyDayChangePct": -5.79,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301413",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301413",
+              "title": "腾讯财经K线接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_best",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "best",
+      "objectName": "贝斯特",
+      "title": "贝斯特 +20.02%，成交额 10.79亿",
+      "change": "价格 25.96，涨跌幅 +20.02%，成交额 10.79亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "best"
+      ],
+      "entityNames": [
+        "贝斯特"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300580",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300580",
+          "title": "腾讯财经K线接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_best",
+          "entityId": "best",
+          "company": "贝斯特",
+          "stockCode": "300580",
+          "market": "SZSE",
+          "price": 25.96,
+          "changePct": 20.02,
+          "turnoverAmount": "10.79亿",
+          "turnoverRate": 9.28,
+          "fiveDayChangePct": 43.9,
+          "twentyDayChangePct": 14.92,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300580",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300580",
+              "title": "腾讯财经K线接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_estun",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "estun",
+      "objectName": "埃斯顿",
+      "title": "埃斯顿 +10.00%，成交额 55.08亿",
+      "change": "价格 44.77，涨跌幅 +10.00%，成交额 55.08亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "estun"
+      ],
+      "entityNames": [
+        "埃斯顿"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002747",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002747",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002747",
+          "title": "腾讯财经K线接口 · 002747",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_estun",
+          "entityId": "estun",
+          "company": "埃斯顿",
+          "stockCode": "002747",
+          "market": "SZSE",
+          "price": 44.77,
+          "changePct": 10,
+          "turnoverAmount": "55.08亿",
+          "turnoverRate": 16.2,
+          "fiveDayChangePct": 29.13,
+          "twentyDayChangePct": 51.81,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002747",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002747",
+              "title": "腾讯财经K线接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_hanwei_electronics",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "hanwei_electronics",
+      "objectName": "汉威科技",
+      "title": "汉威科技 +9.38%，成交额 15.75亿",
+      "change": "价格 43.27，涨跌幅 +9.38%，成交额 15.75亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "hanwei_electronics"
+      ],
+      "entityNames": [
+        "汉威科技"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300007",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300007",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300007",
+          "title": "腾讯财经K线接口 · 300007",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_hanwei_electronics",
+          "entityId": "hanwei_electronics",
+          "company": "汉威科技",
+          "stockCode": "300007",
+          "market": "SZSE",
+          "price": 43.27,
+          "changePct": 9.38,
+          "turnoverAmount": "15.75亿",
+          "turnoverRate": 13.17,
+          "fiveDayChangePct": 24.37,
+          "twentyDayChangePct": 4.57,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300007",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300007",
+              "title": "腾讯财经K线接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_leaderdrive",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "leaderdrive",
+      "objectName": "绿的谐波",
+      "title": "绿的谐波 +18.15%，成交额 125.29亿",
+      "change": "价格 488，涨跌幅 +18.15%，成交额 125.29亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "leaderdrive"
+      ],
+      "entityNames": [
+        "绿的谐波"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688017",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688017",
+          "title": "腾讯财经K线接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_leaderdrive",
+          "entityId": "leaderdrive",
+          "company": "绿的谐波",
+          "stockCode": "688017",
+          "market": "SSE",
+          "price": 488,
+          "changePct": 18.15,
+          "turnoverAmount": "125.29亿",
+          "turnoverRate": 14.7,
+          "fiveDayChangePct": 32.08,
+          "twentyDayChangePct": 49.01,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688017",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688017",
+              "title": "腾讯财经K线接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_orbbec",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光 +13.32%，成交额 53.48亿",
+      "change": "价格 147.33，涨跌幅 +13.32%，成交额 53.48亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688322",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688322",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688322",
+          "title": "腾讯财经K线接口 · 688322",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_sanhuazk",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "sanhuazk",
+      "objectName": "三花智控",
+      "title": "三花智控 +9.06%，成交额 153.71亿",
+      "change": "价格 48.99，涨跌幅 +9.06%，成交额 153.71亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "sanhuazk"
+      ],
+      "entityNames": [
+        "三花智控"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002050",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002050",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002050",
+          "title": "腾讯财经K线接口 · 002050",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002050,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_sanhuazk",
+          "entityId": "sanhuazk",
+          "company": "三花智控",
+          "stockCode": "002050",
+          "market": "SZSE",
+          "price": 48.99,
+          "changePct": 9.06,
+          "turnoverAmount": "153.71亿",
+          "turnoverRate": 8.73,
+          "fiveDayChangePct": 18.05,
+          "twentyDayChangePct": 4.21,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002050",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002050",
+              "title": "腾讯财经K线接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002050,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_shuanghuan_driveline",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "shuanghuan_driveline",
+      "objectName": "双环传动",
+      "title": "双环传动 +9.99%，成交额 34.12亿",
+      "change": "价格 47.01，涨跌幅 +9.99%，成交额 34.12亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "shuanghuan_driveline"
+      ],
+      "entityNames": [
+        "双环传动"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002472",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002472",
+          "title": "腾讯财经K线接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_shuanghuan_driveline",
+          "entityId": "shuanghuan_driveline",
+          "company": "双环传动",
+          "stockCode": "002472",
+          "market": "SZSE",
+          "price": 47.01,
+          "changePct": 9.99,
+          "turnoverAmount": "34.12亿",
+          "turnoverRate": 9.97,
+          "fiveDayChangePct": 26.54,
+          "twentyDayChangePct": 13.58,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002472",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002472",
+              "title": "腾讯财经K线接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_tuopu_group",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "tuopu_group",
+      "objectName": "拓普集团",
+      "title": "拓普集团 +10.01%，成交额 52.23亿",
+      "change": "价格 62.43，涨跌幅 +10.01%，成交额 52.23亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "tuopu_group"
+      ],
+      "entityNames": [
+        "拓普集团"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 601689",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh601689",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_601689",
+          "title": "腾讯财经K线接口 · 601689",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_tuopu_group",
+          "entityId": "tuopu_group",
+          "company": "拓普集团",
+          "stockCode": "601689",
+          "market": "SSE",
+          "price": 62.43,
+          "changePct": 10.01,
+          "turnoverAmount": "52.23亿",
+          "turnoverRate": 4.97,
+          "fiveDayChangePct": 18.35,
+          "twentyDayChangePct": -7.65,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh601689",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_601689",
+              "title": "腾讯财经K线接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_ubtech",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "ubtech",
+      "objectName": "优必选",
+      "title": "优必选 +17.60%，成交额 33.53亿",
+      "change": "价格 108.9，涨跌幅 +17.60%，成交额 33.53亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "ubtech"
+      ],
+      "entityNames": [
+        "优必选"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=hk09880",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_09880",
+          "title": "腾讯财经K线接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_ubtech",
+          "entityId": "ubtech",
+          "company": "优必选",
+          "stockCode": "09880",
+          "market": "HKEX",
+          "price": 108.9,
+          "changePct": 17.6,
+          "turnoverAmount": "33.53亿",
+          "turnoverRate": 0,
+          "fiveDayChangePct": 17.35,
+          "twentyDayChangePct": -2.24,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=hk09880",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_09880",
+              "title": "腾讯财经K线接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_zhaowei_machinery",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "zhaowei_machinery",
+      "objectName": "兆威机电",
+      "title": "兆威机电 +10.00%，成交额 9.38亿",
+      "change": "价格 100.8，涨跌幅 +10.00%，成交额 9.38亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "zhaowei_machinery"
+      ],
+      "entityNames": [
+        "兆威机电"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz003021",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_003021",
+          "title": "腾讯财经K线接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_zhaowei_machinery",
+          "entityId": "zhaowei_machinery",
+          "company": "兆威机电",
+          "stockCode": "003021",
+          "market": "SZSE",
+          "price": 100.8,
+          "changePct": 10,
+          "turnoverAmount": "9.38亿",
+          "turnoverRate": 4.63,
+          "fiveDayChangePct": 23.61,
+          "twentyDayChangePct": 2.65,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz003021",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_003021",
+              "title": "腾讯财经K线接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_zhongda_leader",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "zhongda_leader",
+      "objectName": "中大力德",
+      "title": "中大力德 +9.99%，成交额 17.01亿",
+      "change": "价格 85.62，涨跌幅 +9.99%，成交额 17.01亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "zhongda_leader"
+      ],
+      "entityNames": [
+        "中大力德"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002896",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002896",
+          "title": "腾讯财经K线接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_zhongda_leader",
+          "entityId": "zhongda_leader",
+          "company": "中大力德",
+          "stockCode": "002896",
+          "market": "SZSE",
+          "price": 85.62,
+          "changePct": 9.99,
+          "turnoverAmount": "17.01亿",
+          "turnoverRate": 10.3,
+          "fiveDayChangePct": 21.79,
+          "twentyDayChangePct": 8.54,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002896",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002896",
+              "title": "腾讯财经K线接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_evt_2026_06_29_zhiyuan_15000_robot_downline",
+      "sourceType": "event",
+      "lane": "product",
+      "date": "2026-06-29",
+      "time": "2026-06-29",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元第15000台具身机器人量产下线",
+      "change": "智元官方发布：6月28日，智元第15000台具身智能机器人下线；该产品型号为智元精灵G2，当天交付给龙旗科技工厂。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "zhiyuan_robot",
+        "longcheer_technology"
+      ],
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_06_29_agibot_supports_15000_downline",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "strong",
+          "source": {
+            "id": "src_agibot_20260629_15000_robots_downline",
+            "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+            "publisher": "智元创新（上海）科技股份有限公司",
+            "sourceType": "webpage",
+            "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+            "evidenceLevel": "A"
+          }
+        },
+        {
+          "id": "evd_2026_06_29_agibot_supports_g2_longcheer_delivery",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "strong",
+          "source": {
+            "id": "src_agibot_20260629_15000_robots_downline",
+            "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+            "publisher": "智元创新（上海）科技股份有限公司",
+            "sourceType": "webpage",
+            "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "fu_2026_06_11_zhiyuan_ecosystem_spending",
+          "subject": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+          "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+          "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "market context is displayed alongside the event without causal interpretation"
+    },
+    {
+      "id": "chg_rel_2026_06_29_zhiyuan_longcheer_deployment",
+      "sourceType": "relation",
+      "lane": "supply_chain",
+      "date": "2026-06-29",
+      "time": "2026-06-29",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元机器人 / 龙旗科技",
+      "change": "智元官方披露第15000台精灵G2当天交付给龙旗科技工厂；此前精灵G2已进驻龙旗科技南昌工厂产线。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "zhiyuan_robot",
+        "longcheer_technology"
+      ],
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [],
+      "noCausalityPolicy": "relationship facts are displayed as source-backed changes, not causal interpretation"
+    },
+    {
+      "id": "chg_evt_2026_06_25_zhiyuan_3c_line_live",
+      "sourceType": "event",
+      "lane": "product",
+      "date": "2026-06-25",
+      "time": "2026-06-25",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元精灵G2进驻龙旗科技3C产线并进行全工段直播",
+      "change": "智元官方发布：6月23日，多台智元精灵G2机器人集群进驻龙旗科技江西南昌量产工厂，开启6天产线直播作业，覆盖平板量产质检工段。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "zhiyuan_robot",
+        "longcheer_technology"
+      ],
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260625_3c_line_live",
+          "title": "全球首个3C产线质检工段全覆盖机器人作业直播，智元加速“部署态”规模化落地",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/170.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [
+        {
+          "id": "fu_2026_06_11_zhiyuan_ecosystem_spending",
+          "subject": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+          "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+          "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "market context is displayed alongside the event without causal interpretation"
+    },
+    {
+      "id": "chg_claim_2026_06_12_filing_5bf12d6891",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-06-12",
+      "time": "2026-06-12",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+      "change": "奥比中光 disclosed filing \"2025年度向特定对象发行A股股票发行情况报告书\" on 2026-06-12.",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "medium",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_06_12_filing_5bf12d6891",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "strong",
+          "source": {
+            "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+            "title": "奥比中光 公告 · Serenity Bridge",
+            "publisher": "CNINFO_Announcements_L0",
+            "sourceType": "filing",
+            "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        },
+        {
+          "id": "classify_materiality",
+          "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "candidate claims are not facts until review"
+    },
+    {
+      "id": "chg_evt_2026_06_11_zhiyuan_aima_ecosystem_plan",
+      "sourceType": "event",
+      "lane": "company",
+      "date": "2026-06-11",
+      "time": "2026-06-11",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元发布2026元苼生态共建行动计划",
+      "change": "智元官方发布2026元苼生态共建行动计划，披露未来五年20亿元、2026年1亿元的投入承诺，并覆盖科研学术创新、教育人才培养、生态伙伴发展、开发社区运营四个维度。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260611_aima_ecosystem_plan",
+          "title": "2026元苼生态共建行动计划",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/169.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [
+        {
+          "id": "fu_2026_06_11_zhiyuan_ecosystem_spending",
+          "subject": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+          "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+          "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "market context is displayed alongside the event without causal interpretation"
+    },
+    {
+      "id": "chg_claim_2026_06_01_filing_80c064155f",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-06-01",
+      "time": "2026-06-01",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+      "change": "奥比中光 disclosed filing \"关于以集中竞价交易方式回购公司股份的进展公告\" on 2026-06-01.",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "medium",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_06_01_filing_80c064155f",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "strong",
+          "source": {
+            "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+            "title": "奥比中光 公告 · Serenity Bridge",
+            "publisher": "CNINFO_Announcements_L0",
+            "sourceType": "filing",
+            "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        },
+        {
+          "id": "classify_materiality",
+          "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "candidate claims are not facts until review"
+    },
+    {
+      "id": "chg_evt_2026_06_01_unitree_h2plus_product",
+      "sourceType": "event",
+      "lane": "product",
+      "date": "2026-06-01",
+      "time": "2026-06-01",
+      "objectId": "unitree",
+      "objectName": "宇树科技",
+      "title": "宇树科技发布 H2 Plus",
+      "change": "宇树官网新闻中心列出2026-06-01发布 H2 Plus；产品页显示 Unitree H2 PLUS 定位为“产研一体 全栈启航”，并披露 NVIDIA Jetson T5000 机载算力、双 SharpaWave 触觉五指灵巧手等配置。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "unitree"
+      ],
+      "entityNames": [
+        "宇树科技"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "evidenceLevel": "A"
+        },
+        {
+          "id": "src_unitree_h2plus_product",
+          "title": "Unitree H2 PLUS 产研一体 全栈启航",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [
+        {
+          "id": "fu_2026_06_01_unitree_h2plus_delivery",
+          "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "market context is displayed alongside the event without causal interpretation"
+    },
+    {
+      "id": "chg_claim_2026_05_15_filing_4ec343f48a",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-05-15",
+      "time": "2026-05-15",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光披露公告《控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告》（2026-05-15）。",
+      "change": "奥比中光 disclosed filing \"控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告\" on 2026-05-15.",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "medium",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_05_15_filing_4ec343f48a",
+          "relation": "supports",
+          "sourceLevel": "A",
+          "strength": "strong",
+          "source": {
+            "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+            "title": "奥比中光 公告 · Serenity Bridge",
+            "publisher": "CNINFO_Announcements_L0",
+            "sourceType": "filing",
+            "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        },
+        {
+          "id": "classify_materiality",
+          "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "candidate claims are not facts until review"
+    },
+    {
+      "id": "chg_claim_2026_03_31_financial_7b9ccabecb",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-03-31",
+      "time": "2026-03-31",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光2026-03-31一季报结构化财务数据进入待审核：营收 2.03亿元，净利润 3099.66万元，经营现金流 -1.17亿元。",
+      "change": "奥比中光 latest structured financial period 2026-03-31: revenue=202887914.06, net_income=30996569.3, operating_cash_flow=-117430404.43.",
+      "status": "pending_review",
+      "evidenceLevel": "C",
+      "confidence": "low",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+          "title": "奥比中光 财报 · Serenity Bridge",
+          "publisher": "Eastmoney_F10_Financials_L3",
+          "sourceType": "filing",
+          "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+          "evidenceLevel": "C"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_03_31_financial_7b9ccabecb",
+          "relation": "mentions",
+          "sourceLevel": "C",
+          "strength": "weak",
+          "source": {
+            "id": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+            "title": "奥比中光 财报 · Serenity Bridge",
+            "publisher": "Eastmoney_F10_Financials_L3",
+            "sourceType": "filing",
+            "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+            "evidenceLevel": "C"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "reconcile_l0_l1",
+          "subject": "在 promotion 前必须用 L0/L1 披露核对核心财务字段。",
+          "status": "required"
+        },
+        {
+          "id": "avoid_rating_use",
+          "subject": "不得将该候选用于评级、买点、仓位或估值结论。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "candidate claims are not facts until review"
+    },
+    {
+      "id": "chg_evt_2024_07_05_unitree_g1_release",
+      "sourceType": "event",
+      "lane": "product",
+      "date": "2024-07-05",
+      "time": "2024-07-05",
+      "objectId": "unitree",
+      "objectName": "宇树科技",
+      "title": "宇树发布 Unitree G1 人形智能体",
+      "change": "宇树官网新闻中心列出2024-07-05发布“Unitree G1 人形智能体 AI化身 ¥9.9万元起”。",
+      "status": "verified",
+      "evidenceLevel": "A",
+      "confidence": "verified",
+      "entityIds": [
+        "unitree"
+      ],
+      "entityNames": [
+        "宇树科技"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [
+        {
+          "id": "fu_2026_06_01_unitree_h2plus_delivery",
+          "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "market context is displayed alongside the event without causal interpretation"
+    }
+  ],
+  "timelineDates": [
+    {
+      "date": "2026-07-04",
+      "lanes": {
+        "product": [
+          {
+            "id": "chg_claim_2026_07_04_product_release_5e689f029f",
+            "lane": "product",
+            "date": "2026-07-04",
+            "time": "2026-07-04T16:39:33+08:00",
+            "objectId": "unitree",
+            "objectName": "宇树科技",
+            "title": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "unitree"
+            ]
+          }
+        ],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 1
+    },
+    {
+      "date": "2026-07-03",
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_anpeilong",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "anpeilong",
+            "objectName": "安培龙",
+            "title": "安培龙 +11.42%，成交额 9.31亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "anpeilong"
+            ]
+          },
+          {
+            "id": "chg_market_stock_2026-07-03_best",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "best",
+            "objectName": "贝斯特",
+            "title": "贝斯特 +20.02%，成交额 10.79亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "best"
+            ]
+          },
+          {
+            "id": "chg_market_stock_2026-07-03_estun",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "estun",
+            "objectName": "埃斯顿",
+            "title": "埃斯顿 +10.00%，成交额 55.08亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "estun"
+            ]
+          }
+        ]
+      },
+      "total": 12
+    },
+    {
+      "date": "2026-06-29",
+      "lanes": {
+        "product": [
+          {
+            "id": "chg_evt_2026_06_29_zhiyuan_15000_robot_downline",
+            "lane": "product",
+            "date": "2026-06-29",
+            "time": "2026-06-29",
+            "objectId": "zhiyuan_robot",
+            "objectName": "智元机器人",
+            "title": "智元第15000台具身机器人量产下线",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "zhiyuan_robot",
+              "longcheer_technology"
+            ]
+          }
+        ],
+        "company": [],
+        "supply_chain": [
+          {
+            "id": "chg_rel_2026_06_29_zhiyuan_longcheer_deployment",
+            "lane": "supply_chain",
+            "date": "2026-06-29",
+            "time": "2026-06-29",
+            "objectId": "zhiyuan_robot",
+            "objectName": "智元机器人",
+            "title": "智元机器人 / 龙旗科技",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "zhiyuan_robot",
+              "longcheer_technology"
+            ]
+          }
+        ],
+        "policy": [],
+        "market": []
+      },
+      "total": 2
+    },
+    {
+      "date": "2026-06-25",
+      "lanes": {
+        "product": [
+          {
+            "id": "chg_evt_2026_06_25_zhiyuan_3c_line_live",
+            "lane": "product",
+            "date": "2026-06-25",
+            "time": "2026-06-25",
+            "objectId": "zhiyuan_robot",
+            "objectName": "智元机器人",
+            "title": "智元精灵G2进驻龙旗科技3C产线并进行全工段直播",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "zhiyuan_robot",
+              "longcheer_technology"
+            ]
+          }
+        ],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 1
+    },
+    {
+      "date": "2026-06-12",
+      "lanes": {
+        "product": [],
+        "company": [
+          {
+            "id": "chg_claim_2026_06_12_filing_5bf12d6891",
+            "lane": "company",
+            "date": "2026-06-12",
+            "time": "2026-06-12",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          }
+        ],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 1
+    },
+    {
+      "date": "2026-06-11",
+      "lanes": {
+        "product": [],
+        "company": [
+          {
+            "id": "chg_evt_2026_06_11_zhiyuan_aima_ecosystem_plan",
+            "lane": "company",
+            "date": "2026-06-11",
+            "time": "2026-06-11",
+            "objectId": "zhiyuan_robot",
+            "objectName": "智元机器人",
+            "title": "智元发布2026元苼生态共建行动计划",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "zhiyuan_robot"
+            ]
+          }
+        ],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 1
+    },
+    {
+      "date": "2026-06-01",
+      "lanes": {
+        "product": [
+          {
+            "id": "chg_evt_2026_06_01_unitree_h2plus_product",
+            "lane": "product",
+            "date": "2026-06-01",
+            "time": "2026-06-01",
+            "objectId": "unitree",
+            "objectName": "宇树科技",
+            "title": "宇树科技发布 H2 Plus",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "unitree"
+            ]
+          }
+        ],
+        "company": [
+          {
+            "id": "chg_claim_2026_06_01_filing_80c064155f",
+            "lane": "company",
+            "date": "2026-06-01",
+            "time": "2026-06-01",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          }
+        ],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 2
+    },
+    {
+      "date": "2026-05-15",
+      "lanes": {
+        "product": [],
+        "company": [
+          {
+            "id": "chg_claim_2026_05_15_filing_4ec343f48a",
+            "lane": "company",
+            "date": "2026-05-15",
+            "time": "2026-05-15",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告》（2026-05-15）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          }
+        ],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "total": 1
+    }
+  ],
+  "objectCards": [
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "entityId": "unitree",
+      "entityNames": [
+        "宇树科技"
+      ],
+      "lanes": {
+        "product": [
+          {
+            "id": "chg_claim_2026_07_04_product_release_5e689f029f",
+            "lane": "product",
+            "date": "2026-07-04",
+            "time": "2026-07-04T16:39:33+08:00",
+            "objectId": "unitree",
+            "objectName": "宇树科技",
+            "title": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "unitree"
+            ]
+          },
+          {
+            "id": "chg_evt_2026_06_01_unitree_h2plus_product",
+            "lane": "product",
+            "date": "2026-06-01",
+            "time": "2026-06-01",
+            "objectId": "unitree",
+            "objectName": "宇树科技",
+            "title": "宇树科技发布 H2 Plus",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "unitree"
+            ]
+          },
+          {
+            "id": "chg_evt_2024_07_05_unitree_g1_release",
+            "lane": "product",
+            "date": "2024-07-05",
+            "time": "2024-07-05",
+            "objectId": "unitree",
+            "objectName": "宇树科技",
+            "title": "宇树发布 Unitree G1 人形智能体",
+            "status": "verified",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "unitree"
+            ]
+          }
+        ],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": []
+      },
+      "changes": [
+        {
+          "id": "chg_claim_2026_07_04_product_release_5e689f029f",
+          "lane": "product",
+          "date": "2026-07-04",
+          "time": "2026-07-04T16:39:33+08:00",
+          "objectId": "unitree",
+          "objectName": "宇树科技",
+          "title": "宇树科技股份有限公司存在官方产品材料《Unitree H2 PLUS 产研一体 全栈启航》。",
+          "status": "pending_review",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "unitree"
+          ]
+        },
+        {
+          "id": "chg_evt_2026_06_01_unitree_h2plus_product",
+          "lane": "product",
+          "date": "2026-06-01",
+          "time": "2026-06-01",
+          "objectId": "unitree",
+          "objectName": "宇树科技",
+          "title": "宇树科技发布 H2 Plus",
+          "status": "verified",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "unitree"
+          ]
+        },
+        {
+          "id": "chg_evt_2024_07_05_unitree_g1_release",
+          "lane": "product",
+          "date": "2024-07-05",
+          "time": "2024-07-05",
+          "objectId": "unitree",
+          "objectName": "宇树科技",
+          "title": "宇树发布 Unitree G1 人形智能体",
+          "status": "verified",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "unitree"
+          ]
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "confirm_product_identity",
+          "subject": "确认标题、页面正文和标准产品名是否一致。",
+          "status": "required"
+        },
+        {
+          "id": "extract_product_fields",
+          "subject": "补全产品名、参数、交付窗口、合作方和待验证点。",
+          "status": "required"
+        },
+        {
+          "id": "fu_2026_06_01_unitree_h2plus_delivery",
+          "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+          "status": "pending"
+        },
+        {
+          "id": "fu_2026_06_01_unitree_h2plus_delivery",
+          "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+          "status": "pending"
+        }
+      ],
+      "marketContext": [],
+      "evidenceLevels": [
+        "A",
+        "A",
+        "A"
+      ],
+      "strongestEvidenceLevel": "A",
+      "lastChangedAt": "2026-07-04T16:39:33+08:00"
+    },
+    {
+      "id": "orbbec",
+      "name": "奥比中光",
+      "entityId": "orbbec",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [
+          {
+            "id": "chg_claim_2026_06_12_filing_5bf12d6891",
+            "lane": "company",
+            "date": "2026-06-12",
+            "time": "2026-06-12",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          },
+          {
+            "id": "chg_claim_2026_06_01_filing_80c064155f",
+            "lane": "company",
+            "date": "2026-06-01",
+            "time": "2026-06-01",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          },
+          {
+            "id": "chg_claim_2026_05_15_filing_4ec343f48a",
+            "lane": "company",
+            "date": "2026-05-15",
+            "time": "2026-05-15",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光披露公告《控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告》（2026-05-15）。",
+            "status": "pending_review",
+            "evidenceLevel": "A",
+            "entityIds": [
+              "orbbec"
+            ]
+          }
+        ],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_orbbec",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "orbbec",
+            "objectName": "奥比中光",
+            "title": "奥比中光 +13.32%，成交额 53.48亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "orbbec"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_orbbec",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "orbbec",
+          "objectName": "奥比中光",
+          "title": "奥比中光 +13.32%，成交额 53.48亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "orbbec"
+          ]
+        },
+        {
+          "id": "chg_claim_2026_06_12_filing_5bf12d6891",
+          "lane": "company",
+          "date": "2026-06-12",
+          "time": "2026-06-12",
+          "objectId": "orbbec",
+          "objectName": "奥比中光",
+          "title": "奥比中光披露公告《2025年度向特定对象发行A股股票发行情况报告书》（2026-06-12）。",
+          "status": "pending_review",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "orbbec"
+          ]
+        },
+        {
+          "id": "chg_claim_2026_06_01_filing_80c064155f",
+          "lane": "company",
+          "date": "2026-06-01",
+          "time": "2026-06-01",
+          "objectId": "orbbec",
+          "objectName": "奥比中光",
+          "title": "奥比中光披露公告《关于以集中竞价交易方式回购公司股份的进展公告》（2026-06-01）。",
+          "status": "pending_review",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "orbbec"
+          ]
+        },
+        {
+          "id": "chg_claim_2026_05_15_filing_4ec343f48a",
+          "lane": "company",
+          "date": "2026-05-15",
+          "time": "2026-05-15",
+          "objectId": "orbbec",
+          "objectName": "奥比中光",
+          "title": "奥比中光披露公告《控股股东、实际控制人及其一致行动人、部分董事、高级管理人员减持股份计划公告》（2026-05-15）。",
+          "status": "pending_review",
+          "evidenceLevel": "A",
+          "entityIds": [
+            "orbbec"
+          ]
+        },
+        {
+          "id": "chg_claim_2026_03_31_financial_7b9ccabecb",
+          "lane": "company",
+          "date": "2026-03-31",
+          "time": "2026-03-31",
+          "objectId": "orbbec",
+          "objectName": "奥比中光",
+          "title": "奥比中光2026-03-31一季报结构化财务数据进入待审核：营收 2.03亿元，净利润 3099.66万元，经营现金流 -1.17亿元。",
+          "status": "pending_review",
+          "evidenceLevel": "C",
+          "entityIds": [
+            "orbbec"
+          ]
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        },
+        {
+          "id": "classify_materiality",
+          "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+          "status": "required"
+        },
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        },
+        {
+          "id": "classify_materiality",
+          "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+          "status": "required"
+        },
+        {
+          "id": "verify_pdf_source",
+          "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B",
+        "A",
+        "A",
+        "A",
+        "C"
+      ],
+      "strongestEvidenceLevel": "A",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "estun",
+      "name": "埃斯顿",
+      "entityId": "estun",
+      "entityNames": [
+        "埃斯顿"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_estun",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "estun",
+            "objectName": "埃斯顿",
+            "title": "埃斯顿 +10.00%，成交额 55.08亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "estun"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_estun",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "estun",
+          "objectName": "埃斯顿",
+          "title": "埃斯顿 +10.00%，成交额 55.08亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "estun"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_estun",
+          "entityId": "estun",
+          "company": "埃斯顿",
+          "stockCode": "002747",
+          "market": "SZSE",
+          "price": 44.77,
+          "changePct": 10,
+          "turnoverAmount": "55.08亿",
+          "turnoverRate": 16.2,
+          "fiveDayChangePct": 29.13,
+          "twentyDayChangePct": 51.81,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002747",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002747",
+              "title": "腾讯财经K线接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "anpeilong",
+      "name": "安培龙",
+      "entityId": "anpeilong",
+      "entityNames": [
+        "安培龙"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_anpeilong",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "anpeilong",
+            "objectName": "安培龙",
+            "title": "安培龙 +11.42%，成交额 9.31亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "anpeilong"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_anpeilong",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "anpeilong",
+          "objectName": "安培龙",
+          "title": "安培龙 +11.42%，成交额 9.31亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "anpeilong"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_anpeilong",
+          "entityId": "anpeilong",
+          "company": "安培龙",
+          "stockCode": "301413",
+          "market": "SZSE",
+          "price": 83,
+          "changePct": 11.42,
+          "turnoverAmount": "9.31亿",
+          "turnoverRate": 15.12,
+          "fiveDayChangePct": 27.34,
+          "twentyDayChangePct": -5.79,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301413",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301413",
+              "title": "腾讯财经K线接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "best",
+      "name": "贝斯特",
+      "entityId": "best",
+      "entityNames": [
+        "贝斯特"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_best",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "best",
+            "objectName": "贝斯特",
+            "title": "贝斯特 +20.02%，成交额 10.79亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "best"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_best",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "best",
+          "objectName": "贝斯特",
+          "title": "贝斯特 +20.02%，成交额 10.79亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "best"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_best",
+          "entityId": "best",
+          "company": "贝斯特",
+          "stockCode": "300580",
+          "market": "SZSE",
+          "price": 25.96,
+          "changePct": 20.02,
+          "turnoverAmount": "10.79亿",
+          "turnoverRate": 9.28,
+          "fiveDayChangePct": 43.9,
+          "twentyDayChangePct": 14.92,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300580",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300580",
+              "title": "腾讯财经K线接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "hanwei_electronics",
+      "name": "汉威科技",
+      "entityId": "hanwei_electronics",
+      "entityNames": [
+        "汉威科技"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_hanwei_electronics",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "hanwei_electronics",
+            "objectName": "汉威科技",
+            "title": "汉威科技 +9.38%，成交额 15.75亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "hanwei_electronics"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_hanwei_electronics",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "hanwei_electronics",
+          "objectName": "汉威科技",
+          "title": "汉威科技 +9.38%，成交额 15.75亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "hanwei_electronics"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_hanwei_electronics",
+          "entityId": "hanwei_electronics",
+          "company": "汉威科技",
+          "stockCode": "300007",
+          "market": "SZSE",
+          "price": 43.27,
+          "changePct": 9.38,
+          "turnoverAmount": "15.75亿",
+          "turnoverRate": 13.17,
+          "fiveDayChangePct": 24.37,
+          "twentyDayChangePct": 4.57,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300007",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300007",
+              "title": "腾讯财经K线接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "leaderdrive",
+      "name": "绿的谐波",
+      "entityId": "leaderdrive",
+      "entityNames": [
+        "绿的谐波"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_leaderdrive",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "leaderdrive",
+            "objectName": "绿的谐波",
+            "title": "绿的谐波 +18.15%，成交额 125.29亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "leaderdrive"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_leaderdrive",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "leaderdrive",
+          "objectName": "绿的谐波",
+          "title": "绿的谐波 +18.15%，成交额 125.29亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "leaderdrive"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_leaderdrive",
+          "entityId": "leaderdrive",
+          "company": "绿的谐波",
+          "stockCode": "688017",
+          "market": "SSE",
+          "price": 488,
+          "changePct": 18.15,
+          "turnoverAmount": "125.29亿",
+          "turnoverRate": 14.7,
+          "fiveDayChangePct": 32.08,
+          "twentyDayChangePct": 49.01,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688017",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688017",
+              "title": "腾讯财经K线接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    },
+    {
+      "id": "sanhuazk",
+      "name": "三花智控",
+      "entityId": "sanhuazk",
+      "entityNames": [
+        "三花智控"
+      ],
+      "lanes": {
+        "product": [],
+        "company": [],
+        "supply_chain": [],
+        "policy": [],
+        "market": [
+          {
+            "id": "chg_market_stock_2026-07-03_sanhuazk",
+            "lane": "market",
+            "date": "2026-07-03",
+            "time": "2026-07-03T17:55:11+08:00",
+            "objectId": "sanhuazk",
+            "objectName": "三花智控",
+            "title": "三花智控 +9.06%，成交额 153.71亿",
+            "status": "market_snapshot",
+            "evidenceLevel": "B",
+            "entityIds": [
+              "sanhuazk"
+            ]
+          }
+        ]
+      },
+      "changes": [
+        {
+          "id": "chg_market_stock_2026-07-03_sanhuazk",
+          "lane": "market",
+          "date": "2026-07-03",
+          "time": "2026-07-03T17:55:11+08:00",
+          "objectId": "sanhuazk",
+          "objectName": "三花智控",
+          "title": "三花智控 +9.06%，成交额 153.71亿",
+          "status": "market_snapshot",
+          "evidenceLevel": "B",
+          "entityIds": [
+            "sanhuazk"
+          ]
+        }
+      ],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_sanhuazk",
+          "entityId": "sanhuazk",
+          "company": "三花智控",
+          "stockCode": "002050",
+          "market": "SZSE",
+          "price": 48.99,
+          "changePct": 9.06,
+          "turnoverAmount": "153.71亿",
+          "turnoverRate": 8.73,
+          "fiveDayChangePct": 18.05,
+          "twentyDayChangePct": 4.21,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002050",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002050",
+              "title": "腾讯财经K线接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002050,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "strongestEvidenceLevel": "B",
+      "lastChangedAt": "2026-07-03T17:55:11+08:00"
+    }
+  ],
+  "marketChanges": [
+    {
+      "id": "chg_market_stock_2026-07-03_best",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "best",
+      "objectName": "贝斯特",
+      "title": "贝斯特 +20.02%，成交额 10.79亿",
+      "change": "价格 25.96，涨跌幅 +20.02%，成交额 10.79亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "best"
+      ],
+      "entityNames": [
+        "贝斯特"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz300580",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_300580",
+          "title": "腾讯财经K线接口 · 300580",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_best",
+          "entityId": "best",
+          "company": "贝斯特",
+          "stockCode": "300580",
+          "market": "SZSE",
+          "price": 25.96,
+          "changePct": 20.02,
+          "turnoverAmount": "10.79亿",
+          "turnoverRate": 9.28,
+          "fiveDayChangePct": 43.9,
+          "twentyDayChangePct": 14.92,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300580",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300580",
+              "title": "腾讯财经K线接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_leaderdrive",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "leaderdrive",
+      "objectName": "绿的谐波",
+      "title": "绿的谐波 +18.15%，成交额 125.29亿",
+      "change": "价格 488，涨跌幅 +18.15%，成交额 125.29亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "leaderdrive"
+      ],
+      "entityNames": [
+        "绿的谐波"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688017",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688017",
+          "title": "腾讯财经K线接口 · 688017",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_leaderdrive",
+          "entityId": "leaderdrive",
+          "company": "绿的谐波",
+          "stockCode": "688017",
+          "market": "SSE",
+          "price": 488,
+          "changePct": 18.15,
+          "turnoverAmount": "125.29亿",
+          "turnoverRate": 14.7,
+          "fiveDayChangePct": 32.08,
+          "twentyDayChangePct": 49.01,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688017",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688017",
+              "title": "腾讯财经K线接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_ubtech",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "ubtech",
+      "objectName": "优必选",
+      "title": "优必选 +17.60%，成交额 33.53亿",
+      "change": "价格 108.9，涨跌幅 +17.60%，成交额 33.53亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "ubtech"
+      ],
+      "entityNames": [
+        "优必选"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=hk09880",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_09880",
+          "title": "腾讯财经K线接口 · 09880",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_ubtech",
+          "entityId": "ubtech",
+          "company": "优必选",
+          "stockCode": "09880",
+          "market": "HKEX",
+          "price": 108.9,
+          "changePct": 17.6,
+          "turnoverAmount": "33.53亿",
+          "turnoverRate": 0,
+          "fiveDayChangePct": 17.35,
+          "twentyDayChangePct": -2.24,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=hk09880",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_09880",
+              "title": "腾讯财经K线接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_orbbec",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "orbbec",
+      "objectName": "奥比中光",
+      "title": "奥比中光 +13.32%，成交额 53.48亿",
+      "change": "价格 147.33，涨跌幅 +13.32%，成交额 53.48亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "orbbec"
+      ],
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 688322",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh688322",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_688322",
+          "title": "腾讯财经K线接口 · 688322",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_orbbec",
+          "entityId": "orbbec",
+          "company": "奥比中光",
+          "stockCode": "688322",
+          "market": "SSE",
+          "price": 147.33,
+          "changePct": 13.32,
+          "turnoverAmount": "53.48亿",
+          "turnoverRate": 11.72,
+          "fiveDayChangePct": 22.93,
+          "twentyDayChangePct": 28.62,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_anpeilong",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "anpeilong",
+      "objectName": "安培龙",
+      "title": "安培龙 +11.42%，成交额 9.31亿",
+      "change": "价格 83，涨跌幅 +11.42%，成交额 9.31亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "anpeilong"
+      ],
+      "entityNames": [
+        "安培龙"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz301413",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_301413",
+          "title": "腾讯财经K线接口 · 301413",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_anpeilong",
+          "entityId": "anpeilong",
+          "company": "安培龙",
+          "stockCode": "301413",
+          "market": "SZSE",
+          "price": 83,
+          "changePct": 11.42,
+          "turnoverAmount": "9.31亿",
+          "turnoverRate": 15.12,
+          "fiveDayChangePct": 27.34,
+          "twentyDayChangePct": -5.79,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301413",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301413",
+              "title": "腾讯财经K线接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_tuopu_group",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "tuopu_group",
+      "objectName": "拓普集团",
+      "title": "拓普集团 +10.01%，成交额 52.23亿",
+      "change": "价格 62.43，涨跌幅 +10.01%，成交额 52.23亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "tuopu_group"
+      ],
+      "entityNames": [
+        "拓普集团"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 601689",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sh601689",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_601689",
+          "title": "腾讯财经K线接口 · 601689",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_tuopu_group",
+          "entityId": "tuopu_group",
+          "company": "拓普集团",
+          "stockCode": "601689",
+          "market": "SSE",
+          "price": 62.43,
+          "changePct": 10.01,
+          "turnoverAmount": "52.23亿",
+          "turnoverRate": 4.97,
+          "fiveDayChangePct": 18.35,
+          "twentyDayChangePct": -7.65,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh601689",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_601689",
+              "title": "腾讯财经K线接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_zhaowei_machinery",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "zhaowei_machinery",
+      "objectName": "兆威机电",
+      "title": "兆威机电 +10.00%，成交额 9.38亿",
+      "change": "价格 100.8，涨跌幅 +10.00%，成交额 9.38亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "zhaowei_machinery"
+      ],
+      "entityNames": [
+        "兆威机电"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz003021",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_003021",
+          "title": "腾讯财经K线接口 · 003021",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_zhaowei_machinery",
+          "entityId": "zhaowei_machinery",
+          "company": "兆威机电",
+          "stockCode": "003021",
+          "market": "SZSE",
+          "price": 100.8,
+          "changePct": 10,
+          "turnoverAmount": "9.38亿",
+          "turnoverRate": 4.63,
+          "fiveDayChangePct": 23.61,
+          "twentyDayChangePct": 2.65,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz003021",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_003021",
+              "title": "腾讯财经K线接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_estun",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "estun",
+      "objectName": "埃斯顿",
+      "title": "埃斯顿 +10.00%，成交额 55.08亿",
+      "change": "价格 44.77，涨跌幅 +10.00%，成交额 55.08亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "estun"
+      ],
+      "entityNames": [
+        "埃斯顿"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002747",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002747",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002747",
+          "title": "腾讯财经K线接口 · 002747",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_estun",
+          "entityId": "estun",
+          "company": "埃斯顿",
+          "stockCode": "002747",
+          "market": "SZSE",
+          "price": 44.77,
+          "changePct": 10,
+          "turnoverAmount": "55.08亿",
+          "turnoverRate": 16.2,
+          "fiveDayChangePct": 29.13,
+          "twentyDayChangePct": 51.81,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002747",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002747",
+              "title": "腾讯财经K线接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_zhongda_leader",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "zhongda_leader",
+      "objectName": "中大力德",
+      "title": "中大力德 +9.99%，成交额 17.01亿",
+      "change": "价格 85.62，涨跌幅 +9.99%，成交额 17.01亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "zhongda_leader"
+      ],
+      "entityNames": [
+        "中大力德"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002896",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002896",
+          "title": "腾讯财经K线接口 · 002896",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_zhongda_leader",
+          "entityId": "zhongda_leader",
+          "company": "中大力德",
+          "stockCode": "002896",
+          "market": "SZSE",
+          "price": 85.62,
+          "changePct": 9.99,
+          "turnoverAmount": "17.01亿",
+          "turnoverRate": 10.3,
+          "fiveDayChangePct": 21.79,
+          "twentyDayChangePct": 8.54,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002896",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002896",
+              "title": "腾讯财经K线接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    },
+    {
+      "id": "chg_market_stock_2026-07-03_shuanghuan_driveline",
+      "sourceType": "market",
+      "lane": "market",
+      "date": "2026-07-03",
+      "time": "2026-07-03T17:55:11+08:00",
+      "objectId": "shuanghuan_driveline",
+      "objectName": "双环传动",
+      "title": "双环传动 +9.99%，成交额 34.12亿",
+      "change": "价格 47.01，涨跌幅 +9.99%，成交额 34.12亿。",
+      "status": "market_snapshot",
+      "evidenceLevel": "B",
+      "confidence": "market_fact",
+      "entityIds": [
+        "shuanghuan_driveline"
+      ],
+      "entityNames": [
+        "双环传动"
+      ],
+      "sources": [
+        {
+          "id": "src_tencent_market_quote",
+          "title": "腾讯财经行情接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://qt.gtimg.cn/q=sz002472",
+          "evidenceLevel": "B"
+        },
+        {
+          "id": "src_tencent_market_quote_kline_002472",
+          "title": "腾讯财经K线接口 · 002472",
+          "publisher": "腾讯财经",
+          "sourceType": "market_data",
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+          "evidenceLevel": "B"
+        }
+      ],
+      "evidence": [],
+      "verificationItems": [],
+      "marketContext": [
+        {
+          "id": "stock_2026-07-03_shuanghuan_driveline",
+          "entityId": "shuanghuan_driveline",
+          "company": "双环传动",
+          "stockCode": "002472",
+          "market": "SZSE",
+          "price": 47.01,
+          "changePct": 9.99,
+          "turnoverAmount": "34.12亿",
+          "turnoverRate": 9.97,
+          "fiveDayChangePct": 26.54,
+          "twentyDayChangePct": 13.58,
+          "capturedAt": "2026-07-03T17:55:11+08:00",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002472",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002472",
+              "title": "腾讯财经K线接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ],
+      "noCausalityPolicy": "market changes are shown as facts only; no event causality is implied"
+    }
+  ],
+  "verificationQueue": [
+    {
+      "id": "fu_2026_06_01_unitree_h2plus_delivery",
+      "subject": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+      "status": "pending",
+      "entityNames": [
+        "宇树科技"
+      ],
+      "sourceIds": [
+        "src_unitree_news_center",
+        "src_unitree_h2plus_product"
+      ],
+      "sources": [
+        {
+          "id": "src_unitree_news_center",
+          "title": "宇树科技新闻中心",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/news/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网新闻中心列表。"
+        },
+        {
+          "id": "src_unitree_h2plus_product",
+          "title": "Unitree H2 PLUS 产研一体 全栈启航",
+          "publisher": "宇树科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.unitree.com/cn/H2plus/",
+          "publishedAt": null,
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "宇树科技官网 H2 Plus 产品页。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_11_zhiyuan_ecosystem_spending",
+      "subject": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人"
+      ],
+      "sourceIds": [
+        "src_agibot_20260611_aima_ecosystem_plan"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260611_aima_ecosystem_plan",
+          "title": "2026元苼生态共建行动计划",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/169.html",
+          "publishedAt": "2026-06-11T11:06:01+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_25_zhiyuan_longcheer_line_status",
+      "subject": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sourceIds": [
+        "src_agibot_20260625_3c_line_live"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260625_3c_line_live",
+          "title": "全球首个3C产线质检工段全覆盖机器人作业直播，智元加速“部署态”规模化落地",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/170.html",
+          "publishedAt": "2026-06-25T10:10:20+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+      "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+      "status": "pending",
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "sourceIds": [
+        "src_agibot_20260629_15000_robots_downline"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_03_31_financial_7b9ccabecb_reconcile_l0_l1",
+      "subject": "在 promotion 前必须用 L0/L1 披露核对核心财务字段。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+          "title": "奥比中光 财报 · Serenity Bridge",
+          "publisher": "Eastmoney_F10_Financials_L3",
+          "sourceType": "filing",
+          "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+          "evidenceLevel": "C"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_03_31_financial_7b9ccabecb_avoid_rating_use",
+      "subject": "不得将该候选用于评级、买点、仓位或估值结论。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_financials_eastmoney_f10_financials_l3",
+          "title": "奥比中光 财报 · Serenity Bridge",
+          "publisher": "Eastmoney_F10_Financials_L3",
+          "sourceType": "filing",
+          "url": "https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/Index?type=web&code=SH688322",
+          "evidenceLevel": "C"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_05_15_filing_4ec343f48a_verify_pdf_source",
+      "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_05_15_filing_4ec343f48a_classify_materiality",
+      "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_06_01_filing_80c064155f_verify_pdf_source",
+      "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_06_01_filing_80c064155f_classify_materiality",
+      "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_06_12_filing_5bf12d6891_verify_pdf_source",
+      "subject": "打开公告 PDF 或交易所页面确认标题和披露日。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    },
+    {
+      "id": "chg_claim_2026_06_12_filing_5bf12d6891_classify_materiality",
+      "subject": "判断公告是否构成正式研究事件或仅保留候选。",
+      "status": "required",
+      "entityNames": [
+        "奥比中光"
+      ],
+      "sources": [
+        {
+          "id": "src_serenity_688322_filings_announcements_cninfo_announcements_l0",
+          "title": "奥比中光 公告 · Serenity Bridge",
+          "publisher": "CNINFO_Announcements_L0",
+          "sourceType": "filing",
+          "url": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688322",
+          "evidenceLevel": "A"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalChanges": 23,
+    "objectCards": 8,
+    "marketChanges": 12,
+    "pendingVerification": 12,
+    "byLane": {
+      "product": 5,
+      "market": 12,
+      "supply_chain": 1,
+      "company": 5
+    }
+  }
+}

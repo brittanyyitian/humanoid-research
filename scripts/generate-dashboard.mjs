@@ -674,6 +674,342 @@ const market = {
   },
 };
 
+const laneMeta = {
+  product: { label: "产品/技术", description: "产品发布、参数、交付和技术进展" },
+  company: { label: "公司动态", description: "公司事件、公告、合作和经营动作" },
+  supply_chain: { label: "产业链/供应链", description: "供应链、客户、部件和产线线索" },
+  policy: { label: "政策/行业", description: "政策、会议、行业节点和公开计划" },
+  market: { label: "股票市场", description: "股票涨跌、成交和行情事实" },
+};
+
+function laneForEvent(event) {
+  if (event.eventType === "policy" || event.eventType === "conference") return "policy";
+  if (event.eventType === "product" || event.eventType === "delivery" || event.eventType === "demo") return "product";
+  if (event.eventType === "partnership" || event.eventType === "order" || event.module?.includes("供应链")) {
+    return "supply_chain";
+  }
+  return "company";
+}
+
+function laneForClaim(claim) {
+  if (["product_release", "product_spec", "delivery"].includes(claim.claimType)) return "product";
+  if (["order", "partnership"].includes(claim.claimType)) return "supply_chain";
+  if (claim.claimType === "milestone" || claim.claimType === "data_gap") return "policy";
+  return "company";
+}
+
+function shortMarketMove(row) {
+  const pct = typeof row.changePct === "number" ? `${row.changePct > 0 ? "+" : ""}${row.changePct.toFixed(2)}%` : "--";
+  const turnover = row.turnoverAmount ? `，成交额 ${row.turnoverAmount}` : "";
+  return `${row.company} ${pct}${turnover}`;
+}
+
+function compactSources(sourceIds = []) {
+  return enrichSources(sourceIds).slice(0, 3).map(compactSource);
+}
+
+function compactSource(source) {
+  if (!source) return null;
+  return {
+    id: source.id,
+    title: source.title,
+    publisher: source.publisher,
+    sourceType: source.sourceType,
+    url: source.url,
+    evidenceLevel: source.evidenceLevel,
+  };
+}
+
+function compactMarketRow(row) {
+  if (!row) return null;
+  return {
+    id: row.id,
+    entityId: row.entityId,
+    company: row.company,
+    stockCode: row.stockCode,
+    market: row.market,
+    price: row.price ?? null,
+    changePct: row.changePct ?? null,
+    turnoverAmount: row.turnoverAmount ?? null,
+    turnoverRate: row.turnoverRate ?? null,
+    fiveDayChangePct: row.fiveDayChangePct ?? null,
+    twentyDayChangePct: row.twentyDayChangePct ?? null,
+    capturedAt: row.capturedAt || null,
+    sources: (row.sources || []).slice(0, 2).map(compactSource).filter(Boolean),
+  };
+}
+
+function changeEvidenceForClaim(claim) {
+  return (evidenceByClaimId.get(claim.id) || [])
+    .slice()
+    .sort((a, b) => (evidenceRank[b.sourceLevel] || 0) - (evidenceRank[a.sourceLevel] || 0))
+    .map((row) => ({
+      id: row.id,
+      relation: row.relation,
+      sourceLevel: row.sourceLevel,
+      strength: row.strength,
+      source: compactSource(sourceById.get(row.sourceId)),
+    }));
+}
+
+function strongestLevelFromEvidence(rows = []) {
+  return rows
+    .slice()
+    .sort((a, b) => (evidenceRank[b.sourceLevel] || 0) - (evidenceRank[a.sourceLevel] || 0))[0]?.sourceLevel;
+}
+
+function objectName(entityId) {
+  return entityById.get(entityId)?.name || entityId;
+}
+
+const eventChangeBlocks = allEventRows.map((event) => {
+  const claimRows = claimsForEvent(event.id);
+  const evidenceRowsForEvent = claimRows.flatMap((claim) => changeEvidenceForClaim(claim));
+  return {
+    id: `chg_${event.id}`,
+    sourceType: "event",
+    lane: laneForEvent(event),
+    date: event.date,
+    time: event.date,
+    objectId: event.entityIds[0] || event.id,
+    objectName: event.entityNames?.[0] || event.title,
+    title: event.title,
+    change: event.fact,
+    status: "verified",
+    evidenceLevel: event.evidenceLevel,
+    confidence: "verified",
+    entityIds: event.entityIds,
+    entityNames: event.entityNames,
+    sources: (event.sources || []).map(compactSource).filter(Boolean),
+    evidence: evidenceRowsForEvent,
+    verificationItems: (event.followups || []).map((item) => ({
+      id: item.id,
+      subject: item.subject,
+      status: item.status,
+    })),
+    marketContext: event.directMarketRows?.length ? event.directMarketRows.map(compactMarketRow).filter(Boolean) : [],
+    noCausalityPolicy: "market context is displayed alongside the event without causal interpretation",
+  };
+});
+
+const candidateChangeBlocks = claims
+  .filter((claim) => claim.status === "candidate" || claim.reviewStatus === "inbox")
+  .map((claim) => {
+    const evidence = changeEvidenceForClaim(claim);
+    const artifact = (claim.artifactIds || []).map((artifactId) => rawArtifactById.get(artifactId)).filter(Boolean)[0];
+    return {
+      id: `chg_${claim.id}`,
+      sourceType: "claim",
+      lane: laneForClaim(claim),
+      date: dateKey(claim.occurredAt || claim.publishedAt || claim.firstSeenAt || claim.processedAt),
+      time: claim.occurredAt || claim.publishedAt || claim.firstSeenAt || claim.processedAt,
+      objectId: claim.entityIds?.[0] || claim.id,
+      objectName: objectName(claim.entityIds?.[0]) || artifact?.publisher || "候选事实",
+      title: claim.text,
+      change: claim.normalizedFact || claim.text,
+      status: claim.reviewStatus === "inbox" ? "pending_review" : claim.status,
+      evidenceLevel: strongestLevelFromEvidence(evidence) || "D",
+      confidence: claim.confidence,
+      entityIds: claim.entityIds || [],
+      entityNames: entityNames(claim.entityIds || []),
+      sources: evidence.map((row) => row.source).filter(Boolean),
+      evidence,
+      verificationItems: (claim.reviewRequirements || []).map((item) => ({
+        id: item.kind,
+        subject: item.description,
+        status: item.required ? "required" : "optional",
+      })),
+      marketContext: (claim.entityIds || []).map((entityId) => compactMarketRow(marketByEntityId.get(entityId))).filter(Boolean),
+      noCausalityPolicy: "candidate claims are not facts until review",
+    };
+  });
+
+const relationChangeBlocks = relations.map((relation) => ({
+  id: `chg_${relation.id}`,
+  sourceType: "relation",
+  lane: "supply_chain",
+  date: relation.date || targetDate,
+  time: relation.date || targetDate,
+  objectId: relation.entityAId,
+  objectName: objectName(relation.entityAId),
+  title: `${objectName(relation.entityAId)} / ${objectName(relation.entityBId)}`,
+  change: relation.fact || relation.relationType,
+  status: "verified",
+  evidenceLevel: relation.evidenceLevel,
+  confidence: "verified",
+  entityIds: [relation.entityAId, relation.entityBId],
+  entityNames: [objectName(relation.entityAId), objectName(relation.entityBId)],
+  sources: compactSources(relation.sourceIds),
+  evidence: [],
+  verificationItems: [],
+  marketContext: [marketByEntityId.get(relation.entityAId), marketByEntityId.get(relation.entityBId)]
+    .map(compactMarketRow)
+    .filter(Boolean),
+  noCausalityPolicy: "relationship facts are displayed as source-backed changes, not causal interpretation",
+}));
+
+const marketChangeBlocks = marketRows
+  .slice()
+  .sort((a, b) => Math.abs(Number(b.changePct) || 0) - Math.abs(Number(a.changePct) || 0))
+  .slice(0, 12)
+  .map((row) => ({
+    id: `chg_market_${row.id || row.entityId}`,
+    sourceType: "market",
+    lane: "market",
+    date: dateKey(row.capturedAt || market.date),
+    time: row.capturedAt || row.quoteTime || market.date,
+    objectId: row.entityId,
+    objectName: row.company,
+    title: shortMarketMove(row),
+    change: `价格 ${row.price ?? "--"}，涨跌幅 ${
+      typeof row.changePct === "number" ? `${row.changePct > 0 ? "+" : ""}${row.changePct.toFixed(2)}%` : "--"
+    }，成交额 ${row.turnoverAmount || "--"}。`,
+    status: row.isFinal ? "final" : "market_snapshot",
+    evidenceLevel: row.sources?.[0]?.evidenceLevel || "B",
+    confidence: "market_fact",
+    entityIds: [row.entityId],
+    entityNames: [row.company],
+    sources: (row.sources || []).slice(0, 2).map(compactSource).filter(Boolean),
+    evidence: [],
+    verificationItems: [],
+    marketContext: [compactMarketRow(row)].filter(Boolean),
+    noCausalityPolicy: "market changes are shown as facts only; no event causality is implied",
+  }));
+
+const allChangeBlocks = [
+  ...eventChangeBlocks,
+  ...candidateChangeBlocks,
+  ...relationChangeBlocks,
+  ...marketChangeBlocks,
+].filter((row) => row.date);
+
+function changeSort(a, b) {
+  return String(b.time || b.date).localeCompare(String(a.time || a.date)) || String(a.id).localeCompare(String(b.id));
+}
+
+function compactChangePreview(block) {
+  return {
+    id: block.id,
+    lane: block.lane,
+    date: block.date,
+    time: block.time,
+    objectId: block.objectId,
+    objectName: block.objectName,
+    title: block.title,
+    status: block.status,
+    evidenceLevel: block.evidenceLevel,
+    entityIds: block.entityIds || [],
+  };
+}
+
+const recentChangeBlocks = allChangeBlocks.slice().sort(changeSort);
+const timelineDates = Array.from(new Set(recentChangeBlocks.map((row) => row.date)))
+  .slice(0, 8)
+  .map((date) => ({
+    date,
+    lanes: Object.fromEntries(
+      Object.keys(laneMeta).map((lane) => [
+        lane,
+        recentChangeBlocks
+          .filter((row) => row.date === date && row.lane === lane)
+          .slice(0, 3)
+          .map(compactChangePreview),
+      ])
+    ),
+    total: recentChangeBlocks.filter((row) => row.date === date).length,
+  }));
+
+const objectCards = Array.from(
+  recentChangeBlocks.reduce((map, block) => {
+    const key = block.objectId || block.objectName || block.id;
+    const existing = map.get(key) || {
+      id: key,
+      name: block.objectName,
+      entityId: block.entityIds?.[0] || null,
+      entityNames: [],
+      lanes: Object.fromEntries(Object.keys(laneMeta).map((lane) => [lane, []])),
+      changes: [],
+      verificationItems: [],
+      marketContext: [],
+      evidenceLevels: [],
+    };
+    existing.name = existing.name || block.objectName;
+    existing.entityNames = Array.from(new Set([...existing.entityNames, ...(block.entityNames || [])].filter(Boolean)));
+    existing.lanes[block.lane] = [...(existing.lanes[block.lane] || []), compactChangePreview(block)].slice(0, 3);
+    existing.changes.push(block);
+    existing.verificationItems.push(...(block.verificationItems || []));
+    existing.marketContext.push(...(block.marketContext || []));
+    if (block.evidenceLevel) existing.evidenceLevels.push(block.evidenceLevel);
+    map.set(key, existing);
+    return map;
+  }, new Map()).values()
+)
+  .map((card) => ({
+    ...card,
+    changes: card.changes.slice().sort(changeSort).slice(0, 8).map(compactChangePreview),
+    verificationItems: card.verificationItems.slice(0, 5),
+    marketContext: Array.from(new Map(card.marketContext.map((row) => [row.id || row.entityId, row])).values()).slice(0, 4),
+    strongestEvidenceLevel: card.evidenceLevels
+      .slice()
+      .sort((a, b) => (evidenceRank[b] || 0) - (evidenceRank[a] || 0))[0] || null,
+    lastChangedAt: latestTime(card.changes.map((row) => row.time || row.date)),
+  }))
+  .sort((a, b) => {
+    return (
+      String(b.lastChangedAt || "").localeCompare(String(a.lastChangedAt || "")) ||
+      b.changes.length - a.changes.length ||
+      String(a.name || "").localeCompare(String(b.name || ""), "zh-Hans-CN")
+    );
+  })
+  .slice(0, 8);
+
+const verificationQueue = [
+  ...followups
+    .filter((item) => item.status === "pending")
+    .map((item) => ({
+      id: item.id,
+      subject: item.subject,
+      status: item.status,
+      entityNames: entityNames(item.entityIds),
+      sourceIds: item.sourceIds,
+      sources: enrichSources(item.sourceIds),
+    })),
+  ...candidateChangeBlocks.flatMap((block) =>
+    (block.verificationItems || []).map((item) => ({
+      ...item,
+      id: `${block.id}_${item.id}`,
+      subject: item.subject,
+      status: item.status,
+      entityNames: block.entityNames,
+      sources: block.sources,
+    }))
+  ),
+].slice(0, 12);
+
+const changeWall = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  title: "Change Wall",
+  policy: "Change Wall only places product, company, supply-chain, policy and market changes side by side. It does not infer causality or make recommendations.",
+  lanes: Object.entries(laneMeta).map(([id, meta]) => ({
+    id,
+    ...meta,
+    count: recentChangeBlocks.filter((row) => row.lane === id).length,
+  })),
+  rows: recentChangeBlocks.slice(0, 80),
+  timelineDates,
+  objectCards,
+  marketChanges: marketChangeBlocks.slice(0, 10),
+  verificationQueue,
+  summary: {
+    totalChanges: recentChangeBlocks.length,
+    objectCards: objectCards.length,
+    marketChanges: marketChangeBlocks.length,
+    pendingVerification: verificationQueue.length,
+    byLane: countBy(recentChangeBlocks, (row) => row.lane),
+  },
+};
+
 const pendingClaims = claims.filter((claim) => claim.reviewStatus === "inbox" || claim.status === "candidate");
 const fetchFailures = fetchRuns.filter((run) => run.status === "failed");
 const fetchPartials = fetchRuns.filter((run) => run.status === "partial");
@@ -1288,6 +1624,7 @@ const sourceRegistry = {
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "today.json"), today);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "events.json"), eventDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"), observationsDashboard);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "change_wall.json"), changeWall);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);

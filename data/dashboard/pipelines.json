@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T10:15:35.414Z",
+  "generatedAt": "2026-07-04T12:17:01.593Z",
   "policy": "Pipelines turn routed tasks into claim/evidence candidates only. Review and promotion remain separate.",
   "rows": [
     {
@@ -31,7 +31,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_4e6f8a9d6cb5",
-        "prun_2026_07_04_37678d497565",
         "prun_2026_07_04_eb4bd41a9f33"
       ],
       "ruleOutputIds": [
@@ -99,27 +98,6 @@
           "status": "completed",
           "startedAt": "2026-07-04T18:15:32+08:00",
           "finishedAt": "2026-07-04T18:15:32+08:00",
-          "claimIds": [
-            "claim_2026_06_12_filing_5bf12d6891"
-          ],
-          "evidenceIds": [
-            "evd_2026_06_12_filing_5bf12d6891"
-          ],
-          "ruleOutputIds": [
-            "rout_2026_06_12_serenity_filing_announcement_v0_65e63766f3"
-          ],
-          "error": null,
-          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
-        },
-        {
-          "id": "prun_2026_07_04_37678d497565",
-          "pipelineTaskId": "ptask_2026_07_04_1ac6259a0d63",
-          "rawArtifactId": "raw_2026_06_12_serenity_688322_filing_2025_a_084ce9aa",
-          "routeDecisionId": "route_2026_06_12_1fb6a4548b79",
-          "pipeline": "filing_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T18:14:44+08:00",
-          "finishedAt": "2026-07-04T18:14:44+08:00",
           "claimIds": [
             "claim_2026_06_12_filing_5bf12d6891"
           ],
@@ -310,7 +288,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_19b67fa31d53",
-        "prun_2026_07_04_953c23a29e22",
         "prun_2026_07_04_69225f5542fe"
       ],
       "ruleOutputIds": [
@@ -378,27 +355,6 @@
           "status": "completed",
           "startedAt": "2026-07-04T18:15:32+08:00",
           "finishedAt": "2026-07-04T18:15:32+08:00",
-          "claimIds": [
-            "claim_2026_05_15_filing_4ec343f48a"
-          ],
-          "evidenceIds": [
-            "evd_2026_05_15_filing_4ec343f48a"
-          ],
-          "ruleOutputIds": [
-            "rout_2026_05_15_serenity_filing_announcement_v0_650b969123"
-          ],
-          "error": null,
-          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
-        },
-        {
-          "id": "prun_2026_07_04_953c23a29e22",
-          "pipelineTaskId": "ptask_2026_07_04_284e9683232f",
-          "rawArtifactId": "raw_2026_05_15_serenity_688322_filing_item_e3bfb35f",
-          "routeDecisionId": "route_2026_05_15_344c32b83f43",
-          "pipeline": "filing_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T18:14:44+08:00",
-          "finishedAt": "2026-07-04T18:14:44+08:00",
           "claimIds": [
             "claim_2026_05_15_filing_4ec343f48a"
           ],
@@ -589,7 +545,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_585179270af3",
-        "prun_2026_07_04_463b334b11e1",
         "prun_2026_07_04_14cb9f84b42d"
       ],
       "ruleOutputIds": [
@@ -639,27 +594,6 @@
           "status": "completed",
           "startedAt": "2026-07-04T18:15:32+08:00",
           "finishedAt": "2026-07-04T18:15:32+08:00",
-          "claimIds": [
-            "claim_2026_07_04_product_release_5e689f029f"
-          ],
-          "evidenceIds": [
-            "evd_2026_07_04_product_release_5e689f029f"
-          ],
-          "ruleOutputIds": [
-            "rout_2026_07_04_product_material_v0_3c7c917d74"
-          ],
-          "error": null,
-          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
-        },
-        {
-          "id": "prun_2026_07_04_463b334b11e1",
-          "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
-          "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
-          "routeDecisionId": "route_2026_07_04_9bf207e29f78",
-          "pipeline": "product_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T18:14:44+08:00",
-          "finishedAt": "2026-07-04T18:14:44+08:00",
           "claimIds": [
             "claim_2026_07_04_product_release_5e689f029f"
           ],
@@ -909,7 +843,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_3703a7647549",
-        "prun_2026_07_04_b7413d319cbd",
         "prun_2026_07_04_ae31a0edd959"
       ],
       "ruleOutputIds": [
@@ -977,27 +910,6 @@
           "status": "completed",
           "startedAt": "2026-07-04T18:15:32+08:00",
           "finishedAt": "2026-07-04T18:15:32+08:00",
-          "claimIds": [
-            "claim_2026_03_31_financial_7b9ccabecb"
-          ],
-          "evidenceIds": [
-            "evd_2026_03_31_financial_7b9ccabecb"
-          ],
-          "ruleOutputIds": [
-            "rout_2026_03_31_serenity_financials_v0_af72f3c649"
-          ],
-          "error": null,
-          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
-        },
-        {
-          "id": "prun_2026_07_04_b7413d319cbd",
-          "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
-          "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
-          "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
-          "pipeline": "filing_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T18:14:44+08:00",
-          "finishedAt": "2026-07-04T18:14:44+08:00",
           "claimIds": [
             "claim_2026_03_31_financial_7b9ccabecb"
           ],
@@ -1216,7 +1128,6 @@
       ],
       "pipelineRunIds": [
         "prun_2026_07_04_d539dba3e9bc",
-        "prun_2026_07_04_6ba14d06ea5d",
         "prun_2026_07_04_310ab4640b59"
       ],
       "ruleOutputIds": [
@@ -1284,27 +1195,6 @@
           "status": "completed",
           "startedAt": "2026-07-04T18:15:32+08:00",
           "finishedAt": "2026-07-04T18:15:32+08:00",
-          "claimIds": [
-            "claim_2026_06_01_filing_80c064155f"
-          ],
-          "evidenceIds": [
-            "evd_2026_06_01_filing_80c064155f"
-          ],
-          "ruleOutputIds": [
-            "rout_2026_06_01_serenity_filing_announcement_v0_068869f61b"
-          ],
-          "error": null,
-          "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
-        },
-        {
-          "id": "prun_2026_07_04_6ba14d06ea5d",
-          "pipelineTaskId": "ptask_2026_07_04_e1a17d7a5e7c",
-          "rawArtifactId": "raw_2026_06_01_serenity_688322_filing_item_78302bd5",
-          "routeDecisionId": "route_2026_06_01_383550ca09c5",
-          "pipeline": "filing_pipeline",
-          "status": "completed",
-          "startedAt": "2026-07-04T18:14:44+08:00",
-          "finishedAt": "2026-07-04T18:14:44+08:00",
           "claimIds": [
             "claim_2026_06_01_filing_80c064155f"
           ],
@@ -1647,30 +1537,27 @@
       "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
     },
     {
-      "id": "prun_2026_07_04_b7413d319cbd",
-      "pipelineTaskId": "ptask_2026_07_04_bcfb7955250b",
-      "rawArtifactId": "raw_2026_03_31_serenity_688322_financials_2026_03_31",
-      "routeDecisionId": "route_2026_03_31_ca5cf249ef69",
-      "pipeline": "filing_pipeline",
+      "id": "prun_2026_07_04_585179270af3",
+      "pipelineTaskId": "ptask_2026_07_04_9aa9c4575978",
+      "rawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
+      "routeDecisionId": "route_2026_07_04_9bf207e29f78",
+      "pipeline": "product_pipeline",
       "status": "completed",
-      "startedAt": "2026-07-04T18:14:44+08:00",
-      "finishedAt": "2026-07-04T18:14:44+08:00",
+      "startedAt": "2026-07-04T16:54:58+08:00",
+      "finishedAt": "2026-07-04T16:54:58+08:00",
       "claimIds": [
-        "claim_2026_03_31_financial_7b9ccabecb"
+        "claim_2026_07_04_product_release_5e689f029f"
       ],
       "evidenceIds": [
-        "evd_2026_03_31_financial_7b9ccabecb"
-      ],
-      "ruleOutputIds": [
-        "rout_2026_03_31_serenity_financials_v0_af72f3c649"
+        "evd_2026_07_04_product_release_5e689f029f"
       ],
       "error": null,
-      "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+      "notes": "Pipeline execution created inbox claim/evidence candidates only."
     }
   ],
   "totals": {
     "tasks": 5,
-    "runs": 15,
+    "runs": 10,
     "ruleOutputs": 5,
     "queued": 0,
     "completed": 5,

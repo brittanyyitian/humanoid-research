@@ -228,6 +228,431 @@ main {
   padding: 6px 0;
 }
 
+.change-wall-page {
+  display: grid;
+  gap: 18px;
+}
+
+.change-wall-hero {
+  align-items: end;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 8px 0 22px;
+}
+
+.change-wall-hero span,
+.object-change-section header span,
+.change-mini-panel header span,
+.detail-kicker {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.change-wall-hero h2 {
+  font-size: 34px;
+  font-weight: 680;
+  line-height: 1.05;
+  margin-top: 7px;
+}
+
+.change-wall-hero p {
+  color: #393939;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 12px;
+  max-width: 720px;
+}
+
+.change-wall-actions {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.change-wall-actions button,
+.change-detail-panel footer button {
+  background: #111;
+  border: 1px solid #111;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 9px 14px;
+  white-space: nowrap;
+}
+
+.change-wall-actions button + button,
+.change-detail-panel footer button + button {
+  background: #fff;
+  color: #111;
+}
+
+.change-wall-metrics {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.change-wall-grid {
+  align-items: start;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr) 330px;
+}
+
+.change-wall-board,
+.change-detail-panel,
+.object-change-card,
+.change-mini-panel {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.change-wall-board {
+  overflow: auto;
+}
+
+.change-wall-head,
+.change-wall-row {
+  display: grid;
+  grid-template-columns: 112px repeat(5, minmax(170px, 1fr));
+  min-width: 980px;
+}
+
+.change-wall-head {
+  border-bottom: 1px solid var(--line);
+  color: #2a2a2a;
+  font-size: 12px;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.change-wall-head > div {
+  align-items: center;
+  background: #fff;
+  border-right: 1px solid var(--soft);
+  display: flex;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 12px;
+}
+
+.change-wall-row {
+  border-bottom: 1px solid var(--soft);
+  min-height: 128px;
+}
+
+.change-wall-row:last-child {
+  border-bottom: 0;
+}
+
+.time-cell,
+.lane-cell {
+  border-right: 1px solid var(--soft);
+  min-width: 0;
+  padding: 12px;
+}
+
+.time-cell {
+  background: #fafafa;
+}
+
+.time-cell strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.time-cell span,
+.change-chip small,
+.change-chip span,
+.object-card-title span,
+.object-lanes small,
+.object-change-card footer,
+.market-change-list small,
+.verify-list span,
+.detail-meta-grid span,
+.change-detail-panel section small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lane-cell {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.lane-empty {
+  color: #c8c8c8;
+  font-size: 18px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.lane-dot {
+  border-radius: 999px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
+.lane-product {
+  background: #6f6f6f;
+}
+
+.lane-company {
+  background: #222;
+}
+
+.lane-supply_chain {
+  background: #8a8a8a;
+}
+
+.lane-policy {
+  background: #b0a06b;
+}
+
+.lane-market {
+  background: #d45b5b;
+}
+
+.change-chip {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  min-height: 88px;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.change-chip.active,
+.change-chip:hover {
+  border-color: #111;
+}
+
+.change-chip strong {
+  color: #111;
+  display: -webkit-box;
+  font-size: 14px;
+  font-weight: 680;
+  line-height: 1.35;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.change-detail-panel {
+  display: grid;
+  gap: 16px;
+  max-height: 760px;
+  padding: 18px;
+  position: sticky;
+  top: 18px;
+}
+
+.change-detail-panel h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.change-detail-panel > strong {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.change-detail-panel p {
+  color: #303030;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.detail-meta-grid {
+  border-top: 1px solid var(--soft);
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-top: 12px;
+}
+
+.detail-meta-grid div {
+  min-width: 0;
+}
+
+.detail-meta-grid b {
+  display: block;
+  font-size: 13px;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+
+.detail-stock-list,
+.detail-check-list,
+.market-change-list,
+.verify-list {
+  display: grid;
+  gap: 0;
+}
+
+.detail-stock-list button,
+.market-change-list button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft);
+  cursor: pointer;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.detail-stock-list b,
+.market-change-list b {
+  font-size: 15px;
+}
+
+.detail-check-list span {
+  border-bottom: 1px solid var(--soft);
+  color: #333;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+.change-detail-panel footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.object-change-section {
+  display: grid;
+  gap: 14px;
+}
+
+.object-change-section > header {
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.object-change-section h3 {
+  font-size: 22px;
+  margin-top: 6px;
+}
+
+.object-card-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.object-change-card {
+  display: grid;
+  gap: 15px;
+  padding: 16px;
+}
+
+.object-card-title {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  padding: 0;
+  text-align: left;
+}
+
+.object-card-title strong {
+  font-size: 19px;
+}
+
+.object-lanes {
+  display: grid;
+  gap: 0;
+}
+
+.object-lanes div {
+  border-top: 1px solid var(--soft);
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 86px minmax(0, 1fr);
+  padding: 9px 0;
+}
+
+.object-lanes span {
+  color: #222;
+  font-size: 13px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.object-change-card footer {
+  border-top: 1px solid var(--soft);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.change-bottom-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.change-mini-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.change-mini-panel header {
+  display: grid;
+  gap: 5px;
+}
+
+.change-mini-panel header strong {
+  font-size: 18px;
+}
+
+.market-change-list button {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+}
+
+.verify-list button {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--soft);
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.verify-list strong {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
 .event-driven-panel {
   padding: 24px;
 }
@@ -1589,15 +2014,23 @@ main {
   .dashboard-columns,
   .dashboard-bottom-grid,
   .company-layout,
-  .market-summary-grid {
+  .market-summary-grid,
+  .change-wall-grid,
+  .change-bottom-grid {
     grid-template-columns: 1fr;
   }
 
   .event-card-grid,
   .stock-card-grid,
   .observation-grid,
-  .observation-summary {
+  .observation-summary,
+  .object-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .change-detail-panel {
+    max-height: none;
+    position: static;
   }
 
   .summary-cell {
@@ -1634,7 +2067,9 @@ main {
   }
 
   .whats-new-panel,
-  .data-gap-strip {
+  .data-gap-strip,
+  .change-wall-hero,
+  .object-change-section > header {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -1648,7 +2083,9 @@ main {
   .overview-strip,
   .freshness-strip,
   .window-summary-strip,
-  .status-board {
+  .status-board,
+  .change-wall-metrics,
+  .object-card-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1685,7 +2122,23 @@ main {
   .github-timeline section,
   .github-timeline-node,
   .database-list button,
-  .gap-list div {
+  .gap-list div,
+  .detail-meta-grid,
+  .market-change-list button {
+    grid-template-columns: 1fr;
+  }
+
+  .change-wall-head,
+  .change-wall-row {
+    grid-template-columns: 96px repeat(5, minmax(150px, 1fr));
+    min-width: 850px;
+  }
+
+  .change-wall-hero h2 {
+    font-size: 28px;
+  }
+
+  .object-lanes div {
     grid-template-columns: 1fr;
   }
 

@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { ArrowUpRight, X } from "lucide-react";
 
 import companies from "@data/dashboard/companies.json";
+import changeWall from "@data/dashboard/change_wall.json";
 import eventDashboard from "@data/dashboard/events.json";
 import followup from "@data/dashboard/followup.json";
 import freshness from "@data/dashboard/freshness.json";
@@ -57,6 +58,24 @@ const sourceTypeLabels = {
   announcement: "公告",
   news: "新闻",
   exchange: "交易所",
+};
+
+const laneLabels = {
+  product: "产品/技术",
+  company: "公司动态",
+  supply_chain: "产业链/供应链",
+  policy: "政策/行业",
+  market: "股票市场",
+};
+
+const statusLabels = {
+  verified: "已验证",
+  pending_review: "待审核",
+  candidate: "候选",
+  market_snapshot: "行情事实",
+  final: "收盘事实",
+  required: "必验",
+  optional: "可选",
 };
 
 function formatPct(value) {
@@ -126,6 +145,14 @@ function freshnessLabel(status) {
     has_failures: "失败",
   };
   return labels[status] || status || "--";
+}
+
+function laneLabel(lane) {
+  return laneLabels[lane] || lane || "--";
+}
+
+function statusLabel(status) {
+  return statusLabels[status] || status || "--";
 }
 
 function stockFromCompany(company) {
@@ -565,65 +592,258 @@ function DataGapStrip({ setView }) {
 }
 
 function Dashboard({ setView, openCompany, openEvidence }) {
-  const [expandedObservationId, setExpandedObservationId] = useState(null);
-  const rows = marketRows();
-  const updatedMarketRows = rows.filter((row) => row.quoteStatus === "已更新");
-  const pendingRows = followup.rows.filter((item) => item.status === "pending");
-  const observationRows = observations.researchRows || [];
-  const todayObservationRows = observations.todayRows || [];
-  const involvedCompanies = new Set(observationRows.flatMap((row) => row.entityIds || []));
+  const rows = changeWall.rows || [];
+  const [selectedChangeId, setSelectedChangeId] = useState(rows[0]?.id || null);
+  const selectedChange = rows.find((row) => row.id === selectedChangeId) || rows[0] || null;
+  const timelineRows = changeWall.timelineDates || [];
+  const objectCards = changeWall.objectCards || [];
+  const laneRows = changeWall.lanes || [];
+  const marketChanges = changeWall.marketChanges || [];
+  const verificationRows = changeWall.verificationQueue || [];
+  const policyText = "只并排展示变化，不解释因果";
+
+  const selectChange = (change) => {
+    setSelectedChangeId(change.id);
+  };
+
+  const openChangeEvidence = (change) => {
+    openEvidence({
+      title: change.title,
+      fact: change.change,
+      date: change.date,
+      module: change.lane,
+      evidenceLevel: change.evidenceLevel,
+      entityNames: change.entityNames,
+      sources: change.sources || [],
+      evidenceSummary: change.evidence?.length
+        ? {
+            claimCount: change.sourceType === "claim" ? 1 : 0,
+            evidenceCount: change.evidence.length,
+            strongestSourceLevel: change.evidenceLevel,
+          }
+        : null,
+    });
+  };
 
   return (
-    <div className="dashboard-v3">
-      <section className="overview-strip" aria-label="今日概览">
-        <OverviewItem label="值得研究" value={observationRows.length} note="Observation" />
-        <OverviewItem label="今日新增" value={todayObservationRows.length} note={today.date} />
-        <OverviewItem label="涉及公司" value={involvedCompanies.size} note="卡片内公司" />
-        <OverviewItem label="关注股票" value={rows.length} note={`${updatedMarketRows.length}已更新`} />
-      </section>
-
-      <FreshnessStrip />
-      <WindowSummaryStrip />
-
-      <section className="dashboard-lead">
+    <div className="change-wall-page">
+      <section className="change-wall-hero">
         <div>
-          <span>今日研究</span>
-          <h2>{observationRows.length ? `值得研究 ${observationRows.length} 件事情` : "暂无正式 Observation"}</h2>
+          <span>Change Wall</span>
+          <h2>变化观察终端</h2>
+          <p>{policyText}。产品、公司、产业链、政策和股票变化按同一时间轴摆在一起。</p>
         </div>
-        <button onClick={() => setView("database")}>查看数据库</button>
+        <div className="change-wall-actions">
+          <button onClick={() => setView("timeline")}>时间轴</button>
+          <button onClick={() => setView("database")}>数据库</button>
+        </div>
       </section>
 
-      <section className="whats-new-panel">
-        <div>
-          <span>What’s New</span>
-          <strong>{observations.whatsNew?.addedToday || 0}</strong>
-          <small>今日新增 Observation</small>
-        </div>
-        <p>
-          昨日库 {observations.whatsNew?.previousTotal || 0} · 今日库{" "}
-          {observations.whatsNew?.currentTotal || 0} · 待验证 {pendingRows.length}
-        </p>
+      <section className="change-wall-metrics" aria-label="变化概览">
+        <OverviewItem label="变化块" value={changeWall.summary?.totalChanges || 0} note={changeWall.date} />
+        <OverviewItem label="对象卡" value={changeWall.summary?.objectCards || 0} note="公司/对象" />
+        <OverviewItem label="市场变化" value={changeWall.summary?.marketChanges || 0} note="只展示事实" />
+        <OverviewItem label="待验证" value={changeWall.summary?.pendingVerification || 0} note="不自动确认" />
       </section>
 
-      <DataGapStrip setView={setView} />
+      {rows.length ? (
+        <section className="change-wall-grid">
+          <div className="change-wall-board">
+            <div className="change-wall-head">
+              <div>时间</div>
+              {laneRows.map((lane) => (
+                <div key={lane.id}>
+                  <span className={`lane-dot lane-${lane.id}`} />
+                  {lane.label}
+                </div>
+              ))}
+            </div>
 
-      <section className="observation-stack">
-        {observationRows.length ? (
-          observationRows.slice(0, 5).map((observation) => (
-            <ObservationCard
-              key={observation.id}
-              observation={observation}
-              openCompany={openCompany}
-              openEvidence={openEvidence}
-              expanded={expandedObservationId === observation.id}
-              onToggle={() =>
-                setExpandedObservationId((current) => (current === observation.id ? null : observation.id))
-              }
-            />
-          ))
-        ) : (
-          <EmptyState>暂无 Observation 数据</EmptyState>
-        )}
+            <div className="change-wall-rows">
+              {timelineRows.map((dateRow) => (
+                <div className="change-wall-row" key={dateRow.date}>
+                  <div className="time-cell">
+                    <strong>{datePart(dateRow.date)}</strong>
+                    <span>{dateRow.total} 个变化</span>
+                  </div>
+                  {laneRows.map((lane) => {
+                    const laneChanges = dateRow.lanes?.[lane.id] || [];
+                    return (
+                      <div className="lane-cell" key={`${dateRow.date}_${lane.id}`}>
+                        {laneChanges.length ? (
+                          laneChanges.map((change) => (
+                            <button
+                              key={change.id}
+                              className={`change-chip ${selectedChange?.id === change.id ? "active" : ""}`}
+                              onClick={() => selectChange(change)}
+                            >
+                              <small>{change.objectName}</small>
+                              <strong>{change.title}</strong>
+                              <span>
+                                {change.evidenceLevel || "--"}级 · {statusLabel(change.status)}
+                              </span>
+                            </button>
+                          ))
+                        ) : (
+                          <span className="lane-empty">—</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <aside className="change-detail-panel">
+            {selectedChange ? (
+              <>
+                <span className="detail-kicker">{selectedChange.date} · {laneLabel(selectedChange.lane)}</span>
+                <h3>{selectedChange.objectName}</h3>
+                <strong>{selectedChange.title}</strong>
+                <p>{selectedChange.change}</p>
+                <div className="detail-meta-grid">
+                  <div>
+                    <span>证据</span>
+                    <b>{selectedChange.evidenceLevel || "--"}级</b>
+                  </div>
+                  <div>
+                    <span>状态</span>
+                    <b>{statusLabel(selectedChange.status)}</b>
+                  </div>
+                  <div>
+                    <span>时间</span>
+                    <b>{formatTime(selectedChange.time)}</b>
+                  </div>
+                </div>
+                {selectedChange.marketContext?.length ? (
+                  <section>
+                    <small>并排市场变化</small>
+                    <div className="detail-stock-list">
+                      {selectedChange.marketContext.slice(0, 3).map((row) => (
+                        <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
+                          <span>{row.company}</span>
+                          <b className={changeClass(row.changePct)}>{formatPct(row.changePct)}</b>
+                        </button>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+                {selectedChange.verificationItems?.length ? (
+                  <section>
+                    <small>待验证</small>
+                    <div className="detail-check-list">
+                      {selectedChange.verificationItems.slice(0, 4).map((item) => (
+                        <span key={item.id}>{item.subject}</span>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+                <footer>
+                  <button onClick={() => openChangeEvidence(selectedChange)}>查看证据</button>
+                  {selectedChange.entityIds?.[0] ? (
+                    <button onClick={() => openCompany(selectedChange.entityIds[0])}>打开对象</button>
+                  ) : null}
+                </footer>
+              </>
+            ) : (
+              <EmptyState>暂无可选变化</EmptyState>
+            )}
+          </aside>
+        </section>
+      ) : (
+        <EmptyState>暂无可展示变化。请先生成 Change Wall 数据。</EmptyState>
+      )}
+
+      <section className="object-change-section">
+        <header>
+          <div>
+            <span>对象变化卡</span>
+            <h3>对象 = 变化容器</h3>
+          </div>
+          <small>系统只聚合，不解释关系</small>
+        </header>
+        <div className="object-card-grid">
+          {objectCards.length ? (
+            objectCards.slice(0, 6).map((card) => (
+              <article key={card.id} className="object-change-card">
+                <button className="object-card-title" onClick={() => card.entityId && openCompany(card.entityId)}>
+                  <span>{formatTime(card.lastChangedAt)}</span>
+                  <strong>{card.name}</strong>
+                </button>
+                <div className="object-lanes">
+                  {laneRows.map((lane) => {
+                    const first = card.lanes?.[lane.id]?.[0];
+                    return (
+                      <div key={lane.id}>
+                        <small>{lane.label}</small>
+                        <span>{first ? first.title : "—"}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+                <footer>
+                  <span>{card.strongestEvidenceLevel || "--"}级证据</span>
+                  <span>{card.verificationItems?.length || 0} 待验证</span>
+                </footer>
+              </article>
+            ))
+          ) : (
+            <EmptyState>暂无对象变化卡</EmptyState>
+          )}
+        </div>
+      </section>
+
+      <section className="change-bottom-grid">
+        <div className="change-mini-panel">
+          <header>
+            <span>股票变化</span>
+            <strong>市场只是并排信号</strong>
+          </header>
+          <div className="market-change-list">
+            {marketChanges.slice(0, 6).map((change) => {
+              const row = change.marketContext?.[0] || {};
+              return (
+                <button key={change.id} onClick={() => selectChange(change)}>
+                  <span>{change.objectName}</span>
+                  <b className={changeClass(row.changePct)}>{formatPct(row.changePct)}</b>
+                  <small>{formatValue(row.turnoverAmount)}</small>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="change-mini-panel">
+          <header>
+            <span>待验证</span>
+            <strong>只提示缺口</strong>
+          </header>
+          <div className="verify-list">
+            {verificationRows.length ? (
+              verificationRows.slice(0, 6).map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() =>
+                    openEvidence({
+                      title: item.subject,
+                      fact: item.subject,
+                      module: "待验证",
+                      date: changeWall.date,
+                      entityNames: item.entityNames,
+                      sources: item.sources || [],
+                    })
+                  }
+                >
+                  <span>{item.entityNames?.join(" / ") || "未绑定对象"}</span>
+                  <strong>{item.subject}</strong>
+                </button>
+              ))
+            ) : (
+              <EmptyState>暂无待验证项</EmptyState>
+            )}
+          </div>
+        </div>
       </section>
     </div>
   );

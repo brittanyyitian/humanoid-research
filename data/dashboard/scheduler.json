@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T10:15:35.414Z",
+  "generatedAt": "2026-07-04T12:17:01.593Z",
   "policy": "Scheduler feeds configured sources into ingestion only. It does not extract claims, promote facts or generate observations.",
   "cadences": [
     {
@@ -45,7 +45,7 @@
       "lastSuccessAt": "2026-07-04T16:49:01+08:00",
       "lastStatus": "success",
       "nextDueAt": "2026-07-04T18:49:01+08:00",
-      "dueStatus": "waiting",
+      "dueStatus": "due",
       "lastSchedulerRunId": "sched_2026_07_04_dacd36a5a52b",
       "lastRawArtifactId": "raw_2026_07_04_unitree_com_75867f61e9",
       "lastRouteDecisionId": "route_2026_07_04_9bf207e29f78",
@@ -91,7 +91,7 @@
   "totals": {
     "sources": 1,
     "enabledSources": 1,
-    "dueSources": 0,
+    "dueSources": 1,
     "runs": 1,
     "failedRuns": 0,
     "byCadence": {
