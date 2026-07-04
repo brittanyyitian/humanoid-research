@@ -1,0 +1,23 @@
+{
+  "id": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+  "claimType": "delivery",
+  "text": "智元官方发布：第15000台下线产品为智元精灵G2，当天交付给龙旗科技工厂。",
+  "normalizedFact": "智元精灵G2在2026年6月28日交付给龙旗科技工厂。",
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "productIds": ["zhiyuan_g2"],
+  "artifactIds": ["raw_2026_06_29_agibot_15000_robots_downline"],
+  "status": "verified",
+  "reviewStatus": "promoted",
+  "confidence": "high",
+  "occurredAt": "2026-06-28",
+  "publishedAt": "2026-06-29T17:11:49+08:00",
+  "firstSeenAt": "2026-07-03T16:50:00+08:00",
+  "capturedAt": "2026-07-03T16:50:00+08:00",
+  "processedAt": "2026-07-03T16:55:00+08:00",
+  "dueAt": "2026-12-31",
+  "resolvedAt": "2026-07-03T16:55:00+08:00",
+  "promotedEventIds": ["evt_2026_06_29_zhiyuan_15000_robot_downline"],
+  "promotedFollowupIds": ["fu_2026_06_29_zhiyuan_g2_delivery_numbers"],
+  "whyNow": "官方披露具体交付对象，但后续累计交付和客户扩展仍需要跟踪。",
+  "notes": "这条 claim 同时生成正式事件和后续 follow-up。"
+}

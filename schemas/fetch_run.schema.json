@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fetch_run.schema.json",
+  "title": "Fetch Run",
+  "type": "object",
+  "required": [
+    "id",
+    "fetcher",
+    "sourceName",
+    "sourceType",
+    "startedAt",
+    "finishedAt",
+    "status",
+    "artifactIds",
+    "claimIds"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^fetch_[0-9]{4}_[0-9]{2}_[0-9]{2}_[a-z0-9_\\-]+$" },
+    "fetcher": { "type": "string", "minLength": 1 },
+    "sourceName": { "type": "string", "minLength": 1 },
+    "sourceType": {
+      "type": "string",
+      "enum": ["company_official", "product_release", "filing", "market", "serenity_bridge", "manual_link"]
+    },
+    "startedAt": { "type": "string", "minLength": 1 },
+    "finishedAt": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "enum": ["success", "partial", "failed", "manual", "skipped"] },
+    "artifactIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "claimIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "error": { "type": ["string", "null"] },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "description"],
+        "properties": {
+          "kind": { "type": "string" },
+          "description": { "type": "string" },
+          "severity": { "type": "string", "enum": ["low", "medium", "high"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

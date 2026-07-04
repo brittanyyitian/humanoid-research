@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "observation.schema.json",
+  "title": "Observation Projection",
+  "type": "object",
+  "required": ["id", "eventId", "date", "title", "fact", "evidenceLevel", "sourceIds"],
+  "properties": {
+    "id": { "type": "string" },
+    "eventId": { "type": "string" },
+    "date": { "type": "string" },
+    "title": { "type": "string" },
+    "fact": { "type": "string" },
+    "evidenceLevel": { "type": "string", "enum": ["A", "B", "C", "D"] },
+    "sourceIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "claimIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "whyNow": { "type": "string" },
+    "evidenceSummary": { "type": "object" },
+    "sourceTimes": { "type": "object" }
+  },
+  "additionalProperties": true
+}

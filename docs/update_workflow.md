@@ -31,10 +31,12 @@ Do not commit:
 Before adding a fact:
 
 1. Create or reuse a source file under `data/sources/`.
-2. Add the fact under `data/events/`, `data/relations/`, `data/followups/` or `data/stocks/`.
-3. Reference the source by `sourceIds`.
-4. Run `npm run validate`.
-5. Run `npm run generate`.
+2. Save the original material under `data/raw_artifacts/`.
+3. Extract one or more fact candidates under `data/claims/`.
+4. Add `data/evidence/` records that support, mention, refute or update each claim.
+5. Promote only reviewed claims into `data/events/`, `data/relations/`, `data/followups/` or `data/stocks/`.
+6. Run `npm run validate`.
+7. Run `npm run generate`.
 
 If validation fails, the fact should not appear in Dashboard.
 
@@ -51,6 +53,24 @@ Use inbox for raw or semi-structured fetch results:
 Rules:
 
 - News candidates never enter `data/events/` automatically.
+- Claim candidates do not become truth until reviewed and promoted.
 - Every promoted event still needs `sourceIds`, `sourceUrl`, `sourceName`, `evidenceLevel`, and `capturedAt`.
 - Market quotes are structured data, but the stored row still needs the provider link and capture time.
 - Dashboard reads only formal generated cache under `data/dashboard/`; inbox is review input, not truth.
+
+## First V1 Evidence Loop
+
+The first complete loop should stay narrow:
+
+```text
+manual official/product link
+-> raw_artifact
+-> claim
+-> evidence
+-> manual review
+-> event/followup
+-> observation
+```
+
+Only after this loop validates cleanly should the project add heavier fetchers or
+Serenity Bridge automation.

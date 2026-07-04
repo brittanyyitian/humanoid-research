@@ -1,0 +1,21 @@
+{
+  "id": "raw_2026_06_29_agibot_15000_robots_downline",
+  "artifactType": "news_page",
+  "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+  "sourceId": "src_agibot_20260629_15000_robots_downline",
+  "fetchRunId": "fetch_2026_07_03_agibot_official_news_manual",
+  "publishedAt": "2026-06-29T17:11:49+08:00",
+  "firstSeenAt": "2026-07-03T16:50:00+08:00",
+  "capturedAt": "2026-07-03T16:50:00+08:00",
+  "contentHash": "sha256:f4a926b4d920940cd5aa9add84a747333cc9c17b366364587ee0c9fb8f8b1e62",
+  "storagePath": null,
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "claimIds": [
+    "claim_2026_06_29_zhiyuan_15000_downline",
+    "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+  ],
+  "status": "active",
+  "notes": "第一阶段样例 raw_artifact：来自智元官网新闻页，先记录原文地址、发布时间、发现时间、抓取时间和内容指纹。"
+}

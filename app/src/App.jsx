@@ -4,6 +4,7 @@ import { ArrowUpRight, X } from "lucide-react";
 import companies from "@data/dashboard/companies.json";
 import eventDashboard from "@data/dashboard/events.json";
 import followup from "@data/dashboard/followup.json";
+import freshness from "@data/dashboard/freshness.json";
 import gaps from "@data/dashboard/gaps.json";
 import market from "@data/dashboard/market.json";
 import observations from "@data/dashboard/observations.json";
@@ -12,6 +13,8 @@ import sourceRegistry from "@data/dashboard/sources.json";
 import stats from "@data/dashboard/stats.json";
 import timeline from "@data/dashboard/timeline.json";
 import today from "@data/dashboard/today.json";
+import upcoming from "@data/dashboard/upcoming.json";
+import windowSummary from "@data/dashboard/window_summary.json";
 
 const navItems = [
   { id: "dashboard", label: "首页" },
@@ -110,6 +113,19 @@ function sourceNames(sources = []) {
   return names.slice(0, 3);
 }
 
+function freshnessLabel(status) {
+  const labels = {
+    fresh: "新",
+    aging: "待复查",
+    stale: "已过期",
+    missing: "缺失",
+    clear: "清",
+    needs_review: "待审",
+    has_failures: "失败",
+  };
+  return labels[status] || status || "--";
+}
+
 function stockFromCompany(company) {
   const stock = company.stock;
   return {
@@ -185,6 +201,41 @@ function OverviewItem({ label, value, note }) {
 
 function EmptyState({ children = "暂无已验证数据" }) {
   return <div className="empty-state">{children}</div>;
+}
+
+function FreshnessStrip() {
+  const rows = freshness.rows || [];
+
+  return (
+    <section className="freshness-strip" aria-label="数据状态">
+      {rows.map((row) => (
+        <div key={row.id}>
+          <span>{row.label}</span>
+          <strong>{freshnessLabel(row.status)}</strong>
+          <small>{formatTime(row.lastSeenAt)}</small>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function WindowSummaryStrip() {
+  const windows = windowSummary.windows || [];
+  const visible = ["today", "last_30_days", "last_180_days", "future_90_days"]
+    .map((id) => windows.find((row) => row.id === id))
+    .filter(Boolean);
+
+  return (
+    <section className="window-summary-strip" aria-label="时间窗口">
+      {visible.map((row) => (
+        <div key={row.id}>
+          <span>{row.label}</span>
+          <strong>{row.direction === "future" ? row.milestones || 0 : row.observations || 0}</strong>
+          <small>{row.direction === "future" ? "验证节点" : "Observation"}</small>
+        </div>
+      ))}
+    </section>
+  );
 }
 
 function StockLine({ row }) {
@@ -330,6 +381,8 @@ function ObservationCard({ observation, openCompany, openEvidence, expanded, onT
   const publishers = sourceNames(observation.sources);
   const companyNames = (observation.entities || []).map((entity) => entity.name).slice(0, 3);
   const sourceLabel = observation.evidenceLevel ? `${observation.evidenceLevel}级` : "--";
+  const evidenceSummary = observation.evidenceSummary || {};
+  const sourceTimes = observation.sourceTimes || {};
 
   return (
     <article className={`observation-card ${expanded ? "is-expanded" : "is-collapsed"}`}>
@@ -354,9 +407,9 @@ function ObservationCard({ observation, openCompany, openEvidence, expanded, onT
         </div>
 
         <div className="summary-cell compact">
-          <small>待验证 / 来源</small>
+          <small>Claim / 证据</small>
           <strong>
-            {followups.length} 项 · {sourceLabel}
+            {evidenceSummary.claimCount || 0} 条 · {evidenceSummary.evidenceCount || 0} 证据
           </strong>
         </div>
 
@@ -373,6 +426,20 @@ function ObservationCard({ observation, openCompany, openEvidence, expanded, onT
           </div>
 
           <div className="observation-grid">
+            <section>
+              <small>Why now</small>
+              <p className="observation-note">{observation.whyNow || "按证据等级和重要性进入研究队列"}</p>
+            </section>
+
+            <section>
+              <small>证据链</small>
+              <div className="evidence-chain-mini">
+                <span>Claim {evidenceSummary.claimCount || 0}</span>
+                <span>Evidence {evidenceSummary.evidenceCount || 0}</span>
+                <span>{evidenceSummary.strongestSourceLevel || sourceLabel}级最高来源</span>
+              </div>
+            </section>
+
             <section>
               <small>涉及公司</small>
               <div className="research-company-list">
@@ -438,6 +505,16 @@ function ObservationCard({ observation, openCompany, openEvidence, expanded, onT
                 <span className="muted-text">暂无来源</span>
               )}
             </section>
+
+            <section>
+              <small>来源时间</small>
+              <div className="source-time-list">
+                <span>发生 {formatTime(sourceTimes.occurredAt)}</span>
+                <span>发布 {formatTime(sourceTimes.publishedAt)}</span>
+                <span>发现 {formatTime(sourceTimes.firstSeenAt)}</span>
+                <span>抓取 {formatTime(sourceTimes.capturedAt)}</span>
+              </div>
+            </section>
           </div>
 
           <div className="related-observations">
@@ -502,6 +579,9 @@ function Dashboard({ setView, openCompany, openEvidence }) {
         <OverviewItem label="涉及公司" value={involvedCompanies.size} note="卡片内公司" />
         <OverviewItem label="关注股票" value={rows.length} note={`${updatedMarketRows.length}已更新`} />
       </section>
+
+      <FreshnessStrip />
+      <WindowSummaryStrip />
 
       <section className="dashboard-lead">
         <div>
@@ -742,14 +822,39 @@ function DatabaseView({ openEvidence }) {
     <DetailShell title="数据库" meta={stats.date}>
       <div className="status-board database-board">
         <OverviewItem label="公司" value={stats.entities} />
+        <OverviewItem label="原始材料" value={stats.rawArtifacts || 0} />
+        <OverviewItem label="Claim" value={stats.claims || 0} />
+        <OverviewItem label="Evidence" value={stats.evidence || 0} />
         <OverviewItem label="事件" value={stats.events} />
         <OverviewItem label="合作" value={stats.relations} />
         <OverviewItem label="跟踪" value={stats.followups} />
         <OverviewItem label="Observation" value={stats.observations || 0} />
+        <OverviewItem label="抓取记录" value={stats.fetchRuns || 0} />
+        <OverviewItem label="未来节点" value={stats.milestones || 0} />
         <OverviewItem label="数据缺口" value={stats.dataGaps || 0} />
         <OverviewItem label="股票快照" value={stats.stockSnapshots} />
         <OverviewItem label="来源" value={stats.sources} />
       </div>
+
+      <section className="workspace-section">
+        <header>
+          <h3>未来验证</h3>
+          <span>{upcoming.rows?.length || 0}</span>
+        </header>
+        {upcoming.rows?.length ? (
+          <div className="database-list">
+            {upcoming.rows.slice(0, 8).map((row) => (
+              <button key={row.id} onClick={() => openEvidence(row)}>
+                <span>{row.dueAt}</span>
+                <strong>{row.title}</strong>
+                <small>{row.entityNames?.join(" / ") || "未绑定公司"}</small>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <EmptyState>暂无未来验证节点</EmptyState>
+        )}
+      </section>
 
       <section className="workspace-section">
         <header>
@@ -845,6 +950,8 @@ function DetailShell({ title, meta, children }) {
 function EvidenceDrawer({ evidence, onClose }) {
   if (!evidence) return null;
   const sources = evidence.sources || [];
+  const claims = evidence.claims || [];
+  const evidenceSummary = evidence.evidenceSummary || null;
 
   return (
     <div className="drawer-backdrop" onClick={onClose}>
@@ -867,6 +974,41 @@ function EvidenceDrawer({ evidence, onClose }) {
           <span>{evidence.evidenceLevel || "--"}级来源</span>
           {evidence.entityNames?.length ? <span>{evidence.entityNames.join(" / ")}</span> : null}
         </div>
+
+        {evidenceSummary ? (
+          <div className="drawer-evidence-summary">
+            <p>
+              <span>Claim</span>
+              <strong>{evidenceSummary.claimCount || 0}</strong>
+            </p>
+            <p>
+              <span>Evidence</span>
+              <strong>{evidenceSummary.evidenceCount || 0}</strong>
+            </p>
+            <p>
+              <span>最高来源</span>
+              <strong>{evidenceSummary.strongestSourceLevel || "--"}级</strong>
+            </p>
+          </div>
+        ) : null}
+
+        {claims.length ? (
+          <div className="drawer-claims">
+            <h3>Claims</h3>
+            {claims.map((claim) => (
+              <div key={claim.id}>
+                <span>
+                  {claim.claimType} · {claim.status} · {claim.confidence}
+                </span>
+                <strong>{claim.normalizedFact || claim.text}</strong>
+                <small>
+                  发布 {formatTime(claim.publishedAt)}｜发现 {formatTime(claim.firstSeenAt)}｜处理{" "}
+                  {formatTime(claim.processedAt)}
+                </small>
+              </div>
+            ))}
+          </div>
+        ) : null}
 
         <div className="drawer-sources">
           {sources.length ? (

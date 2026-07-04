@@ -162,6 +162,41 @@ main {
   margin-top: 10px;
 }
 
+.freshness-strip,
+.window-summary-strip {
+  background: var(--soft);
+  border-radius: 18px;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.freshness-strip div,
+.window-summary-strip div {
+  background: var(--surface);
+  min-width: 0;
+  padding: 15px 18px;
+}
+
+.freshness-strip span,
+.freshness-strip small,
+.window-summary-strip span,
+.window-summary-strip small {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.freshness-strip strong,
+.window-summary-strip strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 650;
+  margin: 7px 0 5px;
+}
+
 .dashboard-lead {
   align-items: flex-end;
   display: flex;
@@ -312,6 +347,28 @@ main {
   display: grid;
   gap: 12px;
   padding-top: 15px;
+}
+
+.observation-note {
+  color: #2f2f2f;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.evidence-chain-mini,
+.source-time-list {
+  display: grid;
+  gap: 8px;
+}
+
+.evidence-chain-mini span,
+.source-time-list span {
+  background: var(--soft);
+  border-radius: 10px;
+  color: #2f2f2f;
+  font-size: 13px;
+  line-height: 1.35;
+  padding: 8px 10px;
 }
 
 .research-company-list,
@@ -1447,6 +1504,60 @@ main {
   padding: 7px 10px;
 }
 
+.drawer-evidence-summary {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 24px;
+}
+
+.drawer-evidence-summary p {
+  background: var(--soft);
+  border-radius: 12px;
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+}
+
+.drawer-evidence-summary span,
+.drawer-claims span,
+.drawer-claims small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.drawer-evidence-summary strong {
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.drawer-claims {
+  border-top: 1px solid var(--soft);
+  display: grid;
+  gap: 12px;
+  margin-bottom: 26px;
+  padding-top: 22px;
+}
+
+.drawer-claims h3 {
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.drawer-claims div {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  display: grid;
+  gap: 8px;
+  padding: 14px;
+}
+
+.drawer-claims strong {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .drawer-sources {
   display: grid;
   gap: 12px;
@@ -1497,6 +1608,8 @@ main {
   }
 
   .overview-strip,
+  .freshness-strip,
+  .window-summary-strip,
   .status-board {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1533,6 +1646,8 @@ main {
   }
 
   .overview-strip,
+  .freshness-strip,
+  .window-summary-strip,
   .status-board {
     grid-template-columns: 1fr;
   }
@@ -1586,6 +1701,10 @@ main {
 
   .stock-line {
     grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .drawer-evidence-summary {
+    grid-template-columns: 1fr;
   }
 
   .stock-line em {

@@ -1,0 +1,12 @@
+{
+  "id": "st_2026_07_03_claim_zhiyuan_g2_delivery_promoted",
+  "subjectType": "claim",
+  "subjectId": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+  "fromStatus": "candidate",
+  "toStatus": "verified",
+  "occurredAt": "2026-07-03T16:55:00+08:00",
+  "reason": "官方 A 级来源直接支持，人工审核后提升为正式事件和后续验证项。",
+  "evidenceIds": ["evd_2026_06_29_agibot_supports_g2_longcheer_delivery"],
+  "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+  "actor": "manual_review_v1"
+}

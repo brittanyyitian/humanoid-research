@@ -22,6 +22,33 @@ const events = (await readJsonDir("events")).map((row) => row.data);
 const relations = (await readJsonDir("relations")).map((row) => row.data);
 const followups = (await readJsonDir("followups")).map((row) => row.data);
 const stockRows = (await readJsonDir("stocks")).flatMap((row) => ensureArray(row.data));
+const rawArtifacts = (await readJsonDir("raw_artifacts")).map((row) => row.data);
+const claims = (await readJsonDir("claims")).map((row) => row.data);
+const evidenceRows = (await readJsonDir("evidence")).map((row) => row.data);
+const fetchRuns = (await readJsonDir("fetch_runs")).map((row) => row.data);
+const milestones = (await readJsonDir("milestones")).map((row) => row.data);
+const stateTransitions = (await readJsonDir("state_transitions")).map((row) => row.data);
+const inboxRows = (await readJsonDir("inbox")).map((row) => row.data);
+
+const rawArtifactById = new Map(rawArtifacts.map((artifact) => [artifact.id, artifact]));
+const evidenceByClaimId = new Map();
+const claimsByEventId = new Map();
+const transitionsBySubject = new Map();
+
+function pushMap(map, key, value) {
+  if (!key) return;
+  const rows = map.get(key) || [];
+  rows.push(value);
+  map.set(key, rows);
+}
+
+for (const item of evidenceRows) pushMap(evidenceByClaimId, item.claimId, item);
+for (const claim of claims) {
+  for (const eventId of claim.promotedEventIds || []) pushMap(claimsByEventId, eventId, claim);
+}
+for (const transition of stateTransitions) {
+  pushMap(transitionsBySubject, `${transition.subjectType}:${transition.subjectId}`, transition);
+}
 
 function enrichSources(sourceIds = []) {
   return sourceIds.map((sourceId) => sourceById.get(sourceId)).filter(Boolean);
@@ -49,6 +76,52 @@ function enrichStockSources(stock) {
       url: stock.klineSourceUrl,
     },
   ];
+}
+
+function dateKey(value) {
+  if (!value) return null;
+  return String(value).slice(0, 10);
+}
+
+function dateTime(value) {
+  if (!value) return null;
+  const time = new Date(String(value).length === 10 ? `${value}T00:00:00+08:00` : value).getTime();
+  return Number.isFinite(time) ? time : null;
+}
+
+function latestTime(values) {
+  return values
+    .filter(Boolean)
+    .map(String)
+    .sort()
+    .at(-1);
+}
+
+function freshnessStatus(lastSeenAt, maxAgeHours) {
+  const time = dateTime(lastSeenAt);
+  if (!time) return "missing";
+  const ageHours = (Date.now() - time) / (60 * 60 * 1000);
+  if (ageHours <= maxAgeHours) return "fresh";
+  if (ageHours <= maxAgeHours * 3) return "aging";
+  return "stale";
+}
+
+function countBy(rows, keyFn) {
+  return rows.reduce((acc, row) => {
+    const key = keyFn(row);
+    if (key) acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+function pendingInboxCount() {
+  return inboxRows.reduce((total, inbox) => {
+    const candidates = [...ensureArray(inbox.candidates), ...ensureArray(inbox.claimCandidates)];
+    const pendingCandidates = candidates.filter((item) => {
+      return !item.reviewStatus || String(item.reviewStatus).includes("pending") || item.reviewStatus === "inbox";
+    });
+    return total + pendingCandidates.length;
+  }, 0);
 }
 
 function entityNames(entityIds = []) {
@@ -209,6 +282,102 @@ const allEventRows = events
 
 const latestEventRows = allEventRows.slice(0, 8);
 
+function claimsForEvent(eventId) {
+  return (claimsByEventId.get(eventId) || []).slice().sort((a, b) => {
+    return (
+      String(a.processedAt || "").localeCompare(String(b.processedAt || "")) ||
+      String(a.id).localeCompare(String(b.id))
+    );
+  });
+}
+
+function transitionsForClaim(claimId) {
+  return transitionsBySubject.get(`claim:${claimId}`) || [];
+}
+
+function evidenceForClaim(claimId) {
+  return evidenceByClaimId.get(claimId) || [];
+}
+
+function artifactRowsForClaim(claim) {
+  return (claim.artifactIds || []).map((artifactId) => rawArtifactById.get(artifactId)).filter(Boolean);
+}
+
+function summarizeEvidence(claimRows) {
+  const rows = claimRows.flatMap((claim) => evidenceForClaim(claim.id));
+  const sourceLevelCounts = countBy(rows, (row) => row.sourceLevel);
+  const relationCounts = countBy(rows, (row) => row.relation);
+  const strongestSourceLevel = rows
+    .slice()
+    .sort((a, b) => (evidenceRank[b.sourceLevel] || 0) - (evidenceRank[a.sourceLevel] || 0))[0]?.sourceLevel;
+
+  return {
+    claimCount: claimRows.length,
+    evidenceCount: rows.length,
+    strongestSourceLevel: strongestSourceLevel || null,
+    sourceLevelCounts,
+    relationCounts,
+  };
+}
+
+function sourceTimesForClaims(claimRows, event) {
+  const artifacts = claimRows.flatMap(artifactRowsForClaim);
+  return {
+    occurredAt: latestTime([event.date, ...claimRows.map((claim) => claim.occurredAt)]),
+    publishedAt: latestTime([
+      ...claimRows.map((claim) => claim.publishedAt),
+      ...artifacts.map((artifact) => artifact.publishedAt),
+    ]),
+    firstSeenAt: latestTime([
+      ...claimRows.map((claim) => claim.firstSeenAt),
+      ...artifacts.map((artifact) => artifact.firstSeenAt),
+    ]),
+    capturedAt: latestTime([
+      ...claimRows.map((claim) => claim.capturedAt),
+      ...artifacts.map((artifact) => artifact.capturedAt),
+    ]),
+    processedAt: latestTime(claimRows.map((claim) => claim.processedAt)),
+    dueAt: latestTime(claimRows.map((claim) => claim.dueAt)),
+    resolvedAt: latestTime(claimRows.map((claim) => claim.resolvedAt)),
+  };
+}
+
+function whyNowForObservation(event, claimRows, transitionRows) {
+  if (event.date === targetDate) return "今日新增正式事件";
+  if (claimRows.some((claim) => dateKey(claim.firstSeenAt) === targetDate)) return "今日新发现资料";
+  if (claimRows.some((claim) => dateKey(claim.processedAt) === targetDate)) return "今日完成事实审核";
+  if (transitionRows.some((transition) => dateKey(transition.occurredAt) === targetDate)) return "今日证据状态变化";
+  if (claimRows.some((claim) => claim.dueAt && dateTime(claim.dueAt) >= targetTime)) return "存在后续验证节点";
+  return "按证据等级和重要性进入研究队列";
+}
+
+function claimProjection(claim) {
+  const rows = evidenceForClaim(claim.id);
+  return {
+    id: claim.id,
+    claimType: claim.claimType,
+    text: claim.text,
+    normalizedFact: claim.normalizedFact || claim.text,
+    status: claim.status,
+    reviewStatus: claim.reviewStatus,
+    confidence: claim.confidence,
+    occurredAt: claim.occurredAt || null,
+    publishedAt: claim.publishedAt || null,
+    firstSeenAt: claim.firstSeenAt,
+    capturedAt: claim.capturedAt,
+    processedAt: claim.processedAt,
+    dueAt: claim.dueAt || null,
+    evidence: rows.map((row) => ({
+      id: row.id,
+      relation: row.relation,
+      sourceLevel: row.sourceLevel,
+      strength: row.strength,
+      source: sourceById.get(row.sourceId) || null,
+      rawArtifact: rawArtifactById.get(row.rawArtifactId) || null,
+    })),
+  };
+}
+
 const evidenceRank = { A: 4, B: 3, C: 2, D: 1 };
 
 function observationSort(a, b) {
@@ -233,6 +402,8 @@ function relatedObservationScore(event, candidate) {
 }
 
 function observationRow(event, index, sortedRows) {
+  const claimRows = claimsForEvent(event.id);
+  const transitionRows = claimRows.flatMap((claim) => transitionsForClaim(claim.id));
   const relatedObservations = sortedRows
     .map((candidate) => ({ candidate, score: relatedObservationScore(event, candidate) }))
     .filter((row) => row.score > 0)
@@ -269,6 +440,22 @@ function observationRow(event, index, sortedRows) {
     followups: event.followups,
     sourceIds: event.sourceIds,
     sources: event.sources,
+    claimIds: claimRows.map((claim) => claim.id),
+    claims: claimRows.map(claimProjection),
+    evidenceSummary: summarizeEvidence(claimRows),
+    sourceTimes: sourceTimesForClaims(claimRows, event),
+    stateTransitions: transitionRows.map((transition) => ({
+      id: transition.id,
+      subjectType: transition.subjectType,
+      subjectId: transition.subjectId,
+      fromStatus: transition.fromStatus,
+      toStatus: transition.toStatus,
+      occurredAt: transition.occurredAt,
+      reason: transition.reason,
+      evidenceIds: transition.evidenceIds || [],
+      sourceIds: transition.sourceIds || [],
+    })),
+    whyNow: whyNowForObservation(event, claimRows, transitionRows),
     relatedObservations,
     tags: event.tags || [],
   };
@@ -384,6 +571,7 @@ const observationsDashboard = {
   generatedAt: today.generatedAt,
   sortPolicy: "证据等级 > 事件重要性 > 涉及公司数量 > 日期",
   sourcePolicy: "股票只展示同日 Watchlist 行情事实，不表达因果判断。",
+  projectionPolicy: "Observation 是从 event/followup/claim/evidence 派生的展示层，不是事实源。",
   todayRows: todayObservationRows,
   researchRows: researchObservationRows,
   rows: allObservationRows,
@@ -428,6 +616,153 @@ const market = {
     up: marketRows.filter((row) => Number(row.changePct) > 0).length,
     down: marketRows.filter((row) => Number(row.changePct) < 0).length,
     flat: marketRows.filter((row) => Number(row.changePct) === 0).length,
+  },
+};
+
+const pendingClaims = claims.filter((claim) => claim.reviewStatus === "inbox" || claim.status === "candidate");
+const fetchFailures = fetchRuns.filter((run) => run.status === "failed" || run.status === "partial");
+const freshnessRows = [
+  {
+    id: "market",
+    label: "Watchlist 行情",
+    lastSeenAt: latestTime(marketRows.map((row) => row.capturedAt || row.quoteTime)),
+    status: freshnessStatus(latestTime(marketRows.map((row) => row.capturedAt || row.quoteTime)), 24),
+    count: marketRows.length,
+    maxAgeHours: 24,
+  },
+  {
+    id: "official_artifacts",
+    label: "产业原始材料",
+    lastSeenAt: latestTime(rawArtifacts.map((artifact) => artifact.capturedAt)),
+    status: freshnessStatus(latestTime(rawArtifacts.map((artifact) => artifact.capturedAt)), 72),
+    count: rawArtifacts.length,
+    maxAgeHours: 72,
+  },
+  {
+    id: "claim_review",
+    label: "Claim 审核",
+    lastSeenAt: latestTime(claims.map((claim) => claim.processedAt || claim.capturedAt)),
+    status: pendingClaims.length ? "needs_review" : "clear",
+    count: claims.length,
+    pendingCount: pendingClaims.length,
+  },
+  {
+    id: "fetch_runs",
+    label: "抓取运行",
+    lastSeenAt: latestTime(fetchRuns.map((run) => run.finishedAt)),
+    status: fetchFailures.length ? "has_failures" : freshnessStatus(latestTime(fetchRuns.map((run) => run.finishedAt)), 72),
+    count: fetchRuns.length,
+    failedCount: fetchFailures.length,
+  },
+];
+
+const freshness = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
+  rows: freshnessRows,
+  failedSources: fetchFailures.map((run) => ({
+    id: run.id,
+    sourceName: run.sourceName,
+    status: run.status,
+    finishedAt: run.finishedAt,
+    error: run.error || null,
+  })),
+  totals: {
+    pendingInbox: pendingInboxCount(),
+    pendingClaims: pendingClaims.length,
+    fetchRuns: fetchRuns.length,
+    fetchFailures: fetchFailures.length,
+  },
+};
+
+const dayMs = 24 * 60 * 60 * 1000;
+
+function withinPastWindow(value, days) {
+  if (!value) return false;
+  if (days === 0) return dateKey(value) === targetDate;
+  const time = dateTime(dateKey(value));
+  return time !== null && time >= targetTime - (days - 1) * dayMs && time <= targetTime;
+}
+
+function withinFutureWindow(value, days) {
+  if (!value) return false;
+  const time = dateTime(dateKey(value));
+  return time !== null && time >= targetTime && time <= targetTime + days * dayMs;
+}
+
+function claimWindowDate(claim) {
+  return claim.firstSeenAt || claim.processedAt || claim.occurredAt || claim.publishedAt;
+}
+
+const pastWindows = [
+  { id: "today", label: "今日", days: 0 },
+  { id: "last_7_days", label: "近7天", days: 7 },
+  { id: "last_30_days", label: "近30天", days: 30 },
+  { id: "last_90_days", label: "近90天", days: 90 },
+  { id: "last_180_days", label: "近180天", days: 180 },
+];
+const futureWindows = [
+  { id: "future_30_days", label: "未来30天", days: 30 },
+  { id: "future_90_days", label: "未来90天", days: 90 },
+];
+
+const windowSummary = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Past windows count happened/published/discovered evidence. Future windows count public verification milestones only.",
+  windows: [
+    ...pastWindows.map((window) => ({
+      ...window,
+      direction: "past",
+      events: events.filter((event) => withinPastWindow(event.date, window.days)).length,
+      claims: claims.filter((claim) => withinPastWindow(claimWindowDate(claim), window.days)).length,
+      evidence: evidenceRows.filter((row) => withinPastWindow(row.assessedAt || row.capturedAt, window.days)).length,
+      stateTransitions: stateTransitions.filter((transition) => withinPastWindow(transition.occurredAt, window.days))
+        .length,
+      observations: allObservationRows.filter((row) => withinPastWindow(row.date, window.days)).length,
+    })),
+    ...futureWindows.map((window) => ({
+      ...window,
+      direction: "future",
+      milestones: milestones.filter((milestone) => withinFutureWindow(milestone.dueAt, window.days)).length,
+      pendingFollowups: followups.filter((item) => item.status === "pending").length,
+    })),
+  ],
+};
+
+const upcomingRows = milestones
+  .filter((milestone) => ["upcoming", "due"].includes(milestone.status))
+  .slice()
+  .sort((a, b) => String(a.dueAt).localeCompare(String(b.dueAt)) || String(a.id).localeCompare(String(b.id)))
+  .map((milestone) => ({
+    id: milestone.id,
+    title: milestone.title,
+    dueAt: milestone.dueAt,
+    dueAtPrecision: milestone.dueAtPrecision,
+    status: milestone.status,
+    entityIds: milestone.entityIds,
+    entityNames: entityNames(milestone.entityIds),
+    claimIds: milestone.claimIds || [],
+    claims: (milestone.claimIds || []).map((claimId) => claims.find((claim) => claim.id === claimId)).filter(Boolean),
+    followupIds: milestone.followupIds || [],
+    followups: (milestone.followupIds || [])
+      .map((followupId) => followups.find((item) => item.id === followupId))
+      .filter(Boolean),
+    sourceIds: milestone.sourceIds,
+    sources: enrichSources(milestone.sourceIds),
+    notes: milestone.notes || null,
+  }));
+
+const upcoming = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  policy: "Upcoming rows are public or review-derived verification nodes, not predictions.",
+  rows: upcomingRows,
+  totals: {
+    all: upcomingRows.length,
+    future30: upcomingRows.filter((row) => withinFutureWindow(row.dueAt, 30)).length,
+    future90: upcomingRows.filter((row) => withinFutureWindow(row.dueAt, 90)).length,
   },
 };
 
@@ -479,6 +814,47 @@ const timeline = {
     })),
 };
 
+const timelineItems = {
+  date: targetDate,
+  generatedAt: today.generatedAt,
+  rows: [
+    ...events.map((event) => ({
+      id: event.id,
+      itemType: "event",
+      date: event.date,
+      title: event.title,
+      body: event.fact,
+      entityNames: entityNames(event.entityIds),
+      evidenceLevel: event.evidenceLevel,
+      sourceIds: event.sourceIds,
+      sources: enrichSources(event.sourceIds),
+    })),
+    ...stateTransitions.map((transition) => ({
+      id: transition.id,
+      itemType: "state_transition",
+      date: dateKey(transition.occurredAt),
+      title: `${transition.subjectType} ${transition.fromStatus} -> ${transition.toStatus}`,
+      body: transition.reason,
+      subjectType: transition.subjectType,
+      subjectId: transition.subjectId,
+      evidenceIds: transition.evidenceIds || [],
+      sourceIds: transition.sourceIds || [],
+      sources: enrichSources(transition.sourceIds),
+    })),
+    ...milestones.map((milestone) => ({
+      id: milestone.id,
+      itemType: "milestone",
+      date: dateKey(milestone.dueAt),
+      title: milestone.title,
+      body: milestone.notes || "待验证节点",
+      entityNames: entityNames(milestone.entityIds),
+      status: milestone.status,
+      sourceIds: milestone.sourceIds,
+      sources: enrichSources(milestone.sourceIds),
+    })),
+  ].sort((a, b) => String(a.date).localeCompare(String(b.date)) || String(a.id).localeCompare(String(b.id))),
+};
+
 const followup = {
   date: targetDate,
   generatedAt: today.generatedAt,
@@ -513,6 +889,12 @@ const stats = {
   date: targetDate,
   generatedAt: today.generatedAt,
   entities: entities.length,
+  rawArtifacts: rawArtifacts.length,
+  claims: claims.length,
+  evidence: evidenceRows.length,
+  fetchRuns: fetchRuns.length,
+  milestones: milestones.length,
+  stateTransitions: stateTransitions.length,
   events: events.length,
   relations: relations.length,
   followups: followups.length,
@@ -563,9 +945,13 @@ await writeJsonFile(path.join(DATA_DIR, "dashboard", "events.json"), eventDashbo
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"), observationsDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "companies.json"), companiesDashboard);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "gaps.json"), gapsDashboard);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "freshness.json"), freshness);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "window_summary.json"), windowSummary);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "upcoming.json"), upcoming);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "market.json"), market);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "heat.json"), heat);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "timeline.json"), timeline);
+await writeJsonFile(path.join(DATA_DIR, "dashboard", "timeline_items.json"), timelineItems);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "followup.json"), followup);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "watchlist.json"), watchlist);
 await writeJsonFile(path.join(DATA_DIR, "dashboard", "stats.json"), stats);

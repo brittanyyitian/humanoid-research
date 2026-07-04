@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "freshness.schema.json",
+  "title": "Freshness Projection",
+  "type": "object",
+  "required": ["date", "generatedAt", "rows", "totals"],
+  "properties": {
+    "date": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "rows": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "totals": { "type": "object" }
+  },
+  "additionalProperties": true
+}

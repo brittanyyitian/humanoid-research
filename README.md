@@ -4,6 +4,7 @@ Local-first research dashboard for domestic humanoid robotics.
 
 This project is not a news site and not a stock-picking tool. It is a research record system:
 
+- Evidence layer stores raw materials, claims and evidence.
 - Data layer stores verified facts.
 - Research layer records changes, evidence movement and follow-up lifecycle.
 - Dashboard layer displays only derived views.
@@ -23,6 +24,10 @@ Formal data must include:
 
 Dashboard files are generated artifacts. Do not hand-edit them.
 
+Observation cards are not the source of truth. If an observation is wrong, fix the
+underlying `claim`, `evidence`, `source`, `event` or `followup`, then regenerate
+the dashboard cache.
+
 ## Commands
 
 ```bash
@@ -37,7 +42,15 @@ npm run build
 
 ```text
 data/
+  raw_artifacts/  original webpages, filings, PDFs or bridge outputs
+  claims/         fact candidates extracted from raw artifacts
+  evidence/       source-level support, mention, refutation or update records
+  fetch_runs/     fetch/bridge/manual-link run ledger
+  milestones/     public future verification windows
+  state_transitions/ claim/follow-up/event status changes
   entities/      SSOT company and segment records
+  entity_aliases/ alias registry for later extractor work
+  products/      product records for later extractor work
   events/        verified industry events
   relations/     verified cooperation and supply-chain relations
   followups/     follow-up lifecycle records
@@ -59,4 +72,3 @@ data/
 20:36        npm run generate
 21:00        commit daily final data
 ```
-

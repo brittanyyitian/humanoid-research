@@ -1,0 +1,23 @@
+{
+  "id": "claim_2026_06_29_zhiyuan_15000_downline",
+  "claimType": "delivery",
+  "text": "智元官方发布：2026年6月28日，智元第15000台具身智能机器人量产下线。",
+  "normalizedFact": "智元第15000台具身智能机器人于2026年6月28日量产下线。",
+  "entityIds": ["zhiyuan_robot"],
+  "productIds": ["zhiyuan_g2"],
+  "artifactIds": ["raw_2026_06_29_agibot_15000_robots_downline"],
+  "status": "verified",
+  "reviewStatus": "promoted",
+  "confidence": "high",
+  "occurredAt": "2026-06-28",
+  "publishedAt": "2026-06-29T17:11:49+08:00",
+  "firstSeenAt": "2026-07-03T16:50:00+08:00",
+  "capturedAt": "2026-07-03T16:50:00+08:00",
+  "processedAt": "2026-07-03T16:55:00+08:00",
+  "dueAt": null,
+  "resolvedAt": "2026-07-03T16:55:00+08:00",
+  "promotedEventIds": ["evt_2026_06_29_zhiyuan_15000_robot_downline"],
+  "promotedFollowupIds": ["fu_2026_06_29_zhiyuan_g2_delivery_numbers"],
+  "whyNow": "官方披露量产里程碑，且现有 Research OS 已将其提升为正式 Observation。",
+  "notes": "claim 只保存事实候选和状态；来源强度由 evidence.sourceLevel 表达。"
+}

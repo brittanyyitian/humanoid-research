@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "window_summary.schema.json",
+  "title": "Window Summary Projection",
+  "type": "object",
+  "required": ["date", "generatedAt", "windows"],
+  "properties": {
+    "date": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "windows": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  },
+  "additionalProperties": true
+}

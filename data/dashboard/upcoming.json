@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-04T08:10:18.684Z",
+  "policy": "Upcoming rows are public or review-derived verification nodes, not predictions.",
+  "rows": [
+    {
+      "id": "mile_2026_12_31_zhiyuan_delivery_numbers_followup",
+      "title": "智元精灵G2累计交付和客户扩展数据复核",
+      "dueAt": "2026-12-31",
+      "dueAtPrecision": "window",
+      "status": "upcoming",
+      "entityIds": [
+        "zhiyuan_robot",
+        "longcheer_technology"
+      ],
+      "entityNames": [
+        "智元机器人",
+        "龙旗科技"
+      ],
+      "claimIds": [
+        "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+      ],
+      "claims": [
+        {
+          "id": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+          "claimType": "delivery",
+          "text": "智元官方发布：第15000台下线产品为智元精灵G2，当天交付给龙旗科技工厂。",
+          "normalizedFact": "智元精灵G2在2026年6月28日交付给龙旗科技工厂。",
+          "entityIds": [
+            "zhiyuan_robot",
+            "longcheer_technology"
+          ],
+          "productIds": [
+            "zhiyuan_g2"
+          ],
+          "artifactIds": [
+            "raw_2026_06_29_agibot_15000_robots_downline"
+          ],
+          "status": "verified",
+          "reviewStatus": "promoted",
+          "confidence": "high",
+          "occurredAt": "2026-06-28",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "firstSeenAt": "2026-07-03T16:50:00+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "processedAt": "2026-07-03T16:55:00+08:00",
+          "dueAt": "2026-12-31",
+          "resolvedAt": "2026-07-03T16:55:00+08:00",
+          "promotedEventIds": [
+            "evt_2026_06_29_zhiyuan_15000_robot_downline"
+          ],
+          "promotedFollowupIds": [
+            "fu_2026_06_29_zhiyuan_g2_delivery_numbers"
+          ],
+          "whyNow": "官方披露具体交付对象，但后续累计交付和客户扩展仍需要跟踪。",
+          "notes": "这条 claim 同时生成正式事件和后续 follow-up。"
+        }
+      ],
+      "followupIds": [
+        "fu_2026_06_29_zhiyuan_g2_delivery_numbers"
+      ],
+      "followups": [
+        {
+          "id": "fu_2026_06_29_zhiyuan_g2_delivery_numbers",
+          "subject": "智元第15000台具身机器人下线：等待后续累计交付和客户扩展数据",
+          "entityIds": [
+            "zhiyuan_robot",
+            "longcheer_technology"
+          ],
+          "originEventId": "evt_2026_06_29_zhiyuan_15000_robot_downline",
+          "status": "pending",
+          "openedAt": "2026-07-03",
+          "closedAt": null,
+          "sourceIds": [
+            "src_agibot_20260629_15000_robots_downline"
+          ],
+          "history": [
+            {
+              "date": "2026-07-03",
+              "status": "pending",
+              "sourceIds": [
+                "src_agibot_20260629_15000_robots_downline"
+              ],
+              "note": "官方已披露第15000台下线及交付龙旗科技工厂；后续跟踪累计交付、客户扩展和常态化部署数据。"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "src_agibot_20260629_15000_robots_downline"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_20260629_15000_robots_downline",
+          "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "webpage",
+          "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "evidenceLevel": "A",
+          "status": "active",
+          "notes": "智元官网新闻资讯页面。"
+        }
+      ],
+      "notes": "未来节点只记录已公开披露或由 follow-up 派生的验证窗口，不做预测。"
+    }
+  ],
+  "totals": {
+    "all": 1,
+    "future30": 0,
+    "future90": 0
+  }
+}

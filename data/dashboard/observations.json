@@ -1,8 +1,9 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T10:37:16.662Z",
+  "generatedAt": "2026-07-04T08:10:18.684Z",
   "sortPolicy": "证据等级 > 事件重要性 > 涉及公司数量 > 日期",
   "sourcePolicy": "股票只展示同日 Watchlist 行情事实，不表达因果判断。",
+  "projectionPolicy": "Observation 是从 event/followup/claim/evidence 派生的展示层，不是事实源。",
   "todayRows": [],
   "researchRows": [
     {
@@ -402,6 +403,183 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [
+        "claim_2026_06_29_zhiyuan_15000_downline",
+        "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+      ],
+      "claims": [
+        {
+          "id": "claim_2026_06_29_zhiyuan_15000_downline",
+          "claimType": "delivery",
+          "text": "智元官方发布：2026年6月28日，智元第15000台具身智能机器人量产下线。",
+          "normalizedFact": "智元第15000台具身智能机器人于2026年6月28日量产下线。",
+          "status": "verified",
+          "reviewStatus": "promoted",
+          "confidence": "high",
+          "occurredAt": "2026-06-28",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "firstSeenAt": "2026-07-03T16:50:00+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "processedAt": "2026-07-03T16:55:00+08:00",
+          "dueAt": null,
+          "evidence": [
+            {
+              "id": "evd_2026_06_29_agibot_supports_15000_downline",
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "source": {
+                "id": "src_agibot_20260629_15000_robots_downline",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "sourceType": "webpage",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "evidenceLevel": "A",
+                "status": "active",
+                "notes": "智元官网新闻资讯页面。"
+              },
+              "rawArtifact": {
+                "id": "raw_2026_06_29_agibot_15000_robots_downline",
+                "artifactType": "news_page",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "sourceId": "src_agibot_20260629_15000_robots_downline",
+                "fetchRunId": "fetch_2026_07_03_agibot_official_news_manual",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "firstSeenAt": "2026-07-03T16:50:00+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "contentHash": "sha256:f4a926b4d920940cd5aa9add84a747333cc9c17b366364587ee0c9fb8f8b1e62",
+                "storagePath": null,
+                "entityIds": [
+                  "zhiyuan_robot",
+                  "longcheer_technology"
+                ],
+                "claimIds": [
+                  "claim_2026_06_29_zhiyuan_15000_downline",
+                  "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+                ],
+                "status": "active",
+                "notes": "第一阶段样例 raw_artifact：来自智元官网新闻页，先记录原文地址、发布时间、发现时间、抓取时间和内容指纹。"
+              }
+            }
+          ]
+        },
+        {
+          "id": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+          "claimType": "delivery",
+          "text": "智元官方发布：第15000台下线产品为智元精灵G2，当天交付给龙旗科技工厂。",
+          "normalizedFact": "智元精灵G2在2026年6月28日交付给龙旗科技工厂。",
+          "status": "verified",
+          "reviewStatus": "promoted",
+          "confidence": "high",
+          "occurredAt": "2026-06-28",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "firstSeenAt": "2026-07-03T16:50:00+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "processedAt": "2026-07-03T16:55:00+08:00",
+          "dueAt": "2026-12-31",
+          "evidence": [
+            {
+              "id": "evd_2026_06_29_agibot_supports_g2_longcheer_delivery",
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "source": {
+                "id": "src_agibot_20260629_15000_robots_downline",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "sourceType": "webpage",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "evidenceLevel": "A",
+                "status": "active",
+                "notes": "智元官网新闻资讯页面。"
+              },
+              "rawArtifact": {
+                "id": "raw_2026_06_29_agibot_15000_robots_downline",
+                "artifactType": "news_page",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "sourceId": "src_agibot_20260629_15000_robots_downline",
+                "fetchRunId": "fetch_2026_07_03_agibot_official_news_manual",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "firstSeenAt": "2026-07-03T16:50:00+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "contentHash": "sha256:f4a926b4d920940cd5aa9add84a747333cc9c17b366364587ee0c9fb8f8b1e62",
+                "storagePath": null,
+                "entityIds": [
+                  "zhiyuan_robot",
+                  "longcheer_technology"
+                ],
+                "claimIds": [
+                  "claim_2026_06_29_zhiyuan_15000_downline",
+                  "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+                ],
+                "status": "active",
+                "notes": "第一阶段样例 raw_artifact：来自智元官网新闻页，先记录原文地址、发布时间、发现时间、抓取时间和内容指纹。"
+              }
+            }
+          ]
+        }
+      ],
+      "evidenceSummary": {
+        "claimCount": 2,
+        "evidenceCount": 2,
+        "strongestSourceLevel": "A",
+        "sourceLevelCounts": {
+          "A": 2
+        },
+        "relationCounts": {
+          "supports": 2
+        }
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-29",
+        "publishedAt": "2026-06-29T17:11:49+08:00",
+        "firstSeenAt": "2026-07-03T16:50:00+08:00",
+        "capturedAt": "2026-07-03T16:50:00+08:00",
+        "processedAt": "2026-07-03T16:55:00+08:00",
+        "dueAt": "2026-12-31",
+        "resolvedAt": "2026-07-03T16:55:00+08:00"
+      },
+      "stateTransitions": [
+        {
+          "id": "st_2026_07_03_claim_zhiyuan_15000_promoted",
+          "subjectType": "claim",
+          "subjectId": "claim_2026_06_29_zhiyuan_15000_downline",
+          "fromStatus": "candidate",
+          "toStatus": "verified",
+          "occurredAt": "2026-07-03T16:55:00+08:00",
+          "reason": "官方 A 级来源直接支持，人工审核后提升为正式事件。",
+          "evidenceIds": [
+            "evd_2026_06_29_agibot_supports_15000_downline"
+          ],
+          "sourceIds": [
+            "src_agibot_20260629_15000_robots_downline"
+          ]
+        },
+        {
+          "id": "st_2026_07_03_claim_zhiyuan_g2_delivery_promoted",
+          "subjectType": "claim",
+          "subjectId": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+          "fromStatus": "candidate",
+          "toStatus": "verified",
+          "occurredAt": "2026-07-03T16:55:00+08:00",
+          "reason": "官方 A 级来源直接支持，人工审核后提升为正式事件和后续验证项。",
+          "evidenceIds": [
+            "evd_2026_06_29_agibot_supports_g2_longcheer_delivery"
+          ],
+          "sourceIds": [
+            "src_agibot_20260629_15000_robots_downline"
+          ]
+        }
+      ],
+      "whyNow": "今日新发现资料",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_25_zhiyuan_3c_line_live",
@@ -903,6 +1081,20 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-25"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_29_zhiyuan_15000_robot_downline",
@@ -1367,6 +1559,20 @@
           "notes": "宇树科技官网 H2 Plus 产品页。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-01"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2024_07_05_unitree_g1_release",
@@ -1846,6 +2052,20 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-11"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [],
       "tags": [
         "产业生态",
@@ -2200,6 +2420,20 @@
           "notes": "宇树科技官网新闻中心列表。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2024-07-05"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_01_unitree_h2plus_product",
@@ -2702,6 +2936,183 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [
+        "claim_2026_06_29_zhiyuan_15000_downline",
+        "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+      ],
+      "claims": [
+        {
+          "id": "claim_2026_06_29_zhiyuan_15000_downline",
+          "claimType": "delivery",
+          "text": "智元官方发布：2026年6月28日，智元第15000台具身智能机器人量产下线。",
+          "normalizedFact": "智元第15000台具身智能机器人于2026年6月28日量产下线。",
+          "status": "verified",
+          "reviewStatus": "promoted",
+          "confidence": "high",
+          "occurredAt": "2026-06-28",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "firstSeenAt": "2026-07-03T16:50:00+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "processedAt": "2026-07-03T16:55:00+08:00",
+          "dueAt": null,
+          "evidence": [
+            {
+              "id": "evd_2026_06_29_agibot_supports_15000_downline",
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "source": {
+                "id": "src_agibot_20260629_15000_robots_downline",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "sourceType": "webpage",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "evidenceLevel": "A",
+                "status": "active",
+                "notes": "智元官网新闻资讯页面。"
+              },
+              "rawArtifact": {
+                "id": "raw_2026_06_29_agibot_15000_robots_downline",
+                "artifactType": "news_page",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "sourceId": "src_agibot_20260629_15000_robots_downline",
+                "fetchRunId": "fetch_2026_07_03_agibot_official_news_manual",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "firstSeenAt": "2026-07-03T16:50:00+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "contentHash": "sha256:f4a926b4d920940cd5aa9add84a747333cc9c17b366364587ee0c9fb8f8b1e62",
+                "storagePath": null,
+                "entityIds": [
+                  "zhiyuan_robot",
+                  "longcheer_technology"
+                ],
+                "claimIds": [
+                  "claim_2026_06_29_zhiyuan_15000_downline",
+                  "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+                ],
+                "status": "active",
+                "notes": "第一阶段样例 raw_artifact：来自智元官网新闻页，先记录原文地址、发布时间、发现时间、抓取时间和内容指纹。"
+              }
+            }
+          ]
+        },
+        {
+          "id": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+          "claimType": "delivery",
+          "text": "智元官方发布：第15000台下线产品为智元精灵G2，当天交付给龙旗科技工厂。",
+          "normalizedFact": "智元精灵G2在2026年6月28日交付给龙旗科技工厂。",
+          "status": "verified",
+          "reviewStatus": "promoted",
+          "confidence": "high",
+          "occurredAt": "2026-06-28",
+          "publishedAt": "2026-06-29T17:11:49+08:00",
+          "firstSeenAt": "2026-07-03T16:50:00+08:00",
+          "capturedAt": "2026-07-03T16:50:00+08:00",
+          "processedAt": "2026-07-03T16:55:00+08:00",
+          "dueAt": "2026-12-31",
+          "evidence": [
+            {
+              "id": "evd_2026_06_29_agibot_supports_g2_longcheer_delivery",
+              "relation": "supports",
+              "sourceLevel": "A",
+              "strength": "strong",
+              "source": {
+                "id": "src_agibot_20260629_15000_robots_downline",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "sourceType": "webpage",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "evidenceLevel": "A",
+                "status": "active",
+                "notes": "智元官网新闻资讯页面。"
+              },
+              "rawArtifact": {
+                "id": "raw_2026_06_29_agibot_15000_robots_downline",
+                "artifactType": "news_page",
+                "title": "不到3个月再破里程碑！智元第15000台具身机器人下线，创下全球量产新纪录",
+                "publisher": "智元创新（上海）科技股份有限公司",
+                "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+                "sourceId": "src_agibot_20260629_15000_robots_downline",
+                "fetchRunId": "fetch_2026_07_03_agibot_official_news_manual",
+                "publishedAt": "2026-06-29T17:11:49+08:00",
+                "firstSeenAt": "2026-07-03T16:50:00+08:00",
+                "capturedAt": "2026-07-03T16:50:00+08:00",
+                "contentHash": "sha256:f4a926b4d920940cd5aa9add84a747333cc9c17b366364587ee0c9fb8f8b1e62",
+                "storagePath": null,
+                "entityIds": [
+                  "zhiyuan_robot",
+                  "longcheer_technology"
+                ],
+                "claimIds": [
+                  "claim_2026_06_29_zhiyuan_15000_downline",
+                  "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+                ],
+                "status": "active",
+                "notes": "第一阶段样例 raw_artifact：来自智元官网新闻页，先记录原文地址、发布时间、发现时间、抓取时间和内容指纹。"
+              }
+            }
+          ]
+        }
+      ],
+      "evidenceSummary": {
+        "claimCount": 2,
+        "evidenceCount": 2,
+        "strongestSourceLevel": "A",
+        "sourceLevelCounts": {
+          "A": 2
+        },
+        "relationCounts": {
+          "supports": 2
+        }
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-29",
+        "publishedAt": "2026-06-29T17:11:49+08:00",
+        "firstSeenAt": "2026-07-03T16:50:00+08:00",
+        "capturedAt": "2026-07-03T16:50:00+08:00",
+        "processedAt": "2026-07-03T16:55:00+08:00",
+        "dueAt": "2026-12-31",
+        "resolvedAt": "2026-07-03T16:55:00+08:00"
+      },
+      "stateTransitions": [
+        {
+          "id": "st_2026_07_03_claim_zhiyuan_15000_promoted",
+          "subjectType": "claim",
+          "subjectId": "claim_2026_06_29_zhiyuan_15000_downline",
+          "fromStatus": "candidate",
+          "toStatus": "verified",
+          "occurredAt": "2026-07-03T16:55:00+08:00",
+          "reason": "官方 A 级来源直接支持，人工审核后提升为正式事件。",
+          "evidenceIds": [
+            "evd_2026_06_29_agibot_supports_15000_downline"
+          ],
+          "sourceIds": [
+            "src_agibot_20260629_15000_robots_downline"
+          ]
+        },
+        {
+          "id": "st_2026_07_03_claim_zhiyuan_g2_delivery_promoted",
+          "subjectType": "claim",
+          "subjectId": "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+          "fromStatus": "candidate",
+          "toStatus": "verified",
+          "occurredAt": "2026-07-03T16:55:00+08:00",
+          "reason": "官方 A 级来源直接支持，人工审核后提升为正式事件和后续验证项。",
+          "evidenceIds": [
+            "evd_2026_06_29_agibot_supports_g2_longcheer_delivery"
+          ],
+          "sourceIds": [
+            "src_agibot_20260629_15000_robots_downline"
+          ]
+        }
+      ],
+      "whyNow": "今日新发现资料",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_25_zhiyuan_3c_line_live",
@@ -3203,6 +3614,20 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-25"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_29_zhiyuan_15000_robot_downline",
@@ -3667,6 +4092,20 @@
           "notes": "宇树科技官网 H2 Plus 产品页。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-01"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2024_07_05_unitree_g1_release",
@@ -4146,6 +4585,20 @@
           "notes": "智元官网新闻资讯页面。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2026-06-11"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [],
       "tags": [
         "产业生态",
@@ -4500,6 +4953,20 @@
           "notes": "宇树科技官网新闻中心列表。"
         }
       ],
+      "claimIds": [],
+      "claims": [],
+      "evidenceSummary": {
+        "claimCount": 0,
+        "evidenceCount": 0,
+        "strongestSourceLevel": null,
+        "sourceLevelCounts": {},
+        "relationCounts": {}
+      },
+      "sourceTimes": {
+        "occurredAt": "2024-07-05"
+      },
+      "stateTransitions": [],
+      "whyNow": "按证据等级和重要性进入研究队列",
       "relatedObservations": [
         {
           "id": "obs_evt_2026_06_01_unitree_h2plus_product",

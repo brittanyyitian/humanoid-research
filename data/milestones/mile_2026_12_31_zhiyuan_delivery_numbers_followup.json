@@ -1,0 +1,14 @@
+{
+  "id": "mile_2026_12_31_zhiyuan_delivery_numbers_followup",
+  "title": "智元精灵G2累计交付和客户扩展数据复核",
+  "dueAt": "2026-12-31",
+  "dueAtPrecision": "window",
+  "status": "upcoming",
+  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "claimIds": ["claim_2026_06_29_zhiyuan_g2_longcheer_delivery"],
+  "followupIds": ["fu_2026_06_29_zhiyuan_g2_delivery_numbers"],
+  "sourceIds": ["src_agibot_20260629_15000_robots_downline"],
+  "createdAt": "2026-07-03T16:55:00+08:00",
+  "resolvedAt": null,
+  "notes": "未来节点只记录已公开披露或由 follow-up 派生的验证窗口，不做预测。"
+}

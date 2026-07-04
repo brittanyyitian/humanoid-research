@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-04T08:10:18.684Z",
+  "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
+  "rows": [
+    {
+      "id": "market",
+      "label": "Watchlist 行情",
+      "lastSeenAt": "2026-07-03T17:55:11+08:00",
+      "status": "fresh",
+      "count": 26,
+      "maxAgeHours": 24
+    },
+    {
+      "id": "official_artifacts",
+      "label": "产业原始材料",
+      "lastSeenAt": "2026-07-03T16:50:00+08:00",
+      "status": "fresh",
+      "count": 1,
+      "maxAgeHours": 72
+    },
+    {
+      "id": "claim_review",
+      "label": "Claim 审核",
+      "lastSeenAt": "2026-07-03T16:55:00+08:00",
+      "status": "clear",
+      "count": 2,
+      "pendingCount": 0
+    },
+    {
+      "id": "fetch_runs",
+      "label": "抓取运行",
+      "lastSeenAt": "2026-07-03T16:50:00+08:00",
+      "status": "fresh",
+      "count": 1,
+      "failedCount": 0
+    }
+  ],
+  "failedSources": [],
+  "totals": {
+    "pendingInbox": 2,
+    "pendingClaims": 0,
+    "fetchRuns": 1,
+    "fetchFailures": 0
+  }
+}
