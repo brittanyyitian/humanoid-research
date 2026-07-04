@@ -7,6 +7,15 @@ import {
   writeJsonFile,
 } from "../data-utils.mjs";
 import {
+  attemptLedgerForPayload,
+  buildRawPayload,
+  contentHashForPayload,
+  fetchStatusForPayload,
+  gapsForPayload,
+  rawPayloadFilePath,
+  rawPayloadStoragePath,
+} from "./artifact-payload-service.mjs";
+import {
   dateFrom,
   hash,
   loadRouterContext,
@@ -30,6 +39,7 @@ const ARTIFACT_TYPES = new Set([
   "serenity_output",
 ]);
 const SOURCE_LEVELS = new Set(["A", "B", "C", "D"]);
+const INGESTION_RULES_PATH = path.join(DATA_DIR, "ingestion", "rules.json");
 
 export async function ingestInput(options = {}) {
   const capturedAt = options.capturedAt || nowShanghai();
@@ -42,11 +52,14 @@ export async function ingestInput(options = {}) {
   }
 
   const routerContext = await loadRouterContext();
+  const ingestionRules = await loadIngestionRules();
   const title = options.title || titleFromUrl(options.url);
   const publisher = options.publisher || publisherFromUrl(options.url);
-  const sourceType = normalizeSourceType(options.sourceType || inferSourceType(options.url, title, publisher));
-  const artifactType = normalizeArtifactType(options.artifactType || inferArtifactType(options.url, title, publisher));
-  const sourceLevel = normalizeSourceLevel(options.sourceLevel || evidenceLevelForInput(inputType, sourceType));
+  const sourceType = normalizeSourceType(options.sourceType || inferSourceType(options.url, title, publisher, ingestionRules));
+  const artifactType = normalizeArtifactType(
+    options.artifactType || inferArtifactType(options.url, title, publisher, ingestionRules)
+  );
+  const sourceLevel = normalizeSourceLevel(options.sourceLevel || evidenceLevelForInput(inputType, sourceType, ingestionRules));
   const entityIds = normalizeEntityIds(options.entityIds, routerContext.entities, [title, publisher, options.url]);
 
   if (entityIds.length === 0) {
@@ -64,7 +77,25 @@ export async function ingestInput(options = {}) {
   const artifactPath = path.join(DATA_DIR, "raw_artifacts", `${artifactId}.json`);
   const fetchRunPath = path.join(DATA_DIR, "fetch_runs", `${fetchRunId}.json`);
   const inboxPath = path.join(DATA_DIR, "inbox", "artifact_candidates.json");
+  const payloadStoragePath = rawPayloadStoragePath(artifactId);
+  const payloadPath = rawPayloadFilePath(artifactId);
   const existingRawArtifact = await readOrDefault(artifactPath, null);
+  const rawPayload = buildRawPayload({
+    artifactId,
+    inputType,
+    url: options.url,
+    title,
+    publisher,
+    publishedAt: options.publishedAt || null,
+    capturedAt,
+    sourceType,
+    artifactType,
+    entityIds,
+    body: options.rawContent || options.payloadText || null,
+    bodyFormat: options.rawContentFormat || null,
+  });
+  const contentHash = contentHashForPayload(rawPayload);
+  const payloadGaps = gapsForPayload(rawPayload);
 
   const source = {
     id: sourceId,
@@ -90,8 +121,8 @@ export async function ingestInput(options = {}) {
     publishedAt: options.publishedAt || null,
     firstSeenAt: existingRawArtifact?.firstSeenAt || capturedAt,
     capturedAt,
-    contentHash: `sha256:${hash(`${inputType}|${options.url}|${title}|${options.publishedAt || ""}`, 64)}`,
-    storagePath: null,
+    contentHash,
+    storagePath: payloadStoragePath,
     entityIds,
     claimIds: [],
     status: "active",
@@ -105,11 +136,19 @@ export async function ingestInput(options = {}) {
     sourceType: "ingestion",
     startedAt: capturedAt,
     finishedAt: capturedAt,
-    status: inputType === "manual" ? "manual" : "success",
+    status: fetchStatusForPayload(inputType, rawPayload),
     artifactIds: [artifactId],
     claimIds: [],
     error: null,
-    gaps: [],
+    gaps: payloadGaps,
+    attemptLedger: attemptLedgerForPayload({
+      inputType,
+      url: options.url,
+      capturedAt,
+      rawPayload,
+      contentHash,
+      storagePath: payloadStoragePath,
+    }),
   };
 
   const inbox = await readOrDefault(inboxPath, {
@@ -141,6 +180,7 @@ export async function ingestInput(options = {}) {
 
   const payloads = {
     source: { file: sourcePath, data: source },
+    raw_payload: { file: payloadPath, data: rawPayload },
     raw_artifact: { file: artifactPath, data: rawArtifact },
     fetch_run: { file: fetchRunPath, data: fetchRun },
     inbox: { file: inboxPath, data: inbox },
@@ -181,6 +221,7 @@ export async function ingestInput(options = {}) {
   }
 
   await writeIfMissing(sourcePath, source);
+  await writeJsonFile(payloadPath, rawPayload);
   await writeJsonFile(artifactPath, rawArtifact);
   await writeJsonFile(fetchRunPath, fetchRun);
   await writeJsonFile(inboxPath, inbox);
@@ -232,34 +273,31 @@ function normalizeEntityIds(value, entities, textParts) {
     .map((entity) => entity.id);
 }
 
-function inferSourceType(url, title, publisher) {
-  const text = `${url} ${title} ${publisher}`.toLowerCase();
-  if (text.includes("wechat") || text.includes("公众号")) return "wechat";
-  if (text.includes(".pdf")) return "pdf";
-  if (text.includes("cninfo") || text.includes("sse.com") || text.includes("szse.cn") || text.includes("hkex")) {
-    return "exchange";
-  }
-  if (text.includes(".gov.cn") || text.includes("政府") || text.includes("工信")) return "government";
-  if (text.includes("news") || text.includes("新闻") || text.includes("动态")) return "news";
-  return "webpage";
+async function loadIngestionRules() {
+  return readJsonFile(INGESTION_RULES_PATH);
 }
 
-function inferArtifactType(url, title, publisher) {
+function inferSourceType(url, title, publisher, rules) {
   const text = `${url} ${title} ${publisher}`.toLowerCase();
-  if (text.includes(".pdf")) return "pdf";
-  if (text.includes("wechat") || text.includes("公众号")) return "wechat";
-  if (text.includes("cninfo") || text.includes("sse.com") || text.includes("szse.cn") || text.includes("hkex")) {
-    return "filing";
-  }
-  if (hasAny(text, ["product", "产品", "发布", "参数", "spec", "h2", "g1", "g2"])) return "product_page";
-  if (hasAny(text, ["news", "新闻", "动态"])) return "news_page";
-  return "webpage";
+  return firstRuleMatch(rules.sourceTypes, text, "sourceType") || rules.sourceTypeDefault || "webpage";
 }
 
-function evidenceLevelForInput(inputType, sourceType) {
-  if (sourceType === "exchange" || sourceType === "government") return "A";
-  if (inputType === "api" || inputType === "rss") return "B";
-  return "A";
+function inferArtifactType(url, title, publisher, rules) {
+  const text = `${url} ${title} ${publisher}`.toLowerCase();
+  return firstRuleMatch(rules.artifactTypes, text, "artifactType") || rules.artifactTypeDefault || "webpage";
+}
+
+function evidenceLevelForInput(inputType, sourceType, rules) {
+  for (const rule of rules.sourceLevels || []) {
+    if ((rule.sourceTypes || []).includes(sourceType)) return rule.sourceLevel;
+    if ((rule.inputTypes || []).includes(inputType)) return rule.sourceLevel;
+  }
+  return rules.sourceLevelDefault || "A";
+}
+
+function firstRuleMatch(rows = [], text, key) {
+  const match = rows.find((rule) => hasAny(text, rule.textKeywords || []));
+  return match?.[key] || null;
 }
 
 function normalizeSourceType(value) {

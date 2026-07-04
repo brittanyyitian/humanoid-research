@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:00:27.784Z",
+  "generatedAt": "2026-07-04T09:22:41.406Z",
   "policy": "Past windows count happened/published/discovered evidence. Future windows count public verification milestones only.",
   "windows": [
     {
@@ -34,7 +34,7 @@
       "claims": 2,
       "evidence": 2,
       "stateTransitions": 2,
-      "observations": 3
+      "observations": 1
     },
     {
       "id": "last_90_days",
@@ -45,7 +45,7 @@
       "claims": 2,
       "evidence": 2,
       "stateTransitions": 2,
-      "observations": 4
+      "observations": 1
     },
     {
       "id": "last_180_days",
@@ -56,7 +56,7 @@
       "claims": 2,
       "evidence": 2,
       "stateTransitions": 2,
-      "observations": 4
+      "observations": 1
     },
     {
       "id": "future_30_days",

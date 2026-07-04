@@ -59,6 +59,10 @@ async function loadData() {
   const schedulerState = await readJsonFile(path.join(DATA_DIR, "scheduler", "state.json"));
   const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
   const routerRules = await readJsonFile(path.join(DATA_DIR, "router", "rules.json"));
+  const ingestionRules = await readJsonFile(path.join(DATA_DIR, "ingestion", "rules.json"));
+  const lifecycleFixtures = (await readOptionalJson(path.join(DATA_DIR, "hardening", "lifecycle_fixtures.json"))) || {
+    claims: [],
+  };
 
   return {
     ...rows,
@@ -68,6 +72,8 @@ async function loadData() {
     schedulerState,
     pipelineMap,
     routerRules,
+    ingestionRules,
+    lifecycleFixtures,
     maps: {
       rawById: mapById(rows.rawArtifacts),
       routeByRawId: mapBy(rows.routeDecisions, (row) => row.rawArtifactId),
@@ -240,6 +246,10 @@ async function checkContamination(data) {
 
   for (const row of observationRows) {
     if (!data.maps.eventById.has(row.eventId)) errors.push(`observation ${row.id} points to unknown event ${row.eventId}`);
+    if (!row.claimIds?.length) errors.push(`observation ${row.id} has no promoted claimIds`);
+    if (!row.evidenceSummary || Number(row.evidenceSummary.evidenceCount || 0) <= 0) {
+      errors.push(`observation ${row.id} has no supporting evidence summary`);
+    }
     for (const claimId of row.claimIds || []) {
       const claim = data.maps.claimById.get(claimId);
       if (!claim) {
@@ -249,9 +259,21 @@ async function checkContamination(data) {
       if (claim.reviewStatus !== "promoted" || !claim.promotedEventIds?.includes(row.eventId)) {
         errors.push(`observation ${row.id} includes unpromoted claim ${claimId}`);
       }
+      const supportingRows = supportingEvidence(data.maps.evidenceByClaimId.get(claimId) || []);
+      if (supportingRows.length === 0) errors.push(`observation ${row.id} claim ${claimId} has no supporting evidence`);
       for (const evidence of data.maps.evidenceByClaimId.get(claimId) || []) {
         if (evidence.claimId !== claimId) errors.push(`evidence ${evidence.id} is cross-linked to wrong claim`);
       }
+    }
+  }
+
+  const projectionByObservationId = new Map((data.dashboardObservationProjection.rows || []).map((row) => [row.observationId, row]));
+  for (const row of observationRows) {
+    const projection = projectionByObservationId.get(row.id);
+    if (!projection) {
+      errors.push(`observation ${row.id} is missing from observation_projection`);
+    } else if (projection.status !== "projected") {
+      errors.push(`observation ${row.id} is visible but projection status is ${projection.status}`);
     }
   }
 
@@ -293,8 +315,19 @@ async function checkLifecycle(data) {
     }
   }
 
-  if (!data.claims.some((claim) => ["superseded", "refuted", "stale"].includes(claim.status))) {
-    warnings.push("no superseded/refuted/stale claim sample exists yet; lifecycle path is unexercised");
+  const requiredTerminalStatuses = ["superseded", "refuted", "stale"];
+  const liveTerminalStatuses = new Set(
+    data.claims.filter((claim) => requiredTerminalStatuses.includes(claim.status)).map((claim) => claim.status)
+  );
+  const fixtureTerminalStatuses = new Set(
+    (data.lifecycleFixtures.claims || [])
+      .filter((claim) => requiredTerminalStatuses.includes(claim.status) && claim.resolvedAt && claim.transition)
+      .map((claim) => claim.status)
+  );
+  for (const status of requiredTerminalStatuses) {
+    if (!liveTerminalStatuses.has(status) && !fixtureTerminalStatuses.has(status)) {
+      errors.push(`lifecycle terminal status ${status} is not covered by real claims or hardening fixtures`);
+    }
   }
 
   return result("lifecycle", errors, warnings, { claims: data.claims.length });
@@ -304,9 +337,13 @@ async function checkRecovery(data) {
   const errors = [];
 
   for (const run of data.fetchRuns) {
+    if (!run.attemptLedger?.length) errors.push(`fetch_run ${run.id} has no attemptLedger`);
     if (["failed", "partial"].includes(run.status) && !run.error && !(run.gaps || []).length) {
       errors.push(`fetch_run ${run.id} is ${run.status} without error or gaps`);
     }
+  }
+  for (const artifact of data.rawArtifacts) {
+    if (!artifact.storagePath) errors.push(`raw_artifact ${artifact.id} has no storagePath`);
   }
   for (const task of data.pipelineTasks) {
     if (task.status === "failed" && !task.error) errors.push(`failed pipeline_task ${task.id} has no error`);
@@ -355,13 +392,23 @@ async function checkRuleIsolation(data) {
   if (!Array.isArray(data.routerRules.sourceKinds) || data.routerRules.sourceKinds.length === 0) {
     errors.push("router rules must declare sourceKinds");
   }
+  if (!Array.isArray(data.ingestionRules.sourceTypes) || !Array.isArray(data.ingestionRules.artifactTypes)) {
+    errors.push("ingestion rules must declare sourceTypes and artifactTypes");
+  }
 
   const routerSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "router-service.mjs"), "utf8");
+  const ingestionSource = await fs.readFile(path.join(DATA_DIR, "..", "scripts", "services", "ingestion-service.mjs"), "utf8");
   if (/hasAny\([^)]*\[[^\]]+\]/s.test(routerSource)) {
     errors.push("router-service contains inline keyword arrays; move route keywords to data/router/rules.json");
   }
   if (!routerSource.includes('path.join(DATA_DIR, "router", "rules.json")')) {
     errors.push("router-service does not load data/router/rules.json");
+  }
+  if (/hasAny\(text,\s*\[[^\]]+\]/s.test(ingestionSource)) {
+    errors.push("ingestion-service contains inline classification keyword arrays; move them to data/ingestion/rules.json");
+  }
+  if (!ingestionSource.includes('path.join(DATA_DIR, "ingestion", "rules.json")')) {
+    errors.push("ingestion-service does not load data/ingestion/rules.json");
   }
   if ((data.routerRules.routes || []).some((rule) => !rule.signal)) {
     warnings.push("some router rules have no signal metadata");
@@ -371,6 +418,10 @@ async function checkRuleIsolation(data) {
     routeTypes: routeTypes.size,
     routerRules: data.routerRules.routes?.length || 0,
   });
+}
+
+function supportingEvidence(rows) {
+  return rows.filter((row) => ["supports", "updates", "mentions"].includes(row.relation));
 }
 
 async function ingestStableSummary(source, capturedAt) {

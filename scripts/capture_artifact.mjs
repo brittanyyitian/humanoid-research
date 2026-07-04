@@ -1,6 +1,14 @@
 import crypto from "node:crypto";
 import path from "node:path";
 import { DATA_DIR, readJsonFile, todayInShanghai, writeJsonFile } from "./data-utils.mjs";
+import {
+  attemptLedgerForPayload,
+  buildRawPayload,
+  contentHashForPayload,
+  gapsForPayload,
+  rawPayloadFilePath,
+  rawPayloadStoragePath,
+} from "./services/artifact-payload-service.mjs";
 
 const args = parseArgs(process.argv.slice(2));
 
@@ -14,6 +22,7 @@ Options:
   --source-id <id>         Reuse or set a source id
   --source-level <A-D>     Default: A
   --published-at <time>    Source publish time
+  --raw-content <text>     Optional captured source body or excerpt
   --captured-at <time>     Default: current Shanghai time
   --notes <text>
   --dry-run                Print payloads without writing files
@@ -45,12 +54,31 @@ const sourcePath = path.join(DATA_DIR, "sources", `${sourceId}.json`);
 const artifactPath = path.join(DATA_DIR, "raw_artifacts", `${artifactId}.json`);
 const fetchRunPath = path.join(DATA_DIR, "fetch_runs", `${fetchRunId}.json`);
 const inboxPath = path.join(DATA_DIR, "inbox", "artifact_candidates.json");
+const payloadStoragePath = rawPayloadStoragePath(artifactId);
+const payloadPath = rawPayloadFilePath(artifactId);
+const entityIds = splitList(args.entityIds);
+const sourceType = args.sourceType || "webpage";
+const artifactType = args.artifactType || "webpage";
+const rawPayload = buildRawPayload({
+  artifactId,
+  inputType: "manual",
+  url: args.url,
+  title: args.title,
+  publisher: args.publisher,
+  publishedAt: args.publishedAt || null,
+  capturedAt,
+  sourceType,
+  artifactType,
+  entityIds,
+  body: args.rawContent || null,
+});
+const contentHash = contentHashForPayload(rawPayload);
 
 const source = {
   id: sourceId,
   title: args.title,
   publisher: args.publisher,
-  sourceType: args.sourceType || "webpage",
+  sourceType,
   url: args.url,
   publishedAt: args.publishedAt || null,
   capturedAt,
@@ -61,7 +89,7 @@ const source = {
 
 const rawArtifact = {
   id: artifactId,
-  artifactType: args.artifactType || "webpage",
+  artifactType,
   title: args.title,
   publisher: args.publisher,
   url: args.url,
@@ -70,9 +98,9 @@ const rawArtifact = {
   publishedAt: args.publishedAt || null,
   firstSeenAt: capturedAt,
   capturedAt,
-  contentHash: `sha256:${hash(`${args.url}|${args.title}|${args.publishedAt || ""}`, 64)}`,
-  storagePath: null,
-  entityIds: splitList(args.entityIds),
+  contentHash,
+  storagePath: payloadStoragePath,
+  entityIds,
   claimIds: [],
   status: "active",
   notes: args.notes || "Manual official/product link capture.",
@@ -89,7 +117,15 @@ const fetchRun = {
   artifactIds: [artifactId],
   claimIds: [],
   error: null,
-  gaps: [],
+  gaps: gapsForPayload(rawPayload),
+  attemptLedger: attemptLedgerForPayload({
+    inputType: "manual",
+    url: args.url,
+    capturedAt,
+    rawPayload,
+    contentHash,
+    storagePath: payloadStoragePath,
+  }),
 };
 
 const inbox = await readOrDefault(inboxPath, {
@@ -108,7 +144,7 @@ const candidate = {
   title: args.title,
   publisher: args.publisher,
   sourceUrl: args.url,
-  entityIds: splitList(args.entityIds),
+  entityIds,
   reviewStatus: "pending",
   capturedAt,
 };
@@ -119,6 +155,7 @@ inbox.candidates = upsertById(inbox.candidates || [], candidate);
 
 const payloads = [
   ["source", sourcePath, source],
+  ["raw_payload", payloadPath, rawPayload],
   ["raw_artifact", artifactPath, rawArtifact],
   ["fetch_run", fetchRunPath, fetchRun],
   ["inbox", inboxPath, inbox],
@@ -130,6 +167,7 @@ if (args.dryRun) {
 }
 
 await writeIfMissing(sourcePath, source);
+await writeJsonFile(payloadPath, rawPayload);
 await writeJsonFile(artifactPath, rawArtifact);
 await writeJsonFile(fetchRunPath, fetchRun);
 await writeJsonFile(inboxPath, inbox);

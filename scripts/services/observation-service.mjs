@@ -3,7 +3,7 @@ import { DATA_DIR, readJsonDir, readJsonFile, writeJsonFile } from "../data-util
 import { hash, nowShanghai } from "./router-service.mjs";
 
 const PROJECTION_POLICY =
-  "Observations are projected only from formal events and promoted claims. Pipeline candidates stay in inbox.";
+  "Observations are projected only from formal events with promoted claims and supporting evidence. Pipeline candidates stay in inbox.";
 
 export async function projectObservations(options = {}) {
   const generatedAt = options.generatedAt || nowShanghai();
@@ -79,7 +79,7 @@ function projectRow(row, context) {
   const claimIds = row.claimIds || [];
   const claimRows = claimIds.map((claimId) => context.claimById.get(claimId)).filter(Boolean);
   const evidenceIds = claimRows.flatMap((claim) => {
-    return (context.evidenceByClaimId.get(claim.id) || []).map((evidence) => evidence.id);
+    return supportingEvidence(context.evidenceByClaimId.get(claim.id) || []).map((evidence) => evidence.id);
   });
   const stateTransitionIds = claimRows.flatMap((claim) => {
     return (context.stateTransitionsByClaimId.get(claim.id) || []).map((transition) => transition.id);
@@ -92,6 +92,24 @@ function projectRow(row, context) {
       observationId: row.id,
       eventId: row.eventId,
       reason: "Observation row must point to a formal event.",
+    });
+  }
+
+  if (claimIds.length === 0) {
+    violations.push({
+      kind: "missing_promoted_claim",
+      observationId: row.id,
+      eventId: row.eventId,
+      reason: "Observation must include at least one promoted claim.",
+    });
+  }
+
+  if (evidenceIds.length === 0) {
+    violations.push({
+      kind: "missing_supporting_evidence",
+      observationId: row.id,
+      eventId: row.eventId,
+      reason: "Observation must include supporting evidence from promoted claims.",
     });
   }
 
@@ -114,6 +132,14 @@ function projectRow(row, context) {
         reason: "Observation may include only claims promoted to its formal event.",
       });
     }
+    if (supportingEvidence(context.evidenceByClaimId.get(claimId) || []).length === 0) {
+      violations.push({
+        kind: "claim_without_supporting_evidence",
+        observationId: row.id,
+        claimId,
+        reason: "Promoted claims in an observation must carry supporting evidence.",
+      });
+    }
   }
 
   return {
@@ -128,6 +154,10 @@ function projectRow(row, context) {
     stateTransitionIds,
     violations,
   };
+}
+
+function supportingEvidence(rows) {
+  return rows.filter((row) => ["supports", "updates", "mentions"].includes(row.relation));
 }
 
 function buildExcludedClaims(claims) {

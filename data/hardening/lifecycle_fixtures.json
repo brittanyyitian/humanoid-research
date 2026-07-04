@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "policy": "Hardening-only lifecycle fixtures. These records are not fact sources and must not be projected into observations.",
+  "claims": [
+    {
+      "id": "fixture_claim_superseded",
+      "status": "superseded",
+      "fromStatus": "verified",
+      "resolvedAt": "2026-07-04T17:30:00+08:00",
+      "transition": {
+        "fromStatus": "verified",
+        "toStatus": "superseded",
+        "reason": "newer reviewed claim replaces the old normalized fact"
+      }
+    },
+    {
+      "id": "fixture_claim_refuted",
+      "status": "refuted",
+      "fromStatus": "candidate",
+      "resolvedAt": "2026-07-04T17:30:00+08:00",
+      "transition": {
+        "fromStatus": "candidate",
+        "toStatus": "refuted",
+        "reason": "contradicting evidence invalidates the candidate"
+      }
+    },
+    {
+      "id": "fixture_claim_stale",
+      "status": "stale",
+      "fromStatus": "needs_review",
+      "resolvedAt": "2026-07-04T17:30:00+08:00",
+      "transition": {
+        "fromStatus": "needs_review",
+        "toStatus": "stale",
+        "reason": "verification window expired without enough evidence"
+      }
+    }
+  ]
+}

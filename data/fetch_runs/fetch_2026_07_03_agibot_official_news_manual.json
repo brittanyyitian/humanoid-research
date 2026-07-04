@@ -14,9 +14,26 @@
   "error": null,
   "gaps": [
     {
+      "kind": "raw_payload_not_fetched",
+      "description": "Manual intake captured source metadata only; raw article body was not stored in this run.",
+      "severity": "medium"
+    },
+    {
       "kind": "delivery_continuity",
       "description": "官方文章披露第15000台下线和交付对象，但未披露后续累计交付节奏。",
       "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "manual",
+      "url": "https://www.agibot.com.cn/article/315/detail/171.html",
+      "status": "metadata_only",
+      "startedAt": "2026-07-03T16:50:00+08:00",
+      "finishedAt": "2026-07-03T16:50:00+08:00",
+      "contentHash": "sha256:db346b5c498fc14624cad8e8a00bb9a3a07d14133d3cb6f524d5d634d983dad0",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_29_agibot_15000_robots_downline.json"
     }
   ]
 }

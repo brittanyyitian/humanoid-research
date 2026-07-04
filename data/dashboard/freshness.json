@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-04T09:00:27.784Z",
+  "generatedAt": "2026-07-04T09:22:41.406Z",
   "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   "rows": [
     {
@@ -31,9 +31,10 @@
       "id": "fetch_runs",
       "label": "抓取运行",
       "lastSeenAt": "2026-07-04T16:49:01+08:00",
-      "status": "fresh",
+      "status": "has_gaps",
       "count": 2,
-      "failedCount": 0
+      "failedCount": 0,
+      "gapCount": 1
     },
     {
       "id": "scheduler",
@@ -44,7 +45,15 @@
       "failedCount": 0
     }
   ],
-  "failedSources": [],
+  "failedSources": [
+    {
+      "id": "fetch_2026_07_04_unitree_com_75867f61e9",
+      "sourceName": "宇树科技股份有限公司",
+      "status": "partial",
+      "finishedAt": "2026-07-04T16:49:01+08:00",
+      "error": null
+    }
+  ],
   "totals": {
     "pendingInbox": 4,
     "pendingClaims": 1,

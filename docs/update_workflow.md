@@ -101,6 +101,7 @@ The output chain is:
 ```text
 source
 raw_artifact
+raw_artifacts/payloads/<raw_id>.json
 fetch_run(sourceType=ingestion)
 inbox artifact candidate
 route_decision
@@ -115,6 +116,11 @@ npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitre
 
 This step does not extract claims and does not promote observations. It only
 creates the durable handoff into the routed pipeline.
+
+If the source body has not been fetched, ingestion still writes a local payload
+record for the captured metadata. The matching `fetch_run` must include an
+`attemptLedger` and a `raw_payload_not_fetched` gap, so later reviewers do not
+mistake metadata-only intake for full source retrieval.
 
 ## V2.1 Scheduler Tick
 
@@ -215,13 +221,15 @@ Projection can include only:
 
 ```text
 formal events
-promoted claims
-evidence attached to promoted claims
+promoted verified claims
+supporting evidence attached to promoted claims
 state transitions attached to promoted claims
 ```
 
 Pipeline candidates stay excluded until review promotes them. A projection run
-with unpromoted claims in observation rows must fail validation.
+with unpromoted claims, missing claims, or missing evidence in observation rows
+must fail validation. `data/dashboard/observations.json` is regenerated with the
+same gate, so the website only receives displayable Observation cards.
 
 ## Inbox Fetch Gate
 

@@ -123,6 +123,12 @@ It is not a crawler and it is not a scheduler. Its only job is to make every
 outside input enter the same evidence pipeline before any claim or observation
 can be created.
 
+Every ingestion entry must write an auditable raw payload record under
+`data/raw_artifacts/payloads/`. If the entry only captured URL/title/publisher
+metadata, the `fetch_run` must be `partial` or `manual`, carry an
+`attemptLedger`, and record a `raw_payload_not_fetched` gap. It must not pretend
+that the full source body was fetched.
+
 The current entry command is:
 
 ```bash
@@ -131,6 +137,9 @@ npm run ingest:input -- --url "https://example.com/product" --entity-ids "unitre
 
 `capture:artifact` remains a compatibility tool for manual captures, but v2.1
 automation should enter through `ingest:input`.
+
+Ingestion inference rules live in `data/ingestion/rules.json`. Source/artifact
+classification keywords and source-level defaults should stay declarative.
 
 ## Scheduler Boundary
 
@@ -231,6 +240,10 @@ npm run hardening:check
 It is read-only. It must not write facts, dashboard projections, run records or
 inbox items. `npm run check` includes this gate.
 
+Hardening fixtures that are not research facts live under `data/hardening/`.
+They exercise lifecycle states such as `superseded`, `refuted`, and `stale`
+without polluting the claim database or dashboard projections.
+
 ## Pipeline Task Boundary
 
 `pipeline_tasks` are durable handoff records created by ingestion after routing.
@@ -254,7 +267,9 @@ Observation projection is the final v2.1 automation gate:
 
 ```text
 formal event
-+ promoted claim/evidence/state_transition
++ promoted verified claim
++ supporting evidence
++ state_transition
 -> observation projection
 -> observation card
 ```
@@ -265,6 +280,11 @@ dashboard-facing audit is `data/dashboard/observation_projection.json`.
 Candidate claims are explicitly excluded until review promotes them into a
 formal event, relation, follow-up or stock snapshot. Observation projection must
 not read directly from `pipeline_tasks`, `pipeline_runs` or inbox candidates.
+
+`data/dashboard/observations.json` is generated with the same strict gate: no
+promoted claim and no supporting evidence means no Observation card. The
+frontend may read the dashboard file, but it must not treat blocked projection
+rows or inbox candidates as displayable facts.
 
 ## Source
 

@@ -1,4 +1,6 @@
 import { readJsonDir, readJsonFile, DATA_DIR } from "./data-utils.mjs";
+import crypto from "node:crypto";
+import fs from "node:fs/promises";
 import path from "node:path";
 
 const allowedEvidence = new Set(["A", "B", "C", "D"]);
@@ -351,6 +353,9 @@ for (const { file, data } of fetchRuns) {
   if (!allowedFetchStatus.has(data.status)) fail(file, `invalid fetch status "${data.status}"`);
   requireKnownIds(data, file, "artifactIds", rawArtifactIds, "rawArtifactId");
   requireKnownIds(data, file, "claimIds", claimIds, "claimId");
+  if (!Array.isArray(data.attemptLedger) || data.attemptLedger.length === 0) {
+    fail(file, "attemptLedger must be a non-empty array");
+  }
 }
 
 for (const { file, data } of rawArtifacts) {
@@ -364,6 +369,7 @@ for (const { file, data } of rawArtifacts) {
   requireString(data, file, "firstSeenAt");
   requireString(data, file, "capturedAt");
   requireString(data, file, "contentHash");
+  await validateRawPayload(data, file);
   requireKnownIds(data, file, "entityIds", entityIds, "entityId");
   requireKnownIds(data, file, "claimIds", claimIds, "claimId");
 }
@@ -531,6 +537,14 @@ for (const { file, data } of observationRuns) {
       requireKnownIds(row, file, "claimIds", claimIds, "claimId");
       requireKnownIds(row, file, "evidenceIds", evidenceIds, "evidenceId");
       requireKnownIds(row, file, "stateTransitionIds", stateTransitionIds, "stateTransitionId");
+      if (row.status === "projected") {
+        if (!Array.isArray(row.claimIds) || row.claimIds.length === 0) {
+          fail(file, `projected observation "${row.observationId}" must include promoted claimIds`);
+        }
+        if (!Array.isArray(row.evidenceIds) || row.evidenceIds.length === 0) {
+          fail(file, `projected observation "${row.observationId}" must include evidenceIds`);
+        }
+      }
       for (const claimId of row.claimIds || []) {
         const claim = claims.find((item) => item.data.id === claimId)?.data;
         if (claim && (claim.reviewStatus !== "promoted" || !claim.promotedEventIds?.includes(row.eventId))) {
@@ -616,6 +630,40 @@ if (!schedulerState || typeof schedulerState !== "object") {
       fail("data/scheduler/state.json", `unknown lastPipelineTaskId "${sourceState.lastPipelineTaskId}"`);
     }
   }
+}
+
+async function validateRawPayload(rawArtifact, file) {
+  requireString(rawArtifact, file, "storagePath");
+  if (typeof rawArtifact.storagePath !== "string" || rawArtifact.storagePath.trim() === "") return;
+  const payloadPath = path.join(DATA_DIR, rawArtifact.storagePath);
+  let payload;
+  try {
+    payload = JSON.parse(await fs.readFile(payloadPath, "utf8"));
+  } catch {
+    fail(file, `storagePath does not point to a readable raw payload: ${rawArtifact.storagePath}`);
+    return;
+  }
+  if (!payload.content || typeof payload.content !== "object") {
+    fail(file, "raw payload must contain a content object");
+    return;
+  }
+  const expected = `sha256:${crypto.createHash("sha256").update(stableStringify(payload.content)).digest("hex")}`;
+  if (rawArtifact.contentHash !== expected) {
+    fail(file, `contentHash does not match raw payload content hash ${expected}`);
+  }
+}
+
+function stableStringify(value) {
+  if (Array.isArray(value)) {
+    return `[${value.map((item) => stableStringify(item)).join(",")}]`;
+  }
+  if (value && typeof value === "object") {
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`)
+      .join(",")}}`;
+  }
+  return JSON.stringify(value);
 }
 
 if (errors.length > 0) {

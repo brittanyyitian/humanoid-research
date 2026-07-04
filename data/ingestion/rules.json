@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "policy": "Ingestion inference rules are declarative. Code may execute rules but should not own source/artifact classification keywords.",
+  "sourceTypeDefault": "webpage",
+  "artifactTypeDefault": "webpage",
+  "sourceLevelDefault": "A",
+  "sourceTypes": [
+    {
+      "sourceType": "wechat",
+      "textKeywords": ["wechat", "公众号"]
+    },
+    {
+      "sourceType": "pdf",
+      "textKeywords": [".pdf"]
+    },
+    {
+      "sourceType": "exchange",
+      "textKeywords": ["cninfo", "sse.com", "szse.cn", "hkex"]
+    },
+    {
+      "sourceType": "government",
+      "textKeywords": [".gov.cn", "政府", "工信"]
+    },
+    {
+      "sourceType": "news",
+      "textKeywords": ["news", "新闻", "动态"]
+    }
+  ],
+  "artifactTypes": [
+    {
+      "artifactType": "pdf",
+      "textKeywords": [".pdf"]
+    },
+    {
+      "artifactType": "wechat",
+      "textKeywords": ["wechat", "公众号"]
+    },
+    {
+      "artifactType": "filing",
+      "textKeywords": ["cninfo", "sse.com", "szse.cn", "hkex"]
+    },
+    {
+      "artifactType": "product_page",
+      "textKeywords": ["product", "产品", "发布", "参数", "spec", "h2", "g1", "g2"]
+    },
+    {
+      "artifactType": "news_page",
+      "textKeywords": ["news", "新闻", "动态"]
+    }
+  ],
+  "sourceLevels": [
+    {
+      "sourceLevel": "A",
+      "sourceTypes": ["exchange", "government"]
+    },
+    {
+      "sourceLevel": "B",
+      "inputTypes": ["api", "rss"]
+    }
+  ]
+}

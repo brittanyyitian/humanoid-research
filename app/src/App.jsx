@@ -121,6 +121,7 @@ function freshnessLabel(status) {
     missing: "缺失",
     clear: "清",
     needs_review: "待审",
+    has_gaps: "缺口",
     has_failures: "失败",
   };
   return labels[status] || status || "--";

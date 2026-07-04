@@ -322,7 +322,12 @@ const allEventRows = events
 const latestEventRows = allEventRows.slice(0, 8);
 
 function claimsForEvent(eventId) {
-  return (claimsByEventId.get(eventId) || []).slice().sort((a, b) => {
+  return (claimsByEventId.get(eventId) || [])
+    .filter((claim) => {
+      return claim.status === "verified" && claim.reviewStatus === "promoted" && claim.promotedEventIds?.includes(eventId);
+    })
+    .slice()
+    .sort((a, b) => {
     return (
       String(a.processedAt || "").localeCompare(String(b.processedAt || "")) ||
       String(a.id).localeCompare(String(b.id))
@@ -338,12 +343,16 @@ function evidenceForClaim(claimId) {
   return evidenceByClaimId.get(claimId) || [];
 }
 
+function supportingEvidenceForClaim(claimId) {
+  return evidenceForClaim(claimId).filter((row) => ["supports", "updates", "mentions"].includes(row.relation));
+}
+
 function artifactRowsForClaim(claim) {
   return (claim.artifactIds || []).map((artifactId) => rawArtifactById.get(artifactId)).filter(Boolean);
 }
 
 function summarizeEvidence(claimRows) {
-  const rows = claimRows.flatMap((claim) => evidenceForClaim(claim.id));
+  const rows = claimRows.flatMap((claim) => supportingEvidenceForClaim(claim.id));
   const sourceLevelCounts = countBy(rows, (row) => row.sourceLevel);
   const relationCounts = countBy(rows, (row) => row.relation);
   const strongestSourceLevel = rows
@@ -391,7 +400,7 @@ function whyNowForObservation(event, claimRows, transitionRows) {
 }
 
 function claimProjection(claim) {
-  const rows = evidenceForClaim(claim.id);
+  const rows = supportingEvidenceForClaim(claim.id);
   return {
     id: claim.id,
     claimType: claim.claimType,
@@ -501,7 +510,11 @@ function observationRow(event, index, sortedRows) {
 }
 
 const sortedObservationEvents = allEventRows.slice().sort(observationSort);
-const allObservationRows = sortedObservationEvents.map((event, index) =>
+const eligibleObservationEvents = sortedObservationEvents.filter((event) => {
+  const claimRows = claimsForEvent(event.id);
+  return claimRows.length > 0 && claimRows.some((claim) => supportingEvidenceForClaim(claim.id).length > 0);
+});
+const allObservationRows = eligibleObservationEvents.map((event, index) =>
   observationRow(event, index, sortedObservationEvents)
 );
 const todayObservationRows = allObservationRows.filter((row) => row.date === targetDate);
@@ -659,7 +672,8 @@ const market = {
 };
 
 const pendingClaims = claims.filter((claim) => claim.reviewStatus === "inbox" || claim.status === "candidate");
-const fetchFailures = fetchRuns.filter((run) => run.status === "failed" || run.status === "partial");
+const fetchFailures = fetchRuns.filter((run) => run.status === "failed");
+const fetchPartials = fetchRuns.filter((run) => run.status === "partial");
 const schedulerFailures = schedulerRuns.filter((run) => run.status === "failed" || run.status === "partial");
 const latestSchedulerFinishedAt = latestTime(schedulerRuns.map((run) => run.finishedAt));
 const freshnessRows = [
@@ -691,9 +705,14 @@ const freshnessRows = [
     id: "fetch_runs",
     label: "抓取运行",
     lastSeenAt: latestTime(fetchRuns.map((run) => run.finishedAt)),
-    status: fetchFailures.length ? "has_failures" : freshnessStatus(latestTime(fetchRuns.map((run) => run.finishedAt)), 72),
+    status: fetchFailures.length
+      ? "has_failures"
+      : fetchPartials.length
+        ? "has_gaps"
+        : freshnessStatus(latestTime(fetchRuns.map((run) => run.finishedAt)), 72),
     count: fetchRuns.length,
     failedCount: fetchFailures.length,
+    gapCount: fetchPartials.length,
   },
   {
     id: "scheduler",
@@ -710,7 +729,7 @@ const freshness = {
   generatedAt: today.generatedAt,
   policy: "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   rows: freshnessRows,
-  failedSources: fetchFailures.map((run) => ({
+  failedSources: [...fetchFailures, ...fetchPartials].map((run) => ({
     id: run.id,
     sourceName: run.sourceName,
     status: run.status,

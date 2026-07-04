@@ -46,6 +46,24 @@
         },
         "additionalProperties": false
       }
+    },
+    "attemptLedger": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "status", "startedAt", "finishedAt"],
+        "properties": {
+          "kind": { "type": "string" },
+          "inputType": { "type": "string" },
+          "url": { "type": "string" },
+          "status": { "type": "string" },
+          "startedAt": { "type": "string" },
+          "finishedAt": { "type": "string" },
+          "contentHash": { "type": "string" },
+          "storagePath": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

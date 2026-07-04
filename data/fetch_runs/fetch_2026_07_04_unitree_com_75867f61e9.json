@@ -5,7 +5,7 @@
   "sourceType": "ingestion",
   "startedAt": "2026-07-04T16:49:01+08:00",
   "finishedAt": "2026-07-04T16:49:01+08:00",
-  "status": "success",
+  "status": "partial",
   "artifactIds": [
     "raw_2026_07_04_unitree_com_75867f61e9"
   ],
@@ -13,5 +13,23 @@
     "claim_2026_07_04_product_release_5e689f029f"
   ],
   "error": null,
-  "gaps": []
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.unitree.com/cn/H2plus/",
+      "status": "metadata_only",
+      "startedAt": "2026-07-04T16:49:01+08:00",
+      "finishedAt": "2026-07-04T16:49:01+08:00",
+      "contentHash": "sha256:d826317d6a4638ad28c153a33058d03188c099f5f60a71d305b6ad05d3c49996",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_04_unitree_com_75867f61e9.json"
+    }
+  ]
 }
