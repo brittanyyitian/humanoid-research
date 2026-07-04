@@ -1,5 +1,17 @@
 import { useMemo, useState } from "react";
-import { ArrowUpRight, X } from "lucide-react";
+import {
+  ArrowUpRight,
+  Boxes,
+  BriefcaseBusiness,
+  Building2,
+  CalendarDays,
+  ChartNoAxesCombined,
+  Grid3X3,
+  Landmark,
+  Network,
+  Search,
+  X,
+} from "lucide-react";
 
 import companies from "@data/dashboard/companies.json";
 import changeWall from "@data/dashboard/change_wall.json";
@@ -153,6 +165,44 @@ function laneLabel(lane) {
 
 function statusLabel(status) {
   return statusLabels[status] || status || "--";
+}
+
+function weekdayLabel(value) {
+  if (!value) return "--";
+  const date = new Date(`${value}T00:00:00`);
+  const weekdays = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+  return weekdays[date.getDay()] || "--";
+}
+
+function compactTime(value) {
+  if (!value) return "--";
+  const text = String(value);
+  if (text.includes("T")) return text.slice(11, 16);
+  return text.slice(0, 5);
+}
+
+function firstMarketRow(change) {
+  return change?.marketContext?.[0] || null;
+}
+
+function LaneIcon({ lane, size = 16 }) {
+  const props = { size, strokeWidth: 2 };
+  if (lane === "product") return <Boxes {...props} />;
+  if (lane === "company") return <Building2 {...props} />;
+  if (lane === "supply_chain") return <Network {...props} />;
+  if (lane === "policy") return <Landmark {...props} />;
+  if (lane === "market") return <ChartNoAxesCombined {...props} />;
+  return <BriefcaseBusiness {...props} />;
+}
+
+function MiniSparkline({ value }) {
+  const positive = typeof value === "number" && value >= 0;
+  const points = positive ? "2,24 20,18 38,20 56,11 74,14 92,6" : "2,8 20,13 38,10 56,18 74,16 92,24";
+  return (
+    <svg className={`mini-sparkline ${positive ? "rise" : "fall"}`} viewBox="0 0 94 30" aria-hidden="true">
+      <polyline points={points} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
 }
 
 function stockFromCompany(company) {
@@ -593,20 +643,92 @@ function DataGapStrip({ setView }) {
 
 function Dashboard({ setView, openCompany, openEvidence }) {
   const rows = changeWall.rows || [];
-  const [selectedChangeId, setSelectedChangeId] = useState(rows[0]?.id || null);
-  const selectedChange = rows.find((row) => row.id === selectedChangeId) || rows[0] || null;
   const timelineRows = changeWall.timelineDates || [];
-  const objectCards = changeWall.objectCards || [];
   const laneRows = changeWall.lanes || [];
   const marketChanges = changeWall.marketChanges || [];
   const verificationRows = changeWall.verificationQueue || [];
-  const policyText = "只并排展示变化，不解释因果";
+  const [selectedDate, setSelectedDate] = useState(timelineRows[0]?.date || rows[0]?.date || changeWall.date);
+  const [selectedChangeId, setSelectedChangeId] = useState(rows[0]?.id || null);
+  const [activeLane, setActiveLane] = useState("all");
+  const [activeRange, setActiveRange] = useState(30);
+  const [searchTerm, setSearchTerm] = useState("");
+  const latestDate = timelineRows[0]?.date || rows[0]?.date || changeWall.date;
+  const laneFilterRows = [{ id: "all", label: "全部", count: rows.length }, ...laneRows];
+  const visibleLaneRows = activeLane === "all" ? laneRows : laneRows.filter((lane) => lane.id === activeLane);
+  const rangeOptions = [
+    { label: "7天", value: 7 },
+    { label: "30天", value: 30 },
+    { label: "90天", value: 90 },
+    { label: "180天", value: 180 },
+    { label: "全部", value: "all" },
+  ];
+
+  const filteredRows = useMemo(() => {
+    const keyword = searchTerm.trim().toLowerCase();
+    const latest = latestDate ? new Date(`${latestDate}T00:00:00`) : null;
+
+    return rows.filter((row) => {
+      if (activeLane !== "all" && row.lane !== activeLane) return false;
+      if (activeRange !== "all" && latest && row.date) {
+        const current = new Date(`${row.date}T00:00:00`);
+        const diffDays = (latest - current) / 86400000;
+        if (diffDays > activeRange) return false;
+      }
+      if (!keyword) return true;
+      const haystack = [
+        row.objectName,
+        row.title,
+        row.change,
+        row.entityNames?.join(" "),
+        row.sources?.map((source) => `${source.title} ${source.publisher}`).join(" "),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return haystack.includes(keyword);
+    });
+  }, [activeLane, activeRange, latestDate, rows, searchTerm]);
+
+  const dateRows = useMemo(() => {
+    const timelineDates = timelineRows.length
+      ? timelineRows.map((row) => row.date)
+      : Array.from(new Set(rows.map((row) => row.date).filter(Boolean)));
+    return timelineDates
+      .map((date) => {
+        const changes = filteredRows.filter((row) => row.date === date);
+        return { date, total: changes.length };
+      })
+      .filter((row) => row.total > 0 || !searchTerm.trim())
+      .slice(0, 12);
+  }, [filteredRows, rows, searchTerm, timelineRows]);
+
+  const activeDate = dateRows.some((row) => row.date === selectedDate) ? selectedDate : dateRows[0]?.date || selectedDate;
+  const selectedDateChanges = filteredRows.filter((row) => row.date === activeDate);
+  const selectedChange =
+    filteredRows.find((row) => row.id === selectedChangeId) || selectedDateChanges[0] || filteredRows[0] || null;
+  const relatedSameDay = rows
+    .filter((row) => row.date === selectedChange?.date && row.id !== selectedChange?.id)
+    .slice(0, 3);
+  const selectedMarketChanges = selectedDateChanges.filter((row) => row.lane === "market");
+  const selectedMarketRows = selectedMarketChanges.map(firstMarketRow).filter(Boolean);
+  const allMarketRows = (market.rows || []).length ? market.rows : marketChanges.map(firstMarketRow).filter(Boolean);
+  const marketRowsForOverview = selectedMarketRows.length ? selectedMarketRows : allMarketRows;
+  const topMarketRows = marketRowsForOverview
+    .slice()
+    .sort((a, b) => (b.changePct || 0) - (a.changePct || 0))
+    .slice(0, 5);
+  const marketGainers = marketRowsForOverview.filter((row) => (row.changePct || 0) > 0).length;
+  const marketFallers = marketRowsForOverview.filter((row) => (row.changePct || 0) < 0).length;
+  const keyChanges = selectedDateChanges.filter((row) => row.lane !== "market").slice(0, 3);
+  const keyChangeRows = keyChanges.length ? keyChanges : selectedDateChanges.slice(0, 4);
 
   const selectChange = (change) => {
     setSelectedChangeId(change.id);
+    if (change.date) setSelectedDate(change.date);
   };
 
   const openChangeEvidence = (change) => {
+    const evidenceRows = change.evidence || [];
     openEvidence({
       title: change.title,
       fact: change.change,
@@ -615,10 +737,10 @@ function Dashboard({ setView, openCompany, openEvidence }) {
       evidenceLevel: change.evidenceLevel,
       entityNames: change.entityNames,
       sources: change.sources || [],
-      evidenceSummary: change.evidence?.length
+      evidenceSummary: evidenceRows.length
         ? {
             claimCount: change.sourceType === "claim" ? 1 : 0,
-            evidenceCount: change.evidence.length,
+            evidenceCount: evidenceRows.length,
             strongestSourceLevel: change.evidenceLevel,
           }
         : null,
@@ -627,81 +749,152 @@ function Dashboard({ setView, openCompany, openEvidence }) {
 
   return (
     <div className="change-wall-page">
-      <section className="change-wall-hero">
+      <section className="change-wall-hero compact">
         <div>
-          <span>Change Wall</span>
-          <h2>变化观察终端</h2>
-          <p>{policyText}。产品、公司、产业链、政策和股票变化按同一时间轴摆在一起。</p>
+          <span>{activeDate || changeWall.date}</span>
+          <h2>时间轴</h2>
         </div>
-        <div className="change-wall-actions">
-          <button onClick={() => setView("timeline")}>时间轴</button>
-          <button onClick={() => setView("database")}>数据库</button>
+        <div className="change-search">
+          <Search size={16} />
+          <input
+            value={searchTerm}
+            onChange={(event) => setSearchTerm(event.target.value)}
+            placeholder="搜索公司 / 产品 / 事件 / 股票"
+            aria-label="搜索变化"
+          />
         </div>
       </section>
 
-      <section className="change-wall-metrics" aria-label="变化概览">
-        <OverviewItem label="变化块" value={changeWall.summary?.totalChanges || 0} note={changeWall.date} />
-        <OverviewItem label="对象卡" value={changeWall.summary?.objectCards || 0} note="公司/对象" />
-        <OverviewItem label="市场变化" value={changeWall.summary?.marketChanges || 0} note="只展示事实" />
-        <OverviewItem label="待验证" value={changeWall.summary?.pendingVerification || 0} note="不自动确认" />
+      <section className="change-toolbar" aria-label="变化筛选">
+        <div className="range-tabs">
+          <button aria-label="回到今天" onClick={() => setSelectedDate(dateRows[0]?.date || latestDate)}>
+            <CalendarDays size={15} />
+          </button>
+          {rangeOptions.map((option) => (
+            <button
+              key={option.label}
+              className={activeRange === option.value ? "active" : ""}
+              onClick={() => setActiveRange(option.value)}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="lane-tabs">
+          {laneFilterRows.map((lane) => (
+            <button
+              key={lane.id}
+              className={activeLane === lane.id ? "active" : ""}
+              onClick={() => setActiveLane(lane.id)}
+            >
+              {lane.id === "all" ? <Grid3X3 size={14} /> : <LaneIcon lane={lane.id} size={14} />}
+              {lane.label}
+            </button>
+          ))}
+        </div>
       </section>
 
       {rows.length ? (
-        <section className="change-wall-grid">
-          <div className="change-wall-board">
-            <div className="change-wall-head">
-              <div>时间</div>
-              {laneRows.map((lane) => (
-                <div key={lane.id}>
-                  <span className={`lane-dot lane-${lane.id}`} />
-                  {lane.label}
-                </div>
-              ))}
+        <section className="change-terminal-layout">
+          <aside className="date-rail" aria-label="日期轴">
+            <div className="date-rail-title">
+              <span>今天</span>
+              <CalendarDays size={15} />
             </div>
-
-            <div className="change-wall-rows">
-              {timelineRows.map((dateRow) => (
-                <div className="change-wall-row" key={dateRow.date}>
-                  <div className="time-cell">
+            <div className="date-rail-line">
+              {dateRows.length ? (
+                dateRows.map((dateRow) => (
+                  <button
+                    key={dateRow.date}
+                    className={activeDate === dateRow.date ? "active" : ""}
+                    onClick={() => {
+                      setSelectedDate(dateRow.date);
+                      const first = filteredRows.find((row) => row.date === dateRow.date);
+                      if (first) setSelectedChangeId(first.id);
+                    }}
+                  >
+                    <i />
                     <strong>{datePart(dateRow.date)}</strong>
-                    <span>{dateRow.total} 个变化</span>
-                  </div>
-                  {laneRows.map((lane) => {
-                    const laneChanges = dateRow.lanes?.[lane.id] || [];
-                    return (
-                      <div className="lane-cell" key={`${dateRow.date}_${lane.id}`}>
-                        {laneChanges.length ? (
-                          laneChanges.map((change) => (
-                            <button
-                              key={change.id}
-                              className={`change-chip ${selectedChange?.id === change.id ? "active" : ""}`}
-                              onClick={() => selectChange(change)}
-                            >
-                              <small>{change.objectName}</small>
-                              <strong>{change.title}</strong>
-                              <span>
-                                {change.evidenceLevel || "--"}级 · {statusLabel(change.status)}
-                              </span>
-                            </button>
-                          ))
-                        ) : (
-                          <span className="lane-empty">—</span>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              ))}
+                    <span>{weekdayLabel(dateRow.date)}</span>
+                    <small>{dateRow.total} 个变化</small>
+                  </button>
+                ))
+              ) : (
+                <EmptyState>暂无匹配日期</EmptyState>
+              )}
             </div>
+            <button className="load-more-date" onClick={() => setActiveRange("all")}>
+              加载更多
+            </button>
+          </aside>
+
+          <div className="change-lane-board">
+            {visibleLaneRows.map((lane) => {
+              const laneChanges = selectedDateChanges.filter((change) => change.lane === lane.id);
+              return (
+                <section className={`change-lane lane-tone-${lane.id}`} key={lane.id}>
+                  <header>
+                    <div>
+                      <span className={`lane-dot lane-${lane.id}`} />
+                      <h3>
+                        <LaneIcon lane={lane.id} size={16} />
+                        {lane.label}
+                      </h3>
+                    </div>
+                  </header>
+
+                  <div className="change-card-stack">
+                    {laneChanges.length ? (
+                      laneChanges.slice(0, 4).map((change) => {
+                        const source = firstSource(change);
+                        const marketRow = firstMarketRow(change);
+                        return (
+                          <button
+                            key={change.id}
+                            className={`change-card ${selectedChange?.id === change.id ? "active" : ""}`}
+                            onClick={() => selectChange(change)}
+                          >
+                            <span className="change-card-dot" />
+                            <strong>{change.objectName}</strong>
+                            <b>{change.title}</b>
+                            {change.lane === "market" && marketRow ? (
+                              <div className="change-stock-snapshot">
+                                <em className={changeClass(marketRow.changePct)}>{formatPct(marketRow.changePct)}</em>
+                                <MiniSparkline value={marketRow.changePct} />
+                              </div>
+                            ) : null}
+                            <footer>
+                              <span>
+                                {source?.publisher || source?.title || "来源待补"} · {compactTime(change.time)} ·{" "}
+                                {change.evidenceLevel || "--"}级/{statusLabel(change.status)}
+                              </span>
+                            </footer>
+                          </button>
+                        );
+                      })
+                    ) : (
+                      <div className="lane-empty-card">—</div>
+                    )}
+                  </div>
+
+                  <button className="lane-more" onClick={() => setActiveLane(lane.id)}>
+                    查看更多 ({lane.count || laneChanges.length})
+                  </button>
+                </section>
+              );
+            })}
           </div>
 
           <aside className="change-detail-panel">
             {selectedChange ? (
               <>
+                <button className="detail-close" aria-label="关闭详情">
+                  <X size={16} />
+                </button>
                 <span className="detail-kicker">{selectedChange.date} · {laneLabel(selectedChange.lane)}</span>
                 <h3>{selectedChange.objectName}</h3>
                 <strong>{selectedChange.title}</strong>
-                <p>{selectedChange.change}</p>
                 <div className="detail-meta-grid">
                   <div>
                     <span>证据</span>
@@ -715,15 +908,37 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                     <span>时间</span>
                     <b>{formatTime(selectedChange.time)}</b>
                   </div>
+                  <div>
+                    <span>来源</span>
+                    <b>{firstSource(selectedChange)?.publisher || firstSource(selectedChange)?.title || "--"}</b>
+                  </div>
                 </div>
+                {selectedChange.sources?.length ? (
+                  <section>
+                    <small>证据来源</small>
+                    <div className="detail-source-list">
+                      {selectedChange.sources.slice(0, 3).map((source) => (
+                        <a key={source.id || source.url} href={source.url} target="_blank" rel="noreferrer">
+                          <span>{source.publisher || source.sourceType || "来源"}</span>
+                          <strong>{source.title}</strong>
+                        </a>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
                 {selectedChange.marketContext?.length ? (
                   <section>
                     <small>并排市场变化</small>
                     <div className="detail-stock-list">
                       {selectedChange.marketContext.slice(0, 3).map((row) => (
                         <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
-                          <span>{row.company}</span>
+                          <span>
+                            {row.company} · {stockCodeText(row)}
+                          </span>
                           <b className={changeClass(row.changePct)}>{formatPct(row.changePct)}</b>
+                          <small>
+                            {formatValue(row.price)} · 成交额 {formatValue(row.turnoverAmount)}
+                          </small>
                         </button>
                       ))}
                     </div>
@@ -735,6 +950,29 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                     <div className="detail-check-list">
                       {selectedChange.verificationItems.slice(0, 4).map((item) => (
                         <span key={item.id}>{item.subject}</span>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+                {selectedChange.entityNames?.length ? (
+                  <section>
+                    <small>关联对象</small>
+                    <div className="object-pill-list">
+                      {selectedChange.entityNames.map((name) => (
+                        <span key={name}>{name}</span>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+                {relatedSameDay.length ? (
+                  <section>
+                    <small>同日事件</small>
+                    <div className="related-day-list">
+                      {relatedSameDay.map((row) => (
+                        <button key={row.id} onClick={() => selectChange(row)}>
+                          <span>{datePart(row.date)} · {laneLabel(row.lane)}</span>
+                          <strong>{row.title}</strong>
+                        </button>
                       ))}
                     </div>
                   </section>
@@ -755,73 +993,61 @@ function Dashboard({ setView, openCompany, openEvidence }) {
         <EmptyState>暂无可展示变化。请先生成 Change Wall 数据。</EmptyState>
       )}
 
-      <section className="object-change-section">
-        <header>
-          <div>
-            <span>对象变化卡</span>
-            <h3>对象 = 变化容器</h3>
-          </div>
-          <small>系统只聚合，不解释关系</small>
-        </header>
-        <div className="object-card-grid">
-          {objectCards.length ? (
-            objectCards.slice(0, 6).map((card) => (
-              <article key={card.id} className="object-change-card">
-                <button className="object-card-title" onClick={() => card.entityId && openCompany(card.entityId)}>
-                  <span>{formatTime(card.lastChangedAt)}</span>
-                  <strong>{card.name}</strong>
-                </button>
-                <div className="object-lanes">
-                  {laneRows.map((lane) => {
-                    const first = card.lanes?.[lane.id]?.[0];
-                    return (
-                      <div key={lane.id}>
-                        <small>{lane.label}</small>
-                        <span>{first ? first.title : "—"}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-                <footer>
-                  <span>{card.strongestEvidenceLevel || "--"}级证据</span>
-                  <span>{card.verificationItems?.length || 0} 待验证</span>
-                </footer>
-              </article>
-            ))
-          ) : (
-            <EmptyState>暂无对象变化卡</EmptyState>
-          )}
-        </div>
-      </section>
-
-      <section className="change-bottom-grid">
+      <section className="change-bottom-grid terminal-bottom">
         <div className="change-mini-panel">
           <header>
-            <span>股票变化</span>
-            <strong>市场只是并排信号</strong>
+            <span>关键变化 (24h)</span>
+            <strong>{activeDate || changeWall.date}</strong>
           </header>
-          <div className="market-change-list">
-            {marketChanges.slice(0, 6).map((change) => {
-              const row = change.marketContext?.[0] || {};
-              return (
+          <div className="key-change-list">
+            {keyChangeRows.length ? (
+              keyChangeRows.map((change) => (
                 <button key={change.id} onClick={() => selectChange(change)}>
-                  <span>{change.objectName}</span>
-                  <b className={changeClass(row.changePct)}>{formatPct(row.changePct)}</b>
-                  <small>{formatValue(row.turnoverAmount)}</small>
+                  <span>{laneLabel(change.lane)}</span>
+                  <strong>{change.title}</strong>
+                  <small>
+                    {change.evidenceLevel || "--"}级 · {statusLabel(change.status)} · {compactTime(change.time)}
+                  </small>
                 </button>
-              );
-            })}
+              ))
+            ) : (
+              <EmptyState>当前筛选无关键变化</EmptyState>
+            )}
+          </div>
+        </div>
+
+        <div className="change-mini-panel market-overview-panel">
+          <header>
+            <span>市场概览 ({activeDate || market.date})</span>
+            <strong>股票市场</strong>
+          </header>
+          <div className="market-stat-grid">
+            <OverviewItem label="样本" value={marketRowsForOverview.length || 0} note="Watchlist" />
+            <OverviewItem label="上涨" value={marketGainers} note="只计已抓取" />
+            <OverviewItem label="下跌" value={marketFallers} note="只计已抓取" />
+            <OverviewItem label="更新时间" value={datePart(market.generatedAt || market.date)} note={market.date} />
+          </div>
+          <div className="market-top-list">
+            {topMarketRows.map((row, index) => (
+              <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
+                <span>{index + 1}</span>
+                <strong>{row.company}</strong>
+                <small>{stockCodeText(row)}</small>
+                <MiniSparkline value={row.changePct} />
+                <b className={changeClass(row.changePct)}>{formatPct(row.changePct)}</b>
+              </button>
+            ))}
           </div>
         </div>
 
         <div className="change-mini-panel">
           <header>
-            <span>待验证</span>
-            <strong>只提示缺口</strong>
+            <span>待验证事项</span>
+            <strong>{verificationRows.length}</strong>
           </header>
           <div className="verify-list">
             {verificationRows.length ? (
-              verificationRows.slice(0, 6).map((item) => (
+              verificationRows.slice(0, 5).map((item) => (
                 <button
                   key={item.id}
                   onClick={() =>
@@ -837,6 +1063,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 >
                   <span>{item.entityNames?.join(" / ") || "未绑定对象"}</span>
                   <strong>{item.subject}</strong>
+                  <small>{statusLabel(item.status)}</small>
                 </button>
               ))
             ) : (
@@ -845,6 +1072,13 @@ function Dashboard({ setView, openCompany, openEvidence }) {
           </div>
         </div>
       </section>
+
+      <footer className="change-wall-footnote">
+        <span>数据更新：{formatTime(changeWall.generatedAt)}</span>
+        <span>仅展示事实变化</span>
+        <button onClick={() => setView("database")}>数据源</button>
+        <button onClick={() => setView("timeline")}>完整时间轴</button>
+      </footer>
     </div>
   );
 }
@@ -1343,9 +1577,9 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <div>
-          <span className="eyebrow">国内人形机器人产业</span>
+        <div className="brand-lockup">
           <h1>研究终端</h1>
+          <span className="eyebrow">人形机器人产业观察</span>
         </div>
         <div className="topbar-meta">
           <span>{today.date}</span>
