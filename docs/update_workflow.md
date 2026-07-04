@@ -40,6 +40,37 @@ Before adding a fact:
 
 If validation fails, the fact should not appear in Dashboard.
 
+## V2.2 Hardening Gate
+
+Run hardening before treating the pipeline as stable:
+
+```bash
+npm run hardening:check
+```
+
+For full machine-readable output:
+
+```bash
+npm run hardening:check -- --json
+```
+
+The hardening gate is read-only and checks:
+
+```text
+router replay
+dedup
+ingestion idempotency
+pipeline idempotency
+observation replay
+contamination
+claim lifecycle
+failure recovery
+rule isolation
+```
+
+`npm run check` runs validation, hardening, then build. A hardening error means
+the system may be producing unstable or polluted research data.
+
 ## V2.1 Ingestion Entry
 
 Use ingestion as the unified entry layer for URL/RSS/API/manual inputs. It turns

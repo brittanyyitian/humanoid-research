@@ -8,7 +8,8 @@ export async function loadRouterContext() {
   const entityById = new Map(entities.map((entity) => [entity.id, entity]));
   const pipelineMap = await readJsonFile(path.join(DATA_DIR, "pipelines", "pipeline_map.json"));
   const pipelineByType = new Map((pipelineMap.routes || []).map((route) => [route.type, route.pipeline]));
-  return { entities, entityById, pipelineByType };
+  const routerRules = await readJsonFile(path.join(DATA_DIR, "router", "rules.json"));
+  return { entities, entityById, pipelineByType, routerRules };
 }
 
 export async function readExistingRoutes() {
@@ -35,44 +36,21 @@ export function routeArtifact(artifact, context, { createdAt = nowShanghai() } =
     signals.push({ field, value: String(value), reason });
   }
 
-  let type = "event";
-  let confidence = "low";
-  let reason = "Default route for general event-like official material.";
+  const match = matchRouteRule(artifact, text, entityRows, context.routerRules);
+  let type = match.type;
+  let confidence = match.confidence;
+  let reason = match.reason;
+  add(match.signal.field, signalValue(match.signal.field, artifact, primaryEntity), match.signal.reason);
 
-  if (artifact.artifactType === "filing" || hasAny(text, ["cninfo", "sse.com", "szse.cn", "hkex", "sec.gov", "公告", "财报"])) {
-    type = "filing";
-    confidence = "high";
-    reason = "Artifact looks like a formal filing or exchange announcement.";
-    add("artifact", artifact.artifactType, "filing artifact or disclosure keyword");
-  } else if (isPolicy(text, artifact.publisher)) {
-    type = "policy";
-    confidence = "high";
-    reason = "Publisher or title matches government policy material.";
-    add("publisher/title", artifact.publisher, "government or policy signal");
-  } else if (artifact.artifactType === "product_page" || hasAny(text, ["产品", "product", "发布", "release", "参数", "spec", "h2", "g1", "g2"])) {
-    type = "product";
-    confidence = artifact.artifactType === "product_page" ? "high" : "medium";
-    reason = "Artifact contains product page or launch/specification signals.";
-    add("artifact/title", `${artifact.artifactType} ${artifact.title}`, "product release/spec signal");
-  } else if (entityRows.some((entity) => entity.kind === "supply_chain") || hasAny(text, ["供应链", "传感器", "减速器", "丝杠", "执行器", "灵巧手"])) {
-    type = "supply_chain";
-    confidence = entityRows.some((entity) => entity.kind === "supply_chain") ? "high" : "medium";
-    reason = "Artifact is tied to a supply-chain entity or component keyword.";
-    add("entity/title", primaryEntity.name, "supply-chain signal");
-  } else if (hasAny(text, ["新闻", "动态", "公司", "融资", "生态", "合作"])) {
-    type = "company";
-    confidence = "medium";
-    reason = "Artifact looks like company official news or corporate update.";
-    add("title", artifact.title, "company update signal");
-  } else {
-    add("fallback", artifact.artifactType, "no stronger route matched");
-  }
-
-  if (hasAny(text, ["下线", "交付", "大会", "展会", "发布会", "里程碑", "部署"])) {
-    type = type === "product" ? "product" : "event";
-    confidence = confidence === "low" ? "medium" : confidence;
-    reason = type === "product" ? reason : "Artifact contains event, delivery or milestone signals.";
-    add("title", artifact.title, "event/milestone signal");
+  const override = context.routerRules.eventOverride || {};
+  if (hasAny(text, override.keywords || [])) {
+    const preserveTypes = new Set(override.preserveTypes || []);
+    if (!preserveTypes.has(type)) {
+      type = override.type;
+      confidence = confidence === "low" ? override.minimumConfidence || "medium" : confidence;
+      reason = override.reason;
+    }
+    add(override.signal?.field || "title", signalValue(override.signal?.field, artifact, primaryEntity), override.signal?.reason || "event signal");
   }
 
   const pipeline = context.pipelineByType.get(type);
@@ -90,7 +68,7 @@ export function routeArtifact(artifact, context, { createdAt = nowShanghai() } =
     confidence,
     reason,
     matchedSignals: signals,
-    sourceKind: sourceKindFor(artifact, text),
+    sourceKind: sourceKindFor(artifact, text, context.routerRules),
     status: pipeline ? "routed" : "needs_review",
     createdAt,
     nextAction: pipeline ? `run ${pipeline}` : "manual route review",
@@ -124,26 +102,56 @@ export function hash(value, length) {
   return crypto.createHash("sha256").update(value).digest("hex").slice(0, length);
 }
 
-function isPolicy(text, publisher) {
-  const publisherText = String(publisher || "").toLowerCase();
-  return (
-    hasAny(text, ["政策", "通知", "意见", "方案", "办法", "申报", "补贴"]) ||
-    hasAny(publisherText, ["政府", "工信", "发改", "科技部", "miit", "ndrc"]) ||
-    text.includes(".gov.cn")
-  );
+function matchRouteRule(artifact, text, entityRows, routerRules) {
+  for (const rule of routerRules.routes || []) {
+    if (!matchesRule(rule, artifact, text, entityRows)) continue;
+    const artifactTypeMatched = (rule.artifactTypes || []).includes(artifact.artifactType);
+    const entityKindMatched = entityRows.some((entity) => (rule.entityKinds || []).includes(entity.kind));
+    return {
+      type: rule.type,
+      confidence:
+        (artifactTypeMatched && rule.artifactTypeConfidence) ||
+        (entityKindMatched && rule.entityKindConfidence) ||
+        rule.confidence,
+      reason: rule.reason,
+      signal: rule.signal || { field: "rule", reason: `${rule.type} rule matched` },
+    };
+  }
+
+  const fallback = routerRules.defaultRoute || {};
+  return {
+    type: fallback.type || "event",
+    confidence: fallback.confidence || "low",
+    reason: fallback.reason || "Default route.",
+    signal: fallback.signal || { field: "fallback", reason: "no stronger route matched" },
+  };
 }
 
-function sourceKindFor(artifact, text) {
-  if (artifact.artifactType === "filing" || hasAny(text, ["cninfo", "sse.com", "szse.cn", "hkex", "sec.gov"])) return "filing";
-  if (artifact.artifactType === "market_quote") return "market";
-  if (isPolicy(text, artifact.publisher)) return "official";
-  if (hasAny(String(artifact.publisher || "").toLowerCase(), ["公司", "科技", "robot", "robotics", "inc", "ltd"])) {
-    return "official";
+function sourceKindFor(artifact, text, routerRules) {
+  for (const rule of routerRules.sourceKinds || []) {
+    if (matchesRule(rule, artifact, text, [])) return rule.kind;
   }
-  if (hasAny(text, ["wechat", "公众号"])) return "social";
-  if (hasAny(text, ["media", "news", "新闻"])) return "media";
-  if (artifact.fetchRunId?.includes("manual") || artifact.url?.startsWith("http")) return "official";
-  return "unknown";
+  return routerRules.defaultSourceKind || "unknown";
+}
+
+function matchesRule(rule, artifact, text, entityRows) {
+  const publisherText = String(artifact.publisher || "").toLowerCase();
+  if ((rule.artifactTypes || []).includes(artifact.artifactType)) return true;
+  if (hasAny(text, rule.textKeywords || [])) return true;
+  if (hasAny(publisherText, rule.publisherKeywords || [])) return true;
+  if ((rule.entityKinds || []).some((kind) => entityRows.some((entity) => entity.kind === kind))) return true;
+  if ((rule.urlPrefixes || []).some((prefix) => String(artifact.url || "").startsWith(prefix))) return true;
+  return false;
+}
+
+function signalValue(field, artifact, primaryEntity) {
+  if (field === "artifact") return artifact.artifactType;
+  if (field === "publisher/title") return artifact.publisher;
+  if (field === "artifact/title") return `${artifact.artifactType} ${artifact.title}`;
+  if (field === "entity/title") return primaryEntity.name;
+  if (field === "title") return artifact.title;
+  if (field === "fallback") return artifact.artifactType;
+  return field || "matched";
 }
 
 function hasAny(value, needles) {

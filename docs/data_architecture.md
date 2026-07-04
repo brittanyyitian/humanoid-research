@@ -205,6 +205,32 @@ The route decision shape must include the user-facing minimum:
 Full decisions are stored under `data/route_decisions/` and the configured
 mapping lives in `data/pipelines/pipeline_map.json`.
 
+Router classification rules live in `data/router/rules.json`. Code executes
+those rules; route keywords and source-kind rules should not drift back into
+imperative code.
+
+## Hardening Boundary
+
+Hardening is the v2.2 stabilization gate:
+
+```text
+full replay
+dedup
+contamination check
+lifecycle check
+recovery check
+rule isolation
+```
+
+The hardening command is:
+
+```bash
+npm run hardening:check
+```
+
+It is read-only. It must not write facts, dashboard projections, run records or
+inbox items. `npm run check` includes this gate.
+
 ## Pipeline Task Boundary
 
 `pipeline_tasks` are durable handoff records created by ingestion after routing.

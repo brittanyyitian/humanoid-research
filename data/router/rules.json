@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T17:10:00+08:00",
+  "policy": "Router classification rules are declarative. Code may execute rules but should not own route keyword lists.",
+  "defaultRoute": {
+    "type": "event",
+    "confidence": "low",
+    "reason": "Default route for general event-like official material.",
+    "signal": {
+      "field": "fallback",
+      "reason": "no stronger route matched"
+    }
+  },
+  "routes": [
+    {
+      "type": "filing",
+      "confidence": "high",
+      "reason": "Artifact looks like a formal filing or exchange announcement.",
+      "artifactTypes": ["filing"],
+      "textKeywords": ["cninfo", "sse.com", "szse.cn", "hkex", "sec.gov", "公告", "财报"],
+      "signal": {
+        "field": "artifact",
+        "reason": "filing artifact or disclosure keyword"
+      }
+    },
+    {
+      "type": "policy",
+      "confidence": "high",
+      "reason": "Publisher or title matches government policy material.",
+      "textKeywords": ["政策", "通知", "意见", "方案", "办法", "申报", "补贴", ".gov.cn"],
+      "publisherKeywords": ["政府", "工信", "发改", "科技部", "miit", "ndrc"],
+      "signal": {
+        "field": "publisher/title",
+        "reason": "government or policy signal"
+      }
+    },
+    {
+      "type": "product",
+      "confidence": "medium",
+      "artifactTypeConfidence": "high",
+      "reason": "Artifact contains product page or launch/specification signals.",
+      "artifactTypes": ["product_page"],
+      "textKeywords": ["产品", "product", "发布", "release", "参数", "spec", "h2", "g1", "g2"],
+      "signal": {
+        "field": "artifact/title",
+        "reason": "product release/spec signal"
+      }
+    },
+    {
+      "type": "supply_chain",
+      "confidence": "medium",
+      "entityKindConfidence": "high",
+      "reason": "Artifact is tied to a supply-chain entity or component keyword.",
+      "entityKinds": ["supply_chain"],
+      "textKeywords": ["供应链", "传感器", "减速器", "丝杠", "执行器", "灵巧手"],
+      "signal": {
+        "field": "entity/title",
+        "reason": "supply-chain signal"
+      }
+    },
+    {
+      "type": "company",
+      "confidence": "medium",
+      "reason": "Artifact looks like company official news or corporate update.",
+      "textKeywords": ["新闻", "动态", "公司", "融资", "生态", "合作"],
+      "signal": {
+        "field": "title",
+        "reason": "company update signal"
+      }
+    }
+  ],
+  "eventOverride": {
+    "keywords": ["下线", "交付", "大会", "展会", "发布会", "里程碑", "部署"],
+    "preserveTypes": ["product"],
+    "type": "event",
+    "minimumConfidence": "medium",
+    "reason": "Artifact contains event, delivery or milestone signals.",
+    "signal": {
+      "field": "title",
+      "reason": "event/milestone signal"
+    }
+  },
+  "sourceKinds": [
+    {
+      "kind": "filing",
+      "artifactTypes": ["filing"],
+      "textKeywords": ["cninfo", "sse.com", "szse.cn", "hkex", "sec.gov"]
+    },
+    {
+      "kind": "market",
+      "artifactTypes": ["market_quote"]
+    },
+    {
+      "kind": "official",
+      "textKeywords": ["政策", "通知", "意见", "方案", "办法", "申报", "补贴", ".gov.cn"],
+      "publisherKeywords": ["政府", "工信", "发改", "科技部", "miit", "ndrc"]
+    },
+    {
+      "kind": "official",
+      "publisherKeywords": ["公司", "科技", "robot", "robotics", "inc", "ltd"]
+    },
+    {
+      "kind": "social",
+      "textKeywords": ["wechat", "公众号"]
+    },
+    {
+      "kind": "media",
+      "textKeywords": ["media", "news", "新闻"]
+    },
+    {
+      "kind": "official",
+      "urlPrefixes": ["http"]
+    }
+  ],
+  "defaultSourceKind": "unknown"
+}
