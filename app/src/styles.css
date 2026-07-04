@@ -243,7 +243,7 @@ main {
 .terminal-strip {
   align-items: center;
   display: flex;
-  gap: 8px;
+  gap: 10px;
   justify-content: space-between;
   min-width: 0;
 }
@@ -276,8 +276,8 @@ main {
   border-radius: 999px;
   display: flex;
   gap: 6px;
-  flex: 1 1 220px;
-  min-width: 180px;
+  flex: 0 1 340px;
+  min-width: 220px;
   padding: 6px 10px;
 }
 
@@ -304,7 +304,7 @@ main {
 }
 
 .lane-tabs {
-  flex: 2 1 420px;
+  flex: 1 1 auto;
   justify-content: flex-end;
   overflow-x: auto;
 }
@@ -340,12 +340,11 @@ main {
 .change-terminal-layout {
   align-items: start;
   display: grid;
-  gap: 8px;
-  grid-template-columns: 96px minmax(0, 1fr) 284px;
+  gap: 14px;
+  grid-template-columns: 112px minmax(0, 1fr);
 }
 
 .date-rail,
-.change-lane,
 .change-detail-panel,
 .change-mini-panel {
   background: #fff;
@@ -354,10 +353,11 @@ main {
 }
 
 .date-rail {
-  background: #fff;
+  background: transparent;
+  border: 0;
   display: grid;
   gap: 0;
-  padding: 8px 8px;
+  padding: 2px 0;
   position: sticky;
   top: 18px;
 }
@@ -370,11 +370,11 @@ main {
 
 .date-rail-line::before {
   background: #d9d9d9;
-  bottom: 12px;
+  bottom: 10px;
   content: "";
-  left: 10px;
+  left: 7px;
   position: absolute;
-  top: 12px;
+  top: 10px;
   width: 1px;
 }
 
@@ -384,9 +384,9 @@ main {
   cursor: pointer;
   display: grid;
   gap: 1px;
-  grid-template-columns: 18px minmax(0, 1fr);
-  min-height: 58px;
-  padding: 4px 0;
+  grid-template-columns: 18px minmax(0, 1fr) auto;
+  min-height: 38px;
+  padding: 2px 0;
   position: relative;
   text-align: left;
 }
@@ -397,11 +397,11 @@ main {
   border: 2px solid #fff;
   border-radius: 999px;
   box-shadow: 0 0 0 1px #d9d9d9;
-  grid-row: 1 / span 3;
-  height: 10px;
-  margin: 4px 0 0 6px;
+  grid-row: 1 / span 2;
+  height: 8px;
+  margin: 4px 0 0 3px;
   position: relative;
-  width: 10px;
+  width: 8px;
   z-index: 1;
 }
 
@@ -411,7 +411,7 @@ main {
 }
 
 .date-rail-line strong {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 750;
   line-height: 1.1;
 }
@@ -435,23 +435,28 @@ main {
 }
 
 .date-rail-line button.active strong,
-.date-rail-line button.active span {
+.date-rail-line button.active span,
+.date-rail-line button.active small {
   color: #111;
 }
 
 .change-lane-board {
   display: grid;
-  gap: 8px;
-  grid-template-columns: repeat(5, minmax(118px, 1fr));
+  align-items: start;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(172px, 216px));
+  justify-content: start;
   min-width: 0;
 }
 
 .change-lane {
+  background: transparent;
+  border: 0;
   display: grid;
   gap: 8px;
-  min-height: 520px;
+  min-height: 0;
   min-width: 0;
-  padding: 8px;
+  padding: 0;
 }
 
 .change-lane header {
@@ -463,6 +468,7 @@ main {
   align-items: center;
   display: flex;
   gap: 5px;
+  min-height: 28px;
 }
 
 .change-lane h3 {
@@ -513,16 +519,14 @@ main {
 }
 
 .change-card {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), #fff),
-    var(--surface);
-  border: 1px solid #e8e8e8;
+  background: #fff;
+  border: 1px solid #dedede;
   border-radius: 8px;
   cursor: pointer;
   display: grid;
-  gap: 5px;
-  min-height: 96px;
-  padding: 8px;
+  gap: 4px;
+  min-height: 82px;
+  padding: 9px;
   position: relative;
   text-align: left;
   width: 100%;
@@ -531,7 +535,7 @@ main {
 .change-card.active,
 .change-card:hover {
   border-color: #111;
-  box-shadow: none;
+  background: #fcfcfc;
 }
 
 .change-card > strong {
@@ -549,7 +553,7 @@ main {
 .change-card b {
   color: #111;
   display: -webkit-box;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 720;
   line-height: 1.45;
   overflow: hidden;
@@ -569,7 +573,7 @@ main {
   display: grid;
   gap: 6px;
   grid-template-columns: auto minmax(0, 1fr);
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 .change-stock-snapshot em {
@@ -593,23 +597,36 @@ main {
 }
 
 .lane-empty-card {
-  align-items: center;
-  border: 1px dashed #e4e4e4;
-  border-radius: 8px;
-  color: #c2c2c2;
-  display: flex;
-  min-height: 96px;
-  justify-content: center;
+  display: none;
 }
 
 .change-detail-panel {
   display: grid;
-  gap: 10px;
-  max-height: calc(100vh - 120px);
+  gap: 12px;
+  bottom: 22px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.16);
+  max-height: none;
   overflow: auto;
-  padding: 12px;
-  position: sticky;
-  top: 18px;
+  padding: 14px;
+  position: fixed;
+  right: clamp(14px, 2.4vw, 28px);
+  top: 74px;
+  width: min(310px, calc(100vw - 28px));
+  z-index: 20;
+}
+
+.detail-close {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  height: 28px;
+  justify-content: center;
+  justify-self: end;
+  padding: 0;
+  width: 28px;
 }
 
 .change-detail-panel h3 {
@@ -651,6 +668,12 @@ main {
 .verify-list {
   display: grid;
   gap: 0;
+}
+
+.key-change-list {
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 220px));
+  justify-content: start;
 }
 
 .detail-stock-list button,
@@ -730,8 +753,9 @@ main {
 
 .change-bottom-grid {
   display: grid;
-  gap: 8px;
-  grid-template-columns: 0.95fr 1.45fr 1fr;
+  align-items: start;
+  gap: 10px;
+  grid-template-columns: 1fr 1.2fr 0.9fr;
 }
 
 .change-mini-panel {
@@ -752,11 +776,15 @@ main {
 
 .key-change-list button {
   align-items: start;
-  grid-template-columns: 58px minmax(0, 1fr);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  grid-template-columns: 1fr;
+  min-height: 72px;
+  padding: 8px;
 }
 
 .key-change-list small {
-  grid-column: 2;
+  grid-column: 1;
 }
 
 .market-stat-grid {
@@ -2176,9 +2204,12 @@ main {
   .dashboard-bottom-grid,
   .company-layout,
   .market-summary-grid,
-  .change-terminal-layout,
   .change-bottom-grid {
     grid-template-columns: 1fr;
+  }
+
+  .change-terminal-layout {
+    grid-template-columns: 96px minmax(0, 1fr);
   }
 
   .event-card-grid,
@@ -2192,8 +2223,7 @@ main {
     overflow-x: auto;
   }
 
-  .date-rail,
-  .change-detail-panel {
+  .date-rail {
     max-height: none;
     position: static;
   }
@@ -2237,6 +2267,7 @@ main {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
+    gap: 8px;
   }
 
   .whats-new-panel p,
@@ -2293,8 +2324,8 @@ main {
   }
 
   .change-lane-board {
-    grid-template-columns: 1fr;
-    overflow-x: visible;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 220px));
+    overflow-x: auto;
   }
 
   .terminal-title strong {
@@ -2302,7 +2333,14 @@ main {
   }
 
   .change-search {
+    flex: 0 0 auto;
     min-width: 0;
+    width: 100%;
+  }
+
+  .range-tabs,
+  .lane-tabs {
+    justify-content: flex-start;
     width: 100%;
   }
 

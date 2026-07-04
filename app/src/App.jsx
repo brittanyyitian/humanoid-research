@@ -80,6 +80,14 @@ const laneLabels = {
   market: "股票市场",
 };
 
+const laneShortLabels = {
+  product: "产品",
+  company: "公司",
+  supply_chain: "供应链",
+  policy: "政策",
+  market: "股票",
+};
+
 const statusLabels = {
   verified: "已验证",
   pending_review: "待审核",
@@ -163,21 +171,30 @@ function laneLabel(lane) {
   return laneLabels[lane] || lane || "--";
 }
 
+function laneShortLabel(lane) {
+  return laneShortLabels[lane] || laneLabel(lane);
+}
+
 function statusLabel(status) {
   return statusLabels[status] || status || "--";
 }
 
-function weekdayLabel(value) {
-  if (!value) return "--";
-  const date = new Date(`${value}T00:00:00`);
-  const weekdays = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
-  return weekdays[date.getDay()] || "--";
+function compactChangeTitle(title = "") {
+  return String(title)
+    .replace(/股份有限公司/g, "")
+    .replace(/有限责任公司/g, "")
+    .replace(/存在官方产品材料《(.+?)》。?/, "$1")
+    .replace(/存在官方产品材料/g, "产品材料")
+    .replace(/机器人/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function compactTime(value) {
   if (!value) return "--";
   const text = String(value);
   if (text.includes("T")) return text.slice(11, 16);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return datePart(text);
   return text.slice(0, 5);
 }
 
@@ -652,9 +669,9 @@ function Dashboard({ setView, openCompany, openEvidence }) {
   const [activeLane, setActiveLane] = useState("all");
   const [activeRange, setActiveRange] = useState(30);
   const [searchTerm, setSearchTerm] = useState("");
+  const [detailOpen, setDetailOpen] = useState(false);
   const latestDate = timelineRows[0]?.date || rows[0]?.date || changeWall.date;
   const laneFilterRows = [{ id: "all", label: "全部", count: rows.length }, ...laneRows];
-  const visibleLaneRows = activeLane === "all" ? laneRows : laneRows.filter((lane) => lane.id === activeLane);
   const rangeOptions = [
     { label: "7天", value: 7 },
     { label: "30天", value: 30 },
@@ -704,6 +721,9 @@ function Dashboard({ setView, openCompany, openEvidence }) {
 
   const activeDate = dateRows.some((row) => row.date === selectedDate) ? selectedDate : dateRows[0]?.date || selectedDate;
   const selectedDateChanges = filteredRows.filter((row) => row.date === activeDate);
+  const selectedLaneIds = new Set(selectedDateChanges.map((row) => row.lane));
+  const visibleLaneRows =
+    activeLane === "all" ? laneRows.filter((lane) => selectedLaneIds.has(lane.id)) : laneRows.filter((lane) => lane.id === activeLane);
   const selectedChange =
     filteredRows.find((row) => row.id === selectedChangeId) || selectedDateChanges[0] || filteredRows[0] || null;
   const relatedSameDay = rows
@@ -725,6 +745,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
   const selectChange = (change) => {
     setSelectedChangeId(change.id);
     if (change.date) setSelectedDate(change.date);
+    setDetailOpen(true);
   };
 
   const openChangeEvidence = (change) => {
@@ -787,7 +808,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
               onClick={() => setActiveLane(lane.id)}
             >
               {lane.id === "all" ? <Grid3X3 size={14} /> : <LaneIcon lane={lane.id} size={14} />}
-              {lane.label}
+              {lane.id === "all" ? lane.label : laneShortLabel(lane.id)}
             </button>
           ))}
         </div>
@@ -806,12 +827,12 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                       setSelectedDate(dateRow.date);
                       const first = filteredRows.find((row) => row.date === dateRow.date);
                       if (first) setSelectedChangeId(first.id);
+                      setDetailOpen(false);
                     }}
                   >
                     <i />
                     <strong>{datePart(dateRow.date)}</strong>
-                    <span>{weekdayLabel(dateRow.date)}</span>
-                    <small>{dateRow.total} 个变化</small>
+                    <small>{dateRow.total}</small>
                   </button>
                 ))
               ) : (
@@ -828,10 +849,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                   <header>
                     <div>
                       <span className={`lane-dot lane-${lane.id}`} />
-                      <h3>
-                        <LaneIcon lane={lane.id} size={16} />
-                        {lane.label}
-                      </h3>
+                      <h3>{laneShortLabel(lane.id)}</h3>
                     </div>
                   </header>
 
@@ -847,7 +865,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                           >
                             <span className="change-card-dot" />
                             <strong>{change.objectName}</strong>
-                            <b>{change.title}</b>
+                            <b>{compactChangeTitle(change.title)}</b>
                             {change.lane === "market" && marketRow ? (
                               <div className="change-stock-snapshot">
                                 <em className={changeClass(marketRow.changePct)}>{formatPct(marketRow.changePct)}</em>
@@ -864,7 +882,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                         );
                       })
                     ) : (
-                      <div className="lane-empty-card">—</div>
+                      null
                     )}
                   </div>
 
@@ -873,7 +891,11 @@ function Dashboard({ setView, openCompany, openEvidence }) {
             })}
           </div>
 
-          <aside className="change-detail-panel">
+          {detailOpen ? (
+          <aside className="change-detail-panel" aria-label="变化详情">
+            <button className="detail-close" onClick={() => setDetailOpen(false)} aria-label="收起详情">
+              <X size={15} />
+            </button>
             {selectedChange ? (
               <>
                 <span className="detail-kicker">{selectedChange.date} · {laneLabel(selectedChange.lane)}</span>
@@ -972,6 +994,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
               <EmptyState>暂无可选变化</EmptyState>
             )}
           </aside>
+          ) : null}
         </section>
       ) : (
         <EmptyState>暂无可展示变化。请先生成 Change Wall 数据。</EmptyState>
@@ -987,7 +1010,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
               keyChangeRows.map((change) => (
                 <button key={change.id} onClick={() => selectChange(change)}>
                   <span>{laneLabel(change.lane)}</span>
-                  <strong>{change.title}</strong>
+                  <strong>{compactChangeTitle(change.title)}</strong>
                   <small>
                     {change.evidenceLevel || "--"}级 · {statusLabel(change.status)} · {compactTime(change.time)}
                   </small>
