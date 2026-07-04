@@ -749,10 +749,10 @@ function Dashboard({ setView, openCompany, openEvidence }) {
 
   return (
     <div className="change-wall-page">
-      <section className="change-wall-hero compact">
-        <div>
+      <section className="terminal-strip">
+        <div className="terminal-title">
+          <strong>时间轴</strong>
           <span>{activeDate || changeWall.date}</span>
-          <h2>时间轴</h2>
         </div>
         <div className="change-search">
           <Search size={16} />
@@ -763,9 +763,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
             aria-label="搜索变化"
           />
         </div>
-      </section>
 
-      <section className="change-toolbar" aria-label="变化筛选">
         <div className="range-tabs">
           <button aria-label="回到今天" onClick={() => setSelectedDate(dateRows[0]?.date || latestDate)}>
             <CalendarDays size={15} />
@@ -798,10 +796,6 @@ function Dashboard({ setView, openCompany, openEvidence }) {
       {rows.length ? (
         <section className="change-terminal-layout">
           <aside className="date-rail" aria-label="日期轴">
-            <div className="date-rail-title">
-              <span>今天</span>
-              <CalendarDays size={15} />
-            </div>
             <div className="date-rail-line">
               {dateRows.length ? (
                 dateRows.map((dateRow) => (
@@ -824,9 +818,6 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 <EmptyState>暂无匹配日期</EmptyState>
               )}
             </div>
-            <button className="load-more-date" onClick={() => setActiveRange("all")}>
-              加载更多
-            </button>
           </aside>
 
           <div className="change-lane-board">
@@ -847,7 +838,6 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                   <div className="change-card-stack">
                     {laneChanges.length ? (
                       laneChanges.slice(0, 4).map((change) => {
-                        const source = firstSource(change);
                         const marketRow = firstMarketRow(change);
                         return (
                           <button
@@ -866,8 +856,8 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                             ) : null}
                             <footer>
                               <span>
-                                {source?.publisher || source?.title || "来源待补"} · {compactTime(change.time)} ·{" "}
-                                {change.evidenceLevel || "--"}级/{statusLabel(change.status)}
+                                {compactTime(change.time)} · {change.evidenceLevel || "--"}级 ·{" "}
+                                {statusLabel(change.status)}
                               </span>
                             </footer>
                           </button>
@@ -878,9 +868,6 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                     )}
                   </div>
 
-                  <button className="lane-more" onClick={() => setActiveLane(lane.id)}>
-                    查看更多 ({lane.count || laneChanges.length})
-                  </button>
                 </section>
               );
             })}
@@ -889,9 +876,6 @@ function Dashboard({ setView, openCompany, openEvidence }) {
           <aside className="change-detail-panel">
             {selectedChange ? (
               <>
-                <button className="detail-close" aria-label="关闭详情">
-                  <X size={16} />
-                </button>
                 <span className="detail-kicker">{selectedChange.date} · {laneLabel(selectedChange.lane)}</span>
                 <h3>{selectedChange.objectName}</h3>
                 <strong>{selectedChange.title}</strong>
@@ -915,7 +899,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 </div>
                 {selectedChange.sources?.length ? (
                   <section>
-                    <small>证据来源</small>
+                    <small>来源</small>
                     <div className="detail-source-list">
                       {selectedChange.sources.slice(0, 3).map((source) => (
                         <a key={source.id || source.url} href={source.url} target="_blank" rel="noreferrer">
@@ -928,7 +912,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 ) : null}
                 {selectedChange.marketContext?.length ? (
                   <section>
-                    <small>并排市场变化</small>
+                    <small>市场</small>
                     <div className="detail-stock-list">
                       {selectedChange.marketContext.slice(0, 3).map((row) => (
                         <button key={row.id || row.entityId} onClick={() => openCompany(row.entityId)}>
@@ -956,7 +940,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 ) : null}
                 {selectedChange.entityNames?.length ? (
                   <section>
-                    <small>关联对象</small>
+                    <small>对象</small>
                     <div className="object-pill-list">
                       {selectedChange.entityNames.map((name) => (
                         <span key={name}>{name}</span>
@@ -966,7 +950,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
                 ) : null}
                 {relatedSameDay.length ? (
                   <section>
-                    <small>同日事件</small>
+                    <small>同日</small>
                     <div className="related-day-list">
                       {relatedSameDay.map((row) => (
                         <button key={row.id} onClick={() => selectChange(row)}>
@@ -996,8 +980,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
       <section className="change-bottom-grid terminal-bottom">
         <div className="change-mini-panel">
           <header>
-            <span>关键变化 (24h)</span>
-            <strong>{activeDate || changeWall.date}</strong>
+            <strong>24h</strong>
           </header>
           <div className="key-change-list">
             {keyChangeRows.length ? (
@@ -1018,14 +1001,13 @@ function Dashboard({ setView, openCompany, openEvidence }) {
 
         <div className="change-mini-panel market-overview-panel">
           <header>
-            <span>市场概览 ({activeDate || market.date})</span>
-            <strong>股票市场</strong>
+            <strong>市场</strong>
           </header>
           <div className="market-stat-grid">
-            <OverviewItem label="样本" value={marketRowsForOverview.length || 0} note="Watchlist" />
-            <OverviewItem label="上涨" value={marketGainers} note="只计已抓取" />
-            <OverviewItem label="下跌" value={marketFallers} note="只计已抓取" />
-            <OverviewItem label="更新时间" value={datePart(market.generatedAt || market.date)} note={market.date} />
+            <OverviewItem label="样本" value={marketRowsForOverview.length || 0} />
+            <OverviewItem label="涨" value={marketGainers} />
+            <OverviewItem label="跌" value={marketFallers} />
+            <OverviewItem label="更新" value={datePart(market.generatedAt || market.date)} />
           </div>
           <div className="market-top-list">
             {topMarketRows.map((row, index) => (
@@ -1042,8 +1024,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
 
         <div className="change-mini-panel">
           <header>
-            <span>待验证事项</span>
-            <strong>{verificationRows.length}</strong>
+            <strong>待验证 · {verificationRows.length}</strong>
           </header>
           <div className="verify-list">
             {verificationRows.length ? (
@@ -1074,10 +1055,7 @@ function Dashboard({ setView, openCompany, openEvidence }) {
       </section>
 
       <footer className="change-wall-footnote">
-        <span>数据更新：{formatTime(changeWall.generatedAt)}</span>
-        <span>仅展示事实变化</span>
-        <button onClick={() => setView("database")}>数据源</button>
-        <button onClick={() => setView("timeline")}>完整时间轴</button>
+        <span>{formatTime(changeWall.generatedAt)}</span>
       </footer>
     </div>
   );
@@ -1579,11 +1557,9 @@ export default function App() {
       <header className="topbar">
         <div className="brand-lockup">
           <h1>研究终端</h1>
-          <span className="eyebrow">人形机器人产业观察</span>
         </div>
         <div className="topbar-meta">
           <span>{today.date}</span>
-          <span>{today.status === "empty" ? "今日无新增" : "今日有更新"}</span>
         </div>
       </header>
 

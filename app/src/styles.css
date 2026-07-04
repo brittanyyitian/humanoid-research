@@ -38,7 +38,7 @@ button {
 
 .app-shell {
   min-height: 100vh;
-  padding: 18px clamp(18px, 3vw, 38px) 32px;
+  padding: 12px clamp(14px, 2.4vw, 28px) 22px;
 }
 
 .topbar {
@@ -53,7 +53,6 @@ button {
 .brand-lockup {
   align-items: baseline;
   display: flex;
-  gap: 16px;
   min-width: 0;
 }
 
@@ -74,7 +73,7 @@ p {
 }
 
 h1 {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 760;
   line-height: 1;
   margin-top: 0;
@@ -84,7 +83,7 @@ h1 {
 .topbar-meta {
   align-items: center;
   display: flex;
-  gap: 12px;
+  gap: 8px;
   padding-bottom: 0;
   white-space: nowrap;
 }
@@ -100,7 +99,7 @@ h1 {
   align-items: center;
   display: flex;
   gap: 4px;
-  margin: 18px auto 18px;
+  margin: 12px auto 10px;
   max-width: 1440px;
   overflow-x: auto;
   padding-bottom: 2px;
@@ -113,8 +112,8 @@ h1 {
   color: var(--muted);
   cursor: pointer;
   flex: 0 0 auto;
-  font-size: 14px;
-  padding: 8px 13px;
+  font-size: 12px;
+  padding: 6px 10px;
 }
 
 .nav-strip button.active {
@@ -238,32 +237,36 @@ main {
 
 .change-wall-page {
   display: grid;
-  gap: 16px;
+  gap: 8px;
 }
 
-.change-wall-hero {
+.terminal-strip {
   align-items: center;
-  border-bottom: 1px solid var(--line);
   display: flex;
-  gap: 24px;
+  gap: 8px;
   justify-content: space-between;
-  padding: 0 0 14px;
+  min-width: 0;
 }
 
-.change-wall-hero span,
+.terminal-title {
+  align-items: baseline;
+  display: flex;
+  gap: 8px;
+  min-width: max-content;
+}
+
+.terminal-title strong {
+  font-size: 18px;
+  font-weight: 760;
+}
+
+.terminal-title span,
 .change-mini-panel header span,
 .detail-kicker {
   color: var(--muted);
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 650;
-}
-
-.change-wall-hero h2 {
-  font-size: clamp(28px, 3vw, 40px);
-  font-weight: 720;
-  line-height: 1.05;
-  margin-top: 4px;
 }
 
 .change-search {
@@ -272,10 +275,10 @@ main {
   border: 1px solid var(--line);
   border-radius: 999px;
   display: flex;
-  gap: 10px;
-  flex: 0 0 auto;
-  min-width: min(360px, 38vw);
-  padding: 10px 15px;
+  gap: 6px;
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: 6px 10px;
 }
 
 .change-search svg {
@@ -286,36 +289,28 @@ main {
   background: transparent;
   border: 0;
   color: var(--ink);
+  font-size: 12px;
   min-width: 0;
   outline: none;
   width: 100%;
-}
-
-.change-toolbar {
-  align-items: center;
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
 }
 
 .range-tabs,
 .lane-tabs {
   align-items: center;
   display: flex;
-  gap: 7px;
+  gap: 4px;
   min-width: 0;
 }
 
 .lane-tabs {
-  flex: 1;
-  justify-content: center;
+  flex: 2 1 420px;
+  justify-content: flex-end;
   overflow-x: auto;
 }
 
 .range-tabs button,
 .lane-tabs button,
-.load-more-date,
-.lane-more,
 .change-wall-footnote button,
 .change-detail-panel footer button {
   align-items: center;
@@ -326,11 +321,11 @@ main {
   cursor: pointer;
   display: inline-flex;
   flex: 0 0 auto;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 650;
-  gap: 6px;
-  min-height: 34px;
-  padding: 8px 12px;
+  gap: 4px;
+  min-height: 28px;
+  padding: 5px 9px;
   white-space: nowrap;
 }
 
@@ -345,8 +340,8 @@ main {
 .change-terminal-layout {
   align-items: start;
   display: grid;
-  gap: 16px;
-  grid-template-columns: 124px minmax(0, 1fr) 320px;
+  gap: 8px;
+  grid-template-columns: 96px minmax(0, 1fr) 284px;
 }
 
 .date-rail,
@@ -361,22 +356,10 @@ main {
 .date-rail {
   background: #fff;
   display: grid;
-  gap: 10px;
-  padding: 14px 10px;
+  gap: 0;
+  padding: 8px 8px;
   position: sticky;
   top: 18px;
-}
-
-.date-rail-title {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 4px 6px;
-}
-
-.date-rail-title span {
-  font-size: 13px;
-  font-weight: 700;
 }
 
 .date-rail-line {
@@ -387,11 +370,11 @@ main {
 
 .date-rail-line::before {
   background: #d9d9d9;
-  bottom: 18px;
+  bottom: 12px;
   content: "";
   left: 10px;
   position: absolute;
-  top: 18px;
+  top: 12px;
   width: 1px;
 }
 
@@ -400,10 +383,10 @@ main {
   border: 0;
   cursor: pointer;
   display: grid;
-  gap: 2px;
-  grid-template-columns: 24px minmax(0, 1fr);
-  min-height: 78px;
-  padding: 6px 0;
+  gap: 1px;
+  grid-template-columns: 18px minmax(0, 1fr);
+  min-height: 58px;
+  padding: 4px 0;
   position: relative;
   text-align: left;
 }
@@ -411,14 +394,14 @@ main {
 .date-rail-line i {
   align-self: start;
   background: #cfcfcf;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   border-radius: 999px;
   box-shadow: 0 0 0 1px #d9d9d9;
   grid-row: 1 / span 3;
-  height: 14px;
-  margin: 4px 0 0 4px;
+  height: 10px;
+  margin: 4px 0 0 6px;
   position: relative;
-  width: 14px;
+  width: 10px;
   z-index: 1;
 }
 
@@ -428,7 +411,7 @@ main {
 }
 
 .date-rail-line strong {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 750;
   line-height: 1.1;
 }
@@ -436,7 +419,6 @@ main {
 .date-rail-line span,
 .date-rail-line small,
 .change-card footer,
-.lane-more,
 .key-change-list span,
 .key-change-list small,
 .market-top-list small,
@@ -448,7 +430,7 @@ main {
 .related-day-list span,
 .change-wall-footnote {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
 }
 
@@ -457,23 +439,19 @@ main {
   color: #111;
 }
 
-.load-more-date {
-  justify-content: center;
-}
-
 .change-lane-board {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(5, minmax(136px, 1fr));
+  gap: 8px;
+  grid-template-columns: repeat(5, minmax(118px, 1fr));
   min-width: 0;
 }
 
 .change-lane {
   display: grid;
-  gap: 10px;
-  min-height: 640px;
+  gap: 8px;
+  min-height: 520px;
   min-width: 0;
-  padding: 12px;
+  padding: 8px;
 }
 
 .change-lane header {
@@ -484,23 +462,23 @@ main {
 .change-lane header div {
   align-items: center;
   display: flex;
-  gap: 8px;
+  gap: 5px;
 }
 
 .change-lane h3 {
   align-items: center;
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 760;
-  gap: 7px;
+  gap: 5px;
 }
 
 .lane-dot,
 .change-card-dot {
   border-radius: 999px;
   display: inline-block;
-  height: 7px;
-  width: 7px;
+  height: 6px;
+  width: 6px;
 }
 
 .lane-product,
@@ -531,7 +509,7 @@ main {
 .change-card-stack {
   align-content: start;
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .change-card {
@@ -542,9 +520,9 @@ main {
   border-radius: 8px;
   cursor: pointer;
   display: grid;
-  gap: 7px;
-  min-height: 126px;
-  padding: 12px;
+  gap: 5px;
+  min-height: 96px;
+  padding: 8px;
   position: relative;
   text-align: left;
   width: 100%;
@@ -553,57 +531,57 @@ main {
 .change-card.active,
 .change-card:hover {
   border-color: #111;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.06);
+  box-shadow: none;
 }
 
 .change-card > strong {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 760;
-  padding-left: 13px;
+  padding-left: 10px;
 }
 
 .change-card-dot {
-  left: 12px;
+  left: 8px;
   position: absolute;
-  top: 16px;
+  top: 12px;
 }
 
 .change-card b {
   color: #111;
   display: -webkit-box;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 720;
   line-height: 1.45;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
 }
 
 .change-card footer {
   align-self: end;
   display: block;
   line-height: 1.35;
-  margin-top: 6px;
+  margin-top: 3px;
 }
 
 .change-stock-snapshot {
   align-items: center;
   display: grid;
-  gap: 10px;
+  gap: 6px;
   grid-template-columns: auto minmax(0, 1fr);
   margin-top: 2px;
 }
 
 .change-stock-snapshot em {
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 760;
 }
 
 .mini-sparkline {
   color: #555;
-  height: 30px;
-  width: 94px;
+  height: 20px;
+  width: 66px;
 }
 
 .mini-sparkline.rise {
@@ -620,43 +598,27 @@ main {
   border-radius: 8px;
   color: #c2c2c2;
   display: flex;
-  min-height: 126px;
+  min-height: 96px;
   justify-content: center;
-}
-
-.lane-more {
-  align-self: end;
-  justify-content: center;
-  margin-top: auto;
-  width: 100%;
 }
 
 .change-detail-panel {
   display: grid;
-  gap: 14px;
+  gap: 10px;
   max-height: calc(100vh - 120px);
   overflow: auto;
-  padding: 18px;
+  padding: 12px;
   position: sticky;
   top: 18px;
 }
 
-.detail-close {
-  background: transparent;
-  border: 0;
-  color: var(--muted);
-  cursor: pointer;
-  justify-self: end;
-  padding: 0;
-}
-
 .change-detail-panel h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 720;
 }
 
 .change-detail-panel > strong {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.45;
 }
 
@@ -665,7 +627,7 @@ main {
   display: grid;
   gap: 1px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .detail-meta-grid div {
@@ -674,7 +636,7 @@ main {
 
 .detail-meta-grid b {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 5px;
   overflow-wrap: anywhere;
 }
@@ -701,15 +663,15 @@ main {
   border-bottom: 1px solid var(--soft);
   cursor: pointer;
   display: grid;
-  gap: 10px;
+  gap: 6px;
   grid-template-columns: minmax(0, 1fr) auto;
-  padding: 10px 0;
+  padding: 7px 0;
   text-align: left;
 }
 
 .detail-stock-list b,
 .market-top-list b {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .detail-stock-list small {
@@ -720,14 +682,14 @@ main {
 .object-pill-list span {
   border-bottom: 1px solid var(--soft);
   color: #333;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 1.5;
-  padding: 10px 0;
+  padding: 7px 0;
 }
 
 .detail-source-list {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .detail-source-list a {
@@ -735,14 +697,14 @@ main {
   border-radius: 8px;
   color: inherit;
   display: grid;
-  gap: 5px;
-  padding: 10px;
+  gap: 3px;
+  padding: 7px;
   text-decoration: none;
 }
 
 .detail-source-list strong,
 .related-day-list strong {
-  font-size: 13px;
+  font-size: 11px;
   line-height: 1.45;
 }
 
@@ -750,47 +712,47 @@ main {
   align-items: start;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
 }
 
 .object-pill-list span {
   background: #f6f6f6;
   border: 1px solid var(--soft);
   border-radius: 999px;
-  padding: 7px 10px;
+  padding: 5px 8px;
 }
 
 .change-detail-panel footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .change-bottom-grid {
   display: grid;
-  gap: 12px;
+  gap: 8px;
   grid-template-columns: 0.95fr 1.45fr 1fr;
 }
 
 .change-mini-panel {
   display: grid;
-  gap: 12px;
-  padding: 14px;
+  gap: 8px;
+  padding: 10px;
 }
 
 .change-mini-panel header {
   display: grid;
-  gap: 4px;
+  gap: 0;
 }
 
 .change-mini-panel header strong {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.25;
 }
 
 .key-change-list button {
   align-items: start;
-  grid-template-columns: 74px minmax(0, 1fr);
+  grid-template-columns: 58px minmax(0, 1fr);
 }
 
 .key-change-list small {
@@ -806,15 +768,15 @@ main {
 }
 
 .market-stat-grid .overview-item {
-  padding: 13px 14px;
+  padding: 8px 10px;
 }
 
 .market-stat-grid .overview-item strong {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .market-top-list button {
-  grid-template-columns: 22px minmax(0, 1fr) auto auto;
+  grid-template-columns: 18px minmax(0, 1fr) auto auto;
 }
 
 .market-top-list small {
@@ -827,13 +789,13 @@ main {
   border-bottom: 1px solid var(--soft);
   cursor: pointer;
   display: grid;
-  gap: 5px;
-  padding: 10px 0;
+  gap: 3px;
+  padding: 7px 0;
   text-align: left;
 }
 
 .verify-list strong {
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.45;
 }
 
@@ -842,9 +804,9 @@ main {
   border-top: 1px solid var(--line);
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 8px;
   justify-content: space-between;
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 .change-wall-footnote button {
@@ -2271,8 +2233,7 @@ main {
 
   .whats-new-panel,
   .data-gap-strip,
-  .change-wall-hero,
-  .change-toolbar {
+  .terminal-strip {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -2336,8 +2297,8 @@ main {
     overflow-x: visible;
   }
 
-  .change-wall-hero h2 {
-    font-size: 28px;
+  .terminal-title strong {
+    font-size: 16px;
   }
 
   .change-search {
