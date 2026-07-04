@@ -72,6 +72,7 @@ evidenceCandidates
 unknowns
 followupHints
 dataGaps
+extractedFields
 timeFields
 reviewRequirements
 ```
@@ -81,6 +82,35 @@ what it did not know, what still needs review, and which time fields were used.
 Claims and evidence may reference `ruleOutputIds`, but promotion still happens
 only through review. This keeps claim richness from turning into scattered
 pipeline-specific logic.
+
+`extractedFields` are optional structured hints such as product name, product
+specs, delivery windows or partner/customer signals. They are not promoted facts
+by themselves. They exist so stress tests and reviewers can see whether a rule
+actually expressed the useful parts of a source, instead of hiding them inside a
+template sentence.
+
+## Rule Contract Stress Test
+
+The next maturity gate is semantic, not structural:
+
+```text
+data/rule_contract/stress_cases.json
+-> scripts/rule_contract_stress_test.mjs
+-> applySkillRule(...)
+-> deterministic rule_output assertions
+```
+
+Stress cases do not write into `data/claims`, `data/evidence` or dashboard
+files. They test whether the contract can express complex real-world material:
+
+- product specs, delivery windows and partner/customer hints
+- filing and financial candidates that require L0/L1 review
+- old sources discovered today without time-field confusion
+- conflicting evidence and data gaps
+- unsupported pipeline signals that must stay review-only
+
+This prevents the project from expanding pipelines before the semantic contract
+has proven it can represent reality without overclaiming.
 
 ## Claim and Evidence
 

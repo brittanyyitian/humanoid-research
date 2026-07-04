@@ -249,6 +249,12 @@ async function checkRuleContract(data) {
     if (!Array.isArray(ruleOutput.unknowns)) errors.push(`rule_output ${ruleOutput.id} unknowns must be an array`);
     if (!Array.isArray(ruleOutput.followupHints)) errors.push(`rule_output ${ruleOutput.id} followupHints must be an array`);
     if (!Array.isArray(ruleOutput.dataGaps)) errors.push(`rule_output ${ruleOutput.id} dataGaps must be an array`);
+    if (ruleOutput.extractedFields && !Array.isArray(ruleOutput.extractedFields)) {
+      errors.push(`rule_output ${ruleOutput.id} extractedFields must be an array when present`);
+    }
+    for (const field of ruleOutput.extractedFields || []) {
+      if (!field.field || !field.value) errors.push(`rule_output ${ruleOutput.id} has invalid extracted field`);
+    }
     if (!Array.isArray(ruleOutput.reviewRequirements) || ruleOutput.reviewRequirements.length === 0) {
       errors.push(`rule_output ${ruleOutput.id} must declare reviewRequirements`);
     }

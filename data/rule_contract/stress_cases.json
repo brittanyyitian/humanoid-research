@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-04T21:00:00+08:00",
+  "policy": "Stress cases validate whether Skill Rule Contract v0 can express complex real-world research signals without promoting candidates to truth.",
+  "forbiddenInvestmentClaimTerms": ["买入", "卖出", "目标价", "投资评级", "仓位建议"],
+  "cases": [
+    {
+      "id": "complex_product_release_with_conflict",
+      "description": "A product release has structured specs, a delivery window, customer hints and a conflicting outside signal.",
+      "input": {
+        "processedAt": "2026-07-04T21:00:00+08:00",
+        "task": {
+          "id": "stress_task_product_complex",
+          "pipeline": "product_pipeline",
+          "type": "product",
+          "entityId": "unitree",
+          "entityIds": ["unitree"],
+          "routeDecisionId": "stress_route_product_complex",
+          "rawArtifactId": "stress_raw_product_complex"
+        },
+        "artifact": {
+          "id": "stress_raw_product_complex",
+          "artifactType": "product_page",
+          "title": "Unitree H2 PLUS product launch and pilot delivery note",
+          "url": "https://example.com/unitree/h2-plus",
+          "publisher": "宇树科技",
+          "sourceId": "stress_source_product_official",
+          "fetchRunId": "stress_fetch_product_complex",
+          "publishedAt": "2026-07-03",
+          "firstSeenAt": "2026-07-04T09:00:00+08:00",
+          "capturedAt": "2026-07-04T09:05:00+08:00"
+        },
+        "source": {
+          "id": "stress_source_product_official",
+          "title": "Unitree official product page",
+          "publisher": "宇树科技",
+          "url": "https://example.com/unitree/h2-plus",
+          "evidenceLevel": "A"
+        },
+        "fetchRun": {
+          "id": "stress_fetch_product_complex",
+          "status": "success",
+          "gaps": []
+        },
+        "routeDecision": {
+          "id": "stress_route_product_complex",
+          "rawArtifactId": "stress_raw_product_complex",
+          "type": "product",
+          "entity": "宇树科技",
+          "entityId": "unitree",
+          "entityIds": ["unitree"],
+          "pipeline": "product_pipeline",
+          "confidence": "high"
+        },
+        "rawPayload": {
+          "retrievalStatus": "captured_payload",
+          "content": {
+            "product": {
+              "name": "H2 PLUS",
+              "releaseDate": "2026-07-02",
+              "specs": [
+                { "name": "speed", "value": "2.1 m/s" },
+                { "name": "height", "value": "180 cm" }
+              ],
+              "deliveryWindow": "2026 Q4 pilot delivery",
+              "partners": ["automotive OEM pilot customer"],
+              "sourceQuote": "H2 PLUS supports 2.1 m/s motion and Q4 pilot delivery.",
+              "conflicts": [
+                {
+                  "sourceLevel": "C",
+                  "relation": "refutes",
+                  "strength": "weak",
+                  "quote": "A media report says pilot delivery may slip into 2027.",
+                  "reason": "delivery window conflict"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "expect": {
+        "ruleId": "product_material_v0",
+        "claimTypes": ["product_release"],
+        "claimIncludes": ["H2 PLUS", "2.1 m/s", "2026 Q4", "automotive OEM"],
+        "evidenceRelations": ["supports", "refutes"],
+        "unknownFields": ["source_conflict"],
+        "followupKinds": ["verify_product_fields", "delivery_window_verification", "resolve_conflicting_sources"],
+        "dataGapKinds": ["conflicting_product_signal"],
+        "reviewRequirementKinds": ["verify_product_source", "verify_product_specs", "verify_delivery_window", "resolve_conflicting_sources"],
+        "extractedFields": ["product_name", "product_spec", "delivery_window", "partner_or_customer"],
+        "timeFields": {
+          "occurredAt": "2026-07-02",
+          "publishedAt": "2026-07-03",
+          "firstSeenAt": "2026-07-04T09:00:00+08:00",
+          "capturedAt": "2026-07-04T09:05:00+08:00",
+          "processedAt": "2026-07-04T21:00:00+08:00"
+        }
+      }
+    },
+    {
+      "id": "serenity_financial_requires_l0_review",
+      "description": "Structured financial data should become a candidate with explicit L0/L1 reconciliation requirements and no investment conclusion.",
+      "input": {
+        "processedAt": "2026-07-04T21:01:00+08:00",
+        "task": {
+          "id": "stress_task_financial",
+          "pipeline": "filing_pipeline",
+          "type": "filing",
+          "entityId": "orbbec",
+          "entityIds": ["orbbec"],
+          "routeDecisionId": "stress_route_financial",
+          "rawArtifactId": "stress_raw_financial"
+        },
+        "artifact": {
+          "id": "stress_raw_financial",
+          "artifactType": "serenity_output",
+          "title": "奥比中光 2026Q1 structured financial payload",
+          "url": "https://example.com/serenity/orbbec/financials",
+          "publisher": "Serenity Bridge",
+          "sourceId": "stress_source_financial_l3",
+          "fetchRunId": "stress_fetch_financial",
+          "publishedAt": "2026-03-31",
+          "firstSeenAt": "2026-07-04T10:00:00+08:00",
+          "capturedAt": "2026-07-04T10:05:00+08:00"
+        },
+        "source": {
+          "id": "stress_source_financial_l3",
+          "title": "Serenity structured financial feed",
+          "publisher": "Serenity Bridge",
+          "url": "https://example.com/serenity/orbbec/financials",
+          "evidenceLevel": "C"
+        },
+        "fetchRun": {
+          "id": "stress_fetch_financial",
+          "status": "partial",
+          "gaps": [
+            {
+              "kind": "l0_financial_source_missing",
+              "description": "Official PDF/XBRL was not captured with the structured payload.",
+              "severity": "high"
+            }
+          ]
+        },
+        "routeDecision": {
+          "id": "stress_route_financial",
+          "rawArtifactId": "stress_raw_financial",
+          "type": "filing",
+          "entity": "奥比中光",
+          "entityId": "orbbec",
+          "entityIds": ["orbbec"],
+          "pipeline": "filing_pipeline",
+          "confidence": "high"
+        },
+        "rawPayload": {
+          "retrievalStatus": "captured_payload",
+          "content": {
+            "serenityBridge": {
+              "dataset": "financials",
+              "entityName": "奥比中光",
+              "payload": {
+                "currency": "CNY",
+                "latestPeriod": {
+                  "period": "2026-03-31",
+                  "report_type": "Q1",
+                  "security_name": "奥比中光",
+                  "revenue": 311000000,
+                  "net_income": -22000000,
+                  "operating_cash_flow": -8800000
+                }
+              }
+            }
+          }
+        }
+      },
+      "expect": {
+        "ruleId": "serenity_financials_v0",
+        "claimTypes": ["financial"],
+        "claimIncludes": ["奥比中光", "营收", "3.11亿", "净利润", "经营现金流"],
+        "evidenceRelations": ["mentions"],
+        "unknownFields": ["official_financial_reconciliation"],
+        "followupKinds": ["financial_reconciliation"],
+        "dataGapKinds": ["l0_financial_source_missing"],
+        "reviewRequirementKinds": ["reconcile_l0_l1", "avoid_rating_use"],
+        "timeFields": {
+          "occurredAt": "2026-03-31",
+          "publishedAt": "2026-03-31",
+          "processedAt": "2026-07-04T21:01:00+08:00"
+        }
+      }
+    },
+    {
+      "id": "old_filing_newly_discovered_temporal_guard",
+      "description": "A filing discovered today must preserve the original announcement date instead of becoming a new event.",
+      "input": {
+        "processedAt": "2026-07-04T21:02:00+08:00",
+        "task": {
+          "id": "stress_task_old_filing",
+          "pipeline": "filing_pipeline",
+          "type": "filing",
+          "entityId": "orbbec",
+          "entityIds": ["orbbec"],
+          "routeDecisionId": "stress_route_old_filing",
+          "rawArtifactId": "stress_raw_old_filing"
+        },
+        "artifact": {
+          "id": "stress_raw_old_filing",
+          "artifactType": "filing",
+          "title": "关于机器人视觉模组项目进展的公告",
+          "url": "https://example.com/cninfo/orbbec/announcement",
+          "publisher": "巨潮资讯",
+          "sourceId": "stress_source_filing_l0",
+          "fetchRunId": "stress_fetch_old_filing",
+          "publishedAt": "2026-05-15",
+          "firstSeenAt": "2026-07-04T11:00:00+08:00",
+          "capturedAt": "2026-07-04T11:02:00+08:00"
+        },
+        "source": {
+          "id": "stress_source_filing_l0",
+          "title": "CNINFO official announcement",
+          "publisher": "巨潮资讯",
+          "url": "https://example.com/cninfo/orbbec/announcement",
+          "evidenceLevel": "A"
+        },
+        "fetchRun": {
+          "id": "stress_fetch_old_filing",
+          "status": "success",
+          "gaps": []
+        },
+        "routeDecision": {
+          "id": "stress_route_old_filing",
+          "rawArtifactId": "stress_raw_old_filing",
+          "type": "filing",
+          "entity": "奥比中光",
+          "entityId": "orbbec",
+          "entityIds": ["orbbec"],
+          "pipeline": "filing_pipeline",
+          "confidence": "high"
+        },
+        "rawPayload": {
+          "retrievalStatus": "captured_payload",
+          "content": {
+            "serenityBridge": {
+              "dataset": "filings_announcements",
+              "entityName": "奥比中光",
+              "payload": {
+                "announcement_date": "2026-05-15",
+                "title": "关于机器人视觉模组项目进展的公告"
+              }
+            }
+          }
+        }
+      },
+      "expect": {
+        "ruleId": "serenity_filing_announcement_v0",
+        "claimTypes": ["filing"],
+        "claimIncludes": ["2026-05-15", "关于机器人视觉模组项目进展的公告"],
+        "evidenceRelations": ["supports"],
+        "unknownFields": ["announcement_materiality"],
+        "followupKinds": ["filing_materiality_review"],
+        "reviewRequirementKinds": ["verify_pdf_source", "classify_materiality"],
+        "timeFields": {
+          "occurredAt": "2026-05-15",
+          "publishedAt": "2026-05-15",
+          "firstSeenAt": "2026-07-04T11:00:00+08:00",
+          "capturedAt": "2026-07-04T11:02:00+08:00",
+          "processedAt": "2026-07-04T21:02:00+08:00"
+        }
+      }
+    },
+    {
+      "id": "supply_chain_ambiguous_signal_stays_review_only",
+      "description": "An unsupported supply-chain signal should stay low-confidence and explicitly request manual extraction instead of overclaiming a relationship.",
+      "input": {
+        "processedAt": "2026-07-04T21:03:00+08:00",
+        "task": {
+          "id": "stress_task_supply_chain",
+          "pipeline": "supply_chain_pipeline",
+          "type": "supply_chain",
+          "entityId": "longcheer_technology",
+          "entityIds": ["longcheer_technology", "zhiyuan_robot"],
+          "routeDecisionId": "stress_route_supply_chain",
+          "rawArtifactId": "stress_raw_supply_chain"
+        },
+        "artifact": {
+          "id": "stress_raw_supply_chain",
+          "artifactType": "news_page",
+          "title": "供应链传闻称某执行器厂进入人形机器人客户验证",
+          "url": "https://example.com/supply-chain/actuator-rumor",
+          "publisher": "产业媒体",
+          "sourceId": "stress_source_supply_chain_media",
+          "fetchRunId": "stress_fetch_supply_chain",
+          "publishedAt": "2026-07-01",
+          "firstSeenAt": "2026-07-04T12:00:00+08:00",
+          "capturedAt": "2026-07-04T12:02:00+08:00"
+        },
+        "source": {
+          "id": "stress_source_supply_chain_media",
+          "title": "Industry media supply-chain note",
+          "publisher": "产业媒体",
+          "url": "https://example.com/supply-chain/actuator-rumor",
+          "evidenceLevel": "C"
+        },
+        "fetchRun": {
+          "id": "stress_fetch_supply_chain",
+          "status": "success",
+          "gaps": []
+        },
+        "routeDecision": {
+          "id": "stress_route_supply_chain",
+          "rawArtifactId": "stress_raw_supply_chain",
+          "type": "supply_chain",
+          "entity": "供应链公司",
+          "entityId": "longcheer_technology",
+          "entityIds": ["longcheer_technology", "zhiyuan_robot"],
+          "pipeline": "supply_chain_pipeline",
+          "confidence": "medium"
+        },
+        "rawPayload": {
+          "retrievalStatus": "captured_payload",
+          "content": {
+            "body": "The source mentions a possible actuator validation relationship but does not provide official confirmation."
+          }
+        }
+      },
+      "expect": {
+        "ruleId": "supply_chain_material_v0",
+        "claimTypes": ["other"],
+        "claimIncludes": ["待审核材料"],
+        "evidenceRelations": ["mentions"],
+        "unknownFields": ["claim_specificity"],
+        "followupKinds": ["rule_upgrade"],
+        "reviewRequirementKinds": ["manual_claim_extraction"],
+        "timeFields": {
+          "publishedAt": "2026-07-01",
+          "processedAt": "2026-07-04T21:03:00+08:00"
+        }
+      }
+    }
+  ]
+}

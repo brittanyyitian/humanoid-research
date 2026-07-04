@@ -107,6 +107,20 @@
         "additionalProperties": true
       }
     },
+    "extractedFields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["field", "value", "confidence", "source"],
+        "properties": {
+          "field": { "type": "string" },
+          "value": { "type": "string" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low", "unknown"] },
+          "source": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
     "timeFields": {
       "type": "object",
       "required": ["publishedAt", "firstSeenAt", "capturedAt", "processedAt"],

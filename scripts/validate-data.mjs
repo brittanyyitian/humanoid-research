@@ -479,6 +479,13 @@ for (const { file, data } of ruleOutputs) {
   if (!Array.isArray(data.unknowns)) fail(file, "unknowns must be an array");
   if (!Array.isArray(data.followupHints)) fail(file, "followupHints must be an array");
   if (!Array.isArray(data.dataGaps)) fail(file, "dataGaps must be an array");
+  if (data.extractedFields && !Array.isArray(data.extractedFields)) fail(file, "extractedFields must be an array");
+  for (const field of data.extractedFields || []) {
+    requireString(field, file, "field");
+    requireString(field, file, "value");
+    if (!allowedClaimConfidence.has(field.confidence)) fail(file, `invalid extracted field confidence "${field.confidence}"`);
+    requireString(field, file, "source");
+  }
   if (!Array.isArray(data.reviewRequirements)) fail(file, "reviewRequirements must be an array");
   if (!data.timeFields || typeof data.timeFields !== "object") fail(file, "timeFields must be an object");
 }

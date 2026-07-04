@@ -17,12 +17,13 @@
     "serenity:bridge": "node scripts/serenity_bridge.mjs",
     "pipeline:run": "node scripts/run_pipeline.mjs",
     "observation:project": "node scripts/project_observations.mjs",
+    "rule:stress": "node scripts/rule_contract_stress_test.mjs",
     "hardening:check": "node scripts/hardening_check.mjs",
     "extract:claims": "node scripts/extract_claims.mjs",
     "promote:claim": "node scripts/promote_claim.mjs",
     "route:artifact": "node scripts/route_artifact.mjs",
     "validate": "node scripts/validate-data.mjs",
-    "check": "npm run validate && npm run hardening:check && npm run build"
+    "check": "npm run validate && npm run rule:stress && npm run hardening:check && npm run build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

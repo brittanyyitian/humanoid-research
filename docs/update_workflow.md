@@ -61,6 +61,7 @@ router replay
 dedup
 ingestion idempotency
 pipeline idempotency
+rule contract
 observation replay
 contamination
 claim lifecycle
@@ -68,8 +69,37 @@ failure recovery
 rule isolation
 ```
 
-`npm run check` runs validation, hardening, then build. A hardening error means
-the system may be producing unstable or polluted research data.
+`npm run check` runs validation, rule stress tests, hardening, then build. A
+hardening error means the system may be producing unstable or polluted research
+data.
+
+## V2 Semantic Stress Gate
+
+Use the Rule Contract stress suite before expanding pipelines or adding new
+sources:
+
+```bash
+npm run rule:stress
+```
+
+The suite reads `data/rule_contract/stress_cases.json`, calls
+`applySkillRule(...)` directly, and asserts that generated `rule_outputs` can
+express:
+
+```text
+product specs
+delivery windows
+partner/customer hints
+financial reconciliation requirements
+time-field separation
+conflicting evidence
+review-only fallback for unsupported pipeline signals
+```
+
+Stress tests are read-only. They must not create claims, evidence, inbox rows or
+observations. A failing stress case means the contract cannot yet represent that
+kind of real-world material, so the next step should be rule refinement rather
+than UI, scheduler or data-source expansion.
 
 ## V2.1 Ingestion Entry
 
@@ -209,6 +239,7 @@ raw_artifact + source + payload
 -> unknowns
 -> followupHints
 -> dataGaps
+-> extractedFields
 -> timeFields
 -> reviewRequirements
 ```
@@ -217,6 +248,7 @@ Rules:
 
 - `sourceLevel` stays on evidence, not on claim.
 - Unknown fields must be explicit instead of hidden in prose.
+- Extracted fields are review hints, not promoted facts.
 - Review requirements must travel into `inbox/claim_candidates.json`.
 - Data gaps from fetch runs must remain attached to the rule output.
 - A completed `pipeline_task` must reference at least one `ruleOutputId`.
