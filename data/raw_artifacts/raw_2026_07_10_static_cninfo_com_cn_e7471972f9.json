@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_e7471972f9",
+  "artifactType": "filing",
+  "title": "北京国枫（南京）律师事务所关于南京埃斯顿自动化股份有限公司2026年第一次临时股东会的法律意见书",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417802.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e7471972f9",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_e7471972f9",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:50c4c9b0ffe2da86e1cb0b53aaa60dd5ff8060e193216373347055a35dc46a42",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_e7471972f9.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_7d5ae0cc63"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_16ed45f34e866a14; listSourceId=src_cninfo_002747_announcements."
+}

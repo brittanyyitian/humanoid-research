@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_cc3b255e2e",
+  "artifactType": "filing",
+  "title": "五洲新春关于募集资金临时补充流动资金公告",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225313618.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cc3b255e2e",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_cc3b255e2e",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:812b2a5de53170de6fa8d66af1fcf8f9f9f73231d03d6f8408ba38b7bd753686",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_cc3b255e2e.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_0414338f01"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b2c09f5933dc4885; listSourceId=src_cninfo_603667_announcements."
+}

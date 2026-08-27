@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_140cc70419",
+  "artifactType": "filing",
+  "title": "关于2026年半年度计提资产减值准备的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513020.PDF",
+  "sourceId": "src_static_cninfo_com_cn_140cc70419",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_140cc70419",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:8ce34b4fd6db262a0849cd589c831ac6f1c146f5aceb2f8bb7dfc78d2d4dfde9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_140cc70419.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_4d339b3a34"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fc3d1cb7be74fbd5; listSourceId=src_cninfo_600667_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_28_static_cninfo_com_cn_bb7e48f38d",
+  "artifactType": "filing",
+  "title": "2025年一季度报告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-28/1223317583.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bb7e48f38d",
+  "fetchRunId": "fetch_2025_04_28_static_cninfo_com_cn_bb7e48f38d",
+  "publishedAt": "2025-04-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:719c920fc5b6a846a5408fee3ef3a121e9bb0c29b7156c11b08919c6ea40f662",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_28_static_cninfo_com_cn_bb7e48f38d.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2025_04_28_filing_9b78ff1810"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9f75fc4f97a02f19; listSourceId=src_cninfo_000426_announcements."
+}

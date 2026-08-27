@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_30_static_cninfo_com_cn_034b5eeec8",
+  "artifactType": "filing",
+  "title": "港股公告：翌日披露报表",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-30/1225396679.PDF",
+  "sourceId": "src_static_cninfo_com_cn_034b5eeec8",
+  "fetchRunId": "fetch_2026_06_30_static_cninfo_com_cn_034b5eeec8",
+  "publishedAt": "2026-06-30",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:6bcbba4ada131fb8213d5bc50dafcfccd83cf02241c2f12958ac23a810f21b0e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_30_static_cninfo_com_cn_034b5eeec8.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_30_filing_978e27d923"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9361a3bea947af87; listSourceId=src_cninfo_688981_announcements."
+}

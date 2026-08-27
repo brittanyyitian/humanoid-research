@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_25_static_cninfo_com_cn_48580aeb19",
+  "artifactType": "filing",
+  "title": "关于续聘会计师事务所的公告",
+  "publisher": "鸣志电器",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-25/1225188711.PDF",
+  "sourceId": "src_static_cninfo_com_cn_48580aeb19",
+  "fetchRunId": "fetch_2026_04_25_static_cninfo_com_cn_48580aeb19",
+  "publishedAt": "2026-04-25",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:466c334f383c96ab42cb66a2ae5419ecb8e1e0109a9af4c11d5d6e1400701b54",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_25_static_cninfo_com_cn_48580aeb19.json",
+  "entityIds": [
+    "moons"
+  ],
+  "claimIds": [
+    "claim_2026_04_25_filing_79d9e8e866"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5004b0cd20123f78; listSourceId=src_cninfo_603728_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_11_static_cninfo_com_cn_e6911a851d",
+  "artifactType": "filing",
+  "title": "关于归还临时补充流动资金的募集资金的公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-11/1225465934.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e6911a851d",
+  "fetchRunId": "fetch_2026_08_11_static_cninfo_com_cn_e6911a851d",
+  "publishedAt": "2026-08-11",
+  "firstSeenAt": "2026-08-11T16:16:22+08:00",
+  "capturedAt": "2026-08-11T16:16:22+08:00",
+  "contentHash": "sha256:ec700ae45174559a639f065e6b036a6b0597edf52979f9621bb04fd4a1c0bef8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_11_static_cninfo_com_cn_e6911a851d.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_08_11_filing_c8a7ee94dd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_34438a736836b505; listSourceId=src_cninfo_600028_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_e64b62445d",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225165783.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e64b62445d",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_e64b62445d",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d46b9b2f909edf8fd5e2a983e6028613bb52109694112f6b3827c2a3f6b75a4f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_e64b62445d.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_94a38727f5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_555140994fd23550; listSourceId=src_cninfo_600667_announcements."
+}

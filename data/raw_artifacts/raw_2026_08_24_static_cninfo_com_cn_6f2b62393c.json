@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_6f2b62393c",
+  "artifactType": "filing",
+  "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225491782.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6f2b62393c",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_6f2b62393c",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:cd3437b872a4dd440d3387b35b7479c1ab7d8cc42bfdeff94d7ac29358e26519",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_6f2b62393c.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_dbbaee3699"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e99e3b36f10bd75e; listSourceId=src_cninfo_300354_announcements."
+}

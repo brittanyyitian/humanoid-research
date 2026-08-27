@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_08_static_cninfo_com_cn_b7898f9f56",
+  "artifactType": "filing",
+  "title": "股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-08/1225413281.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b7898f9f56",
+  "fetchRunId": "fetch_2026_07_08_static_cninfo_com_cn_b7898f9f56",
+  "publishedAt": "2026-07-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e8bde5f2f57f89dfce6b045dcecba8f935b161ec6b0adf655a5221525aaeb79a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_b7898f9f56.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_08_filing_dd2520b0b5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_456fb49baf604c5d; listSourceId=src_cninfo_600547_announcements."
+}

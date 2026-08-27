@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_1dcf886143",
+  "artifactType": "filing",
+  "title": "沪硅产业2026年第一季度报告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225260379.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1dcf886143",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_1dcf886143",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dde88f058de920f2ce4d040b5ba7fab097fa328504ee48c12e73a3a1c088ac60",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_1dcf886143.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_c317182e5d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cd594ca3b065a93c; listSourceId=src_cninfo_688126_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_04_static_cninfo_com_cn_729aa24b58",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "奥比中光",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_04_static_cninfo_com_cn_729aa24b58"
+  ],
+  "claimIds": [
+    "claim_2026_07_04_filing_5a7b7ad527"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-04/1225409219.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:99de023420b6c7302917b82e0a1f5b4d0bbc75c39315434fcf6002d5a39330f3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_729aa24b58.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:25+08:00",
+      "finishedAt": "2026-07-15T11:30:25+08:00",
+      "contentHash": "sha256:140f16180f70d2a9054c3012b03dc70c5d6e03cc199e0da9e7fdd4ec2c1ebc70",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_729aa24b58.json"
+    }
+  ]
+}

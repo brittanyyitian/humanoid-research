@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_c0eb96db60",
+  "artifactType": "filing",
+  "title": "第八届董事会第九次会议决议公告",
+  "publisher": "机器人",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225430419.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c0eb96db60",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_c0eb96db60",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-18T18:32:18+08:00",
+  "capturedAt": "2026-07-18T18:32:18+08:00",
+  "contentHash": "sha256:7d9214e7719a408e33fa2071d857a169d9d1bf02895937c567b6bc18de3d62b7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_c0eb96db60.json",
+  "entityIds": [
+    "siasun_robot"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_9af3cc708b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5c3511dad40bfdc9; listSourceId=src_cninfo_300024_announcements."
+}

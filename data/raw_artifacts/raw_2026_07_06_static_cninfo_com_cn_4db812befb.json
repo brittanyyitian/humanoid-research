@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_06_static_cninfo_com_cn_4db812befb",
+  "artifactType": "filing",
+  "title": "关于股票交易异常波动公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-06/1225409765.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4db812befb",
+  "fetchRunId": "fetch_2026_07_06_static_cninfo_com_cn_4db812befb",
+  "publishedAt": "2026-07-06",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:c90c4d8597acd19fe4cb5d91fc74dd1861430a062f08f95d061db0c707b620b9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_06_static_cninfo_com_cn_4db812befb.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_07_06_filing_7b4fc96b1b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_40927f0951673beb; listSourceId=src_cninfo_300580_announcements."
+}

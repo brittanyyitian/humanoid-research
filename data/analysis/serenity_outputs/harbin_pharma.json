@@ -1,0 +1,1294 @@
+{
+  "id": "saout_harbin_pharma_a1d9e8ffadb1",
+  "entityId": "harbin_pharma",
+  "name": "哈药股份",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600664.SH",
+    "symbol": "600664.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_50_harbin_pharma",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_50_harbin_pharma/data/600664/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_50_harbin_pharma/ai_research/600664.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_50_harbin_pharma/ai_research/600664.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "哈药股份 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+      "哈药股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查哈药股份的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘哈药股份保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "医药制造与销售",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600664.SH",
+      "name": "哈药股份",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 8.75,
+        "previousClose": 8.179863513134523,
+        "changePct": 6.970000000000015,
+        "high": 6.14,
+        "low": 5.74,
+        "open": 5.87,
+        "volume": 2768755,
+        "turnover": 1647798826,
+        "turnoverText": "32.28亿",
+        "currency": "CNY",
+        "asOf": "20260827161455",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 59.08,
+        "technicalTimingScore": 76.4,
+        "marketPayoffScore": 63.6,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "CANDIDATE_POOL",
+        "confidence": "HIGH",
+        "companyScore": 36,
+        "evidenceScore": 76,
+        "valuationScore": 40,
+        "timingScore": 57,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 49.08,
+          "fundamentalScore": 49.65,
+          "companyScore": 36,
+          "evidenceScore": 76,
+          "valuationScore": 40,
+          "timingScore": 57,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 41.372,
+            "ps": 0.9371,
+            "revenueGrowth": 0.0002,
+            "profitGrowth": -0.2433,
+            "cashConversion": -1.1547,
+            "debtRatio": 0.5471,
+            "return20": 0.3151
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收159.64亿元，同比-1.31%；归母净利润3.62亿元，同比-42.5%。2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。",
+          "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…",
+          "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+          "2026-08-26复权收盘8.18元，低于20日平均成本8.3元；60日平均成本5.77元，近20个交易日涨跌+31.51%。"
+        ],
+        "possible": [
+          "哈药股份当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "哈药股份当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+          "哈药股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 63.6,
+        "crowdingControl": 2.4,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 59.08/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 76.4,
+        "dailyBuyPointScore": 3.05,
+        "dmaAlignmentScore": 4.6,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 3.59,
+            "volume": 409526,
+            "average20": 3.527,
+            "average60": 3.533
+          },
+          {
+            "date": "2026-03-16",
+            "close": 3.58,
+            "volume": 247580,
+            "average20": 3.53,
+            "average60": 3.532
+          },
+          {
+            "date": "2026-03-17",
+            "close": 3.59,
+            "volume": 344630,
+            "average20": 3.533,
+            "average60": 3.532
+          },
+          {
+            "date": "2026-03-18",
+            "close": 3.57,
+            "volume": 259121,
+            "average20": 3.535,
+            "average60": 3.532
+          },
+          {
+            "date": "2026-03-19",
+            "close": 3.49,
+            "volume": 294936,
+            "average20": 3.533,
+            "average60": 3.531
+          },
+          {
+            "date": "2026-03-20",
+            "close": 3.44,
+            "volume": 287723,
+            "average20": 3.529,
+            "average60": 3.529
+          },
+          {
+            "date": "2026-03-23",
+            "close": 3.23,
+            "volume": 413161,
+            "average20": 3.518,
+            "average60": 3.524
+          },
+          {
+            "date": "2026-03-24",
+            "close": 3.31,
+            "volume": 229926,
+            "average20": 3.51,
+            "average60": 3.52
+          },
+          {
+            "date": "2026-03-25",
+            "close": 3.34,
+            "volume": 224495,
+            "average20": 3.501,
+            "average60": 3.516
+          },
+          {
+            "date": "2026-03-26",
+            "close": 3.33,
+            "volume": 218866,
+            "average20": 3.491,
+            "average60": 3.512
+          },
+          {
+            "date": "2026-03-27",
+            "close": 3.41,
+            "volume": 329890,
+            "average20": 3.485,
+            "average60": 3.51
+          },
+          {
+            "date": "2026-03-30",
+            "close": 3.45,
+            "volume": 285864,
+            "average20": 3.481,
+            "average60": 3.508
+          },
+          {
+            "date": "2026-03-31",
+            "close": 3.52,
+            "volume": 443819,
+            "average20": 3.483,
+            "average60": 3.507
+          },
+          {
+            "date": "2026-04-01",
+            "close": 3.59,
+            "volume": 508515,
+            "average20": 3.49,
+            "average60": 3.508
+          },
+          {
+            "date": "2026-04-02",
+            "close": 3.6,
+            "volume": 532949,
+            "average20": 3.497,
+            "average60": 3.51
+          },
+          {
+            "date": "2026-04-03",
+            "close": 3.52,
+            "volume": 401578,
+            "average20": 3.498,
+            "average60": 3.511
+          },
+          {
+            "date": "2026-04-07",
+            "close": 3.87,
+            "volume": 2426799,
+            "average20": 3.511,
+            "average60": 3.518
+          },
+          {
+            "date": "2026-04-08",
+            "close": 3.74,
+            "volume": 2224312,
+            "average20": 3.518,
+            "average60": 3.521
+          },
+          {
+            "date": "2026-04-09",
+            "close": 3.75,
+            "volume": 2444866,
+            "average20": 3.526,
+            "average60": 3.525
+          },
+          {
+            "date": "2026-04-10",
+            "close": 3.76,
+            "volume": 1708637,
+            "average20": 3.534,
+            "average60": 3.529
+          },
+          {
+            "date": "2026-04-13",
+            "close": 3.67,
+            "volume": 1447641,
+            "average20": 3.538,
+            "average60": 3.532
+          },
+          {
+            "date": "2026-04-14",
+            "close": 4.04,
+            "volume": 2566908,
+            "average20": 3.561,
+            "average60": 3.54
+          },
+          {
+            "date": "2026-04-15",
+            "close": 4.44,
+            "volume": 4572963,
+            "average20": 3.604,
+            "average60": 3.555
+          },
+          {
+            "date": "2026-04-16",
+            "close": 4.4,
+            "volume": 6098333,
+            "average20": 3.645,
+            "average60": 3.569
+          },
+          {
+            "date": "2026-04-17",
+            "close": 4.17,
+            "volume": 4031616,
+            "average20": 3.679,
+            "average60": 3.579
+          },
+          {
+            "date": "2026-04-20",
+            "close": 4.28,
+            "volume": 3621556,
+            "average20": 3.721,
+            "average60": 3.592
+          },
+          {
+            "date": "2026-04-21",
+            "close": 4.1,
+            "volume": 2338530,
+            "average20": 3.764,
+            "average60": 3.602
+          },
+          {
+            "date": "2026-04-22",
+            "close": 3.93,
+            "volume": 2184428,
+            "average20": 3.795,
+            "average60": 3.609
+          },
+          {
+            "date": "2026-04-23",
+            "close": 3.88,
+            "volume": 1815553,
+            "average20": 3.822,
+            "average60": 3.615
+          },
+          {
+            "date": "2026-04-24",
+            "close": 3.7,
+            "volume": 1565778,
+            "average20": 3.841,
+            "average60": 3.618
+          },
+          {
+            "date": "2026-04-27",
+            "close": 3.67,
+            "volume": 1094700,
+            "average20": 3.854,
+            "average60": 3.62
+          },
+          {
+            "date": "2026-04-28",
+            "close": 3.69,
+            "volume": 1117513,
+            "average20": 3.866,
+            "average60": 3.622
+          },
+          {
+            "date": "2026-04-29",
+            "close": 3.68,
+            "volume": 961109,
+            "average20": 3.874,
+            "average60": 3.623
+          },
+          {
+            "date": "2026-04-30",
+            "close": 3.58,
+            "volume": 1002053,
+            "average20": 3.874,
+            "average60": 3.624
+          },
+          {
+            "date": "2026-05-06",
+            "close": 3.62,
+            "volume": 747031,
+            "average20": 3.875,
+            "average60": 3.625
+          },
+          {
+            "date": "2026-05-07",
+            "close": 3.66,
+            "volume": 774361,
+            "average20": 3.882,
+            "average60": 3.627
+          },
+          {
+            "date": "2026-05-08",
+            "close": 3.76,
+            "volume": 1247603,
+            "average20": 3.876,
+            "average60": 3.631
+          },
+          {
+            "date": "2026-05-11",
+            "close": 4.01,
+            "volume": 2613241,
+            "average20": 3.89,
+            "average60": 3.64
+          },
+          {
+            "date": "2026-05-12",
+            "close": 3.89,
+            "volume": 1769773,
+            "average20": 3.897,
+            "average60": 3.647
+          },
+          {
+            "date": "2026-05-13",
+            "close": 3.88,
+            "volume": 1164346,
+            "average20": 3.903,
+            "average60": 3.653
+          },
+          {
+            "date": "2026-05-14",
+            "close": 3.68,
+            "volume": 1551632,
+            "average20": 3.903,
+            "average60": 3.656
+          },
+          {
+            "date": "2026-05-15",
+            "close": 3.64,
+            "volume": 833194,
+            "average20": 3.883,
+            "average60": 3.658
+          },
+          {
+            "date": "2026-05-18",
+            "close": 3.53,
+            "volume": 903710,
+            "average20": 3.837,
+            "average60": 3.658
+          },
+          {
+            "date": "2026-05-19",
+            "close": 3.55,
+            "volume": 530623,
+            "average20": 3.795,
+            "average60": 3.658
+          },
+          {
+            "date": "2026-05-20",
+            "close": 3.44,
+            "volume": 717117,
+            "average20": 3.758,
+            "average60": 3.657
+          },
+          {
+            "date": "2026-05-21",
+            "close": 3.35,
+            "volume": 599682,
+            "average20": 3.712,
+            "average60": 3.654
+          },
+          {
+            "date": "2026-05-22",
+            "close": 3.38,
+            "volume": 440976,
+            "average20": 3.676,
+            "average60": 3.653
+          },
+          {
+            "date": "2026-05-25",
+            "close": 3.39,
+            "volume": 392551,
+            "average20": 3.649,
+            "average60": 3.651
+          },
+          {
+            "date": "2026-05-26",
+            "close": 3.36,
+            "volume": 391447,
+            "average20": 3.623,
+            "average60": 3.649
+          },
+          {
+            "date": "2026-05-27",
+            "close": 3.27,
+            "volume": 548774,
+            "average20": 3.601,
+            "average60": 3.645
+          },
+          {
+            "date": "2026-05-28",
+            "close": 3.27,
+            "volume": 364796,
+            "average20": 3.581,
+            "average60": 3.64
+          },
+          {
+            "date": "2026-05-29",
+            "close": 3.37,
+            "volume": 620067,
+            "average20": 3.566,
+            "average60": 3.638
+          },
+          {
+            "date": "2026-06-01",
+            "close": 3.39,
+            "volume": 435361,
+            "average20": 3.551,
+            "average60": 3.636
+          },
+          {
+            "date": "2026-06-02",
+            "close": 3.33,
+            "volume": 380196,
+            "average20": 3.538,
+            "average60": 3.634
+          },
+          {
+            "date": "2026-06-03",
+            "close": 3.28,
+            "volume": 412878,
+            "average20": 3.522,
+            "average60": 3.631
+          },
+          {
+            "date": "2026-06-04",
+            "close": 3.17,
+            "volume": 587603,
+            "average20": 3.497,
+            "average60": 3.626
+          },
+          {
+            "date": "2026-06-05",
+            "close": 3.18,
+            "volume": 424456,
+            "average20": 3.468,
+            "average60": 3.618
+          },
+          {
+            "date": "2026-06-08",
+            "close": 3.11,
+            "volume": 465026,
+            "average20": 3.423,
+            "average60": 3.61
+          },
+          {
+            "date": "2026-06-09",
+            "close": 3.1,
+            "volume": 337038,
+            "average20": 3.384,
+            "average60": 3.602
+          },
+          {
+            "date": "2026-06-10",
+            "close": 3.11,
+            "volume": 349048,
+            "average20": 3.345,
+            "average60": 3.594
+          },
+          {
+            "date": "2026-06-11",
+            "close": 3.09,
+            "volume": 287701,
+            "average20": 3.316,
+            "average60": 3.586
+          },
+          {
+            "date": "2026-06-12",
+            "close": 3.16,
+            "volume": 402560,
+            "average20": 3.292,
+            "average60": 3.579
+          },
+          {
+            "date": "2026-06-15",
+            "close": 3.17,
+            "volume": 330914,
+            "average20": 3.273,
+            "average60": 3.572
+          },
+          {
+            "date": "2026-06-16",
+            "close": 3.12,
+            "volume": 284018,
+            "average20": 3.252,
+            "average60": 3.564
+          },
+          {
+            "date": "2026-06-17",
+            "close": 3.07,
+            "volume": 334197,
+            "average20": 3.234,
+            "average60": 3.557
+          },
+          {
+            "date": "2026-06-18",
+            "close": 3.08,
+            "volume": 357083,
+            "average20": 3.22,
+            "average60": 3.551
+          },
+          {
+            "date": "2026-06-22",
+            "close": 3.08,
+            "volume": 438120,
+            "average20": 3.205,
+            "average60": 3.549
+          },
+          {
+            "date": "2026-06-23",
+            "close": 3.19,
+            "volume": 750449,
+            "average20": 3.195,
+            "average60": 3.547
+          },
+          {
+            "date": "2026-06-24",
+            "close": 3.12,
+            "volume": 611918,
+            "average20": 3.183,
+            "average60": 3.543
+          },
+          {
+            "date": "2026-06-25",
+            "close": 3.01,
+            "volume": 487934,
+            "average20": 3.17,
+            "average60": 3.538
+          },
+          {
+            "date": "2026-06-26",
+            "close": 2.93,
+            "volume": 390888,
+            "average20": 3.153,
+            "average60": 3.53
+          },
+          {
+            "date": "2026-06-29",
+            "close": 3.08,
+            "volume": 723549,
+            "average20": 3.138,
+            "average60": 3.523
+          },
+          {
+            "date": "2026-06-30",
+            "close": 2.99,
+            "volume": 529079,
+            "average20": 3.118,
+            "average60": 3.515
+          },
+          {
+            "date": "2026-07-01",
+            "close": 3.09,
+            "volume": 564327,
+            "average20": 3.106,
+            "average60": 3.506
+          },
+          {
+            "date": "2026-07-02",
+            "close": 3.11,
+            "volume": 552412,
+            "average20": 3.098,
+            "average60": 3.498
+          },
+          {
+            "date": "2026-07-03",
+            "close": 3.14,
+            "volume": 479193,
+            "average20": 3.096,
+            "average60": 3.492
+          },
+          {
+            "date": "2026-07-06",
+            "close": 3.18,
+            "volume": 578423,
+            "average20": 3.096,
+            "average60": 3.48
+          },
+          {
+            "date": "2026-07-07",
+            "close": 3.07,
+            "volume": 479221,
+            "average20": 3.095,
+            "average60": 3.469
+          },
+          {
+            "date": "2026-07-08",
+            "close": 3.09,
+            "volume": 380222,
+            "average20": 3.094,
+            "average60": 3.458
+          },
+          {
+            "date": "2026-07-09",
+            "close": 3.06,
+            "volume": 383403,
+            "average20": 3.091,
+            "average60": 3.446
+          },
+          {
+            "date": "2026-07-10",
+            "close": 3.37,
+            "volume": 1000322,
+            "average20": 3.106,
+            "average60": 3.441
+          },
+          {
+            "date": "2026-07-13",
+            "close": 3.71,
+            "volume": 2013664,
+            "average20": 3.133,
+            "average60": 3.436
+          },
+          {
+            "date": "2026-07-14",
+            "close": 4.08,
+            "volume": 4402835,
+            "average20": 3.179,
+            "average60": 3.43
+          },
+          {
+            "date": "2026-07-15",
+            "close": 4.49,
+            "volume": 1115523,
+            "average20": 3.247,
+            "average60": 3.431
+          },
+          {
+            "date": "2026-07-16",
+            "close": 4.94,
+            "volume": 2967867,
+            "average20": 3.341,
+            "average60": 3.444
+          },
+          {
+            "date": "2026-07-17",
+            "close": 5.33,
+            "volume": 8740456,
+            "average20": 3.453,
+            "average60": 3.462
+          },
+          {
+            "date": "2026-07-20",
+            "close": 5.31,
+            "volume": 7418671,
+            "average20": 3.565,
+            "average60": 3.482
+          },
+          {
+            "date": "2026-07-21",
+            "close": 5.84,
+            "volume": 7266474,
+            "average20": 3.697,
+            "average60": 3.514
+          },
+          {
+            "date": "2026-07-22",
+            "close": 5.98,
+            "volume": 6386552,
+            "average20": 3.84,
+            "average60": 3.549
+          },
+          {
+            "date": "2026-07-23",
+            "close": 5.94,
+            "volume": 2768755,
+            "average20": 3.987,
+            "average60": 3.586
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交与平时接近。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 3.99 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 3.33，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 8.75,
+            "recentAverage": 3.987,
+            "longerAverage": 3.586,
+            "recentHigh": 6.35,
+            "recentLow": 3.33
+          }
+        }
+      },
+      "risk": [
+        "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，哈药股份需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查哈药股份的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘哈药股份保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。",
+            "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…"
+          ]
+        },
+        "upside": {
+          "summary": "哈药股份的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "临床或审批进展、产品销售、授权收入或研发效率",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "哈药股份的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本5.77元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；继续恶化，或价格跌破60日平均成本5.77元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "哈药股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 1,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DIRECT_EVIDENCE_FOUND",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收159.64亿元，同比-1.31%；归母净利润3.62亿元，同比-42.5%。2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。",
+            "reason": "哈药股份当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225144814.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…",
+            "reason": "哈药股份当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225144814.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225144814.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘8.18元，低于20日平均成本8.3元；60日平均成本5.77元，近20个交易日涨跌+31.51%。",
+            "reason": "哈药股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收159.64亿元，同比-1.31%；归母净利润3.62亿元，同比-42.5%。2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。",
+          "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…",
+          "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查哈药股份的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘哈药股份保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收159.64亿元，同比-1.31%；归母净利润3.62亿元，同比-42.5%。2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…"
+      },
+      {
+        "label": "已确认",
+        "text": "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘8.18元，低于20日平均成本8.3元；60日平均成本5.77元，近20个交易日涨跌+31.51%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "哈药股份当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。"
+      },
+      {
+        "label": "分析",
+        "text": "哈药股份当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "哈药股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+        "status": "open"
+      },
+      {
+        "text": "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，哈药股份需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "status": "open"
+      },
+      {
+        "question": "哈药股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "600664.SH",
+      "research_status": "COMPLETED",
+      "score": 96.4,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.2,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "600664.SH",
+      "company": "哈药股份",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 60.71,
+      "evidence_confidence_score": 81.52,
+      "market_payoff_score": 63.6,
+      "technical_timing_score": 76.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 81.38,
+      "candidate_priority_score": 59.08,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "CANDIDATE_POOL",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 56.4,
+          "average_rating": 2.82,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 3.2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 73.6,
+          "average_rating": 3.68,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3.8,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 63.6,
+          "average_rating": 3.18,
+          "details": {
+            "valuation_discount": 3,
+            "implied_growth_vs_evidence": 3.6,
+            "upside_downside": 2.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 2.4
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 76.4,
+          "average_rating": 3.82,
+          "details": {
+            "monthly_trend": 4.9,
+            "weekly_structure": 3.85,
+            "daily_buy_point": 3.05,
+            "gf_dma_alignment": 4.6,
+            "drawdown_position": 2.7
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "医药制造与销售处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 8 份财报或业绩材料；近20日涨跌 97.3%，近60日涨跌 60.5%。",
+          "missing_proof": "临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "关键临床、审批或商业化进度晚于原计划。",
+        "研发投入继续增加，但获批产品销售没有形成增长。",
+        "核心产品出现安全性、竞争或医保价格压力。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "AVOID_FOR_NOW",
+      "label": "当前不优先",
+      "researchRating": "D",
+      "overallScore": 49.08,
+      "fundamentalScore": 49.65,
+      "companyScore": 36,
+      "evidenceScore": 76,
+      "valuationScore": 40,
+      "timingScore": 57,
+      "riskScore": 47,
+      "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+      "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+      "metrics": {
+        "pe": 41.372,
+        "ps": 0.9371,
+        "revenueGrowth": 0.0002,
+        "profitGrowth": -0.2433,
+        "cashConversion": -1.1547,
+        "debtRatio": 0.5471,
+        "return20": 0.3151
+      }
+    },
+    "overlay": {
+      "symbol": "600664.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "医药制造与销售",
+      "bottleneck_reason": "创新药价值必须经过临床、获批和销售，再进入利润和现金流；本次最关键的公司原文是：(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…",
+      "revenue_transmission": "这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+      "serenity_fit": 0.44,
+      "layer_score": 52,
+      "company_fit": 49,
+      "evidence_supported_growth": "H1",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收159.64亿元，同比-1.31%；归母净利润3.62亿元，同比-42.5%。2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；2026-08-26复权收盘8.18元，低于20日平均成本8.3元；60日平均成本5.77元，近20个交易日涨跌+31.51%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": -1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，哈药股份需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "哈药股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收41.75亿元，较可比期+0.02%；归母净利润1.61亿元，较可比期-24.33%；经营现金流-1.86亿元。",
+          "(3).报告期内呈交监管部门审批、通过审批的药（产）品情况 √适用 □不适用 序号 药（产）品名称 审批类型 对公司的影响 1 乳果糖口服溶液 2025年4月获得药品注册证书 2 磷酸奥司他韦干混悬剂 2025年10月获得药品注册证书 3 注射用头孢西丁钠 2025年1月通过仿制药质量和疗效一致性评价 4 注射用头孢他啶 2025年4月通过仿制药质量和疗效一致性评价 5 诺氟沙星胶囊 2025年6月通过仿制药质量和疗效一致性评价 仿制药、原料药、仿制药质量和疗效一致 6 拉西地平片 2025年9月通过仿制药质量和疗效一致性评价 性评价等项目的成功获批，均有利于扩大 7 乳酸钙（原料） 2025年10月获得化学原料药上市申请批准通知书 公司产品的市场份额，提升企业市场竞争 8 蛋白琥珀酸铁口服溶液 2026…"
+        ]
+      },
+      "upside": {
+        "summary": "哈药股份的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "临床或审批进展、产品销售、授权收入或研发效率",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "哈药股份的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本5.77元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本8.3元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若应对措施：面对上述风险，公司计划从以下方面推进应对工作：一是深化供应链多元化布局， 进一步拓展核心原材料的优质供应商资源，逐步降低对单一供应商、单一产区的依赖；继续恶化，或价格跌破60日平均成本5.77元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

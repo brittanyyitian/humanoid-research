@@ -1,0 +1,22 @@
+{
+  "id": "raw_2024_01_11_unitree_com_7578d232db",
+  "artifactType": "news_page",
+  "title": "Unitree夺得IEEE Humanoids 2023冠军，在CES 2024盛大登场！",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/12",
+  "sourceId": "src_unitree_com_7578d232db",
+  "fetchRunId": "fetch_2024_01_11_unitree_com_7578d232db",
+  "publishedAt": "2024-01-11",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:3c03366b7eaace3f130da333a1ccc3b8c7e7a2c27575502341660df5556fada8",
+  "storagePath": "raw_artifacts/payloads/raw_2024_01_11_unitree_com_7578d232db.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2024_01_11_other_c99adc3df4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_4a4efc4600ad20ff; listSourceId=src_unitree_official_news."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_fa61d59703",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司第七届董事会第十四次会议决议公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419447.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fa61d59703",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_fa61d59703",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:646d737bf0093cfc0230134b3388eccdb563e3af989307d0590b2cde46533db3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_fa61d59703.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_e1584a9183"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3e8154e1d123fe3f; listSourceId=src_cninfo_600547_announcements."
+}

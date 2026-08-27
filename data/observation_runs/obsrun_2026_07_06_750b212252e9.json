@@ -1,0 +1,188 @@
+{
+  "id": "obsrun_2026_07_06_750b212252e9",
+  "targetDate": "2026-07-06",
+  "generatedAt": "2026-07-06T12:07:00+08:00",
+  "sourceDashboardGeneratedAt": "2026-07-06T04:06:49.827Z",
+  "status": "completed",
+  "projectionPolicy": "Observations are projected only from formal events with promoted claims and supporting evidence. Pipeline candidates stay in inbox.",
+  "observationCount": 1,
+  "projectedCount": 1,
+  "excludedClaimCount": 25,
+  "violationCount": 0,
+  "rows": [
+    {
+      "observationId": "obs_evt_2026_06_29_zhiyuan_15000_robot_downline",
+      "eventId": "evt_2026_06_29_zhiyuan_15000_robot_downline",
+      "gate": "formal_event_and_promoted_claims",
+      "status": "projected",
+      "title": "智元第15000台具身机器人量产下线",
+      "date": "2026-06-29",
+      "claimIds": [
+        "claim_2026_06_29_zhiyuan_15000_downline",
+        "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
+      ],
+      "evidenceIds": [
+        "evd_2026_06_29_agibot_supports_15000_downline",
+        "evd_2026_06_29_agibot_supports_g2_longcheer_delivery"
+      ],
+      "stateTransitionIds": [
+        "st_2026_07_03_claim_zhiyuan_15000_promoted",
+        "st_2026_07_03_claim_zhiyuan_g2_delivery_promoted"
+      ],
+      "violations": []
+    }
+  ],
+  "excludedClaims": [
+    {
+      "claimId": "claim_2025_11_14_other_bf19a2ea31",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2025_11_27_other_0032639480",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_03_04_other_7d192a8f4d",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_03_31_financial_7b9ccabecb",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_15_filing_4ec343f48a",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_18_other_7add2ef7ec",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_20_other_545b36f4cb",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_21_other_b22ef1211b",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_26_product_release_2d9604280c",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_29_other_b8c8a9fa65",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_05_29_other_fe1b4d0853",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_01_filing_80c064155f",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_01_product_release_ae7b877425",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_04_other_7f54aad70a",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_08_other_0d68cbb3b2",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_08_other_5719a2052b",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_11_other_d38f172a12",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_12_filing_5bf12d6891",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_22_other_a259d6ede7",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_23_other_5757f0f7f1",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_23_other_6f90b4af8f",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_25_other_10637c56a5",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_25_other_6174c63668",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_06_29_other_dfcb9b1fc7",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_07_04_product_release_5e689f029f",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    }
+  ],
+  "violations": []
+}

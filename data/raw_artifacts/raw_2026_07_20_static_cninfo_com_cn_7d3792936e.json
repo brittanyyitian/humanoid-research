@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_20_static_cninfo_com_cn_7d3792936e",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司关于控股股东增持公司股份计划的公告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-20/1225431563.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7d3792936e",
+  "fetchRunId": "fetch_2026_07_20_static_cninfo_com_cn_7d3792936e",
+  "publishedAt": "2026-07-20",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:1966e9d3620a9d30418a00621b9fb25f00c46726cf1f3ac5c630ca80cf43a2ee",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_20_static_cninfo_com_cn_7d3792936e.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_20_filing_039dd60057"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_63451f74adab35b3; listSourceId=src_cninfo_600886_announcements."
+}

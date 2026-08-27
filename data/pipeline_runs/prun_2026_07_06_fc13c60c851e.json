@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_06_fc13c60c851e",
+  "pipelineTaskId": "ptask_2026_07_06_66f789d8e856",
+  "rawArtifactId": "raw_2025_11_27_leaderdrive_com_fe87884c06",
+  "routeDecisionId": "route_2025_11_27_a9c2e3dcdae7",
+  "pipeline": "supply_chain_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-06T12:02:00+08:00",
+  "finishedAt": "2026-07-06T12:02:00+08:00",
+  "claimIds": [
+    "claim_2025_11_27_other_0032639480"
+  ],
+  "evidenceIds": [
+    "evd_2025_11_27_other_0032639480"
+  ],
+  "ruleOutputIds": [
+    "rout_2025_11_27_supply_chain_material_v0_014c28cacb"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

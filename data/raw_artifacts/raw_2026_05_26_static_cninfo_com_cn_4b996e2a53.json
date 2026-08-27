@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_4b996e2a53",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司关于公司高级管理人员2025年度薪酬报告及2026年度薪酬方案的公告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329895.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4b996e2a53",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_4b996e2a53",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b48e313b6be5a3e4d6b98b59a36a4d66518a8af31db72eb8d08f6a773ce1337b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_4b996e2a53.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_f3a66d88de"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cf0aabfdfa1403e0; listSourceId=src_cninfo_600886_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_static_cninfo_com_cn_3c4217499e",
+  "artifactType": "filing",
+  "title": "第六届董事会第二次会议决议公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-05/1225458520.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3c4217499e",
+  "fetchRunId": "fetch_2026_08_05_static_cninfo_com_cn_3c4217499e",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-05T16:16:18+08:00",
+  "capturedAt": "2026-08-05T16:16:18+08:00",
+  "contentHash": "sha256:6b12a484e03cd00c01c1dbbd5aad3691894ad13e6b6d49bbbc0a8d7e8c4809c9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_static_cninfo_com_cn_3c4217499e.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_filing_dae2a1a893"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0595f76591777ed1; listSourceId=src_cninfo_002747_announcements."
+}

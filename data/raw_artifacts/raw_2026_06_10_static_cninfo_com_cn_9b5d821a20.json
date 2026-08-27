@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_9b5d821a20",
+  "artifactType": "filing",
+  "title": "关于更换持续督导保荐代表人的公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225362530.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9b5d821a20",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_9b5d821a20",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:6a8903b2d6a22b13cc8e997d31892617d5aef482495e8c64119d598627d119d8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_9b5d821a20.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_24f8a2831b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f235e8fd6d05f268; listSourceId=src_cninfo_300007_announcements."
+}

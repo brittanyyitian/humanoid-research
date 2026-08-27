@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_07_25_static_cninfo_com_cn_940b84badc",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-07-25/1224282179.PDF",
+  "sourceId": "src_static_cninfo_com_cn_940b84badc",
+  "fetchRunId": "fetch_2025_07_25_static_cninfo_com_cn_940b84badc",
+  "publishedAt": "2025-07-25",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:9b92df3e2b95e9572959b5882e55a30083316ae3d5386641b3882690945aa5ba",
+  "storagePath": "raw_artifacts/payloads/raw_2025_07_25_static_cninfo_com_cn_940b84badc.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2025_07_25_filing_41711b03d2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_38189a5e3ea0af2f; listSourceId=src_cninfo_000159_announcements."
+}

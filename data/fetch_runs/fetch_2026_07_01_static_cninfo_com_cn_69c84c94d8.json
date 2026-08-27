@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_01_static_cninfo_com_cn_69c84c94d8",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "三花智控",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:32+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_01_static_cninfo_com_cn_69c84c94d8"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_2b7a8faadc"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225400614.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:54e97f3255e8f71f084a9fcb1daf35d1d97081d3ca43bfe1262a87eb60673ed3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_69c84c94d8.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:32+08:00",
+      "finishedAt": "2026-07-15T11:30:32+08:00",
+      "contentHash": "sha256:df072e6f2ddce24321b157beb1ae600808a3ff1fe014c1d2d9482da552c29b1e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_69c84c94d8.json"
+    }
+  ]
+}

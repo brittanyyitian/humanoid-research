@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_14_static_cninfo_com_cn_543fd56b29",
+  "artifactType": "filing",
+  "title": "港股公告：二零二六年第二季度业绩公布",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225471647.PDF",
+  "sourceId": "src_static_cninfo_com_cn_543fd56b29",
+  "fetchRunId": "fetch_2026_08_14_static_cninfo_com_cn_543fd56b29",
+  "publishedAt": "2026-08-14",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:fec8f5e69632b4368c52e31a8b7aaf52006024b95ddb7164a9da9bf9c3d2a401",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_543fd56b29.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_2b2f99b3ec"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8598bff760da2130; listSourceId=src_cninfo_688347_announcements."
+}

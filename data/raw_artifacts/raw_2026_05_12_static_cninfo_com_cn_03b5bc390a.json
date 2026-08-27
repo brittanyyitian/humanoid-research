@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_12_static_cninfo_com_cn_03b5bc390a",
+  "artifactType": "filing",
+  "title": "关于董事会完成换届选举及聘任高级管理人员的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225292574.PDF",
+  "sourceId": "src_static_cninfo_com_cn_03b5bc390a",
+  "fetchRunId": "fetch_2026_05_12_static_cninfo_com_cn_03b5bc390a",
+  "publishedAt": "2026-05-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1a931fd394584052df18a75ffb48b3eb259fea004f1e497543158a59e9c5ab49",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_03b5bc390a.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_e73280dc5b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d2c3866bf7e3edf6; listSourceId=src_cninfo_002371_announcements."
+}

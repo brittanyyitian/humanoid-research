@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_15_static_cninfo_com_cn_b2e48a324d",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩预告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225422801.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b2e48a324d",
+  "fetchRunId": "fetch_2026_07_15_static_cninfo_com_cn_b2e48a324d",
+  "publishedAt": "2026-07-15",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:99be8f06b8cdfaaafcbfe3865af0c627ff68abc6b5bfb6ce5a0d2c8d65704eb3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_b2e48a324d.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_d2372b42cd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c19ecd756237a4ce; listSourceId=src_cninfo_000426_announcements."
+}

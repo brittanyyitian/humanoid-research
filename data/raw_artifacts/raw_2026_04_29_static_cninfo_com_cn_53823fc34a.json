@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_53823fc34a",
+  "artifactType": "filing",
+  "title": "第九届董事会第十次会议决议公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225226166.PDF",
+  "sourceId": "src_static_cninfo_com_cn_53823fc34a",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_53823fc34a",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:351e619a6fe5ea037d2c633a4969b01b5150dac37f7d025146b2e38ab6fb437e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_53823fc34a.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_3d26a3ae88"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_30eea933cb69dee8; listSourceId=src_cninfo_000159_announcements."
+}

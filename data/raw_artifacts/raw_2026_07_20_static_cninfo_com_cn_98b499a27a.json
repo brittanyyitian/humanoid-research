@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_20_static_cninfo_com_cn_98b499a27a",
+  "artifactType": "filing",
+  "title": "关于公司董事辞职的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-20/1225431736.PDF",
+  "sourceId": "src_static_cninfo_com_cn_98b499a27a",
+  "fetchRunId": "fetch_2026_07_20_static_cninfo_com_cn_98b499a27a",
+  "publishedAt": "2026-07-20",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:43dcb3a9801abe06f58d6e3c65f179620af7775e81c0cbe15e18458c1b4a9959",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_20_static_cninfo_com_cn_98b499a27a.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_07_20_filing_dd0f013249"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7d92291696725281; listSourceId=src_cninfo_301269_announcements."
+}

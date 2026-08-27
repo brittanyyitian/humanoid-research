@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_15_static_cninfo_com_cn_f7f3212ffc",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "通富微电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-22T16:15:52+08:00",
+  "finishedAt": "2026-07-22T16:15:53+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_df8fee566d"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225423192.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-22T16:15:52+08:00",
+      "finishedAt": "2026-07-22T16:15:52+08:00",
+      "contentHash": "sha256:1ffcfa58b67b346e3386d4939f68c5fc7cd8338a2501e5410fcad286b53b2606",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-22T16:15:53+08:00",
+      "finishedAt": "2026-07-22T16:15:53+08:00",
+      "contentHash": "sha256:dc0c35398fe9d3935216e3c43f9ec7288817007041b031dfce2d7ed50cd8babc",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc.json"
+    }
+  ]
+}

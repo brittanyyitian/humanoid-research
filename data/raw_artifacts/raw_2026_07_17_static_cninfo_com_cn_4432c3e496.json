@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_4432c3e496",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司股票交易异常波动公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225427630.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4432c3e496",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_4432c3e496",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ab5562df0c12b6f0943e9ff069767c41d15c2ddf41aee610dfe023b4710eaeab",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_4432c3e496.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_97f1bd2b73"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_50a1de0994bf455f; listSourceId=src_cninfo_600664_announcements."
+}

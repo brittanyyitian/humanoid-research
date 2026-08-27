@@ -1,0 +1,1294 @@
+{
+  "id": "saout_luster_lighttech_17fc826ef6c7",
+  "entityId": "luster_lighttech",
+  "name": "凌云光",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688400.SH",
+    "symbol": "688400.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_19_48_luster_lighttech",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_19_48_luster_lighttech/data/688400/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_19_48_luster_lighttech/ai_research/688400.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_19_48_luster_lighttech/ai_research/688400.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "凌云光 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "凌云光的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查凌云光的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘凌云光保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "机器视觉",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688400.SH",
+      "name": "凌云光",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 47.25,
+        "previousClose": 45.480796996823564,
+        "changePct": 3.889999999999999,
+        "high": 47.18,
+        "low": 44.64,
+        "open": 46.08,
+        "volume": 15754966,
+        "turnover": 72199,
+        "turnoverText": "3.92亿",
+        "currency": "CNY",
+        "asOf": "20260827161459",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 57.2,
+        "technicalTimingScore": 24.2,
+        "marketPayoffScore": 60.56,
+        "dataReadinessScore": 100,
+        "type": "继续观察，等证据",
+        "currentAction": "等待下一份财报或公告补齐最关键的公司级证据。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 50,
+        "evidenceScore": 74,
+        "valuationScore": 43,
+        "timingScore": 24.2,
+        "riskScore": 54,
+        "decisionReason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WATCH_FOR_EVIDENCE",
+          "label": "继续观察，等证据",
+          "researchRating": "C",
+          "overallScore": 45.7,
+          "fundamentalScore": 57.8,
+          "companyScore": 50,
+          "evidenceScore": 74,
+          "valuationScore": 43,
+          "timingScore": 24.2,
+          "riskScore": 54,
+          "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+          "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+          "metrics": {
+            "pe": 131.6193,
+            "ps": 7.2937,
+            "revenueGrowth": -0.0279,
+            "profitGrowth": 12.3313,
+            "cashConversion": -0.32,
+            "debtRatio": 0.2637,
+            "return20": -0.0299
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收29.12亿元，同比+30.35%；归母净利润1.61亿元，同比+50.7%。2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。",
+          "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+          "2026-08-26复权收盘45.48元，低于20日平均成本47.97元；60日平均成本50.89元，近20个交易日涨跌-2.99%。"
+        ],
+        "possible": [
+          "凌云光当前财务信号为：公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。",
+          "凌云光当前业务信号为：报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。",
+          "凌云光当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 60.56,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.2/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 24.2,
+        "dailyBuyPointScore": 0.55,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 42.296,
+            "volume": 8996442,
+            "average20": 43.999,
+            "average60": 43.236
+          },
+          {
+            "date": "2026-03-13",
+            "close": 43.106,
+            "volume": 16187986,
+            "average20": 44.035,
+            "average60": 43.23
+          },
+          {
+            "date": "2026-03-16",
+            "close": 46.286,
+            "volume": 21813257,
+            "average20": 44.246,
+            "average60": 43.254
+          },
+          {
+            "date": "2026-03-17",
+            "close": 43.516,
+            "volume": 15656451,
+            "average20": 44.212,
+            "average60": 43.258
+          },
+          {
+            "date": "2026-03-18",
+            "close": 44.346,
+            "volume": 9554761,
+            "average20": 44.214,
+            "average60": 43.282
+          },
+          {
+            "date": "2026-03-19",
+            "close": 43.086,
+            "volume": 9354374,
+            "average20": 44.208,
+            "average60": 43.328
+          },
+          {
+            "date": "2026-03-20",
+            "close": 43.966,
+            "volume": 23729637,
+            "average20": 44.131,
+            "average60": 43.417
+          },
+          {
+            "date": "2026-03-23",
+            "close": 40.156,
+            "volume": 19907797,
+            "average20": 43.901,
+            "average60": 43.405
+          },
+          {
+            "date": "2026-03-24",
+            "close": 40.386,
+            "volume": 11270543,
+            "average20": 43.638,
+            "average60": 43.39
+          },
+          {
+            "date": "2026-03-25",
+            "close": 41.936,
+            "volume": 14027399,
+            "average20": 43.434,
+            "average60": 43.425
+          },
+          {
+            "date": "2026-03-26",
+            "close": 39.786,
+            "volume": 10567550,
+            "average20": 43.104,
+            "average60": 43.412
+          },
+          {
+            "date": "2026-03-27",
+            "close": 40.126,
+            "volume": 8571221,
+            "average20": 42.788,
+            "average60": 43.397
+          },
+          {
+            "date": "2026-03-30",
+            "close": 39.316,
+            "volume": 6838337,
+            "average20": 42.499,
+            "average60": 43.348
+          },
+          {
+            "date": "2026-03-31",
+            "close": 37.486,
+            "volume": 8281132,
+            "average20": 42.225,
+            "average60": 43.258
+          },
+          {
+            "date": "2026-04-01",
+            "close": 40.036,
+            "volume": 13534209,
+            "average20": 42.086,
+            "average60": 43.227
+          },
+          {
+            "date": "2026-04-02",
+            "close": 39.456,
+            "volume": 7890461,
+            "average20": 41.93,
+            "average60": 43.188
+          },
+          {
+            "date": "2026-04-03",
+            "close": 43.146,
+            "volume": 26662362,
+            "average20": 41.916,
+            "average60": 43.189
+          },
+          {
+            "date": "2026-04-07",
+            "close": 42.266,
+            "volume": 13392976,
+            "average20": 41.915,
+            "average60": 43.188
+          },
+          {
+            "date": "2026-04-08",
+            "close": 45.116,
+            "volume": 15422919,
+            "average20": 41.962,
+            "average60": 43.216
+          },
+          {
+            "date": "2026-04-09",
+            "close": 45.956,
+            "volume": 17592856,
+            "average20": 42.088,
+            "average60": 43.237
+          },
+          {
+            "date": "2026-04-10",
+            "close": 47.616,
+            "volume": 29754518,
+            "average20": 42.354,
+            "average60": 43.258
+          },
+          {
+            "date": "2026-04-13",
+            "close": 47.556,
+            "volume": 15279248,
+            "average20": 42.577,
+            "average60": 43.3
+          },
+          {
+            "date": "2026-04-14",
+            "close": 48.416,
+            "volume": 21646319,
+            "average20": 42.683,
+            "average60": 43.35
+          },
+          {
+            "date": "2026-04-15",
+            "close": 47.146,
+            "volume": 13958840,
+            "average20": 42.865,
+            "average60": 43.322
+          },
+          {
+            "date": "2026-04-16",
+            "close": 48.146,
+            "volume": 11270536,
+            "average20": 43.055,
+            "average60": 43.371
+          },
+          {
+            "date": "2026-04-17",
+            "close": 48.856,
+            "volume": 15366712,
+            "average20": 43.344,
+            "average60": 43.438
+          },
+          {
+            "date": "2026-04-20",
+            "close": 47.836,
+            "volume": 12530133,
+            "average20": 43.537,
+            "average60": 43.495
+          },
+          {
+            "date": "2026-04-21",
+            "close": 49.076,
+            "volume": 14973261,
+            "average20": 43.983,
+            "average60": 43.561
+          },
+          {
+            "date": "2026-04-22",
+            "close": 50.456,
+            "volume": 17701878,
+            "average20": 44.486,
+            "average60": 43.666
+          },
+          {
+            "date": "2026-04-23",
+            "close": 47.016,
+            "volume": 21184428,
+            "average20": 44.74,
+            "average60": 43.744
+          },
+          {
+            "date": "2026-04-24",
+            "close": 46.586,
+            "volume": 11502380,
+            "average20": 45.08,
+            "average60": 43.807
+          },
+          {
+            "date": "2026-04-27",
+            "close": 46.716,
+            "volume": 9830610,
+            "average20": 45.41,
+            "average60": 43.871
+          },
+          {
+            "date": "2026-04-28",
+            "close": 45.876,
+            "volume": 10635087,
+            "average20": 45.738,
+            "average60": 43.921
+          },
+          {
+            "date": "2026-04-29",
+            "close": 49.346,
+            "volume": 30457888,
+            "average20": 46.331,
+            "average60": 44.052
+          },
+          {
+            "date": "2026-04-30",
+            "close": 59.236,
+            "volume": 40162770,
+            "average20": 47.291,
+            "average60": 44.338
+          },
+          {
+            "date": "2026-05-06",
+            "close": 62.106,
+            "volume": 40765422,
+            "average20": 48.424,
+            "average60": 44.681
+          },
+          {
+            "date": "2026-05-07",
+            "close": 66.606,
+            "volume": 33499247,
+            "average20": 49.596,
+            "average60": 45.12
+          },
+          {
+            "date": "2026-05-08",
+            "close": 66.466,
+            "volume": 26368646,
+            "average20": 50.806,
+            "average60": 45.553
+          },
+          {
+            "date": "2026-05-11",
+            "close": 66.366,
+            "volume": 30707647,
+            "average20": 51.869,
+            "average60": 45.977
+          },
+          {
+            "date": "2026-05-12",
+            "close": 65.266,
+            "volume": 18420628,
+            "average20": 52.835,
+            "average60": 46.341
+          },
+          {
+            "date": "2026-05-13",
+            "close": 66.496,
+            "volume": 22406372,
+            "average20": 53.778,
+            "average60": 46.711
+          },
+          {
+            "date": "2026-05-14",
+            "close": 64.726,
+            "volume": 20336298,
+            "average20": 54.637,
+            "average60": 47.083
+          },
+          {
+            "date": "2026-05-15",
+            "close": 63.096,
+            "volume": 20081151,
+            "average20": 55.371,
+            "average60": 47.433
+          },
+          {
+            "date": "2026-05-18",
+            "close": 68.816,
+            "volume": 29752661,
+            "average20": 56.454,
+            "average60": 47.844
+          },
+          {
+            "date": "2026-05-19",
+            "close": 67.616,
+            "volume": 25463138,
+            "average20": 57.428,
+            "average60": 48.232
+          },
+          {
+            "date": "2026-05-20",
+            "close": 67.746,
+            "volume": 31506367,
+            "average20": 58.373,
+            "average60": 48.641
+          },
+          {
+            "date": "2026-05-21",
+            "close": 63.686,
+            "volume": 30941294,
+            "average20": 59.165,
+            "average60": 48.944
+          },
+          {
+            "date": "2026-05-22",
+            "close": 66.136,
+            "volume": 21753579,
+            "average20": 60.018,
+            "average60": 49.3
+          },
+          {
+            "date": "2026-05-25",
+            "close": 68.306,
+            "volume": 24385446,
+            "average20": 60.91,
+            "average60": 49.678
+          },
+          {
+            "date": "2026-05-26",
+            "close": 68.516,
+            "volume": 31181311,
+            "average20": 61.986,
+            "average60": 50.053
+          },
+          {
+            "date": "2026-05-27",
+            "close": 64.876,
+            "volume": 23618136,
+            "average20": 62.9,
+            "average60": 50.361
+          },
+          {
+            "date": "2026-05-28",
+            "close": 64.846,
+            "volume": 18925662,
+            "average20": 63.807,
+            "average60": 50.668
+          },
+          {
+            "date": "2026-05-29",
+            "close": 61.346,
+            "volume": 24903115,
+            "average20": 64.58,
+            "average60": 50.939
+          },
+          {
+            "date": "2026-06-01",
+            "close": 55.546,
+            "volume": 24389643,
+            "average20": 64.89,
+            "average60": 51.149
+          },
+          {
+            "date": "2026-06-02",
+            "close": 54.716,
+            "volume": 16871352,
+            "average20": 64.664,
+            "average60": 51.347
+          },
+          {
+            "date": "2026-06-03",
+            "close": 55.306,
+            "volume": 21813971,
+            "average20": 64.324,
+            "average60": 51.559
+          },
+          {
+            "date": "2026-06-04",
+            "close": 54.936,
+            "volume": 15728704,
+            "average20": 63.74,
+            "average60": 51.751
+          },
+          {
+            "date": "2026-06-05",
+            "close": 57.316,
+            "volume": 29371521,
+            "average20": 63.283,
+            "average60": 52.001
+          },
+          {
+            "date": "2026-06-08",
+            "close": 60.656,
+            "volume": 38159176,
+            "average20": 62.997,
+            "average60": 52.276
+          },
+          {
+            "date": "2026-06-09",
+            "close": 61.276,
+            "volume": 34436323,
+            "average20": 62.798,
+            "average60": 52.574
+          },
+          {
+            "date": "2026-06-10",
+            "close": 57.646,
+            "volume": 25743037,
+            "average20": 62.356,
+            "average60": 52.83
+          },
+          {
+            "date": "2026-06-11",
+            "close": 56.416,
+            "volume": 18063287,
+            "average20": 61.94,
+            "average60": 53.051
+          },
+          {
+            "date": "2026-06-12",
+            "close": 56.616,
+            "volume": 23149121,
+            "average20": 61.616,
+            "average60": 53.224
+          },
+          {
+            "date": "2026-06-15",
+            "close": 59.016,
+            "volume": 15440990,
+            "average20": 61.126,
+            "average60": 53.482
+          },
+          {
+            "date": "2026-06-16",
+            "close": 59.936,
+            "volume": 18380560,
+            "average20": 60.742,
+            "average60": 53.742
+          },
+          {
+            "date": "2026-06-17",
+            "close": 60.466,
+            "volume": 18025103,
+            "average20": 60.378,
+            "average60": 54.031
+          },
+          {
+            "date": "2026-06-18",
+            "close": 69.006,
+            "volume": 34120046,
+            "average20": 60.644,
+            "average60": 54.449
+          },
+          {
+            "date": "2026-06-22",
+            "close": 68.126,
+            "volume": 30440910,
+            "average20": 60.743,
+            "average60": 54.915
+          },
+          {
+            "date": "2026-06-23",
+            "close": 65.256,
+            "volume": 18851318,
+            "average20": 60.591,
+            "average60": 55.329
+          },
+          {
+            "date": "2026-06-24",
+            "close": 66.196,
+            "volume": 18742799,
+            "average20": 60.475,
+            "average60": 55.734
+          },
+          {
+            "date": "2026-06-25",
+            "close": 64.916,
+            "volume": 22202953,
+            "average20": 60.477,
+            "average60": 56.153
+          },
+          {
+            "date": "2026-06-26",
+            "close": 65.796,
+            "volume": 23946333,
+            "average20": 60.524,
+            "average60": 56.58
+          },
+          {
+            "date": "2026-06-29",
+            "close": 60.416,
+            "volume": 26019112,
+            "average20": 60.478,
+            "average60": 56.932
+          },
+          {
+            "date": "2026-06-30",
+            "close": 66.116,
+            "volume": 23821782,
+            "average20": 61.006,
+            "average60": 57.409
+          },
+          {
+            "date": "2026-07-01",
+            "close": 67.076,
+            "volume": 23315198,
+            "average20": 61.624,
+            "average60": 57.86
+          },
+          {
+            "date": "2026-07-02",
+            "close": 65.416,
+            "volume": 21214466,
+            "average20": 62.13,
+            "average60": 58.293
+          },
+          {
+            "date": "2026-07-03",
+            "close": 71.326,
+            "volume": 36302921,
+            "average20": 62.949,
+            "average60": 58.762
+          },
+          {
+            "date": "2026-07-06",
+            "close": 61.616,
+            "volume": 34798010,
+            "average20": 63.164,
+            "average60": 59.085
+          },
+          {
+            "date": "2026-07-07",
+            "close": 58.406,
+            "volume": 21503868,
+            "average20": 63.052,
+            "average60": 59.306
+          },
+          {
+            "date": "2026-07-08",
+            "close": 54.216,
+            "volume": 18596784,
+            "average20": 62.699,
+            "average60": 59.444
+          },
+          {
+            "date": "2026-07-09",
+            "close": 55.966,
+            "volume": 15604228,
+            "average20": 62.615,
+            "average60": 59.583
+          },
+          {
+            "date": "2026-07-10",
+            "close": 54.58,
+            "volume": 17047483,
+            "average20": 62.523,
+            "average60": 59.7
+          },
+          {
+            "date": "2026-07-13",
+            "close": 50.03,
+            "volume": 14629499,
+            "average20": 62.194,
+            "average60": 59.727
+          },
+          {
+            "date": "2026-07-14",
+            "close": 51.9,
+            "volume": 11739328,
+            "average20": 61.838,
+            "average60": 59.806
+          },
+          {
+            "date": "2026-07-15",
+            "close": 50.64,
+            "volume": 10901960,
+            "average20": 61.373,
+            "average60": 59.848
+          },
+          {
+            "date": "2026-07-16",
+            "close": 47.57,
+            "volume": 11793471,
+            "average20": 60.729,
+            "average60": 59.826
+          },
+          {
+            "date": "2026-07-17",
+            "close": 47.74,
+            "volume": 21323262,
+            "average20": 59.665,
+            "average60": 59.825
+          },
+          {
+            "date": "2026-07-20",
+            "close": 43.54,
+            "volume": 19197306,
+            "average20": 58.436,
+            "average60": 59.732
+          },
+          {
+            "date": "2026-07-21",
+            "close": 47.02,
+            "volume": 18731718,
+            "average20": 57.524,
+            "average60": 59.675
+          },
+          {
+            "date": "2026-07-22",
+            "close": 44.64,
+            "volume": 15754966,
+            "average20": 56.446,
+            "average60": 59.636
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交与平时接近。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 56.45 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 40.56，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 47.25,
+            "recentAverage": 56.446,
+            "longerAverage": 59.636,
+            "recentHigh": 73.896,
+            "recentLow": 40.56
+          }
+        }
+      },
+      "risk": [
+        "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+        "若下一期现金流明显落后于利润，凌云光的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查凌云光的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘凌云光保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。",
+            "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。"
+          ]
+        },
+        "upside": {
+          "summary": "凌云光的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "凌云光的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本50.89元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。继续恶化，或价格跌破60日平均成本50.89元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "凌云光的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 2,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DIRECT_EVIDENCE_FOUND",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收29.12亿元，同比+30.35%；归母净利润1.61亿元，同比+50.7%。2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。",
+            "reason": "凌云光当前财务信号为：公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225251960.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+            "reason": "凌云光当前业务信号为：报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225251946.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225251946.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘45.48元，低于20日平均成本47.97元；60日平均成本50.89元，近20个交易日涨跌-2.99%。",
+            "reason": "凌云光当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收29.12亿元，同比+30.35%；归母净利润1.61亿元，同比+50.7%。2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。",
+          "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查凌云光的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘凌云光保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收29.12亿元，同比+30.35%；归母净利润1.61亿元，同比+50.7%。2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。"
+      },
+      {
+        "label": "已确认",
+        "text": "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "已确认",
+        "text": "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘45.48元，低于20日平均成本47.97元；60日平均成本50.89元，近20个交易日涨跌-2.99%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "凌云光当前财务信号为：公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。"
+      },
+      {
+        "label": "分析",
+        "text": "凌云光当前业务信号为：报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "凌云光当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：凌云光保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，凌云光的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "status": "open"
+      },
+      {
+        "question": "凌云光的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "688400.SH",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "688400.SH",
+      "company": "凌云光",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 61.43,
+      "evidence_confidence_score": 84.04,
+      "market_payoff_score": 60.56,
+      "technical_timing_score": 24.2,
+      "data_readiness_score": 100,
+      "action_readiness_score": 57.89,
+      "candidate_priority_score": 57.2,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 56.4,
+          "average_rating": 2.82,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 3.2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 77.2,
+          "average_rating": 3.86,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3.8,
+            "cross_source_consistency": 3.5,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 60.56,
+          "average_rating": 3.03,
+          "details": {
+            "valuation_discount": 3,
+            "implied_growth_vs_evidence": 3.74,
+            "upside_downside": 2.05,
+            "liquidity_capacity": 3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 24.2,
+          "average_rating": 1.21,
+          "details": {
+            "monthly_trend": 1.2,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 0.55,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "机器视觉处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 2 份正式公告，其中 1 份财报或业绩材料；近20日涨跌 -32.6%，近60日涨跌 -5.1%；客户或订单证据 2 条直接、2 条线索。",
+          "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "后续公告或财报持续无法披露订单、客户或交付证据。",
+        "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+        "供应链或合作披露不能被官方材料交叉验证。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WATCH_FOR_EVIDENCE",
+      "label": "继续观察，等证据",
+      "researchRating": "C",
+      "overallScore": 45.7,
+      "fundamentalScore": 57.8,
+      "companyScore": 50,
+      "evidenceScore": 74,
+      "valuationScore": 43,
+      "timingScore": 24.2,
+      "riskScore": 54,
+      "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+      "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+      "metrics": {
+        "pe": 131.6193,
+        "ps": 7.2937,
+        "revenueGrowth": -0.0279,
+        "profitGrowth": 12.3313,
+        "cashConversion": -0.32,
+        "debtRatio": 0.2637,
+        "return20": -0.0299
+      }
+    },
+    "overlay": {
+      "symbol": "688400.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "机器视觉",
+      "bottleneck_reason": "机器人需求必须经过客户验证、订单、交付，再进入收入和现金流；本次最关键的公司原文是：凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+      "revenue_transmission": "报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。",
+      "serenity_fit": 0.44,
+      "layer_score": 52,
+      "company_fit": 49,
+      "evidence_supported_growth": "H1",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收29.12亿元，同比+30.35%；归母净利润1.61亿元，同比+50.7%。2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。2026-08-26复权收盘45.48元，低于20日平均成本47.97元；60日平均成本50.89元，近20个交易日涨跌-2.99%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": -1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+        "若下一期现金流明显落后于利润，凌云光的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "凌云光的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收5.97亿元，较可比期-2.79%；归母净利润2亿元，较可比期+1233.13%；经营现金流-6392.75万元。",
+          "凌云光最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。"
+        ]
+      },
+      "upside": {
+        "summary": "凌云光的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "机器人相关客户、订单、交付、收入或产量",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "凌云光的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本50.89元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本47.97元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若尽管公司在收购前已对JAI进行了全面的财务、 法务和业务尽职调查，并评估了未来的业务协同性，但受国际环境变化、行业需求波动及整合效 果等因素影响，JAI经营业绩仍可能未达预期，进而引发商誉减值风险，对公司财务状况及经营成 果造成不利影响。继续恶化，或价格跌破60日平均成本50.89元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

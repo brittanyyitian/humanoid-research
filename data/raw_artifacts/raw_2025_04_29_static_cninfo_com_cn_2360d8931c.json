@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_29_static_cninfo_com_cn_2360d8931c",
+  "artifactType": "filing",
+  "title": "2025年一季度报告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223381959.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2360d8931c",
+  "fetchRunId": "fetch_2025_04_29_static_cninfo_com_cn_2360d8931c",
+  "publishedAt": "2025-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:c40a77e0d704ce859cfc6df66fc5c1cad8ddb8f4fbdd5522a2a9515b5dc79885",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_29_static_cninfo_com_cn_2360d8931c.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2025_04_29_filing_3d51d162fc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c77c47ad6ee178c7; listSourceId=src_cninfo_002179_announcements."
+}

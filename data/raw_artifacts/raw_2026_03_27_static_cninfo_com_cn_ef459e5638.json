@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_ef459e5638",
+  "artifactType": "filing",
+  "title": "非经营性资金占用及其他关联资金往来情况的专项审计说明",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036389.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ef459e5638",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_ef459e5638",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:713ca37d4c1320c7d2e896dd94ae09a2e69319fa8b22e5234052e2a93a81855c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_ef459e5638.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_443f3e2a7c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9b6ee0d8b0842b65; listSourceId=src_cninfo_002389_announcements."
+}

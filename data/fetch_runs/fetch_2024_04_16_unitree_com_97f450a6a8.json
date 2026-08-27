@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2024_04_16_unitree_com_97f450a6a8",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "宇树科技股份有限公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T11:28:23+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2024_04_16_unitree_com_97f450a6a8"
+  ],
+  "claimIds": [
+    "claim_2024_04_16_other_013d1a0460"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.unitree.com/cn/news/10",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T10:58:14+08:00",
+      "finishedAt": "2026-07-15T10:58:14+08:00",
+      "contentHash": "sha256:3ed51aca4814e09d5117ae4dfba71e5c3cf23ee647a9a3d7e0b4b158a8a9dd2b",
+      "storagePath": "raw_artifacts/payloads/raw_2024_04_16_unitree_com_97f450a6a8.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:28:23+08:00",
+      "finishedAt": "2026-07-15T11:28:23+08:00",
+      "contentHash": "sha256:b0afb3fc11704736f96528d5fdebce5778b2c8671578cc8fb51ee909b6bb5e13",
+      "storagePath": "raw_artifacts/payloads/raw_2024_04_16_unitree_com_97f450a6a8.json"
+    }
+  ]
+}

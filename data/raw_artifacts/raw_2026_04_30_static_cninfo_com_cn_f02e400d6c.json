@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_f02e400d6c",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司2025年环境、社会与治理报告摘要",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225257741.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f02e400d6c",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_f02e400d6c",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:fff59cc69c531cff08eca5353c0f475a2b9e6aca2edc6b59387b61fe335ae475",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_f02e400d6c.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_2ba895d8d3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3091a595b6717c4b; listSourceId=src_cninfo_600886_announcements."
+}

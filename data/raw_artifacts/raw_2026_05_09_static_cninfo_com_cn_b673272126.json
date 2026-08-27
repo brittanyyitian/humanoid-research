@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_b673272126",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2026年员工持股计划（草案）",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225286404.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b673272126",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_b673272126",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:346c57f27e0f4d6e679feff6d7a20016997f954af556d61d1e067b22409b64d4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_b673272126.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_185102967e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2a5a407389e1e335; listSourceId=src_cninfo_601899_announcements."
+}

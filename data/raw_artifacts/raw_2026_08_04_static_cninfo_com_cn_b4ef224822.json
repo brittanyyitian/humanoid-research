@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_b4ef224822",
+  "artifactType": "filing",
+  "title": "第四届董事会第三次会议决议公告",
+  "publisher": "怡合达",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225457652.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b4ef224822",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_b4ef224822",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T21:14:11+08:00",
+  "capturedAt": "2026-08-04T21:14:11+08:00",
+  "contentHash": "sha256:ec39bbdb155cebd11417d1730f6ee9fc20c7214391ff1be9d04c380e0b39368d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_b4ef224822.json",
+  "entityIds": [
+    "yeeda"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_0faceb7365"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_10b4f4461976eb73; listSourceId=src_cninfo_301029_announcements."
+}

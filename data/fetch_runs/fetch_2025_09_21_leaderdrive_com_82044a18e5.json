@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2025_09_21_leaderdrive_com_82044a18e5",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "Leaderdrive",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2025_09_21_leaderdrive_com_82044a18e5"
+  ],
+  "claimIds": [
+    "claim_2025_09_21_other_2792d1968e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://www.leaderdrive.com/news/28.html",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T10:58:14+08:00",
+      "finishedAt": "2026-07-15T10:58:14+08:00",
+      "contentHash": "sha256:cdc004b08d7a7bc12f096c2e6a6938dceef1dc8c5e3b5ddc89486a217443e03e",
+      "storagePath": "raw_artifacts/payloads/raw_2025_09_21_leaderdrive_com_82044a18e5.json"
+    }
+  ]
+}

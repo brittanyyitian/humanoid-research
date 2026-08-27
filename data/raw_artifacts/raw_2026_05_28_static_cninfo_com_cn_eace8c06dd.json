@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_eace8c06dd",
+  "artifactType": "filing",
+  "title": "关于董事长辞职暨补选董事的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332785.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eace8c06dd",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_eace8c06dd",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4faa777eb385e7e6dd890e3ee71fead778bb7e075ecb96d033894c145f0015e3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_eace8c06dd.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_78c7ab7a6d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0b3a70ec4ed77714; listSourceId=src_cninfo_600667_announcements."
+}

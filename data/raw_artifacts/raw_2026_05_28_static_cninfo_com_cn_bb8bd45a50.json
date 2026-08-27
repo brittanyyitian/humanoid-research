@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_bb8bd45a50",
+  "artifactType": "filing",
+  "title": "《泰山石油董事、高级管理人员薪酬管理制度》",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332610.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bb8bd45a50",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_bb8bd45a50",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:1c2ed7c39be35d060aeeefa0a22ece7d65a17088b0b708ae97fa0e386a854eb5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_bb8bd45a50.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_d82d13b782"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_88e59c6d0febdb8e; listSourceId=src_cninfo_000554_announcements."
+}

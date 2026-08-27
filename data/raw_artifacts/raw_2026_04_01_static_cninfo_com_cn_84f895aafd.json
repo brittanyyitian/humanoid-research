@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_01_static_cninfo_com_cn_84f895aafd",
+  "artifactType": "filing",
+  "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-01/1225066749.PDF",
+  "sourceId": "src_static_cninfo_com_cn_84f895aafd",
+  "fetchRunId": "fetch_2026_04_01_static_cninfo_com_cn_84f895aafd",
+  "publishedAt": "2026-04-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2871ed73cad6fff6901a383c409e5084379e11a73843c50f23bb40eccbf41099",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_01_static_cninfo_com_cn_84f895aafd.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_04_01_filing_2cf8f2cd17"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_77779988dd643862; listSourceId=src_cninfo_002179_announcements."
+}

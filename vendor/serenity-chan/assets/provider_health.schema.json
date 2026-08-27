@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Provider Health",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "status",
+    "summary",
+    "providers"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_provider_health" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "enum": ["HEALTHY", "DEGRADED", "FAILED", "EMPTY"] },
+    "summary": {
+      "type": "object",
+      "required": ["provider_count", "healthy_count", "degraded_count", "failed_count"],
+      "properties": {
+        "provider_count": { "type": "integer", "minimum": 0 },
+        "healthy_count": { "type": "integer", "minimum": 0 },
+        "degraded_count": { "type": "integer", "minimum": 0 },
+        "failed_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_name",
+          "dataset",
+          "source_level",
+          "health_status",
+          "ok_count",
+          "fail_count",
+          "last_status",
+          "last_attempted_at"
+        ],
+        "properties": {
+          "source_name": { "type": "string", "minLength": 1 },
+          "dataset": { "type": "string", "minLength": 1 },
+          "source_level": { "type": "string" },
+          "health_status": { "type": "string", "enum": ["HEALTHY", "DEGRADED", "FAILED"] },
+          "ok_count": { "type": "integer", "minimum": 0 },
+          "fail_count": { "type": "integer", "minimum": 0 },
+          "last_status": { "type": "string", "minLength": 1 },
+          "last_attempted_at": { "type": "string" },
+          "last_reason": { "type": "string" },
+          "gap_types": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

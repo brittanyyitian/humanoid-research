@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_09_static_cninfo_com_cn_f15a944291",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "杰瑞股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_09_static_cninfo_com_cn_f15a944291"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_2a786af502"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415074.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:9a1756b1b14349c12a6f528582de4901b6b3eaae2d85876541b7517b52eb8237",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_f15a944291.json"
+    }
+  ]
+}

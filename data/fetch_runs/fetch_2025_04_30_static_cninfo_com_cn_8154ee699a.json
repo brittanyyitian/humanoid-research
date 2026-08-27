@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_04_30_static_cninfo_com_cn_8154ee699a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "国投电力",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:22+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_04_30_static_cninfo_com_cn_8154ee699a"
+  ],
+  "claimIds": [
+    "claim_2025_04_30_filing_067d765037"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223414929.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:d6eba96483812aeae2e1d291a8297f91e4fefe731a3bcba77d188423bd479bf7",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_30_static_cninfo_com_cn_8154ee699a.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:22+08:00",
+      "finishedAt": "2026-07-23T09:58:22+08:00",
+      "contentHash": "sha256:ceaee459c33cd407dc7ed21662428b4313eaa8b371e3d709bad7b3acc9c49923",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_30_static_cninfo_com_cn_8154ee699a.json"
+    }
+  ]
+}

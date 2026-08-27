@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Strategy Readiness",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "status",
+    "formal_report_ready",
+    "ranking_validity",
+    "allowed_strategy_modes",
+    "blocked_strategy_modes",
+    "blocking_reasons",
+    "actionable_symbols",
+    "watchlist_symbols",
+    "evidence_first_symbols",
+    "quality_blocked_symbols",
+    "non_final_ai_symbols",
+    "decision_boundary",
+    "primary_next_step"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_strategy_readiness" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "status": { "type": "string", "enum": ["ACTION_READY", "WATCHLIST_READY", "EVIDENCE_FIRST", "BLOCKED"] },
+    "formal_report_ready": { "type": "boolean" },
+    "ranking_validity": { "type": "string", "enum": ["VALID", "PARTIAL", "INVALID", "UNKNOWN"] },
+    "allowed_strategy_modes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["allocation", "watchlist", "evidence_trigger", "research_plan"] }
+    },
+    "blocked_strategy_modes": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["allocation", "watchlist", "evidence_trigger", "research_plan"] }
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "actionable_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "watchlist_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "evidence_first_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "quality_blocked_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "non_final_ai_symbols": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "decision_boundary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_next_step": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

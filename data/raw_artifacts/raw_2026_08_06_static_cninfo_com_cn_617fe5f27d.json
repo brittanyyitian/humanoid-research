@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_06_static_cninfo_com_cn_617fe5f27d",
+  "artifactType": "filing",
+  "title": "回购报告书",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-06/1225462529.PDF",
+  "sourceId": "src_static_cninfo_com_cn_617fe5f27d",
+  "fetchRunId": "fetch_2026_08_06_static_cninfo_com_cn_617fe5f27d",
+  "publishedAt": "2026-08-06",
+  "firstSeenAt": "2026-08-06T21:14:44+08:00",
+  "capturedAt": "2026-08-06T21:14:44+08:00",
+  "contentHash": "sha256:b2ad22d802888bfba99a89cdc7a43a849bdf72fd78921efa8609009dd82c4621",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_06_static_cninfo_com_cn_617fe5f27d.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_06_filing_a275e66db0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bd8f38d8b099dfb8; listSourceId=src_cninfo_300100_announcements."
+}

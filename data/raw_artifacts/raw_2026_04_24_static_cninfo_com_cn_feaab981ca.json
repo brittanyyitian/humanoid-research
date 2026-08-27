@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_feaab981ca",
+  "artifactType": "filing",
+  "title": "关于召开2025年年度股东会的通知",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225166142.PDF",
+  "sourceId": "src_static_cninfo_com_cn_feaab981ca",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_feaab981ca",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:6714415076997e47a0340d68520be890997ded56344526d791b59bc1964a442b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_feaab981ca.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_b5211c08fa"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d88c5b62de284162; listSourceId=src_cninfo_600667_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_03_static_cninfo_com_cn_80cbfb2b9e",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于中科寒武纪科技股份有限公司2025年度持续督导跟踪报告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-03/1225076893.PDF",
+  "sourceId": "src_static_cninfo_com_cn_80cbfb2b9e",
+  "fetchRunId": "fetch_2026_04_03_static_cninfo_com_cn_80cbfb2b9e",
+  "publishedAt": "2026-04-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4d903833be50e22c6264e6536c45429ba335ca3140fca08b2731210d2747f0d1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_03_static_cninfo_com_cn_80cbfb2b9e.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_04_03_filing_7b712cd9e2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7eb4cf13722ac877; listSourceId=src_cninfo_688256_announcements."
+}

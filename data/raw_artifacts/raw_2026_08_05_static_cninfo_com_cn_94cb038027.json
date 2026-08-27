@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_static_cninfo_com_cn_94cb038027",
+  "artifactType": "filing",
+  "title": "南京埃斯顿酷卓科技有限公司审计报告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-05/1225458518.PDF",
+  "sourceId": "src_static_cninfo_com_cn_94cb038027",
+  "fetchRunId": "fetch_2026_08_05_static_cninfo_com_cn_94cb038027",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-05T16:16:18+08:00",
+  "capturedAt": "2026-08-05T16:16:18+08:00",
+  "contentHash": "sha256:1a7d70eaf20436eff51e262adce9b21759f72ebe298425dd5fde948bda1cfd55",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_static_cninfo_com_cn_94cb038027.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_filing_d4bf1fb903"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_39a2a92e2094689c; listSourceId=src_cninfo_002747_announcements."
+}

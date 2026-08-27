@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_25ef85406d",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225427761.PDF",
+  "sourceId": "src_static_cninfo_com_cn_25ef85406d",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_25ef85406d",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:d7ec93607bfd9faa3f76a1f8b2b6660c4f5770834ee7729aac56d2ced49941ef",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_25ef85406d.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_e93fd980d5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_46f610c3b00497f4; listSourceId=src_cninfo_688012_announcements."
+}

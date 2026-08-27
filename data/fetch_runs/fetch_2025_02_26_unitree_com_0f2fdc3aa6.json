@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2025_02_26_unitree_com_0f2fdc3aa6",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "宇树科技股份有限公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2025_02_26_unitree_com_0f2fdc3aa6"
+  ],
+  "claimIds": [
+    "claim_2025_02_26_other_e4e89e89b1"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.unitree.com/cn/news/32",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T10:58:14+08:00",
+      "finishedAt": "2026-07-15T10:58:14+08:00",
+      "contentHash": "sha256:0373b37293757f0807f9476601119bbc5379b3dfd9e431ec2d634ca4a439a74a",
+      "storagePath": "raw_artifacts/payloads/raw_2025_02_26_unitree_com_0f2fdc3aa6.json"
+    }
+  ]
+}

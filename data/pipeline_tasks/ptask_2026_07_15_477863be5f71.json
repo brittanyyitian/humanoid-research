@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_477863be5f71",
+  "rawArtifactId": "raw_2026_07_07_orbbec_com_cn_e448289bb7",
+  "routeDecisionId": "route_2026_07_07_f6bd26eb25a7",
+  "pipeline": "product_pipeline",
+  "type": "product",
+  "entityId": "orbbec",
+  "entityIds": [
+    "orbbec"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-07-15T10:58:14+08:00",
+  "updatedAt": "2026-07-15T10:58:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_07_product_release_8cae0369d8"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_07_product_release_8cae0369d8"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_07_product_material_v0_97f196952c"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_89349c8414d2"
+  ]
+}

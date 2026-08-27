@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_bfe95ca99d",
+  "artifactType": "filing",
+  "title": "关于持股5%以上股东权益变动比例触及1%刻度的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225263889.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bfe95ca99d",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_bfe95ca99d",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:95c1182aec3024679b28bda283db77f6d2a1ff350ae1bbceff49b40b30f418f8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_bfe95ca99d.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_9f7302222c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_08f15ae27260fba3; listSourceId=src_cninfo_301269_announcements."
+}

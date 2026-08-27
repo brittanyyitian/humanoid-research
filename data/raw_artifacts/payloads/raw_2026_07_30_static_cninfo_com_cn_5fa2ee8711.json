@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_5fa2ee8711",
+  "capturedAt": "2026-07-30T16:16:21+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225446861.PDF",
+    "title": "恒瑞医药关于获得药品注册批准的公告",
+    "publisher": "恒瑞医药",
+    "publishedAt": "2026-07-30",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "hengrui"
+    ],
+    "body": "证券代码：600276 证券简称：恒瑞医药 公告编号：临 2026-111\n江苏恒瑞医药股份有限公司\n关于获得药品注册批准的公告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述\n或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。\n近日，江苏恒瑞医药股份有限公司（以下简称“公司”）收到国家药品监督\n管理局（以下简称“国家药监局”）的通知，批准公司自主研发的 1 类治疗用生\n物制品舒地胰岛素注射液上市，该产品是中国首个自主研发的长效胰岛素类似物。\n现将相关情况公告如下：\n一、药品的基本情况\n药品名称：舒地胰岛素注射液\n剂型：注射剂\n规格：3ml：300 单位（预填充注射笔）、3ml：300 单位（笔芯）\n注册分类：治疗用生物制品 1 类\n受理号：CXSS2500010、CXSS2500011\n处方药/非处方药：处方药\n批准的适应症：用于治疗成人 2 型糖尿病（T2DM）。\n二、药品的其他情况\n糖尿病是一种由胰岛素分泌缺陷和/或胰岛素作用不足所致的、以高血糖为\n特征的代谢综合征。我国是糖尿病第一大国，患者数量达 1.48 亿\n[1]\n，其中 T2DM\n患者胰岛功能进行性下降，占糖尿病患者总数的 90%以上\n[2]\n。胰岛素在糖尿病治\n疗中具有重要地位，但低血糖（尤其是夜间低血糖）仍是部分患者难以实现平稳\n血糖控制和长期规范治疗的主要障碍。\n舒地胰岛素注射液是公司自主研发的基础长效胰岛素，具备起效平稳、药效\n维持时间长和产生夜间性低血糖风险低等优点。本次获批主要基于舒地胰岛素\n（研发代号：INS068）治疗成人 T2DM 患者的两项关键Ⅲ期临床试验：INS068-301\n研究和 INS068-302 研究\n[3,4]\n。结果显示：在两种不同治疗背景（基础胰岛素或口\n服降糖药血糖控制不佳）的中国 T2DM 患者中，舒地胰岛素在血糖控制方面均显\n示出与甘精胰岛素整体相当的疗效\n[3,4]\n，且夜间低血糖风险低于甘精胰岛素。\n目 前 全 球 范 围 内 已 有 同 类 产 品 获 批 上 市 ， 如 诺 和 诺 德 的 德 谷 胰 岛 素\n(Tresiba®)和赛诺菲的甘精胰岛素(Toujeo®)等。经查询 EvaluatePharma 数据\n库，2025 年 Tresiba®和 Toujeo®全球销售额合计约为 33.45 亿美元。截至目前，\n舒地胰岛素注射液相关项目累计研发投入约为 54,430 万元(未经审计)。\n三、风险提示\n公司高度重视药品研发，并严格控制药品研发、制造及销售环节的质量及安\n全。药品获得批件后生产和销售容易受到一些不确定性因素的影响。敬请广大投\n资者谨慎决策，注意防范投资风险。\n特此公告。\n江苏恒瑞医药股份有限公司董事会\n2026 年 7 月 29 日\n1.IDF Diabetes Atlas 11th edition.\n2.中华医学会糖尿病学分会. 中国糖尿病防治指南（2024 版）. 中华糖尿病杂志. 2025;17(1): 16-139.\n3.Hong Chen, et al. Efficacy and safety of a once-daily basal insulin (insulin sudelidec) vs insulin glargine in type 2\ndiabetes inadequately controlled with basal insulin. ePoster presented at EASD 2025. POSTER ID ePID2025.\n4.Leili Gao, et al. Efficacy and safety of a once-daily basal insulin (insulin sudelidec) vs insulin glargine in type 2\ndiabetes inadequately controlled with oral antidiabetic drugs. ePoster presented at EASD2025. POSTER ID ePID1944.",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-30T16:16:21+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 101905,
+    "method": "pypdf",
+    "pageCount": 2,
+    "pagesRead": 2,
+    "truncated": false
+  }
+}

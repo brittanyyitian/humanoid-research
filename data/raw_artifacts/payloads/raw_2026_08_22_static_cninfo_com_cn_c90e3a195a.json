@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_c90e3a195a",
+  "capturedAt": "2026-08-23T16:16:00+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225488882.PDF",
+    "title": "2026年半年度报告及其摘要披露提示性公告",
+    "publisher": "通源石油",
+    "publishedAt": "2026-08-22",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "tongyuan_petroleum"
+    ],
+    "body": "证券代码：300164 证券简称：通源石油 公告编号：2026-055\n通源石油科技集团股份有限公司\n2026 年半年度报告及其摘要披露提示性公告\n通源石油科技集团股份有限公司 2026 年半年度报告及其摘要于 2026 年 8 月 22\n日在中国证监会指定的创业板信息披露平台巨潮资讯网上披露，请投资者注意查\n阅。\n特此公告。\n通源石油科技集团股份有限公司\n董事会\n二〇二六年八月二十一日\n本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚\n假记载、误导性陈述或重大遗漏。",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-08-23T16:16:00+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 70104,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

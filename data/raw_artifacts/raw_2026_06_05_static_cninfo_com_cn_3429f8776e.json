@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_05_static_cninfo_com_cn_3429f8776e",
+  "artifactType": "filing",
+  "title": "国泰海通证券股份有限公司关于公司2026年度向特定对象发行A股股票之发行保荐书",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-05/1225353056.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3429f8776e",
+  "fetchRunId": "fetch_2026_06_05_static_cninfo_com_cn_3429f8776e",
+  "publishedAt": "2026-06-05",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:9e2cefbd00b69b12660fe136ec2f1a122e09d94608d133e9e5edb3a07da297d4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_05_static_cninfo_com_cn_3429f8776e.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_05_filing_a8075d2b96"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2768a427cff4a333; listSourceId=src_cninfo_002156_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_19_agibot_com_cn_6f78139471",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "智元创新（上海）科技股份有限公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-20T16:15:56+08:00",
+  "finishedAt": "2026-07-20T16:15:56+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_19_agibot_com_cn_6f78139471"
+  ],
+  "claimIds": [
+    "claim_2026_07_19_other_f19adbc87f"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.agibot.com.cn/article/315/detail/173.html",
+      "status": "metadata_only",
+      "startedAt": "2026-07-20T16:15:56+08:00",
+      "finishedAt": "2026-07-20T16:15:56+08:00",
+      "contentHash": "sha256:d4f04d885f5abd02ac814805fa178c0dadd72fa96eea538750d972d9981b1e56",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_19_agibot_com_cn_6f78139471.json"
+    }
+  ]
+}

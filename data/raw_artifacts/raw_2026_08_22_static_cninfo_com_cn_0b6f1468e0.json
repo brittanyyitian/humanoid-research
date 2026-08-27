@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_0b6f1468e0",
+  "artifactType": "filing",
+  "title": "第六届董事会第四次会议决议公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225490663.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0b6f1468e0",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_0b6f1468e0",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:193ca50e5338ca91b8ccfd64947d067040d49a4f80d0fcd21021e24bd14d2aaf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_0b6f1468e0.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_c7094576c7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_70810e8c79245599; listSourceId=src_cninfo_002747_announcements."
+}

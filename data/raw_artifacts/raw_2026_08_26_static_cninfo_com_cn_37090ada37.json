@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_37090ada37",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503751.PDF",
+  "sourceId": "src_static_cninfo_com_cn_37090ada37",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_37090ada37",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:a0da62030b3eefe03fabca6a88492df42e051a8c3de55fc8078a9c42caab2071",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_37090ada37.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_11458c1863"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f5a6895fa68fa76a; listSourceId=src_cninfo_002896_announcements."
+}

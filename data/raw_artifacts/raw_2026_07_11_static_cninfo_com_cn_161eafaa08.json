@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_161eafaa08",
+  "artifactType": "filing",
+  "title": "关于暂时调整部分募投项目闲置场地用途的公告",
+  "publisher": "怡合达",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419826.PDF",
+  "sourceId": "src_static_cninfo_com_cn_161eafaa08",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_161eafaa08",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:16cc1e15ecb66c51e6bdbc3881d7ceb2c1a15ba2df246ec1e84131e84ba68ce6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_161eafaa08.json",
+  "entityIds": [
+    "yeeda"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_b6b4c668af"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3c08c0369c3a9640; listSourceId=src_cninfo_301029_announcements."
+}

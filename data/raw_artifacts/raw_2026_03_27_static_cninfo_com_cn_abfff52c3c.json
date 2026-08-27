@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_abfff52c3c",
+  "artifactType": "filing",
+  "title": "董事会对独立董事独立性自查情况的专项报告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036387.PDF",
+  "sourceId": "src_static_cninfo_com_cn_abfff52c3c",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_abfff52c3c",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1922d2e7a484712dba69a657c724a0e76221b145066f62de8a5fb8a3e00e8118",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_abfff52c3c.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_1ce33baf96"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b53d1238efb26063; listSourceId=src_cninfo_002389_announcements."
+}

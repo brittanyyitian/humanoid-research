@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_825792b6d0",
+  "artifactType": "filing",
+  "title": "百济神州有限公司关于相关税务事项处理的公告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225391473.PDF",
+  "sourceId": "src_static_cninfo_com_cn_825792b6d0",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_825792b6d0",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:dff95d0e9474be5d7f8e02c5edb7de0cb3de491610149cd367cad5a18cb65502",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_825792b6d0.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_69cd39367d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a0be9b3302f62a0d; listSourceId=src_cninfo_688235_announcements."
+}

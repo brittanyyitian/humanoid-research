@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_14_static_cninfo_com_cn_076e3bc374",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "安集科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_14_static_cninfo_com_cn_076e3bc374"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_9932c8789e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422218.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:066d175089857b0f147e1378b07f56e39e1f0ce8b64e0b60aede8235045fe4d3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_076e3bc374.json"
+    }
+  ]
+}

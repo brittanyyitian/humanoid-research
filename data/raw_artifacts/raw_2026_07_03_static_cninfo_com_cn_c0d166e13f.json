@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_c0d166e13f",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于回购公司A股股份的进展公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405465.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c0d166e13f",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_c0d166e13f",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:34257acaf91fe490c594f5dc6cda05301defd8ca848a0efc797bed1940814504",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_c0d166e13f.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_ccd1fd9ef5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_923c0638ce5bc8c1; listSourceId=src_cninfo_600276_announcements."
+}

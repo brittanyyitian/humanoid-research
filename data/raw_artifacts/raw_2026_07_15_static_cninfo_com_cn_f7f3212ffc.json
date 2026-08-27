@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩预告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225423192.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f7f3212ffc",
+  "fetchRunId": "fetch_2026_07_15_static_cninfo_com_cn_f7f3212ffc",
+  "publishedAt": "2026-07-15",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:dc0c35398fe9d3935216e3c43f9ec7288817007041b031dfce2d7ed50cd8babc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_df8fee566d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2b7c72b6083c12bb; listSourceId=src_cninfo_002156_announcements."
+}

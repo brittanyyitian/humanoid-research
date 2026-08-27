@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_unitree_com_432d7a83cf",
+  "artifactType": "news_page",
+  "title": "宇树科技创始人王兴兴登上《时代》杂志封面",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/41",
+  "sourceId": "src_unitree_com_432d7a83cf",
+  "fetchRunId": "fetch_2026_08_05_unitree_com_432d7a83cf",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:5f470554f93ebd9ea4e90a076c53d81849979ccd2cf1bc57ed49feca3d247d74",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_unitree_com_432d7a83cf.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_other_c6ff6699a9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_029e6498ec6629cf; listSourceId=src_unitree_official_news."
+}

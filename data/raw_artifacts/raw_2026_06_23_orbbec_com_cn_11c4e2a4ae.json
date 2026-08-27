@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_orbbec_com_cn_11c4e2a4ae",
+  "artifactType": "news_page",
+  "title": "Automate 2026 奥比中光携最新AI+视觉融合方案，解锁工业自动化落地难题",
+  "publisher": "奥比中光科技集团股份有限公司",
+  "url": "https://www.orbbec.com.cn/index/News/info.html?cate=31&id=373",
+  "sourceId": "src_orbbec_com_cn_11c4e2a4ae",
+  "fetchRunId": "fetch_2026_06_23_orbbec_com_cn_11c4e2a4ae",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:3280fe98f6e5aadf8bed465ae4deb13d6d18017971cc1153c99a9020c9ef2006",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_orbbec_com_cn_11c4e2a4ae.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_other_6f90b4af8f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_7d5003315a50b5de; listSourceId=src_orbbec_official_news."
+}

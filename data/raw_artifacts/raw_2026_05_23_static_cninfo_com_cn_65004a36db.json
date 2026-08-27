@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_23_static_cninfo_com_cn_65004a36db",
+  "artifactType": "filing",
+  "title": "中国国际金融股份有限公司关于澜起科技股份有限公司股东向特定机构投资者询价转让股份相关资格的核查意见",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-23/1225327294.PDF",
+  "sourceId": "src_static_cninfo_com_cn_65004a36db",
+  "fetchRunId": "fetch_2026_05_23_static_cninfo_com_cn_65004a36db",
+  "publishedAt": "2026-05-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:644585358280b2fe9aa47fa272596da51e965a5134fbdc4ee28c326ebced7cae",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_23_static_cninfo_com_cn_65004a36db.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_05_23_filing_87b3536bdb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c97cca8827911c26; listSourceId=src_cninfo_688008_announcements."
+}

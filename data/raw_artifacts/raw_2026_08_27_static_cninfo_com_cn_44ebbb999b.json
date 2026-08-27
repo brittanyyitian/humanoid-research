@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_44ebbb999b",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2026年半年度报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513023.PDF",
+  "sourceId": "src_static_cninfo_com_cn_44ebbb999b",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_44ebbb999b",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:588aa6cae51be33c2ba871b18d42a4802693a3a24149309d40087b23a3bce863",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_44ebbb999b.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_a913589179"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0e61c681a9d2a6ec; listSourceId=src_cninfo_600938_announcements."
+}

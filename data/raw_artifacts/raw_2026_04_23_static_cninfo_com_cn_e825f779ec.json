@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_e825f779ec",
+  "artifactType": "filing",
+  "title": "会计师事务所对公司控股股东及其关联方资金占用情况的专项说明",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225144850.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e825f779ec",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_e825f779ec",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2d67f46c6fbaf6815d9abad7458440011690d29bf7ae933d3b85832ddb191711",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_e825f779ec.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_0fa7bbec25"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4e596bedd53ce318; listSourceId=src_cninfo_600664_announcements."
+}

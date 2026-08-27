@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_22_static_cninfo_com_cn_ff52fcaff7",
+  "artifactType": "filing",
+  "title": "关于股份回购实施完成暨股权变动的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-22/1225323243.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ff52fcaff7",
+  "fetchRunId": "fetch_2026_05_22_static_cninfo_com_cn_ff52fcaff7",
+  "publishedAt": "2026-05-22",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:859176e827d70741489c69953fd139cc3c05412edfd073fe7571d48ad9b10729",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_22_static_cninfo_com_cn_ff52fcaff7.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_22_filing_96652726ca"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8ec33071d644b072; listSourceId=src_cninfo_000554_announcements."
+}

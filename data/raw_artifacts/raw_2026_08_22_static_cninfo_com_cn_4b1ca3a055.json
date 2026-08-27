@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_4b1ca3a055",
+  "artifactType": "filing",
+  "title": "第九届董事会第四次会议决议公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225488881.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4b1ca3a055",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_4b1ca3a055",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:8b7a6246b8c13821727c8a194b235202e294c2eb64b8921f0db563a5a7824947",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_4b1ca3a055.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_d5e3db252a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5e24fd9252984204; listSourceId=src_cninfo_300164_announcements."
+}

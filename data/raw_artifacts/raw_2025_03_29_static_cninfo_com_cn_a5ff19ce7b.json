@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-29/1222943981.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a5ff19ce7b",
+  "fetchRunId": "fetch_2025_03_29_static_cninfo_com_cn_a5ff19ce7b",
+  "publishedAt": "2025-03-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:09bcedce580ba08f1e6aa8044501012b17b83a21c7f974aca6a0dcf46709bc32",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2025_03_29_filing_d8f5d3c37c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cefa454cd82e9866; listSourceId=src_cninfo_002179_announcements."
+}

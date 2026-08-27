@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_6089bac3b7",
+  "artifactType": "filing",
+  "title": "江苏长电科技股份有限公司关于召开2026年第一次临时股东会的通知",
+  "publisher": "长电科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225455790.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6089bac3b7",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_6089bac3b7",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:552b537f573150ef36048971faa6b0dc81e343984334573048031193aae58cb9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_6089bac3b7.json",
+  "entityIds": [
+    "jcet"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_be56e42614"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_43fde4e6fcb0e981; listSourceId=src_cninfo_600584_announcements."
+}

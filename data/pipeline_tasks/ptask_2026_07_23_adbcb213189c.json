@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_adbcb213189c",
+  "rawArtifactId": "raw_2026_06_27_static_cninfo_com_cn_d717846b9e",
+  "routeDecisionId": "route_2026_06_27_b294861ab9d9",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "smic",
+  "entityIds": [
+    "smic"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:55+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:55+08:00",
+  "finishedAt": "2026-07-23T09:50:55+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_27_filing_980130f3a8"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_27_filing_980130f3a8"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_27_filing_material_v0_5c69fbd771"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_10b135722719"
+  ]
+}

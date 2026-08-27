@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_19_static_cninfo_com_cn_7ad20d7e54",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司关于召开2026年半年度业绩说明会的公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-19/1225479245.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7ad20d7e54",
+  "fetchRunId": "fetch_2026_08_19_static_cninfo_com_cn_7ad20d7e54",
+  "publishedAt": "2026-08-19",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:f9d3dd4c3cde14f75e520c9a049518b577d3887715cbddf68e791fdd8e8d13fd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_19_static_cninfo_com_cn_7ad20d7e54.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_08_19_filing_0efc46a853"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2b06354413cab243; listSourceId=src_cninfo_600938_announcements."
+}

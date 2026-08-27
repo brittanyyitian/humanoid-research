@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_02_static_cninfo_com_cn_fab5da3d69",
+  "artifactType": "filing",
+  "title": "通富微电子股份有限公司与国泰海通证券股份有限公司关于通富微电子股份有限公司申请向特定对象发行股票的审核问询函的回复",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225341765.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fab5da3d69",
+  "fetchRunId": "fetch_2026_06_02_static_cninfo_com_cn_fab5da3d69",
+  "publishedAt": "2026-06-02",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:15f2833afc5e18a26c6d3876276288e1819c9759da6b37b94026cce389579622",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_fab5da3d69.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_be226e0b79"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5e6125ed32ad095d; listSourceId=src_cninfo_002156_announcements."
+}

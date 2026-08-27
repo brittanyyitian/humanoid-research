@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_01_unitree_com_1b70ceffc7",
+  "artifactType": "news_page",
+  "title": "宇树科技发布 H2 Plus：专为学术研究打造的NVIDIA Isaac GR00T标杆人形机器人",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/39",
+  "sourceId": "src_unitree_com_1b70ceffc7",
+  "fetchRunId": "fetch_2026_06_01_unitree_com_1b70ceffc7",
+  "publishedAt": "2026-06-01",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:a1276d42757a868ab38401bdb8783748dc189118b3b13b5ac27e7b4d183f475c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_01_unitree_com_1b70ceffc7.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2026_06_01_product_release_ae7b877425"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_5c9c22b1b04300c5; listSourceId=src_unitree_official_news."
+}

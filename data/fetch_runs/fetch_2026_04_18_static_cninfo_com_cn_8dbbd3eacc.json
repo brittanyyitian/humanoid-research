@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_04_18_static_cninfo_com_cn_8dbbd3eacc",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "北方华创",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:56:51+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_04_18_static_cninfo_com_cn_8dbbd3eacc"
+  ],
+  "claimIds": [
+    "claim_2026_04_18_filing_6f82e3290a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-18/1225122918.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:4500a762b85b4d7558873404c1dff96d9237e15aa4721dc22821558eb7c42987",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_18_static_cninfo_com_cn_8dbbd3eacc.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:56:51+08:00",
+      "finishedAt": "2026-07-23T09:56:51+08:00",
+      "contentHash": "sha256:c8062f098fa24f4dc6ce6bda7c22bbb95bdac796d9ba2fbe9fdb5dc8add20565",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_18_static_cninfo_com_cn_8dbbd3eacc.json"
+    }
+  ]
+}

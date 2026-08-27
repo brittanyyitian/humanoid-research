@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_04_03_static_cninfo_com_cn_674f04c75b",
+  "capturedAt": "2026-07-23T09:32:07+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-03/1225074338.PDF",
+    "title": "关于召开2025年度报告业绩说明会的公告",
+    "publisher": "航天彩虹",
+    "publishedAt": "2026-04-03",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "rainbow_uav"
+    ],
+    "body": "证券代码：002389 证券简称：航天彩虹 公告编号：2026-021\n航天彩虹无人机股份有限公司\n关于召开2025年度报告业绩说明会的公告\n航天彩虹无人机股份有限公司（以下简称“公司”）定于 2026 年 4\n月 15 日（星期三）下午 15:00-17:00 在同花顺路演平台召开 2025 年度报\n告业绩说明会（以下简称“业绩说明会”），本次业绩说明会将采用网络远\n程的方式举行，投资者可登录同花顺路演平台，进入直播间 https://boar\nd.10jqka.com.cn/rs/pc/detail?roadshowId=1010709 进行提问或使用同花\n顺手机炒股软件扫描下方二维码进入路演直播间进行提问互动交流。\n公司出席本次业绩说明会的人员有：董事、总经理文曦先生，独立董\n事徐学宗先生，董事会秘书杜志喜先生，财务总监孙守云先生。\n为充分尊重投资者、提升交流的针对性，现就本次业绩说明会提前向\n投资者公开征集问题，广泛听取投资者的意见和建议。投资者可于 2026\n年 4 月 13 日（星期一）17:00 前访问 https://board.10jqka.com.cn/fe/roa\n本公司及董事会全体成员保证信息披露的内容真实、准确、完整，\n没有虚假记载、误导性陈述或重大遗漏。\ndshow/questionCollection.html?id=1010709，进入问题征集专题页面。公\n司将在本次业绩说明会上，对投资者普遍关注的问题进行回答。\n敬请广大投资者积极参与！\n特此公告\n航天彩虹无人机股份有限公司董事会\n二〇二六年四月二日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:07+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 150537,
+    "method": "pypdf",
+    "pageCount": 2,
+    "pagesRead": 2,
+    "truncated": false
+  }
+}

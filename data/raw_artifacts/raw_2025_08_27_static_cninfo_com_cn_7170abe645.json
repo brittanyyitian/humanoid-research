@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_27_static_cninfo_com_cn_7170abe645",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224586025.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7170abe645",
+  "fetchRunId": "fetch_2025_08_27_static_cninfo_com_cn_7170abe645",
+  "publishedAt": "2025-08-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:e291265fd1966327aa0e4b889a932cbbd9fdafb879681465914f594a12cd8c3e",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_27_static_cninfo_com_cn_7170abe645.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2025_08_27_filing_e4d9bebf5c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7d14ae239e1c9cf8; listSourceId=src_cninfo_688256_announcements."
+}

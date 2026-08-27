@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_78c95d4a20",
+  "artifactType": "filing",
+  "title": "2025年年度报告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+  "sourceId": "src_static_cninfo_com_cn_78c95d4a20",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_78c95d4a20",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:863400c57054bab8a2b314cd5c21626cec4509c4c00f82bd8aeca322fe8bded5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_78c95d4a20.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_e5b6df1985"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f1ad0768d025defa; listSourceId=src_cninfo_002156_announcements."
+}

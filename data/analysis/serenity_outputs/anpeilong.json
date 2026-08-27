@@ -1,0 +1,1300 @@
+{
+  "id": "saout_anpeilong_0647bf72e059",
+  "entityId": "anpeilong",
+  "name": "安培龙",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "301413.SZ",
+    "symbol": "301413.SZ"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_20_45_anpeilong",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_20_45_anpeilong/data/301413/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_20_45_anpeilong/ai_research/301413.SZ/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_20_45_anpeilong/ai_research/301413.SZ/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "安培龙 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "安培龙的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查安培龙的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘安培龙保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "力传感器",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "301413.SZ",
+      "name": "安培龙",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 61.86,
+        "previousClose": 59.97091614154144,
+        "changePct": 3.150000000000012,
+        "high": 57.35,
+        "low": 55.08,
+        "open": 56.7,
+        "volume": 40496,
+        "turnover": 22702,
+        "turnoverText": "1.93亿",
+        "currency": "CNY",
+        "asOf": "20260827161448",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 40.23,
+        "technicalTimingScore": 32,
+        "marketPayoffScore": 52.76,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 36,
+        "evidenceScore": 76,
+        "valuationScore": 36,
+        "timingScore": 32,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 41.83,
+          "fundamentalScore": 49.65,
+          "companyScore": 36,
+          "evidenceScore": 76,
+          "valuationScore": 36,
+          "timingScore": 32,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 78.8031,
+            "ps": 6.0424,
+            "revenueGrowth": 0.0019,
+            "profitGrowth": -0.8482,
+            "cashConversion": -1.9632,
+            "debtRatio": 0.4361,
+            "return20": -0.0979
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收11.83亿元，同比+25.88%；归母净利润9074.52万元，同比+9.81%。2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。",
+          "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。",
+          "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+          "2026-08-26复权收盘59.97元，低于20日平均成本65.84元；60日平均成本64.57元，近20个交易日涨跌-9.79%。"
+        ],
+        "possible": [
+          "安培龙当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "安培龙当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+          "安培龙当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 52.76,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 40.23/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 32,
+        "dailyBuyPointScore": 1.8,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 97.654,
+            "volume": 24319,
+            "average20": 112.707,
+            "average60": 107.445
+          },
+          {
+            "date": "2026-03-13",
+            "close": 96.031,
+            "volume": 18227,
+            "average20": 111.162,
+            "average60": 107.398
+          },
+          {
+            "date": "2026-03-16",
+            "close": 94.539,
+            "volume": 25277,
+            "average20": 109.157,
+            "average60": 107.351
+          },
+          {
+            "date": "2026-03-17",
+            "close": 90.977,
+            "volume": 31706,
+            "average20": 107.035,
+            "average60": 107.32
+          },
+          {
+            "date": "2026-03-18",
+            "close": 92.654,
+            "volume": 18412,
+            "average20": 105.071,
+            "average60": 107.311
+          },
+          {
+            "date": "2026-03-19",
+            "close": 89.246,
+            "volume": 21336,
+            "average20": 103.126,
+            "average60": 107.304
+          },
+          {
+            "date": "2026-03-20",
+            "close": 87.462,
+            "volume": 21109,
+            "average20": 101.158,
+            "average60": 107.287
+          },
+          {
+            "date": "2026-03-23",
+            "close": 84.308,
+            "volume": 33356,
+            "average20": 99.186,
+            "average60": 107.201
+          },
+          {
+            "date": "2026-03-24",
+            "close": 85.108,
+            "volume": 21265,
+            "average20": 97.68,
+            "average60": 107.155
+          },
+          {
+            "date": "2026-03-25",
+            "close": 87.777,
+            "volume": 26814,
+            "average20": 96.492,
+            "average60": 107.138
+          },
+          {
+            "date": "2026-03-26",
+            "close": 88.354,
+            "volume": 40171,
+            "average20": 95.359,
+            "average60": 107.109
+          },
+          {
+            "date": "2026-03-27",
+            "close": 88.531,
+            "volume": 22269,
+            "average20": 94.209,
+            "average60": 107.095
+          },
+          {
+            "date": "2026-03-30",
+            "close": 90.015,
+            "volume": 25696,
+            "average20": 93.467,
+            "average60": 107.09
+          },
+          {
+            "date": "2026-03-31",
+            "close": 88.508,
+            "volume": 31577,
+            "average20": 92.856,
+            "average60": 107.002
+          },
+          {
+            "date": "2026-04-01",
+            "close": 90.546,
+            "volume": 27062,
+            "average20": 92.342,
+            "average60": 106.932
+          },
+          {
+            "date": "2026-04-02",
+            "close": 88,
+            "volume": 18106,
+            "average20": 91.872,
+            "average60": 106.816
+          },
+          {
+            "date": "2026-04-03",
+            "close": 86.839,
+            "volume": 15188,
+            "average20": 91.269,
+            "average60": 106.507
+          },
+          {
+            "date": "2026-04-07",
+            "close": 86.385,
+            "volume": 13548,
+            "average20": 90.719,
+            "average60": 106.222
+          },
+          {
+            "date": "2026-04-08",
+            "close": 92.231,
+            "volume": 33753,
+            "average20": 90.258,
+            "average60": 106.009
+          },
+          {
+            "date": "2026-04-09",
+            "close": 90.446,
+            "volume": 22242,
+            "average20": 89.781,
+            "average60": 105.714
+          },
+          {
+            "date": "2026-04-10",
+            "close": 91.585,
+            "volume": 25214,
+            "average20": 89.477,
+            "average60": 105.492
+          },
+          {
+            "date": "2026-04-13",
+            "close": 91.115,
+            "volume": 24683,
+            "average20": 89.231,
+            "average60": 105.278
+          },
+          {
+            "date": "2026-04-14",
+            "close": 92.362,
+            "volume": 32657,
+            "average20": 89.122,
+            "average60": 105.034
+          },
+          {
+            "date": "2026-04-15",
+            "close": 93.385,
+            "volume": 49160,
+            "average20": 89.243,
+            "average60": 104.755
+          },
+          {
+            "date": "2026-04-16",
+            "close": 96.431,
+            "volume": 49648,
+            "average20": 89.432,
+            "average60": 104.544
+          },
+          {
+            "date": "2026-04-17",
+            "close": 94.985,
+            "volume": 31944,
+            "average20": 89.719,
+            "average60": 104.39
+          },
+          {
+            "date": "2026-04-20",
+            "close": 93.354,
+            "volume": 29239,
+            "average20": 90.013,
+            "average60": 104.213
+          },
+          {
+            "date": "2026-04-21",
+            "close": 93.969,
+            "volume": 34713,
+            "average20": 90.496,
+            "average60": 103.947
+          },
+          {
+            "date": "2026-04-22",
+            "close": 92.423,
+            "volume": 33291,
+            "average20": 90.862,
+            "average60": 103.528
+          },
+          {
+            "date": "2026-04-23",
+            "close": 88.777,
+            "volume": 36881,
+            "average20": 90.912,
+            "average60": 103.114
+          },
+          {
+            "date": "2026-04-24",
+            "close": 76.739,
+            "volume": 72203,
+            "average20": 90.331,
+            "average60": 102.371
+          },
+          {
+            "date": "2026-04-27",
+            "close": 77.462,
+            "volume": 41787,
+            "average20": 89.778,
+            "average60": 101.721
+          },
+          {
+            "date": "2026-04-28",
+            "close": 74.5,
+            "volume": 28511,
+            "average20": 89.002,
+            "average60": 101.033
+          },
+          {
+            "date": "2026-04-29",
+            "close": 75.792,
+            "volume": 25120,
+            "average20": 88.366,
+            "average60": 100.46
+          },
+          {
+            "date": "2026-04-30",
+            "close": 77.223,
+            "volume": 31236,
+            "average20": 87.7,
+            "average60": 99.886
+          },
+          {
+            "date": "2026-05-06",
+            "close": 78.131,
+            "volume": 29521,
+            "average20": 87.207,
+            "average60": 99.236
+          },
+          {
+            "date": "2026-05-07",
+            "close": 86.139,
+            "volume": 81154,
+            "average20": 87.172,
+            "average60": 98.73
+          },
+          {
+            "date": "2026-05-08",
+            "close": 92.3,
+            "volume": 86673,
+            "average20": 87.467,
+            "average60": 98.254
+          },
+          {
+            "date": "2026-05-11",
+            "close": 92.685,
+            "volume": 55844,
+            "average20": 87.49,
+            "average60": 97.79
+          },
+          {
+            "date": "2026-05-12",
+            "close": 92.746,
+            "volume": 46069,
+            "average20": 87.605,
+            "average60": 97.209
+          },
+          {
+            "date": "2026-05-13",
+            "close": 93.731,
+            "volume": 46264,
+            "average20": 87.712,
+            "average60": 96.632
+          },
+          {
+            "date": "2026-05-14",
+            "close": 90.769,
+            "volume": 44792,
+            "average20": 87.695,
+            "average60": 96.029
+          },
+          {
+            "date": "2026-05-15",
+            "close": 100.423,
+            "volume": 106436,
+            "average20": 88.098,
+            "average60": 95.459
+          },
+          {
+            "date": "2026-05-18",
+            "close": 101.223,
+            "volume": 78318,
+            "average20": 88.49,
+            "average60": 94.923
+          },
+          {
+            "date": "2026-05-19",
+            "close": 103.5,
+            "volume": 64603,
+            "average20": 88.844,
+            "average60": 94.449
+          },
+          {
+            "date": "2026-05-20",
+            "close": 105.154,
+            "volume": 63061,
+            "average20": 89.352,
+            "average60": 94.065
+          },
+          {
+            "date": "2026-05-21",
+            "close": 106.692,
+            "volume": 87264,
+            "average20": 90.019,
+            "average60": 93.73
+          },
+          {
+            "date": "2026-05-22",
+            "close": 105.769,
+            "volume": 73312,
+            "average20": 90.609,
+            "average60": 93.43
+          },
+          {
+            "date": "2026-05-25",
+            "close": 104.423,
+            "volume": 52132,
+            "average20": 91.209,
+            "average60": 93.25
+          },
+          {
+            "date": "2026-05-26",
+            "close": 104.423,
+            "volume": 64683,
+            "average20": 91.991,
+            "average60": 93.132
+          },
+          {
+            "date": "2026-05-27",
+            "close": 98.1,
+            "volume": 65586,
+            "average20": 93.059,
+            "average60": 92.917
+          },
+          {
+            "date": "2026-05-28",
+            "close": 95.692,
+            "volume": 45100,
+            "average20": 93.971,
+            "average60": 92.652
+          },
+          {
+            "date": "2026-05-29",
+            "close": 88.74,
+            "volume": 54952,
+            "average20": 94.683,
+            "average60": 92.384
+          },
+          {
+            "date": "2026-06-01",
+            "close": 87.63,
+            "volume": 43038,
+            "average20": 95.275,
+            "average60": 92.166
+          },
+          {
+            "date": "2026-06-02",
+            "close": 85.85,
+            "volume": 36301,
+            "average20": 95.706,
+            "average60": 91.916
+          },
+          {
+            "date": "2026-06-03",
+            "close": 82.3,
+            "volume": 69296,
+            "average20": 95.914,
+            "average60": 91.664
+          },
+          {
+            "date": "2026-06-04",
+            "close": 88.1,
+            "volume": 76699,
+            "average20": 96.012,
+            "average60": 91.484
+          },
+          {
+            "date": "2026-06-05",
+            "close": 90.25,
+            "volume": 78018,
+            "average20": 95.91,
+            "average60": 91.366
+          },
+          {
+            "date": "2026-06-08",
+            "close": 91.19,
+            "volume": 70107,
+            "average20": 95.835,
+            "average60": 91.194
+          },
+          {
+            "date": "2026-06-09",
+            "close": 91.34,
+            "volume": 61854,
+            "average20": 95.765,
+            "average60": 91.05
+          },
+          {
+            "date": "2026-06-10",
+            "close": 85.93,
+            "volume": 50228,
+            "average20": 95.375,
+            "average60": 90.855
+          },
+          {
+            "date": "2026-06-11",
+            "close": 85.08,
+            "volume": 36344,
+            "average20": 95.09,
+            "average60": 90.672
+          },
+          {
+            "date": "2026-06-12",
+            "close": 83.32,
+            "volume": 67345,
+            "average20": 94.235,
+            "average60": 90.485
+          },
+          {
+            "date": "2026-06-15",
+            "close": 83.95,
+            "volume": 43934,
+            "average20": 93.372,
+            "average60": 90.368
+          },
+          {
+            "date": "2026-06-16",
+            "close": 83.08,
+            "volume": 51547,
+            "average20": 92.351,
+            "average60": 90.209
+          },
+          {
+            "date": "2026-06-17",
+            "close": 80.89,
+            "volume": 51241,
+            "average20": 91.137,
+            "average60": 90.069
+          },
+          {
+            "date": "2026-06-18",
+            "close": 80.28,
+            "volume": 56775,
+            "average20": 89.817,
+            "average60": 89.95
+          },
+          {
+            "date": "2026-06-22",
+            "close": 76.2,
+            "volume": 63721,
+            "average20": 88.338,
+            "average60": 89.815
+          },
+          {
+            "date": "2026-06-23",
+            "close": 73.81,
+            "volume": 46022,
+            "average20": 86.808,
+            "average60": 89.626
+          },
+          {
+            "date": "2026-06-24",
+            "close": 73.26,
+            "volume": 46273,
+            "average20": 85.25,
+            "average60": 89.384
+          },
+          {
+            "date": "2026-06-25",
+            "close": 68.98,
+            "volume": 60399,
+            "average20": 83.794,
+            "average60": 89.061
+          },
+          {
+            "date": "2026-06-26",
+            "close": 65.18,
+            "volume": 50070,
+            "average20": 82.268,
+            "average60": 88.672
+          },
+          {
+            "date": "2026-06-29",
+            "close": 65.75,
+            "volume": 62003,
+            "average20": 81.119,
+            "average60": 88.268
+          },
+          {
+            "date": "2026-06-30",
+            "close": 70.88,
+            "volume": 66903,
+            "average20": 80.281,
+            "average60": 87.974
+          },
+          {
+            "date": "2026-07-01",
+            "close": 73.93,
+            "volume": 74007,
+            "average20": 79.685,
+            "average60": 87.697
+          },
+          {
+            "date": "2026-07-02",
+            "close": 74.49,
+            "volume": 77377,
+            "average20": 79.295,
+            "average60": 87.472
+          },
+          {
+            "date": "2026-07-03",
+            "close": 83,
+            "volume": 115461,
+            "average20": 79.04,
+            "average60": 87.408
+          },
+          {
+            "date": "2026-07-06",
+            "close": 76.51,
+            "volume": 93734,
+            "average20": 78.353,
+            "average60": 87.243
+          },
+          {
+            "date": "2026-07-07",
+            "close": 73.14,
+            "volume": 61306,
+            "average20": 77.45,
+            "average60": 86.925
+          },
+          {
+            "date": "2026-07-08",
+            "close": 68.27,
+            "volume": 54520,
+            "average20": 76.297,
+            "average60": 86.556
+          },
+          {
+            "date": "2026-07-09",
+            "close": 68.1,
+            "volume": 42001,
+            "average20": 75.405,
+            "average60": 86.164
+          },
+          {
+            "date": "2026-07-10",
+            "close": 68.88,
+            "volume": 58245,
+            "average20": 74.595,
+            "average60": 85.794
+          },
+          {
+            "date": "2026-07-13",
+            "close": 62.62,
+            "volume": 47016,
+            "average20": 73.56,
+            "average60": 85.298
+          },
+          {
+            "date": "2026-07-14",
+            "close": 63.16,
+            "volume": 41823,
+            "average20": 72.52,
+            "average60": 84.794
+          },
+          {
+            "date": "2026-07-15",
+            "close": 64.02,
+            "volume": 38772,
+            "average20": 71.568,
+            "average60": 84.254
+          },
+          {
+            "date": "2026-07-16",
+            "close": 62.73,
+            "volume": 33502,
+            "average20": 70.659,
+            "average60": 83.716
+          },
+          {
+            "date": "2026-07-17",
+            "close": 57.02,
+            "volume": 45026,
+            "average20": 69.496,
+            "average60": 83.111
+          },
+          {
+            "date": "2026-07-20",
+            "close": 54.6,
+            "volume": 54271,
+            "average20": 68.416,
+            "average60": 82.455
+          },
+          {
+            "date": "2026-07-21",
+            "close": 56.7,
+            "volume": 53173,
+            "average20": 67.561,
+            "average60": 81.859
+          },
+          {
+            "date": "2026-07-22",
+            "close": 55.9,
+            "volume": 40496,
+            "average20": 66.693,
+            "average60": 81.311
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 66.69 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 50.71，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 61.86,
+            "recentAverage": 66.693,
+            "longerAverage": 81.311,
+            "recentHigh": 86.66,
+            "recentLow": 50.71
+          }
+        }
+      },
+      "risk": [
+        "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，安培龙需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查安培龙的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘安培龙保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。",
+            "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。"
+          ]
+        },
+        "upside": {
+          "summary": "安培龙的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "安培龙的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本64.57元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。继续恶化，或价格跌破60日平均成本64.57元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "安培龙的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收11.83亿元，同比+25.88%；归母净利润9074.52万元，同比+9.81%。2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。",
+            "reason": "安培龙当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-24/1225161095.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。",
+            "reason": "安培龙当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-24/1225161084.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-24/1225161084.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘59.97元，低于20日平均成本65.84元；60日平均成本64.57元，近20个交易日涨跌-9.79%。",
+            "reason": "安培龙当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收11.83亿元，同比+25.88%；归母净利润9074.52万元，同比+9.81%。2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。",
+          "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。",
+          "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查安培龙的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘安培龙保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收11.83亿元，同比+25.88%；归母净利润9074.52万元，同比+9.81%。2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。"
+      },
+      {
+        "label": "已确认",
+        "text": "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。"
+      },
+      {
+        "label": "已确认",
+        "text": "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘59.97元，低于20日平均成本65.84元；60日平均成本64.57元，近20个交易日涨跌-9.79%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "安培龙当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。"
+      },
+      {
+        "label": "分析",
+        "text": "安培龙当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "安培龙当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：安培龙保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+        "status": "open"
+      },
+      {
+        "text": "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，安培龙需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "status": "open"
+      },
+      {
+        "question": "安培龙的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "301413.SZ",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "301413.SZ",
+      "company": "安培龙",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 57.91,
+      "evidence_confidence_score": 77.6,
+      "market_payoff_score": 52.76,
+      "technical_timing_score": 32,
+      "data_readiness_score": 100,
+      "action_readiness_score": 61.4,
+      "candidate_priority_score": 40.23,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 68,
+          "average_rating": 3.4,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 2.4,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 52.76,
+          "average_rating": 2.64,
+          "details": {
+            "valuation_discount": 3.4,
+            "implied_growth_vs_evidence": 2.64,
+            "upside_downside": 1.6,
+            "liquidity_capacity": 2.2,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 32,
+          "average_rating": 1.6,
+          "details": {
+            "monthly_trend": 1.9,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 1.8,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "力传感器处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 2 份正式公告，其中 0 份财报或业绩材料；近20日涨跌 -23.7%，近60日涨跌 -37.0%；客户或订单证据 0 条直接、0 条线索。",
+          "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续公告或财报持续无法披露订单、客户或交付证据。",
+        "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+        "供应链或合作披露不能被官方材料交叉验证。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "AVOID_FOR_NOW",
+      "label": "当前不优先",
+      "researchRating": "D",
+      "overallScore": 41.83,
+      "fundamentalScore": 49.65,
+      "companyScore": 36,
+      "evidenceScore": 76,
+      "valuationScore": 36,
+      "timingScore": 32,
+      "riskScore": 47,
+      "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+      "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+      "metrics": {
+        "pe": 78.8031,
+        "ps": 6.0424,
+        "revenueGrowth": 0.0019,
+        "profitGrowth": -0.8482,
+        "cashConversion": -1.9632,
+        "debtRatio": 0.4361,
+        "return20": -0.0979
+      }
+    },
+    "overlay": {
+      "symbol": "301413.SZ",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "力传感器",
+      "bottleneck_reason": "机器人需求必须经过客户验证、订单、交付，再进入收入和现金流；本次最关键的公司原文是：2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。",
+      "revenue_transmission": "这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+      "serenity_fit": 0.44,
+      "layer_score": 52,
+      "company_fit": 49,
+      "evidence_supported_growth": "H1",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收11.83亿元，同比+25.88%；归母净利润9074.52万元，同比+9.81%。2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。2026-08-26复权收盘59.97元，低于20日平均成本65.84元；60日平均成本64.57元，近20个交易日涨跌-9.79%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": -1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，安培龙需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "安培龙的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收2.62亿元，较可比期+0.19%；归母净利润309.18万元，较可比期-84.82%；经营现金流-607万元。",
+          "2025年，公司压力传感器实现营业收入6.74亿元，同比增长44.08%。"
+        ]
+      },
+      "upside": {
+        "summary": "安培龙的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "机器人相关客户、订单、交付、收入或产量",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "安培龙的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本64.57元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本65.84元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若5、核心人员流失风险 传感器芯片设计、热敏电阻及传感器制造行业对工艺经验及技术依赖性较强，具备丰富的工艺实操经验和技术开发 能力的核心人员对公司保持研发能力和提升工艺水平具有重要意义。继续恶化，或价格跌破60日平均成本64.57元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

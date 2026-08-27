@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_09_static_cninfo_com_cn_0e9a1eca16",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "概伦电子",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-22T16:15:52+08:00",
+  "finishedAt": "2026-07-23T09:32:36+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_09_static_cninfo_com_cn_0e9a1eca16"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_9a6c5cc45c"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415851.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-22T16:15:52+08:00",
+      "finishedAt": "2026-07-22T16:15:52+08:00",
+      "contentHash": "sha256:7bc28d61413784ce0a2a4139542e6b51e654b08d19304f158407fc1740af033f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_0e9a1eca16.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:32:36+08:00",
+      "finishedAt": "2026-07-23T09:32:36+08:00",
+      "contentHash": "sha256:df28e05b517b73c5ee15d385e88947a8ba369eb49c578b97cb6be69655fd9a7c",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_0e9a1eca16.json"
+    }
+  ]
+}

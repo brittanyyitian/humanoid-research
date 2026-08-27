@@ -1,0 +1,137 @@
+{
+  "id": "saout_beite_technology_ff8d90d2d26a",
+  "entityId": "beite_technology",
+  "name": "北特科技",
+  "generatedAt": "2026-08-27T16:37:26+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": ": 3.35\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 24.6,\n      \"average_rating\": 1.23,\n      \"details\": {\n        \"monthly_trend\": 0.5,\n        \"weekly_structure\": 1.6,\n        \"daily_buy_point\": 1.85,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.0\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"丝杠处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 4 份正式公告，其中 3 份财报或业绩材料；近20日涨跌 -3.1%，近60日涨跌 -12.2%；客户或订单证据 0 条直接、2 条线索。\",\n      \"missing_proof\": \"正式订单 / 客户名称 / 交付验证 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续公告或财报持续无法披露订单、客户或交付证据。\",\n    \"机器人相关收入或业务线无法在财报中找到可追溯兑现。\",\n    \"供应链或合作披露不能被官方材料交叉验证。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "603009.SH",
+    "symbol": "603009"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_26_static_cninfo_com_cn_46e0c519fb",
+      "raw_2026_08_26_static_cninfo_com_cn_7cf41db562",
+      "raw_2026_08_26_static_cninfo_com_cn_af882a4a6e",
+      "raw_2026_04_29_static_cninfo_com_cn_5059c60c59",
+      "raw_2026_08_26_static_cninfo_com_cn_90f9ca8f3a",
+      "raw_2026_08_14_static_cninfo_com_cn_0db36249b8",
+      "raw_2026_07_21_static_cninfo_com_cn_8e793f170c",
+      "raw_2026_07_21_static_cninfo_com_cn_5488454809"
+    ],
+    "claimIds": [
+      "claim_2026_08_26_filing_1d7d6370b1",
+      "claim_2026_08_26_filing_c2bc2268a5",
+      "claim_2026_08_26_filing_e7a1c7f02d",
+      "claim_2026_04_29_filing_f05ae09745",
+      "claim_2026_08_26_filing_3b28474e8d",
+      "claim_2026_08_14_filing_ed1938569e",
+      "claim_2026_07_21_filing_94be6d2a6b",
+      "claim_2026_07_21_filing_a9f3dc6a2e",
+      "claim_2026_05_16_filing_a47ae55ee1",
+      "claim_2026_08_26_filing_56efc2f7c6",
+      "claim_2026_08_14_filing_ada99296da",
+      "claim_2026_05_22_filing_eb34044b4c",
+      "claim_2026_05_14_filing_614dcd56b0",
+      "claim_2026_05_14_filing_ac55c51213",
+      "claim_2026_04_30_filing_7184b765ce"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/data/603009/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "北特科技 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 40.44/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/data/603009/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 603009.SH (北特科技)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **40.44 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 52.92 |\n| Technical timing | 24.6 |\n| Data readiness | 100.0 |\n| Action readiness | 58.07 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 后续公告或财报持续无法披露订单、客户或交付证据。\n- 机器人相关收入或业务线无法在财报中找到可追溯兑现。\n- 供应链或合作披露不能被官方材料交叉验证。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

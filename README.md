@@ -9,6 +9,13 @@ This project is not a news site and not a stock-picking tool. It is a research r
 - Research layer records changes, evidence movement and follow-up lifecycle.
 - Dashboard layer displays only derived views.
 
+See [PRODUCT_PRINCIPLES.md](PRODUCT_PRINCIPLES.md) for the product boundary:
+
+- The system organizes facts, not conclusions.
+- The system supports research, not investment decisions.
+- 系统组织事实，不组织观点。
+- 系统支持研究，不替代投资决策。
+
 ## Core Rule
 
 No source link, no official data.

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_19_f9063db667a5",
+  "rawArtifactId": "raw_2026_08_05_unitree_com_432d7a83cf",
+  "routeDecisionId": "route_2026_08_05_e14f6f714c94",
+  "pipeline": "company_pipeline",
+  "type": "company",
+  "entityId": "unitree",
+  "entityIds": [
+    "unitree"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-08-19T16:16:08+08:00",
+  "updatedAt": "2026-08-19T16:16:10+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-19T16:16:10+08:00",
+  "finishedAt": "2026-08-19T16:16:10+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_05_other_c6ff6699a9"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_05_other_c6ff6699a9"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_05_company_material_v0_0e5fcbee70"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_19_ff14db341ccf"
+  ]
+}

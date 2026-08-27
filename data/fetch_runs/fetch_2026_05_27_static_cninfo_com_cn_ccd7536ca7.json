@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_27_static_cninfo_com_cn_ccd7536ca7",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "汇川技术",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_27_static_cninfo_com_cn_ccd7536ca7"
+  ],
+  "claimIds": [
+    "claim_2026_05_27_filing_b122ea0516"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-27/1225332956.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:45b9fbf914f74e50c00f867c7f42671737e7f8b44f886833977e61ba4e9a2252",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_27_static_cninfo_com_cn_ccd7536ca7.json"
+    }
+  ]
+}

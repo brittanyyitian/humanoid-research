@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_db1a06824f",
+  "artifactType": "filing",
+  "title": "关于增加第四届董事会独立董事及调整董事会专门委员会成员的公告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422214.PDF",
+  "sourceId": "src_static_cninfo_com_cn_db1a06824f",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_db1a06824f",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9998ee1002a2932968285e47af35798b06958ff84b8ddd7e0c0ddd52644cb743",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_db1a06824f.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_6fa39aa695"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c9f5ee3be9adc57a; listSourceId=src_cninfo_688019_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_81e1cf043a",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于与山东黄金集团财务有限公司签订《金融服务框架协议之补充协议》暨关联交易的公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225338295.PDF",
+  "sourceId": "src_static_cninfo_com_cn_81e1cf043a",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_81e1cf043a",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b5dcc6c8536d8cef794cfe08bf253ee00c2ddb0f9388ee1db9cf3def76ba4cbc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_81e1cf043a.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_5997d6725f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fe00339da22c56f8; listSourceId=src_cninfo_600547_announcements."
+}

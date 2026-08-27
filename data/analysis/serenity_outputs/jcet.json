@@ -1,0 +1,1300 @@
+{
+  "id": "saout_jcet_cce479d0c2a4",
+  "entityId": "jcet",
+  "name": "长电科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600584.SH",
+    "symbol": "600584.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_59_jcet",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_59_jcet/data/600584/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_59_jcet/ai_research/600584.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_59_jcet/ai_research/600584.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "长电科技 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "长电科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查长电科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘长电科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "封装测试",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600584.SH",
+      "name": "长电科技",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 76.54,
+        "previousClose": 73.6173896316245,
+        "changePct": 3.9700000000000117,
+        "high": 86.88,
+        "low": 81.3,
+        "open": 85.78,
+        "volume": 1039834,
+        "turnover": 8711403027,
+        "turnoverText": "73.78亿",
+        "currency": "CNY",
+        "asOf": "20260827161454",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 56.35,
+        "technicalTimingScore": 49.4,
+        "marketPayoffScore": 61.72,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 86,
+        "evidenceScore": 96,
+        "valuationScore": 32,
+        "timingScore": 45,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 62.1,
+          "fundamentalScore": 85.7,
+          "companyScore": 86,
+          "evidenceScore": 96,
+          "valuationScore": 32,
+          "timingScore": 45,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 93.6873,
+            "ps": 3.7725,
+            "revenueGrowth": -0.0176,
+            "profitGrowth": 0.4274,
+            "cashConversion": 6.1284,
+            "debtRatio": 0.4301,
+            "return20": -0.0297
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收388.71亿元，同比+8.09%；归母净利润15.65亿元，同比-2.75%。2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。",
+          "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。",
+          "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+          "2026-08-26复权收盘73.62元，低于20日平均成本78.36元；60日平均成本83.46元，近20个交易日涨跌-2.97%。"
+        ],
+        "possible": [
+          "长电科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "长电科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "长电科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.72,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.35/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 49.4,
+        "dailyBuyPointScore": 1.2,
+        "dmaAlignmentScore": 2.3,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 技术时机分偏低，未给出确认买点。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 45.38,
+            "volume": 543064,
+            "average20": 46.575,
+            "average60": 43.432
+          },
+          {
+            "date": "2026-03-16",
+            "close": 45.65,
+            "volume": 705271,
+            "average20": 46.66,
+            "average60": 43.574
+          },
+          {
+            "date": "2026-03-17",
+            "close": 43.65,
+            "volume": 621114,
+            "average20": 46.51,
+            "average60": 43.697
+          },
+          {
+            "date": "2026-03-18",
+            "close": 45.67,
+            "volume": 791233,
+            "average20": 46.486,
+            "average60": 43.846
+          },
+          {
+            "date": "2026-03-19",
+            "close": 44.09,
+            "volume": 531942,
+            "average20": 46.386,
+            "average60": 43.982
+          },
+          {
+            "date": "2026-03-20",
+            "close": 41.93,
+            "volume": 772824,
+            "average20": 46.156,
+            "average60": 44.092
+          },
+          {
+            "date": "2026-03-23",
+            "close": 38.98,
+            "volume": 757104,
+            "average20": 45.803,
+            "average60": 44.145
+          },
+          {
+            "date": "2026-03-24",
+            "close": 39.35,
+            "volume": 461181,
+            "average20": 45.439,
+            "average60": 44.208
+          },
+          {
+            "date": "2026-03-25",
+            "close": 40.54,
+            "volume": 533289,
+            "average20": 45.125,
+            "average60": 44.289
+          },
+          {
+            "date": "2026-03-26",
+            "close": 39.33,
+            "volume": 377749,
+            "average20": 44.66,
+            "average60": 44.333
+          },
+          {
+            "date": "2026-03-27",
+            "close": 39.43,
+            "volume": 367940,
+            "average20": 44.229,
+            "average60": 44.382
+          },
+          {
+            "date": "2026-03-30",
+            "close": 39.74,
+            "volume": 338891,
+            "average20": 43.882,
+            "average60": 44.427
+          },
+          {
+            "date": "2026-03-31",
+            "close": 38.65,
+            "volume": 404005,
+            "average20": 43.441,
+            "average60": 44.454
+          },
+          {
+            "date": "2026-04-01",
+            "close": 39.39,
+            "volume": 367070,
+            "average20": 43.023,
+            "average60": 44.499
+          },
+          {
+            "date": "2026-04-02",
+            "close": 38.38,
+            "volume": 328915,
+            "average20": 42.512,
+            "average60": 44.53
+          },
+          {
+            "date": "2026-04-03",
+            "close": 38.19,
+            "volume": 261706,
+            "average20": 42.074,
+            "average60": 44.55
+          },
+          {
+            "date": "2026-04-07",
+            "close": 38.72,
+            "volume": 273821,
+            "average20": 41.766,
+            "average60": 44.583
+          },
+          {
+            "date": "2026-04-08",
+            "close": 41.88,
+            "volume": 713712,
+            "average20": 41.565,
+            "average60": 44.644
+          },
+          {
+            "date": "2026-04-09",
+            "close": 41.81,
+            "volume": 497533,
+            "average20": 41.32,
+            "average60": 44.702
+          },
+          {
+            "date": "2026-04-10",
+            "close": 42.92,
+            "volume": 667669,
+            "average20": 41.184,
+            "average60": 44.767
+          },
+          {
+            "date": "2026-04-13",
+            "close": 42.75,
+            "volume": 443211,
+            "average20": 41.053,
+            "average60": 44.832
+          },
+          {
+            "date": "2026-04-14",
+            "close": 44.24,
+            "volume": 825500,
+            "average20": 40.982,
+            "average60": 44.884
+          },
+          {
+            "date": "2026-04-15",
+            "close": 43.49,
+            "volume": 680666,
+            "average20": 40.974,
+            "average60": 44.883
+          },
+          {
+            "date": "2026-04-16",
+            "close": 43.63,
+            "volume": 442433,
+            "average20": 40.872,
+            "average60": 44.909
+          },
+          {
+            "date": "2026-04-17",
+            "close": 43.88,
+            "volume": 613942,
+            "average20": 40.861,
+            "average60": 44.942
+          },
+          {
+            "date": "2026-04-20",
+            "close": 44.39,
+            "volume": 611808,
+            "average20": 40.984,
+            "average60": 44.95
+          },
+          {
+            "date": "2026-04-21",
+            "close": 43.93,
+            "volume": 465116,
+            "average20": 41.232,
+            "average60": 44.877
+          },
+          {
+            "date": "2026-04-22",
+            "close": 45.41,
+            "volume": 768614,
+            "average20": 41.535,
+            "average60": 44.822
+          },
+          {
+            "date": "2026-04-23",
+            "close": 44.31,
+            "volume": 663156,
+            "average20": 41.724,
+            "average60": 44.737
+          },
+          {
+            "date": "2026-04-24",
+            "close": 44.79,
+            "volume": 700289,
+            "average20": 41.996,
+            "average60": 44.609
+          },
+          {
+            "date": "2026-04-27",
+            "close": 46.22,
+            "volume": 1021313,
+            "average20": 42.336,
+            "average60": 44.557
+          },
+          {
+            "date": "2026-04-28",
+            "close": 45,
+            "volume": 804400,
+            "average20": 42.599,
+            "average60": 44.492
+          },
+          {
+            "date": "2026-04-29",
+            "close": 44.26,
+            "volume": 862876,
+            "average20": 42.879,
+            "average60": 44.443
+          },
+          {
+            "date": "2026-04-30",
+            "close": 45.46,
+            "volume": 1014030,
+            "average20": 43.183,
+            "average60": 44.399
+          },
+          {
+            "date": "2026-05-06",
+            "close": 48.1,
+            "volume": 1499983,
+            "average20": 43.669,
+            "average60": 44.368
+          },
+          {
+            "date": "2026-05-07",
+            "close": 48.66,
+            "volume": 1321662,
+            "average20": 44.192,
+            "average60": 44.365
+          },
+          {
+            "date": "2026-05-08",
+            "close": 50.65,
+            "volume": 1686549,
+            "average20": 44.789,
+            "average60": 44.386
+          },
+          {
+            "date": "2026-05-11",
+            "close": 55.73,
+            "volume": 1629943,
+            "average20": 45.482,
+            "average60": 44.544
+          },
+          {
+            "date": "2026-05-12",
+            "close": 55.14,
+            "volume": 2243986,
+            "average20": 46.148,
+            "average60": 44.67
+          },
+          {
+            "date": "2026-05-13",
+            "close": 57.39,
+            "volume": 2182123,
+            "average20": 46.872,
+            "average60": 44.863
+          },
+          {
+            "date": "2026-05-14",
+            "close": 54.21,
+            "volume": 1744515,
+            "average20": 47.445,
+            "average60": 45.024
+          },
+          {
+            "date": "2026-05-15",
+            "close": 57.95,
+            "volume": 2510798,
+            "average20": 48.13,
+            "average60": 45.257
+          },
+          {
+            "date": "2026-05-18",
+            "close": 58.23,
+            "volume": 2402943,
+            "average20": 48.867,
+            "average60": 45.45
+          },
+          {
+            "date": "2026-05-19",
+            "close": 60.71,
+            "volume": 2319497,
+            "average20": 49.721,
+            "average60": 45.693
+          },
+          {
+            "date": "2026-05-20",
+            "close": 66.12,
+            "volume": 2859682,
+            "average20": 50.833,
+            "average60": 46.027
+          },
+          {
+            "date": "2026-05-21",
+            "close": 66.74,
+            "volume": 3125058,
+            "average20": 51.95,
+            "average60": 46.364
+          },
+          {
+            "date": "2026-05-22",
+            "close": 72.78,
+            "volume": 2869279,
+            "average20": 53.393,
+            "average60": 46.809
+          },
+          {
+            "date": "2026-05-25",
+            "close": 80.07,
+            "volume": 2751391,
+            "average20": 55.126,
+            "average60": 47.367
+          },
+          {
+            "date": "2026-05-26",
+            "close": 88.09,
+            "volume": 3398367,
+            "average20": 57.315,
+            "average60": 48.055
+          },
+          {
+            "date": "2026-05-27",
+            "close": 86.06,
+            "volume": 3513412,
+            "average20": 59.378,
+            "average60": 48.679
+          },
+          {
+            "date": "2026-05-28",
+            "close": 84.64,
+            "volume": 2722646,
+            "average20": 61.3,
+            "average60": 49.288
+          },
+          {
+            "date": "2026-05-29",
+            "close": 81.95,
+            "volume": 3103586,
+            "average20": 63.147,
+            "average60": 49.876
+          },
+          {
+            "date": "2026-06-01",
+            "close": 75.55,
+            "volume": 2953365,
+            "average20": 64.712,
+            "average60": 50.344
+          },
+          {
+            "date": "2026-06-02",
+            "close": 75.25,
+            "volume": 2532512,
+            "average20": 66.201,
+            "average60": 50.802
+          },
+          {
+            "date": "2026-06-03",
+            "close": 80.03,
+            "volume": 3253501,
+            "average20": 67.797,
+            "average60": 51.326
+          },
+          {
+            "date": "2026-06-04",
+            "close": 79.98,
+            "volume": 2270520,
+            "average20": 69.363,
+            "average60": 51.877
+          },
+          {
+            "date": "2026-06-05",
+            "close": 75.55,
+            "volume": 2053712,
+            "average20": 70.608,
+            "average60": 52.388
+          },
+          {
+            "date": "2026-06-08",
+            "close": 70.2,
+            "volume": 1681298,
+            "average20": 71.332,
+            "average60": 52.793
+          },
+          {
+            "date": "2026-06-09",
+            "close": 75.19,
+            "volume": 1664743,
+            "average20": 72.335,
+            "average60": 53.267
+          },
+          {
+            "date": "2026-06-10",
+            "close": 73.95,
+            "volume": 1502748,
+            "average20": 73.163,
+            "average60": 53.739
+          },
+          {
+            "date": "2026-06-11",
+            "close": 71.85,
+            "volume": 1279991,
+            "average20": 74.044,
+            "average60": 54.181
+          },
+          {
+            "date": "2026-06-12",
+            "close": 68.82,
+            "volume": 1863166,
+            "average20": 74.588,
+            "average60": 54.567
+          },
+          {
+            "date": "2026-06-15",
+            "close": 74.22,
+            "volume": 1781531,
+            "average20": 75.388,
+            "average60": 55.076
+          },
+          {
+            "date": "2026-06-16",
+            "close": 76.83,
+            "volume": 1917094,
+            "average20": 76.194,
+            "average60": 55.596
+          },
+          {
+            "date": "2026-06-17",
+            "close": 81.66,
+            "volume": 2228067,
+            "average20": 76.97,
+            "average60": 56.222
+          },
+          {
+            "date": "2026-06-18",
+            "close": 82.93,
+            "volume": 2340781,
+            "average20": 77.78,
+            "average60": 56.905
+          },
+          {
+            "date": "2026-06-22",
+            "close": 91.23,
+            "volume": 2372194,
+            "average20": 78.703,
+            "average60": 57.776
+          },
+          {
+            "date": "2026-06-23",
+            "close": 86.09,
+            "volume": 2221175,
+            "average20": 79.004,
+            "average60": 58.555
+          },
+          {
+            "date": "2026-06-24",
+            "close": 94.7,
+            "volume": 2573253,
+            "average20": 79.334,
+            "average60": 59.457
+          },
+          {
+            "date": "2026-06-25",
+            "close": 104.17,
+            "volume": 1197230,
+            "average20": 80.24,
+            "average60": 60.538
+          },
+          {
+            "date": "2026-06-26",
+            "close": 100.89,
+            "volume": 3358285,
+            "average20": 81.052,
+            "average60": 61.562
+          },
+          {
+            "date": "2026-06-29",
+            "close": 103.25,
+            "volume": 3261605,
+            "average20": 82.117,
+            "average60": 62.621
+          },
+          {
+            "date": "2026-06-30",
+            "close": 103.55,
+            "volume": 2285109,
+            "average20": 83.517,
+            "average60": 63.703
+          },
+          {
+            "date": "2026-07-01",
+            "close": 106.64,
+            "volume": 2459790,
+            "average20": 85.087,
+            "average60": 64.823
+          },
+          {
+            "date": "2026-07-02",
+            "close": 95.98,
+            "volume": 1908044,
+            "average20": 85.884,
+            "average60": 65.783
+          },
+          {
+            "date": "2026-07-03",
+            "close": 90.88,
+            "volume": 1782265,
+            "average20": 86.429,
+            "average60": 66.662
+          },
+          {
+            "date": "2026-07-06",
+            "close": 95.09,
+            "volume": 2084214,
+            "average20": 87.406,
+            "average60": 67.601
+          },
+          {
+            "date": "2026-07-07",
+            "close": 100.99,
+            "volume": 2272055,
+            "average20": 88.946,
+            "average60": 68.586
+          },
+          {
+            "date": "2026-07-08",
+            "close": 94.11,
+            "volume": 2071654,
+            "average20": 89.892,
+            "average60": 69.458
+          },
+          {
+            "date": "2026-07-09",
+            "close": 103.52,
+            "volume": 2063758,
+            "average20": 91.37,
+            "average60": 70.468
+          },
+          {
+            "date": "2026-07-10",
+            "close": 101.11,
+            "volume": 3058528,
+            "average20": 92.833,
+            "average60": 71.441
+          },
+          {
+            "date": "2026-07-13",
+            "close": 99.05,
+            "volume": 2431219,
+            "average20": 94.344,
+            "average60": 72.354
+          },
+          {
+            "date": "2026-07-14",
+            "close": 102.7,
+            "volume": 2782632,
+            "average20": 95.768,
+            "average60": 73.341
+          },
+          {
+            "date": "2026-07-15",
+            "close": 92.46,
+            "volume": 2385810,
+            "average20": 96.55,
+            "average60": 74.155
+          },
+          {
+            "date": "2026-07-16",
+            "close": 83.21,
+            "volume": 1854264,
+            "average20": 96.627,
+            "average60": 74.81
+          },
+          {
+            "date": "2026-07-17",
+            "close": 85.49,
+            "volume": 2525464,
+            "average20": 96.755,
+            "average60": 75.495
+          },
+          {
+            "date": "2026-07-20",
+            "close": 76.99,
+            "volume": 2018997,
+            "average20": 96.043,
+            "average60": 76.046
+          },
+          {
+            "date": "2026-07-21",
+            "close": 84.69,
+            "volume": 2688542,
+            "average20": 95.974,
+            "average60": 76.701
+          },
+          {
+            "date": "2026-07-22",
+            "close": 85.78,
+            "volume": 2577809,
+            "average20": 95.528,
+            "average60": 77.392
+          },
+          {
+            "date": "2026-07-23",
+            "close": 82.03,
+            "volume": 1039834,
+            "average20": 94.421,
+            "average60": 78.013
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 94.42 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 69.29，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 76.54,
+            "recentAverage": 94.421,
+            "longerAverage": 78.013,
+            "recentHigh": 113.87,
+            "recentLow": 69.29
+          }
+        }
+      },
+      "risk": [
+        "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+        "若下一期现金流明显落后于利润，长电科技的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查长电科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘长电科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。",
+            "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。"
+          ]
+        },
+        "upside": {
+          "summary": "长电科技的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "长电科技的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本83.46元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。继续恶化，或价格跌破60日平均成本83.46元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "长电科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收388.71亿元，同比+8.09%；归母净利润15.65亿元，同比-2.75%。2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。",
+            "reason": "长电科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225224901.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。",
+            "reason": "长电科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091498.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091498.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘73.62元，低于20日平均成本78.36元；60日平均成本83.46元，近20个交易日涨跌-2.97%。",
+            "reason": "长电科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收388.71亿元，同比+8.09%；归母净利润15.65亿元，同比-2.75%。2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。",
+          "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。",
+          "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查长电科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘长电科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收388.71亿元，同比+8.09%；归母净利润15.65亿元，同比-2.75%。2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。"
+      },
+      {
+        "label": "已确认",
+        "text": "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘73.62元，低于20日平均成本78.36元；60日平均成本83.46元，近20个交易日涨跌-2.97%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "长电科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "长电科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "长电科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，长电科技的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "status": "open"
+      },
+      {
+        "question": "长电科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "600584.SH",
+      "research_status": "COMPLETED",
+      "score": 96.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "600584.SH",
+      "company": "长电科技",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.39,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 61.72,
+      "technical_timing_score": 49.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 69.23,
+      "candidate_priority_score": 56.35,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 61.72,
+          "average_rating": 3.09,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 2.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 49.4,
+          "average_rating": 2.47,
+          "details": {
+            "monthly_trend": 4.3,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 1.2,
+            "gf_dma_alignment": 2.3,
+            "drawdown_position": 2.45
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "封装测试处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 8 份财报或业绩材料；近20日涨跌 -21.3%，近60日涨跌 83.1%；客户或订单证据 0 条直接、2 条线索。",
+          "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+        "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+        "行业景气回落，价格或库存变化削弱原来的增长判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "A",
+      "overallScore": 62.1,
+      "fundamentalScore": 85.7,
+      "companyScore": 86,
+      "evidenceScore": 96,
+      "valuationScore": 32,
+      "timingScore": 45,
+      "riskScore": 64,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 93.6873,
+        "ps": 3.7725,
+        "revenueGrowth": -0.0176,
+        "profitGrowth": 0.4274,
+        "cashConversion": 6.1284,
+        "debtRatio": 0.4301,
+        "return20": -0.0297
+      }
+    },
+    "overlay": {
+      "symbol": "600584.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "封装测试",
+      "bottleneck_reason": "半导体景气必须经过产品、客户验证和产能利用，再进入收入和现金流；本次最关键的公司原文是：（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。",
+      "revenue_transmission": "这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收388.71亿元，同比+8.09%；归母净利润15.65亿元，同比-2.75%。2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。2026-08-26复权收盘73.62元，低于20日平均成本78.36元；60日平均成本83.46元，近20个交易日涨跌-2.97%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+        "若下一期现金流明显落后于利润，长电科技的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "长电科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收91.71亿元，较可比期-1.76%；归母净利润2.9亿元，较可比期+42.74%；经营现金流17.79亿元。",
+          "（3）长电先进，报告期内，客户需求上升，订单量饱满，产能利用率提高，晶圆级先进封装测试一体化服务价值提升，带来营业收入、净利润有大幅增 长。"
+        ]
+      },
+      "upside": {
+        "summary": "长电科技的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "核心产品、客户验证、产量、产能利用率或分部收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "长电科技的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本83.46元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若经营风险 1、国际政策不确定性的风险 公司作为半导体芯片成品封装测试以及成品服务企业，报告期内公司境外收入占主营业务收 入比例较大。继续恶化，或价格跌破60日平均成本83.46元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本78.36元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

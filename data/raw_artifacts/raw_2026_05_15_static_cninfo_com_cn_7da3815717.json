@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_15_static_cninfo_com_cn_7da3815717",
+  "artifactType": "filing",
+  "title": "柯力传感关于公司财务总监辞任暨董事长代行财务总监职责的公告",
+  "publisher": "柯力传感",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225305690.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7da3815717",
+  "fetchRunId": "fetch_2026_05_15_static_cninfo_com_cn_7da3815717",
+  "publishedAt": "2026-05-15",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:3257a3fb8df8fc73b4e5dbf7320d89e35b34b614c6bd762f7ed4a032fc23f5d8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_7da3815717.json",
+  "entityIds": [
+    "keli_sensing"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_c87193dd4f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_37cb7d383d3d456e; listSourceId=src_cninfo_603662_announcements."
+}

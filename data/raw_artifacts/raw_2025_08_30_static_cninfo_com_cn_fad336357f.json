@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_30_static_cninfo_com_cn_fad336357f",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-30/1224620469.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fad336357f",
+  "fetchRunId": "fetch_2025_08_30_static_cninfo_com_cn_fad336357f",
+  "publishedAt": "2025-08-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:0dadabc3768fbaf72316d32f673e61bb40ba6b6e66faf793c557b9335438be1f",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_fad336357f.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2025_08_30_filing_bb6b2629f8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7411dde214881f4d; listSourceId=src_cninfo_688206_announcements."
+}

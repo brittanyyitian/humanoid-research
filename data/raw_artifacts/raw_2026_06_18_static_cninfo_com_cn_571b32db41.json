@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_18_static_cninfo_com_cn_571b32db41",
+  "artifactType": "filing",
+  "title": "关于选举职工代表董事及调整董事会部分专业委员会委员的公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-18/1225376767.PDF",
+  "sourceId": "src_static_cninfo_com_cn_571b32db41",
+  "fetchRunId": "fetch_2026_06_18_static_cninfo_com_cn_571b32db41",
+  "publishedAt": "2026-06-18",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:47129c1aa1b70ae74e208e5474aa4cd27919a4020270d7f69b06135d41647bd2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_18_static_cninfo_com_cn_571b32db41.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_06_18_filing_cf833d0c93"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4c72d69896742fd8; listSourceId=src_cninfo_002179_announcements."
+}

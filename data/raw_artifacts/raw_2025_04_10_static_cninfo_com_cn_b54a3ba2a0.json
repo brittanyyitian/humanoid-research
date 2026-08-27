@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_10_static_cninfo_com_cn_b54a3ba2a0",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-10/1223043293.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b54a3ba2a0",
+  "fetchRunId": "fetch_2025_04_10_static_cninfo_com_cn_b54a3ba2a0",
+  "publishedAt": "2025-04-10",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:3348e007e290b2107c1b1142e171be83f60aa20e1d01609e98970a64c7c4bd3d",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_10_static_cninfo_com_cn_b54a3ba2a0.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2025_04_10_filing_e970dcf7b3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_62c526f5c2c6df1f; listSourceId=src_cninfo_002353_announcements."
+}

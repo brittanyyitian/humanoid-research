@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_29_static_cninfo_com_cn_d530047905",
+  "artifactType": "filing",
+  "title": "安集微电子科技（上海）股份有限公司2025年第一季度报告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223359737.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d530047905",
+  "fetchRunId": "fetch_2025_04_29_static_cninfo_com_cn_d530047905",
+  "publishedAt": "2025-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:84df4e0ee21a821254b4963b525f3a297a6758e86d1946b42e92bab32e9849b5",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_29_static_cninfo_com_cn_d530047905.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2025_04_29_filing_31a9dc070d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0312e0f591c8f9d0; listSourceId=src_cninfo_688019_announcements."
+}

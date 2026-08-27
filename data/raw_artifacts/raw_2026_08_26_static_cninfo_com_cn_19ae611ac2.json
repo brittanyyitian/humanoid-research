@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_19ae611ac2",
+  "artifactType": "filing",
+  "title": "2026年半年度利润分配预案",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504497.PDF",
+  "sourceId": "src_static_cninfo_com_cn_19ae611ac2",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_19ae611ac2",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:50ddd3164e581de9bc5569135bdffb680936513bfa2fddcd668845ca9a742b45",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_19ae611ac2.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_524ee59dab"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f314da5b98c51d99; listSourceId=src_cninfo_002472_announcements."
+}

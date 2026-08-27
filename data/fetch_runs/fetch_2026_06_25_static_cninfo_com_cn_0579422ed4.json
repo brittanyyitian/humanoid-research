@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_25_static_cninfo_com_cn_0579422ed4",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中芯国际",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_25_static_cninfo_com_cn_0579422ed4"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_3ee754f03b"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225386199.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:cbb1f4661858c449ccd248562e75cf763a2df31038d99b9e3c2ead132f4bd089",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_0579422ed4.json"
+    }
+  ]
+}

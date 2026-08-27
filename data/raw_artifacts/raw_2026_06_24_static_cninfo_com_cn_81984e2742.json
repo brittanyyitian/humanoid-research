@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_81984e2742",
+  "artifactType": "filing",
+  "title": "2025年年度股东会决议公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225384434.PDF",
+  "sourceId": "src_static_cninfo_com_cn_81984e2742",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_81984e2742",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:56ad3d8f115cea33c409ed248a58a8f9a09849e4c13710a405f776b82d0fc2c3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_81984e2742.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_db25ece3f1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_15bd0a73b03cc008; listSourceId=src_cninfo_000554_announcements."
+}

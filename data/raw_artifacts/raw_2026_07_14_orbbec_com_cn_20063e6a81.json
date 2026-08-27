@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_orbbec_com_cn_20063e6a81",
+  "artifactType": "news_page",
+  "title": "WAIC剧透 奥比中光 × 蚂蚁灵波：让具身数据采得更准、看得更清",
+  "publisher": "奥比中光科技集团股份有限公司",
+  "url": "https://www.orbbec.com.cn/index/News/info.html?cate=31&id=376",
+  "sourceId": "src_orbbec_com_cn_20063e6a81",
+  "fetchRunId": "fetch_2026_07_14_orbbec_com_cn_20063e6a81",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:79804b816217acc8746c401c9b4ce36849e73df1bf6ebb407c1ce001de1f6dd7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_orbbec_com_cn_20063e6a81.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_other_a7dff4dba4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_d6fe3c7958ee1433; listSourceId=src_orbbec_official_news."
+}

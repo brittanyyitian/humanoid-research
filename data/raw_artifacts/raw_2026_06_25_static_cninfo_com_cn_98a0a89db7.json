@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_98a0a89db7",
+  "artifactType": "filing",
+  "title": "中微公司募集资金公司户验资报告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225385372.PDF",
+  "sourceId": "src_static_cninfo_com_cn_98a0a89db7",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_98a0a89db7",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1067c9328869680d6281437124094f0096628d8a6285353994443f78ff555249",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_98a0a89db7.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_3a8b6d6806"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a2c0749772cad8fd; listSourceId=src_cninfo_688012_announcements."
+}

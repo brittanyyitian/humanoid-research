@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_3d148ca904",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司2026年半年度报告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225502687.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3d148ca904",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_3d148ca904",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:4410c8a79fb32e8cd8ca6f3d756638e0bba23f7a977c5d19cc227fc86e9c7f30",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_3d148ca904.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_13fbc252f8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_77e684a139f4c3a1; listSourceId=src_cninfo_600664_announcements."
+}

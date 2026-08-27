@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_13fd5eeeec",
+  "artifactType": "filing",
+  "title": "关于召开2026年半年度业绩说明会的公告",
+  "publisher": "汇川技术",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225490872.PDF",
+  "sourceId": "src_static_cninfo_com_cn_13fd5eeeec",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_13fd5eeeec",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:343e91a5bf1c460d2d65e5b1489bfc3a4218526bdc53cd94cdf49c23ce22000f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_13fd5eeeec.json",
+  "entityIds": [
+    "inovance"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_822f33d12d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ef3d11d79147b2fd; listSourceId=src_cninfo_300124_announcements."
+}

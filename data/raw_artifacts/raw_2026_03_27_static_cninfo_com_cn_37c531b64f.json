@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_37c531b64f",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036383.PDF",
+  "sourceId": "src_static_cninfo_com_cn_37c531b64f",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_37c531b64f",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:bce377af383afbb0fd3fa5b1da3176c710b4e10f907047d097f55e255ed215dd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_37c531b64f.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_fa70849cdd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_64a38e4777e7c7a4; listSourceId=src_cninfo_002389_announcements."
+}

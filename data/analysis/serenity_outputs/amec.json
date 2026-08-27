@@ -1,0 +1,1300 @@
+{
+  "id": "saout_amec_e9ca571fe2eb",
+  "entityId": "amec",
+  "name": "中微公司",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688012.SH",
+    "symbol": "688012.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_50_33_amec",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_50_33_amec/data/688012/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_50_33_amec/ai_research/688012.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_50_33_amec/ai_research/688012.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "中微公司 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "中微公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查中微公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘中微公司值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "制造设备",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688012.SH",
+      "name": "中微公司",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 376.01,
+        "previousClose": 368.0599060297572,
+        "changePct": 2.1600000000000095,
+        "high": 399,
+        "low": 369.96,
+        "open": 398.97,
+        "volume": 155990,
+        "turnover": 5944838104,
+        "turnoverText": "59.21亿",
+        "currency": "CNY",
+        "asOf": "20260827161435",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.45,
+        "technicalTimingScore": 49.4,
+        "marketPayoffScore": 59.96,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 80,
+        "evidenceScore": 96,
+        "valuationScore": 43,
+        "timingScore": 45,
+        "riskScore": 54,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 62.45,
+          "fundamentalScore": 80.9,
+          "companyScore": 80,
+          "evidenceScore": 96,
+          "valuationScore": 43,
+          "timingScore": 45,
+          "riskScore": 54,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 171.216,
+            "ps": 29.1908,
+            "revenueGrowth": 0.3413,
+            "profitGrowth": 1.972,
+            "cashConversion": -0.1706,
+            "debtRatio": 0.2218,
+            "return20": 0.0179
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收123.85亿元，同比+36.62%；归母净利润21.11亿元，同比+30.69%。2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。",
+          "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。",
+          "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+          "2026-08-26复权收盘368.05元，低于20日平均成本371.14元；60日平均成本382.04元，近20个交易日涨跌+1.79%。"
+        ],
+        "possible": [
+          "中微公司当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "中微公司当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "中微公司当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 59.96,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.45/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 49.4,
+        "dailyBuyPointScore": 2.5,
+        "dmaAlignmentScore": 2.3,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 技术时机分偏低，未给出确认买点。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 209.79,
+            "volume": 66910,
+            "average20": 228.656,
+            "average60": 219.217
+          },
+          {
+            "date": "2026-03-16",
+            "close": 215.05,
+            "volume": 108614,
+            "average20": 227.702,
+            "average60": 219.833
+          },
+          {
+            "date": "2026-03-17",
+            "close": 209.84,
+            "volume": 78428,
+            "average20": 226.391,
+            "average60": 220.336
+          },
+          {
+            "date": "2026-03-18",
+            "close": 215.15,
+            "volume": 89185,
+            "average20": 225.398,
+            "average60": 220.994
+          },
+          {
+            "date": "2026-03-19",
+            "close": 210.57,
+            "volume": 58670,
+            "average20": 224.299,
+            "average60": 221.595
+          },
+          {
+            "date": "2026-03-20",
+            "close": 207.35,
+            "volume": 86019,
+            "average20": 223.101,
+            "average60": 222.153
+          },
+          {
+            "date": "2026-03-23",
+            "close": 199.43,
+            "volume": 101174,
+            "average20": 221.524,
+            "average60": 222.455
+          },
+          {
+            "date": "2026-03-24",
+            "close": 201.41,
+            "volume": 84297,
+            "average20": 219.794,
+            "average60": 222.753
+          },
+          {
+            "date": "2026-03-25",
+            "close": 208.88,
+            "volume": 86427,
+            "average20": 217.864,
+            "average60": 223.148
+          },
+          {
+            "date": "2026-03-26",
+            "close": 205.13,
+            "volume": 59026,
+            "average20": 215.806,
+            "average60": 223.478
+          },
+          {
+            "date": "2026-03-27",
+            "close": 204.87,
+            "volume": 65321,
+            "average20": 214.228,
+            "average60": 223.834
+          },
+          {
+            "date": "2026-03-30",
+            "close": 212.34,
+            "volume": 103700,
+            "average20": 213.14,
+            "average60": 224.379
+          },
+          {
+            "date": "2026-03-31",
+            "close": 205.39,
+            "volume": 80954,
+            "average20": 212.23,
+            "average60": 224.679
+          },
+          {
+            "date": "2026-04-01",
+            "close": 210.19,
+            "volume": 74212,
+            "average20": 211.585,
+            "average60": 225.1
+          },
+          {
+            "date": "2026-04-02",
+            "close": 200.56,
+            "volume": 86839,
+            "average20": 210.2,
+            "average60": 225.398
+          },
+          {
+            "date": "2026-04-03",
+            "close": 196.74,
+            "volume": 58920,
+            "average20": 208.763,
+            "average60": 225.559
+          },
+          {
+            "date": "2026-04-07",
+            "close": 196.81,
+            "volume": 59465,
+            "average20": 207.752,
+            "average60": 225.792
+          },
+          {
+            "date": "2026-04-08",
+            "close": 212.98,
+            "volume": 158121,
+            "average20": 207.43,
+            "average60": 225.863
+          },
+          {
+            "date": "2026-04-09",
+            "close": 215.4,
+            "volume": 131581,
+            "average20": 207.464,
+            "average60": 225.769
+          },
+          {
+            "date": "2026-04-10",
+            "close": 217.21,
+            "volume": 92571,
+            "average20": 207.755,
+            "average60": 225.452
+          },
+          {
+            "date": "2026-04-13",
+            "close": 212.23,
+            "volume": 93634,
+            "average20": 207.876,
+            "average60": 225.125
+          },
+          {
+            "date": "2026-04-14",
+            "close": 217.55,
+            "volume": 127950,
+            "average20": 208.002,
+            "average60": 224.988
+          },
+          {
+            "date": "2026-04-15",
+            "close": 214.77,
+            "volume": 137646,
+            "average20": 208.248,
+            "average60": 224.627
+          },
+          {
+            "date": "2026-04-16",
+            "close": 213.52,
+            "volume": 105012,
+            "average20": 208.166,
+            "average60": 224.319
+          },
+          {
+            "date": "2026-04-17",
+            "close": 210.5,
+            "volume": 138602,
+            "average20": 208.163,
+            "average60": 223.89
+          },
+          {
+            "date": "2026-04-20",
+            "close": 210.19,
+            "volume": 113499,
+            "average20": 208.305,
+            "average60": 223.247
+          },
+          {
+            "date": "2026-04-21",
+            "close": 207.07,
+            "volume": 95884,
+            "average20": 208.687,
+            "average60": 222.483
+          },
+          {
+            "date": "2026-04-22",
+            "close": 214.52,
+            "volume": 153356,
+            "average20": 209.343,
+            "average60": 221.823
+          },
+          {
+            "date": "2026-04-23",
+            "close": 211.21,
+            "volume": 117909,
+            "average20": 209.459,
+            "average60": 221.272
+          },
+          {
+            "date": "2026-04-24",
+            "close": 216.8,
+            "volume": 172672,
+            "average20": 210.043,
+            "average60": 220.807
+          },
+          {
+            "date": "2026-04-27",
+            "close": 236.01,
+            "volume": 262271,
+            "average20": 211.6,
+            "average60": 220.79
+          },
+          {
+            "date": "2026-04-28",
+            "close": 242.9,
+            "volume": 213024,
+            "average20": 213.127,
+            "average60": 220.731
+          },
+          {
+            "date": "2026-04-29",
+            "close": 241.21,
+            "volume": 144079,
+            "average20": 214.918,
+            "average60": 220.806
+          },
+          {
+            "date": "2026-04-30",
+            "close": 252.32,
+            "volume": 191654,
+            "average20": 217.025,
+            "average60": 221.021
+          },
+          {
+            "date": "2026-05-06",
+            "close": 257.01,
+            "volume": 237892,
+            "average20": 219.848,
+            "average60": 221.185
+          },
+          {
+            "date": "2026-05-07",
+            "close": 257.89,
+            "volume": 170080,
+            "average20": 222.905,
+            "average60": 221.601
+          },
+          {
+            "date": "2026-05-08",
+            "close": 248.09,
+            "volume": 175410,
+            "average20": 225.469,
+            "average60": 221.848
+          },
+          {
+            "date": "2026-05-11",
+            "close": 257.24,
+            "volume": 229066,
+            "average20": 227.682,
+            "average60": 222.418
+          },
+          {
+            "date": "2026-05-12",
+            "close": 260.47,
+            "volume": 187768,
+            "average20": 229.936,
+            "average60": 222.889
+          },
+          {
+            "date": "2026-05-13",
+            "close": 271.98,
+            "volume": 207028,
+            "average20": 232.674,
+            "average60": 223.52
+          },
+          {
+            "date": "2026-05-14",
+            "close": 259.61,
+            "volume": 157783,
+            "average20": 235.043,
+            "average60": 223.858
+          },
+          {
+            "date": "2026-05-15",
+            "close": 290.3,
+            "volume": 380981,
+            "average20": 238.681,
+            "average60": 224.795
+          },
+          {
+            "date": "2026-05-18",
+            "close": 294.23,
+            "volume": 279792,
+            "average20": 242.654,
+            "average60": 225.764
+          },
+          {
+            "date": "2026-05-19",
+            "close": 321.58,
+            "volume": 300380,
+            "average20": 248.057,
+            "average60": 227.207
+          },
+          {
+            "date": "2026-05-20",
+            "close": 328.85,
+            "volume": 293148,
+            "average20": 253.974,
+            "average60": 228.812
+          },
+          {
+            "date": "2026-05-21",
+            "close": 319.09,
+            "volume": 365299,
+            "average20": 259.419,
+            "average60": 230.275
+          },
+          {
+            "date": "2026-05-22",
+            "close": 314.93,
+            "volume": 297068,
+            "average20": 264.812,
+            "average60": 231.674
+          },
+          {
+            "date": "2026-05-25",
+            "close": 325.47,
+            "volume": 363979,
+            "average20": 270.36,
+            "average60": 233.165
+          },
+          {
+            "date": "2026-05-26",
+            "close": 310.85,
+            "volume": 246821,
+            "average20": 275.342,
+            "average60": 234.221
+          },
+          {
+            "date": "2026-05-27",
+            "close": 305.17,
+            "volume": 229388,
+            "average20": 279.76,
+            "average60": 235.203
+          },
+          {
+            "date": "2026-05-28",
+            "close": 303.87,
+            "volume": 209929,
+            "average20": 283.153,
+            "average60": 236.327
+          },
+          {
+            "date": "2026-05-29",
+            "close": 297.68,
+            "volume": 301355,
+            "average20": 285.892,
+            "average60": 237.386
+          },
+          {
+            "date": "2026-06-01",
+            "close": 273,
+            "volume": 325732,
+            "average20": 287.482,
+            "average60": 238.21
+          },
+          {
+            "date": "2026-06-02",
+            "close": 282.8,
+            "volume": 269236,
+            "average20": 289.006,
+            "average60": 239.205
+          },
+          {
+            "date": "2026-06-03",
+            "close": 285.92,
+            "volume": 332414,
+            "average20": 290.451,
+            "average60": 240.166
+          },
+          {
+            "date": "2026-06-04",
+            "close": 289.39,
+            "volume": 225784,
+            "average20": 292.026,
+            "average60": 241.231
+          },
+          {
+            "date": "2026-06-05",
+            "close": 276,
+            "volume": 219733,
+            "average20": 293.422,
+            "average60": 242.214
+          },
+          {
+            "date": "2026-06-08",
+            "close": 265.47,
+            "volume": 211047,
+            "average20": 293.833,
+            "average60": 242.982
+          },
+          {
+            "date": "2026-06-09",
+            "close": 285.04,
+            "volume": 212813,
+            "average20": 295.062,
+            "average60": 244.154
+          },
+          {
+            "date": "2026-06-10",
+            "close": 289.11,
+            "volume": 296079,
+            "average20": 295.918,
+            "average60": 245.449
+          },
+          {
+            "date": "2026-06-11",
+            "close": 303.12,
+            "volume": 275032,
+            "average20": 298.094,
+            "average60": 247.004
+          },
+          {
+            "date": "2026-06-12",
+            "close": 303.92,
+            "volume": 398067,
+            "average20": 298.774,
+            "average60": 248.486
+          },
+          {
+            "date": "2026-06-15",
+            "close": 319.98,
+            "volume": 258422,
+            "average20": 300.062,
+            "average60": 250.321
+          },
+          {
+            "date": "2026-06-16",
+            "close": 319,
+            "volume": 205015,
+            "average20": 299.933,
+            "average60": 252.052
+          },
+          {
+            "date": "2026-06-17",
+            "close": 351,
+            "volume": 313379,
+            "average20": 301.04,
+            "average60": 254.393
+          },
+          {
+            "date": "2026-06-18",
+            "close": 360,
+            "volume": 261448,
+            "average20": 303.086,
+            "average60": 256.937
+          },
+          {
+            "date": "2026-06-22",
+            "close": 372.74,
+            "volume": 283319,
+            "average20": 305.976,
+            "average60": 259.825
+          },
+          {
+            "date": "2026-06-23",
+            "close": 371.72,
+            "volume": 331536,
+            "average20": 308.289,
+            "average60": 262.664
+          },
+          {
+            "date": "2026-06-24",
+            "close": 383,
+            "volume": 311932,
+            "average20": 311.897,
+            "average60": 265.566
+          },
+          {
+            "date": "2026-06-25",
+            "close": 399.13,
+            "volume": 296757,
+            "average20": 316.595,
+            "average60": 268.799
+          },
+          {
+            "date": "2026-06-26",
+            "close": 413,
+            "volume": 319523,
+            "average20": 322.051,
+            "average60": 272.268
+          },
+          {
+            "date": "2026-06-29",
+            "close": 456.69,
+            "volume": 408099,
+            "average20": 330.001,
+            "average60": 276.34
+          },
+          {
+            "date": "2026-06-30",
+            "close": 468.5,
+            "volume": 350683,
+            "average20": 339.776,
+            "average60": 280.725
+          },
+          {
+            "date": "2026-07-01",
+            "close": 462,
+            "volume": 353345,
+            "average20": 348.736,
+            "average60": 284.922
+          },
+          {
+            "date": "2026-07-02",
+            "close": 408.9,
+            "volume": 436400,
+            "average20": 354.885,
+            "average60": 288.395
+          },
+          {
+            "date": "2026-07-03",
+            "close": 413.69,
+            "volume": 338123,
+            "average20": 361.1,
+            "average60": 292.011
+          },
+          {
+            "date": "2026-07-06",
+            "close": 420,
+            "volume": 300175,
+            "average20": 368.3,
+            "average60": 295.73
+          },
+          {
+            "date": "2026-07-07",
+            "close": 420.04,
+            "volume": 247776,
+            "average20": 376.029,
+            "average60": 299.181
+          },
+          {
+            "date": "2026-07-08",
+            "close": 423,
+            "volume": 271527,
+            "average20": 382.927,
+            "average60": 302.641
+          },
+          {
+            "date": "2026-07-09",
+            "close": 471.59,
+            "volume": 339455,
+            "average20": 392.051,
+            "average60": 306.881
+          },
+          {
+            "date": "2026-07-10",
+            "close": 434.51,
+            "volume": 379947,
+            "average20": 398.62,
+            "average60": 310.586
+          },
+          {
+            "date": "2026-07-13",
+            "close": 408.6,
+            "volume": 363808,
+            "average20": 403.855,
+            "average60": 313.77
+          },
+          {
+            "date": "2026-07-14",
+            "close": 405.3,
+            "volume": 356430,
+            "average20": 408.121,
+            "average60": 316.945
+          },
+          {
+            "date": "2026-07-15",
+            "close": 391.29,
+            "volume": 261113,
+            "average20": 411.735,
+            "average60": 319.908
+          },
+          {
+            "date": "2026-07-16",
+            "close": 361.42,
+            "volume": 318691,
+            "average20": 412.256,
+            "average60": 322.423
+          },
+          {
+            "date": "2026-07-17",
+            "close": 350.69,
+            "volume": 371244,
+            "average20": 411.791,
+            "average60": 324.765
+          },
+          {
+            "date": "2026-07-20",
+            "close": 342.5,
+            "volume": 366847,
+            "average20": 410.279,
+            "average60": 327.022
+          },
+          {
+            "date": "2026-07-21",
+            "close": 407.89,
+            "volume": 449914,
+            "average20": 412.087,
+            "average60": 330.245
+          },
+          {
+            "date": "2026-07-22",
+            "close": 392.99,
+            "volume": 347055,
+            "average20": 412.587,
+            "average60": 333.275
+          },
+          {
+            "date": "2026-07-23",
+            "close": 376,
+            "volume": 155990,
+            "average20": 411.43,
+            "average60": 335.928
+          }
+        ],
+        "plainReading": {
+          "state": "上涨后正在回落确认",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "中期方向还没有明显走坏，但短期需要重新站稳。",
+          "watch": "先看能否重新站上 411.4 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 333.0，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 376.01,
+            "recentAverage": 411.43,
+            "longerAverage": 335.928,
+            "recentHigh": 500,
+            "recentLow": 332.99
+          }
+        }
+      },
+      "risk": [
+        "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+        "若下一期现金流明显落后于利润，中微公司的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查中微公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘中微公司值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。",
+            "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。"
+          ]
+        },
+        "upside": {
+          "summary": "中微公司的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "中微公司的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本382.04元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。继续恶化，或价格跌破60日平均成本382.04元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "中微公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收123.85亿元，同比+36.62%；归母净利润21.11亿元，同比+30.69%。2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。",
+            "reason": "中微公司当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225215453.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。",
+            "reason": "中微公司当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062431.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062431.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘368.05元，低于20日平均成本371.14元；60日平均成本382.04元，近20个交易日涨跌+1.79%。",
+            "reason": "中微公司当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收123.85亿元，同比+36.62%；归母净利润21.11亿元，同比+30.69%。2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。",
+          "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。",
+          "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查中微公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘中微公司值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收123.85亿元，同比+36.62%；归母净利润21.11亿元，同比+30.69%。2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。"
+      },
+      {
+        "label": "已确认",
+        "text": "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘368.05元，低于20日平均成本371.14元；60日平均成本382.04元，近20个交易日涨跌+1.79%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "中微公司当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "中微公司当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "中微公司当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，中微公司的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "status": "open"
+      },
+      {
+        "question": "中微公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "688012.SH",
+      "research_status": "COMPLETED",
+      "score": 96.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "688012.SH",
+      "company": "中微公司",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 57.91,
+      "evidence_confidence_score": 77.6,
+      "market_payoff_score": 59.96,
+      "technical_timing_score": 49.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 69.23,
+      "candidate_priority_score": 55.45,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 68,
+          "average_rating": 3.4,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 2.4,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 59.96,
+          "average_rating": 3,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 2.64,
+            "upside_downside": 2.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 49.4,
+          "average_rating": 2.47,
+          "details": {
+            "monthly_trend": 4.3,
+            "weekly_structure": 0.8,
+            "daily_buy_point": 2.5,
+            "gf_dma_alignment": 2.3,
+            "drawdown_position": 2.45
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "制造设备处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 4 份财报或业绩材料；近20日涨跌 -5.8%，近60日涨跌 73.4%；客户或订单证据 0 条直接、0 条线索。",
+          "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+        "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+        "行业景气回落，价格或库存变化削弱原来的增长判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 62.45,
+      "fundamentalScore": 80.9,
+      "companyScore": 80,
+      "evidenceScore": 96,
+      "valuationScore": 43,
+      "timingScore": 45,
+      "riskScore": 54,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 171.216,
+        "ps": 29.1908,
+        "revenueGrowth": 0.3413,
+        "profitGrowth": 1.972,
+        "cashConversion": -0.1706,
+        "debtRatio": 0.2218,
+        "return20": 0.0179
+      }
+    },
+    "overlay": {
+      "symbol": "688012.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "制造设备",
+      "bottleneck_reason": "半导体景气必须经过产品、客户验证和产能利用，再进入收入和现金流；本次最关键的公司原文是：（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。",
+      "revenue_transmission": "这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.56,
+      "layer_score": 64,
+      "company_fit": 63,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收123.85亿元，同比+36.62%；归母净利润21.11亿元，同比+30.69%。2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。2026-08-26复权收盘368.05元，低于20日平均成本371.14元；60日平均成本382.04元，近20个交易日涨跌+1.79%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+        "若下一期现金流明显落后于利润，中微公司的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "中微公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收29.15亿元，较可比期+34.13%；归母净利润9.3亿元，较可比期+197.2%；经营现金流-1.59亿元。",
+          "（5）先进封装相关设备 报告期内，公司用于2.5D、3D先进封装硅通孔的PrimoTSV300E产品持续服务客户，并获 得重复订单。"
+        ]
+      },
+      "upside": {
+        "summary": "中微公司的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "核心产品、客户验证、产量、产能利用率或分部收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "中微公司的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本382.04元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若4、税收优惠政策变动的风险 公司为高新技术企业，报告期内公司享受高新技术企业15%所得税的优惠税率，如果国家上 述税收优惠政策发生变化，或者公司未能持续获得高新技术企业资质认定，则可能面临因税收优 惠减少或取消而降低盈利的风险。继续恶化，或价格跌破60日平均成本382.04元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本371.14元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

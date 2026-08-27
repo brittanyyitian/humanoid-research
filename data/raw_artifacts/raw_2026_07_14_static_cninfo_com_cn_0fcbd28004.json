@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_0fcbd28004",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩预告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225421390.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0fcbd28004",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_0fcbd28004",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:30690daa91aba4e62beed7ba3b6f994b28f4994883ee47dcb6a635242e283bdd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_0fcbd28004.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_a55918e78c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3da63371c012adc0; listSourceId=src_cninfo_002389_announcements."
+}

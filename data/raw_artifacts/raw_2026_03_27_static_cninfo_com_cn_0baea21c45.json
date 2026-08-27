@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_0baea21c45",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司关于续聘会计师事务所的公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036063.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0baea21c45",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_0baea21c45",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dfaaf6f9df4af8dc2c7c2fb44b368ba66bffdbe062d04af629c99951cb0f77ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_0baea21c45.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_f204cbfcbd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_669bf2c2a4335436; listSourceId=src_cninfo_600938_announcements."
+}

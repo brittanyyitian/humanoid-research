@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_13_static_cninfo_com_cn_ab201ee386",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2026年中期权益分派实施公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-13/1225470513.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ab201ee386",
+  "fetchRunId": "fetch_2026_08_13_static_cninfo_com_cn_ab201ee386",
+  "publishedAt": "2026-08-13",
+  "firstSeenAt": "2026-08-13T16:16:03+08:00",
+  "capturedAt": "2026-08-13T16:16:03+08:00",
+  "contentHash": "sha256:2a23859ad94b20211ae7b26aa6cbdde53c8fe1af3f9ce7c904b108065634b1db",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_13_static_cninfo_com_cn_ab201ee386.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_08_13_filing_1a0cbb1911"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2f750b0c645a2898; listSourceId=src_cninfo_601899_announcements."
+}

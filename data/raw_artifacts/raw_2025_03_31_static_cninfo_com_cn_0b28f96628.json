@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_31_static_cninfo_com_cn_0b28f96628",
+  "artifactType": "filing",
+  "title": "恒瑞医药2024年年度报告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-31/1222961962.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0b28f96628",
+  "fetchRunId": "fetch_2025_03_31_static_cninfo_com_cn_0b28f96628",
+  "publishedAt": "2025-03-31",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:897723be97342d5d2c8d6163d78377a52a1b25a254c8f3e3726049c3c83daac4",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_31_static_cninfo_com_cn_0b28f96628.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2025_03_31_filing_c90569c34c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7ab3666ec50c9530; listSourceId=src_cninfo_600276_announcements."
+}

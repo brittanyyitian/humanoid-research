@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_9738cc33d8",
+  "artifactType": "filing",
+  "title": "关于召开2026年第二次临时股东会的通知",
+  "publisher": "凌云光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225420230.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9738cc33d8",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_9738cc33d8",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:f5e28767a4c86b5c0a8e9144e9ddebf1715265ec20f11e9795e582f203a46ab4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_9738cc33d8.json",
+  "entityIds": [
+    "luster_lighttech"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_22b928c3a5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9cda70723eef8d0e; listSourceId=src_cninfo_688400_announcements."
+}

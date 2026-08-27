@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Opportunity Discovery Plan",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "request",
+    "discovery_mode",
+    "macro_theme_map",
+    "trend_hypotheses",
+    "universe_policy",
+    "next_step"
+  ],
+  "properties": {
+    "contract_type": {
+      "type": "string",
+      "const": "serenity_opportunity_discovery_plan"
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "request": {
+      "type": "object",
+      "required": [
+        "prompt",
+        "market_scope",
+        "horizon",
+        "risk_profile",
+        "price_preference",
+        "excluded_boards"
+      ],
+      "properties": {
+        "prompt": { "type": "string", "minLength": 1 },
+        "market_scope": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "enum": ["CN_A", "US", "HK", "GLOBAL"] }
+        },
+        "horizon": { "type": "string", "minLength": 1 },
+        "risk_profile": { "type": "string", "minLength": 1 },
+        "price_preference": {
+          "type": "object",
+          "required": ["style", "min_price", "max_price"],
+          "properties": {
+            "style": { "type": "string", "minLength": 1 },
+            "min_price": { "type": ["number", "null"] },
+            "max_price": { "type": ["number", "null"] }
+          },
+          "additionalProperties": true
+        },
+        "excluded_boards": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": true
+    },
+    "discovery_mode": {
+      "type": "string",
+      "enum": ["open_opportunity", "theme_opportunity", "theme_research_required", "constraint_first"]
+    },
+    "macro_theme_map": {
+      "type": "object",
+      "required": [
+        "contract_type",
+        "intent",
+        "macro_drivers",
+        "theme_candidates",
+        "selected_theme_keys",
+        "ai_expansion_policy",
+        "constraint_interpretation"
+      ],
+      "properties": {
+        "contract_type": { "type": "string", "const": "serenity_macro_theme_map" },
+        "intent": {
+          "type": "object",
+          "required": ["mode", "broad_scan", "theme_seed_keys", "excluded_theme_keys", "explicit_theme_keys", "user_defined_theme_required"],
+          "properties": {
+            "mode": { "type": "string" },
+            "broad_scan": { "type": "boolean" },
+            "theme_seed_keys": { "type": "array", "items": { "type": "string" } },
+            "excluded_theme_keys": { "type": "array", "items": { "type": "string" } },
+            "explicit_theme_keys": { "type": "array", "items": { "type": "string" } },
+            "user_defined_theme_required": { "type": "boolean" }
+          },
+          "additionalProperties": true
+        },
+        "macro_drivers": { "type": "array", "minItems": 1 },
+        "theme_candidates": { "type": "array", "minItems": 1 },
+        "selected_theme_keys": { "type": "array" },
+        "ai_expansion_policy": { "type": "object" },
+        "constraint_interpretation": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "trend_hypotheses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "theme_key",
+          "theme",
+          "why_now",
+          "value_chain_focus",
+          "evidence_to_seek",
+          "disconfirmation"
+        ],
+        "properties": {
+          "theme_key": { "type": "string", "minLength": 1 },
+          "theme_source": { "type": "string", "enum": ["curated_pack", "ai_built_required"] },
+          "theme": { "type": "string", "minLength": 1 },
+          "why_now": { "type": "string", "minLength": 1 },
+          "value_chain_focus": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "evidence_to_seek": {
+            "type": "array",
+            "minItems": 2,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "disconfirmation": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "universe_policy": {
+      "type": "object",
+      "required": [
+        "minimum_universe_candidates",
+        "preflight_candidate_limit",
+        "shortlist_target",
+        "selection_order",
+        "preflight_profile",
+        "ai_expansion_policy",
+        "ai_expansion_tasks",
+        "evidence_floor"
+      ],
+      "properties": {
+        "minimum_universe_candidates": { "type": "integer", "minimum": 1 },
+        "preflight_candidate_limit": { "type": "integer", "minimum": 1 },
+        "shortlist_target": { "type": "integer", "minimum": 1 },
+        "selection_order": {
+          "type": "array",
+          "minItems": 3,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "preflight_profile": {
+          "type": "object",
+          "required": ["discovery_datasets", "formal_required_datasets", "transition_rule"],
+          "properties": {
+            "discovery_datasets": {
+              "type": "array",
+              "minItems": 3,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "formal_required_datasets": {
+              "type": "array",
+              "minItems": 4,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "transition_rule": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": true
+        },
+        "ai_expansion_policy": {
+          "type": "object",
+          "required": ["enabled", "expansion_mode", "curated_theme_role", "integration_rule", "output_contract"],
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "expansion_mode": { "type": "string", "minLength": 1 },
+            "curated_theme_role": { "type": "string", "minLength": 1 },
+            "integration_rule": { "type": "string", "minLength": 1 },
+            "output_contract": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": true
+        },
+        "ai_expansion_tasks": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "evidence_floor": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "next_step": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

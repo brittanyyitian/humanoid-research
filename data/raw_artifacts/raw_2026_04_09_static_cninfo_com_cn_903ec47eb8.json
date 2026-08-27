@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_09_static_cninfo_com_cn_903ec47eb8",
+  "artifactType": "filing",
+  "title": "中信建投证券股份有限公司、中航证券有限公司关于中航（成都）无人机系统股份有限公司首次公开发行股票并在科创板上市之保荐总结报告书",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-09/1225085476.PDF",
+  "sourceId": "src_static_cninfo_com_cn_903ec47eb8",
+  "fetchRunId": "fetch_2026_04_09_static_cninfo_com_cn_903ec47eb8",
+  "publishedAt": "2026-04-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d3a7a916eb5241721472f48a6316acf56cc467aae348d6691ad411ffd396583a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_09_static_cninfo_com_cn_903ec47eb8.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_04_09_filing_671d18f57c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b1be6a78d5bc3279; listSourceId=src_cninfo_688297_announcements."
+}

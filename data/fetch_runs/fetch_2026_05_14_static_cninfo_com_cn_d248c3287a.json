@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_05_14_static_cninfo_com_cn_d248c3287a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "百济神州",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:52:31+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_05_14_static_cninfo_com_cn_d248c3287a"
+  ],
+  "claimIds": [
+    "claim_2026_05_14_filing_84b71dd434"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-14/1225305534.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:f414da08842c3e7fec8754707a9183776e10c806d70f529aad45a0f8aee26b38",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_14_static_cninfo_com_cn_d248c3287a.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:52:31+08:00",
+      "finishedAt": "2026-07-23T09:52:31+08:00",
+      "contentHash": "sha256:86411de7ffb487114775f15e86b113339c79c0d9dadcc3d22e4ae0470fe25ff4",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_14_static_cninfo_com_cn_d248c3287a.json"
+    }
+  ]
+}

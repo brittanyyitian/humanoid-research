@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_12_static_cninfo_com_cn_7da0ab57a8",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华虹宏力",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_12_static_cninfo_com_cn_7da0ab57a8"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_c404759f9e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-12/1225365718.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:22a296a0232311484211c19603581391b69be8c375e686a7b58c176a669e4996",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_12_static_cninfo_com_cn_7da0ab57a8.json"
+    }
+  ]
+}

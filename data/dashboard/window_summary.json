@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-03",
-  "generatedAt": "2026-07-04T12:17:01.593Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
   "policy": "Past windows count happened/published/discovered evidence. Future windows count public verification milestones only.",
   "windows": [
     {
@@ -9,9 +9,9 @@
       "days": 0,
       "direction": "past",
       "events": 0,
-      "claims": 2,
-      "evidence": 2,
-      "stateTransitions": 2,
+      "claims": 64,
+      "evidence": 64,
+      "stateTransitions": 0,
       "observations": 0
     },
     {
@@ -19,22 +19,22 @@
       "label": "近7天",
       "days": 7,
       "direction": "past",
-      "events": 1,
-      "claims": 2,
-      "evidence": 2,
-      "stateTransitions": 2,
-      "observations": 1
+      "events": 0,
+      "claims": 207,
+      "evidence": 207,
+      "stateTransitions": 0,
+      "observations": 0
     },
     {
       "id": "last_30_days",
       "label": "近30天",
       "days": 30,
       "direction": "past",
-      "events": 3,
-      "claims": 2,
-      "evidence": 2,
-      "stateTransitions": 2,
-      "observations": 1
+      "events": 0,
+      "claims": 493,
+      "evidence": 493,
+      "stateTransitions": 0,
+      "observations": 0
     },
     {
       "id": "last_90_days",
@@ -42,8 +42,8 @@
       "days": 90,
       "direction": "past",
       "events": 4,
-      "claims": 2,
-      "evidence": 2,
+      "claims": 2051,
+      "evidence": 2051,
       "stateTransitions": 2,
       "observations": 1
     },
@@ -53,8 +53,8 @@
       "days": 180,
       "direction": "past",
       "events": 4,
-      "claims": 2,
-      "evidence": 2,
+      "claims": 2051,
+      "evidence": 2051,
       "stateTransitions": 2,
       "observations": 1
     },

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_17_static_cninfo_com_cn_ec20e8bc6b",
+  "artifactType": "filing",
+  "title": "关于为参股公司提供财务资助的公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-17/1225375384.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ec20e8bc6b",
+  "fetchRunId": "fetch_2026_06_17_static_cninfo_com_cn_ec20e8bc6b",
+  "publishedAt": "2026-06-17",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:26f953d19f2ac7836c991148fec36a889018ef04fe99e221a9a189ca79a53336",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_17_static_cninfo_com_cn_ec20e8bc6b.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_17_filing_783d5423f9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4253fbe1fae8cb87; listSourceId=src_cninfo_300007_announcements."
+}

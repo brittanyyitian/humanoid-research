@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_58af12ae26",
+  "artifactType": "filing",
+  "title": "第四届董事会第七次会议决议公告",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503754.PDF",
+  "sourceId": "src_static_cninfo_com_cn_58af12ae26",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_58af12ae26",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:cd32a851c020c63e469829dc37d16ca8816f8743c91e9db3f7ac8bfbecb22e2c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_58af12ae26.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_cd680abb32"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f97061f38eb19b3f; listSourceId=src_cninfo_002896_announcements."
+}

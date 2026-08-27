@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_b4f6515d75",
+  "artifactType": "filing",
+  "title": "关于董事会换届选举完成及聘任高级管理人员、证券事务代表的公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417804.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b4f6515d75",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_b4f6515d75",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:50e23faf37b73dff69d7b90e771a55846241ac050f939780e5bd66ff0af068d4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_b4f6515d75.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_f98fec1903"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c2179673d0c53f5f; listSourceId=src_cninfo_002747_announcements."
+}

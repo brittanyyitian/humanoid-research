@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_bc5d368932",
+  "artifactType": "filing",
+  "title": "关于增加注册资本并修订《公司章程》的公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401856.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bc5d368932",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_bc5d368932",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e711125552857a12e01ea516df2f3f59e6cfbab184f04c3c5749a83d680cb45e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_bc5d368932.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_177bd9863a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e05c3b9489c78ada; listSourceId=src_cninfo_688012_announcements."
+}

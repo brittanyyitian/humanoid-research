@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_7ab4bb0d49",
+  "artifactType": "filing",
+  "title": "股票交易风险提示公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401954.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7ab4bb0d49",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_7ab4bb0d49",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:4e640f562aa8061b0142d2c8944512f97dd942697c361a50d0daab62c8021c26",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_7ab4bb0d49.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_09ae5b8287"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dd4691a8e4275524; listSourceId=src_cninfo_688256_announcements."
+}

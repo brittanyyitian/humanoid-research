@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_93cc924e43",
+  "artifactType": "filing",
+  "title": "证券简称变更实施公告",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225350027.PDF",
+  "sourceId": "src_static_cninfo_com_cn_93cc924e43",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_93cc924e43",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:f6e1b3f7f00982b4824cef8159dc38e118ec8b38143bb07739c941f3c57ed002",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_93cc924e43.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_2b28eb457a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2050bf853a505cf2; listSourceId=src_cninfo_688347_announcements."
+}

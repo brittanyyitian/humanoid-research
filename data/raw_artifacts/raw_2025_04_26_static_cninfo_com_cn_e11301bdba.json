@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_26_static_cninfo_com_cn_e11301bdba",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司2025年一季度报告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223325594.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e11301bdba",
+  "fetchRunId": "fetch_2025_04_26_static_cninfo_com_cn_e11301bdba",
+  "publishedAt": "2025-04-26",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:8dcb3d35cce6862bc42d29bce530df43458134b59c41e292fff517622c443d84",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_26_static_cninfo_com_cn_e11301bdba.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2025_04_26_filing_48c0ed02c7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_997b35aaf2a5adff; listSourceId=src_cninfo_600664_announcements."
+}

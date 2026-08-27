@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_320caaab7a",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477737.PDF",
+  "sourceId": "src_static_cninfo_com_cn_320caaab7a",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_320caaab7a",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:8ad1bf40db11388fb9f97078b2f8772cce1dd9b41967d54b06fc79bb4dfda8b8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_320caaab7a.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_1f0de151f0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3c361d72104481f6; listSourceId=src_cninfo_300580_announcements."
+}

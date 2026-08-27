@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_3535a30bbe",
+  "artifactType": "filing",
+  "title": "关于召开2026年第二次临时股东会的通知",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225491291.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3535a30bbe",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_3535a30bbe",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:80b0ada6924e7fc481d37b4d0764bcd95840800493efdd45d12bd95a56d872ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_3535a30bbe.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_578ad41232"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_28600934c969bfcc; listSourceId=src_cninfo_300580_announcements."
+}

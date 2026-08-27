@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_7c09cca8fd",
+  "artifactType": "filing",
+  "title": "第五届董事会第十一次会议决议公告",
+  "publisher": "鸣志电器",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225506115.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7c09cca8fd",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_7c09cca8fd",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:951054639e3c06e36c651029c506fae8f1402f478facc36bc894192315ac1bf6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_7c09cca8fd.json",
+  "entityIds": [
+    "moons"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_73d3d9aae4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_369aa03c4b8e333f; listSourceId=src_cninfo_603728_announcements."
+}

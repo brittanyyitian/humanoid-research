@@ -1,0 +1,31 @@
+{
+  "contract_type": "serenity_theme_pack_registry",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-02T00:00:00+00:00",
+  "packs": [
+    {
+      "key": "robotics",
+      "as_of": "2026-07-02",
+      "freshness_days": 180,
+      "source_notes": "A-share robotics value-chain seed pack for reducer/transmission, motion control, sensing, and integrator layers."
+    },
+    {
+      "key": "ai_compute",
+      "as_of": "2026-07-02",
+      "freshness_days": 180,
+      "source_notes": "A-share AI compute and high-speed interconnect seed pack for optics, PCB/server, semiconductor equipment, and applications."
+    },
+    {
+      "key": "innovative_medicine",
+      "as_of": "2026-07-02",
+      "freshness_days": 180,
+      "source_notes": "Biotech and innovative medicine seed pack for pipeline, commercialization, BD, and CXO/CDMO layers."
+    },
+    {
+      "key": "grid_power",
+      "as_of": "2026-07-02",
+      "freshness_days": 180,
+      "source_notes": "Grid, storage, and power-equipment seed pack for main grid, UHV, storage/PCS, and power-operation layers."
+    }
+  ]
+}

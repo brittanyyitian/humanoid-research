@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_23_static_cninfo_com_cn_dfe42e6f52",
+  "artifactType": "filing",
+  "title": "2025年一季度报告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-23/1223210695.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dfe42e6f52",
+  "fetchRunId": "fetch_2025_04_23_static_cninfo_com_cn_dfe42e6f52",
+  "publishedAt": "2025-04-23",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:881263b9d0848d67c9cb12c61a5e6ae9e4089c7a11502af6982166d406474aa3",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_23_static_cninfo_com_cn_dfe42e6f52.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2025_04_23_filing_6a6d032ad1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_17d7b195abbe7aaf; listSourceId=src_cninfo_002353_announcements."
+}

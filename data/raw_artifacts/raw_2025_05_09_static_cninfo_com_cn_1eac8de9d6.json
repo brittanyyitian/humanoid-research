@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_05_09_static_cninfo_com_cn_1eac8de9d6",
+  "artifactType": "filing",
+  "title": "2025年第一季度报告",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-05-09/1223494524.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1eac8de9d6",
+  "fetchRunId": "fetch_2025_05_09_static_cninfo_com_cn_1eac8de9d6",
+  "publishedAt": "2025-05-09",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:caaba3fb7b685d5b7a14b2926e6b37df6df42156118c288f3b6a28854cc8f1bc",
+  "storagePath": "raw_artifacts/payloads/raw_2025_05_09_static_cninfo_com_cn_1eac8de9d6.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2025_05_09_filing_7dbd66a3d2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cbe6c7f331e6930f; listSourceId=src_cninfo_688347_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_11_static_cninfo_com_cn_7e4fc6f4cd",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "怡合达",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_11_static_cninfo_com_cn_7e4fc6f4cd"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_82197c538b"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419827.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:797f275e79070f8bb32f9bba86f021025fe7faf19243a5fa5934da1eb1588306",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_7e4fc6f4cd.json"
+    }
+  ]
+}

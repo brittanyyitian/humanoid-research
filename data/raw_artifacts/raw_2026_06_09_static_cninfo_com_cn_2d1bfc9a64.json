@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_2d1bfc9a64",
+  "artifactType": "filing",
+  "title": "董事会议事规则",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357143.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2d1bfc9a64",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_2d1bfc9a64",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:096b79db2c866168bd06b05bc0a303da6675e930801c39390709608b48ee56f2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_2d1bfc9a64.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_0ed6577b2e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6c8c96cebfd68938; listSourceId=src_cninfo_300164_announcements."
+}

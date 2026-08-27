@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_22_static_cninfo_com_cn_0b6f1468e0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "埃斯顿",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-22T16:15:52+08:00",
+  "finishedAt": "2026-08-22T16:15:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_22_static_cninfo_com_cn_0b6f1468e0"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_c7094576c7"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225490663.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-22T16:15:52+08:00",
+      "finishedAt": "2026-08-22T16:15:52+08:00",
+      "contentHash": "sha256:193ca50e5338ca91b8ccfd64947d067040d49a4f80d0fcd21021e24bd14d2aaf",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_0b6f1468e0.json"
+    }
+  ]
+}

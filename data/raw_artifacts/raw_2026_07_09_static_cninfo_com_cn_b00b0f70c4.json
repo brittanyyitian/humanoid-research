@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_09_static_cninfo_com_cn_b00b0f70c4",
+  "artifactType": "filing",
+  "title": "H股公告-翌日披露报表",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415637.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b00b0f70c4",
+  "fetchRunId": "fetch_2026_07_09_static_cninfo_com_cn_b00b0f70c4",
+  "publishedAt": "2026-07-09",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:dce7ef9eaed835e257e1a174e7bd967d6fee7003f479387e537fa2a2edee20a3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_b00b0f70c4.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_11ec1ead33"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_395f79b8acdafd22; listSourceId=src_cninfo_688008_announcements."
+}

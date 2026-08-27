@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_15_static_cninfo_com_cn_f1d3422d7a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中无人机",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_15_static_cninfo_com_cn_f1d3422d7a"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_63c4d3eb92"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225307820.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:8a75ddede27df44a333cb36c8af4d51a625d4b7ac68e1766f3e681a0269bcfc4",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_f1d3422d7a.json"
+    }
+  ]
+}

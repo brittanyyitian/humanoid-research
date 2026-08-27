@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_906b9440af",
+  "artifactType": "filing",
+  "title": "2026年第一季度报告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225165928.PDF",
+  "sourceId": "src_static_cninfo_com_cn_906b9440af",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_906b9440af",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:c75d0818820abcc83b60a5113dc478b76b1187a3b4c39e0a9156415b1e43ac99",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_906b9440af.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_14bb517a6b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6ff64a2abbf4efd9; listSourceId=src_cninfo_600667_announcements."
+}

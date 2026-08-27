@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_28_static_cninfo_com_cn_6a5cb950a3",
+  "artifactType": "filing",
+  "title": "关于在子公司之间调剂担保额度的公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-28/1225443532.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6a5cb950a3",
+  "fetchRunId": "fetch_2026_07_28_static_cninfo_com_cn_6a5cb950a3",
+  "publishedAt": "2026-07-28",
+  "firstSeenAt": "2026-07-28T16:16:24+08:00",
+  "capturedAt": "2026-07-28T16:16:24+08:00",
+  "contentHash": "sha256:83d2c0d7170b5fa20de6cd9266b198dc9fae1e3fd19103e838d692a2ce576e5c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_28_static_cninfo_com_cn_6a5cb950a3.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_28_filing_e5944583b7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fb558da863c82581; listSourceId=src_cninfo_002050_announcements."
+}

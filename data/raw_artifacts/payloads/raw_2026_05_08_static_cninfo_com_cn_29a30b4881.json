@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_29a30b4881",
+  "capturedAt": "2026-07-23T09:52:32+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282765.PDF",
+    "title": "关于参加海南辖区上市公司 2025 年年报业绩说明会暨投资者网上集体接待日活动的公告",
+    "publisher": "海南海药",
+    "publishedAt": "2026-05-08",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "hainan_haiyao"
+    ],
+    "body": "证券代码：000566 证券简称：海南海药 公告编号：2026-027\n海南海药股份有限公司关于参加\n海南辖区上市公司 2025 年年报业绩说明会暨投资者网上集体接\n待日活动的公告\n本公司董事会及全体董事保证公告内容的真实、准确和完整，没有虚假记载、\n误导性陈述或者重大遗漏。\n为进一步加强与投资者的互动交流，海南海药股份有限公司（以下简称“公\n司”）将参加由海南证监局主办，海南上市公司协会与深圳市全景网络有限公司\n协办举办的“海南辖区上市公司 2025 年年报业绩说明会暨投资者网上集体接待\n日活动”，现将相关事项公告如下：\n本次活动将采用网络远程的方式举行，投资者可登录“全景路演” 网站\n（http://rs.p5w.net），或关注微信公众号：全景财经，或下载全景路演 APP，\n参与本次互动交流，活动时间为 2026 年 5 月 13 日（周三）14:30-17:00。届时\n公司董事、高管将在线就公司 2025 年度业绩、公司治理、发展战略、经营状况\n和可持续发展等投资者关心的问题，与投资者进行沟通与交流，欢迎广大投资者\n踊跃参与！\n特此公告\n海南海药股份有限公司\n董 事 会\n二〇二六年五月七日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:52:32+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 52634,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

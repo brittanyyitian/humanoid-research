@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_032f729e54",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司关于召开2025年年度股东会的通知",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225333639.PDF",
+  "sourceId": "src_static_cninfo_com_cn_032f729e54",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_032f729e54",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1918dae3720e785dd8217bda6e4bee3cde313b5fe5e6e9792874a78bc1ad39f7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_032f729e54.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_46d0dad0f5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2ec935158f9a3cf6; listSourceId=src_cninfo_600116_announcements."
+}

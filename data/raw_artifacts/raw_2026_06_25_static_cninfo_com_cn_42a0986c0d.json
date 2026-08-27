@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_42a0986c0d",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于控股股东部分股份质押的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225384740.PDF",
+  "sourceId": "src_static_cninfo_com_cn_42a0986c0d",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_42a0986c0d",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:efcb718c74e797ccfbcfbd17f011ac796b32a8e67dd4f12567d89efd3cbcb0c5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_42a0986c0d.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_e1b66ca7f6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_205c814f0f1e88c5; listSourceId=src_cninfo_600664_announcements."
+}

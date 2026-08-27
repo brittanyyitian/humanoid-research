@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2023_12_15_ubtrobot_com_c704a93c68",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "UBTECH ROBOTICS CORP LTD",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2023_12_15_ubtrobot_com_c704a93c68"
+  ],
+  "claimIds": [
+    "claim_2023_12_15_other_e529df9b1e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.ubtrobot.com/en/about/news/493495795167301",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T10:58:14+08:00",
+      "finishedAt": "2026-07-15T10:58:14+08:00",
+      "contentHash": "sha256:290ab6a939521f45b52fbd1cd947a6bd41324ab5c4f3fe27daeb115b25befe0b",
+      "storagePath": "raw_artifacts/payloads/raw_2023_12_15_ubtrobot_com_c704a93c68.json"
+    }
+  ]
+}

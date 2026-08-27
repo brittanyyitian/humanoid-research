@@ -1,0 +1,1677 @@
+{
+  "entityId": "taishan_petroleum",
+  "name": "泰山石油",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_taishan_petroleum_2026-08-27",
+    "entityId": "taishan_petroleum",
+    "name": "泰山石油",
+    "symbol": "000554.SZ",
+    "market": "SZSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "值得重点观察",
+    "actionReadiness": "STRONG_OBSERVE",
+    "confidence": "HIGH",
+    "reason": "当前不优先",
+    "price": 6.46,
+    "currency": "CNY",
+    "changePct": -1.07,
+    "technicalTimingScore": 65,
+    "marketPayoffScore": 61.16,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "订单是否兑现",
+      "90d": "收入是否兑现",
+      "180d": "复盘泰山石油值得继续观察，暂不追"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-23",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.83,
+      "currency": "CNY",
+      "changePct": 2.55,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": -5.124450951683743,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": -3.8337814168625624,
+          "maxDrawdownPct": -9.516837481698394,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-24",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": -5.42,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 0.30959752321982137,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": -2.7503796713431345,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-25",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": -5.42,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 0.30959752321982137,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": -2.5400298332028095,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-26",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": -5.42,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -0.7739938080495329,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": -0.06873065015479418,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-27",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.18,
+      "currency": "CNY",
+      "changePct": -4.33,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 5.825242718446607,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 7.6406154492306895,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-28",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.19,
+      "currency": "CNY",
+      "changePct": 0.16,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 5.492730210016152,
+          "poolReturnPct": 0,
+          "excessReturnPct": 5.492730210016152,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-29",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.34,
+      "currency": "CNY",
+      "changePct": 2.42,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 1.89274447949527,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": -0.3282438603159379,
+          "maxDrawdownPct": -4.566210045662111,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-30",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.45,
+      "currency": "CNY",
+      "changePct": 1.74,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-07-31",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.38,
+      "currency": "CNY",
+      "changePct": -1.09,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-01",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.38,
+      "currency": "CNY",
+      "changePct": -1.09,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-02",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.38,
+      "currency": "CNY",
+      "changePct": -1.09,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-03",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.49,
+      "currency": "CNY",
+      "changePct": 1.72,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-04",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.47,
+      "currency": "CNY",
+      "changePct": -0.31,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-05",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.44,
+      "currency": "CNY",
+      "changePct": -0.46,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-06",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:40+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.53,
+      "currency": "CNY",
+      "changePct": 1.4,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-07",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": 0.31,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-08",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": 0.31,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-09",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": 0.31,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-10",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.56,
+      "currency": "CNY",
+      "changePct": 1.55,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-11",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.57,
+      "currency": "CNY",
+      "changePct": 0.15,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-12",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.47,
+      "currency": "CNY",
+      "changePct": -1.52,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-13",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.28,
+      "currency": "CNY",
+      "changePct": -2.94,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-14",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.27,
+      "currency": "CNY",
+      "changePct": -0.16,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-15",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.27,
+      "currency": "CNY",
+      "changePct": -0.16,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-16",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.27,
+      "currency": "CNY",
+      "changePct": -0.16,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-17",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.41,
+      "currency": "CNY",
+      "changePct": 2.23,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-18",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.53,
+      "currency": "CNY",
+      "changePct": 1.87,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-19",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.39,
+      "currency": "CNY",
+      "changePct": -2.14,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-20",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.39,
+      "currency": "CNY",
+      "changePct": 0,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-21",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.48,
+      "currency": "CNY",
+      "changePct": 1.41,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-22",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.48,
+      "currency": "CNY",
+      "changePct": 1.41,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-23",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.48,
+      "currency": "CNY",
+      "changePct": 1.41,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-24",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.41,
+      "currency": "CNY",
+      "changePct": -1.08,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-25",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.54,
+      "currency": "CNY",
+      "changePct": 2.03,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-26",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.53,
+      "currency": "CNY",
+      "changePct": -0.15,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_taishan_petroleum_2026-08-27",
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "symbol": "000554.SZ",
+      "market": "SZSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.46,
+      "currency": "CNY",
+      "changePct": -1.07,
+      "technicalTimingScore": 65,
+      "marketPayoffScore": 61.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘泰山石油值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

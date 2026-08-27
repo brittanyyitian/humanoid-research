@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_03_static_cninfo_com_cn_8358f60c94",
+  "artifactType": "filing",
+  "title": "第六届董事会第十五次会议决议公告",
+  "publisher": "汇川技术",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-03/1225348523.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8358f60c94",
+  "fetchRunId": "fetch_2026_06_03_static_cninfo_com_cn_8358f60c94",
+  "publishedAt": "2026-06-03",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:8f567d4c6ca75092ade7aca0ed12406779983fd06f3b21468d044618fb9c7f85",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_03_static_cninfo_com_cn_8358f60c94.json",
+  "entityIds": [
+    "inovance"
+  ],
+  "claimIds": [
+    "claim_2026_06_03_filing_d20f5232f2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_17facb787d0dcb3c; listSourceId=src_cninfo_300124_announcements."
+}

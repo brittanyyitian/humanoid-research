@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_12_static_cninfo_com_cn_1da9da0ed7",
+  "artifactType": "filing",
+  "title": "关于向特定对象发行股票方案到期失效的公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225302164.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1da9da0ed7",
+  "fetchRunId": "fetch_2026_05_12_static_cninfo_com_cn_1da9da0ed7",
+  "publishedAt": "2026-05-12",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:b8953c48129b9e5540c09c7ba12499e67b61accf59878c63c82bea7fa7aa31ae",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_1da9da0ed7.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_b93146c19f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2c2678ff199aa1bf; listSourceId=src_cninfo_300354_announcements."
+}

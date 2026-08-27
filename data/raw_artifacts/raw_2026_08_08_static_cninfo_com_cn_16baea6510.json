@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_08_static_cninfo_com_cn_16baea6510",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会会议资料",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-08/1225464973.PDF",
+  "sourceId": "src_static_cninfo_com_cn_16baea6510",
+  "fetchRunId": "fetch_2026_08_08_static_cninfo_com_cn_16baea6510",
+  "publishedAt": "2026-08-08",
+  "firstSeenAt": "2026-08-08T16:15:49+08:00",
+  "capturedAt": "2026-08-08T16:15:49+08:00",
+  "contentHash": "sha256:e1fc1e3a9b5ae534aa9897e124e56e817b4a4e2261c52f42c17cfb65234e6d0f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_08_static_cninfo_com_cn_16baea6510.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_08_08_filing_8fa15337ce"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e251fbe28947896a; listSourceId=src_cninfo_688256_announcements."
+}

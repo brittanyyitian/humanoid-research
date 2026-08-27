@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_64c72fb085",
+  "artifactType": "filing",
+  "title": "关于董事会完成换届选举并聘任高级管理人员、证券事务代表、内部审计部门负责人的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225384432.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64c72fb085",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_64c72fb085",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:fbf1ef961fc742909d3df758c2fa5571bcb41379a62259464d3243be54b11003",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_64c72fb085.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_182b811ac8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ef815a029dbbeee6; listSourceId=src_cninfo_000554_announcements."
+}

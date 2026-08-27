@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_1f69079f71",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司2026年半年度业绩预增公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225416436.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1f69079f71",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_1f69079f71",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:3e486852b0a39918261947c471389fb40ebea62977b3d0a2934ef3b00a6842f0",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_1f69079f71.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_3604125804"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c163892f0d737fc8; listSourceId=src_cninfo_600664_announcements."
+}

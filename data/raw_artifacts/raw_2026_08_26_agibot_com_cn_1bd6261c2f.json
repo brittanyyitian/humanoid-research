@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_agibot_com_cn_1bd6261c2f",
+  "artifactType": "news_page",
+  "title": "金牌数、奖牌数双第一！智元“打工人”狂揽运动会8金5银6铜",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/183.html",
+  "sourceId": "src_agibot_com_cn_1bd6261c2f",
+  "fetchRunId": "fetch_2026_08_26_agibot_com_cn_1bd6261c2f",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:8bcb12f57079f6b556a484854ac27af3e374b5148f616968e298bf4692c9a363",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_agibot_com_cn_1bd6261c2f.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_other_2607e63156"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_16cca0dfb3bcb185; listSourceId=src_agibot_official_news."
+}

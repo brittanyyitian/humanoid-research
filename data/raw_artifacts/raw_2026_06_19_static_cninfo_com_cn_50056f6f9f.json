@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_19_static_cninfo_com_cn_50056f6f9f",
+  "artifactType": "filing",
+  "title": "沪硅产业关于子公司增资扩股暨关联交易的公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-19/1225379557.PDF",
+  "sourceId": "src_static_cninfo_com_cn_50056f6f9f",
+  "fetchRunId": "fetch_2026_06_19_static_cninfo_com_cn_50056f6f9f",
+  "publishedAt": "2026-06-19",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:d4f05b0a121ef2e79672325e937054f536bb58eaf07c05ad98683e90ef235605",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_19_static_cninfo_com_cn_50056f6f9f.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_06_19_filing_671fc9b628"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dd25f477ac396425; listSourceId=src_cninfo_688126_announcements."
+}

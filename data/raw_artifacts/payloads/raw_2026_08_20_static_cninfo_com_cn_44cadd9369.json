@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_44cadd9369",
+  "capturedAt": "2026-08-20T16:16:26+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225483219.PDF",
+    "title": "港股公告：董事会批准发布2026年中期业绩通知",
+    "publisher": "中芯国际",
+    "publishedAt": "2026-08-20",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "smic"
+    ],
+    "body": "香港交易及結算所有限公司及香港聯合交易所有限公司對本公告的內容概不負責，對其準確性或完整\n性亦不發表任何聲明，並明確表示，概不對因本公告全部或任何部份內容而產生或因倚賴該等內容而\n引致的任何損失承擔任何責任。 \nSEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION \n中 芯 國 際 集 成 電 路 製 造 有 限 公 司 * \n（於開曼群島註冊成立之有限公司） \n（股份代號：00981） \n董事會批准發佈2026年中期業績通知 \n根據香港聯合交易所有限公司證券上市規則第13.43條，中芯國際集成電路製造有限公司 （ 「本\n公司」）特此通知，本公司董事會謹訂於2026年8月27日（星期四）審議批准刊發本公司截至\n2026年6月30日止六個月未經審計中期業績公告。 \n承董事會命 \n中芯國際集成電路製造有限公司 \n公司秘書 / 董事會秘書 \n郭光莉 \n中國上海，2026 年 8 月 19 日 \n於本公告日期，本公司董事分別為： \n執行董事 \n劉訓峰 \n非執行董事 \n魯國慶 \n陳山枝 \n楊魯閩 \n黃登山 \n獨立非執行董事 \n范仁達 \n劉明 \n吳漢明 \n陳信元 \n* 僅供識別",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-08-20T16:16:26+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 336744,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

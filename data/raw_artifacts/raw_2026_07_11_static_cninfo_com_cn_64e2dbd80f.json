@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_64e2dbd80f",
+  "artifactType": "filing",
+  "title": "紫金矿业自然相关财务披露工作报告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419765.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64e2dbd80f",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_64e2dbd80f",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:e17d0969e6816a90ca8e55112308b6e2103e6528553e07e72f52aaac703e0623",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_64e2dbd80f.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_95aaddd91c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_92a0e53c630d988c; listSourceId=src_cninfo_601899_announcements."
+}

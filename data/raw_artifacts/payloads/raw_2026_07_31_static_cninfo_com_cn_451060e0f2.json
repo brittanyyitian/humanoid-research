@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_451060e0f2",
+  "capturedAt": "2026-07-31T16:18:13+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225448405.PDF",
+    "title": "中芯国际关于召开2026年第二季度业绩说明会的预告公告",
+    "publisher": "中芯国际",
+    "publishedAt": "2026-07-31",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "smic"
+    ],
+    "body": "1\nA股代码：688981 A股简称：中芯国际 公告编号：2026-031\n港股代码：00981 港股简称：中芯国际\n中芯国际集成电路制造有限公司\n关于召开2026年第二季度业绩说明会的预告公告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈\n述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。\n重要事项提示：\n 会议召开时间：2026年8月14日（星期五）上午8:30-9:30\n 会议召开方式：网络/电话会议\n一、 说明会类型\n中芯国际集成电路制造有限公司（以下简称“公司”）将于2026年8月13日\n交易时段后披露公司2026年第二季度业绩，相关内容请详见上海证券交易所网\n站（http://www.sse.com.cn/）及香港交易所网站（https://www.hkex.com.hk/）。\n为方便广大投资者更全面深入了解公司经营业绩的具体情况，公司拟于\n2026年8月14日举行“2026年第二季度业绩说明会”。\n二、 说明会召开的时间、地点\n说明会将于2026年8月14日（星期五）上午8:30-9:30通过网络/电话会议方\n式举行。\n三、 参加人员\n公司管理层\n四、 投资者参加方式\n2\n1、 网络参与方式：\n会议将在 https://edge.media-server.com/mmc/p/ew6dh658 做在线直播。\n2、 电话参与方式：\n请提前通过以下链接注册电话会议。\nhttps://register-conf.media-server.com/register/BI950a9abfd0184348823ef5ab16940245\n3、 网络回放：\n会议结束约1小时后，您可于以下网页重复收听会议录音（12个月内有效）。\nhttps://www.smics.com/site/company_financialSummary\n五、 联系部门及咨询办法\n联系部门：投资者关系\n联系电话：+86 21-20812800\n电子邮件：IR@smics.com\n特此公告。\n中芯国际集成电路制造有限公司\n董事会\n2026 年 7 月 31 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-31T16:18:13+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 127517,
+    "method": "pypdf",
+    "pageCount": 2,
+    "pagesRead": 2,
+    "truncated": false
+  }
+}

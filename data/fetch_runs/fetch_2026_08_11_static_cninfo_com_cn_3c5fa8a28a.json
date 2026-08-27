@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_11_static_cninfo_com_cn_3c5fa8a28a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "五洲新春",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-11T16:16:22+08:00",
+  "finishedAt": "2026-08-11T16:16:22+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_11_static_cninfo_com_cn_3c5fa8a28a"
+  ],
+  "claimIds": [
+    "claim_2026_08_11_filing_7b37be9d75"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-11/1225465618.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-11T16:16:22+08:00",
+      "finishedAt": "2026-08-11T16:16:22+08:00",
+      "contentHash": "sha256:d02bae80025f5888c3e60790cec3bf1e544df0fd66cb1b6a16d89143f2b0b82e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_11_static_cninfo_com_cn_3c5fa8a28a.json"
+    }
+  ]
+}

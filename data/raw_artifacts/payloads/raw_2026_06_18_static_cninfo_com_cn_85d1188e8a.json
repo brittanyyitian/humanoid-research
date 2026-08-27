@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_06_18_static_cninfo_com_cn_85d1188e8a",
+  "capturedAt": "2026-07-23T09:32:59+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-06-18/1225376766.PDF",
+    "title": "第八届董事会第五次会议决议公告",
+    "publisher": "中航光电",
+    "publishedAt": "2026-06-18",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "avic_jonhon"
+    ],
+    "body": "证券代码：002179 证券简称：中航光电 公告编号：2026-037号\n中航光电科技股份有限公司\n第八届董事会第五次会议决议公告\n本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚\n假记载、误导性陈述或重大遗漏。\n中航光电科技股份有限公司第八届董事会第五次会议于2026年6月17日以通\n讯方式召开。本次会议的通知及会议资料已于2026年6月12日以书面、电子邮件\n方式送达全体董事。会议应参加表决董事9人，实际参加表决董事9人。本次会议\n的通知、召开以及参会董事人数均符合相关法律法规、规则及《公司章程》的有\n关规定。本次会议由董事长李森主持，与会董事经认真审议和表决，以9票同意、\n0票反对、0票弃权审议通过了《关于调整公司第八届董事会部分专业委员会委员\n的议案》。新任委员的任期自董事会审议通过之日起至第八届董事会任期届满之\n日止。董事会专业委员会成员调整情况详见2026年6月18日披露在《中国证券报》\n《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于选举职工代表董事\n及调整董事会部分专业委员会委员的公告》。\n中航光电科技股份有限公司\n董 事 会\n二〇二六年六月十八日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:59+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 93785,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

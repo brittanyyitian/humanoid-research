@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_21_static_cninfo_com_cn_8e793f170c",
+  "artifactType": "filing",
+  "title": "北特科技关于向特定对象发行限售股上市流通的公告",
+  "publisher": "北特科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-21/1225431901.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8e793f170c",
+  "fetchRunId": "fetch_2026_07_21_static_cninfo_com_cn_8e793f170c",
+  "publishedAt": "2026-07-21",
+  "firstSeenAt": "2026-07-21T16:15:38+08:00",
+  "capturedAt": "2026-07-21T16:15:38+08:00",
+  "contentHash": "sha256:0de5c07f765b641a854c6c9d53f16329269e4947db8829f919fe443c0789ccbf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_21_static_cninfo_com_cn_8e793f170c.json",
+  "entityIds": [
+    "beite_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_21_filing_94be6d2a6b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0843bb904866c713; listSourceId=src_cninfo_603009_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_41f970336d",
+  "artifactType": "filing",
+  "title": "国泰海通证券股份有限公司关于中芯国际集成电路制造有限公司发行股份购买资产暨关联交易实施情况之独立财务顾问核查意见",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225386203.PDF",
+  "sourceId": "src_static_cninfo_com_cn_41f970336d",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_41f970336d",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:487c8734721e5abbba962e2073e5adc408dd6d5b0110c223a933c944d086de33",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_41f970336d.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_b3f175429b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b05218a5b65cc938; listSourceId=src_cninfo_688981_announcements."
+}

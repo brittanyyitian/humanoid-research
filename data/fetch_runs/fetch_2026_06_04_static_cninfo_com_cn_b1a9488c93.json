@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_04_static_cninfo_com_cn_b1a9488c93",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华虹公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_04_static_cninfo_com_cn_b1a9488c93"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_3b8055158f"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225350030.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:78a92b5ea6e1fb7e88b6db30a7a8ace508fcefe7eef6ad13461068a6473d18e8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_b1a9488c93.json"
+    }
+  ]
+}

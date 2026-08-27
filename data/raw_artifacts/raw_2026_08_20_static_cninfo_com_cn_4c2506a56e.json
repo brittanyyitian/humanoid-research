@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_4c2506a56e",
+  "artifactType": "filing",
+  "title": "关于使用部分募集资金向子公司提供借款以实施募投项目的公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225482918.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4c2506a56e",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_4c2506a56e",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:c4ca0ceaec16fbabc466a9246aba4e38a9d341d388516635d505733c2f755edc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_4c2506a56e.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_5f1b5be1a0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1fcf420defe0b98c; listSourceId=src_cninfo_688012_announcements."
+}

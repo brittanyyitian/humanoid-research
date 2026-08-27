@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_12_static_cninfo_com_cn_19dddf90e8",
+  "artifactType": "filing",
+  "title": "上海鸣志电器股份有限公司2025年年度权益分派实施公告",
+  "publisher": "鸣志电器",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-12/1225364907.PDF",
+  "sourceId": "src_static_cninfo_com_cn_19dddf90e8",
+  "fetchRunId": "fetch_2026_06_12_static_cninfo_com_cn_19dddf90e8",
+  "publishedAt": "2026-06-12",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:cf5bd51fe0c014423ac25f1078416e1e68d431cbbd58413aac48d2dde704a97d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_12_static_cninfo_com_cn_19dddf90e8.json",
+  "entityIds": [
+    "moons"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_6e7f735556"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6ed1f4cf22e16cf6; listSourceId=src_cninfo_603728_announcements."
+}

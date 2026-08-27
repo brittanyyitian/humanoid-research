@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_02_static_cninfo_com_cn_a0e01e1090",
+  "artifactType": "filing",
+  "title": "澜起横琴公司2025年审计报告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225344089.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a0e01e1090",
+  "fetchRunId": "fetch_2026_06_02_static_cninfo_com_cn_a0e01e1090",
+  "publishedAt": "2026-06-02",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:bd143a0635c9330cd0e755d3dadeda8be40ba763eaf40848e3e1879740b1f785",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_a0e01e1090.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_0275b49247"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fa3002e3b2bccb80; listSourceId=src_cninfo_688008_announcements."
+}

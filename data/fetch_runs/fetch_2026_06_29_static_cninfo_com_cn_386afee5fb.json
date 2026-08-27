@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_29_static_cninfo_com_cn_386afee5fb",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "通源石油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_29_static_cninfo_com_cn_386afee5fb"
+  ],
+  "claimIds": [
+    "claim_2026_06_29_filing_41ecf18a96"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-29/1225396538.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:4ae5de1ba5f48cc067769d3e52b7272be2d69ff39d0741576b9ddf87357d5229",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_29_static_cninfo_com_cn_386afee5fb.json"
+    }
+  ]
+}

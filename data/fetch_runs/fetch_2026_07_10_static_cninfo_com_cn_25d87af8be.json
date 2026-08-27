@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_10_static_cninfo_com_cn_25d87af8be",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "绿的谐波",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:23+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_10_static_cninfo_com_cn_25d87af8be"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_1dc23f8cf6"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225418045.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:42084142286b0e8be19d961e9d4c24eb77756d35e8a135781079bc179f88fada",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_25d87af8be.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:23+08:00",
+      "finishedAt": "2026-07-15T11:30:23+08:00",
+      "contentHash": "sha256:b918512d906811f5eed905bae5dfb6198fa366f3af7a50d4aea4f32002a42317",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_25d87af8be.json"
+    }
+  ]
+}

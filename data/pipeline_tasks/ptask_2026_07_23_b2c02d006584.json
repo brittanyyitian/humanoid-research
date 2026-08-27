@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_b2c02d006584",
+  "rawArtifactId": "raw_2026_07_03_static_cninfo_com_cn_c0d166e13f",
+  "routeDecisionId": "route_2026_07_03_9c03c99041dd",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "hengrui",
+  "entityIds": [
+    "hengrui"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:54+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:54+08:00",
+  "finishedAt": "2026-07-23T09:50:54+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_03_filing_ccd1fd9ef5"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_03_filing_ccd1fd9ef5"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_03_filing_material_v0_4a8e7608b5"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_49adfaa4d115"
+  ]
+}

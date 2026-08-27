@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_13_static_cninfo_com_cn_c9564c0a17",
+  "artifactType": "filing",
+  "title": "关于举行2025年度暨2026年第一季度业绩说明会的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-13/1225302940.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c9564c0a17",
+  "fetchRunId": "fetch_2026_05_13_static_cninfo_com_cn_c9564c0a17",
+  "publishedAt": "2026-05-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:839dddb7885f7304840950206c5486ed0fd0faf77773b81bf71047c072c4c7e4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_13_static_cninfo_com_cn_c9564c0a17.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_05_13_filing_8a1d225194"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_45f6531d3a682003; listSourceId=src_cninfo_301269_announcements."
+}

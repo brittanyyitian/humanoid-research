@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_02_static_cninfo_com_cn_d46c246500",
+  "artifactType": "filing",
+  "title": "公司最近一年的财务报告及其审计报告以及最近一期的财务报告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225341763.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d46c246500",
+  "fetchRunId": "fetch_2026_06_02_static_cninfo_com_cn_d46c246500",
+  "publishedAt": "2026-06-02",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c4a20095ba761c3127d6817ead474248136742327361e0845fd6434e1dc46702",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_d46c246500.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_12f7b03137"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_54b24dc5706d11ac; listSourceId=src_cninfo_002156_announcements."
+}

@@ -1,0 +1,1300 @@
+{
+  "id": "saout_huada_jiutian_ca35f7cd7463",
+  "entityId": "huada_jiutian",
+  "name": "华大九天",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "301269.SZ",
+    "symbol": "301269.SZ"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/data/301269/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/ai_research/301269.SZ/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/ai_research/301269.SZ/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "华大九天 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "华大九天的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查华大九天的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘华大九天值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "芯片设计工具",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "301269.SZ",
+      "name": "华大九天",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 96.62,
+        "previousClose": 94.30021471793872,
+        "changePct": 2.459999999999997,
+        "high": 98.6,
+        "low": 94.75,
+        "open": 97.8,
+        "volume": 52526,
+        "turnover": 504390372.19,
+        "turnoverText": "6.03亿",
+        "currency": "CNY",
+        "asOf": "20260827161424",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.34,
+        "technicalTimingScore": 26.6,
+        "marketPayoffScore": 61.12,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 72,
+        "evidenceScore": 96,
+        "valuationScore": 24,
+        "timingScore": 26.6,
+        "riskScore": 57,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 51.13,
+          "fundamentalScore": 76.95,
+          "companyScore": 72,
+          "evidenceScore": 96,
+          "valuationScore": 24,
+          "timingScore": 26.6,
+          "riskScore": 57,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 850.492,
+            "ps": 39.1448,
+            "revenueGrowth": 0.0965,
+            "profitGrowth": -8.5154,
+            "cashConversion": 2.3532,
+            "debtRatio": 0.1398,
+            "return20": -0.0011
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收13.25亿元，同比+8.4%；归母净利润6098.35万元，同比-44.3%。2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。",
+          "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。",
+          "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+          "2026-08-26复权收盘94.3元，低于20日平均成本95.65元；60日平均成本100.05元，近20个交易日涨跌-0.11%。"
+        ],
+        "possible": [
+          "华大九天当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "华大九天当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "华大九天当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.12,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.34/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 26.6,
+        "dailyBuyPointScore": 0.55,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 93.52,
+            "volume": 21623,
+            "average20": 98.139,
+            "average60": 105.026
+          },
+          {
+            "date": "2026-03-16",
+            "close": 94.83,
+            "volume": 29740,
+            "average20": 98.025,
+            "average60": 104.824
+          },
+          {
+            "date": "2026-03-17",
+            "close": 89.8,
+            "volume": 83049,
+            "average20": 97.573,
+            "average60": 104.575
+          },
+          {
+            "date": "2026-03-18",
+            "close": 90.34,
+            "volume": 35030,
+            "average20": 97.124,
+            "average60": 104.311
+          },
+          {
+            "date": "2026-03-19",
+            "close": 87.89,
+            "volume": 42893,
+            "average20": 96.519,
+            "average60": 104.043
+          },
+          {
+            "date": "2026-03-20",
+            "close": 85.85,
+            "volume": 36850,
+            "average20": 95.704,
+            "average60": 103.763
+          },
+          {
+            "date": "2026-03-23",
+            "close": 81.07,
+            "volume": 55126,
+            "average20": 94.484,
+            "average60": 103.385
+          },
+          {
+            "date": "2026-03-24",
+            "close": 82.18,
+            "volume": 39092,
+            "average20": 93.47,
+            "average60": 103.038
+          },
+          {
+            "date": "2026-03-25",
+            "close": 83.87,
+            "volume": 32712,
+            "average20": 92.561,
+            "average60": 102.717
+          },
+          {
+            "date": "2026-03-26",
+            "close": 82.28,
+            "volume": 24415,
+            "average20": 91.616,
+            "average60": 102.315
+          },
+          {
+            "date": "2026-03-27",
+            "close": 83.07,
+            "volume": 25649,
+            "average20": 90.728,
+            "average60": 101.929
+          },
+          {
+            "date": "2026-03-30",
+            "close": 82.2,
+            "volume": 24012,
+            "average20": 89.891,
+            "average60": 101.5
+          },
+          {
+            "date": "2026-03-31",
+            "close": 80.97,
+            "volume": 25093,
+            "average20": 89.246,
+            "average60": 101.051
+          },
+          {
+            "date": "2026-04-01",
+            "close": 82.99,
+            "volume": 27990,
+            "average20": 88.721,
+            "average60": 100.605
+          },
+          {
+            "date": "2026-04-02",
+            "close": 81,
+            "volume": 26509,
+            "average20": 88.029,
+            "average60": 100.167
+          },
+          {
+            "date": "2026-04-03",
+            "close": 82.15,
+            "volume": 40226,
+            "average20": 87.366,
+            "average60": 99.751
+          },
+          {
+            "date": "2026-04-07",
+            "close": 82.02,
+            "volume": 31661,
+            "average20": 86.692,
+            "average60": 99.348
+          },
+          {
+            "date": "2026-04-08",
+            "close": 85.33,
+            "volume": 58582,
+            "average20": 86.097,
+            "average60": 98.95
+          },
+          {
+            "date": "2026-04-09",
+            "close": 84.05,
+            "volume": 34793,
+            "average20": 85.508,
+            "average60": 98.497
+          },
+          {
+            "date": "2026-04-10",
+            "close": 84.36,
+            "volume": 43706,
+            "average20": 84.989,
+            "average60": 98.039
+          },
+          {
+            "date": "2026-04-13",
+            "close": 84.24,
+            "volume": 37624,
+            "average20": 84.525,
+            "average60": 97.561
+          },
+          {
+            "date": "2026-04-14",
+            "close": 86.21,
+            "volume": 52667,
+            "average20": 84.093,
+            "average60": 97.106
+          },
+          {
+            "date": "2026-04-15",
+            "close": 85.1,
+            "volume": 45735,
+            "average20": 83.858,
+            "average60": 96.603
+          },
+          {
+            "date": "2026-04-16",
+            "close": 84.97,
+            "volume": 38548,
+            "average20": 83.59,
+            "average60": 96.131
+          },
+          {
+            "date": "2026-04-17",
+            "close": 85.7,
+            "volume": 47373,
+            "average20": 83.48,
+            "average60": 95.613
+          },
+          {
+            "date": "2026-04-20",
+            "close": 87.55,
+            "volume": 69022,
+            "average20": 83.566,
+            "average60": 95.145
+          },
+          {
+            "date": "2026-04-21",
+            "close": 85.35,
+            "volume": 46375,
+            "average20": 83.779,
+            "average60": 94.61
+          },
+          {
+            "date": "2026-04-22",
+            "close": 87.05,
+            "volume": 46312,
+            "average20": 84.023,
+            "average60": 94.146
+          },
+          {
+            "date": "2026-04-23",
+            "close": 86.63,
+            "volume": 51244,
+            "average20": 84.161,
+            "average60": 93.7
+          },
+          {
+            "date": "2026-04-24",
+            "close": 87,
+            "volume": 50646,
+            "average20": 84.397,
+            "average60": 93.196
+          },
+          {
+            "date": "2026-04-27",
+            "close": 92.62,
+            "volume": 126069,
+            "average20": 84.874,
+            "average60": 92.815
+          },
+          {
+            "date": "2026-04-28",
+            "close": 82.45,
+            "volume": 163288,
+            "average20": 84.887,
+            "average60": 92.264
+          },
+          {
+            "date": "2026-04-29",
+            "close": 84.5,
+            "volume": 97266,
+            "average20": 85.063,
+            "average60": 91.817
+          },
+          {
+            "date": "2026-04-30",
+            "close": 88.67,
+            "volume": 143005,
+            "average20": 85.347,
+            "average60": 91.445
+          },
+          {
+            "date": "2026-05-06",
+            "close": 90.07,
+            "volume": 114390,
+            "average20": 85.801,
+            "average60": 91.14
+          },
+          {
+            "date": "2026-05-07",
+            "close": 92.38,
+            "volume": 92787,
+            "average20": 86.313,
+            "average60": 90.931
+          },
+          {
+            "date": "2026-05-08",
+            "close": 92.05,
+            "volume": 83592,
+            "average20": 86.814,
+            "average60": 90.749
+          },
+          {
+            "date": "2026-05-11",
+            "close": 94.27,
+            "volume": 114338,
+            "average20": 87.261,
+            "average60": 90.685
+          },
+          {
+            "date": "2026-05-12",
+            "close": 95.65,
+            "volume": 121402,
+            "average20": 87.841,
+            "average60": 90.622
+          },
+          {
+            "date": "2026-05-13",
+            "close": 95.82,
+            "volume": 92760,
+            "average20": 88.414,
+            "average60": 90.588
+          },
+          {
+            "date": "2026-05-14",
+            "close": 94.12,
+            "volume": 107682,
+            "average20": 88.908,
+            "average60": 90.524
+          },
+          {
+            "date": "2026-05-15",
+            "close": 95.52,
+            "volume": 111454,
+            "average20": 89.373,
+            "average60": 90.497
+          },
+          {
+            "date": "2026-05-18",
+            "close": 94.39,
+            "volume": 78642,
+            "average20": 89.838,
+            "average60": 90.423
+          },
+          {
+            "date": "2026-05-19",
+            "close": 94.93,
+            "volume": 82546,
+            "average20": 90.336,
+            "average60": 90.35
+          },
+          {
+            "date": "2026-05-20",
+            "close": 103.24,
+            "volume": 183510,
+            "average20": 91.213,
+            "average60": 90.404
+          },
+          {
+            "date": "2026-05-21",
+            "close": 97.07,
+            "volume": 198180,
+            "average20": 91.689,
+            "average60": 90.32
+          },
+          {
+            "date": "2026-05-22",
+            "close": 108.54,
+            "volume": 279314,
+            "average20": 92.848,
+            "average60": 90.371
+          },
+          {
+            "date": "2026-05-25",
+            "close": 124.89,
+            "volume": 518198,
+            "average20": 94.741,
+            "average60": 90.745
+          },
+          {
+            "date": "2026-05-26",
+            "close": 134.85,
+            "volume": 657484,
+            "average20": 97.151,
+            "average60": 91.291
+          },
+          {
+            "date": "2026-05-27",
+            "close": 127.27,
+            "volume": 399483,
+            "average20": 99.165,
+            "average60": 91.726
+          },
+          {
+            "date": "2026-05-28",
+            "close": 128.43,
+            "volume": 324536,
+            "average20": 100.956,
+            "average60": 92.186
+          },
+          {
+            "date": "2026-05-29",
+            "close": 114.35,
+            "volume": 327292,
+            "average20": 102.551,
+            "average60": 92.443
+          },
+          {
+            "date": "2026-06-01",
+            "close": 105.75,
+            "volume": 220752,
+            "average20": 103.613,
+            "average60": 92.641
+          },
+          {
+            "date": "2026-06-02",
+            "close": 105.3,
+            "volume": 201801,
+            "average20": 104.444,
+            "average60": 92.838
+          },
+          {
+            "date": "2026-06-03",
+            "close": 105.83,
+            "volume": 213627,
+            "average20": 105.232,
+            "average60": 93.021
+          },
+          {
+            "date": "2026-06-04",
+            "close": 103.63,
+            "volume": 179238,
+            "average20": 105.795,
+            "average60": 93.158
+          },
+          {
+            "date": "2026-06-05",
+            "close": 98.73,
+            "volume": 208231,
+            "average20": 106.129,
+            "average60": 93.212
+          },
+          {
+            "date": "2026-06-08",
+            "close": 95.15,
+            "volume": 152627,
+            "average20": 106.173,
+            "average60": 93.177
+          },
+          {
+            "date": "2026-06-09",
+            "close": 99.5,
+            "volume": 163557,
+            "average20": 106.365,
+            "average60": 93.238
+          },
+          {
+            "date": "2026-06-10",
+            "close": 96.87,
+            "volume": 114967,
+            "average20": 106.418,
+            "average60": 93.274
+          },
+          {
+            "date": "2026-06-11",
+            "close": 96.45,
+            "volume": 106845,
+            "average20": 106.534,
+            "average60": 93.322
+          },
+          {
+            "date": "2026-06-12",
+            "close": 94.57,
+            "volume": 146189,
+            "average20": 106.487,
+            "average60": 93.318
+          },
+          {
+            "date": "2026-06-15",
+            "close": 101.65,
+            "volume": 159210,
+            "average20": 106.85,
+            "average60": 93.515
+          },
+          {
+            "date": "2026-06-16",
+            "close": 99.61,
+            "volume": 131228,
+            "average20": 107.084,
+            "average60": 93.67
+          },
+          {
+            "date": "2026-06-17",
+            "close": 105.01,
+            "volume": 175178,
+            "average20": 107.172,
+            "average60": 93.955
+          },
+          {
+            "date": "2026-06-18",
+            "close": 104,
+            "volume": 133629,
+            "average20": 107.519,
+            "average60": 94.258
+          },
+          {
+            "date": "2026-06-22",
+            "close": 101.71,
+            "volume": 157938,
+            "average20": 107.178,
+            "average60": 94.602
+          },
+          {
+            "date": "2026-06-23",
+            "close": 101.3,
+            "volume": 127859,
+            "average20": 105.998,
+            "average60": 94.92
+          },
+          {
+            "date": "2026-06-24",
+            "close": 107.85,
+            "volume": 201968,
+            "average20": 104.648,
+            "average60": 95.32
+          },
+          {
+            "date": "2026-06-25",
+            "close": 110.1,
+            "volume": 202445,
+            "average20": 103.79,
+            "average60": 95.784
+          },
+          {
+            "date": "2026-06-26",
+            "close": 113.76,
+            "volume": 255556,
+            "average20": 103.056,
+            "average60": 96.295
+          },
+          {
+            "date": "2026-06-29",
+            "close": 114.26,
+            "volume": 241573,
+            "average20": 103.051,
+            "average60": 96.83
+          },
+          {
+            "date": "2026-06-30",
+            "close": 119.42,
+            "volume": 236615,
+            "average20": 103.735,
+            "average60": 97.47
+          },
+          {
+            "date": "2026-07-01",
+            "close": 118.78,
+            "volume": 240146,
+            "average20": 104.409,
+            "average60": 98.067
+          },
+          {
+            "date": "2026-07-02",
+            "close": 108.1,
+            "volume": 186142,
+            "average20": 104.522,
+            "average60": 98.519
+          },
+          {
+            "date": "2026-07-03",
+            "close": 102.77,
+            "volume": 177103,
+            "average20": 104.479,
+            "average60": 98.862
+          },
+          {
+            "date": "2026-07-06",
+            "close": 117.21,
+            "volume": 336858,
+            "average20": 105.403,
+            "average60": 99.449
+          },
+          {
+            "date": "2026-07-07",
+            "close": 119.39,
+            "volume": 235441,
+            "average20": 106.615,
+            "average60": 100.017
+          },
+          {
+            "date": "2026-07-08",
+            "close": 117.18,
+            "volume": 233682,
+            "average20": 107.499,
+            "average60": 100.569
+          },
+          {
+            "date": "2026-07-09",
+            "close": 123.41,
+            "volume": 305718,
+            "average20": 108.826,
+            "average60": 101.22
+          },
+          {
+            "date": "2026-07-10",
+            "close": 112.4,
+            "volume": 283606,
+            "average20": 109.624,
+            "average60": 101.689
+          },
+          {
+            "date": "2026-07-13",
+            "close": 119.83,
+            "volume": 286200,
+            "average20": 110.887,
+            "average60": 102.249
+          },
+          {
+            "date": "2026-07-14",
+            "close": 116.79,
+            "volume": 201038,
+            "average20": 111.644,
+            "average60": 102.777
+          },
+          {
+            "date": "2026-07-15",
+            "close": 110.13,
+            "volume": 162590,
+            "average20": 112.17,
+            "average60": 103.197
+          },
+          {
+            "date": "2026-07-16",
+            "close": 106.21,
+            "volume": 135407,
+            "average20": 112.23,
+            "average60": 103.539
+          },
+          {
+            "date": "2026-07-17",
+            "close": 97.5,
+            "volume": 154466,
+            "average20": 111.905,
+            "average60": 103.704
+          },
+          {
+            "date": "2026-07-20",
+            "close": 93.72,
+            "volume": 154432,
+            "average20": 111.506,
+            "average60": 103.844
+          },
+          {
+            "date": "2026-07-21",
+            "close": 99.89,
+            "volume": 139164,
+            "average20": 111.435,
+            "average60": 104.058
+          },
+          {
+            "date": "2026-07-22",
+            "close": 98.13,
+            "volume": 110393,
+            "average20": 110.949,
+            "average60": 104.25
+          },
+          {
+            "date": "2026-07-23",
+            "close": 95.05,
+            "volume": 52526,
+            "average20": 110.197,
+            "average60": 104.384
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 110.2 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 90.97，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 96.62,
+            "recentAverage": 110.197,
+            "longerAverage": 104.384,
+            "recentHigh": 127.96,
+            "recentLow": 90.97
+          }
+        }
+      },
+      "risk": [
+        "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+        "若下一期现金流明显落后于利润，华大九天的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查华大九天的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘华大九天值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。",
+            "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。"
+          ]
+        },
+        "upside": {
+          "summary": "华大九天的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "华大九天的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本100.05元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。继续恶化，或价格跌破60日平均成本100.05元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "华大九天的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收13.25亿元，同比+8.4%；归母净利润6098.35万元，同比-44.3%。2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。",
+            "reason": "华大九天当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225219213.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。",
+            "reason": "华大九天当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225217315.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225217315.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘94.3元，低于20日平均成本95.65元；60日平均成本100.05元，近20个交易日涨跌-0.11%。",
+            "reason": "华大九天当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收13.25亿元，同比+8.4%；归母净利润6098.35万元，同比-44.3%。2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。",
+          "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。",
+          "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查华大九天的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘华大九天值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收13.25亿元，同比+8.4%；归母净利润6098.35万元，同比-44.3%。2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。"
+      },
+      {
+        "label": "已确认",
+        "text": "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘94.3元，低于20日平均成本95.65元；60日平均成本100.05元，近20个交易日涨跌-0.11%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "华大九天当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "华大九天当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "华大九天当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，华大九天的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "status": "open"
+      },
+      {
+        "question": "华大九天的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "301269.SZ",
+      "research_status": "COMPLETED",
+      "score": 96.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "301269.SZ",
+      "company": "华大九天",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.39,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 61.12,
+      "technical_timing_score": 26.6,
+      "data_readiness_score": 100,
+      "action_readiness_score": 58.97,
+      "candidate_priority_score": 55.34,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 61.12,
+          "average_rating": 3.06,
+          "details": {
+            "valuation_discount": 2.5,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 2.05,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 26.6,
+          "average_rating": 1.33,
+          "details": {
+            "monthly_trend": 2.3,
+            "weekly_structure": 0.8,
+            "daily_buy_point": 0.55,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1.8
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "芯片设计工具处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -13.7%，近60日涨跌 9.3%；客户或订单证据 0 条直接、2 条线索。",
+          "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+        "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+        "行业景气回落，价格或库存变化削弱原来的增长判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 51.13,
+      "fundamentalScore": 76.95,
+      "companyScore": 72,
+      "evidenceScore": 96,
+      "valuationScore": 24,
+      "timingScore": 26.6,
+      "riskScore": 57,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 850.492,
+        "ps": 39.1448,
+        "revenueGrowth": 0.0965,
+        "profitGrowth": -8.5154,
+        "cashConversion": 2.3532,
+        "debtRatio": 0.1398,
+        "return20": -0.0011
+      }
+    },
+    "overlay": {
+      "symbol": "301269.SZ",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "芯片设计工具",
+      "bottleneck_reason": "半导体景气必须经过产品、客户验证和产能利用，再进入收入和现金流；本次最关键的公司原文是：2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。",
+      "revenue_transmission": "这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.56,
+      "layer_score": 64,
+      "company_fit": 63,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收13.25亿元，同比+8.4%；归母净利润6098.35万元，同比-44.3%。2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。2026-08-26复权收盘94.3元，低于20日平均成本95.65元；60日平均成本100.05元，近20个交易日涨跌-0.11%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+        "若下一期现金流明显落后于利润，华大九天的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "华大九天的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收2.57亿元，较可比期+9.65%；归母净利润-7300.39万元，较可比期-851.54%；经营现金流-1.72亿元。",
+          "2025 年，公司实现营业收入 132,497.66万元，同比增长8.40%，市场份额居本土EDA企业首位。"
+        ]
+      },
+      "upside": {
+        "summary": "华大九天的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "核心产品、客户验证、产量、产能利用率或分部收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "华大九天的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本100.05元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若2、技术人员流失或不足的风险 作为典型的技术驱动型行业，EDA 行业对于专业人才尤其是研发人员的依赖程度较高，专业技术人 员是公司生存和发展的重要基石。继续恶化，或价格跌破60日平均成本100.05元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本95.65元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

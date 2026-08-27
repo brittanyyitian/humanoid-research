@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_abcd136b9f",
+  "artifactType": "filing",
+  "title": "关于向香港联交所递交境外上市股份（H 股） 发行与上市申请并刊发申请资料的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329977.PDF",
+  "sourceId": "src_static_cninfo_com_cn_abcd136b9f",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_abcd136b9f",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:15a485361ce3bcdfbc25c7468f155a1290a6bbb95b10b8529fa9f7091fb8e5ef",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_abcd136b9f.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_33fcba8913"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8aa038ed2fcce0be; listSourceId=src_cninfo_000426_announcements."
+}

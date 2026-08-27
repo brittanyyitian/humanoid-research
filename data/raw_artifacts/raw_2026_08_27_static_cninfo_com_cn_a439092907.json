@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_a439092907",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2026年第四次董事会决议公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513018.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a439092907",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_a439092907",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:a8e8d914ab0206f06ee41e8d53795aafc8bcc0354db83f555906632b8a0e4a40",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_a439092907.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_d5dd22c1ae"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7a100e2d45ef9b5d; listSourceId=src_cninfo_600938_announcements."
+}

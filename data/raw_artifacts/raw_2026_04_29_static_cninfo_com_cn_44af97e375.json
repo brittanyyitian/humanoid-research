@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_44af97e375",
+  "artifactType": "filing",
+  "title": "大唐发电2026年第一季度报告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225232982.PDF",
+  "sourceId": "src_static_cninfo_com_cn_44af97e375",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_44af97e375",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:c8da7a4ea56c9bee240267c8cc40fa0f7bf5a5ea9d1626bf34de97581883cf53",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_44af97e375.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_a6021f62fe"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3f3cc4915cb13002; listSourceId=src_cninfo_601991_announcements."
+}

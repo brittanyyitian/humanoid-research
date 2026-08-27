@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-03",
-  "generatedAt": "2026-07-04T12:17:01.593Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
   "policy": "只标记缺口，不自动补正式事件；正式库仍要求事实、日期、来源链接和证据等级。",
   "rows": [
     {
@@ -10,6 +10,19 @@
       "listed": true,
       "stockCode": "002747",
       "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "anji_microelectronics",
+      "name": "安集科技",
+      "segment": "制造材料",
+      "listed": true,
+      "stockCode": "688019",
+      "market": "SSE",
       "gapCount": 2,
       "gaps": [
         "缺正式事件",
@@ -36,6 +49,32 @@
       "listed": true,
       "stockCode": "688322",
       "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "beone",
+      "name": "百济神州",
+      "segment": "创新药研发与全球销售",
+      "listed": true,
+      "stockCode": "688235",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "naura",
+      "name": "北方华创",
+      "segment": "制造设备",
+      "listed": true,
+      "stockCode": "002371",
+      "market": "SZSE",
       "gapCount": 2,
       "gaps": [
         "缺正式事件",
@@ -82,12 +121,103 @@
       ]
     },
     {
+      "entityId": "datang_power",
+      "name": "大唐发电",
+      "segment": "火电与新能源",
+      "listed": true,
+      "stockCode": "601991",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "donghua_testing",
       "name": "东华测试",
       "segment": "力传感器",
       "listed": true,
       "stockCode": "300354",
       "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "segment": "芯片设计工具",
+      "listed": true,
+      "stockCode": "688206",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "segment": "油品贸易与仓储",
+      "listed": true,
+      "stockCode": "000159",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "sdic_power",
+      "name": "国投电力",
+      "segment": "水电与新能源",
+      "listed": true,
+      "stockCode": "600886",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "harbin_pharma",
+      "name": "哈药股份",
+      "segment": "医药制造与销售",
+      "listed": true,
+      "stockCode": "600664",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "hainan_haiyao",
+      "name": "海南海药",
+      "segment": "药品研发与制造",
+      "listed": true,
+      "stockCode": "000566",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "cambricon",
+      "name": "寒武纪",
+      "segment": "芯片设计",
+      "listed": true,
+      "stockCode": "688256",
+      "market": "SSE",
       "gapCount": 2,
       "gaps": [
         "缺正式事件",
@@ -108,11 +238,76 @@
       ]
     },
     {
+      "entityId": "rainbow_uav",
+      "name": "航天彩虹",
+      "segment": "无人机整机与系统",
+      "listed": true,
+      "stockCode": "002389",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "hechuan_technology",
       "name": "禾川科技",
       "segment": "电机",
       "listed": true,
       "stockCode": "688320",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "segment": "创新药研发与销售",
+      "listed": true,
+      "stockCode": "600276",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "national_silicon",
+      "name": "沪硅产业",
+      "segment": "制造材料",
+      "listed": true,
+      "stockCode": "688126",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "huada_jiutian",
+      "name": "华大九天",
+      "segment": "芯片设计工具",
+      "listed": true,
+      "stockCode": "301269",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "huahong_semiconductor",
+      "name": "华虹公司",
+      "segment": "晶圆制造",
+      "listed": true,
+      "stockCode": "688347",
       "market": "SSE",
       "gapCount": 2,
       "gaps": [
@@ -160,6 +355,19 @@
       ]
     },
     {
+      "entityId": "jereh",
+      "name": "杰瑞股份",
+      "segment": "油气设备与服务",
+      "listed": true,
+      "stockCode": "002353",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "piotech",
       "name": "均普智能",
       "segment": "智能制造装备",
@@ -178,6 +386,19 @@
       "segment": "力传感器",
       "listed": true,
       "stockCode": "603662",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "segment": "芯片设计",
+      "listed": true,
+      "stockCode": "688008",
       "market": "SSE",
       "gapCount": 2,
       "gaps": [
@@ -238,6 +459,32 @@
       ]
     },
     {
+      "entityId": "three_gorges_water",
+      "name": "三峡水利",
+      "segment": "区域电网与水电",
+      "listed": true,
+      "stockCode": "600116",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "segment": "黄金开采",
+      "listed": true,
+      "stockCode": "600547",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "shuanghuan_driveline",
       "name": "双环传动",
       "segment": "减速器",
@@ -277,12 +524,77 @@
       ]
     },
     {
+      "entityId": "taiji_industry",
+      "name": "太极实业",
+      "segment": "晶圆制造服务与工程",
+      "listed": true,
+      "stockCode": "600667",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "segment": "成品油零售",
+      "listed": true,
+      "stockCode": "000554",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "tongfu_microelectronics",
+      "name": "通富微电",
+      "segment": "封装测试",
+      "listed": true,
+      "stockCode": "002156",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "tongyuan_petroleum",
+      "name": "通源石油",
+      "segment": "油田服务",
+      "listed": true,
+      "stockCode": "300164",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "wuzhou_xinchun",
       "name": "五洲新春",
       "segment": "丝杠",
       "listed": true,
       "stockCode": "603667",
       "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "xingye_silver",
+      "name": "兴业银锡",
+      "segment": "白银与多金属",
+      "listed": true,
+      "stockCode": "000426",
+      "market": "SZSE",
       "gapCount": 2,
       "gaps": [
         "缺正式事件",
@@ -316,6 +628,32 @@
       ]
     },
     {
+      "entityId": "jcet",
+      "name": "长电科技",
+      "segment": "封装测试",
+      "listed": true,
+      "stockCode": "600584",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "cypc",
+      "name": "长江电力",
+      "segment": "大型水电",
+      "listed": true,
+      "stockCode": "600900",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
       "entityId": "zhaowei_machinery",
       "name": "兆威机电",
       "segment": "灵巧手 / 传动",
@@ -340,12 +678,103 @@
         "缺正式事件",
         "缺Follow-up"
       ]
+    },
+    {
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "segment": "油气开采",
+      "listed": true,
+      "stockCode": "600938",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "sinopec",
+      "name": "中国石化",
+      "segment": "炼化与销售",
+      "listed": true,
+      "stockCode": "600028",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "avic_jonhon",
+      "name": "中航光电",
+      "segment": "连接器与互连",
+      "listed": true,
+      "stockCode": "002179",
+      "market": "SZSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "amec",
+      "name": "中微公司",
+      "segment": "制造设备",
+      "listed": true,
+      "stockCode": "688012",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "avic_uav",
+      "name": "中无人机",
+      "segment": "大型无人机整机",
+      "listed": true,
+      "stockCode": "688297",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "smic",
+      "name": "中芯国际",
+      "segment": "晶圆制造",
+      "listed": true,
+      "stockCode": "688981",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
+    },
+    {
+      "entityId": "zijin_mining",
+      "name": "紫金矿业",
+      "segment": "金铜资源",
+      "listed": true,
+      "stockCode": "601899",
+      "market": "SSE",
+      "gapCount": 2,
+      "gaps": [
+        "缺正式事件",
+        "缺Follow-up"
+      ]
     }
   ],
   "totals": {
-    "companiesWithGaps": 26,
-    "missingEvents": 26,
-    "missingFollowups": 26,
+    "companiesWithGaps": 59,
+    "missingEvents": 59,
+    "missingFollowups": 59,
     "missingStocks": 0,
     "missingSources": 0
   }

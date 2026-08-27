@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_3269ce2ec4",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于召开2026年第三次临时股东会的通知",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225453772.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3269ce2ec4",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_3269ce2ec4",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:df973f5c8bd34ab74d95ac45eb01c797124184225330cc25af86b73a1a0261af",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_3269ce2ec4.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_ac1bd4e149"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_27e58d742ca3aa45; listSourceId=src_cninfo_600547_announcements."
+}

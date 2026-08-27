@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_03_29_static_cninfo_com_cn_a5ff19ce7b",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中航光电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T16:16:48+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b"
+  ],
+  "claimIds": [
+    "claim_2025_03_29_filing_d8f5d3c37c"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-03-29/1222943981.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:18a95dcb5fac3bbc72b54b0ee5b620fe34065c6e5b052584e541875f33c2d74e",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:48+08:00",
+      "finishedAt": "2026-07-23T16:16:48+08:00",
+      "contentHash": "sha256:09bcedce580ba08f1e6aa8044501012b17b83a21c7f974aca6a0dcf46709bc32",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_agibot_com_cn_709de84458",
+  "artifactType": "news_page",
+  "title": "全球第一，智元 WITA-Omni Preview登顶 DailyOmni 全模...",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/177.html",
+  "sourceId": "src_agibot_com_cn_709de84458",
+  "fetchRunId": "fetch_2026_07_29_agibot_com_cn_709de84458",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:9856f6cb6e7201238be70a912ef1bf7e5d76dd7bdb67ee774e1d62552595d069",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_agibot_com_cn_709de84458.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_other_b24cdbe0de"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_91f281f7639752ab; listSourceId=src_agibot_official_news."
+}

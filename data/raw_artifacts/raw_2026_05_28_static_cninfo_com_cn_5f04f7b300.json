@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_5f04f7b300",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司内部控制管理制度（2026年制定）",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225333648.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5f04f7b300",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_5f04f7b300",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ab44c63f431abff782f0679af403e6764885b5984ba0bba3928494486cb6c2cc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_5f04f7b300.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_5ec6536e89"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ceca54e13c4c1b0f; listSourceId=src_cninfo_600116_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_12_static_cninfo_com_cn_b8a61ec704",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华依科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_12_static_cninfo_com_cn_b8a61ec704"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_10e8a12879"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225291652.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:2808f88b4796f2386fe242a5ff779f2948d0fb006dd50dac5ea4b3ebe60da298",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_b8a61ec704.json"
+    }
+  ]
+}

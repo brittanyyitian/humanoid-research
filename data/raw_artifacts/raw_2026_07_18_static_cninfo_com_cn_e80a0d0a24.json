@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_18_static_cninfo_com_cn_e80a0d0a24",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司2026年二季度主要经营数据公告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225429648.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e80a0d0a24",
+  "fetchRunId": "fetch_2026_07_18_static_cninfo_com_cn_e80a0d0a24",
+  "publishedAt": "2026-07-18",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:a8254fe3ab31bccfd4704e443240f4e560afd969bd42763a05aee812abaf3e27",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_e80a0d0a24.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_064c9832f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b90516b413613f2c; listSourceId=src_cninfo_600886_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_04_static_cninfo_com_cn_ff2e56a0a0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "双林股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_04_static_cninfo_com_cn_ff2e56a0a0"
+  ],
+  "claimIds": [
+    "claim_2026_07_04_filing_9951d8c807"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-04/1225407996.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:1571df797f511c1000231b8a28f2a3c925164a60d730397df590ed1ebf767632",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_ff2e56a0a0.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:25+08:00",
+      "finishedAt": "2026-07-15T11:30:25+08:00",
+      "contentHash": "sha256:1066cf9cedfbfd1532831cc971630f9c9e694053c042c7f1b72b8fe5a813b9f1",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_ff2e56a0a0.json"
+    }
+  ]
+}

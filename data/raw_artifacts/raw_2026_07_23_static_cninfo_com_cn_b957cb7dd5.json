@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_23_static_cninfo_com_cn_b957cb7dd5",
+  "artifactType": "filing",
+  "title": "关于签署日常经营重大合同的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-23/1225436739.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b957cb7dd5",
+  "fetchRunId": "fetch_2026_07_23_static_cninfo_com_cn_b957cb7dd5",
+  "publishedAt": "2026-07-23",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ac5b244a5f8c67cbf9070e262580d41c5689ae43fe9400ca448c996ad960f699",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_23_static_cninfo_com_cn_b957cb7dd5.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_07_23_filing_ce0e12e7f1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4e4c66cf50a0d199; listSourceId=src_cninfo_002353_announcements."
+}

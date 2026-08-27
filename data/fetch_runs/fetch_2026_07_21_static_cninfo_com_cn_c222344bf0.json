@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_21_static_cninfo_com_cn_c222344bf0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "三花智控",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-21T16:15:38+08:00",
+  "finishedAt": "2026-07-21T16:15:38+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_21_static_cninfo_com_cn_c222344bf0"
+  ],
+  "claimIds": [
+    "claim_2026_07_21_filing_db3fddf548"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-21/1225433784.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-21T16:15:38+08:00",
+      "finishedAt": "2026-07-21T16:15:38+08:00",
+      "contentHash": "sha256:494bb746e78a8e3cf1b8db483e5e60223659e83237d0c067a3ad9b9ae857a873",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_21_static_cninfo_com_cn_c222344bf0.json"
+    }
+  ]
+}

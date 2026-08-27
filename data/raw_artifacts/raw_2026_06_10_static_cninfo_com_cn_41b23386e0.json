@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_41b23386e0",
+  "artifactType": "filing",
+  "title": "关于公司购买董高责任险的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225359849.PDF",
+  "sourceId": "src_static_cninfo_com_cn_41b23386e0",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_41b23386e0",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c17689b0061cec1b11f0b22c4366de5ea7283084a4e4e4aa2e1310d8bea91544",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_41b23386e0.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_707722cc91"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b3cee860f65ab852; listSourceId=src_cninfo_000426_announcements."
+}

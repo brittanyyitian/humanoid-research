@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_04_28_static_cninfo_com_cn_66bcd014f2",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华大九天",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:56:41+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_04_28_static_cninfo_com_cn_66bcd014f2"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_a9dcfcd462"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225217315.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:d37659c811e740924b1d48ca358873ecc3e76df31b817b372dde5a36dec7c994",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_66bcd014f2.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:56:41+08:00",
+      "finishedAt": "2026-07-23T09:56:41+08:00",
+      "contentHash": "sha256:4a82ad5e2e213443b779dabeafcf1562e0d3536d335ffda802dace8b1947f2bf",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_66bcd014f2.json"
+    }
+  ]
+}

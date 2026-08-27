@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_01_static_cninfo_com_cn_963fb8ad72",
+  "artifactType": "filing",
+  "title": "长江电力2025年年度股东会资料",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-01/1225271752.PDF",
+  "sourceId": "src_static_cninfo_com_cn_963fb8ad72",
+  "fetchRunId": "fetch_2026_05_01_static_cninfo_com_cn_963fb8ad72",
+  "publishedAt": "2026-05-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e3dc6daec0a3369f2d99cee90bade48a5f63cb610b8fc680dcb96a5f4d87008d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_01_static_cninfo_com_cn_963fb8ad72.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_05_01_filing_fc608e4743"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_677e07d519ab5f76; listSourceId=src_cninfo_600900_announcements."
+}

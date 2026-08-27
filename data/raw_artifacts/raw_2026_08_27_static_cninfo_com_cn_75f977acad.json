@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_75f977acad",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514239.PDF",
+  "sourceId": "src_static_cninfo_com_cn_75f977acad",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_75f977acad",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:26bec7f479f1437a200a3ac4e52bf32f1f5a74d204c71067ef65e69e7050a4d1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_75f977acad.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_13feafe46c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6e9c91fd5194fd41; listSourceId=src_cninfo_688206_announcements."
+}

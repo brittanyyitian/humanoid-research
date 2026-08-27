@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_b0f7e2f4c1",
+  "artifactType": "filing",
+  "title": "关于2026年半年度关联交易执行情况的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514988.pdf",
+  "sourceId": "src_static_cninfo_com_cn_b0f7e2f4c1",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_b0f7e2f4c1",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:a3cf4c4f1d23f93a520b74327813419ea766eee619bf4b3b33df6bee70516234",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_b0f7e2f4c1.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_04c721d5fc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_12778343ccd64e56; listSourceId=src_cninfo_000554_announcements."
+}

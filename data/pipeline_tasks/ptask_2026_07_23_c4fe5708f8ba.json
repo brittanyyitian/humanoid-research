@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_c4fe5708f8ba",
+  "rawArtifactId": "raw_2026_04_03_static_cninfo_com_cn_e85406c21c",
+  "routeDecisionId": "route_2026_04_03_5ae668e0dbda",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "cambricon",
+  "entityIds": [
+    "cambricon"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:22+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:22+08:00",
+  "finishedAt": "2026-07-23T09:51:22+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_04_03_filing_d5357b00ba"
+  ],
+  "evidenceIds": [
+    "evd_2026_04_03_filing_d5357b00ba"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_04_03_filing_material_v0_9ef3aaef7d"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_bbca6c470080"
+  ]
+}

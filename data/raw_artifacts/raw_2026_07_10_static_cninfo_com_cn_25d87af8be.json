@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_25d87af8be",
+  "artifactType": "filing",
+  "title": "关于募集资金投资项目延期的公告",
+  "publisher": "绿的谐波",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225418045.PDF",
+  "sourceId": "src_static_cninfo_com_cn_25d87af8be",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_25d87af8be",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:b918512d906811f5eed905bae5dfb6198fa366f3af7a50d4aea4f32002a42317",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_25d87af8be.json",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_1dc23f8cf6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_272ea81da635f1b7; listSourceId=src_cninfo_688017_announcements."
+}

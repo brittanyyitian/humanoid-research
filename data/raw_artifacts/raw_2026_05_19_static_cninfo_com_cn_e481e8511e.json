@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_e481e8511e",
+  "artifactType": "filing",
+  "title": "关于以债权转股权的方式向全资子公司增资的公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225312737.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e481e8511e",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_e481e8511e",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2e966871e694d97732c6d31a519a028438e4d9420f708e427c77ccd843272cbf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_e481e8511e.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_d2ed8bd8d3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fe98bfdd14d0b748; listSourceId=src_cninfo_000159_announcements."
+}

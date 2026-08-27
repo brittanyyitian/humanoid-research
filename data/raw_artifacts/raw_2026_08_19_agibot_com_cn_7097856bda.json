@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_19_agibot_com_cn_7097856bda",
+  "artifactType": "news_page",
+  "title": "约旦国王莅临智元考察，见证中国具身智能产业化成果",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/182.html",
+  "sourceId": "src_agibot_com_cn_7097856bda",
+  "fetchRunId": "fetch_2026_08_19_agibot_com_cn_7097856bda",
+  "publishedAt": "2026-08-19",
+  "firstSeenAt": "2026-08-19T21:14:45+08:00",
+  "capturedAt": "2026-08-19T21:14:45+08:00",
+  "contentHash": "sha256:d635f20025e6d12e41fb16bd51c6cb7ee2da0e32f1a23a75c819632d9adaab24",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_19_agibot_com_cn_7097856bda.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_19_other_4c1c52b997"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_ba9d3ea46a907be1; listSourceId=src_agibot_official_news."
+}

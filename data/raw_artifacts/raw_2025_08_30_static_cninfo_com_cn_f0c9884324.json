@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_30_static_cninfo_com_cn_f0c9884324",
+  "artifactType": "filing",
+  "title": "澜起科技2025年半年度报告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-30/1224627769.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f0c9884324",
+  "fetchRunId": "fetch_2025_08_30_static_cninfo_com_cn_f0c9884324",
+  "publishedAt": "2025-08-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:767182332c2e86e62a401a6dc2260ebc05ad5e2fb5ec4bcb43ea2a7c44c99a9c",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_f0c9884324.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2025_08_30_filing_e895914719"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_eed60331c158c951; listSourceId=src_cninfo_688008_announcements."
+}

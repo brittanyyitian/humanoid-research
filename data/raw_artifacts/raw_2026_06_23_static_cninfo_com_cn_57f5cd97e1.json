@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_static_cninfo_com_cn_57f5cd97e1",
+  "artifactType": "filing",
+  "title": "关于发行股份及支付现金购买资产并募集配套资金的发行结果暨股本变动公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225381098.PDF",
+  "sourceId": "src_static_cninfo_com_cn_57f5cd97e1",
+  "fetchRunId": "fetch_2026_06_23_static_cninfo_com_cn_57f5cd97e1",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:bbba0d5a34bc542804082bfac54d6282b05b318aa6d161ccfb5efec809882499",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_57f5cd97e1.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_9ca91deabc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c3d301ffc1bce4c0; listSourceId=src_cninfo_688012_announcements."
+}

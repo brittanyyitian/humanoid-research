@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_11_static_cninfo_com_cn_e6911a851d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中国石化",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-11T16:16:22+08:00",
+  "finishedAt": "2026-08-11T16:16:22+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_11_static_cninfo_com_cn_e6911a851d"
+  ],
+  "claimIds": [
+    "claim_2026_08_11_filing_c8a7ee94dd"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-11/1225465934.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-11T16:16:22+08:00",
+      "finishedAt": "2026-08-11T16:16:22+08:00",
+      "contentHash": "sha256:ec700ae45174559a639f065e6b036a6b0597edf52979f9621bb04fd4a1c0bef8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_11_static_cninfo_com_cn_e6911a851d.json"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_27_0d03e8df41cd",
+  "rawArtifactId": "raw_2026_08_27_static_cninfo_com_cn_9aabfdf796",
+  "routeDecisionId": "route_2026_08_27_aea6a6225bee",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "anji_microelectronics",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-27T16:32:40+08:00",
+  "updatedAt": "2026-08-27T16:33:00+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-27T16:33:00+08:00",
+  "finishedAt": "2026-08-27T16:33:00+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_27_filing_d8a6c37953"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_27_filing_d8a6c37953"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_27_filing_material_v0_d0e9039feb"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_27_e3165fb7f744"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_ec35e02a5f",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司2026年第一季度报告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225257619.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ec35e02a5f",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_ec35e02a5f",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:4b5fea2d1a984bbfbc63b38e53ebf2917c7518b7712b32838dc903815e16efb8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_ec35e02a5f.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_2f1a382612"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6edc5d14c9c54caf; listSourceId=src_cninfo_600886_announcements."
+}

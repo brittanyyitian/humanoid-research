@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_1b112257b7",
+  "artifactType": "filing",
+  "title": "关于全资子公司开展保理业务的进展公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225312739.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1b112257b7",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_1b112257b7",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:78f69e36a3dd5f1a9f586f2051b3dcc063a6d343f5391fad615b114a5d4984a1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_1b112257b7.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_d7efd78260"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7edc07460d8d1d54; listSourceId=src_cninfo_000159_announcements."
+}

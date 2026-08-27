@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_28_static_cninfo_com_cn_637be9a808",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司2024年年度报告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222928636.PDF",
+  "sourceId": "src_static_cninfo_com_cn_637be9a808",
+  "fetchRunId": "fetch_2025_03_28_static_cninfo_com_cn_637be9a808",
+  "publishedAt": "2025-03-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:3158ff3c05e1599a126592e696d8b86354828de465ebda457862cade058aa554",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_637be9a808.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_158d82c80a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a48ba7414ced9ba5; listSourceId=src_cninfo_600547_announcements."
+}

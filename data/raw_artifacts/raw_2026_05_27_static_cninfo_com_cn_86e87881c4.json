@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_27_static_cninfo_com_cn_86e87881c4",
+  "artifactType": "filing",
+  "title": "关于公司董事长、副总裁增持股份计划的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-27/1225330225.PDF",
+  "sourceId": "src_static_cninfo_com_cn_86e87881c4",
+  "fetchRunId": "fetch_2026_05_27_static_cninfo_com_cn_86e87881c4",
+  "publishedAt": "2026-05-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:84e1591a0099e2277c1cd15ee4c525b8fecab166de4805f7a656d8231a9fb34a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_27_static_cninfo_com_cn_86e87881c4.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_05_27_filing_b929e83668"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6e51c241a6a7f414; listSourceId=src_cninfo_002353_announcements."
+}

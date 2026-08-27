@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_e67e4342ad",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司第十一届董事会第六次会议决议公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225389674.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e67e4342ad",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_e67e4342ad",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:e5d2871abf717f97170af03b26e31c8dd1e196190e26c07b95208747a7cd18f4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_e67e4342ad.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_9e43a95e1d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_22d4c93932278498; listSourceId=src_cninfo_600116_announcements."
+}

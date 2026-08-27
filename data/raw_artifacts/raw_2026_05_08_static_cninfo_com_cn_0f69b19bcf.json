@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_0f69b19bcf",
+  "artifactType": "filing",
+  "title": "2025年年度股东会决议公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282012.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0f69b19bcf",
+  "fetchRunId": "fetch_2026_05_08_static_cninfo_com_cn_0f69b19bcf",
+  "publishedAt": "2026-05-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:410429e6da25cee3754e4bc148151efe736fa3694357800c48d145078aee847a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_0f69b19bcf.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_9c35456931"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b007c9a1c2d02207; listSourceId=src_cninfo_000159_announcements."
+}

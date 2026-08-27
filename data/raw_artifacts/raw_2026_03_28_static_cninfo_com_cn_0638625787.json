@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_28_static_cninfo_com_cn_0638625787",
+  "artifactType": "filing",
+  "title": "公司章程（2026年3月）",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-28/1225044974.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0638625787",
+  "fetchRunId": "fetch_2026_03_28_static_cninfo_com_cn_0638625787",
+  "publishedAt": "2026-03-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ac8f7ad52103b094c70f19a779b65d225e6b0a0d3cf166b101cffca20d700f89",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_28_static_cninfo_com_cn_0638625787.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_03_28_filing_69ed470da3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_200f6159a4e9c5ae; listSourceId=src_cninfo_002179_announcements."
+}

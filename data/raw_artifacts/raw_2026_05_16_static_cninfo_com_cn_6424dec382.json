@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_16_static_cninfo_com_cn_6424dec382",
+  "artifactType": "filing",
+  "title": "关于召开2026年第三次临时股东会的通知",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-16/1225308636.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6424dec382",
+  "fetchRunId": "fetch_2026_05_16_static_cninfo_com_cn_6424dec382",
+  "publishedAt": "2026-05-16",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dd6cd92558d16b3b686648dc49d4e5901b97901e93439c50916967619f913818",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_16_static_cninfo_com_cn_6424dec382.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_16_filing_08ce052657"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bf915de8e8de73fb; listSourceId=src_cninfo_000159_announcements."
+}

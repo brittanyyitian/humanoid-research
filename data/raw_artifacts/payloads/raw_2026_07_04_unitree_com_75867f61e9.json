@@ -1,7 +1,7 @@
 {
   "id": "raw_2026_07_04_unitree_com_75867f61e9",
-  "capturedAt": "2026-07-04T16:49:01+08:00",
-  "retrievalStatus": "metadata_only",
+  "capturedAt": "2026-07-15T11:30:25+08:00",
+  "retrievalStatus": "captured_payload",
   "content": {
     "inputType": "url",
     "url": "https://www.unitree.com/cn/H2plus/",
@@ -10,8 +10,17 @@
     "publishedAt": null,
     "sourceType": "webpage",
     "artifactType": "product_page",
-    "entityIds": ["unitree"],
-    "body": null,
-    "bodyFormat": null
+    "entityIds": [
+      "unitree"
+    ],
+    "body": "Unitree H2 PLUS 产研一体 全栈启航 | 宇树科技 \n机器人\n机器狗 - 消费级 / 科研\nAs2 \nGo2 \nGo1 \nA1 \n机器狗 - 行业级\nA2 \nB2 \nB1 \nAlienGo \n机械臂\nZ1 / D1-T \n感知\n4D 激光雷达 \n组件\n组件 \nAs2\n小巧身躯 行业性能\nAs2-W\n动力先锋 小而不凡\n通用人形\n通用人形\nH2 \nR1 \nG1 \nH1 / H1-2 \n应用方案\nH2-D \nR1-A / R1-A-D \nG1-D \nG1-Comp \n铁甲拳王 \n灵巧手\nDex2/5 \nDex1-1 \nDex5-1 \nDex3-1 \nH2\n天命觉醒\nH2 Plus\n产研一体 全栈启航\n行业应用\n四足智能巡检方案\n巡检智能先锋，用科技之足，踏平险境，守护安全！\n应急消防解决方案\n跨越险阻，守护逆行者前行\n具身智能社群 \n开源 \n服务与支持\n条款与政策 \n下载中心 \n资源中心 \n客户服务 \n文档中心 \n关于宇树\n新闻中心 \n招贤纳士 \n关于我们 \n联系我们 \n成为供应商 \nAPP下载\n应用平台 \nR1 \nG1 \nH1 / H1-2 \nA2 / A2-W \nB2 / B2-W \nGo2 \nAs2 \n采购 / 合作 \nUnitree H2 PLUS \n产研一体 全栈启航\nNVIDIA Jetson™\nT5000 机载算力\n算力达 2070 FP4 万亿次浮点运算\n全链路互联\n支持以太网、Wi-Fi 6、蓝牙5.2、USB连接，\n配备阵列麦克风与扬声器，支持语音交互。\n全身控制系统\n手臂最大扭矩 \n120N/m\n腿部最大扭矩 \n360N/m\n长续航电池\n15Ah、0.972kWh容量\n续航约3小时。\n多视角感知系统\n头部搭载宽视场双目相机\n手腕相机、惯性测量单元\n超大负载\n手臂额定负载 7kg、\n峰值负载 15kg，\n支持高强度抓取与伸展作业。\n远程急停功能\n支持快速安全切断机器人运行\n双SharpaWave\n触觉五指灵巧手\n手部22个自由度，\n全身+手部合计75个自由度，\n实现高精度灵巧操作\n可搭载 NVIDIA Isaac™ GR00T模型\n配备开源模型、仿真框架以及经过验证的、覆盖从数据到部署的参考工作流。\n超强机载算力NVIDIA ® Jetson Thor™ \n搭载Blackwell GPU，算力达 2070 FP4 万亿次浮点运算；14核 Arm CPU、128GB 统一内存、40W-130W 可调功耗，满足实时传感器处理与机器人推理需求。\nNVIDIA Isaac 遥操作系统\n用于采集高质量机器人示范数据，以供训练与策略开发。\nNVIDIA Isaac GR00T 开源基础模型\n支持人形机器人的推理，学习及多任务行为。\nNVIDIA Isaac Sim™ 与 Isaac Lab™\n在实际部署前，对机器人策略进行仿真、训练、测试与评估。\n加速版 NVIDIA Isaac™ ROS 中间件\n将训练好的策略迁移至机器人本体。\nNVIDIA Jetson Thor\n用于机器人的实时端侧推理与控制。\n机械尺寸\n高宽厚（站立）\n1820 x 456 x 218mm\n带电池重量\n约 70kg\n自由度（关节电机数）\n31\n单腿自由度\n6\n单手臂自由度\n7\n腰部自由度\n3\n头部自由度\n2\n关节输出轴承\n工业级交叉滚子轴承（高精度，高承载力）\n关节电机\n低惯量高速内转子永磁同步电机（更好的响应速度和散热）\n手臂最大关节峰值扭矩 [1]\n120N.m\n腿关节最大关节峰值扭矩 [1]\n360N.m\n手臂最大负载 [1]\n峰值：约15kg；额定：约7kg\n小腿 + 大腿长度\n1045mm\n小臂 + 大臂长度\n690mm\n整机用料\n航空铝 + 钛合金 + 高强度工程塑料\n电气特性\n散热系统\n风冷散热\n供电方式\n低内阻优质锂电池\n电池电压\n最大电压75.6V\n基础算力\nPC1：Intel Core i5（平台功能）\nPC2：Intel Core i7（用户开发）\n感知传感器\n大视场角仿人双目相机\n外置接口\nUSB3.0 x 3\nUSB+DP x 3\nGMSL x 4\n千兆以太网 x 4\nUSB2.0 x 2\nRS485 x 4\nCAN x 2\n电源输出：12V x 1；24V x 2；BAT x 1\n语音交互\n阵列式麦克风大功率扬声器语音交互\nWiFi6、蓝牙5.2\n有\n配套\n高算力模组\nNVIDIA Jetson™ T5000\n智能电池（快拆）\n有\n充电器\n有\n手持式遥控器\n有\n算力模组\nAI算力\n2070 TFLOPS (FP4—sparse)\nGPU\n2560核心NVIDIA Blackwell架构GPU\n配备第五代Tensor Core\n支持10个TPC的多实例GPU\nGPU 最大频率\n1.57 GHz\nCPU\n14 核 Arm ® Neoverse ® -V3AE 64 位 CPU\n每个核心 1 MB 二级缓存\n16 MB 共享系统三级缓存\nCPU 最大频率\n2.6 GHz\n视觉加速器\n1x PVA v3\n内存\n128 GB 256-bit LPDDR5X\n273 GB/s\n存储\n支持通过 PCIe 接口连接 NVMe 固态硬盘\n支持通过 USB 3.2 接口连接 SSD 固态硬盘\n视频编码\n2x NVENC\n视频解码\n2x NVDEC\n视觉模组\n头部双目相机\n水平视场140°±3；垂直视场 102°±3；光圈2.0、焦距2.67mm；景深范围0.4m-INF；全局曝光\n手腕相机（选配）\n3MP 广角；196°(H)、154°(V)；全局曝光\nSharpaWave 灵巧手（选配）\n灵巧手重量\n1.3KG\n灵巧手尺寸\n208 x 90 x 50mm\n灵巧手单手主动自由度\n22\n灵巧手负载\n30Kg\n灵巧手握力\n150N\n灵巧手指尖力\n20N\n灵巧手运行速度\n>4Hz\n灵巧手指尖重复定位精度\n±1mm\n灵巧手触觉像素数量\n>1000每指尖\n灵巧手力检测范围\n量程0～30N，灵敏度0.005N\n其他\n续航时间\n约 3h\n智能OTA升级\n支持\n二次开发 [2]\n支持\n保修期 [3]\n12个月\n[1]\n以上参数，在不同业务场景、不同设备姿态等情况下有所差异，请以实际为准\n[2]\n详细功能，请查看二次开发手册\n[3]\n更详细保修条款，请参见产品保修手册\n[4]\n人形机器人结构复杂，动力极其强劲，请用户让人和机器人保持足够的安全距离，请务必小心使用\n[5]\n产品外观后续可能会有升级调整，请以届时实物为准\n[6]\n本页面有些示例功能，还在开发测试完善，后续陆续开放给用户\n[7]\n目前全球都处于早期探索阶段，个人用户采购前请务必先详细了解清楚人形机器人的局限性。\n本产品为民用机器人产品，请各位用户不要危险性改造和使用机器人。\n请访问宇树科技官网了解更多产品相关条款与政策，请遵守各地区法律法规。\n机器狗 - 消费级/科研\nAs2 \nGo2 Go2-W \nGo1 A1 \n机器狗 - 行业级\nB2 B2-W \nA2 A2-W \nB1 AlienGo \n通用人形\nH2 H1 / H1-2 \nG1 R1 \nDex2/5 Dex1-1 \nDex5-1 Dex3-1 \n机械臂\nZ1 \nD1-T \n感知\n4D 激光雷达 L2 \n4D 激光雷达 L1 \n组件\n仿生机器人关节电机 \n无刷数字舵机 SV1-25 \nA1 电机 GO-M8010-6 \n超级机器人防水关节: B1-16 \n应用方案\nR1-A / R1-A-D \nH2-D G1-D 数采 \nG1-Comp 铁甲拳王 \n行业应用\n四足智能巡检方案 \n应急消防解决方案 \nAPP下载中心\nGo2 As2 \nG1 R1 \nH1 / H1-2 \nA2 / A2-W \nB2 / B2-W \n支持\n官方开源 \n文档中心 \n下载中心 \n安全与隐私 \n探索宇树科技\n新闻中心 \n官方平台\n具身智能社群 \nUniStore \n具身智能平台 \n关于我们 \n联系我们 \n招贤纳士 \n采购/合作 \n供应商平台 \n客户服务 \n条款与政策 宇你同行\n中国大陆 / 简体中文\nCopyright © 2016 - 2025\n宇树科技股份有限公司版权所有\n浙ICP备17044557号-2 浙公网安备 33010802011921号",
+    "bodyFormat": "text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-15T11:30:25+08:00",
+    "contentType": "text/html",
+    "byteLength": 60917,
+    "method": "html_regex",
+    "truncated": false
   }
 }

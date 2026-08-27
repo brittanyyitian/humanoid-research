@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_14_static_cninfo_com_cn_0b3175b7f0",
+  "artifactType": "filing",
+  "title": "港股公告：中芯国际截至2026年6月30日止三个月未经审核业绩公布",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225471507.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0b3175b7f0",
+  "fetchRunId": "fetch_2026_08_14_static_cninfo_com_cn_0b3175b7f0",
+  "publishedAt": "2026-08-14",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:73cd05966e6d1966e0fd7c01f430d659e660f037704c44ac68456f8e4bb3e319",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_0b3175b7f0.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_c60e25e515"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cedce67dfa771423; listSourceId=src_cninfo_688981_announcements."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_498134278bb8",
+  "rawArtifactId": "raw_2026_06_12_static_cninfo_com_cn_f6eb3bfef0",
+  "routeDecisionId": "route_2026_06_12_434c9843ebc9",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "anpeilong",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:16+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:16+08:00",
+  "finishedAt": "2026-07-23T16:16:16+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_12_filing_c477b0f951"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_12_filing_c477b0f951"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_12_filing_material_v0_71b5d0853c"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_d0e796f33c25"
+  ]
+}

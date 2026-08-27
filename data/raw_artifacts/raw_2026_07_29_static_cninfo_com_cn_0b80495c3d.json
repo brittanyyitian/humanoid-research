@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_0b80495c3d",
+  "artifactType": "filing",
+  "title": "关于累计诉讼、仲裁的公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225445417.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0b80495c3d",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_0b80495c3d",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:b1135fdfe3a4f0652f0ef70d473343418e323043b10be3bf982b1989af3e10e7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_0b80495c3d.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_8ecc24c9ed"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_51200bc5783a44d4; listSourceId=src_cninfo_000566_announcements."
+}

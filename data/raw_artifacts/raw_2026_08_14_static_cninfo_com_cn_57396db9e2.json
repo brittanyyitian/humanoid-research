@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_14_static_cninfo_com_cn_57396db9e2",
+  "artifactType": "filing",
+  "title": "第七届董事会第六次会议决议公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225472542.PDF",
+  "sourceId": "src_static_cninfo_com_cn_57396db9e2",
+  "fetchRunId": "fetch_2026_08_14_static_cninfo_com_cn_57396db9e2",
+  "publishedAt": "2026-08-14",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:2a78e63e265042632780c2240465408a33a58ac569b9a4b99ed46c78e263e1de",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_57396db9e2.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_c6568c4a65"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_14246205783465b7; listSourceId=src_cninfo_002353_announcements."
+}

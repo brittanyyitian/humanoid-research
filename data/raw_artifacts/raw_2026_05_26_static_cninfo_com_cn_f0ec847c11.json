@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_f0ec847c11",
+  "artifactType": "filing",
+  "title": "江苏长电科技股份有限公司股票交易风险提示公告",
+  "publisher": "长电科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329608.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f0ec847c11",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_f0ec847c11",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:cc95857367beda9b9da22519580df14ecf3ff2bc13249f432e2ee602e5d50449",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_f0ec847c11.json",
+  "entityIds": [
+    "jcet"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_c508cf8bb1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_198e1aa088ef576a; listSourceId=src_cninfo_600584_announcements."
+}

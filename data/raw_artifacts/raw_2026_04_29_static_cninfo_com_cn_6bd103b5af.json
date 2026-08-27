@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_6bd103b5af",
+  "artifactType": "filing",
+  "title": "百济神州有限公司关于召开2026年年度股东大会的通知",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225233702.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6bd103b5af",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_6bd103b5af",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5ac611d4171d9f2b250bce6973b923552515c16bd75d9ef512dcab3ee2f10bfc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_6bd103b5af.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_other_d5048bc5cb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_489bc7f6d421b65f; listSourceId=src_cninfo_688235_announcements."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_d02ba4c798ce",
+  "rawArtifactId": "raw_2026_04_30_static_cninfo_com_cn_11f199cd5d",
+  "routeDecisionId": "route_2026_04_30_e50825fe07ff",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "sdic_power",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:14+08:00",
+  "finishedAt": "2026-07-23T09:51:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_04_30_filing_f71b47d50c"
+  ],
+  "evidenceIds": [
+    "evd_2026_04_30_filing_f71b47d50c"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_04_30_filing_material_v0_0e93df9925"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_ed87185eda5c"
+  ]
+}

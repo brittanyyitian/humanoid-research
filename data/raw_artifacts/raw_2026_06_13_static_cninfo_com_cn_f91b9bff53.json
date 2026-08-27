@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_f91b9bff53",
+  "artifactType": "filing",
+  "title": "关于全资子公司终止《股份转让协议》的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225366506.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f91b9bff53",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_f91b9bff53",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9b395044bc7835bfea7e632dadfd7c0c584a497b2804bd5dbe6a0dfb84e86cad",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_f91b9bff53.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_370fac5f23"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3ee686d15218057d; listSourceId=src_cninfo_000426_announcements."
+}

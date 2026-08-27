@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_adf080a29a",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477023.PDF",
+  "sourceId": "src_static_cninfo_com_cn_adf080a29a",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_adf080a29a",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:298566a908a728df28d09da071ceb9b82dedf922fe8e1c1012a77f6783be28e1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_adf080a29a.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_bd7f1eb0f0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9eccf7b31ecbd85f; listSourceId=src_cninfo_002371_announcements."
+}

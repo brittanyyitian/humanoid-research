@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_14_static_cninfo_com_cn_e34f7f73af",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "安培龙",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_14_static_cninfo_com_cn_e34f7f73af"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_7f1d6c9feb"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422744.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:9221dc6a0d6accaa4a3b68a1bf7d07c272f5a2826827616f8a3584d2d3551db1",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_e34f7f73af.json"
+    }
+  ]
+}

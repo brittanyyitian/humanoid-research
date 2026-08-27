@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_246decce9fee",
+  "rawArtifactId": "raw_2023_11_07_unitree_com_cfea8bca88",
+  "routeDecisionId": "route_2023_11_07_1c783b4370a8",
+  "pipeline": "product_pipeline",
+  "type": "product",
+  "entityId": "unitree",
+  "entityIds": [
+    "unitree"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-07-15T10:58:14+08:00",
+  "updatedAt": "2026-07-15T10:58:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2023_11_07_product_release_1ab466b363"
+  ],
+  "evidenceIds": [
+    "evd_2023_11_07_product_release_1ab466b363"
+  ],
+  "ruleOutputIds": [
+    "rout_2023_11_07_product_material_v0_3e1a3b7437"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_b8db42e2c4e1"
+  ]
+}

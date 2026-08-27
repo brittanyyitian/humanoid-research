@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_bdc8c113f3",
+  "artifactType": "filing",
+  "title": "中芯国际股东会议事规则",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225393407.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bdc8c113f3",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_bdc8c113f3",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:06970d1f054b7a376c331c8ff83f7e3ab1da9beb49378fd7f09f212093f73b49",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_bdc8c113f3.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_ce360af890"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_42f68cccb46675bd; listSourceId=src_cninfo_688981_announcements."
+}

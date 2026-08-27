@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_25baae906c",
+  "artifactType": "filing",
+  "title": "发行股份及支付现金购买资产并募集配套资金之募集配套资金向特定对象发行股票发行情况报告书",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225385369.PDF",
+  "sourceId": "src_static_cninfo_com_cn_25baae906c",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_25baae906c",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:6337dcd8d5ca052568334d170c316766be74bdaae1baa505b711e8ded58ca4d7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_25baae906c.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_0142015486"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1402f3c3821cdc2c; listSourceId=src_cninfo_688012_announcements."
+}

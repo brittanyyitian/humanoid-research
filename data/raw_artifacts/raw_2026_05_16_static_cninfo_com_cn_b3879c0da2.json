@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_16_static_cninfo_com_cn_b3879c0da2",
+  "artifactType": "filing",
+  "title": "北特科技关于完成工商变更登记并换发营业执照的公告",
+  "publisher": "北特科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-16/1225308189.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b3879c0da2",
+  "fetchRunId": "fetch_2026_05_16_static_cninfo_com_cn_b3879c0da2",
+  "publishedAt": "2026-05-16",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:26435dd634ca3b4eb987515e163a76e78a64a83af4338caac594f315fdd5d1f2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_16_static_cninfo_com_cn_b3879c0da2.json",
+  "entityIds": [
+    "beite_technology"
+  ],
+  "claimIds": [
+    "claim_2026_05_16_filing_a47ae55ee1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_064bf357ec1ccbe4; listSourceId=src_cninfo_603009_announcements."
+}

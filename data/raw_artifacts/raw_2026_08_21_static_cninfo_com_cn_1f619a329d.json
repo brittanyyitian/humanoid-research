@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_1f619a329d",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司关于会计政策变更的公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225485088.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1f619a329d",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_1f619a329d",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:64139c796567467cc6b4658bde0d1e40b4ce9298b960f84bae5552b0b3137576",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_1f619a329d.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_e048e56391"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_730009e57ba69b4f; listSourceId=src_cninfo_600116_announcements."
+}

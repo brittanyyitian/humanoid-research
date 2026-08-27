@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_2e506d6dad",
+  "artifactType": "filing",
+  "title": "关于为全资子公司担保的进展公告",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225449972.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2e506d6dad",
+  "fetchRunId": "fetch_2026_07_31_static_cninfo_com_cn_2e506d6dad",
+  "publishedAt": "2026-07-31",
+  "firstSeenAt": "2026-07-31T16:18:10+08:00",
+  "capturedAt": "2026-07-31T16:18:10+08:00",
+  "contentHash": "sha256:7b7ad7ac137fbed81e0664d436e7229e785881dba9fe26791773f3c40b7e8efc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_31_static_cninfo_com_cn_2e506d6dad.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_07_31_filing_38b18f15e0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d174f97128924a8a; listSourceId=src_cninfo_300100_announcements."
+}

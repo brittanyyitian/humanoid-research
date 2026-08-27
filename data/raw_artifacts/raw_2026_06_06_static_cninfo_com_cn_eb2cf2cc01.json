@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_eb2cf2cc01",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司内幕信息及知情人管理制度",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225355459.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eb2cf2cc01",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_eb2cf2cc01",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:154b64ebedf82eceb834cf6f0c0f6388c1c3be8af26a60058633f7fbdc8f14ae",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_eb2cf2cc01.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_0549ed25ed"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_89de0576bcb0d001; listSourceId=src_cninfo_601899_announcements."
+}

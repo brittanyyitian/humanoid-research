@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_26_static_cninfo_com_cn_d91950086a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "双环传动",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-26T16:18:47+08:00",
+  "finishedAt": "2026-08-26T16:18:47+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_26_static_cninfo_com_cn_d91950086a"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_56834a83f8"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504499.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-26T16:18:47+08:00",
+      "finishedAt": "2026-08-26T16:18:47+08:00",
+      "contentHash": "sha256:6efb16af28503411049818abb38881f01840dc569c163f539c39db2cc365e5a3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_d91950086a.json"
+    }
+  ]
+}

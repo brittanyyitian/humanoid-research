@@ -1,0 +1,143 @@
+{
+  "id": "saout_zhaowei_machinery_c15841406a6e",
+  "entityId": "zhaowei_machinery",
+  "name": "兆威机电",
+  "generatedAt": "2026-08-27T16:37:27+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "rowth_vs_evidence\": 3.82,\n        \"upside_downside\": 1.6,\n        \"liquidity_capacity\": 2.2,\n        \"crowding_control\": 3.35\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 17.6,\n      \"average_rating\": 0.88,\n      \"details\": {\n        \"monthly_trend\": 0.5,\n        \"weekly_structure\": 0.8,\n        \"daily_buy_point\": 0.9,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.0\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"灵巧手 / 传动处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 2 份正式公告，其中 0 份财报或业绩材料；近20日涨跌 -15.5%，近60日涨跌 -20.7%；客户或订单证据 3 条直接、1 条线索。\",\n      \"missing_proof\": \"正式订单 / 客户名称 / 交付验证 / 供应关系\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续公告或财报持续无法披露订单、客户或交付证据。\",\n    \"机器人相关收入或业务线无法在财报中找到可追溯兑现。\",\n    \"供应链或合作披露不能被官方材料交叉验证。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "003021.SZ",
+    "symbol": "003021"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_15_static_cninfo_com_cn_7e618f3d59",
+      "raw_2026_06_30_static_cninfo_com_cn_4a19084af7",
+      "raw_2026_08_26_static_cninfo_com_cn_199edacd78",
+      "raw_2026_08_15_static_cninfo_com_cn_e83117d9de",
+      "raw_2026_08_15_static_cninfo_com_cn_ba13b71130",
+      "raw_2026_08_15_static_cninfo_com_cn_1b4623078d",
+      "raw_2026_07_31_static_cninfo_com_cn_f0ddbb33c8",
+      "raw_2026_07_18_static_cninfo_com_cn_2599593bd7"
+    ],
+    "claimIds": [
+      "claim_2026_08_15_filing_1dcd0f3b0e",
+      "claim_2026_06_30_filing_aad7a98b76",
+      "claim_2026_08_26_filing_7e8e05eab1",
+      "claim_2026_08_15_filing_63e1982e15",
+      "claim_2026_08_15_filing_41278ac5a0",
+      "claim_2026_08_15_filing_c56b9b8469",
+      "claim_2026_07_31_filing_4ed152b524",
+      "claim_2026_07_18_filing_446b03a3f8",
+      "claim_2026_07_18_filing_95005fbcb1",
+      "claim_2026_07_18_filing_d080312ae5",
+      "claim_2026_07_18_filing_45d9271d68",
+      "claim_2026_07_18_filing_e56d9a6336",
+      "claim_2026_08_15_filing_b36b4e7f00",
+      "claim_2026_07_18_filing_42cb6fa02d",
+      "claim_2026_07_18_filing_06b3495b3f",
+      "claim_2026_06_30_filing_0a0910988e"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/data/003021/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "兆威机电 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 55.94/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/data/003021/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_23_22_zhaowei_machinery/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 003021.SZ (兆威机电)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **55.94 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 61.43 |\n| Evidence confidence | 84.04 |\n| Market payoff | 55.88 |\n| Technical timing | 17.6 |\n| Data readiness | 100.0 |\n| Action readiness | 54.92 |\n\n## Falsification Points\n- 后续公告或财报持续无法披露订单、客户或交付证据。\n- 机器人相关收入或业务线无法在财报中找到可追溯兑现。\n- 供应链或合作披露不能被官方材料交叉验证。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

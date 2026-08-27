@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_1304087f77",
+  "artifactType": "filing",
+  "title": "大唐发电董事和高级管理人员薪酬管理办法",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225392745.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1304087f77",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_1304087f77",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:3f6accb2518c60cd72ce506a8ac8d70a11cd8317db3defc2c2ddb56de0150270",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_1304087f77.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_769d39bf3b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a9cd084314694097; listSourceId=src_cninfo_601991_announcements."
+}

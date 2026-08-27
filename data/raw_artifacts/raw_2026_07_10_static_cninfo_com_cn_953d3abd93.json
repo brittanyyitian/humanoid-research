@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_953d3abd93",
+  "artifactType": "filing",
+  "title": "大唐发电关于公司2026年度向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417886.PDF",
+  "sourceId": "src_static_cninfo_com_cn_953d3abd93",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_953d3abd93",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d6c5ee7195bf7bae1ff7542f46af83d0a08ee6415e182d98f2adaf8c2e27144f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_953d3abd93.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_80c06c471e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c446421dc601d47f; listSourceId=src_cninfo_601991_announcements."
+}

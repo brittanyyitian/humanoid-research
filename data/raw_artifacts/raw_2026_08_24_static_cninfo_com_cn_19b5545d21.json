@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_19b5545d21",
+  "artifactType": "filing",
+  "title": "关于与关联方共同投资暨关联交易的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225497824.PDF",
+  "sourceId": "src_static_cninfo_com_cn_19b5545d21",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_19b5545d21",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T21:15:36+08:00",
+  "capturedAt": "2026-08-24T21:15:36+08:00",
+  "contentHash": "sha256:8410a5c720262459d5ab387109f62e945da032a4f8bb3f56834605331c08ceb6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_19b5545d21.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_1a77b3b031"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6c1c8d685eb56311; listSourceId=src_cninfo_301269_announcements."
+}

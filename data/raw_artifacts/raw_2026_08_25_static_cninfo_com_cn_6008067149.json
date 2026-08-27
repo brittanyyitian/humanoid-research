@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_6008067149",
+  "artifactType": "filing",
+  "title": "公司章程修正案",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225498977.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6008067149",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_6008067149",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:66a1e13cb6e8b14049daead11936cc9552f3e553a44475e89d0c18df39d41940",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_6008067149.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_378eee6f54"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_85796969c7c93a15; listSourceId=src_cninfo_300100_announcements."
+}

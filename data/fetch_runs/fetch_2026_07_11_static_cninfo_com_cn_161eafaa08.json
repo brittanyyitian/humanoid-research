@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_11_static_cninfo_com_cn_161eafaa08",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "怡合达",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:23+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_11_static_cninfo_com_cn_161eafaa08"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_b6b4c668af"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419826.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:5d74f1b0dd968643e2f0fca99de7746705af5d2fd65b1c02b851b32bb57cb6e0",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_161eafaa08.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:23+08:00",
+      "finishedAt": "2026-07-23T16:16:23+08:00",
+      "contentHash": "sha256:16cc1e15ecb66c51e6bdbc3881d7ceb2c1a15ba2df246ec1e84131e84ba68ce6",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_161eafaa08.json"
+    }
+  ]
+}

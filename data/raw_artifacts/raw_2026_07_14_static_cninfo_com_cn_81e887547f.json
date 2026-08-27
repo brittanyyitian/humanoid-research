@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_81e887547f",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于公司产品在《国家基本药物目录》中调整情况的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225421801.PDF",
+  "sourceId": "src_static_cninfo_com_cn_81e887547f",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_81e887547f",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d531575928e6706675b8a5d16f3397450a043b23ce4150fb2df71381b0120c8f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_81e887547f.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_19d4ee198a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_996d041cae122661; listSourceId=src_cninfo_600664_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_04_30_static_cninfo_com_cn_8af475dd0b",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "长江电力",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:56:37+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_04_30_static_cninfo_com_cn_8af475dd0b"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_5ec8e50528"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225262036.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:ee98fa6a3a1837bb1f4289f378f3913f6de8f09060af7b83dbe9411333804e3b",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_8af475dd0b.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:56:37+08:00",
+      "finishedAt": "2026-07-23T09:56:37+08:00",
+      "contentHash": "sha256:31e9fa1e5c230d4990fbf452430860cbb9674ccac12952b5dda685effaaedbe0",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_8af475dd0b.json"
+    }
+  ]
+}

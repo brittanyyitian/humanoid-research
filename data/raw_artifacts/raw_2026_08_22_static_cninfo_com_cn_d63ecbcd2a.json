@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_d63ecbcd2a",
+  "artifactType": "filing",
+  "title": "关于2026年员工持股计划实施进展的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225488144.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d63ecbcd2a",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_d63ecbcd2a",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:d36f6cc696779754433cefb6e81219edaa02d524f502dc4b09ca358a90624332",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_d63ecbcd2a.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_1005a68772"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_84e03d6157cbb5a8; listSourceId=src_cninfo_002371_announcements."
+}

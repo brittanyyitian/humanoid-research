@@ -1,0 +1,1062 @@
+{
+  "id": "saout_primarius_fa1b364db820",
+  "entityId": "primarius",
+  "name": "概伦电子",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/primarius.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "概伦电子 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "概伦电子的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本38.81元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查概伦电子的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘概伦电子保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "芯片设计工具",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688206.SH",
+      "name": "概伦电子",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 43.76,
+        "previousClose": 42.300628322861286,
+        "changePct": 3.449999999999995,
+        "high": 36.68,
+        "low": 34,
+        "open": 36.29,
+        "volume": 46775,
+        "turnover": 165367088,
+        "turnoverText": "4.33亿",
+        "currency": "CNY",
+        "asOf": "20260827161444",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.62,
+        "technicalTimingScore": 22.6,
+        "marketPayoffScore": 63.12,
+        "dataReadinessScore": 100,
+        "type": "继续观察，等证据",
+        "currentAction": "等待下一份财报或公告补齐最关键的公司级证据。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 50,
+        "evidenceScore": 68,
+        "valuationScore": 28,
+        "timingScore": 22.6,
+        "riskScore": 57,
+        "decisionReason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WATCH_FOR_EVIDENCE",
+          "label": "继续观察，等证据",
+          "researchRating": "C",
+          "overallScore": 40.88,
+          "fundamentalScore": 56.45,
+          "companyScore": 50,
+          "evidenceScore": 68,
+          "valuationScore": 28,
+          "timingScore": 22.6,
+          "riskScore": 57,
+          "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+          "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+          "metrics": {
+            "pe": 439.2113,
+            "ps": 31.0955,
+            "revenueGrowth": 0.1009,
+            "profitGrowth": -9.1721,
+            "cashConversion": 4.6625,
+            "debtRatio": 0.1962,
+            "return20": 0.2336
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收4.84亿元，同比+15.41%；归母净利润3424.32万元，同比-135.68%。2026-03-31营收1.01亿元，较可比期+10.09%；归母净利润-1229.15万元，较可比期-917.21%；经营现金流-5730.86万元。",
+          "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 单 主要产品 生产量 销售量 库存量 上年增减 上年增减 上年增减 位 （%） （%） （%） 低频噪声测试 台 15 15 1 15.38 -25.00 0 半导体参数分析 台 95 89 6 -25.78 -40.27 不适用 产销量情况说明 报告期内，低频噪声测试系统销量较去年同期有所下降，主要系国内市场需求同比减少所致；",
+          "经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。",
+          "2026-08-26复权收盘42.3元，高于20日平均成本38.81元；60日平均成本39.05元，近20个交易日涨跌+23.36%。"
+        ],
+        "possible": [
+          "概伦电子当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "概伦电子当前业务信号为：这条原文暴露了核心产品、客户验证、产量、产能利用率或分部收入传导中的阻力，不能只看行业景气。",
+          "概伦电子当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 63.12,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.62/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 22.6,
+        "dailyBuyPointScore": 1.45,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 34.03,
+            "volume": 28203,
+            "average20": 35.676,
+            "average60": 36.767
+          },
+          {
+            "date": "2026-03-16",
+            "close": 34.39,
+            "volume": 32256,
+            "average20": 35.635,
+            "average60": 36.751
+          },
+          {
+            "date": "2026-03-17",
+            "close": 33.25,
+            "volume": 27133,
+            "average20": 35.484,
+            "average60": 36.734
+          },
+          {
+            "date": "2026-03-18",
+            "close": 33.78,
+            "volume": 26110,
+            "average20": 35.38,
+            "average60": 36.705
+          },
+          {
+            "date": "2026-03-19",
+            "close": 32.53,
+            "volume": 34702,
+            "average20": 35.182,
+            "average60": 36.684
+          },
+          {
+            "date": "2026-03-20",
+            "close": 31.63,
+            "volume": 37017,
+            "average20": 34.825,
+            "average60": 36.655
+          },
+          {
+            "date": "2026-03-23",
+            "close": 29.39,
+            "volume": 54966,
+            "average20": 34.402,
+            "average60": 36.578
+          },
+          {
+            "date": "2026-03-24",
+            "close": 30.8,
+            "volume": 42641,
+            "average20": 34.094,
+            "average60": 36.529
+          },
+          {
+            "date": "2026-03-25",
+            "close": 30.93,
+            "volume": 30531,
+            "average20": 33.772,
+            "average60": 36.481
+          },
+          {
+            "date": "2026-03-26",
+            "close": 30.25,
+            "volume": 29464,
+            "average20": 33.393,
+            "average60": 36.403
+          },
+          {
+            "date": "2026-03-27",
+            "close": 31.02,
+            "volume": 29807,
+            "average20": 33.08,
+            "average60": 36.34
+          },
+          {
+            "date": "2026-03-30",
+            "close": 31.09,
+            "volume": 28629,
+            "average20": 32.818,
+            "average60": 36.266
+          },
+          {
+            "date": "2026-03-31",
+            "close": 30.73,
+            "volume": 25001,
+            "average20": 32.674,
+            "average60": 36.19
+          },
+          {
+            "date": "2026-04-01",
+            "close": 31.22,
+            "volume": 25907,
+            "average20": 32.586,
+            "average60": 36.119
+          },
+          {
+            "date": "2026-04-02",
+            "close": 30.22,
+            "volume": 22076,
+            "average20": 32.366,
+            "average60": 36.039
+          },
+          {
+            "date": "2026-04-03",
+            "close": 30.3,
+            "volume": 20918,
+            "average20": 32.164,
+            "average60": 35.955
+          },
+          {
+            "date": "2026-04-07",
+            "close": 30.78,
+            "volume": 21591,
+            "average20": 32.005,
+            "average60": 35.888
+          },
+          {
+            "date": "2026-04-08",
+            "close": 32.6,
+            "volume": 42725,
+            "average20": 31.881,
+            "average60": 35.824
+          },
+          {
+            "date": "2026-04-09",
+            "close": 32.38,
+            "volume": 28114,
+            "average20": 31.776,
+            "average60": 35.755
+          },
+          {
+            "date": "2026-04-10",
+            "close": 32.65,
+            "volume": 30462,
+            "average20": 31.699,
+            "average60": 35.668
+          },
+          {
+            "date": "2026-04-13",
+            "close": 32.7,
+            "volume": 37384,
+            "average20": 31.632,
+            "average60": 35.583
+          },
+          {
+            "date": "2026-04-14",
+            "close": 33.1,
+            "volume": 46704,
+            "average20": 31.568,
+            "average60": 35.472
+          },
+          {
+            "date": "2026-04-15",
+            "close": 32.76,
+            "volume": 37142,
+            "average20": 31.543,
+            "average60": 35.351
+          },
+          {
+            "date": "2026-04-16",
+            "close": 32.62,
+            "volume": 42308,
+            "average20": 31.485,
+            "average60": 35.253
+          },
+          {
+            "date": "2026-04-17",
+            "close": 33.43,
+            "volume": 44333,
+            "average20": 31.53,
+            "average60": 35.158
+          },
+          {
+            "date": "2026-04-20",
+            "close": 33.57,
+            "volume": 50378,
+            "average20": 31.627,
+            "average60": 35.06
+          },
+          {
+            "date": "2026-04-21",
+            "close": 33.38,
+            "volume": 27989,
+            "average20": 31.826,
+            "average60": 34.935
+          },
+          {
+            "date": "2026-04-22",
+            "close": 34.11,
+            "volume": 35714,
+            "average20": 31.992,
+            "average60": 34.81
+          },
+          {
+            "date": "2026-04-23",
+            "close": 33.42,
+            "volume": 34112,
+            "average20": 32.117,
+            "average60": 34.669
+          },
+          {
+            "date": "2026-04-24",
+            "close": 33.28,
+            "volume": 26479,
+            "average20": 32.268,
+            "average60": 34.519
+          },
+          {
+            "date": "2026-04-27",
+            "close": 34.76,
+            "volume": 67092,
+            "average20": 32.455,
+            "average60": 34.411
+          },
+          {
+            "date": "2026-04-28",
+            "close": 33.54,
+            "volume": 44103,
+            "average20": 32.577,
+            "average60": 34.291
+          },
+          {
+            "date": "2026-04-29",
+            "close": 33.36,
+            "volume": 37249,
+            "average20": 32.709,
+            "average60": 34.204
+          },
+          {
+            "date": "2026-04-30",
+            "close": 33.98,
+            "volume": 69249,
+            "average20": 32.847,
+            "average60": 34.083
+          },
+          {
+            "date": "2026-05-06",
+            "close": 34.02,
+            "volume": 73721,
+            "average20": 33.037,
+            "average60": 33.977
+          },
+          {
+            "date": "2026-05-07",
+            "close": 35.3,
+            "volume": 105618,
+            "average20": 33.287,
+            "average60": 33.926
+          },
+          {
+            "date": "2026-05-08",
+            "close": 34.52,
+            "volume": 56734,
+            "average20": 33.474,
+            "average60": 33.854
+          },
+          {
+            "date": "2026-05-11",
+            "close": 35.92,
+            "volume": 101892,
+            "average20": 33.64,
+            "average60": 33.853
+          },
+          {
+            "date": "2026-05-12",
+            "close": 36.39,
+            "volume": 104324,
+            "average20": 33.84,
+            "average60": 33.836
+          },
+          {
+            "date": "2026-05-13",
+            "close": 36.81,
+            "volume": 87919,
+            "average20": 34.049,
+            "average60": 33.836
+          },
+          {
+            "date": "2026-05-14",
+            "close": 36.02,
+            "volume": 80257,
+            "average20": 34.215,
+            "average60": 33.841
+          },
+          {
+            "date": "2026-05-15",
+            "close": 36.17,
+            "volume": 94332,
+            "average20": 34.368,
+            "average60": 33.857
+          },
+          {
+            "date": "2026-05-18",
+            "close": 35.78,
+            "volume": 71465,
+            "average20": 34.519,
+            "average60": 33.849
+          },
+          {
+            "date": "2026-05-19",
+            "close": 35.14,
+            "volume": 99210,
+            "average20": 34.645,
+            "average60": 33.837
+          },
+          {
+            "date": "2026-05-20",
+            "close": 39.67,
+            "volume": 200963,
+            "average20": 34.957,
+            "average60": 33.89
+          },
+          {
+            "date": "2026-05-21",
+            "close": 38.99,
+            "volume": 300436,
+            "average20": 35.228,
+            "average60": 33.894
+          },
+          {
+            "date": "2026-05-22",
+            "close": 39.86,
+            "volume": 201255,
+            "average20": 35.552,
+            "average60": 33.927
+          },
+          {
+            "date": "2026-05-25",
+            "close": 45.12,
+            "volume": 338366,
+            "average20": 36.102,
+            "average60": 34.063
+          },
+          {
+            "date": "2026-05-26",
+            "close": 45.01,
+            "volume": 348520,
+            "average20": 36.682,
+            "average60": 34.19
+          },
+          {
+            "date": "2026-05-27",
+            "close": 40.72,
+            "volume": 286384,
+            "average20": 37.054,
+            "average60": 34.238
+          },
+          {
+            "date": "2026-05-28",
+            "close": 41.87,
+            "volume": 172981,
+            "average20": 37.409,
+            "average60": 34.315
+          },
+          {
+            "date": "2026-05-29",
+            "close": 38.34,
+            "volume": 162114,
+            "average20": 37.65,
+            "average60": 34.348
+          },
+          {
+            "date": "2026-06-01",
+            "close": 36.17,
+            "volume": 109632,
+            "average20": 37.79,
+            "average60": 34.391
+          },
+          {
+            "date": "2026-06-02",
+            "close": 36.17,
+            "volume": 89512,
+            "average20": 37.899,
+            "average60": 34.444
+          },
+          {
+            "date": "2026-06-03",
+            "close": 36.74,
+            "volume": 99828,
+            "average20": 38.035,
+            "average60": 34.479
+          },
+          {
+            "date": "2026-06-04",
+            "close": 38.97,
+            "volume": 142376,
+            "average20": 38.219,
+            "average60": 34.557
+          },
+          {
+            "date": "2026-06-05",
+            "close": 38.74,
+            "volume": 106017,
+            "average20": 38.43,
+            "average60": 34.636
+          },
+          {
+            "date": "2026-06-08",
+            "close": 39.85,
+            "volume": 109809,
+            "average20": 38.627,
+            "average60": 34.716
+          },
+          {
+            "date": "2026-06-09",
+            "close": 40.75,
+            "volume": 94050,
+            "average20": 38.845,
+            "average60": 34.82
+          },
+          {
+            "date": "2026-06-10",
+            "close": 38.9,
+            "volume": 111249,
+            "average20": 38.949,
+            "average60": 34.899
+          },
+          {
+            "date": "2026-06-11",
+            "close": 40.05,
+            "volume": 153922,
+            "average20": 39.151,
+            "average60": 34.999
+          },
+          {
+            "date": "2026-06-12",
+            "close": 38.32,
+            "volume": 145192,
+            "average20": 39.258,
+            "average60": 35.065
+          },
+          {
+            "date": "2026-06-15",
+            "close": 39.09,
+            "volume": 102542,
+            "average20": 39.424,
+            "average60": 35.162
+          },
+          {
+            "date": "2026-06-16",
+            "close": 37.49,
+            "volume": 108809,
+            "average20": 39.541,
+            "average60": 35.224
+          },
+          {
+            "date": "2026-06-17",
+            "close": 38.97,
+            "volume": 106960,
+            "average20": 39.506,
+            "average60": 35.331
+          },
+          {
+            "date": "2026-06-18",
+            "close": 38.37,
+            "volume": 85108,
+            "average20": 39.475,
+            "average60": 35.443
+          },
+          {
+            "date": "2026-06-22",
+            "close": 37,
+            "volume": 106600,
+            "average20": 39.332,
+            "average60": 35.57
+          },
+          {
+            "date": "2026-06-23",
+            "close": 36.94,
+            "volume": 88634,
+            "average20": 38.923,
+            "average60": 35.672
+          },
+          {
+            "date": "2026-06-24",
+            "close": 39.75,
+            "volume": 143863,
+            "average20": 38.66,
+            "average60": 35.819
+          },
+          {
+            "date": "2026-06-25",
+            "close": 39.1,
+            "volume": 109292,
+            "average20": 38.579,
+            "average60": 35.967
+          },
+          {
+            "date": "2026-06-26",
+            "close": 40.36,
+            "volume": 153538,
+            "average20": 38.504,
+            "average60": 36.123
+          },
+          {
+            "date": "2026-06-29",
+            "close": 42.4,
+            "volume": 184844,
+            "average20": 38.706,
+            "average60": 36.311
+          },
+          {
+            "date": "2026-06-30",
+            "close": 44.34,
+            "volume": 198526,
+            "average20": 39.115,
+            "average60": 36.538
+          },
+          {
+            "date": "2026-07-01",
+            "close": 48.17,
+            "volume": 216037,
+            "average20": 39.715,
+            "average60": 36.82
+          },
+          {
+            "date": "2026-07-02",
+            "close": 43.01,
+            "volume": 156401,
+            "average20": 40.029,
+            "average60": 37.034
+          },
+          {
+            "date": "2026-07-03",
+            "close": 40.6,
+            "volume": 119029,
+            "average20": 40.11,
+            "average60": 37.205
+          },
+          {
+            "date": "2026-07-06",
+            "close": 48.73,
+            "volume": 243507,
+            "average20": 40.609,
+            "average60": 37.504
+          },
+          {
+            "date": "2026-07-07",
+            "close": 49.17,
+            "volume": 236591,
+            "average20": 41.076,
+            "average60": 37.781
+          },
+          {
+            "date": "2026-07-08",
+            "close": 47.17,
+            "volume": 176359,
+            "average20": 41.396,
+            "average60": 38.027
+          },
+          {
+            "date": "2026-07-09",
+            "close": 52.97,
+            "volume": 250321,
+            "average20": 42.1,
+            "average60": 38.366
+          },
+          {
+            "date": "2026-07-10",
+            "close": 47.13,
+            "volume": 248137,
+            "average20": 42.454,
+            "average60": 38.606
+          },
+          {
+            "date": "2026-07-13",
+            "close": 51.88,
+            "volume": 262280,
+            "average20": 43.132,
+            "average60": 38.919
+          },
+          {
+            "date": "2026-07-14",
+            "close": 49.97,
+            "volume": 187210,
+            "average20": 43.676,
+            "average60": 39.206
+          },
+          {
+            "date": "2026-07-15",
+            "close": 46.15,
+            "volume": 160450,
+            "average20": 44.109,
+            "average60": 39.432
+          },
+          {
+            "date": "2026-07-16",
+            "close": 43.42,
+            "volume": 139416,
+            "average20": 44.331,
+            "average60": 39.598
+          },
+          {
+            "date": "2026-07-17",
+            "close": 38.45,
+            "volume": 139012,
+            "average20": 44.336,
+            "average60": 39.679
+          },
+          {
+            "date": "2026-07-20",
+            "close": 34.75,
+            "volume": 176964,
+            "average20": 44.223,
+            "average60": 39.702
+          },
+          {
+            "date": "2026-07-21",
+            "close": 37.1,
+            "volume": 142801,
+            "average20": 44.231,
+            "average60": 39.752
+          },
+          {
+            "date": "2026-07-22",
+            "close": 36.29,
+            "volume": 117604,
+            "average20": 44.058,
+            "average60": 39.8
+          },
+          {
+            "date": "2026-07-23",
+            "close": 34.49,
+            "volume": 46775,
+            "average20": 43.828,
+            "average60": 39.82
+          }
+        ],
+        "plainReading": {
+          "state": "上涨后正在回落确认",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "中期方向还没有明显走坏，但短期需要重新站稳。",
+          "watch": "先看能否重新站上 43.83 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 33.00，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 43.76,
+            "recentAverage": 43.828,
+            "longerAverage": 39.82,
+            "recentHigh": 54.8,
+            "recentLow": 33
+          }
+        }
+      },
+      "risk": [
+        "经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。",
+        "若下一期现金流明显落后于利润，概伦电子的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，概伦电子需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查概伦电子的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘概伦电子保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收1.01亿元，较可比期+10.09%；归母净利润-1229.15万元，较可比期-917.21%；经营现金流-5730.86万元。",
+            "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 单 主要产品 生产量 销售量 库存量 上年增减 上年增减 上年增减 位 （%） （%） （%） 低频噪声测试 台 15 15 1 15.38 -25.00 0 半导体参数分析 台 95 89 6 -25.78 -40.27 不适用 产销量情况说明 报告期内，低频噪声测试系统销量较去年同期有所下降，主要系国内市场需求同比减少所致；"
+          ]
+        },
+        "upside": {
+          "summary": "概伦电子的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本38.81元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "概伦电子的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本39.05元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本38.81元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。继续恶化，或价格跌破60日平均成本39.05元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "概伦电子的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本38.81元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收4.84亿元，同比+15.41%；归母净利润3424.32万元，同比-135.68%。2026-03-31营收1.01亿元，较可比期+10.09%；归母净利润-1229.15万元，较可比期-917.21%；经营现金流-5730.86万元。",
+            "reason": "概伦电子当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225257523.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 单 主要产品 生产量 销售量 库存量 上年增减 上年增减 上年增减 位 （%） （%） （%） 低频噪声测试 台 15 15 1 15.38 -25.00 0 半导体参数分析 台 95 89 6 -25.78 -40.27 不适用 产销量情况说明 报告期内，低频噪声测试系统销量较去年同期有所下降，主要系国内市场需求同比减少所致；",
+            "reason": "概伦电子当前业务信号为：这条原文暴露了核心产品、客户验证、产量、产能利用率或分部收入传导中的阻力，不能只看行业景气。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-16/1225108676.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-16/1225108676.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘42.3元，高于20日平均成本38.81元；60日平均成本39.05元，近20个交易日涨跌+23.36%。",
+            "reason": "概伦电子当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收1.01亿元，较可比期+10.09%；归母净利润-1229.15万元，较可比期-917.21%；经营现金流-5730.86万元。(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 单 主要产品 生产量 销售量 库存量 上年增减 上年增减 上年增减 位 （%） （%） （%） 低频噪声测试 台 15 15 1 15.38 -25.00 0 半导体参数分析 台 95 89 6 -25.78 -40.27 不适用 产销量情况说明 报告期内，低频噪声测试系统销量较去年同期有所下降，主要系国内市场需求同比减少所致；",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收4.84亿元，同比+15.41%；归母净利润3424.32万元，同比-135.68%。2026-03-31营收1.01亿元，较可比期+10.09%；归母净利润-1229.15万元，较可比期-917.21%；经营现金流-5730.86万元。",
+          "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 单 主要产品 生产量 销售量 库存量 上年增减 上年增减 上年增减 位 （%） （%） （%） 低频噪声测试 台 15 15 1 15.38 -25.00 0 半导体参数分析 台 95 89 6 -25.78 -40.27 不适用 产销量情况说明 报告期内，低频噪声测试系统销量较去年同期有所下降，主要系国内市场需求同比减少所致；",
+          "经销模式实现收入3,394.44 万元，同比下降45.75%，主要受半导体器件特性测试系统业务中国内教育科研机构收入减少影响。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查概伦电子的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘概伦电子保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 43.76,
+    "previousClose": 42.300628322861286,
+    "changePct": 3.449999999999995,
+    "high": 36.68,
+    "low": 34,
+    "open": 36.29,
+    "volume": 46775,
+    "turnover": 165367088,
+    "turnoverText": "4.33亿",
+    "currency": "CNY",
+    "asOf": "20260827161444",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 43.76,
+    "changePct": 3.45,
+    "turnoverText": "4.33亿",
+    "turnoverRate": 2.29,
+    "totalMarketCap": "220.57亿",
+    "floatMarketCap": "191.05亿",
+    "fiveDayChangePct": 11.98,
+    "twentyDayChangePct": 42.87,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161444",
+    "asOf": "20260827161444",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161444",
+    "latestAsOf": "20260827161444",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.39,
+    "evidence_confidence_score": 79.28,
+    "market_payoff_score": 63.12,
+    "technical_timing_score": 22.6,
+    "data_readiness_score": 100,
+    "action_readiness_score": 57.17,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 70.4,
+        "average_rating": 3.52,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 63.12,
+        "average_rating": 3.16,
+        "details": {
+          "valuation_discount": 3,
+          "implied_growth_vs_evidence": 3.08,
+          "upside_downside": 2.05,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 22.6,
+        "average_rating": 1.13,
+        "details": {
+          "monthly_trend": 1.2,
+          "weekly_structure": 0.8,
+          "daily_buy_point": 1.45,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 1
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "芯片设计工具处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺核心产品收入、客户验证和份额提升。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -11.8%，近60日涨跌 3.6%；客户或订单证据 0 条直接、2 条线索。",
+        "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+      "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+      "行业景气回落，价格或库存变化削弱原来的增长判断。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

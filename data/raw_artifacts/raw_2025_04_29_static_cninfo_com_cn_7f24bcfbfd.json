@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_29_static_cninfo_com_cn_7f24bcfbfd",
+  "artifactType": "filing",
+  "title": "江苏长电科技股份有限公司2025年第一季度报告",
+  "publisher": "长电科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223363992.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7f24bcfbfd",
+  "fetchRunId": "fetch_2025_04_29_static_cninfo_com_cn_7f24bcfbfd",
+  "publishedAt": "2025-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:043802150efe98fbe89049a9b7e3b78584224c1f6f540d8debf6929c651f18dc",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_29_static_cninfo_com_cn_7f24bcfbfd.json",
+  "entityIds": [
+    "jcet"
+  ],
+  "claimIds": [
+    "claim_2025_04_29_filing_a905cb26fa"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cb594ec65e09ec83; listSourceId=src_cninfo_600584_announcements."
+}

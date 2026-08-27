@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_bfe975e23c",
+  "artifactType": "filing",
+  "title": "关于子公司为公司提供担保的进展公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225447056.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bfe975e23c",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_bfe975e23c",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:6c33135f961a0dba114b4ade5e55614cc6c6f4176468fef3e86e969bd2d7f8cf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_bfe975e23c.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_490c9c4bb5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_438a47275cc9c158; listSourceId=src_cninfo_000426_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_13_static_cninfo_com_cn_c9669205b9",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-13/1225007365.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c9669205b9",
+  "fetchRunId": "fetch_2026_03_13_static_cninfo_com_cn_c9669205b9",
+  "publishedAt": "2026-03-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2fc44662c336ce2b54784ce0a638b3f9ca78cd46cafb50da717702520eaad94a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_13_static_cninfo_com_cn_c9669205b9.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_03_13_filing_0a194f1901"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ef4be9dbb564b9b2; listSourceId=src_cninfo_688256_announcements."
+}

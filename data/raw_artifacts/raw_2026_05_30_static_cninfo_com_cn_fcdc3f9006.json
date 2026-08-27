@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_fcdc3f9006",
+  "artifactType": "filing",
+  "title": "关于发行股份购买资产并募集配套资金暨关联交易审核问询函回复的提示性公告",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225340253.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fcdc3f9006",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_fcdc3f9006",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:349bf2f99e84b97d6eec647aba003d0257fd09a31abb295b4539760b271b41db",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_fcdc3f9006.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_643fe4f857"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3bcd7df19d9a8c78; listSourceId=src_cninfo_688347_announcements."
+}

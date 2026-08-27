@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_30ff3f611e",
+  "artifactType": "filing",
+  "title": "恒瑞医药2026年第一季度报告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225145521.PDF",
+  "sourceId": "src_static_cninfo_com_cn_30ff3f611e",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_30ff3f611e",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d9a6b96207758f36e30a7c24a4c493884abeefd358706ca57c738ae8ae71c3b9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_30ff3f611e.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_0a2138ad4a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_19bf72c0d2ecf1c1; listSourceId=src_cninfo_600276_announcements."
+}

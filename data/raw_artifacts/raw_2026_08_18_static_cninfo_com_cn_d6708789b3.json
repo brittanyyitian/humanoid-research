@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_d6708789b3",
+  "artifactType": "filing",
+  "title": "2026年第二次临时股东会决议公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225480242.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d6708789b3",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_d6708789b3",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T21:15:18+08:00",
+  "capturedAt": "2026-08-18T21:15:18+08:00",
+  "contentHash": "sha256:981502b767551ac274dc0ff64ddc8fde5d62b894f73b76f0acf4b96fff4e0ad7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_d6708789b3.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_ce10e810c6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8ca4e9fe77e6f383; listSourceId=src_cninfo_300007_announcements."
+}

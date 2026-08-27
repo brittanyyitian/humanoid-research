@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_4fef390152",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于所属企业获得药品注册证书的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225383186.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4fef390152",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_4fef390152",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:93429e1f3350476c4312d82c86268dc0a16489856c957d41ce3acd6e1a3832aa",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_4fef390152.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_880241af04"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6905b7df7ff21165; listSourceId=src_cninfo_600664_announcements."
+}

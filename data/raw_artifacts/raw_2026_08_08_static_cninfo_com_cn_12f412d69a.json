@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_08_static_cninfo_com_cn_12f412d69a",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-08/1225464971.PDF",
+  "sourceId": "src_static_cninfo_com_cn_12f412d69a",
+  "fetchRunId": "fetch_2026_08_08_static_cninfo_com_cn_12f412d69a",
+  "publishedAt": "2026-08-08",
+  "firstSeenAt": "2026-08-08T16:15:49+08:00",
+  "capturedAt": "2026-08-08T16:15:49+08:00",
+  "contentHash": "sha256:4811398f59e39d64259fe04ecbe869a33d4efb3355f8a2c1deba253a48490d01",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_08_static_cninfo_com_cn_12f412d69a.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_08_08_filing_137d6cee51"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_01a00a8b3f448c70; listSourceId=src_cninfo_688256_announcements."
+}

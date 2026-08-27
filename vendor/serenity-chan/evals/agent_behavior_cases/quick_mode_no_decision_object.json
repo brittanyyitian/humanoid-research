@@ -1,0 +1,20 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "quick brief must not present a formal decision object",
+  "transcript": "User: 快速看下 688019 和 688322 谁更好，给个结论。 Agent: 快速模式只输出 research_brief：数据状态、候选排序线索和证据缺口，不产生正式决策对象。当前诊断基线显示两者数据完整度接近，正式结论需要 --formal 路线完成 AI 深研与交付校验。命令：python scripts/serenity.py ask \"对比\" --formal --symbols 688019 688322。",
+  "expectations": {
+    "required_patterns": [
+      "research_brief",
+      "--formal"
+    ],
+    "forbidden_patterns": [
+      "正式决策对象[:：]\\s*688",
+      "最终结论[:：]688\\d+ 胜出"
+    ],
+    "required_commands": [
+      "python scripts/serenity.py ask"
+    ],
+    "required_artifacts": []
+  }
+}

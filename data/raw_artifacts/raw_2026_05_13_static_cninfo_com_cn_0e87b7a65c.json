@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_13_static_cninfo_com_cn_0e87b7a65c",
+  "artifactType": "filing",
+  "title": "关于董事减持股份的预披露公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-13/1225304015.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0e87b7a65c",
+  "fetchRunId": "fetch_2026_05_13_static_cninfo_com_cn_0e87b7a65c",
+  "publishedAt": "2026-05-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:0a206444147d369ce69db7ec2f4740d91e2612db493a627eae3be05e60356a5b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_13_static_cninfo_com_cn_0e87b7a65c.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_13_filing_f1113e80d6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c7609150ee206c77; listSourceId=src_cninfo_300164_announcements."
+}

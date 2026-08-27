@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_27_static_cninfo_com_cn_bd8e72f86d",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-27/1225333979.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bd8e72f86d",
+  "fetchRunId": "fetch_2026_05_27_static_cninfo_com_cn_bd8e72f86d",
+  "publishedAt": "2026-05-27",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:5b442490e97d5e1b831dc303a881f0eace1a8af5589bf660d966b73fdbc67a1c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_27_static_cninfo_com_cn_bd8e72f86d.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_05_27_filing_e0b54c3cc2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_783c85524fcf05eb; listSourceId=src_cninfo_300354_announcements."
+}

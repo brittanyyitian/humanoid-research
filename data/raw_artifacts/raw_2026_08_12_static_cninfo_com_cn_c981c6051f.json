@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_12_static_cninfo_com_cn_c981c6051f",
+  "artifactType": "filing",
+  "title": "关于回购注销部分已获授但尚未解除限售的限制性股票及注销部分尚未行权的股票期权的公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-12/1225468416.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c981c6051f",
+  "fetchRunId": "fetch_2026_08_12_static_cninfo_com_cn_c981c6051f",
+  "publishedAt": "2026-08-12",
+  "firstSeenAt": "2026-08-12T16:17:44+08:00",
+  "capturedAt": "2026-08-12T16:17:44+08:00",
+  "contentHash": "sha256:b7b0c222114cdd3c4c68d877f10bc210cc9f201f6f67698f177d6871930035ca",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_12_static_cninfo_com_cn_c981c6051f.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_12_filing_d5a560f896"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e5f90c7b97acb3f0; listSourceId=src_cninfo_002747_announcements."
+}

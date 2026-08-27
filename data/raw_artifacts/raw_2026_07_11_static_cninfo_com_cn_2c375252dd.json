@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_2c375252dd",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于选举董事长及变更法定代表人的公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419444.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2c375252dd",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_2c375252dd",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:bf56c3b0aea04bd849fc5ccc7139fd9b242be151c5cfdf3aa74178397d347ce1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_2c375252dd.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_be80f1daa1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3535990fdf06f36f; listSourceId=src_cninfo_600547_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_d57ab946a7",
+  "artifactType": "filing",
+  "title": "关于公司签署加油站租赁经营合同的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514987.pdf",
+  "sourceId": "src_static_cninfo_com_cn_d57ab946a7",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_d57ab946a7",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:03aea8459beaad99d705f36285343ddfd322cd8d7a0b05cf889db72a332e42ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_d57ab946a7.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_d65568fe9c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_302ae177ca3e6c95; listSourceId=src_cninfo_000554_announcements."
+}

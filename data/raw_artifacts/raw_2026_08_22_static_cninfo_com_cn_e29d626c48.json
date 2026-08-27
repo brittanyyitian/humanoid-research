@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_e29d626c48",
+  "artifactType": "filing",
+  "title": "天职国际会计师事务所（特殊普通合伙）关于大唐国际发电股份有限公司向特定对象发行股票的财务报告及审计报告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225491160.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e29d626c48",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_e29d626c48",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:b39ff36da003879b7d7d0c79453908354d60eeb8d9468e45cb7ac653686fab90",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_e29d626c48.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_67dd315fc3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_da3dd531b6deaa2d; listSourceId=src_cninfo_601991_announcements."
+}

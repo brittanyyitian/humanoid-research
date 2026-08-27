@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "东华测试",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-24T16:15:57+08:00",
+  "finishedAt": "2026-08-24T21:15:38+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_862393bde2"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225491781.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-24T16:15:57+08:00",
+      "finishedAt": "2026-08-24T16:15:57+08:00",
+      "contentHash": "sha256:294bc0def09d0134ffde9b9f9279e729db1c64e873fe15b7fd88020462d4fa85",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-24T21:15:38+08:00",
+      "finishedAt": "2026-08-24T21:15:38+08:00",
+      "contentHash": "sha256:e49831817e47c59895daec79a1f6c245416fde709a4963d4ad9386e454383dfe",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_9fca04d93c",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩快报",
+  "publisher": "汇川技术",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225498831.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9fca04d93c",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_9fca04d93c",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T21:15:36+08:00",
+  "capturedAt": "2026-08-24T21:15:36+08:00",
+  "contentHash": "sha256:f3a57559f262110e3a90d4689a0f2174cd2be206b9af25e6bd05524bfd9e64a5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_9fca04d93c.json",
+  "entityIds": [
+    "inovance"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_8e076fe8b1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_003d51ca8fa1e6b5; listSourceId=src_cninfo_300124_announcements."
+}

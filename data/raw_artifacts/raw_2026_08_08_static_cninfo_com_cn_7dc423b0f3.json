@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_08_static_cninfo_com_cn_7dc423b0f3",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-08/1225464437.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7dc423b0f3",
+  "fetchRunId": "fetch_2026_08_08_static_cninfo_com_cn_7dc423b0f3",
+  "publishedAt": "2026-08-08",
+  "firstSeenAt": "2026-08-08T16:15:49+08:00",
+  "capturedAt": "2026-08-08T16:15:49+08:00",
+  "contentHash": "sha256:8b182b4ea56e08e6ab1b8670be5ef5feef596b7012bd684737bd31c95270027f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_08_static_cninfo_com_cn_7dc423b0f3.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_08_filing_02b51418ab"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3ba7748863fbab5e; listSourceId=src_cninfo_688322_announcements."
+}

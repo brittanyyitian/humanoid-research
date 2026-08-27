@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_648a6328d9",
+  "artifactType": "filing",
+  "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477739.PDF",
+  "sourceId": "src_static_cninfo_com_cn_648a6328d9",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_648a6328d9",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:4904c1910be94dbcbe0d72e964929d9300aacf4d40501d9ace6661712431e32f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_648a6328d9.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_dbdb29d4e0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7009612de6689dcd; listSourceId=src_cninfo_300580_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_03_27_static_cninfo_com_cn_f13d1dc1c6",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "航天彩虹",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_03_27_static_cninfo_com_cn_f13d1dc1c6"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_da23813859"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036407.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:88ecbe572c1c233da5255d9da24a02a93d177945c74363e7aa60039d25fc4561",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_f13d1dc1c6.json"
+    }
+  ]
+}

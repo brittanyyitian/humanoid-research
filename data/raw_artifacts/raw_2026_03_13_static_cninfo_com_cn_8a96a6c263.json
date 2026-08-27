@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_13_static_cninfo_com_cn_8a96a6c263",
+  "artifactType": "filing",
+  "title": "董事、高级管理人员薪酬管理制度",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-13/1225007361.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8a96a6c263",
+  "fetchRunId": "fetch_2026_03_13_static_cninfo_com_cn_8a96a6c263",
+  "publishedAt": "2026-03-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:58205bb6a4573b718341504af5b2e71b25b43459176719daf7a1916d5155a901",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_13_static_cninfo_com_cn_8a96a6c263.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_03_13_filing_bcecd05ab8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cf857c9acafef9b4; listSourceId=src_cninfo_688256_announcements."
+}

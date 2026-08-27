@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_594dc7cf94",
+  "artifactType": "filing",
+  "title": "关于董事会秘书辞职的公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225216956.PDF",
+  "sourceId": "src_static_cninfo_com_cn_594dc7cf94",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_594dc7cf94",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d4b6e61019b6ee3ee3a201e3f436bc64ba6e78963465b746b556d443213050a7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_594dc7cf94.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_07896f37ee"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_23cb1490c38013f4; listSourceId=src_cninfo_000566_announcements."
+}

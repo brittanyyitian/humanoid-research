@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_30_static_cninfo_com_cn_e72d595946",
+  "artifactType": "filing",
+  "title": "2025年第一季度报告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223424329.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e72d595946",
+  "fetchRunId": "fetch_2025_04_30_static_cninfo_com_cn_e72d595946",
+  "publishedAt": "2025-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:da4a88541977426c034d1fc15e9c5806c52377fa63fabe09d030e2e7cb6e72c7",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_30_static_cninfo_com_cn_e72d595946.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2025_04_30_filing_80205e90c7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3d4726a6d534e43f; listSourceId=src_cninfo_688206_announcements."
+}

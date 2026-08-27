@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_01_static_cninfo_com_cn_43a5e01bf2",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "海南海药",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_01_static_cninfo_com_cn_43a5e01bf2"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_75712abea0"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401473.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:3e54c8669d6564587480cda91dd0fa1dd48a3cb282ef3902f147f2d88ff194e6",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_43a5e01bf2.json"
+    }
+  ]
+}

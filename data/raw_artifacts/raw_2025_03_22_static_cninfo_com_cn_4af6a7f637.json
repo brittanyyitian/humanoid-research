@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_22_static_cninfo_com_cn_4af6a7f637",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2024年年度报告摘要",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-22/1222870409.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4af6a7f637",
+  "fetchRunId": "fetch_2025_03_22_static_cninfo_com_cn_4af6a7f637",
+  "publishedAt": "2025-03-22",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:be849ce5974b7aa2761c88c6d4c06a2ac5e05995b3ab4ef3fb7829cf9d3792b7",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_22_static_cninfo_com_cn_4af6a7f637.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2025_03_22_filing_a3338b967f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_49867cc2d72a68c6; listSourceId=src_cninfo_601899_announcements."
+}

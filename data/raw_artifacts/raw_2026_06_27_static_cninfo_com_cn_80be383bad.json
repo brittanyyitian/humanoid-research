@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_80be383bad",
+  "artifactType": "filing",
+  "title": "关于公司副总裁辞任的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225391585.PDF",
+  "sourceId": "src_static_cninfo_com_cn_80be383bad",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_80be383bad",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d6b957d8023b51da38295304d1ba7bedf9f185d7a15e4372fa236df3a4a1faaf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_80be383bad.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_06b41b9cb0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0522f4cf5bda3ae8; listSourceId=src_cninfo_002353_announcements."
+}

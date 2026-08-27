@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_03_28_static_cninfo_com_cn_0638625787",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中航光电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_03_28_static_cninfo_com_cn_0638625787"
+  ],
+  "claimIds": [
+    "claim_2026_03_28_filing_69ed470da3"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-28/1225044974.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:ac8f7ad52103b094c70f19a779b65d225e6b0a0d3cf166b101cffca20d700f89",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_28_static_cninfo_com_cn_0638625787.json"
+    }
+  ]
+}

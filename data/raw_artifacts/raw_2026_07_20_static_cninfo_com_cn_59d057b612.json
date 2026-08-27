@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_20_static_cninfo_com_cn_59d057b612",
+  "artifactType": "filing",
+  "title": "股票交易异常波动公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-20/1225431871.PDF",
+  "sourceId": "src_static_cninfo_com_cn_59d057b612",
+  "fetchRunId": "fetch_2026_07_20_static_cninfo_com_cn_59d057b612",
+  "publishedAt": "2026-07-20",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:dd6af480b5f7b096728f17260004cfe69b98c81075bb7a5cc333ce27359763a1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_20_static_cninfo_com_cn_59d057b612.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_07_20_filing_9f02b9000e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7f64e779eb1f535a; listSourceId=src_cninfo_300164_announcements."
+}

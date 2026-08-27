@@ -1,0 +1,57 @@
+name: review-cycle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 1 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    env:
+      OUT_DIR: /tmp/serenity-review-cycle
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Doctor (offline)
+        run: python scripts/doctor.py --skip-network
+      - name: Run review cycle against committed state
+        id: review
+        run: |
+          mkdir -p "$OUT_DIR"
+          if [ -f state/watchlist.json ]; then
+            args="--watchlist state/watchlist.json --workspace $OUT_DIR"
+            if [ -f state/forecast-ledger.sqlite ]; then
+              args="$args --ledger state/forecast-ledger.sqlite --fetch"
+            fi
+            python scripts/serenity.py review $args
+            due_count=$(python -c "import json;print(json.load(open('$OUT_DIR/review_cycle.json'))['summary']['due_count'])" 2>/dev/null || echo 0)
+          else
+            echo "no state/watchlist.json committed; review cycle has nothing to check in CI"
+            due_count=0
+          fi
+          echo "due_count=$due_count" >> "$GITHUB_OUTPUT"
+      - name: Upload review artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-cycle-${{ github.run_id }}
+          path: /tmp/serenity-review-cycle
+          if-no-files-found: ignore
+      - name: Open issue when reviews are due
+        if: steps.review.outputs.due_count != '0' && steps.review.outputs.due_count != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DUE_COUNT: ${{ steps.review.outputs.due_count }}
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Review cycle: $DUE_COUNT watchlist item(s) due" \
+            --body "Weekly review-cycle found $DUE_COUNT due review task(s). Download the run artifact for review_cycle.json / resolved_claims.json / calibration_report.json, complete the reviews, then apply outcomes with \`python scripts/serenity.py review --watchlist state/watchlist.json --apply <review_outcome.json>\`." \
+            || echo "issue creation skipped (may already exist or insufficient permission)"

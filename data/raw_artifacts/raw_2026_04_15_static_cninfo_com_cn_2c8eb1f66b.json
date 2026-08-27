@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_15_static_cninfo_com_cn_2c8eb1f66b",
+  "artifactType": "filing",
+  "title": "关于召开2025年度业绩说明会的公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-15/1225101816.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2c8eb1f66b",
+  "fetchRunId": "fetch_2026_04_15_static_cninfo_com_cn_2c8eb1f66b",
+  "publishedAt": "2026-04-15",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:7dc884e7110de1dbe02ab094b6e292f1a61708e6d8ba156e48100846849e9b78",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_15_static_cninfo_com_cn_2c8eb1f66b.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_04_15_filing_1bfd634c57"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e85e35f973b8960d; listSourceId=src_cninfo_688256_announcements."
+}

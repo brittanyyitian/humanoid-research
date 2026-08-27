@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_3db47384e0",
+  "artifactType": "filing",
+  "title": "第四届董事会第四次会议决议公告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422198.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3db47384e0",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_3db47384e0",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:323aa9ee73d08bdef2a00287c18900e0a2255412773a7f92a2d1331931c9d673",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_3db47384e0.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_49180ee953"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ab1039fb184b97de; listSourceId=src_cninfo_688019_announcements."
+}

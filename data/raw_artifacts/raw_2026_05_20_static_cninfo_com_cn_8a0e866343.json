@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_20_static_cninfo_com_cn_8a0e866343",
+  "artifactType": "filing",
+  "title": "2025年度股东会决议公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-20/1225321128.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8a0e866343",
+  "fetchRunId": "fetch_2026_05_20_static_cninfo_com_cn_8a0e866343",
+  "publishedAt": "2026-05-20",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:061e1e0ccf341dfb2774c4d97f14c1c2b091a74ddd58bc75cc6c1e9eea7908a2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_20_static_cninfo_com_cn_8a0e866343.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_05_20_filing_56b4ebb8e1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1720db6761057aec; listSourceId=src_cninfo_301269_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_3b185892f5",
+  "artifactType": "filing",
+  "title": "2025年度股东会决议公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225286535.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3b185892f5",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_3b185892f5",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:0964056355d684fb32c4f37b3fb70f10c35d8233b09419fbac5481f501e8516a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_3b185892f5.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_858dbcadf3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e01aa17763897cf8; listSourceId=src_cninfo_002156_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_8e855b8d21",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224608995.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8e855b8d21",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_8e855b8d21",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:beebdc12e27cf4997edee5c77b5dea95668b62134005126cf1a62d776fc5f6fd",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_8e855b8d21.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_f49d3a3535"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c86989726a74b2a2; listSourceId=src_cninfo_600667_announcements."
+}

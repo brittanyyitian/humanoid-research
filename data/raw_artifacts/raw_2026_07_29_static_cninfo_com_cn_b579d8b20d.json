@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_b579d8b20d",
+  "artifactType": "filing",
+  "title": "招商证券关于拓普集团部分募投项目延期的核查意见",
+  "publisher": "拓普集团",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225444470.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b579d8b20d",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_b579d8b20d",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:a22f11f26a3f968257166f0f56976749a07e0e72c6670ca92f9228088d21155a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_b579d8b20d.json",
+  "entityIds": [
+    "tuopu_group"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_665abd5c3f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d98a860cd31e3e07; listSourceId=src_cninfo_601689_announcements."
+}

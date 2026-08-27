@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_598a27eea1",
+  "artifactType": "filing",
+  "title": "2026年半年度募集资金存放与实际使用情况专项报告",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514118.PDF",
+  "sourceId": "src_static_cninfo_com_cn_598a27eea1",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_598a27eea1",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:698813d256d7531dc1e9eca40c826bf1e719df4a805d83292963f7669fc5f316",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_598a27eea1.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_6d08eec9a0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fe3e5b661f55f441; listSourceId=src_cninfo_688347_announcements."
+}

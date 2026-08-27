@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_08_23_static_cninfo_com_cn_e0e59727a7",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "哈药股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:05+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_08_23_static_cninfo_com_cn_e0e59727a7"
+  ],
+  "claimIds": [
+    "claim_2025_08_23_filing_8fd26168ee"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-23/1224555763.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:f9535d24dd1c71ff42de6c41bb8a5aeb86149de6c38641bd662fd2855673d54d",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_23_static_cninfo_com_cn_e0e59727a7.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:05+08:00",
+      "finishedAt": "2026-07-23T09:58:05+08:00",
+      "contentHash": "sha256:95b34ac9acbe72d2919b6549e620713f432090900cfc0884bdd66da4d69207f4",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_23_static_cninfo_com_cn_e0e59727a7.json"
+    }
+  ]
+}

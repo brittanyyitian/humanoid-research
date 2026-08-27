@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_f6ea132e94",
+  "artifactType": "filing",
+  "title": "H股公告-建议采纳2026年H股股份计划",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225485081.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f6ea132e94",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_f6ea132e94",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:2db227e1776ceaae3b404e72754736c15687cbd77ef7539cf75f5e6e1fc49ac8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_f6ea132e94.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_c228bd09e1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_48a06b907cec9fbf; listSourceId=src_cninfo_600276_announcements."
+}

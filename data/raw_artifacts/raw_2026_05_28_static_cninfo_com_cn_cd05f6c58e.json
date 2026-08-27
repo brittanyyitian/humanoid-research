@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_cd05f6c58e",
+  "artifactType": "filing",
+  "title": "第十一届董事会第十七次临时会议决议公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332598.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cd05f6c58e",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_cd05f6c58e",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dc833ddeadcde8420a247d9f256e4478977a4a1649f8cdb4ad2518c90d25256a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_cd05f6c58e.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_6233aa1def"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2db6a527cca539ae; listSourceId=src_cninfo_000554_announcements."
+}

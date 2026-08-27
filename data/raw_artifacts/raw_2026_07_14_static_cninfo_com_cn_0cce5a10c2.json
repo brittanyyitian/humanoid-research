@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_0cce5a10c2",
+  "artifactType": "filing",
+  "title": "董事、高级管理人员减持股份计划公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225421806.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0cce5a10c2",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_0cce5a10c2",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:c7a92182f01adee8f58ab0d5c286f87120a7524bad817002d480296028938b0b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_0cce5a10c2.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_430cbdbee8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5e6cd1d976e1dace; listSourceId=src_cninfo_600667_announcements."
+}

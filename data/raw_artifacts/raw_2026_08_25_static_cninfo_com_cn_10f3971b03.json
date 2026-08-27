@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_10f3971b03",
+  "artifactType": "filing",
+  "title": "关于2026年半年度利润分配方案的公告",
+  "publisher": "怡合达",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225499528.PDF",
+  "sourceId": "src_static_cninfo_com_cn_10f3971b03",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_10f3971b03",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:4e7490a3175d5ae8dc8a0de911cad8074c685aa0c6770a1e6c2b7dab8e481d0a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_10f3971b03.json",
+  "entityIds": [
+    "yeeda"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_aaa9cb45f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_77fba320768975c6; listSourceId=src_cninfo_301029_announcements."
+}

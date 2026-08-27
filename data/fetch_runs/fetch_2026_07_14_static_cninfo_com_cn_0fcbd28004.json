@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_14_static_cninfo_com_cn_0fcbd28004",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "航天彩虹",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:32:05+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_14_static_cninfo_com_cn_0fcbd28004"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_a55918e78c"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225421390.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:09895c8992bb4a75afc52afb1fbd0d51dba6494a58b6257d0206e46bdeb98aed",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_0fcbd28004.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:32:05+08:00",
+      "finishedAt": "2026-07-23T09:32:05+08:00",
+      "contentHash": "sha256:30690daa91aba4e62beed7ba3b6f994b28f4994883ee47dcb6a635242e283bdd",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_0fcbd28004.json"
+    }
+  ]
+}

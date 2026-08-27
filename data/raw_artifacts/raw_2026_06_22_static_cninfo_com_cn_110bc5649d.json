@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_22_static_cninfo_com_cn_110bc5649d",
+  "artifactType": "filing",
+  "title": "港股公告：授出购股权、受限制股份单位及业绩股份单位",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-22/1225379935.PDF",
+  "sourceId": "src_static_cninfo_com_cn_110bc5649d",
+  "fetchRunId": "fetch_2026_06_22_static_cninfo_com_cn_110bc5649d",
+  "publishedAt": "2026-06-22",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:1aa80ff6090b60ee46b47ddc3810365a0b457b79b1564dcd6937e70e8c3e7ecb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_22_static_cninfo_com_cn_110bc5649d.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_06_22_filing_ce30b4b794"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a40121bd3f557f9f; listSourceId=src_cninfo_688235_announcements."
+}

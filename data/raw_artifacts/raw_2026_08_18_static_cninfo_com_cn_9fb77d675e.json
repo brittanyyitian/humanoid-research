@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_9fb77d675e",
+  "artifactType": "filing",
+  "title": "关于为全资子公司提供担保的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477741.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9fb77d675e",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_9fb77d675e",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:1c31e8540af3b1c7876f9561b93e593c6767b9ffd0df4a82be3b269cbad7447e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_9fb77d675e.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_2a7dcce4ef"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_84dc6f6d47dbb29f; listSourceId=src_cninfo_300580_announcements."
+}

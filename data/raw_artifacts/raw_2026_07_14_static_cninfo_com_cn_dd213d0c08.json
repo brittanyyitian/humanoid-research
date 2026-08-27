@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_dd213d0c08",
+  "artifactType": "filing",
+  "title": "关于召开2026年第三次临时股东会的通知",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225420837.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dd213d0c08",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_dd213d0c08",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2c5cbe1813aa5cd2049e7f15c391f698f57c9b61a4b02dc28b7853f7f254f4e7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_dd213d0c08.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_032035a1e9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_531e3721c92bd905; listSourceId=src_cninfo_000426_announcements."
+}

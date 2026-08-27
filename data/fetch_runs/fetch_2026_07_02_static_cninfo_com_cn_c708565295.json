@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_02_static_cninfo_com_cn_c708565295",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "贝斯特",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_02_static_cninfo_com_cn_c708565295"
+  ],
+  "claimIds": [
+    "claim_2026_07_02_filing_cd96ef3adf"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-02/1225404261.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:44c7d8fd92217bb76c29197bf1ee906dfee5a90e2dbc066b4fd9461cfe871e4a",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_02_static_cninfo_com_cn_c708565295.json"
+    }
+  ]
+}

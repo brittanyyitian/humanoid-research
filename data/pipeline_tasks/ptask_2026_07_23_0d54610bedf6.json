@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_0d54610bedf6",
+  "rawArtifactId": "raw_2026_06_13_static_cninfo_com_cn_0fc268750d",
+  "routeDecisionId": "route_2026_06_13_6309cff9f43c",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "xingye_silver",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:58+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:58+08:00",
+  "finishedAt": "2026-07-23T09:50:58+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_13_filing_8769721de5"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_13_filing_8769721de5"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_13_filing_material_v0_c3c52430ad"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_b65d2c9b6521"
+  ]
+}

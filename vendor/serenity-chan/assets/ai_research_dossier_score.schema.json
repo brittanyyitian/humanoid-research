@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity AI Research Dossier Score",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "symbol",
+    "research_status",
+    "score",
+    "quality_band",
+    "delivery_allowed",
+    "dimension_scores",
+    "blocking_issues",
+    "cap_reasons",
+    "gate_effects"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_ai_research_dossier_score" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "symbol": { "type": "string", "minLength": 1 },
+    "research_status": {
+      "type": "string",
+      "enum": ["COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA"]
+    },
+    "score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "quality_band": { "type": "string", "enum": ["A", "B", "C", "D"] },
+    "delivery_allowed": { "type": "boolean" },
+    "dimension_scores": {
+      "type": "object",
+      "required": [
+        "research_question",
+        "source_reading",
+        "evidence_tests",
+        "claim_graph",
+        "causal_chain",
+        "revenue_transmission",
+        "bear_case",
+        "scenario_action",
+        "uncertainty_controls"
+      ],
+      "properties": {
+        "research_question": { "type": "number", "minimum": 0, "maximum": 10 },
+        "source_reading": { "type": "number", "minimum": 0, "maximum": 15 },
+        "evidence_tests": { "type": "number", "minimum": 0, "maximum": 12 },
+        "claim_graph": { "type": "number", "minimum": 0, "maximum": 12 },
+        "causal_chain": { "type": "number", "minimum": 0, "maximum": 12 },
+        "revenue_transmission": { "type": "number", "minimum": 0, "maximum": 12 },
+        "bear_case": { "type": "number", "minimum": 0, "maximum": 8 },
+        "scenario_action": { "type": "number", "minimum": 0, "maximum": 12 },
+        "uncertainty_controls": { "type": "number", "minimum": 0, "maximum": 7 }
+      },
+      "additionalProperties": false
+    },
+    "blocking_issues": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "cap_reasons": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "gate_effects": {
+      "type": "object",
+      "required": ["report_readiness", "ai_confidence_cap", "action_gate"],
+      "properties": {
+        "report_readiness": { "type": "string", "enum": ["PASS", "BLOCK"] },
+        "ai_confidence_cap": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH"] },
+        "action_gate": { "type": "string", "enum": ["NONE", "AI_RESEARCH_QUALITY_GATED"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

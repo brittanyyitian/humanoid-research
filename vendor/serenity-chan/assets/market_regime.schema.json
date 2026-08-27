@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Market Regime",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "summary",
+    "benchmarks",
+    "decision_boundary"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_market_regime" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "object",
+      "required": ["regime_status", "benchmark_count", "ok_count", "risk_on_count", "risk_off_count"],
+      "properties": {
+        "regime_status": {
+          "type": "string",
+          "enum": ["RISK_ON", "MIXED", "RISK_OFF", "DATA_GATED"]
+        },
+        "benchmark_count": { "type": "integer", "minimum": 0 },
+        "ok_count": { "type": "integer", "minimum": 0 },
+        "risk_on_count": { "type": "integer", "minimum": 0 },
+        "risk_off_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "benchmarks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "name", "market", "technical_health"],
+        "properties": {
+          "symbol": { "type": "string" },
+          "name": { "type": "string" },
+          "market": { "type": "string" },
+          "technical_health": { "$ref": "technical_health.schema.json" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "decision_boundary": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

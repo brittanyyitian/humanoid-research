@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_8e7d68272e",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于应用套期会计的公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419450.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8e7d68272e",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_8e7d68272e",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ba080289b75ca966bc419e2f6c84ff1e61a87be7d6c4a1391b72d3eb36e9fd12",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_8e7d68272e.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_ed8e83249d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ab115e9c8e018289; listSourceId=src_cninfo_600547_announcements."
+}

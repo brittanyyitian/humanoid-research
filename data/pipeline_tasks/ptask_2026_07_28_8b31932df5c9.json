@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_28_8b31932df5c9",
+  "rawArtifactId": "raw_2026_07_28_static_cninfo_com_cn_0c7b23b655",
+  "routeDecisionId": "route_2026_07_28_fa742b9fb4bd",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "luster_lighttech",
+  "entityIds": [
+    "luster_lighttech"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-28T16:16:24+08:00",
+  "updatedAt": "2026-07-28T16:16:33+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-28T16:16:33+08:00",
+  "finishedAt": "2026-07-28T16:16:33+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_28_filing_9d63c45753"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_28_filing_9d63c45753"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_28_filing_material_v0_00516b5331"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_28_fc80bc2abecb"
+  ]
+}

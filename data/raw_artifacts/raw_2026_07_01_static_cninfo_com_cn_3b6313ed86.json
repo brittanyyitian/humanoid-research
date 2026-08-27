@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_3b6313ed86",
+  "artifactType": "filing",
+  "title": "关于副总经理变动的公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401861.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3b6313ed86",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_3b6313ed86",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:30edbba1f9efea1b8f0f0bad95289a125e7b731ef359f54d30e9a2d486dd09ce",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_3b6313ed86.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_330b035e3f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_070c053f4cce94bf; listSourceId=src_cninfo_688012_announcements."
+}

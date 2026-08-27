@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_ab9f1ef4a0ba",
+  "rawArtifactId": "raw_2026_06_05_static_cninfo_com_cn_173270a50c",
+  "routeDecisionId": "route_2026_06_05_804e8a34d6de",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "piotech",
+  "entityIds": [
+    "piotech"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-15T11:03:07+08:00",
+  "updatedAt": "2026-07-15T11:03:08+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T11:03:08+08:00",
+  "finishedAt": "2026-07-15T11:03:08+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_05_filing_79937187db"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_05_filing_79937187db"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_05_filing_material_v0_a46250f532"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_f663c06475a9"
+  ]
+}

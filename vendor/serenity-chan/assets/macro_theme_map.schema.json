@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Macro Theme Map",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "request",
+    "intent",
+    "macro_drivers",
+    "theme_candidates",
+    "selected_theme_keys",
+    "ai_expansion_policy",
+    "selection_policy",
+    "constraint_interpretation"
+  ],
+  "properties": {
+    "contract_type": {
+      "type": "string",
+      "const": "serenity_macro_theme_map"
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "request": {
+      "type": "object",
+      "required": [
+        "prompt",
+        "explicit_themes"
+      ],
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explicit_themes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "intent": {
+      "type": "object",
+      "required": [
+        "mode",
+        "broad_scan",
+        "theme_seed_keys",
+        "excluded_theme_keys",
+        "explicit_theme_keys",
+        "user_defined_theme_required"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "open_opportunity",
+            "theme_opportunity",
+            "theme_research_required",
+            "constraint_first"
+          ]
+        },
+        "broad_scan": {
+          "type": "boolean"
+        },
+        "theme_seed_keys": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded_theme_keys": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "explicit_theme_keys": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "user_defined_theme_required": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "macro_drivers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "driver",
+          "role",
+          "direction",
+          "theme_keys",
+          "confidence"
+        ],
+        "properties": {
+          "driver": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "direction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "theme_keys": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "LOW",
+              "MEDIUM",
+              "HIGH"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "theme_candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "theme_key",
+          "theme",
+          "theme_source",
+          "theme_weight",
+          "why_now",
+          "selection_reason",
+          "evidence_to_seek",
+          "disconfirmation"
+        ],
+        "properties": {
+          "theme_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "theme": {
+            "type": "string",
+            "minLength": 1
+          },
+          "theme_source": {
+            "type": "string",
+            "enum": [
+              "curated_pack",
+              "ai_built_required"
+            ]
+          },
+          "theme_weight": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "why_now": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selection_reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_to_seek": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "disconfirmation": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "selected_theme_keys": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "ai_expansion_policy": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "expansion_mode",
+        "curated_theme_role",
+        "seed_theme_keys",
+        "research_questions",
+        "candidate_universe_requirements",
+        "integration_rule",
+        "output_contract"
+      ],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "expansion_mode": { "type": "string", "minLength": 1 },
+        "curated_theme_role": { "type": "string", "minLength": 1 },
+        "seed_theme_keys": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "research_questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "candidate_universe_requirements": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "integration_rule": { "type": "string", "minLength": 1 },
+        "output_contract": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "selection_policy": {
+      "type": "string",
+      "minLength": 1
+    },
+    "constraint_interpretation": {
+      "type": "object",
+      "required": [
+        "price_style",
+        "affordability_profile"
+      ],
+      "properties": {
+        "price_style": {
+          "type": "string",
+          "minLength": 1
+        },
+        "affordability_profile": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

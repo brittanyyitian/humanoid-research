@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_d56b2d4a2a",
+  "artifactType": "filing",
+  "title": "关于召开2025年年度股东会的通知",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225359848.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d56b2d4a2a",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_d56b2d4a2a",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5198558d6eb7016ad812e8eafae9719da41bd835fda85e31ebac2a2fe5829abe",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_d56b2d4a2a.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_6d7d9b469c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_533576ae8bea0a64; listSourceId=src_cninfo_000426_announcements."
+}

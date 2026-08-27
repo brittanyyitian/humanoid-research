@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_09_static_cninfo_com_cn_4f6f7df065",
+  "artifactType": "filing",
+  "title": "关于调整2023年限制性股票激励计划授予价格的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225417720.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4f6f7df065",
+  "fetchRunId": "fetch_2026_07_09_static_cninfo_com_cn_4f6f7df065",
+  "publishedAt": "2026-07-09",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:61d6e2143c04edae0a3852cf9a36e79b234959865a374c55a5106bf658bedb31",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_4f6f7df065.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_5e82517b78"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d324fe2e30d1d0ca; listSourceId=src_cninfo_301269_announcements."
+}

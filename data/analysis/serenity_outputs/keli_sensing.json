@@ -1,0 +1,1300 @@
+{
+  "id": "saout_keli_sensing_a963c2f720e6",
+  "entityId": "keli_sensing",
+  "name": "柯力传感",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "603662.SH",
+    "symbol": "603662.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_35_11_keli_sensing",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_35_11_keli_sensing/data/603662/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_35_11_keli_sensing/ai_research/603662.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_35_11_keli_sensing/ai_research/603662.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "柯力传感 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "柯力传感的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查柯力传感的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘柯力传感值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "力传感器",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "603662.SH",
+      "name": "柯力传感",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 49.66,
+        "previousClose": 48.67195922767813,
+        "changePct": 2.030000000000001,
+        "high": 50.57,
+        "low": 48.81,
+        "open": 50.55,
+        "volume": 70417,
+        "turnover": 34983,
+        "turnoverText": "1.38亿",
+        "currency": "CNY",
+        "asOf": "20260827161443",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 54.4,
+        "technicalTimingScore": 25,
+        "marketPayoffScore": 55.4,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待价格和成交共同确认。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 72,
+        "evidenceScore": 96,
+        "valuationScore": 67,
+        "timingScore": 25,
+        "riskScore": 57,
+        "decisionReason": "公司基本面可以继续看，但走势还没有形成可验证的买点。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 61.48,
+          "fundamentalScore": 76.95,
+          "companyScore": 72,
+          "evidenceScore": 96,
+          "valuationScore": 67,
+          "timingScore": 25,
+          "riskScore": 57,
+          "reason": "公司基本面可以继续看，但走势还没有形成可验证的买点。",
+          "nextCondition": "等待价格和成交共同确认。",
+          "metrics": {
+            "pe": 40.499,
+            "ps": 8.8499,
+            "revenueGrowth": 0.1334,
+            "profitGrowth": -0.4565,
+            "cashConversion": 1.2601,
+            "debtRatio": 0.2945,
+            "return20": -0.0964
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收15.58亿元，同比+20.33%；归母净利润3.41亿元，同比+30.73%。2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。",
+          "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。",
+          "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+          "2026-08-26复权收盘48.67元，低于20日平均成本51.99元；60日平均成本56.32元，近20个交易日涨跌-9.64%。"
+        ],
+        "possible": [
+          "柯力传感当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "柯力传感当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+          "柯力传感当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 55.4,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 54.4/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 25,
+        "dailyBuyPointScore": 1.45,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 60.496,
+            "volume": 21171,
+            "average20": 63.608,
+            "average60": 65.871
+          },
+          {
+            "date": "2026-03-13",
+            "close": 59.706,
+            "volume": 17448,
+            "average20": 63.376,
+            "average60": 65.785
+          },
+          {
+            "date": "2026-03-16",
+            "close": 60.216,
+            "volume": 20851,
+            "average20": 63.122,
+            "average60": 65.699
+          },
+          {
+            "date": "2026-03-17",
+            "close": 59.436,
+            "volume": 20652,
+            "average20": 62.794,
+            "average60": 65.622
+          },
+          {
+            "date": "2026-03-18",
+            "close": 59.556,
+            "volume": 19565,
+            "average20": 62.446,
+            "average60": 65.548
+          },
+          {
+            "date": "2026-03-19",
+            "close": 57.286,
+            "volume": 38194,
+            "average20": 62.018,
+            "average60": 65.456
+          },
+          {
+            "date": "2026-03-20",
+            "close": 56.376,
+            "volume": 28960,
+            "average20": 61.501,
+            "average60": 65.367
+          },
+          {
+            "date": "2026-03-23",
+            "close": 54.486,
+            "volume": 42778,
+            "average20": 60.874,
+            "average60": 65.223
+          },
+          {
+            "date": "2026-03-24",
+            "close": 54.486,
+            "volume": 30018,
+            "average20": 60.251,
+            "average60": 65.1
+          },
+          {
+            "date": "2026-03-25",
+            "close": 54.946,
+            "volume": 25701,
+            "average20": 59.693,
+            "average60": 64.97
+          },
+          {
+            "date": "2026-03-26",
+            "close": 54.226,
+            "volume": 28061,
+            "average20": 59.133,
+            "average60": 64.806
+          },
+          {
+            "date": "2026-03-27",
+            "close": 54.736,
+            "volume": 23894,
+            "average20": 58.63,
+            "average60": 64.668
+          },
+          {
+            "date": "2026-03-30",
+            "close": 54.836,
+            "volume": 20144,
+            "average20": 58.239,
+            "average60": 64.529
+          },
+          {
+            "date": "2026-03-31",
+            "close": 54.926,
+            "volume": 20412,
+            "average20": 57.986,
+            "average60": 64.348
+          },
+          {
+            "date": "2026-04-01",
+            "close": 55.566,
+            "volume": 22190,
+            "average20": 57.775,
+            "average60": 64.188
+          },
+          {
+            "date": "2026-04-02",
+            "close": 53.876,
+            "volume": 21509,
+            "average20": 57.458,
+            "average60": 63.98
+          },
+          {
+            "date": "2026-04-03",
+            "close": 52.896,
+            "volume": 17669,
+            "average20": 57.069,
+            "average60": 63.695
+          },
+          {
+            "date": "2026-04-07",
+            "close": 52.686,
+            "volume": 17694,
+            "average20": 56.688,
+            "average60": 63.38
+          },
+          {
+            "date": "2026-04-08",
+            "close": 55.596,
+            "volume": 38021,
+            "average20": 56.385,
+            "average60": 63.135
+          },
+          {
+            "date": "2026-04-09",
+            "close": 54.336,
+            "volume": 25898,
+            "average20": 56.034,
+            "average60": 62.869
+          },
+          {
+            "date": "2026-04-10",
+            "close": 55.646,
+            "volume": 36404,
+            "average20": 55.791,
+            "average60": 62.655
+          },
+          {
+            "date": "2026-04-13",
+            "close": 55.306,
+            "volume": 23747,
+            "average20": 55.571,
+            "average60": 62.43
+          },
+          {
+            "date": "2026-04-14",
+            "close": 56.526,
+            "volume": 30451,
+            "average20": 55.386,
+            "average60": 62.214
+          },
+          {
+            "date": "2026-04-15",
+            "close": 56.126,
+            "volume": 34195,
+            "average20": 55.221,
+            "average60": 61.981
+          },
+          {
+            "date": "2026-04-16",
+            "close": 56.536,
+            "volume": 25095,
+            "average20": 55.07,
+            "average60": 61.785
+          },
+          {
+            "date": "2026-04-17",
+            "close": 56.966,
+            "volume": 31421,
+            "average20": 55.054,
+            "average60": 61.614
+          },
+          {
+            "date": "2026-04-20",
+            "close": 56.926,
+            "volume": 32800,
+            "average20": 55.081,
+            "average60": 61.433
+          },
+          {
+            "date": "2026-04-21",
+            "close": 56.536,
+            "volume": 27059,
+            "average20": 55.184,
+            "average60": 61.21
+          },
+          {
+            "date": "2026-04-22",
+            "close": 56.706,
+            "volume": 30311,
+            "average20": 55.295,
+            "average60": 60.958
+          },
+          {
+            "date": "2026-04-23",
+            "close": 55.666,
+            "volume": 39565,
+            "average20": 55.331,
+            "average60": 60.719
+          },
+          {
+            "date": "2026-04-24",
+            "close": 55.446,
+            "volume": 23998,
+            "average20": 55.392,
+            "average60": 60.45
+          },
+          {
+            "date": "2026-04-27",
+            "close": 56.516,
+            "volume": 46314,
+            "average20": 55.481,
+            "average60": 60.204
+          },
+          {
+            "date": "2026-04-28",
+            "close": 54.366,
+            "volume": 47567,
+            "average20": 55.458,
+            "average60": 59.916
+          },
+          {
+            "date": "2026-04-29",
+            "close": 55.056,
+            "volume": 29704,
+            "average20": 55.464,
+            "average60": 59.701
+          },
+          {
+            "date": "2026-04-30",
+            "close": 55.836,
+            "volume": 37769,
+            "average20": 55.478,
+            "average60": 59.486
+          },
+          {
+            "date": "2026-05-06",
+            "close": 56.766,
+            "volume": 46925,
+            "average20": 55.622,
+            "average60": 59.317
+          },
+          {
+            "date": "2026-05-07",
+            "close": 58.586,
+            "volume": 58782,
+            "average20": 55.907,
+            "average60": 59.202
+          },
+          {
+            "date": "2026-05-08",
+            "close": 60.936,
+            "volume": 103553,
+            "average20": 56.319,
+            "average60": 59.111
+          },
+          {
+            "date": "2026-05-11",
+            "close": 60.876,
+            "volume": 73590,
+            "average20": 56.583,
+            "average60": 59.046
+          },
+          {
+            "date": "2026-05-12",
+            "close": 60.976,
+            "volume": 55963,
+            "average20": 56.915,
+            "average60": 58.95
+          },
+          {
+            "date": "2026-05-13",
+            "close": 60.836,
+            "volume": 46011,
+            "average20": 57.175,
+            "average60": 58.858
+          },
+          {
+            "date": "2026-05-14",
+            "close": 60.026,
+            "volume": 58593,
+            "average20": 57.41,
+            "average60": 58.786
+          },
+          {
+            "date": "2026-05-15",
+            "close": 63.656,
+            "volume": 131139,
+            "average20": 57.767,
+            "average60": 58.758
+          },
+          {
+            "date": "2026-05-18",
+            "close": 67.486,
+            "volume": 168914,
+            "average20": 58.335,
+            "average60": 58.783
+          },
+          {
+            "date": "2026-05-19",
+            "close": 66.336,
+            "volume": 107995,
+            "average20": 58.825,
+            "average60": 58.78
+          },
+          {
+            "date": "2026-05-20",
+            "close": 65.916,
+            "volume": 80742,
+            "average20": 59.272,
+            "average60": 58.782
+          },
+          {
+            "date": "2026-05-21",
+            "close": 67.056,
+            "volume": 161197,
+            "average20": 59.779,
+            "average60": 58.787
+          },
+          {
+            "date": "2026-05-22",
+            "close": 67.066,
+            "volume": 104203,
+            "average20": 60.305,
+            "average60": 58.788
+          },
+          {
+            "date": "2026-05-25",
+            "close": 67.416,
+            "volume": 103620,
+            "average20": 60.841,
+            "average60": 58.796
+          },
+          {
+            "date": "2026-05-26",
+            "close": 68.826,
+            "volume": 142279,
+            "average20": 61.499,
+            "average60": 58.841
+          },
+          {
+            "date": "2026-05-27",
+            "close": 65.636,
+            "volume": 111188,
+            "average20": 62.008,
+            "average60": 58.844
+          },
+          {
+            "date": "2026-05-28",
+            "close": 63.366,
+            "volume": 94911,
+            "average20": 62.351,
+            "average60": 58.821
+          },
+          {
+            "date": "2026-05-29",
+            "close": 60.186,
+            "volume": 90138,
+            "average20": 62.642,
+            "average60": 58.779
+          },
+          {
+            "date": "2026-06-01",
+            "close": 58.296,
+            "volume": 58134,
+            "average20": 62.804,
+            "average60": 58.751
+          },
+          {
+            "date": "2026-06-02",
+            "close": 60.436,
+            "volume": 79710,
+            "average20": 63.034,
+            "average60": 58.762
+          },
+          {
+            "date": "2026-06-03",
+            "close": 61.806,
+            "volume": 95747,
+            "average20": 63.286,
+            "average60": 58.788
+          },
+          {
+            "date": "2026-06-04",
+            "close": 62.566,
+            "volume": 77495,
+            "average20": 63.485,
+            "average60": 58.82
+          },
+          {
+            "date": "2026-06-05",
+            "close": 65.876,
+            "volume": 149212,
+            "average20": 63.732,
+            "average60": 58.913
+          },
+          {
+            "date": "2026-06-08",
+            "close": 69.536,
+            "volume": 226518,
+            "average20": 64.165,
+            "average60": 59.044
+          },
+          {
+            "date": "2026-06-09",
+            "close": 70.786,
+            "volume": 229119,
+            "average20": 64.656,
+            "average60": 59.201
+          },
+          {
+            "date": "2026-06-10",
+            "close": 68.516,
+            "volume": 174981,
+            "average20": 65.04,
+            "average60": 59.335
+          },
+          {
+            "date": "2026-06-11",
+            "close": 64.606,
+            "volume": 165785,
+            "average20": 65.269,
+            "average60": 59.417
+          },
+          {
+            "date": "2026-06-12",
+            "close": 63.976,
+            "volume": 164750,
+            "average20": 65.285,
+            "average60": 59.479
+          },
+          {
+            "date": "2026-06-15",
+            "close": 66.236,
+            "volume": 107118,
+            "average20": 65.222,
+            "average60": 59.593
+          },
+          {
+            "date": "2026-06-16",
+            "close": 68.796,
+            "volume": 145711,
+            "average20": 65.345,
+            "average60": 59.747
+          },
+          {
+            "date": "2026-06-17",
+            "close": 69.956,
+            "volume": 147540,
+            "average20": 65.547,
+            "average60": 59.958
+          },
+          {
+            "date": "2026-06-18",
+            "close": 69.726,
+            "volume": 121653,
+            "average20": 65.681,
+            "average60": 60.18
+          },
+          {
+            "date": "2026-06-22",
+            "close": 69.236,
+            "volume": 141225,
+            "average20": 65.789,
+            "average60": 60.426
+          },
+          {
+            "date": "2026-06-23",
+            "close": 70.096,
+            "volume": 179063,
+            "average20": 65.923,
+            "average60": 60.686
+          },
+          {
+            "date": "2026-06-24",
+            "close": 68.306,
+            "volume": 118104,
+            "average20": 65.897,
+            "average60": 60.909
+          },
+          {
+            "date": "2026-06-25",
+            "close": 66.806,
+            "volume": 127185,
+            "average20": 65.956,
+            "average60": 61.119
+          },
+          {
+            "date": "2026-06-26",
+            "close": 64.666,
+            "volume": 109304,
+            "average20": 66.02,
+            "average60": 61.284
+          },
+          {
+            "date": "2026-06-29",
+            "close": 64.336,
+            "volume": 114359,
+            "average20": 66.228,
+            "average60": 61.443
+          },
+          {
+            "date": "2026-06-30",
+            "close": 70.806,
+            "volume": 159129,
+            "average20": 66.854,
+            "average60": 61.707
+          },
+          {
+            "date": "2026-07-01",
+            "close": 74.266,
+            "volume": 226773,
+            "average20": 67.545,
+            "average60": 62.019
+          },
+          {
+            "date": "2026-07-02",
+            "close": 73.456,
+            "volume": 235351,
+            "average20": 68.128,
+            "average60": 62.345
+          },
+          {
+            "date": "2026-07-03",
+            "close": 79.636,
+            "volume": 357256,
+            "average20": 68.981,
+            "average60": 62.791
+          },
+          {
+            "date": "2026-07-06",
+            "close": 72.836,
+            "volume": 285657,
+            "average20": 69.329,
+            "average60": 63.127
+          },
+          {
+            "date": "2026-07-07",
+            "close": 69.236,
+            "volume": 192951,
+            "average20": 69.314,
+            "average60": 63.354
+          },
+          {
+            "date": "2026-07-08",
+            "close": 62.916,
+            "volume": 175683,
+            "average20": 68.921,
+            "average60": 63.497
+          },
+          {
+            "date": "2026-07-09",
+            "close": 63.266,
+            "volume": 135237,
+            "average20": 68.658,
+            "average60": 63.624
+          },
+          {
+            "date": "2026-07-10",
+            "close": 63.476,
+            "volume": 156718,
+            "average20": 68.602,
+            "average60": 63.76
+          },
+          {
+            "date": "2026-07-13",
+            "close": 58.286,
+            "volume": 123009,
+            "average20": 68.317,
+            "average60": 63.79
+          },
+          {
+            "date": "2026-07-14",
+            "close": 58.286,
+            "volume": 83829,
+            "average20": 67.92,
+            "average60": 63.826
+          },
+          {
+            "date": "2026-07-15",
+            "close": 58.046,
+            "volume": 73344,
+            "average20": 67.382,
+            "average60": 63.851
+          },
+          {
+            "date": "2026-07-16",
+            "close": 57,
+            "volume": 68869,
+            "average20": 66.734,
+            "average60": 63.851
+          },
+          {
+            "date": "2026-07-17",
+            "close": 52.6,
+            "volume": 85790,
+            "average20": 65.878,
+            "average60": 63.779
+          },
+          {
+            "date": "2026-07-20",
+            "close": 48.52,
+            "volume": 114298,
+            "average20": 64.842,
+            "average60": 63.646
+          },
+          {
+            "date": "2026-07-21",
+            "close": 50.71,
+            "volume": 93429,
+            "average20": 63.873,
+            "average60": 63.546
+          },
+          {
+            "date": "2026-07-22",
+            "close": 49.11,
+            "volume": 70417,
+            "average20": 62.913,
+            "average60": 63.436
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 62.91 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 46.84，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 49.66,
+            "recentAverage": 62.913,
+            "longerAverage": 63.436,
+            "recentHigh": 80.836,
+            "recentLow": 46.84
+          }
+        }
+      },
+      "risk": [
+        "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+        "若下一期现金流明显落后于利润，柯力传感的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查柯力传感的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘柯力传感值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。",
+            "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。"
+          ]
+        },
+        "upside": {
+          "summary": "柯力传感的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "柯力传感的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本56.32元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。继续恶化，或价格跌破60日平均成本56.32元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "柯力传感的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 4,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收15.58亿元，同比+20.33%；归母净利润3.41亿元，同比+30.73%。2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。",
+            "reason": "柯力传感当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225199666.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。",
+            "reason": "柯力传感当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225199660.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225199660.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘48.67元，低于20日平均成本51.99元；60日平均成本56.32元，近20个交易日涨跌-9.64%。",
+            "reason": "柯力传感当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收15.58亿元，同比+20.33%；归母净利润3.41亿元，同比+30.73%。2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。",
+          "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。",
+          "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查柯力传感的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘柯力传感值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收15.58亿元，同比+20.33%；归母净利润3.41亿元，同比+30.73%。2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。"
+      },
+      {
+        "label": "已确认",
+        "text": "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。"
+      },
+      {
+        "label": "已确认",
+        "text": "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘48.67元，低于20日平均成本51.99元；60日平均成本56.32元，近20个交易日涨跌-9.64%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "柯力传感当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "柯力传感当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "柯力传感当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，柯力传感的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "status": "open"
+      },
+      {
+        "question": "柯力传感的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "603662.SH",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "603662.SH",
+      "company": "柯力传感",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.71,
+      "evidence_confidence_score": 80.4,
+      "market_payoff_score": 55.4,
+      "technical_timing_score": 25,
+      "data_readiness_score": 100,
+      "action_readiness_score": 58.25,
+      "candidate_priority_score": 54.4,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 72,
+          "average_rating": 3.6,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 3,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 55.4,
+          "average_rating": 2.77,
+          "details": {
+            "valuation_discount": 3,
+            "implied_growth_vs_evidence": 3.25,
+            "upside_downside": 2.05,
+            "liquidity_capacity": 2.2,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 25,
+          "average_rating": 1.25,
+          "details": {
+            "monthly_trend": 0.5,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 1.45,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "力传感器处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 2 份正式公告，其中 2 份财报或业绩材料；近20日涨跌 -28.1%，近60日涨跌 -11.8%；客户或订单证据 0 条直接、4 条线索。",
+          "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续公告或财报持续无法披露订单、客户或交付证据。",
+        "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+        "供应链或合作披露不能被官方材料交叉验证。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 61.48,
+      "fundamentalScore": 76.95,
+      "companyScore": 72,
+      "evidenceScore": 96,
+      "valuationScore": 67,
+      "timingScore": 25,
+      "riskScore": 57,
+      "reason": "公司基本面可以继续看，但走势还没有形成可验证的买点。",
+      "nextCondition": "等待价格和成交共同确认。",
+      "metrics": {
+        "pe": 40.499,
+        "ps": 8.8499,
+        "revenueGrowth": 0.1334,
+        "profitGrowth": -0.4565,
+        "cashConversion": 1.2601,
+        "debtRatio": 0.2945,
+        "return20": -0.0964
+      }
+    },
+    "overlay": {
+      "symbol": "603662.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "力传感器",
+      "bottleneck_reason": "机器人需求必须经过客户验证、订单、交付，再进入收入和现金流；本次最关键的公司原文是：（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。",
+      "revenue_transmission": "这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.56,
+      "layer_score": 64,
+      "company_fit": 63,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收15.58亿元，同比+20.33%；归母净利润3.41亿元，同比+30.73%。2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。2026-08-26复权收盘48.67元，低于20日平均成本51.99元；60日平均成本56.32元，近20个交易日涨跌-9.64%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+        "若下一期现金流明显落后于利润，柯力传感的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "柯力传感的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收3.58亿元，较可比期+13.34%；归母净利润4111.93万元，较可比期-45.65%；经营现金流5181.45万元。",
+          "（六）制造能力和产业园区协同持续增强，夯实后续发展基础 报告期内，公司依托宁波、安徽、郑州三大生产基地，持续推进自动化、柔性化、精益化制 造能力建设，传感器产量较上年同期增长约6.4%，为主业稳定交付和新业务产业化落地提供支撑。"
+        ]
+      },
+      "upside": {
+        "summary": "柯力传感的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "机器人相关客户、订单、交付、收入或产量",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "柯力传感的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本56.32元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若2.市场竞争风险：如果公司在未来不能持续加强自身竞争优势，可能会在日趋激烈的市场竞 争中处于不利地位，将面临市场竞争导致的销量下滑、毛利下降、回款放慢等风险。继续恶化，或价格跌破60日平均成本56.32元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本51.99元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

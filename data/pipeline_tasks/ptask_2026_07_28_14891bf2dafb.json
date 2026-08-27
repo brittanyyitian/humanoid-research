@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_28_14891bf2dafb",
+  "rawArtifactId": "raw_2026_07_28_static_cninfo_com_cn_479e3ed5ad",
+  "routeDecisionId": "route_2026_07_28_cd86fdb5c7a5",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "sanhuazk",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-28T16:16:24+08:00",
+  "updatedAt": "2026-07-28T16:16:34+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-28T16:16:34+08:00",
+  "finishedAt": "2026-07-28T16:16:34+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_28_filing_49e450da25"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_28_filing_49e450da25"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_28_filing_material_v0_51e843bb33"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_28_db4f5a93bb74"
+  ]
+}

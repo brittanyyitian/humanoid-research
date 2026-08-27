@@ -1,0 +1,142 @@
+{
+  "id": "saout_primarius_32799aec1e3b",
+  "entityId": "primarius",
+  "name": "概伦电子",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "l\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 22.6,\n      \"average_rating\": 1.13,\n      \"details\": {\n        \"monthly_trend\": 1.2,\n        \"weekly_structure\": 0.8,\n        \"daily_buy_point\": 1.45,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.0\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"芯片设计工具处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺核心产品收入、客户验证和份额提升。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -11.8%，近60日涨跌 3.6%；客户或订单证据 0 条直接、2 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688206.SH",
+    "symbol": "688206"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_27_static_cninfo_com_cn_c774dffdf9",
+      "raw_2026_08_27_static_cninfo_com_cn_cd9e090843",
+      "raw_2026_07_16_static_cninfo_com_cn_9fab2b51c7",
+      "raw_2026_04_16_static_cninfo_com_cn_66dea32755",
+      "raw_2026_04_16_static_cninfo_com_cn_befa134dcb",
+      "raw_2025_08_30_static_cninfo_com_cn_5120c764a7",
+      "raw_2025_08_30_static_cninfo_com_cn_fad336357f",
+      "raw_2025_04_30_static_cninfo_com_cn_373f3b70bb"
+    ],
+    "claimIds": [
+      "claim_2026_08_27_filing_5079901a63",
+      "claim_2026_08_27_filing_62b92e8d05",
+      "claim_2026_07_16_filing_9e137eb690",
+      "claim_2026_04_16_filing_50f64faa46",
+      "claim_2026_04_16_filing_d0ca52cfcc",
+      "claim_2025_08_30_filing_ee9788fd02",
+      "claim_2025_08_30_filing_bb6b2629f8",
+      "claim_2025_04_30_filing_35e29cb194",
+      "claim_2025_04_30_filing_db3d3da614",
+      "claim_2026_07_16_filing_4054957565",
+      "claim_2026_07_16_filing_02cc331588",
+      "claim_2026_07_09_filing_9a6c5cc45c",
+      "claim_2026_06_27_filing_7c2a722354",
+      "claim_2026_04_30_filing_0f60ec05a6",
+      "claim_2026_06_13_filing_1265912766",
+      "claim_2026_08_27_filing_0a0932cb2f",
+      "claim_2026_08_27_filing_eca5c24317",
+      "claim_2026_08_15_filing_2c1bdb1c8b",
+      "claim_2026_08_15_filing_d9aecf4d04",
+      "claim_2026_08_15_filing_aaf06b708e"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/data/688206/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "概伦电子 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 55.62/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/data/688206/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_47_01_primarius/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 688206.SH (概伦电子)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **55.62 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 63.12 |\n| Technical timing | 22.6 |\n| Data readiness | 100.0 |\n| Action readiness | 57.17 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 后续财报仍看不到核心产品收入、客户验证或份额提升。\n- 研发和扩产投入增加，但订单、收入与现金流没有同步改善。\n- 行业景气回落，价格或库存变化削弱原来的增长判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

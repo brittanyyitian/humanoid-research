@@ -327,7 +327,7 @@ def main() -> int:
     watchlist = [
         entity
         for entity in entities
-        if entity.get("listed") and "Watchlist" in (entity.get("tags") or [])
+        if entity.get("listed") and entity.get("stockCode") and entity.get("market")
     ]
 
     rows = []

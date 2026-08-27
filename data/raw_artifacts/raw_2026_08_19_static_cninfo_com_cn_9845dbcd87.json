@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_19_static_cninfo_com_cn_9845dbcd87",
+  "artifactType": "filing",
+  "title": "中无人机2026年半年度报告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-19/1225479250.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9845dbcd87",
+  "fetchRunId": "fetch_2026_08_19_static_cninfo_com_cn_9845dbcd87",
+  "publishedAt": "2026-08-19",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:1526ceeb1d28b7502a030df6ad1cecb2265cd395970499733f09f2f6e02d4047",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_19_static_cninfo_com_cn_9845dbcd87.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_08_19_filing_c779f37141"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7ec9ea13591cac35; listSourceId=src_cninfo_688297_announcements."
+}

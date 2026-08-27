@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_b41a81d588",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司总经理工作细则",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329682.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b41a81d588",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_b41a81d588",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:0eb6bb010764f87cb8a75b14315f917c84ac6acf738589c0a455396b8e66baba",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_b41a81d588.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_d82bbf416e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_62f0a5b95728405d; listSourceId=src_cninfo_600886_announcements."
+}

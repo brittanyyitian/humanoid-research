@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_f0e286137e",
+  "artifactType": "filing",
+  "title": "关于回购A股股份事项前十大股东和前十大无限售条件股东持股情况的公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225446881.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f0e286137e",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_f0e286137e",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:b9d48a5c6fbf32319adacbef259421562dc5b14d379420bafbbd4c17efd9580f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_f0e286137e.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_698b191d98"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_adaa584ebf621065; listSourceId=src_cninfo_002050_announcements."
+}

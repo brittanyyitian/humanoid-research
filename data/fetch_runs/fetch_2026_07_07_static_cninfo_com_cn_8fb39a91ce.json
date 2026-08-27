@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_07_static_cninfo_com_cn_8fb39a91ce",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "均普智能",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:28:18+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_07_static_cninfo_com_cn_8fb39a91ce"
+  ],
+  "claimIds": [
+    "claim_2026_07_07_filing_1d2311dc0e"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225411645.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:4e3a5b4497fce952eac8da855c5e6149b8b0997f058fae332cc7c6623188076a",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_8fb39a91ce.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:28:18+08:00",
+      "finishedAt": "2026-07-15T11:28:18+08:00",
+      "contentHash": "sha256:1b6d5662f4e40e493c60eb3d351088317478d364d3dfc62b236b5c33419a269c",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_8fb39a91ce.json"
+    }
+  ]
+}

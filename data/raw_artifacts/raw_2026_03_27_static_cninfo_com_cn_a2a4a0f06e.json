@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_a2a4a0f06e",
+  "artifactType": "filing",
+  "title": "非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036388.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a2a4a0f06e",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_a2a4a0f06e",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2bc7d1239c61e6f299afba8555c9e458e7739732cffb17d3f4873e3e2edcd934",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_a2a4a0f06e.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_e0bfe102ab"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dda2f5ff6bfe276c; listSourceId=src_cninfo_002389_announcements."
+}

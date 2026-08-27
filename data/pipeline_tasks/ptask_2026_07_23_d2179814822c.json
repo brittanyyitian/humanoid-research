@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_d2179814822c",
+  "rawArtifactId": "raw_2026_04_28_static_cninfo_com_cn_e03e8290d5",
+  "routeDecisionId": "route_2026_04_28_d3ea303f9512",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "huada_jiutian",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:17+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:17+08:00",
+  "finishedAt": "2026-07-23T09:51:17+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_04_28_filing_7590f1be71"
+  ],
+  "evidenceIds": [
+    "evd_2026_04_28_filing_7590f1be71"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_04_28_filing_material_v0_d2769f11e3"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_f0dea880c015"
+  ]
+}

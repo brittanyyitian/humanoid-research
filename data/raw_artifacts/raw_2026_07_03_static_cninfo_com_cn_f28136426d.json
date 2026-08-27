@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_f28136426d",
+  "artifactType": "filing",
+  "title": "浙江禾川科技股份有限公司第五届董事会第二十一次会议决议公告",
+  "publisher": "禾川科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405108.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f28136426d",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_f28136426d",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:6e1b34f0e738e6b0873da50686c00ede7709f3f3f43dc0f860b3c55e0e7bfa43",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_f28136426d.json",
+  "entityIds": [
+    "hechuan_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_62995b0fb9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ff6c4b25a672350b; listSourceId=src_cninfo_688320_announcements."
+}

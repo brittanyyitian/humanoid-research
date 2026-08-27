@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_04_30_static_cninfo_com_cn_493bcfd642",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "北特科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_04_30_static_cninfo_com_cn_493bcfd642"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_7184b765ce"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225254622.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:f135795c41fd5c1bbcde0d6214b98a9ccf496751cc6d5e47b6aa56d8f776a5cc",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_493bcfd642.json"
+    }
+  ]
+}

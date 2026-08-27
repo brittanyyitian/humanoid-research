@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_0e55fd3634",
+  "artifactType": "filing",
+  "title": "关于以集中竞价交易方式回购A股股份的进展公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405321.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0e55fd3634",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_0e55fd3634",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d0afa16185a8fe560adaf744a33fb127cd6deb633fc5ee1f615c9ec626140378",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_0e55fd3634.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_ba5aa58439"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0e26aa26a64bfa4c; listSourceId=src_cninfo_600028_announcements."
+}

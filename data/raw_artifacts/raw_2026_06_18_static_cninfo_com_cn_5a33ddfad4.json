@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_18_static_cninfo_com_cn_5a33ddfad4",
+  "artifactType": "filing",
+  "title": "五洲新春关于完成工商变更登记并换发营业执照的公告",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-18/1225376493.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5a33ddfad4",
+  "fetchRunId": "fetch_2026_06_18_static_cninfo_com_cn_5a33ddfad4",
+  "publishedAt": "2026-06-18",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:f02032309f522e4e06952beb3b497cc08123e9413c6198a5884b53f64c788464",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_18_static_cninfo_com_cn_5a33ddfad4.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_06_18_filing_9b5f6fcca4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f9613da918b68f4e; listSourceId=src_cninfo_603667_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_a5b00afb0e",
+  "artifactType": "filing",
+  "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "机器人",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225490258.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a5b00afb0e",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_a5b00afb0e",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:5ed0ca9b60e191f65f707eb79482afa3f95f4aa592b37308aa5dc1b4e7400192",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_a5b00afb0e.json",
+  "entityIds": [
+    "siasun_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_aa3cb39628"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ad81ed4d8cb3f618; listSourceId=src_cninfo_300024_announcements."
+}

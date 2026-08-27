@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_f62d08154f",
+  "artifactType": "filing",
+  "title": "美股公告：表格S-3",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282331.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f62d08154f",
+  "fetchRunId": "fetch_2026_05_08_static_cninfo_com_cn_f62d08154f",
+  "publishedAt": "2026-05-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b8c84dfac1472d8407c0c2f3533c54d3d86821b60eee8eae9ec85e73dd19743f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_f62d08154f.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_ac0e3bedb1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_67759fcccf508303; listSourceId=src_cninfo_688235_announcements."
+}

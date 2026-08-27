@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_86324462e2",
+  "artifactType": "filing",
+  "title": "第二届董事会第三十次会议决议公告",
+  "publisher": "凌云光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225420229.PDF",
+  "sourceId": "src_static_cninfo_com_cn_86324462e2",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_86324462e2",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:fc94f441fc51a7fc4c35591d44ffb7b33a5f9085499bc1b9ccf2ff779a64ac5f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_86324462e2.json",
+  "entityIds": [
+    "luster_lighttech"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_315b85c494"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_80841df45abee031; listSourceId=src_cninfo_688400_announcements."
+}

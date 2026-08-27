@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_11_static_cninfo_com_cn_758df41dae",
+  "artifactType": "filing",
+  "title": "第六届董事会第十二次会议决议公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-11/1225364836.PDF",
+  "sourceId": "src_static_cninfo_com_cn_758df41dae",
+  "fetchRunId": "fetch_2026_06_11_static_cninfo_com_cn_758df41dae",
+  "publishedAt": "2026-06-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:7246ebda2472f8d50dc603374975b0238d7f0ae7ecac479c0689639fdf4fe1d3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_11_static_cninfo_com_cn_758df41dae.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_06_11_filing_be443c5785"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_057d8ac72809a1c1; listSourceId=src_cninfo_300354_announcements."
+}

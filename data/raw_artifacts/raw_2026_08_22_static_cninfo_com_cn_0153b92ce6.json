@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_0153b92ce6",
+  "artifactType": "filing",
+  "title": "关于公司完成工商变更登记及章程备案的公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225491994.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0153b92ce6",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_0153b92ce6",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:8a8175567e40c283601389475a53ec5ad9c0dbf370ee933bb3f93855ec9e0032",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_0153b92ce6.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_9c20448c18"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2fc90beb325e778c; listSourceId=src_cninfo_002747_announcements."
+}

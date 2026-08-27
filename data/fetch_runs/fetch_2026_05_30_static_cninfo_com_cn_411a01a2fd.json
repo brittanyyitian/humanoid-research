@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_30_static_cninfo_com_cn_411a01a2fd",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "大唐发电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_30_static_cninfo_com_cn_411a01a2fd"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_9fb5ec01f7"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225339563.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:3987f0d7703bff69cf3a92b3e906665be76899289a5cdead48b6002cae2ea46c",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_411a01a2fd.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513831.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4da3b0f70e",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_4da3b0f70e",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:d29de5f3153fbdfb4124ea70839560e897d85ab13c09b7f006f5d22fd58a9916",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_313b769b43"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6f323166d2ad9375; listSourceId=src_cninfo_688019_announcements."
+}

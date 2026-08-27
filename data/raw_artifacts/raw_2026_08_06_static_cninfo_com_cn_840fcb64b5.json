@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_06_static_cninfo_com_cn_840fcb64b5",
+  "artifactType": "filing",
+  "title": "关于2026年员工持股计划开户完成的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-06/1225458992.PDF",
+  "sourceId": "src_static_cninfo_com_cn_840fcb64b5",
+  "fetchRunId": "fetch_2026_08_06_static_cninfo_com_cn_840fcb64b5",
+  "publishedAt": "2026-08-06",
+  "firstSeenAt": "2026-08-06T16:16:34+08:00",
+  "capturedAt": "2026-08-06T16:16:34+08:00",
+  "contentHash": "sha256:4f79aeb183d378dce394b5b3c300f2de9c912b868b9a7d937607e2eec72381c9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_06_static_cninfo_com_cn_840fcb64b5.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_08_06_filing_eada246360"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_49e6bce309077221; listSourceId=src_cninfo_002371_announcements."
+}

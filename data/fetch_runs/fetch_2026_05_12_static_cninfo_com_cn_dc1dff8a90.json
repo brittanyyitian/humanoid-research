@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_12_static_cninfo_com_cn_dc1dff8a90",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "东华测试",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_12_static_cninfo_com_cn_dc1dff8a90"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_95d9cc2846"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225302294.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:39ded411f68b1b15f2f398f039ffe256d3a3a83993d45d37934270865076ae8d",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_dc1dff8a90.json"
+    }
+  ]
+}

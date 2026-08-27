@@ -1,0 +1,21 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "open opportunity questions build a funnel before formal research",
+  "transcript": "User: 当前大趋势下 A 股有什么便宜的可以看看？不要科创板。 Agent: 开放机会问题先走机会发现：python scripts/serenity.py ask \"A股便宜机会 非科创板\" --max-price 20 --exclude-board STAR，得到 candidate_funnel.json 的 shortlist 后，再对 shortlist 运行 --formal 正式比较。我不会跳过漏斗直接推荐个股。",
+  "expectations": {
+    "required_patterns": [
+      "candidate_funnel",
+      "shortlist"
+    ],
+    "forbidden_patterns": [
+      "直接推荐[:：]\\s*\\d{6}"
+    ],
+    "required_commands": [
+      "python scripts/serenity.py ask"
+    ],
+    "required_artifacts": [
+      "candidate_funnel.json"
+    ]
+  }
+}

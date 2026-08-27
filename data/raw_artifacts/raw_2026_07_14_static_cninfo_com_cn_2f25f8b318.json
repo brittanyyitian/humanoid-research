@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_2f25f8b318",
+  "artifactType": "filing",
+  "title": "《安集微电子科技（上海）股份有限公司信息披露事务管理制度（草案）》（H股发行并上市后适用）",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422189.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2f25f8b318",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_2f25f8b318",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1510ca6a1a6617c5c4a87ae4ab2542e01aa7184e73cbf79ae7af1cc29a461fd7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_2f25f8b318.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_7c5ea8e08d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a5f3b0b8287226f0; listSourceId=src_cninfo_688019_announcements."
+}

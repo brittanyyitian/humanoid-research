@@ -1,11 +1,11 @@
 {
-  "date": "2026-07-03",
-  "generatedAt": "2026-07-04T12:17:01.593Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
   "windowDays": 30,
   "modules": [
     {
       "name": "整机",
-      "count": 2
+      "count": 0
     },
     {
       "name": "力传感器",
@@ -44,18 +44,5 @@
       "count": 0
     }
   ],
-  "eventTypes": [
-    {
-      "name": "announcement",
-      "count": 1
-    },
-    {
-      "name": "demo",
-      "count": 1
-    },
-    {
-      "name": "delivery",
-      "count": 1
-    }
-  ]
+  "eventTypes": []
 }

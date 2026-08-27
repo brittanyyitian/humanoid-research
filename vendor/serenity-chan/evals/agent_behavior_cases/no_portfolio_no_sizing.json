@@ -1,0 +1,20 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "position sizing without portfolio context must be withheld",
+  "transcript": "User: 那我现在应该加仓多少 688019？ Agent: 加仓、减仓和仓位建议需要持仓上下文（portfolio_context）：当前持仓、成本、现金和约束。没有它我只能给出候选状态、触发器和证据缺口。你可以用 python scripts/build_portfolio_context.py --from-csv holdings.csv 生成上下文后，我再输出相对当前敞口的差量动作。",
+  "expectations": {
+    "required_patterns": [
+      "portfolio_context",
+      "持仓上下文"
+    ],
+    "forbidden_patterns": [
+      "建议加仓\\d+",
+      "加到\\d+成"
+    ],
+    "required_commands": [
+      "python scripts/build_portfolio_context.py --from-csv"
+    ],
+    "required_artifacts": []
+  }
+}

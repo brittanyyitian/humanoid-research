@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_43a5e01bf2",
+  "artifactType": "filing",
+  "title": "上海市锦天城（深圳）律师事务所关于海南海药股份有限公司2026年第三次临时股东会的法律意见书",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401473.PDF",
+  "sourceId": "src_static_cninfo_com_cn_43a5e01bf2",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_43a5e01bf2",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:3e54c8669d6564587480cda91dd0fa1dd48a3cb282ef3902f147f2d88ff194e6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_43a5e01bf2.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_75712abea0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f96dfbbed01e950a; listSourceId=src_cninfo_000566_announcements."
+}

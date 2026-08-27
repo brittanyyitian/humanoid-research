@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_4f56d24ed4",
+  "artifactType": "filing",
+  "title": "关于公司完成工商变更登记的公告",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225382442.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4f56d24ed4",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_4f56d24ed4",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:c13b44f45ca03fae6661b06bca10d428d7ec1328ab03d7ecc97c36b73c6043c2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_4f56d24ed4.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_077c49d9c0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8293a9b1c5ebece7; listSourceId=src_cninfo_002472_announcements."
+}

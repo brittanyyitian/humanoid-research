@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_48724b19c1",
+  "artifactType": "filing",
+  "title": "澜起科技关于以集中竞价交易方式首次回购A股股份的公告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225447117.PDF",
+  "sourceId": "src_static_cninfo_com_cn_48724b19c1",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_48724b19c1",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:4146cd7a82e7a5212dd91fdb4784582d466f0e5850220d37e4bf87d3887b0acf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_48724b19c1.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_b28fade7cf"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_08ab4f2ffb8e0bdc; listSourceId=src_cninfo_688008_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_25_static_cninfo_com_cn_83b91b134a",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-25/1225189353.PDF",
+  "sourceId": "src_static_cninfo_com_cn_83b91b134a",
+  "fetchRunId": "fetch_2026_04_25_static_cninfo_com_cn_83b91b134a",
+  "publishedAt": "2026-04-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:57cd19d8cef2144a5fffb4c8eedec893d88d9d2b9b34f62ef59f59e2851b8796",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_25_static_cninfo_com_cn_83b91b134a.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_04_25_filing_79d32e6f6c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_36ead85c49cac932; listSourceId=src_cninfo_002179_announcements."
+}

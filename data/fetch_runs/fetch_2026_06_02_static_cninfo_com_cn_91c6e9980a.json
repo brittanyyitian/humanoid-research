@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_02_static_cninfo_com_cn_91c6e9980a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "澜起科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_02_static_cninfo_com_cn_91c6e9980a"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_50452696b6"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225344074.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:07054b4dbff2a8c7a9b3a75001080b7e326d4a329eaa5fe42ac1d18b77e183ed",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_91c6e9980a.json"
+    }
+  ]
+}

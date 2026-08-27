@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_06_30_static_cninfo_com_cn_a34e9b4a6e",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "拓普集团",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:34+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_30_static_cninfo_com_cn_a34e9b4a6e"
+  ],
+  "claimIds": [
+    "claim_2026_06_30_filing_7df7f2f21c"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-30/1225394973.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:bba20368c2a4254b732c8007b819764e1242a1ac27068db7af74a9cc602f5948",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_30_static_cninfo_com_cn_a34e9b4a6e.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:34+08:00",
+      "finishedAt": "2026-07-15T11:30:34+08:00",
+      "contentHash": "sha256:6ead7b091ca0d66ffad14732fd868dab202fd7c7f94287b572e3adf54444420e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_30_static_cninfo_com_cn_a34e9b4a6e.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_22582def30",
+  "artifactType": "filing",
+  "title": "2025年年度股东会决议公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225286783.PDF",
+  "sourceId": "src_static_cninfo_com_cn_22582def30",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_22582def30",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:75c33f219fcb7c0927c8c240d269e2e19a855303d778d90d8822974f938af6d0",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_22582def30.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_f592b522e8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c2079a5cd6b9244f; listSourceId=src_cninfo_000566_announcements."
+}

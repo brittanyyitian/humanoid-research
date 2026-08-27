@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_15_4448d46568e4",
+  "rawArtifactId": "raw_2026_08_15_static_cninfo_com_cn_e83117d9de",
+  "routeDecisionId": "route_2026_08_15_307f84475548",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "zhaowei_machinery",
+  "entityIds": [
+    "zhaowei_machinery"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-15T16:16:04+08:00",
+  "updatedAt": "2026-08-15T16:16:05+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-15T16:16:05+08:00",
+  "finishedAt": "2026-08-15T16:16:05+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_15_filing_63e1982e15"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_15_filing_63e1982e15"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_15_filing_material_v0_d7e5d998c2"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_15_9218f2c93e33"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_18fc98edc85c",
+  "rawArtifactId": "raw_2026_06_05_static_cninfo_com_cn_d0d945daf3",
+  "routeDecisionId": "route_2026_06_05_0f64c9c12d1b",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "highly_electric",
+  "entityIds": [
+    "highly_electric"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-15T11:03:07+08:00",
+  "updatedAt": "2026-07-15T11:03:08+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T11:03:08+08:00",
+  "finishedAt": "2026-07-15T11:03:08+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_05_filing_287066da12"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_05_filing_287066da12"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_05_filing_material_v0_b8d2c05772"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_96785e144d18"
+  ]
+}

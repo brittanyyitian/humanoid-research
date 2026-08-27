@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_51d70be733",
+  "artifactType": "filing",
+  "title": "薪酬管理制度",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225113337.PDF",
+  "sourceId": "src_static_cninfo_com_cn_51d70be733",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_51d70be733",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:6d0959d81f807795d9a4cf55336bb009b07cd0b5dd87186a92d34de8d97f84c8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_51d70be733.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_82c2162382"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c1f1dcebb5385f3b; listSourceId=src_cninfo_002353_announcements."
+}

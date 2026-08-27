@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_b461d8dee2",
+  "artifactType": "filing",
+  "title": "第六届董事会第十三次会议决议公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225491783.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b461d8dee2",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_b461d8dee2",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:3dab4daa503f6571f1c12bfa72e48ca6c34885d633a6df7442858eb09e4e534e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_b461d8dee2.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_373bf855d0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_af1ce24ec64059da; listSourceId=src_cninfo_300354_announcements."
+}

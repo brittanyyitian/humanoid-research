@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_19ba27bf7b",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于公司参与第十二批全国药品集中采购拟中选的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225454858.PDF",
+  "sourceId": "src_static_cninfo_com_cn_19ba27bf7b",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_19ba27bf7b",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:fb8d45a81a8990781c46a4ebff112841000fd940933fa697a4800e862e05bb8a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_19ba27bf7b.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_6f81c3b8dc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5f844bf6feb46027; listSourceId=src_cninfo_600664_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_06_11_static_cninfo_com_cn_4912731a8d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中无人机",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:32:54+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_11_static_cninfo_com_cn_4912731a8d"
+  ],
+  "claimIds": [
+    "claim_2026_06_11_filing_d913b643ee"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-11/1225362768.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:99200bf9843a6f6ceaa285baafd236d5075c23debb418fb2e9813a09eec8b2b5",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_11_static_cninfo_com_cn_4912731a8d.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:32:54+08:00",
+      "finishedAt": "2026-07-23T09:32:54+08:00",
+      "contentHash": "sha256:1bdf1d5abb992fe9a68526102a12e02c7db4d88e7dd093034db4ef9b3f976ff7",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_11_static_cninfo_com_cn_4912731a8d.json"
+    }
+  ]
+}

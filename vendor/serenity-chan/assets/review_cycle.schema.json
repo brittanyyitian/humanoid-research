@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Review Cycle",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "due_before",
+    "source_watchlist_path",
+    "summary",
+    "due_items"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_review_cycle" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "due_before": { "type": "string", "minLength": 1 },
+    "source_watchlist_path": { "type": "string" },
+    "summary": {
+      "type": "object",
+      "required": ["due_count", "symbols_due", "horizons_due"],
+      "properties": {
+        "due_count": { "type": "integer", "minimum": 0 },
+        "symbols_due": { "type": "array", "items": { "type": "string" } },
+        "horizons_due": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "due_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "name",
+          "watch_state",
+          "horizon",
+          "due_date",
+          "review_tasks",
+          "upgrade_conditions",
+          "downgrade_conditions"
+        ],
+        "properties": {
+          "symbol": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "watch_state": { "type": "string", "minLength": 1 },
+          "horizon": { "type": "string", "enum": ["30d", "90d", "180d"] },
+          "due_date": { "type": "string", "minLength": 1 },
+          "review_tasks": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "upgrade_conditions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "downgrade_conditions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "next_evidence": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

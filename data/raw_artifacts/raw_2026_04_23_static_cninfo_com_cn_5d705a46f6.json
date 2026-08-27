@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_5d705a46f6",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于2025年度计提资产减值准备的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225144855.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5d705a46f6",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_5d705a46f6",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:060f9778ee849cb1e06775bdc71270634e3c3cc590f30ad9b31248dfc81a81ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_5d705a46f6.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_dd4475b84b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2c9ea03b52a7d025; listSourceId=src_cninfo_600664_announcements."
+}

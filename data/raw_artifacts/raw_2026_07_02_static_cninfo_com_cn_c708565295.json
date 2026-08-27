@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_02_static_cninfo_com_cn_c708565295",
+  "artifactType": "filing",
+  "title": "关于选举第五届董事会职工代表董事的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-02/1225404261.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c708565295",
+  "fetchRunId": "fetch_2026_07_02_static_cninfo_com_cn_c708565295",
+  "publishedAt": "2026-07-02",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:44c7d8fd92217bb76c29197bf1ee906dfee5a90e2dbc066b4fd9461cfe871e4a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_02_static_cninfo_com_cn_c708565295.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_07_02_filing_cd96ef3adf"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8febe9ee5c86a1ca; listSourceId=src_cninfo_300580_announcements."
+}

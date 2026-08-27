@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_26_static_cninfo_com_cn_7d67cf606a",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223317604.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7d67cf606a",
+  "fetchRunId": "fetch_2025_04_26_static_cninfo_com_cn_7d67cf606a",
+  "publishedAt": "2025-04-26",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:19a26fbc3706465f3ba3eacf7fcd38a681220d15dc2c8802bb989e6c4753c0e9",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_26_static_cninfo_com_cn_7d67cf606a.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2025_04_26_filing_c4f44b3295"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d8ab9b2bed3b9e58; listSourceId=src_cninfo_600667_announcements."
+}

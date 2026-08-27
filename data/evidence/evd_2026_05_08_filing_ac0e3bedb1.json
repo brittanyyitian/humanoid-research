@@ -1,0 +1,14 @@
+{
+  "id": "evd_2026_05_08_filing_ac0e3bedb1",
+  "claimId": "claim_2026_05_08_filing_ac0e3bedb1",
+  "rawArtifactId": "raw_2026_05_08_static_cninfo_com_cn_f62d08154f",
+  "sourceId": "src_static_cninfo_com_cn_f62d08154f",
+  "ruleOutputId": "rout_2026_05_08_filing_material_v0_ef28977590",
+  "relation": "mentions",
+  "sourceLevel": "A",
+  "strength": "medium",
+  "quote": "美股公告：表格S-3",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "assessedAt": "2026-07-23T09:51:12+08:00",
+  "notes": "Disclosure material mentions a candidate fact. Review required."
+}

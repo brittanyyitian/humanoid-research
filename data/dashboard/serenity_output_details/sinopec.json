@@ -1,0 +1,1056 @@
+{
+  "id": "saout_sinopec_092f2fe0735e",
+  "entityId": "sinopec",
+  "name": "中国石化",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/sinopec.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "中国石化 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+      "中国石化的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查中国石化的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘中国石化值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "炼化与销售",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600028.SH",
+      "name": "中国石化",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 5.29,
+        "previousClose": 5.329974811083123,
+        "changePct": -0.7499999999999973,
+        "high": 5.23,
+        "low": 5.16,
+        "open": 5.18,
+        "volume": 1230737,
+        "turnover": 639354720,
+        "turnoverText": "8.95亿",
+        "currency": "CNY",
+        "asOf": "20260827161443",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 56.18,
+        "technicalTimingScore": 64,
+        "marketPayoffScore": 59.16,
+        "dataReadinessScore": 100,
+        "type": "适合买入候选",
+        "currentAction": "继续确认下一份正式披露没有削弱财务和业务判断。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 70,
+        "evidenceScore": 83,
+        "valuationScore": 66,
+        "timingScore": 64,
+        "riskScore": 59,
+        "decisionReason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "BUY_CANDIDATE",
+          "label": "适合买入候选",
+          "researchRating": "B",
+          "overallScore": 68.63,
+          "fundamentalScore": 72.25,
+          "companyScore": 70,
+          "evidenceScore": 83,
+          "valuationScore": 66,
+          "timingScore": 64,
+          "riskScore": 59,
+          "reason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+          "nextCondition": "继续确认下一份正式披露没有削弱财务和业务判断。",
+          "metrics": {
+            "pe": 19.7684,
+            "ps": 0.2045,
+            "revenueGrowth": -0.1942,
+            "profitGrowth": 0.2821,
+            "cashConversion": 0.7498,
+            "debtRatio": 0.5589,
+            "return20": 0.0492
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收30745.62亿元，同比-4.29%；归母净利润318.09亿元，同比-36.78%。2026-03-31营收1959.22亿元，较可比期-19.42%；归母净利润170.06亿元，较可比期+28.21%；经营现金流127.51亿元。",
+          "截至3月31日止3个月期间 同比变动 炼油 单位 2026年 2025年 (%) 原油加工量 百万吨 62.02 62.13 (0.2) 汽、柴、煤油产量 百万吨 38.06 37.19 2.3 汽油 百万吨 16.41 16.18 1.4 柴油 百万吨 12.98 12.70 2.2 航煤 百万吨 8.67 8.31 4.3 化工轻油产量 百万吨 9.90 11.33 (12.6) 注：境内合资公司的产量按100%口径统计。",
+          "截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。",
+          "2026-08-26复权收盘5.33元，高于20日平均成本5.11元；60日平均成本5元，近20个交易日涨跌+4.92%。"
+        ],
+        "possible": [
+          "中国石化当前财务信号为：公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。",
+          "中国石化当前业务信号为：这条原文直接说明油气产量、销量、服务订单、成本或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+          "中国石化当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 59.16,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.18/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 64,
+        "dailyBuyPointScore": 2.85,
+        "dmaAlignmentScore": 3.85,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 6.22,
+            "volume": 4759634,
+            "average20": 6.596,
+            "average60": 6.17
+          },
+          {
+            "date": "2026-03-16",
+            "close": 6.22,
+            "volume": 2864215,
+            "average20": 6.588,
+            "average60": 6.178
+          },
+          {
+            "date": "2026-03-17",
+            "close": 6.14,
+            "volume": 3162492,
+            "average20": 6.575,
+            "average60": 6.185
+          },
+          {
+            "date": "2026-03-18",
+            "close": 6.01,
+            "volume": 3138345,
+            "average20": 6.558,
+            "average60": 6.19
+          },
+          {
+            "date": "2026-03-19",
+            "close": 6.17,
+            "volume": 4115497,
+            "average20": 6.545,
+            "average60": 6.198
+          },
+          {
+            "date": "2026-03-20",
+            "close": 5.97,
+            "volume": 2897698,
+            "average20": 6.519,
+            "average60": 6.203
+          },
+          {
+            "date": "2026-03-23",
+            "close": 5.93,
+            "volume": 3373414,
+            "average20": 6.503,
+            "average60": 6.206
+          },
+          {
+            "date": "2026-03-24",
+            "close": 5.83,
+            "volume": 2569822,
+            "average20": 6.471,
+            "average60": 6.206
+          },
+          {
+            "date": "2026-03-25",
+            "close": 5.81,
+            "volume": 2533932,
+            "average20": 6.441,
+            "average60": 6.207
+          },
+          {
+            "date": "2026-03-26",
+            "close": 5.77,
+            "volume": 2200198,
+            "average20": 6.41,
+            "average60": 6.207
+          },
+          {
+            "date": "2026-03-27",
+            "close": 5.79,
+            "volume": 1928072,
+            "average20": 6.382,
+            "average60": 6.207
+          },
+          {
+            "date": "2026-03-30",
+            "close": 5.86,
+            "volume": 2073171,
+            "average20": 6.325,
+            "average60": 6.208
+          },
+          {
+            "date": "2026-03-31",
+            "close": 5.77,
+            "volume": 1735746,
+            "average20": 6.228,
+            "average60": 6.208
+          },
+          {
+            "date": "2026-04-01",
+            "close": 5.78,
+            "volume": 1687393,
+            "average20": 6.152,
+            "average60": 6.21
+          },
+          {
+            "date": "2026-04-02",
+            "close": 5.84,
+            "volume": 2051261,
+            "average20": 6.099,
+            "average60": 6.209
+          },
+          {
+            "date": "2026-04-03",
+            "close": 5.75,
+            "volume": 1584405,
+            "average20": 6.048,
+            "average60": 6.204
+          },
+          {
+            "date": "2026-04-07",
+            "close": 5.8,
+            "volume": 1583034,
+            "average20": 5.993,
+            "average60": 6.199
+          },
+          {
+            "date": "2026-04-08",
+            "close": 5.78,
+            "volume": 2263629,
+            "average20": 5.96,
+            "average60": 6.196
+          },
+          {
+            "date": "2026-04-09",
+            "close": 5.73,
+            "volume": 1679238,
+            "average20": 5.926,
+            "average60": 6.19
+          },
+          {
+            "date": "2026-04-10",
+            "close": 5.7,
+            "volume": 1297269,
+            "average20": 5.894,
+            "average60": 6.185
+          },
+          {
+            "date": "2026-04-13",
+            "close": 5.72,
+            "volume": 1741050,
+            "average20": 5.869,
+            "average60": 6.181
+          },
+          {
+            "date": "2026-04-14",
+            "close": 5.67,
+            "volume": 1350357,
+            "average20": 5.841,
+            "average60": 6.175
+          },
+          {
+            "date": "2026-04-15",
+            "close": 5.58,
+            "volume": 1878195,
+            "average20": 5.813,
+            "average60": 6.17
+          },
+          {
+            "date": "2026-04-16",
+            "close": 5.55,
+            "volume": 1496254,
+            "average20": 5.79,
+            "average60": 6.165
+          },
+          {
+            "date": "2026-04-17",
+            "close": 5.45,
+            "volume": 2154576,
+            "average20": 5.754,
+            "average60": 6.158
+          },
+          {
+            "date": "2026-04-20",
+            "close": 5.42,
+            "volume": 2352067,
+            "average20": 5.727,
+            "average60": 6.151
+          },
+          {
+            "date": "2026-04-21",
+            "close": 5.39,
+            "volume": 1924090,
+            "average20": 5.7,
+            "average60": 6.146
+          },
+          {
+            "date": "2026-04-22",
+            "close": 5.33,
+            "volume": 2416561,
+            "average20": 5.675,
+            "average60": 6.138
+          },
+          {
+            "date": "2026-04-23",
+            "close": 5.34,
+            "volume": 3524466,
+            "average20": 5.651,
+            "average60": 6.128
+          },
+          {
+            "date": "2026-04-24",
+            "close": 5.28,
+            "volume": 2351043,
+            "average20": 5.627,
+            "average60": 6.119
+          },
+          {
+            "date": "2026-04-27",
+            "close": 5.23,
+            "volume": 2104441,
+            "average20": 5.599,
+            "average60": 6.104
+          },
+          {
+            "date": "2026-04-28",
+            "close": 5.24,
+            "volume": 3426197,
+            "average20": 5.568,
+            "average60": 6.091
+          },
+          {
+            "date": "2026-04-29",
+            "close": 5.31,
+            "volume": 7735192,
+            "average20": 5.545,
+            "average60": 6.075
+          },
+          {
+            "date": "2026-04-30",
+            "close": 5.28,
+            "volume": 3246549,
+            "average20": 5.519,
+            "average60": 6.059
+          },
+          {
+            "date": "2026-05-06",
+            "close": 5.26,
+            "volume": 3381194,
+            "average20": 5.491,
+            "average60": 6.041
+          },
+          {
+            "date": "2026-05-07",
+            "close": 5.16,
+            "volume": 3556190,
+            "average20": 5.461,
+            "average60": 6.022
+          },
+          {
+            "date": "2026-05-08",
+            "close": 5.11,
+            "volume": 3440561,
+            "average20": 5.426,
+            "average60": 6
+          },
+          {
+            "date": "2026-05-11",
+            "close": 5.1,
+            "volume": 3320028,
+            "average20": 5.393,
+            "average60": 5.981
+          },
+          {
+            "date": "2026-05-12",
+            "close": 5.09,
+            "volume": 2695961,
+            "average20": 5.361,
+            "average60": 5.963
+          },
+          {
+            "date": "2026-05-13",
+            "close": 5.06,
+            "volume": 2381021,
+            "average20": 5.329,
+            "average60": 5.94
+          },
+          {
+            "date": "2026-05-14",
+            "close": 5.04,
+            "volume": 3340500,
+            "average20": 5.295,
+            "average60": 5.92
+          },
+          {
+            "date": "2026-05-15",
+            "close": 5.02,
+            "volume": 2813431,
+            "average20": 5.262,
+            "average60": 5.897
+          },
+          {
+            "date": "2026-05-18",
+            "close": 5.03,
+            "volume": 1940929,
+            "average20": 5.235,
+            "average60": 5.874
+          },
+          {
+            "date": "2026-05-19",
+            "close": 5.02,
+            "volume": 1698525,
+            "average20": 5.208,
+            "average60": 5.852
+          },
+          {
+            "date": "2026-05-20",
+            "close": 4.99,
+            "volume": 1795445,
+            "average20": 5.185,
+            "average60": 5.828
+          },
+          {
+            "date": "2026-05-21",
+            "close": 4.92,
+            "volume": 2526287,
+            "average20": 5.16,
+            "average60": 5.802
+          },
+          {
+            "date": "2026-05-22",
+            "close": 4.85,
+            "volume": 2612370,
+            "average20": 5.133,
+            "average60": 5.778
+          },
+          {
+            "date": "2026-05-25",
+            "close": 4.81,
+            "volume": 2009776,
+            "average20": 5.107,
+            "average60": 5.751
+          },
+          {
+            "date": "2026-05-26",
+            "close": 4.76,
+            "volume": 3243078,
+            "average20": 5.078,
+            "average60": 5.723
+          },
+          {
+            "date": "2026-05-27",
+            "close": 4.72,
+            "volume": 3725643,
+            "average20": 5.05,
+            "average60": 5.696
+          },
+          {
+            "date": "2026-05-28",
+            "close": 4.7,
+            "volume": 2810687,
+            "average20": 5.024,
+            "average60": 5.668
+          },
+          {
+            "date": "2026-05-29",
+            "close": 4.74,
+            "volume": 3306658,
+            "average20": 4.998,
+            "average60": 5.63
+          },
+          {
+            "date": "2026-06-01",
+            "close": 4.76,
+            "volume": 3492353,
+            "average20": 4.971,
+            "average60": 5.581
+          },
+          {
+            "date": "2026-06-02",
+            "close": 4.71,
+            "volume": 4012504,
+            "average20": 4.943,
+            "average60": 5.538
+          },
+          {
+            "date": "2026-06-03",
+            "close": 4.75,
+            "volume": 3466481,
+            "average20": 4.917,
+            "average60": 5.502
+          },
+          {
+            "date": "2026-06-04",
+            "close": 4.71,
+            "volume": 2332991,
+            "average20": 4.894,
+            "average60": 5.468
+          },
+          {
+            "date": "2026-06-05",
+            "close": 4.78,
+            "volume": 3796464,
+            "average20": 4.878,
+            "average60": 5.432
+          },
+          {
+            "date": "2026-06-08",
+            "close": 4.79,
+            "volume": 3176164,
+            "average20": 4.862,
+            "average60": 5.405
+          },
+          {
+            "date": "2026-06-09",
+            "close": 4.68,
+            "volume": 3094855,
+            "average20": 4.842,
+            "average60": 5.376
+          },
+          {
+            "date": "2026-06-10",
+            "close": 4.67,
+            "volume": 1751382,
+            "average20": 4.822,
+            "average60": 5.348
+          },
+          {
+            "date": "2026-06-11",
+            "close": 4.68,
+            "volume": 2065872,
+            "average20": 4.804,
+            "average60": 5.322
+          },
+          {
+            "date": "2026-06-12",
+            "close": 4.83,
+            "volume": 4880591,
+            "average20": 4.795,
+            "average60": 5.299
+          },
+          {
+            "date": "2026-06-15",
+            "close": 4.88,
+            "volume": 3953025,
+            "average20": 4.787,
+            "average60": 5.278
+          },
+          {
+            "date": "2026-06-16",
+            "close": 4.86,
+            "volume": 2444511,
+            "average20": 4.78,
+            "average60": 5.259
+          },
+          {
+            "date": "2026-06-17",
+            "close": 4.85,
+            "volume": 2196326,
+            "average20": 4.772,
+            "average60": 5.237
+          },
+          {
+            "date": "2026-06-18",
+            "close": 4.71,
+            "volume": 2326923,
+            "average20": 4.762,
+            "average60": 5.216
+          },
+          {
+            "date": "2026-06-22",
+            "close": 4.77,
+            "volume": 2582188,
+            "average20": 4.758,
+            "average60": 5.197
+          },
+          {
+            "date": "2026-06-23",
+            "close": 4.73,
+            "volume": 2988521,
+            "average20": 4.754,
+            "average60": 5.179
+          },
+          {
+            "date": "2026-06-24",
+            "close": 4.66,
+            "volume": 2480415,
+            "average20": 4.749,
+            "average60": 5.159
+          },
+          {
+            "date": "2026-06-25",
+            "close": 4.55,
+            "volume": 2746874,
+            "average20": 4.74,
+            "average60": 5.139
+          },
+          {
+            "date": "2026-06-26",
+            "close": 4.52,
+            "volume": 2706827,
+            "average20": 4.731,
+            "average60": 5.118
+          },
+          {
+            "date": "2026-06-29",
+            "close": 4.61,
+            "volume": 2637345,
+            "average20": 4.725,
+            "average60": 5.097
+          },
+          {
+            "date": "2026-06-30",
+            "close": 4.46,
+            "volume": 2603813,
+            "average20": 4.71,
+            "average60": 5.075
+          },
+          {
+            "date": "2026-07-01",
+            "close": 4.54,
+            "volume": 2525594,
+            "average20": 4.702,
+            "average60": 5.055
+          },
+          {
+            "date": "2026-07-02",
+            "close": 4.6,
+            "volume": 2453059,
+            "average20": 4.694,
+            "average60": 5.034
+          },
+          {
+            "date": "2026-07-03",
+            "close": 4.7,
+            "volume": 2922120,
+            "average20": 4.693,
+            "average60": 5.016
+          },
+          {
+            "date": "2026-07-06",
+            "close": 4.82,
+            "volume": 2906756,
+            "average20": 4.696,
+            "average60": 5
+          },
+          {
+            "date": "2026-07-07",
+            "close": 4.8,
+            "volume": 2460314,
+            "average20": 4.696,
+            "average60": 4.984
+          },
+          {
+            "date": "2026-07-08",
+            "close": 4.83,
+            "volume": 2455726,
+            "average20": 4.704,
+            "average60": 4.969
+          },
+          {
+            "date": "2026-07-09",
+            "close": 4.81,
+            "volume": 2171522,
+            "average20": 4.71,
+            "average60": 4.954
+          },
+          {
+            "date": "2026-07-10",
+            "close": 4.76,
+            "volume": 2289776,
+            "average20": 4.715,
+            "average60": 4.938
+          },
+          {
+            "date": "2026-07-13",
+            "close": 4.88,
+            "volume": 3563080,
+            "average20": 4.717,
+            "average60": 4.925
+          },
+          {
+            "date": "2026-07-14",
+            "close": 5.03,
+            "volume": 4273503,
+            "average20": 4.725,
+            "average60": 4.915
+          },
+          {
+            "date": "2026-07-15",
+            "close": 5.03,
+            "volume": 2830802,
+            "average20": 4.733,
+            "average60": 4.907
+          },
+          {
+            "date": "2026-07-16",
+            "close": 4.99,
+            "volume": 2226292,
+            "average20": 4.74,
+            "average60": 4.899
+          },
+          {
+            "date": "2026-07-17",
+            "close": 5.03,
+            "volume": 3415982,
+            "average20": 4.756,
+            "average60": 4.893
+          },
+          {
+            "date": "2026-07-20",
+            "close": 5.24,
+            "volume": 5358812,
+            "average20": 4.779,
+            "average60": 4.89
+          },
+          {
+            "date": "2026-07-21",
+            "close": 5.12,
+            "volume": 4026139,
+            "average20": 4.799,
+            "average60": 4.887
+          },
+          {
+            "date": "2026-07-22",
+            "close": 5.18,
+            "volume": 3118505,
+            "average20": 4.825,
+            "average60": 4.884
+          },
+          {
+            "date": "2026-07-23",
+            "close": 5.2,
+            "volume": 1230737,
+            "average20": 4.857,
+            "average60": 4.883
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 4.86 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 4.70，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 5.29,
+            "recentAverage": 4.857,
+            "longerAverage": 4.883,
+            "recentHigh": 5.24,
+            "recentLow": 4.7
+          }
+        }
+      },
+      "risk": [
+        "截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。",
+        "若下一期现金流明显落后于利润，中国石化的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，中国石化需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查中国石化的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘中国石化值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收1959.22亿元，较可比期-19.42%；归母净利润170.06亿元，较可比期+28.21%；经营现金流127.51亿元。",
+            "截至3月31日止3个月期间 同比变动 炼油 单位 2026年 2025年 (%) 原油加工量 百万吨 62.02 62.13 (0.2) 汽、柴、煤油产量 百万吨 38.06 37.19 2.3 汽油 百万吨 16.41 16.18 1.4 柴油 百万吨 12.98 12.70 2.2 航煤 百万吨 8.67 8.31 4.3 化工轻油产量 百万吨 9.90 11.33 (12.6) 注：境内合资公司的产量按100%口径统计。"
+          ]
+        },
+        "upside": {
+          "summary": "中国石化的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "油气产量、销量、服务订单、成本或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "中国石化的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本5元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "油气产量、销量、服务订单、成本或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。继续恶化，或价格跌破60日平均成本5元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "油气产量、销量、服务订单、成本或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "中国石化的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收30745.62亿元，同比-4.29%；归母净利润318.09亿元，同比-36.78%。2026-03-31营收1959.22亿元，较可比期-19.42%；归母净利润170.06亿元，较可比期+28.21%；经营现金流127.51亿元。",
+            "reason": "中国石化当前财务信号为：公司整体经营仍可跟踪，但还没有形成连续、同方向的改善。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225235941.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "截至3月31日止3个月期间 同比变动 炼油 单位 2026年 2025年 (%) 原油加工量 百万吨 62.02 62.13 (0.2) 汽、柴、煤油产量 百万吨 38.06 37.19 2.3 汽油 百万吨 16.41 16.18 1.4 柴油 百万吨 12.98 12.70 2.2 航煤 百万吨 8.67 8.31 4.3 化工轻油产量 百万吨 9.90 11.33 (12.6) 注：境内合资公司的产量按100%口径统计。",
+            "reason": "中国石化当前业务信号为：这条原文直接说明油气产量、销量、服务订单、成本或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225235941.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225235941.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘5.33元，高于20日平均成本5.11元；60日平均成本5元，近20个交易日涨跌+4.92%。",
+            "reason": "中国石化当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收1959.22亿元，较可比期-19.42%；归母净利润170.06亿元，较可比期+28.21%；经营现金流127.51亿元。截至3月31日止3个月期间 同比变动 炼油 单位 2026年 2025年 (%) 原油加工量 百万吨 62.02 62.13 (0.2) 汽、柴、煤油产量 百万吨 38.06 37.19 2.3 汽油 百万吨 16.41 16.18 1.4 柴油 百万吨 12.98 12.70 2.2 航煤 百万吨 8.67 8.31 4.3 化工轻油产量 百万吨 9.90 11.33 (12.6) 注：境内合资公司的产量按100%口径统计。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本5.11元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收30745.62亿元，同比-4.29%；归母净利润318.09亿元，同比-36.78%。2026-03-31营收1959.22亿元，较可比期-19.42%；归母净利润170.06亿元，较可比期+28.21%；经营现金流127.51亿元。",
+          "截至3月31日止3个月期间 同比变动 炼油 单位 2026年 2025年 (%) 原油加工量 百万吨 62.02 62.13 (0.2) 汽、柴、煤油产量 百万吨 38.06 37.19 2.3 汽油 百万吨 16.41 16.18 1.4 柴油 百万吨 12.98 12.70 2.2 航煤 百万吨 8.67 8.31 4.3 化工轻油产量 百万吨 9.90 11.33 (12.6) 注：境内合资公司的产量按100%口径统计。",
+          "截至3月31日止3个月期间 同比变动 勘探及开发 单位 2026年 2025年 (%) 油气产量 百万桶油当量 131.49 130.97 0.4 原油产量 百万桶 69.80 69.53 0.4 中国 百万桶 63.41 62.81 1.0 境外 百万桶 6.39 6.72 (4.9) 天然气产量 十亿立方英尺 370.00 368.43 0.4 原油实现价格 美元/桶 71.69 71.50 0.3 天然气实现价格1 元/立方米 2.13 2.38 (10.5) 注1：勘探及开发事业部销售天然气的平均实现价格，包括自产天然气、LNG等。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查中国石化的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘中国石化值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 5.29,
+    "previousClose": 5.329974811083123,
+    "changePct": -0.7499999999999973,
+    "high": 5.23,
+    "low": 5.16,
+    "open": 5.18,
+    "volume": 1230737,
+    "turnover": 639354720,
+    "turnoverText": "8.95亿",
+    "currency": "CNY",
+    "asOf": "20260827161443",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 5.29,
+    "changePct": -0.75,
+    "turnoverText": "8.95亿",
+    "turnoverRate": 0.18,
+    "totalMarketCap": "6396.96亿",
+    "floatMarketCap": "5012.41亿",
+    "fiveDayChangePct": 2.92,
+    "twentyDayChangePct": 0.38,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161443",
+    "asOf": "20260827161443",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161443",
+    "latestAsOf": "20260827161443",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.89,
+    "evidence_confidence_score": 77.6,
+    "market_payoff_score": 59.16,
+    "technical_timing_score": 64,
+    "data_readiness_score": 100,
+    "action_readiness_score": 75.8,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 68,
+        "average_rating": 3.4,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 2.4,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 59.16,
+        "average_rating": 2.96,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 2.64,
+          "upside_downside": 2.65,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.1
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 64,
+        "average_rating": 3.2,
+        "details": {
+          "monthly_trend": 2.6,
+          "weekly_structure": 3.45,
+          "daily_buy_point": 2.85,
+          "gf_dma_alignment": 3.85,
+          "drawdown_position": 3.25
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "炼化与销售处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量和销量、成本变化和现金流兑现。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 14.3%，近60日涨跌 -1.5%。",
+        "missing_proof": "产量和销量 / 成本变化 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "产量或销量没有增长，成本却持续上升。",
+      "油价变化没有转成利润和现金流改善。",
+      "资本开支增加，但储量、产量或项目回报没有兑现。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

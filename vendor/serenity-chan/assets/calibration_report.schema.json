@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Calibration Report",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "ledger_path",
+    "summary",
+    "confidence_policy"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_calibration_report" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "ledger_path": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "object",
+      "required": [
+        "forecast_count",
+        "claim_count",
+        "resolved_claim_count",
+        "avg_final_brier",
+        "avg_initial_brier"
+      ],
+      "properties": {
+        "forecast_count": { "type": "integer", "minimum": 0 },
+        "claim_count": { "type": "integer", "minimum": 0 },
+        "resolved_claim_count": { "type": "integer", "minimum": 0 },
+        "avg_final_brier": { "type": ["number", "null"] },
+        "avg_initial_brier": { "type": ["number", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "confidence_policy": {
+      "type": "object",
+      "required": ["status", "decision"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["INSUFFICIENT_HISTORY", "WELL_CALIBRATED", "WATCH", "TIGHTEN_EVIDENCE_BAR"]
+        },
+        "decision": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

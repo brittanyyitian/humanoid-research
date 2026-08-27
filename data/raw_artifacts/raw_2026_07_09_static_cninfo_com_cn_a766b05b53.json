@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_09_static_cninfo_com_cn_a766b05b53",
+  "artifactType": "filing",
+  "title": "港股公告：证券变动月报表",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415345.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a766b05b53",
+  "fetchRunId": "fetch_2026_07_09_static_cninfo_com_cn_a766b05b53",
+  "publishedAt": "2026-07-09",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:14e595f8d8758a85525052d8d5ab8f3b15063685c67faaf580bc164508f0c372",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_a766b05b53.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_a97d5fd217"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d1a3e2b8940320f4; listSourceId=src_cninfo_688235_announcements."
+}

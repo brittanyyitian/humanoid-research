@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_04904d332c",
+  "artifactType": "filing",
+  "title": "沪硅产业关于拟减持其他权益工具投资的公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225114305.PDF",
+  "sourceId": "src_static_cninfo_com_cn_04904d332c",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_04904d332c",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dbf84bbf6a049315d02be255e8e53d78d999855753db470f5937b42bd3e92ac4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_04904d332c.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_1973a297f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fbd9f45652f810c9; listSourceId=src_cninfo_688126_announcements."
+}

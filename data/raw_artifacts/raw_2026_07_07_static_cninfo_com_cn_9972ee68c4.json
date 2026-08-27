@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_07_static_cninfo_com_cn_9972ee68c4",
+  "artifactType": "filing",
+  "title": "关于控股股东、实际控制人部分股份质押的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225413106.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9972ee68c4",
+  "fetchRunId": "fetch_2026_07_07_static_cninfo_com_cn_9972ee68c4",
+  "publishedAt": "2026-07-07",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:93439661176870bc9a18e2ee8d3ad5f1af23b53b983dc41be14916a17887b82d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_9972ee68c4.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_07_07_filing_b1417a8173"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_28f7b134cce1a7e4; listSourceId=src_cninfo_301413_announcements."
+}

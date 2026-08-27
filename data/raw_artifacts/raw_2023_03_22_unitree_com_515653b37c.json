@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_03_22_unitree_com_515653b37c",
+  "artifactType": "news_page",
+  "title": "宇树发布Unitree Pump健身泵，再次新创全球全新行业！",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/18",
+  "sourceId": "src_unitree_com_515653b37c",
+  "fetchRunId": "fetch_2023_03_22_unitree_com_515653b37c",
+  "publishedAt": "2023-03-22",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:ff31dc35fbade34a759e818177dd4d0f9de21507d7cd593a5f62fb5735795c78",
+  "storagePath": "raw_artifacts/payloads/raw_2023_03_22_unitree_com_515653b37c.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_03_22_product_release_fd3667145c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_67620a7a2ecb3212; listSourceId=src_unitree_official_news."
+}

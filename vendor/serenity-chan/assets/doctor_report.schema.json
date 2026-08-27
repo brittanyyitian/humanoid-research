@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Doctor Report",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "status",
+    "checks",
+    "capabilities",
+    "recommended_actions"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_doctor_report" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "enum": ["PASS", "WARN", "FAIL"] },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "status", "message"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "enum": ["PASS", "WARN", "FAIL", "SKIP"] },
+          "message": { "type": "string", "minLength": 1 },
+          "details": { "type": "object" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "required": ["real_data_fetch", "pdf_financial_extraction", "sec_edgar", "persistent_audit_bundle"],
+      "properties": {
+        "real_data_fetch": { "type": "boolean" },
+        "pdf_financial_extraction": { "type": "boolean" },
+        "sec_edgar": { "type": "boolean" },
+        "persistent_audit_bundle": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "recommended_actions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "additionalProperties": false
+}

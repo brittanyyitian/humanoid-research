@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_30_static_cninfo_com_cn_373f3b70bb",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223424311.PDF",
+  "sourceId": "src_static_cninfo_com_cn_373f3b70bb",
+  "fetchRunId": "fetch_2025_04_30_static_cninfo_com_cn_373f3b70bb",
+  "publishedAt": "2025-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:6c6a10e1eb932c6e5e6f612ba7ccd985b79690132f16fdd5f0277b054471640b",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_30_static_cninfo_com_cn_373f3b70bb.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2025_04_30_filing_35e29cb194"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0c6257fa9fbf1f88; listSourceId=src_cninfo_688206_announcements."
+}

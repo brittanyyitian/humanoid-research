@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_81c2d59b79",
+  "artifactType": "filing",
+  "title": "关于召开2026年第一次临时股东会的通知",
+  "publisher": "步科股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503293.PDF",
+  "sourceId": "src_static_cninfo_com_cn_81c2d59b79",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_81c2d59b79",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:41d4cf7a76f2b72983535f04b3bed87fa0030b55a773c71a0142a7c4a2ea05fc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_81c2d59b79.json",
+  "entityIds": [
+    "kinco"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_ef4de92f72"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_23aa99dcf2569ee6; listSourceId=src_cninfo_688160_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_24_static_cninfo_com_cn_9b7006ccb6",
+  "artifactType": "filing",
+  "title": "2026年上半年生产经营业绩提示性公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225438347.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9b7006ccb6",
+  "fetchRunId": "fetch_2026_07_24_static_cninfo_com_cn_9b7006ccb6",
+  "publishedAt": "2026-07-24",
+  "firstSeenAt": "2026-07-24T16:16:20+08:00",
+  "capturedAt": "2026-07-24T16:16:20+08:00",
+  "contentHash": "sha256:cd73fc8721ecba2f0f14bd203fd3ff3be7b6a16bc40fec040e2d9ce90494f54d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_9b7006ccb6.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_9731cd8102"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1cebd01ce46f7e05; listSourceId=src_cninfo_600028_announcements."
+}

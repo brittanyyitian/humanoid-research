@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_06_17_static_cninfo_com_cn_ec20e8bc6b",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "汉威科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:36+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_17_static_cninfo_com_cn_ec20e8bc6b"
+  ],
+  "claimIds": [
+    "claim_2026_06_17_filing_783d5423f9"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-17/1225375384.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:89e2c3c4b42a26c2cf29b3ceb50171bf671634803a755254637c900e4bf1b350",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_17_static_cninfo_com_cn_ec20e8bc6b.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:36+08:00",
+      "finishedAt": "2026-07-15T11:30:36+08:00",
+      "contentHash": "sha256:26f953d19f2ac7836c991148fec36a889018ef04fe99e221a9a189ca79a53336",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_17_static_cninfo_com_cn_ec20e8bc6b.json"
+    }
+  ]
+}

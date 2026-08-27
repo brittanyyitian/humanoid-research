@@ -1,0 +1,142 @@
+{
+  "id": "saout_taiji_industry_713fbfa2e7c0",
+  "entityId": "taiji_industry",
+  "name": "太极实业",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "    \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 36.6,\n      \"average_rating\": 1.83,\n      \"details\": {\n        \"monthly_trend\": 3.5,\n        \"weekly_structure\": 2.1,\n        \"daily_buy_point\": 0.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.8\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"晶圆制造服务与工程处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -34.6%，近60日涨跌 71.1%；客户或订单证据 0 条直接、1 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600667.SH",
+    "symbol": "600667"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_27_static_cninfo_com_cn_0c500ab30f",
+      "raw_2026_08_27_static_cninfo_com_cn_140cc70419",
+      "raw_2026_04_24_static_cninfo_com_cn_cfb9da9e38",
+      "raw_2026_04_24_static_cninfo_com_cn_e64b62445d",
+      "raw_2025_08_29_static_cninfo_com_cn_82ddd4a02f",
+      "raw_2025_08_29_static_cninfo_com_cn_8e855b8d21",
+      "raw_2025_04_26_static_cninfo_com_cn_7d67cf606a",
+      "raw_2025_04_26_static_cninfo_com_cn_250551bc88"
+    ],
+    "claimIds": [
+      "claim_2026_08_27_filing_9ee1d840b3",
+      "claim_2026_08_27_filing_4d339b3a34",
+      "claim_2026_04_24_filing_6011be1e42",
+      "claim_2026_04_24_filing_94a38727f5",
+      "claim_2025_08_29_filing_f1f71a21de",
+      "claim_2025_08_29_filing_f49d3a3535",
+      "claim_2025_04_26_filing_c4f44b3295",
+      "claim_2025_04_26_filing_7bd1192469",
+      "claim_2026_07_18_filing_65df945b1c",
+      "claim_2026_07_18_filing_30b8498cc4",
+      "claim_2026_06_26_filing_caf884a602",
+      "claim_2026_06_19_filing_1fef633e7e",
+      "claim_2026_05_16_filing_ca9d0444dc",
+      "claim_2026_04_24_filing_14bb517a6b",
+      "claim_2026_08_27_filing_c492b972c1",
+      "claim_2026_08_27_filing_56afcdc5f4",
+      "claim_2026_08_14_filing_6844065822",
+      "claim_2026_08_12_filing_b129bb9bd0",
+      "claim_2026_06_18_filing_f608f9281b",
+      "claim_2026_06_05_filing_6bde0bd562"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/data/600667/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "太极实业 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 56.56/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/data/600667/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 600667.SH (太极实业)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **56.56 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 64.96 |\n| Technical timing | 36.6 |\n| Data readiness | 100.0 |\n| Action readiness | 63.47 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 后续财报仍看不到核心产品收入、客户验证或份额提升。\n- 研发和扩产投入增加，但订单、收入与现金流没有同步改善。\n- 行业景气回落，价格或库存变化削弱原来的增长判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

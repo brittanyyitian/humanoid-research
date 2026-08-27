@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_e26514b59b23",
+  "rawArtifactId": "raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b",
+  "routeDecisionId": "route_2025_03_29_d79abe0baa27",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "avic_jonhon",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:56:01+08:00",
+  "updatedAt": "2026-07-23T09:56:18+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:56:18+08:00",
+  "finishedAt": "2026-07-23T09:56:18+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2025_03_29_filing_d8f5d3c37c"
+  ],
+  "evidenceIds": [
+    "evd_2025_03_29_filing_d8f5d3c37c"
+  ],
+  "ruleOutputIds": [
+    "rout_2025_03_29_filing_material_v0_a2b84b92b9"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_db0f070365db"
+  ]
+}

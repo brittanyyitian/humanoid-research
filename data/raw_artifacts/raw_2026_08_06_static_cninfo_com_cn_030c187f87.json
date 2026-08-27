@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_06_static_cninfo_com_cn_030c187f87",
+  "artifactType": "filing",
+  "title": "港股公告：百济神州有限公司截至2026年6月30日止三个月及六个月未经审核业绩以及业务进展最新情况",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-06/1225460337.PDF",
+  "sourceId": "src_static_cninfo_com_cn_030c187f87",
+  "fetchRunId": "fetch_2026_08_06_static_cninfo_com_cn_030c187f87",
+  "publishedAt": "2026-08-06",
+  "firstSeenAt": "2026-08-06T16:16:34+08:00",
+  "capturedAt": "2026-08-06T16:16:34+08:00",
+  "contentHash": "sha256:496aa97eadb0de58a450b9121e4dd263678257d756ca6dfbb3992461de28b66c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_06_static_cninfo_com_cn_030c187f87.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_08_06_filing_f59d64ae3e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6a843e5d28df2f9f; listSourceId=src_cninfo_688235_announcements."
+}

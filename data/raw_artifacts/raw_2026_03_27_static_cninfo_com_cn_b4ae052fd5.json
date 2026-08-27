@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_b4ae052fd5",
+  "artifactType": "filing",
+  "title": "独立董事述职报告（徐学宗）",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036406.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b4ae052fd5",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_b4ae052fd5",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:7dc8ee1972c479b8b7e0255ad25f5ee515b9204bcffc8a94005db5e58946e95a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_b4ae052fd5.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_8c9b0912b8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_27692f6fb56ce857; listSourceId=src_cninfo_002389_announcements."
+}

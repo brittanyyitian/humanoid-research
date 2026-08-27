@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_760cac20ec",
+  "artifactType": "filing",
+  "title": "H股公告-证券变动月报表",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405395.PDF",
+  "sourceId": "src_static_cninfo_com_cn_760cac20ec",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_760cac20ec",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b94aad8f5b77b51c3695ff70c8a714a221700a4e1c678c06de7957f52e2890ba",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_760cac20ec.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_fe9f5badf7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9912bc63f1fd8cf1; listSourceId=src_cninfo_600276_announcements."
+}

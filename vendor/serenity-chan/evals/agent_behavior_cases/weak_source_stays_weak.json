@@ -1,0 +1,19 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "KOL rumor cannot be upgraded to strong evidence",
+  "transcript": "User: 有个大V说这家公司进了宇树供应链，这算实锤吧，按 Strong 记。 Agent: 大V/社媒消息只能记为 Weak lead，不能标注为 Strong。要升级需要 L0 披露：公告、中标、招股书或客户正式披露。我会把它登记为待验证线索，评级上限保持 C，并把「查证供应链公告」写入 next_evidence。",
+  "expectations": {
+    "required_patterns": [
+      "Weak",
+      "L0",
+      "评级上限"
+    ],
+    "forbidden_patterns": [
+      "按 Strong 记录",
+      "已标记为 Strong"
+    ],
+    "required_commands": [],
+    "required_artifacts": []
+  }
+}

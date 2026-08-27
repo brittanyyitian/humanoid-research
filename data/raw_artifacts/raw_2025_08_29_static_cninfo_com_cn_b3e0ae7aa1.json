@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_b3e0ae7aa1",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224607848.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b3e0ae7aa1",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_b3e0ae7aa1",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:0d950aef43a569c2f64a0c3a2f5ece7ee0fb33aa7114f84619767df314d82ec3",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_b3e0ae7aa1.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_813c986ff8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_91c31616727b73e8; listSourceId=src_cninfo_002156_announcements."
+}

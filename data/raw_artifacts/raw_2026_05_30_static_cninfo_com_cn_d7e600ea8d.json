@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_d7e600ea8d",
+  "artifactType": "filing",
+  "title": "关于2025年员工持股计划完成股票购买的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225338812.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d7e600ea8d",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_d7e600ea8d",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:93829bf6dfbe9ecd43fad9e9db0311e77f00b3af2cc956615fa67fbf0f5ad6cd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_d7e600ea8d.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_2ea4f6cef2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e71f8892c55de71f; listSourceId=src_cninfo_002371_announcements."
+}

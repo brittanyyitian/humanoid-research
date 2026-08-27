@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_6031167f17",
+  "artifactType": "filing",
+  "title": "关于收购 Atlas Tin SAS 25%股权的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225400605.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6031167f17",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_6031167f17",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1eb39e47b2ca08d708a0fbdab4d6defd995aa6d1299050a48d52625a975049a7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_6031167f17.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_167126b16c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2da514b7d709c4f8; listSourceId=src_cninfo_000426_announcements."
+}

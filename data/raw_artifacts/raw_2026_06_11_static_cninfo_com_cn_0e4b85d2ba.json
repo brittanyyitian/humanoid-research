@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_11_static_cninfo_com_cn_0e4b85d2ba",
+  "artifactType": "filing",
+  "title": "关于调整第一期员工持股计划管理委员会委员的公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-11/1225364838.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0e4b85d2ba",
+  "fetchRunId": "fetch_2026_06_11_static_cninfo_com_cn_0e4b85d2ba",
+  "publishedAt": "2026-06-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:0adffdadc347ddf99e97ac65f9bc5f528b75129436e2e3f0ce737d46e6e8d7ad",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_11_static_cninfo_com_cn_0e4b85d2ba.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_06_11_filing_f9da9744ea"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ca8668b62e6087ad; listSourceId=src_cninfo_300354_announcements."
+}

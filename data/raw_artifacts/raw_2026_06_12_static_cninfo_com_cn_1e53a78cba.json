@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_12_static_cninfo_com_cn_1e53a78cba",
+  "artifactType": "filing",
+  "title": "关于对外提供财务资助的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-12/1225367787.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1e53a78cba",
+  "fetchRunId": "fetch_2026_06_12_static_cninfo_com_cn_1e53a78cba",
+  "publishedAt": "2026-06-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1b3f90a45a13936f16c4ca2656e6a80a6e165c0e17e14f98a8034402df6fa64c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_12_static_cninfo_com_cn_1e53a78cba.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_7ac0ce911f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_eb01738f0af6d75f; listSourceId=src_cninfo_300164_announcements."
+}

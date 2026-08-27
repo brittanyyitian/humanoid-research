@@ -1,0 +1,14 @@
+{
+  "id": "evd_2026_07_20_filing_9f02b9000e",
+  "claimId": "claim_2026_07_20_filing_9f02b9000e",
+  "rawArtifactId": "raw_2026_07_20_static_cninfo_com_cn_59d057b612",
+  "sourceId": "src_static_cninfo_com_cn_59d057b612",
+  "ruleOutputId": "rout_2026_07_20_filing_material_v0_5ea9bbe1b8",
+  "relation": "mentions",
+  "sourceLevel": "A",
+  "strength": "medium",
+  "quote": "股票交易异常波动公告",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "assessedAt": "2026-07-23T09:31:19+08:00",
+  "notes": "Disclosure material mentions a candidate fact. Review required."
+}

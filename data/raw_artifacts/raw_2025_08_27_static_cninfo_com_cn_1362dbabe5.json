@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_27_static_cninfo_com_cn_1362dbabe5",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2025年半年度报告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224583059.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1362dbabe5",
+  "fetchRunId": "fetch_2025_08_27_static_cninfo_com_cn_1362dbabe5",
+  "publishedAt": "2025-08-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:4e0e560789ac9d0049009de9a8852daa6ddb141d06670123892223e9412e45ca",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_27_static_cninfo_com_cn_1362dbabe5.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2025_08_27_filing_a1f7c25a5a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a76d6fd7a6233ae4; listSourceId=src_cninfo_601899_announcements."
+}

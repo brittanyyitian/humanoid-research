@@ -4,20 +4,17 @@
   "sourceName": "智元机器人官网新闻",
   "sourceType": "manual_link",
   "startedAt": "2026-07-03T16:49:00+08:00",
-  "finishedAt": "2026-07-03T16:50:00+08:00",
-  "status": "manual",
-  "artifactIds": ["raw_2026_06_29_agibot_15000_robots_downline"],
+  "finishedAt": "2026-07-15T11:28:18+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_29_agibot_15000_robots_downline"
+  ],
   "claimIds": [
     "claim_2026_06_29_zhiyuan_15000_downline",
     "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"
   ],
   "error": null,
   "gaps": [
-    {
-      "kind": "raw_payload_not_fetched",
-      "description": "Manual intake captured source metadata only; raw article body was not stored in this run.",
-      "severity": "medium"
-    },
     {
       "kind": "delivery_continuity",
       "description": "官方文章披露第15000台下线和交付对象，但未披露后续累计交付节奏。",
@@ -33,6 +30,14 @@
       "startedAt": "2026-07-03T16:50:00+08:00",
       "finishedAt": "2026-07-03T16:50:00+08:00",
       "contentHash": "sha256:db346b5c498fc14624cad8e8a00bb9a3a07d14133d3cb6f524d5d634d983dad0",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_29_agibot_15000_robots_downline.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:28:18+08:00",
+      "finishedAt": "2026-07-15T11:28:18+08:00",
+      "contentHash": "sha256:0beabd279337fa0b2460149712f896c765a11bb2dedaa3da9b593681c54b430f",
       "storagePath": "raw_artifacts/payloads/raw_2026_06_29_agibot_15000_robots_downline.json"
     }
   ]

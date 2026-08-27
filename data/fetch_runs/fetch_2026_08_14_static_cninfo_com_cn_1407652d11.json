@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_14_static_cninfo_com_cn_1407652d11",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "山东黄金",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-14T16:17:04+08:00",
+  "finishedAt": "2026-08-14T16:17:04+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_14_static_cninfo_com_cn_1407652d11"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_8a8c7556d2"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225471999.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-14T16:17:04+08:00",
+      "finishedAt": "2026-08-14T16:17:04+08:00",
+      "contentHash": "sha256:5a5020626c7df0053bde155ccc8561c365b357b7749eee1d12c979ee6fc1a0b5",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_1407652d11.json"
+    }
+  ]
+}

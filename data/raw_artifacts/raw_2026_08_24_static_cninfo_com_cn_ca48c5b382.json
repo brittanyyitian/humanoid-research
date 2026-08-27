@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_ca48c5b382",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225493838.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ca48c5b382",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_ca48c5b382",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:9b260d79708c158d6dcaecb46dcfbce0292cdfc9821f4e149ebd8ddd77f27aa6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_ca48c5b382.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_6408b6ccd1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f98ec8214d495dce; listSourceId=src_cninfo_600028_announcements."
+}

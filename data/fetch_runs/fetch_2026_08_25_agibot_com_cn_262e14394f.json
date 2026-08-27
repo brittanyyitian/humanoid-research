@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_25_agibot_com_cn_262e14394f",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "智元创新（上海）科技股份有限公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-26T16:18:47+08:00",
+  "finishedAt": "2026-08-26T16:19:51+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_25_agibot_com_cn_262e14394f"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_other_77075462d4"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.agibot.com.cn/article/315/detail/184.html",
+      "status": "metadata_only",
+      "startedAt": "2026-08-26T16:18:47+08:00",
+      "finishedAt": "2026-08-26T16:18:47+08:00",
+      "contentHash": "sha256:b41b89ab3ae72c7e41305956f75b95e7e14aa741a33789dac68cf2e269dd9ce8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_25_agibot_com_cn_262e14394f.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-26T16:19:51+08:00",
+      "finishedAt": "2026-08-26T16:19:51+08:00",
+      "contentHash": "sha256:0ebcaac8cf6bd2b6c6b422398cbdf2ef6d913eb4a2b14355733ffaca0c1db934",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_25_agibot_com_cn_262e14394f.json"
+    }
+  ]
+}

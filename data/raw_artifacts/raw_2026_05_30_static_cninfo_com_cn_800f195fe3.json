@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_800f195fe3",
+  "artifactType": "filing",
+  "title": "关于修订公司章程的公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225340538.PDF",
+  "sourceId": "src_static_cninfo_com_cn_800f195fe3",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_800f195fe3",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b7b6a4cdbeff6bbb49417e44e8c325491ab3e9eb93eba64b26eca6f7ef2e2939",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_800f195fe3.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_2d3c8c1199"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d9cabbe34534947d; listSourceId=src_cninfo_000566_announcements."
+}

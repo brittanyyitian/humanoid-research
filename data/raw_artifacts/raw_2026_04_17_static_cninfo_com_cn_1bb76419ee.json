@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_1bb76419ee",
+  "artifactType": "filing",
+  "title": "沪硅产业2025年年度报告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225114274.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1bb76419ee",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_1bb76419ee",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:64021a7886c5581c46fc2f35a7044f2f4b8eee4ab5a3d85cac0553f90791eba8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_1bb76419ee.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_9e6ab33cee"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_48ab801339200dbc; listSourceId=src_cninfo_688126_announcements."
+}

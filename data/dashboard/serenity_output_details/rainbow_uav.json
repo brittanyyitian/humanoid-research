@@ -1,0 +1,1062 @@
+{
+  "id": "saout_rainbow_uav_1cb6d5a61a8f",
+  "entityId": "rainbow_uav",
+  "name": "航天彩虹",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/rainbow_uav.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "航天彩虹 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+      "航天彩虹的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本18.26元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查航天彩虹的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘航天彩虹保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "无人机整机与系统",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "002389.SZ",
+      "name": "航天彩虹",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 18.09,
+        "previousClose": 17.919762258543834,
+        "changePct": 0.9499999999999975,
+        "high": 17.4,
+        "low": 17.1,
+        "open": 17.12,
+        "volume": 57564,
+        "turnover": 99537375.47,
+        "turnoverText": "2.03亿",
+        "currency": "CNY",
+        "asOf": "20260827161415",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.83,
+        "technicalTimingScore": 27.2,
+        "marketPayoffScore": 61.64,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 44,
+        "evidenceScore": 76,
+        "valuationScore": 24,
+        "timingScore": 27.2,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 39.82,
+          "fundamentalScore": 54.05,
+          "companyScore": 44,
+          "evidenceScore": 76,
+          "valuationScore": 24,
+          "timingScore": 27.2,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 633.7255,
+            "ps": 5.8247,
+            "revenueGrowth": 0.1848,
+            "profitGrowth": -4.2731,
+            "cashConversion": -2.3129,
+            "debtRatio": 0.3075,
+            "return20": -0.0544
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收29.3亿元，同比+14.16%；归母净利润2693.44万元，同比-69.45%。2026-03-31营收3.73亿元，较可比期+18.48%；归母净利润1.01亿元，较可比期-427.31%；经营现金流-2.34亿元。",
+          "2025年度，航天彩虹的营业收入为人民币 293,047.07万元，营业收入总额较上年度增长14.16%。",
+          "由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。",
+          "2026-08-26复权收盘17.92元，低于20日平均成本18.26元；60日平均成本18.09元，近20个交易日涨跌-5.44%。"
+        ],
+        "possible": [
+          "航天彩虹当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "航天彩虹当前业务信号为：这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。",
+          "航天彩虹当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.64,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.83/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 27.2,
+        "dailyBuyPointScore": 2.5,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 23.9,
+            "volume": 461839,
+            "average20": 25.046,
+            "average60": 24.516
+          },
+          {
+            "date": "2026-03-16",
+            "close": 24.41,
+            "volume": 585462,
+            "average20": 25.113,
+            "average60": 24.541
+          },
+          {
+            "date": "2026-03-17",
+            "close": 23.28,
+            "volume": 524671,
+            "average20": 25.092,
+            "average60": 24.551
+          },
+          {
+            "date": "2026-03-18",
+            "close": 23.52,
+            "volume": 297395,
+            "average20": 25.101,
+            "average60": 24.565
+          },
+          {
+            "date": "2026-03-19",
+            "close": 23.37,
+            "volume": 311679,
+            "average20": 25.107,
+            "average60": 24.557
+          },
+          {
+            "date": "2026-03-20",
+            "close": 22.22,
+            "volume": 410453,
+            "average20": 25.05,
+            "average60": 24.518
+          },
+          {
+            "date": "2026-03-23",
+            "close": 20.89,
+            "volume": 383166,
+            "average20": 24.919,
+            "average60": 24.475
+          },
+          {
+            "date": "2026-03-24",
+            "close": 21.64,
+            "volume": 384246,
+            "average20": 24.795,
+            "average60": 24.446
+          },
+          {
+            "date": "2026-03-25",
+            "close": 22.56,
+            "volume": 496741,
+            "average20": 24.713,
+            "average60": 24.427
+          },
+          {
+            "date": "2026-03-26",
+            "close": 21.71,
+            "volume": 311991,
+            "average20": 24.594,
+            "average60": 24.404
+          },
+          {
+            "date": "2026-03-27",
+            "close": 22.14,
+            "volume": 307124,
+            "average20": 24.497,
+            "average60": 24.4
+          },
+          {
+            "date": "2026-03-30",
+            "close": 22.26,
+            "volume": 269294,
+            "average20": 24.286,
+            "average60": 24.389
+          },
+          {
+            "date": "2026-03-31",
+            "close": 21.8,
+            "volume": 267802,
+            "average20": 24.072,
+            "average60": 24.354
+          },
+          {
+            "date": "2026-04-01",
+            "close": 21.76,
+            "volume": 203595,
+            "average20": 23.724,
+            "average60": 24.322
+          },
+          {
+            "date": "2026-04-02",
+            "close": 21.36,
+            "volume": 196369,
+            "average20": 23.33,
+            "average60": 24.283
+          },
+          {
+            "date": "2026-04-03",
+            "close": 20.82,
+            "volume": 201534,
+            "average20": 22.994,
+            "average60": 24.234
+          },
+          {
+            "date": "2026-04-07",
+            "close": 20.89,
+            "volume": 142080,
+            "average20": 22.699,
+            "average60": 24.183
+          },
+          {
+            "date": "2026-04-08",
+            "close": 21.64,
+            "volume": 249560,
+            "average20": 22.497,
+            "average60": 24.14
+          },
+          {
+            "date": "2026-04-09",
+            "close": 21.26,
+            "volume": 175422,
+            "average20": 22.3,
+            "average60": 24.078
+          },
+          {
+            "date": "2026-04-10",
+            "close": 21.42,
+            "volume": 181397,
+            "average20": 22.142,
+            "average60": 24.025
+          },
+          {
+            "date": "2026-04-13",
+            "close": 22.05,
+            "volume": 293800,
+            "average20": 22.05,
+            "average60": 23.965
+          },
+          {
+            "date": "2026-04-14",
+            "close": 22.19,
+            "volume": 259028,
+            "average20": 21.939,
+            "average60": 23.879
+          },
+          {
+            "date": "2026-04-15",
+            "close": 22.2,
+            "volume": 283061,
+            "average20": 21.885,
+            "average60": 23.764
+          },
+          {
+            "date": "2026-04-16",
+            "close": 22.24,
+            "volume": 215950,
+            "average20": 21.821,
+            "average60": 23.698
+          },
+          {
+            "date": "2026-04-17",
+            "close": 22.3,
+            "volume": 191068,
+            "average20": 21.768,
+            "average60": 23.642
+          },
+          {
+            "date": "2026-04-20",
+            "close": 22.58,
+            "volume": 280933,
+            "average20": 21.785,
+            "average60": 23.596
+          },
+          {
+            "date": "2026-04-21",
+            "close": 22.3,
+            "volume": 217336,
+            "average20": 21.856,
+            "average60": 23.548
+          },
+          {
+            "date": "2026-04-22",
+            "close": 22.22,
+            "volume": 162386,
+            "average20": 21.885,
+            "average60": 23.491
+          },
+          {
+            "date": "2026-04-23",
+            "close": 21.91,
+            "volume": 201648,
+            "average20": 21.852,
+            "average60": 23.445
+          },
+          {
+            "date": "2026-04-24",
+            "close": 21.39,
+            "volume": 162135,
+            "average20": 21.837,
+            "average60": 23.396
+          },
+          {
+            "date": "2026-04-27",
+            "close": 22.15,
+            "volume": 232345,
+            "average20": 21.837,
+            "average60": 23.352
+          },
+          {
+            "date": "2026-04-28",
+            "close": 21.19,
+            "volume": 321297,
+            "average20": 21.783,
+            "average60": 23.284
+          },
+          {
+            "date": "2026-04-29",
+            "close": 21.58,
+            "volume": 199808,
+            "average20": 21.773,
+            "average60": 23.242
+          },
+          {
+            "date": "2026-04-30",
+            "close": 21.91,
+            "volume": 214061,
+            "average20": 21.78,
+            "average60": 23.2
+          },
+          {
+            "date": "2026-05-06",
+            "close": 22.3,
+            "volume": 292332,
+            "average20": 21.827,
+            "average60": 23.172
+          },
+          {
+            "date": "2026-05-07",
+            "close": 22.34,
+            "volume": 237239,
+            "average20": 21.903,
+            "average60": 23.151
+          },
+          {
+            "date": "2026-05-08",
+            "close": 22.88,
+            "volume": 421347,
+            "average20": 22.002,
+            "average60": 23.144
+          },
+          {
+            "date": "2026-05-11",
+            "close": 22.68,
+            "volume": 346277,
+            "average20": 22.054,
+            "average60": 23.144
+          },
+          {
+            "date": "2026-05-12",
+            "close": 22.35,
+            "volume": 298136,
+            "average20": 22.109,
+            "average60": 23.127
+          },
+          {
+            "date": "2026-05-13",
+            "close": 22.45,
+            "volume": 202805,
+            "average20": 22.161,
+            "average60": 23.108
+          },
+          {
+            "date": "2026-05-14",
+            "close": 21.48,
+            "volume": 275976,
+            "average20": 22.132,
+            "average60": 23.076
+          },
+          {
+            "date": "2026-05-15",
+            "close": 21.22,
+            "volume": 212765,
+            "average20": 22.084,
+            "average60": 23.045
+          },
+          {
+            "date": "2026-05-18",
+            "close": 21.32,
+            "volume": 150666,
+            "average20": 22.04,
+            "average60": 23.006
+          },
+          {
+            "date": "2026-05-19",
+            "close": 21.56,
+            "volume": 147841,
+            "average20": 22.006,
+            "average60": 22.976
+          },
+          {
+            "date": "2026-05-20",
+            "close": 21.12,
+            "volume": 157878,
+            "average20": 21.947,
+            "average60": 22.94
+          },
+          {
+            "date": "2026-05-21",
+            "close": 20.56,
+            "volume": 209725,
+            "average20": 21.846,
+            "average60": 22.894
+          },
+          {
+            "date": "2026-05-22",
+            "close": 20.36,
+            "volume": 183981,
+            "average20": 21.749,
+            "average60": 22.841
+          },
+          {
+            "date": "2026-05-25",
+            "close": 20.94,
+            "volume": 215120,
+            "average20": 21.685,
+            "average60": 22.788
+          },
+          {
+            "date": "2026-05-26",
+            "close": 20.54,
+            "volume": 173115,
+            "average20": 21.616,
+            "average60": 22.727
+          },
+          {
+            "date": "2026-05-27",
+            "close": 19.61,
+            "volume": 263638,
+            "average20": 21.527,
+            "average60": 22.652
+          },
+          {
+            "date": "2026-05-28",
+            "close": 19.68,
+            "volume": 168227,
+            "average20": 21.404,
+            "average60": 22.579
+          },
+          {
+            "date": "2026-05-29",
+            "close": 19.74,
+            "volume": 237443,
+            "average20": 21.331,
+            "average60": 22.467
+          },
+          {
+            "date": "2026-06-01",
+            "close": 19.75,
+            "volume": 132399,
+            "average20": 21.239,
+            "average60": 22.361
+          },
+          {
+            "date": "2026-06-02",
+            "close": 19.21,
+            "volume": 176378,
+            "average20": 21.104,
+            "average60": 22.203
+          },
+          {
+            "date": "2026-06-03",
+            "close": 19.3,
+            "volume": 143634,
+            "average20": 20.955,
+            "average60": 22.037
+          },
+          {
+            "date": "2026-06-04",
+            "close": 18.9,
+            "volume": 208890,
+            "average20": 20.783,
+            "average60": 21.893
+          },
+          {
+            "date": "2026-06-05",
+            "close": 18.93,
+            "volume": 163506,
+            "average20": 20.585,
+            "average60": 21.762
+          },
+          {
+            "date": "2026-06-08",
+            "close": 18.5,
+            "volume": 177599,
+            "average20": 20.376,
+            "average60": 21.642
+          },
+          {
+            "date": "2026-06-09",
+            "close": 18.36,
+            "volume": 163752,
+            "average20": 20.176,
+            "average60": 21.529
+          },
+          {
+            "date": "2026-06-10",
+            "close": 18.21,
+            "volume": 160547,
+            "average20": 19.964,
+            "average60": 21.422
+          },
+          {
+            "date": "2026-06-11",
+            "close": 18.17,
+            "volume": 136339,
+            "average20": 19.799,
+            "average60": 21.327
+          },
+          {
+            "date": "2026-06-12",
+            "close": 18.98,
+            "volume": 303085,
+            "average20": 19.687,
+            "average60": 21.237
+          },
+          {
+            "date": "2026-06-15",
+            "close": 18.99,
+            "volume": 206725,
+            "average20": 19.571,
+            "average60": 21.165
+          },
+          {
+            "date": "2026-06-16",
+            "close": 19.16,
+            "volume": 160386,
+            "average20": 19.451,
+            "average60": 21.092
+          },
+          {
+            "date": "2026-06-17",
+            "close": 19.03,
+            "volume": 154940,
+            "average20": 19.346,
+            "average60": 21.02
+          },
+          {
+            "date": "2026-06-18",
+            "close": 18.61,
+            "volume": 148618,
+            "average20": 19.249,
+            "average60": 20.96
+          },
+          {
+            "date": "2026-06-22",
+            "close": 18.67,
+            "volume": 194456,
+            "average20": 19.164,
+            "average60": 20.923
+          },
+          {
+            "date": "2026-06-23",
+            "close": 18.17,
+            "volume": 134203,
+            "average20": 19.026,
+            "average60": 20.865
+          },
+          {
+            "date": "2026-06-24",
+            "close": 18.18,
+            "volume": 194139,
+            "average20": 18.908,
+            "average60": 20.792
+          },
+          {
+            "date": "2026-06-25",
+            "close": 17.78,
+            "volume": 144919,
+            "average20": 18.816,
+            "average60": 20.727
+          },
+          {
+            "date": "2026-06-26",
+            "close": 17.24,
+            "volume": 176444,
+            "average20": 18.694,
+            "average60": 20.645
+          },
+          {
+            "date": "2026-06-29",
+            "close": 17.01,
+            "volume": 157310,
+            "average20": 18.557,
+            "average60": 20.557
+          },
+          {
+            "date": "2026-06-30",
+            "close": 17.77,
+            "volume": 198506,
+            "average20": 18.458,
+            "average60": 20.49
+          },
+          {
+            "date": "2026-07-01",
+            "close": 17.98,
+            "volume": 218566,
+            "average20": 18.397,
+            "average60": 20.427
+          },
+          {
+            "date": "2026-07-02",
+            "close": 17.67,
+            "volume": 160456,
+            "average20": 18.316,
+            "average60": 20.366
+          },
+          {
+            "date": "2026-07-03",
+            "close": 18.41,
+            "volume": 249579,
+            "average20": 18.291,
+            "average60": 20.326
+          },
+          {
+            "date": "2026-07-06",
+            "close": 18.12,
+            "volume": 196206,
+            "average20": 18.251,
+            "average60": 20.279
+          },
+          {
+            "date": "2026-07-07",
+            "close": 17.7,
+            "volume": 121535,
+            "average20": 18.211,
+            "average60": 20.214
+          },
+          {
+            "date": "2026-07-08",
+            "close": 17.6,
+            "volume": 105254,
+            "average20": 18.173,
+            "average60": 20.153
+          },
+          {
+            "date": "2026-07-09",
+            "close": 17.76,
+            "volume": 140044,
+            "average20": 18.15,
+            "average60": 20.092
+          },
+          {
+            "date": "2026-07-10",
+            "close": 18.41,
+            "volume": 330924,
+            "average20": 18.162,
+            "average60": 20.031
+          },
+          {
+            "date": "2026-07-13",
+            "close": 17.39,
+            "volume": 255684,
+            "average20": 18.082,
+            "average60": 19.951
+          },
+          {
+            "date": "2026-07-14",
+            "close": 16.9,
+            "volume": 215769,
+            "average20": 17.978,
+            "average60": 19.863
+          },
+          {
+            "date": "2026-07-15",
+            "close": 17.11,
+            "volume": 155465,
+            "average20": 17.875,
+            "average60": 19.777
+          },
+          {
+            "date": "2026-07-16",
+            "close": 17.26,
+            "volume": 149600,
+            "average20": 17.787,
+            "average60": 19.693
+          },
+          {
+            "date": "2026-07-17",
+            "close": 16.93,
+            "volume": 157639,
+            "average20": 17.703,
+            "average60": 19.599
+          },
+          {
+            "date": "2026-07-20",
+            "close": 17.56,
+            "volume": 225257,
+            "average20": 17.648,
+            "average60": 19.52
+          },
+          {
+            "date": "2026-07-21",
+            "close": 17.67,
+            "volume": 211190,
+            "average20": 17.622,
+            "average60": 19.444
+          },
+          {
+            "date": "2026-07-22",
+            "close": 17.15,
+            "volume": 174379,
+            "average20": 17.571,
+            "average60": 19.365
+          },
+          {
+            "date": "2026-07-23",
+            "close": 17.33,
+            "volume": 57564,
+            "average20": 17.548,
+            "average60": 19.297
+          }
+        ],
+        "plainReading": {
+          "state": "短期反弹，尚未完全转强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "最近有所修复，但更长一段时间形成的压力还没有越过。",
+          "watch": "接下来能守住 17.55 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 16.57，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 18.09,
+            "recentAverage": 17.548,
+            "longerAverage": 19.297,
+            "recentHigh": 18.9,
+            "recentLow": 16.57
+          }
+        }
+      },
+      "risk": [
+        "由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，航天彩虹需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查航天彩虹的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘航天彩虹保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收3.73亿元，较可比期+18.48%；归母净利润1.01亿元，较可比期-427.31%；经营现金流-2.34亿元。",
+            "2025年度，航天彩虹的营业收入为人民币 293,047.07万元，营业收入总额较上年度增长14.16%。"
+          ]
+        },
+        "upside": {
+          "summary": "航天彩虹的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "型号、批量订单、交付数量或无人机业务收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本18.26元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "航天彩虹的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本18.09元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "型号、批量订单、交付数量或无人机业务收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本18.26元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。继续恶化，或价格跌破60日平均成本18.09元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "型号、批量订单、交付数量或无人机业务收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+        "航天彩虹的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本18.26元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 3,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收29.3亿元，同比+14.16%；归母净利润2693.44万元，同比-69.45%。2026-03-31营收3.73亿元，较可比期+18.48%；归母净利润1.01亿元，较可比期-427.31%；经营现金流-2.34亿元。",
+            "reason": "航天彩虹当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225199044.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2025年度，航天彩虹的营业收入为人民币 293,047.07万元，营业收入总额较上年度增长14.16%。",
+            "reason": "航天彩虹当前业务信号为：这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-27/1225036384.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-27/1225036384.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘17.92元，低于20日平均成本18.26元；60日平均成本18.09元，近20个交易日涨跌-5.44%。",
+            "reason": "航天彩虹当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收3.73亿元，较可比期+18.48%；归母净利润1.01亿元，较可比期-427.31%；经营现金流-2.34亿元。2025年度，航天彩虹的营业收入为人民币 293,047.07万元，营业收入总额较上年度增长14.16%。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收29.3亿元，同比+14.16%；归母净利润2693.44万元，同比-69.45%。2026-03-31营收3.73亿元，较可比期+18.48%；归母净利润1.01亿元，较可比期-427.31%；经营现金流-2.34亿元。",
+          "2025年度，航天彩虹的营业收入为人民币 293,047.07万元，营业收入总额较上年度增长14.16%。",
+          "由于本公司的应收账款风险点分布于多个合作方和多个客户，截至2025年12月31日，本公司应收账款和合同资产 的88.19%（2024年12月31日：85.16%）源于余额前五名客户，本公司不存在重大的信用集中风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查航天彩虹的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘航天彩虹保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 18.09,
+    "previousClose": 17.919762258543834,
+    "changePct": 0.9499999999999975,
+    "high": 17.4,
+    "low": 17.1,
+    "open": 17.12,
+    "volume": 57564,
+    "turnover": 99537375.47,
+    "turnoverText": "2.03亿",
+    "currency": "CNY",
+    "asOf": "20260827161415",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 18.09,
+    "changePct": 0.95,
+    "turnoverText": "2.03亿",
+    "turnoverRate": 1.15,
+    "totalMarketCap": "178.17亿",
+    "floatMarketCap": "178.14亿",
+    "fiveDayChangePct": 2.73,
+    "twentyDayChangePct": -3.16,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161415",
+    "asOf": "20260827161415",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161415",
+    "latestAsOf": "20260827161415",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.71,
+    "evidence_confidence_score": 80.4,
+    "market_payoff_score": 61.64,
+    "technical_timing_score": 27.2,
+    "data_readiness_score": 100,
+    "action_readiness_score": 59.24,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 72,
+        "average_rating": 3.6,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 3,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 61.64,
+        "average_rating": 3.08,
+        "details": {
+          "valuation_discount": 3,
+          "implied_growth_vs_evidence": 3.16,
+          "upside_downside": 1.6,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 27.2,
+        "average_rating": 1.36,
+        "details": {
+          "monthly_trend": 0.5,
+          "weekly_structure": 1.6,
+          "daily_buy_point": 2.5,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 1
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "无人机整机与系统处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺批量订单、实际交付、无人机业务收入和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -2.5%，近60日涨跌 -19.0%；客户或订单证据 0 条直接、3 条线索。",
+        "missing_proof": "批量订单 / 实际交付 / 无人机业务收入 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "产品或项目进展没有转成批量订单和实际交付。",
+      "无人机相关收入增长弱于公司整体，无法证明业务在兑现。",
+      "应收、库存或现金流恶化，说明订单质量低于预期。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

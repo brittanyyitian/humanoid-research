@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_60b0a7a1fc",
+  "artifactType": "filing",
+  "title": "关于选举董事长的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225368219.PDF",
+  "sourceId": "src_static_cninfo_com_cn_60b0a7a1fc",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_60b0a7a1fc",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:7da7a89e4201af8757feba45a8f39ebd97e20d9ff1ad73addf5076bcd547b970",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_60b0a7a1fc.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_3c0349d8be"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c683c960ed2390e6; listSourceId=src_cninfo_600667_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_26_static_cninfo_com_cn_cc610ace56",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223309278.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cc610ace56",
+  "fetchRunId": "fetch_2025_04_26_static_cninfo_com_cn_cc610ace56",
+  "publishedAt": "2025-04-26",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:01b6c0f89fb52e0e2877a34a6947604f5b025a3074fd8e85d4e17fdc8bc16fdf",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_26_static_cninfo_com_cn_cc610ace56.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2025_04_26_filing_3aed5bf498"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f8547bf4a729915e; listSourceId=src_cninfo_002371_announcements."
+}

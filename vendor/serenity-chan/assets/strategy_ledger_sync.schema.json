@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Strategy Ledger Sync",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "source_strategy_input_path",
+    "source_judgment_path",
+    "ledger_path",
+    "write_ledger",
+    "sync_status",
+    "ledger_id",
+    "claim_count",
+    "record"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_strategy_ledger_sync" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "source_strategy_input_path": { "type": "string", "minLength": 1 },
+    "source_judgment_path": { "type": "string", "minLength": 1 },
+    "ledger_path": { "type": "string", "minLength": 1 },
+    "write_ledger": { "type": "boolean" },
+    "sync_status": { "type": "string", "enum": ["SYNCED", "ALREADY_EXISTS", "DRY_RUN"] },
+    "ledger_id": { "type": "string", "minLength": 1 },
+    "message": { "type": "string" },
+    "claim_count": { "type": "integer", "minimum": 1 },
+    "record": { "type": "object" }
+  },
+  "additionalProperties": false
+}

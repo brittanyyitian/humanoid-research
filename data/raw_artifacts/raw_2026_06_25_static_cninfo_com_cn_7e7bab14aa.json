@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_7e7bab14aa",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于召开2026年第二次临时股东会的通知",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225385590.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7e7bab14aa",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_7e7bab14aa",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:419c1aa9b61f07e601915df722ef49ee98cb550bca8d012d3649b91174b4e713",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_7e7bab14aa.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_b10857f515"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9c239ed78c848891; listSourceId=src_cninfo_600547_announcements."
+}

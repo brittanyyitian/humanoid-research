@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_26_static_cninfo_com_cn_64a9cc18f6",
+  "artifactType": "filing",
+  "title": "关于对外担保的进展公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-26/1225387211.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64a9cc18f6",
+  "fetchRunId": "fetch_2026_06_26_static_cninfo_com_cn_64a9cc18f6",
+  "publishedAt": "2026-06-26",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:fe27a7dca83c4c6942bb06e0c26c21a0334188cbd320fd30f5b6cc6ce3e98772",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_26_static_cninfo_com_cn_64a9cc18f6.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_26_filing_a6aa48d6dc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_aa146172a6e7d72d; listSourceId=src_cninfo_000159_announcements."
+}

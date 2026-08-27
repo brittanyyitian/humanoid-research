@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_418b903526",
+  "artifactType": "filing",
+  "title": "公司章程修正案",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357144.PDF",
+  "sourceId": "src_static_cninfo_com_cn_418b903526",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_418b903526",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:30ee75d010671d77d66b20259832db3ecd6d4507f44e6939c8d7831f98353036",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_418b903526.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_3884b2da31"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5fc8b2ce5b1dd616; listSourceId=src_cninfo_300164_announcements."
+}

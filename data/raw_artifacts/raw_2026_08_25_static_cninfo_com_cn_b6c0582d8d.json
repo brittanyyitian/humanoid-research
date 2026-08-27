@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_b6c0582d8d",
+  "artifactType": "filing",
+  "title": "长江电力关于控股股东增持股份结果的公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225494038.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b6c0582d8d",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_b6c0582d8d",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:01c24112fb2f03a60283478c0bf7979a0f4a60cb7fb9dd994c4d7b2974ee85b3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_b6c0582d8d.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_a58473d55c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c3ba150bad87aa48; listSourceId=src_cninfo_600900_announcements."
+}

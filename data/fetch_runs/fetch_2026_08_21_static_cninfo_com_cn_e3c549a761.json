@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_21_static_cninfo_com_cn_e3c549a761",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "哈药股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-22T16:15:52+08:00",
+  "finishedAt": "2026-08-22T16:15:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_21_static_cninfo_com_cn_e3c549a761"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_bece881900"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225486629.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-22T16:15:52+08:00",
+      "finishedAt": "2026-08-22T16:15:52+08:00",
+      "contentHash": "sha256:6b50bb4ea89fb1325d52383d9d51cbbf036f7d103ed7ad8c1d8df71704fe4dfc",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_e3c549a761.json"
+    }
+  ]
+}

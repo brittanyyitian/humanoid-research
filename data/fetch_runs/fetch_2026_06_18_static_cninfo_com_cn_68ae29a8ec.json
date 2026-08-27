@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_18_static_cninfo_com_cn_68ae29a8ec",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "三峡水利",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_18_static_cninfo_com_cn_68ae29a8ec"
+  ],
+  "claimIds": [
+    "claim_2026_06_18_filing_e81c03cacf"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-18/1225376802.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:973c4f47f809ea52a734dc557aa6245a4cfe3e88dcb47df72a283bb3921fe199",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_18_static_cninfo_com_cn_68ae29a8ec.json"
+    }
+  ]
+}

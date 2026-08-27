@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_762dde3465",
+  "artifactType": "filing",
+  "title": "第七届董事会第十四次会议决议公告",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504498.PDF",
+  "sourceId": "src_static_cninfo_com_cn_762dde3465",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_762dde3465",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:b0572876bde264530a0b3870e1f2fe6a656118df35fd2895cec81579a98dbe1d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_762dde3465.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_be2705ef6d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bf2ff9781e66f509; listSourceId=src_cninfo_002472_announcements."
+}

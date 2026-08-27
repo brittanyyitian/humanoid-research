@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_13_static_cninfo_com_cn_d12b264466",
+  "artifactType": "filing",
+  "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-13/1225471292.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d12b264466",
+  "fetchRunId": "fetch_2026_08_13_static_cninfo_com_cn_d12b264466",
+  "publishedAt": "2026-08-13",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:9c4b4da7df4ae42a5b1f8e3610d03826866f3f9b7ee4f7968238093bbba659dd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_13_static_cninfo_com_cn_d12b264466.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_13_filing_dcc7e80899"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3a29b23e919fb8b9; listSourceId=src_cninfo_300100_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_25_static_cninfo_com_cn_b2898380a0",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-25/1223274301.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b2898380a0",
+  "fetchRunId": "fetch_2025_04_25_static_cninfo_com_cn_b2898380a0",
+  "publishedAt": "2025-04-25",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:0c43a55c9e41ffb71f312051d1ab2eb1b3abb290f8d976be21560f4bc51541e7",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_25_static_cninfo_com_cn_b2898380a0.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2025_04_25_filing_172356baa9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_067036cf065d48a2; listSourceId=src_cninfo_000554_announcements."
+}

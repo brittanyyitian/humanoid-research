@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_b19a9decce",
+  "artifactType": "filing",
+  "title": "关于股东减持计划实施完成的公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282764.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b19a9decce",
+  "fetchRunId": "fetch_2026_05_08_static_cninfo_com_cn_b19a9decce",
+  "publishedAt": "2026-05-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5ce2eba2970f5b145c2aa2afa180773bdb98efebd38d26016393a038fa8224cf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_b19a9decce.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_0576d035c4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c0b63ed00292ab4f; listSourceId=src_cninfo_000566_announcements."
+}

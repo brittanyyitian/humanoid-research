@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_15_static_cninfo_com_cn_422ad3f5c5",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华大九天",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_15_static_cninfo_com_cn_422ad3f5c5"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_ec020936f5"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225308396.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:ebbc60e36e59c0d95f0e19c8210f4077ba06969b0bf7b7a867e5c8835e0bcc99",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_422ad3f5c5.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_decf8c6550",
+  "artifactType": "filing",
+  "title": "涉及财务公司关联交易的存款、贷款等金融业务情况的专项说明",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225217345.PDF",
+  "sourceId": "src_static_cninfo_com_cn_decf8c6550",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_decf8c6550",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:f427ecfceb2b603eb9a4a9a04e695d090684409683bafc25f824e6d11a766f2c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_decf8c6550.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_9d607ceec3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c381b6d79843a4b3; listSourceId=src_cninfo_301269_announcements."
+}

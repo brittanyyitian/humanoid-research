@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_34007aff3d",
+  "artifactType": "filing",
+  "title": "第九届董事会第五次会议决议公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225501905.PDF",
+  "sourceId": "src_static_cninfo_com_cn_34007aff3d",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_34007aff3d",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:809dabbb93c12044a44ff82d164ddee5152582920c9de63d04dac8ff01ec1bc8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_34007aff3d.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_029ddea886"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8a4da4559c82d74a; listSourceId=src_cninfo_002371_announcements."
+}

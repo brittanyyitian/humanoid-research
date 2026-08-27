@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_d787502cb5",
+  "artifactType": "filing",
+  "title": "关于收到《关于通富微电子股份有限公司申请向特定对象发行股票的审核中心意见告知函》 的公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225349793.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d787502cb5",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_d787502cb5",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:966cdce42e9847d206ef3e3213dafebf7e7b4c2ae405423eb5a1c71fda4d953c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_d787502cb5.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_71869c8fa3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_34a8b2b02c4de75b; listSourceId=src_cninfo_002156_announcements."
+}

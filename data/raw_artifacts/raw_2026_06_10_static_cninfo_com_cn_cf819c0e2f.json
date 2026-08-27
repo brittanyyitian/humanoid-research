@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_cf819c0e2f",
+  "artifactType": "filing",
+  "title": "H股公告-翌日披露报表",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225360100.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cf819c0e2f",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_cf819c0e2f",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:eba780553f666680e2c9e6629af5c07959e4bf835ef9d18f18b290ae9ac1f0a1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_cf819c0e2f.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_94dbcbbe04"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bc003db41e71d194; listSourceId=src_cninfo_600276_announcements."
+}

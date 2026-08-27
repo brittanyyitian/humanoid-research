@@ -1,0 +1,1056 @@
+{
+  "id": "saout_zijin_mining_bbaa28619c2b",
+  "entityId": "zijin_mining",
+  "name": "紫金矿业",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/zijin_mining.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "紫金矿业 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+      "紫金矿业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查紫金矿业的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "金铜资源",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "601899.SH",
+      "name": "紫金矿业",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 34.57,
+        "previousClose": 34.470036893010274,
+        "changePct": 0.2899999999999896,
+        "high": 33.66,
+        "low": 31.92,
+        "open": 32.52,
+        "volume": 2667697,
+        "turnover": 8763318761,
+        "turnoverText": "79.87亿",
+        "currency": "CNY",
+        "asOf": "20260827161453",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 56.37,
+        "technicalTimingScore": 68.8,
+        "marketPayoffScore": 59.16,
+        "dataReadinessScore": 100,
+        "type": "适合买入候选",
+        "currentAction": "继续确认下一份正式披露没有削弱财务和业务判断。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 96,
+        "evidenceScore": 96,
+        "valuationScore": 85,
+        "timingScore": 68.8,
+        "riskScore": 64,
+        "decisionReason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "BUY_CANDIDATE",
+          "label": "适合买入候选",
+          "researchRating": "A",
+          "overallScore": 84.05,
+          "fundamentalScore": 91.2,
+          "companyScore": 96,
+          "evidenceScore": 96,
+          "valuationScore": 85,
+          "timingScore": 68.8,
+          "riskScore": 64,
+          "reason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+          "nextCondition": "继续确认下一份正式披露没有削弱财务和业务判断。",
+          "metrics": {
+            "pe": 17.2864,
+            "ps": 2.564,
+            "revenueGrowth": 0.2479,
+            "profitGrowth": 0.975,
+            "cashConversion": 0.6239,
+            "debtRatio": 0.5137,
+            "return20": -0.0009
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收3490.79亿元，同比+18.98%；归母净利润517.77亿元，同比+145.16%。2026-03-31营收984.98亿元，较可比期+24.79%；归母净利润200.79亿元，较可比期+97.5%；经营现金流125.28亿元。",
+          "4 / 20 --- page 5 --- 紫金矿业集团股份有限公司2026年第一季度报告 （一）报告期，公司主营产品产量情况如下： 产品名称 单位 2026年1-3月 2025年1-3月 2025年10-12月 一、矿产品 矿山产金 千克 23,497 19,065 24,600 矿山产铜 吨 259,214 287,571 255,223 其中：卡莫阿权益 吨 27,361 59,163 31,969 当量碳酸锂 吨 16,229 1,376 13,254 矿山产锌 吨 84,509 88,215 86,326 矿山产银 千克 103,902 104,209 103,609 矿山产钼 吨 2,989 3,001 2,796 二、冶炼产品 冶炼产铜 吨 175,515 185,105 164,336 冶…",
+          "(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；",
+          "2026-08-26复权收盘34.47元，高于20日平均成本33.91元；60日平均成本31.07元，近20个交易日涨跌-0.09%。"
+        ],
+        "possible": [
+          "紫金矿业当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "紫金矿业当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+          "紫金矿业当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 59.16,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.37/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 68.8,
+        "dailyBuyPointScore": 3.5,
+        "dmaAlignmentScore": 3.85,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 35.39,
+            "volume": 2471205,
+            "average20": 37.878,
+            "average60": 36.207
+          },
+          {
+            "date": "2026-03-16",
+            "close": 34.37,
+            "volume": 4207313,
+            "average20": 37.756,
+            "average60": 36.273
+          },
+          {
+            "date": "2026-03-17",
+            "close": 34.52,
+            "volume": 2253776,
+            "average20": 37.569,
+            "average60": 36.339
+          },
+          {
+            "date": "2026-03-18",
+            "close": 34.54,
+            "volume": 1990248,
+            "average20": 37.375,
+            "average60": 36.393
+          },
+          {
+            "date": "2026-03-19",
+            "close": 31.94,
+            "volume": 5279354,
+            "average20": 37.017,
+            "average60": 36.408
+          },
+          {
+            "date": "2026-03-20",
+            "close": 31.27,
+            "volume": 3850343,
+            "average20": 36.612,
+            "average60": 36.43
+          },
+          {
+            "date": "2026-03-23",
+            "close": 30.2,
+            "volume": 4933043,
+            "average20": 36.252,
+            "average60": 36.425
+          },
+          {
+            "date": "2026-03-24",
+            "close": 31.82,
+            "volume": 4572645,
+            "average20": 35.896,
+            "average60": 36.446
+          },
+          {
+            "date": "2026-03-25",
+            "close": 32.86,
+            "volume": 4106152,
+            "average20": 35.577,
+            "average60": 36.481
+          },
+          {
+            "date": "2026-03-26",
+            "close": 31.71,
+            "volume": 3050473,
+            "average20": 35.213,
+            "average60": 36.474
+          },
+          {
+            "date": "2026-03-27",
+            "close": 32.09,
+            "volume": 2282467,
+            "average20": 34.859,
+            "average60": 36.48
+          },
+          {
+            "date": "2026-03-30",
+            "close": 32.4,
+            "volume": 2369010,
+            "average20": 34.459,
+            "average60": 36.488
+          },
+          {
+            "date": "2026-03-31",
+            "close": 32.34,
+            "volume": 2531059,
+            "average20": 34.152,
+            "average60": 36.499
+          },
+          {
+            "date": "2026-04-01",
+            "close": 33.77,
+            "volume": 3237031,
+            "average20": 33.962,
+            "average60": 36.51
+          },
+          {
+            "date": "2026-04-02",
+            "close": 32.74,
+            "volume": 2589426,
+            "average20": 33.734,
+            "average60": 36.517
+          },
+          {
+            "date": "2026-04-03",
+            "close": 32.53,
+            "volume": 1419991,
+            "average20": 33.524,
+            "average60": 36.509
+          },
+          {
+            "date": "2026-04-07",
+            "close": 32.03,
+            "volume": 1506498,
+            "average20": 33.325,
+            "average60": 36.475
+          },
+          {
+            "date": "2026-04-08",
+            "close": 34.24,
+            "volume": 4079541,
+            "average20": 33.199,
+            "average60": 36.462
+          },
+          {
+            "date": "2026-04-09",
+            "close": 33.52,
+            "volume": 2206590,
+            "average20": 33.032,
+            "average60": 36.4
+          },
+          {
+            "date": "2026-04-10",
+            "close": 33.37,
+            "volume": 2375710,
+            "average20": 32.883,
+            "average60": 36.35
+          },
+          {
+            "date": "2026-04-13",
+            "close": 33.28,
+            "volume": 1765321,
+            "average20": 32.777,
+            "average60": 36.306
+          },
+          {
+            "date": "2026-04-14",
+            "close": 34.42,
+            "volume": 2988457,
+            "average20": 32.779,
+            "average60": 36.266
+          },
+          {
+            "date": "2026-04-15",
+            "close": 34.53,
+            "volume": 2991792,
+            "average20": 32.78,
+            "average60": 36.227
+          },
+          {
+            "date": "2026-04-16",
+            "close": 34.92,
+            "volume": 2009412,
+            "average20": 32.799,
+            "average60": 36.178
+          },
+          {
+            "date": "2026-04-17",
+            "close": 34.35,
+            "volume": 2155828,
+            "average20": 32.919,
+            "average60": 36.115
+          },
+          {
+            "date": "2026-04-20",
+            "close": 34.44,
+            "volume": 2256403,
+            "average20": 33.078,
+            "average60": 36.058
+          },
+          {
+            "date": "2026-04-21",
+            "close": 35.28,
+            "volume": 3119791,
+            "average20": 33.332,
+            "average60": 36.028
+          },
+          {
+            "date": "2026-04-22",
+            "close": 35.15,
+            "volume": 3723920,
+            "average20": 33.498,
+            "average60": 35.999
+          },
+          {
+            "date": "2026-04-23",
+            "close": 34.02,
+            "volume": 3566449,
+            "average20": 33.556,
+            "average60": 35.95
+          },
+          {
+            "date": "2026-04-24",
+            "close": 33.93,
+            "volume": 2577934,
+            "average20": 33.668,
+            "average60": 35.887
+          },
+          {
+            "date": "2026-04-27",
+            "close": 33.18,
+            "volume": 2310885,
+            "average20": 33.722,
+            "average60": 35.818
+          },
+          {
+            "date": "2026-04-28",
+            "close": 32.57,
+            "volume": 2070092,
+            "average20": 33.73,
+            "average60": 35.742
+          },
+          {
+            "date": "2026-04-29",
+            "close": 33.76,
+            "volume": 3034995,
+            "average20": 33.801,
+            "average60": 35.652
+          },
+          {
+            "date": "2026-04-30",
+            "close": 32.92,
+            "volume": 2403899,
+            "average20": 33.759,
+            "average60": 35.53
+          },
+          {
+            "date": "2026-05-06",
+            "close": 33.83,
+            "volume": 3990720,
+            "average20": 33.814,
+            "average60": 35.396
+          },
+          {
+            "date": "2026-05-07",
+            "close": 34.08,
+            "volume": 3360414,
+            "average20": 33.891,
+            "average60": 35.246
+          },
+          {
+            "date": "2026-05-08",
+            "close": 34.42,
+            "volume": 3012482,
+            "average20": 34.011,
+            "average60": 35.157
+          },
+          {
+            "date": "2026-05-11",
+            "close": 33.89,
+            "volume": 3037097,
+            "average20": 33.993,
+            "average60": 35.118
+          },
+          {
+            "date": "2026-05-12",
+            "close": 34.2,
+            "volume": 4169460,
+            "average20": 34.027,
+            "average60": 35.047
+          },
+          {
+            "date": "2026-05-13",
+            "close": 34.28,
+            "volume": 3224803,
+            "average20": 34.072,
+            "average60": 34.972
+          },
+          {
+            "date": "2026-05-14",
+            "close": 33.14,
+            "volume": 2769481,
+            "average20": 34.066,
+            "average60": 34.907
+          },
+          {
+            "date": "2026-05-15",
+            "close": 31.46,
+            "volume": 4482822,
+            "average20": 33.918,
+            "average60": 34.818
+          },
+          {
+            "date": "2026-05-18",
+            "close": 30.92,
+            "volume": 2887987,
+            "average20": 33.737,
+            "average60": 34.696
+          },
+          {
+            "date": "2026-05-19",
+            "close": 30.78,
+            "volume": 1808601,
+            "average20": 33.53,
+            "average60": 34.568
+          },
+          {
+            "date": "2026-05-20",
+            "close": 30.01,
+            "volume": 3144897,
+            "average20": 33.313,
+            "average60": 34.417
+          },
+          {
+            "date": "2026-05-21",
+            "close": 29.61,
+            "volume": 2956155,
+            "average20": 33.072,
+            "average60": 34.254
+          },
+          {
+            "date": "2026-05-22",
+            "close": 30.58,
+            "volume": 2681039,
+            "average20": 32.836,
+            "average60": 34.14
+          },
+          {
+            "date": "2026-05-25",
+            "close": 30.97,
+            "volume": 2840462,
+            "average20": 32.627,
+            "average60": 34.007
+          },
+          {
+            "date": "2026-05-26",
+            "close": 32.52,
+            "volume": 4437216,
+            "average20": 32.552,
+            "average60": 33.895
+          },
+          {
+            "date": "2026-05-27",
+            "close": 31.24,
+            "volume": 2616966,
+            "average20": 32.418,
+            "average60": 33.766
+          },
+          {
+            "date": "2026-05-28",
+            "close": 30.33,
+            "volume": 3109909,
+            "average20": 32.276,
+            "average60": 33.619
+          },
+          {
+            "date": "2026-05-29",
+            "close": 30.06,
+            "volume": 2610250,
+            "average20": 32.15,
+            "average60": 33.447
+          },
+          {
+            "date": "2026-06-01",
+            "close": 29.81,
+            "volume": 1751622,
+            "average20": 31.952,
+            "average60": 33.302
+          },
+          {
+            "date": "2026-06-02",
+            "close": 31.2,
+            "volume": 3333214,
+            "average20": 31.866,
+            "average60": 33.196
+          },
+          {
+            "date": "2026-06-03",
+            "close": 30.89,
+            "volume": 2529803,
+            "average20": 31.719,
+            "average60": 33.089
+          },
+          {
+            "date": "2026-06-04",
+            "close": 29.96,
+            "volume": 2062166,
+            "average20": 31.514,
+            "average60": 32.976
+          },
+          {
+            "date": "2026-06-05",
+            "close": 29.25,
+            "volume": 2716213,
+            "average20": 31.255,
+            "average60": 32.864
+          },
+          {
+            "date": "2026-06-08",
+            "close": 27.67,
+            "volume": 3775320,
+            "average20": 30.944,
+            "average60": 32.712
+          },
+          {
+            "date": "2026-06-09",
+            "close": 28.09,
+            "volume": 2513161,
+            "average20": 30.639,
+            "average60": 32.566
+          },
+          {
+            "date": "2026-06-10",
+            "close": 27.32,
+            "volume": 3044088,
+            "average20": 30.291,
+            "average60": 32.415
+          },
+          {
+            "date": "2026-06-11",
+            "close": 26.95,
+            "volume": 3231431,
+            "average20": 29.981,
+            "average60": 32.274
+          },
+          {
+            "date": "2026-06-12",
+            "close": 28.71,
+            "volume": 5098539,
+            "average20": 29.844,
+            "average60": 32.18
+          },
+          {
+            "date": "2026-06-15",
+            "close": 30.93,
+            "volume": 5714756,
+            "average20": 29.844,
+            "average60": 32.12
+          },
+          {
+            "date": "2026-06-16",
+            "close": 29.91,
+            "volume": 2922715,
+            "average20": 29.8,
+            "average60": 32.043
+          },
+          {
+            "date": "2026-06-17",
+            "close": 30.05,
+            "volume": 2229817,
+            "average20": 29.802,
+            "average60": 32.012
+          },
+          {
+            "date": "2026-06-18",
+            "close": 29.31,
+            "volume": 3620675,
+            "average20": 29.787,
+            "average60": 31.979
+          },
+          {
+            "date": "2026-06-22",
+            "close": 30.06,
+            "volume": 3918476,
+            "average20": 29.761,
+            "average60": 31.977
+          },
+          {
+            "date": "2026-06-23",
+            "close": 27.37,
+            "volume": 4947402,
+            "average20": 29.581,
+            "average60": 31.902
+          },
+          {
+            "date": "2026-06-24",
+            "close": 27.27,
+            "volume": 2846096,
+            "average20": 29.319,
+            "average60": 31.809
+          },
+          {
+            "date": "2026-06-25",
+            "close": 25.54,
+            "volume": 5760700,
+            "average20": 29.034,
+            "average60": 31.706
+          },
+          {
+            "date": "2026-06-26",
+            "close": 25.1,
+            "volume": 3528208,
+            "average20": 28.773,
+            "average60": 31.59
+          },
+          {
+            "date": "2026-06-29",
+            "close": 25.79,
+            "volume": 3232927,
+            "average20": 28.559,
+            "average60": 31.48
+          },
+          {
+            "date": "2026-06-30",
+            "close": 25.14,
+            "volume": 3107057,
+            "average20": 28.325,
+            "average60": 31.36
+          },
+          {
+            "date": "2026-07-01",
+            "close": 25.11,
+            "volume": 3389084,
+            "average20": 28.021,
+            "average60": 31.215
+          },
+          {
+            "date": "2026-07-02",
+            "close": 26.3,
+            "volume": 5067417,
+            "average20": 27.792,
+            "average60": 31.108
+          },
+          {
+            "date": "2026-07-03",
+            "close": 27.82,
+            "volume": 5386520,
+            "average20": 27.685,
+            "average60": 31.03
+          },
+          {
+            "date": "2026-07-06",
+            "close": 28.28,
+            "volume": 3700913,
+            "average20": 27.636,
+            "average60": 30.967
+          },
+          {
+            "date": "2026-07-07",
+            "close": 27.62,
+            "volume": 2235422,
+            "average20": 27.634,
+            "average60": 30.857
+          },
+          {
+            "date": "2026-07-08",
+            "close": 27.36,
+            "volume": 1969818,
+            "average20": 27.597,
+            "average60": 30.754
+          },
+          {
+            "date": "2026-07-09",
+            "close": 27.62,
+            "volume": 2514997,
+            "average20": 27.612,
+            "average60": 30.658
+          },
+          {
+            "date": "2026-07-10",
+            "close": 27.72,
+            "volume": 2657100,
+            "average20": 27.651,
+            "average60": 30.566
+          },
+          {
+            "date": "2026-07-13",
+            "close": 27.36,
+            "volume": 2130238,
+            "average20": 27.583,
+            "average60": 30.448
+          },
+          {
+            "date": "2026-07-14",
+            "close": 29.06,
+            "volume": 3803205,
+            "average20": 27.489,
+            "average60": 30.357
+          },
+          {
+            "date": "2026-07-15",
+            "close": 28.83,
+            "volume": 2683491,
+            "average20": 27.436,
+            "average60": 30.255
+          },
+          {
+            "date": "2026-07-16",
+            "close": 29.25,
+            "volume": 2654390,
+            "average20": 27.396,
+            "average60": 30.17
+          },
+          {
+            "date": "2026-07-17",
+            "close": 28.36,
+            "volume": 2904169,
+            "average20": 27.348,
+            "average60": 30.069
+          },
+          {
+            "date": "2026-07-20",
+            "close": 29.35,
+            "volume": 2757683,
+            "average20": 27.313,
+            "average60": 29.97
+          },
+          {
+            "date": "2026-07-21",
+            "close": 30.21,
+            "volume": 3426670,
+            "average20": 27.455,
+            "average60": 29.888
+          },
+          {
+            "date": "2026-07-22",
+            "close": 32.2,
+            "volume": 5261658,
+            "average20": 27.701,
+            "average60": 29.857
+          },
+          {
+            "date": "2026-07-23",
+            "close": 33.6,
+            "volume": 2667697,
+            "average20": 28.104,
+            "average60": 29.852
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交与平时接近。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 28.10 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 26.74，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 34.57,
+            "recentAverage": 28.104,
+            "longerAverage": 29.852,
+            "recentHigh": 33.66,
+            "recentLow": 26.74
+          }
+        }
+      },
+      "risk": [
+        "(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；",
+        "若下一期现金流明显落后于利润，紫金矿业的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，紫金矿业需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查紫金矿业的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收984.98亿元，较可比期+24.79%；归母净利润200.79亿元，较可比期+97.5%；经营现金流125.28亿元。",
+            "4 / 20 --- page 5 --- 紫金矿业集团股份有限公司2026年第一季度报告 （一）报告期，公司主营产品产量情况如下： 产品名称 单位 2026年1-3月 2025年1-3月 2025年10-12月 一、矿产品 矿山产金 千克 23,497 19,065 24,600 矿山产铜 吨 259,214 287,571 255,223 其中：卡莫阿权益 吨 27,361 59,163 31,969 当量碳酸锂 吨 16,229 1,376 13,254 矿山产锌 吨 84,509 88,215 86,326 矿山产银 千克 103,902 104,209 103,609 矿山产钼 吨 2,989 3,001 2,796 二、冶炼产品 冶炼产铜 吨 175,515 185,105 164,336 冶…"
+          ]
+        },
+        "upside": {
+          "summary": "紫金矿业的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "资源量、储量、产量、单位成本、销量或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "紫金矿业的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本31.07元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "资源量、储量、产量、单位成本、销量或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；继续恶化，或价格跌破60日平均成本31.07元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "资源量、储量、产量、单位成本、销量或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+        "紫金矿业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收3490.79亿元，同比+18.98%；归母净利润517.77亿元，同比+145.16%。2026-03-31营收984.98亿元，较可比期+24.79%；归母净利润200.79亿元，较可比期+97.5%；经营现金流125.28亿元。",
+            "reason": "紫金矿业当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-22/1225141507.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "4 / 20 --- page 5 --- 紫金矿业集团股份有限公司2026年第一季度报告 （一）报告期，公司主营产品产量情况如下： 产品名称 单位 2026年1-3月 2025年1-3月 2025年10-12月 一、矿产品 矿山产金 千克 23,497 19,065 24,600 矿山产铜 吨 259,214 287,571 255,223 其中：卡莫阿权益 吨 27,361 59,163 31,969 当量碳酸锂 吨 16,229 1,376 13,254 矿山产锌 吨 84,509 88,215 86,326 矿山产银 千克 103,902 104,209 103,609 矿山产钼 吨 2,989 3,001 2,796 二、冶炼产品 冶炼产铜 吨 175,515 185,105 164,336 冶…",
+            "reason": "紫金矿业当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-22/1225141507.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-22/1225141507.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘34.47元，高于20日平均成本33.91元；60日平均成本31.07元，近20个交易日涨跌-0.09%。",
+            "reason": "紫金矿业当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收984.98亿元，较可比期+24.79%；归母净利润200.79亿元，较可比期+97.5%；经营现金流125.28亿元。4 / 20 --- page 5 --- 紫金矿业集团股份有限公司2026年第一季度报告 （一）报告期，公司主营产品产量情况如下： 产品名称 单位 2026年1-3月 2025年1-3月 2025年10-12月 一、矿产品 矿山产金 千克 23,497 19,065 24,600 矿山产铜 吨 259,214 287,571 255,223 其中：卡莫阿权益 吨 27,361 59,163 31,969 当量碳酸锂 吨 16,229 1,376 13,254 矿山产锌 吨 84,509 88,215 86,326 矿山产银 千克 103,902 104,209 103,609 矿山产钼 吨 2,989 3,001 2,796 二、冶炼产品 冶炼产铜 吨 175,515 185,105 164,336 冶…",
+          "先看价格站上20日平均成本33.91元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收3490.79亿元，同比+18.98%；归母净利润517.77亿元，同比+145.16%。2026-03-31营收984.98亿元，较可比期+24.79%；归母净利润200.79亿元，较可比期+97.5%；经营现金流125.28亿元。",
+          "4 / 20 --- page 5 --- 紫金矿业集团股份有限公司2026年第一季度报告 （一）报告期，公司主营产品产量情况如下： 产品名称 单位 2026年1-3月 2025年1-3月 2025年10-12月 一、矿产品 矿山产金 千克 23,497 19,065 24,600 矿山产铜 吨 259,214 287,571 255,223 其中：卡莫阿权益 吨 27,361 59,163 31,969 当量碳酸锂 吨 16,229 1,376 13,254 矿山产锌 吨 84,509 88,215 86,326 矿山产银 千克 103,902 104,209 103,609 矿山产钼 吨 2,989 3,001 2,796 二、冶炼产品 冶炼产铜 吨 175,515 185,105 164,336 冶…",
+          "(三)主要会计数据、财务指标发生变动的情况、原因 √适用 □不适用 项目名称 变动比例（%） 主要原因 利润总额 115.03 与上年同期相比，公司核心财务指 净利润 101.90 标大幅增长，主要得益于：(1)公司 持续优化生产组织与运营管理，坚 归属于上市公司股东的净利润 97.50 持尽产尽销，矿产金、碳酸锂产量同 归属于上市公司股东的扣除非经 86.81 比增长，矿产铜产量受卡莫阿-卡库 常性损益的净利润 拉权益铜产量下滑影响同比有所下 经营活动产生的现金流量净额 122.15 降；"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查紫金矿业的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 34.57,
+    "previousClose": 34.470036893010274,
+    "changePct": 0.2899999999999896,
+    "high": 33.66,
+    "low": 31.92,
+    "open": 32.52,
+    "volume": 2667697,
+    "turnover": 8763318761,
+    "turnoverText": "79.87亿",
+    "currency": "CNY",
+    "asOf": "20260827161453",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 34.57,
+    "changePct": 0.29,
+    "turnoverText": "79.87亿",
+    "turnoverRate": 1.12,
+    "totalMarketCap": "9192.41亿",
+    "floatMarketCap": "7122.04亿",
+    "fiveDayChangePct": 2.19,
+    "twentyDayChangePct": 7.09,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161453",
+    "asOf": "20260827161453",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161453",
+    "latestAsOf": "20260827161453",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.89,
+    "evidence_confidence_score": 77.6,
+    "market_payoff_score": 59.16,
+    "technical_timing_score": 68.8,
+    "data_readiness_score": 100,
+    "action_readiness_score": 77.96,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 68,
+        "average_rating": 3.4,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 2.4,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 59.16,
+        "average_rating": 2.96,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 2.64,
+          "upside_downside": 2.65,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.1
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 68.8,
+        "average_rating": 3.44,
+        "details": {
+          "monthly_trend": 2.6,
+          "weekly_structure": 4,
+          "daily_buy_point": 3.5,
+          "gf_dma_alignment": 3.85,
+          "drawdown_position": 3.25
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "金铜资源处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量变化、成本变化和项目投产。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 8 份财报或业绩材料；近20日涨跌 31.6%，近60日涨跌 -1.0%。",
+        "missing_proof": "产量变化 / 成本变化 / 项目投产 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "金属价格上涨，但产量、成本或利润没有同步改善。",
+      "扩产项目延期，资源量没有转成可销售产量。",
+      "现金流弱于利润，资本开支和负债压力上升。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

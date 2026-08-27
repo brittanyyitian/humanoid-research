@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_09_static_cninfo_com_cn_9ee22d3132",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "步科股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_09_static_cninfo_com_cn_9ee22d3132"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_5355406619"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357381.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:52b74df8cd8dfb83f3b9e1bba6d3b7757150d3810f38ff4c5760200387e5bd01",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_9ee22d3132.json"
+    }
+  ]
+}

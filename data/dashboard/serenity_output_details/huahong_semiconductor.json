@@ -1,0 +1,1062 @@
+{
+  "id": "saout_huahong_semiconductor_f64f654d15cb",
+  "entityId": "huahong_semiconductor",
+  "name": "华虹公司",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/huahong_semiconductor.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "华虹公司 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "华虹公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查华虹公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘华虹公司值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "晶圆制造",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688347.SH",
+      "name": "华虹公司",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 252.72,
+        "previousClose": 244.00888288114317,
+        "changePct": 3.570000000000009,
+        "high": 389.5,
+        "low": 333.64,
+        "open": 383.96,
+        "volume": 254035,
+        "turnover": 9069844502,
+        "turnoverText": "50.14亿",
+        "currency": "CNY",
+        "asOf": "20260827161459",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 57.8,
+        "technicalTimingScore": 66.2,
+        "marketPayoffScore": 63.8,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 100,
+        "evidenceScore": 96,
+        "valuationScore": 36,
+        "timingScore": 45,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 66.95,
+          "fundamentalScore": 93.4,
+          "companyScore": 100,
+          "evidenceScore": 96,
+          "valuationScore": 36,
+          "timingScore": 45,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 1578.1173,
+            "ps": 34.3717,
+            "revenueGrowth": 0.1822,
+            "profitGrowth": 5.131,
+            "cashConversion": 6.5296,
+            "debtRatio": 0.3829,
+            "return20": -0.0546
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收172.91亿元，同比+20.18%；归母净利润3.77亿元，同比-1.04%。2026-03-31营收46.25亿元，较可比期+18.22%；归母净利润1.4亿元，较可比期+513.1%；经营现金流9.11亿元。",
+          "2025年，公司8寸和12寸产线平均产能利用率均始终保持在100%以上，华虹宏力 半导体（无锡）二期项目(FAB9)产能快速爬坡，全力承接市场与客户的强劲需求。",
+          "该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。",
+          "2026-08-26复权收盘244.02元，低于20日平均成本252.03元；60日平均成本288.91元，近20个交易日涨跌-5.46%。"
+        ],
+        "possible": [
+          "华虹公司当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "华虹公司当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "华虹公司当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 63.8,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.8/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 66.2,
+        "dailyBuyPointScore": 2.5,
+        "dmaAlignmentScore": 3.95,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 119.12,
+            "volume": 180310,
+            "average20": 125.033,
+            "average60": 124.1
+          },
+          {
+            "date": "2026-03-16",
+            "close": 133.65,
+            "volume": 379953,
+            "average20": 125.203,
+            "average60": 124.467
+          },
+          {
+            "date": "2026-03-17",
+            "close": 126.78,
+            "volume": 292166,
+            "average20": 124.748,
+            "average60": 124.796
+          },
+          {
+            "date": "2026-03-18",
+            "close": 127.6,
+            "volume": 221678,
+            "average20": 124.373,
+            "average60": 125.161
+          },
+          {
+            "date": "2026-03-19",
+            "close": 120.9,
+            "volume": 206234,
+            "average20": 123.845,
+            "average60": 125.501
+          },
+          {
+            "date": "2026-03-20",
+            "close": 116,
+            "volume": 172399,
+            "average20": 123.17,
+            "average60": 125.809
+          },
+          {
+            "date": "2026-03-23",
+            "close": 109.68,
+            "volume": 174169,
+            "average20": 122.064,
+            "average60": 125.944
+          },
+          {
+            "date": "2026-03-24",
+            "close": 114.25,
+            "volume": 166980,
+            "average20": 121.339,
+            "average60": 126.183
+          },
+          {
+            "date": "2026-03-25",
+            "close": 116.84,
+            "volume": 158258,
+            "average20": 120.591,
+            "average60": 126.462
+          },
+          {
+            "date": "2026-03-26",
+            "close": 111.58,
+            "volume": 134219,
+            "average20": 119.734,
+            "average60": 126.579
+          },
+          {
+            "date": "2026-03-27",
+            "close": 112.59,
+            "volume": 124082,
+            "average20": 119.024,
+            "average60": 126.702
+          },
+          {
+            "date": "2026-03-30",
+            "close": 110.8,
+            "volume": 113525,
+            "average20": 118.364,
+            "average60": 126.714
+          },
+          {
+            "date": "2026-03-31",
+            "close": 105.9,
+            "volume": 129831,
+            "average20": 117.894,
+            "average60": 126.65
+          },
+          {
+            "date": "2026-04-01",
+            "close": 113.95,
+            "volume": 182023,
+            "average20": 117.856,
+            "average60": 126.759
+          },
+          {
+            "date": "2026-04-02",
+            "close": 108.99,
+            "volume": 104377,
+            "average20": 117.497,
+            "average60": 126.776
+          },
+          {
+            "date": "2026-04-03",
+            "close": 107.41,
+            "volume": 78214,
+            "average20": 116.978,
+            "average60": 126.734
+          },
+          {
+            "date": "2026-04-07",
+            "close": 111.51,
+            "volume": 136334,
+            "average20": 116.818,
+            "average60": 126.795
+          },
+          {
+            "date": "2026-04-08",
+            "close": 120.28,
+            "volume": 194827,
+            "average20": 116.909,
+            "average60": 126.858
+          },
+          {
+            "date": "2026-04-09",
+            "close": 119.62,
+            "volume": 135090,
+            "average20": 116.703,
+            "average60": 126.854
+          },
+          {
+            "date": "2026-04-10",
+            "close": 121.61,
+            "volume": 147403,
+            "average20": 116.453,
+            "average60": 126.791
+          },
+          {
+            "date": "2026-04-13",
+            "close": 119.02,
+            "volume": 141730,
+            "average20": 116.448,
+            "average60": 126.67
+          },
+          {
+            "date": "2026-04-14",
+            "close": 122.57,
+            "volume": 153373,
+            "average20": 115.894,
+            "average60": 126.574
+          },
+          {
+            "date": "2026-04-15",
+            "close": 123.34,
+            "volume": 207490,
+            "average20": 115.722,
+            "average60": 126.517
+          },
+          {
+            "date": "2026-04-16",
+            "close": 125.13,
+            "volume": 142880,
+            "average20": 115.599,
+            "average60": 126.586
+          },
+          {
+            "date": "2026-04-17",
+            "close": 124.61,
+            "volume": 125434,
+            "average20": 115.784,
+            "average60": 126.567
+          },
+          {
+            "date": "2026-04-20",
+            "close": 130.75,
+            "volume": 194211,
+            "average20": 116.521,
+            "average60": 126.563
+          },
+          {
+            "date": "2026-04-21",
+            "close": 128.56,
+            "volume": 143888,
+            "average20": 117.465,
+            "average60": 126.372
+          },
+          {
+            "date": "2026-04-22",
+            "close": 129.34,
+            "volume": 148907,
+            "average20": 118.22,
+            "average60": 126.276
+          },
+          {
+            "date": "2026-04-23",
+            "close": 123.59,
+            "volume": 181946,
+            "average20": 118.558,
+            "average60": 126.116
+          },
+          {
+            "date": "2026-04-24",
+            "close": 138.8,
+            "volume": 447032,
+            "average20": 119.918,
+            "average60": 126.104
+          },
+          {
+            "date": "2026-04-27",
+            "close": 143.1,
+            "volume": 312971,
+            "average20": 121.444,
+            "average60": 126.146
+          },
+          {
+            "date": "2026-04-28",
+            "close": 138.08,
+            "volume": 206908,
+            "average20": 122.808,
+            "average60": 126.118
+          },
+          {
+            "date": "2026-04-29",
+            "close": 132.16,
+            "volume": 294620,
+            "average20": 124.121,
+            "average60": 125.94
+          },
+          {
+            "date": "2026-04-30",
+            "close": 141,
+            "volume": 367902,
+            "average20": 125.473,
+            "average60": 125.725
+          },
+          {
+            "date": "2026-05-06",
+            "close": 152,
+            "volume": 381166,
+            "average20": 127.624,
+            "average60": 125.542
+          },
+          {
+            "date": "2026-05-07",
+            "close": 165.92,
+            "volume": 348686,
+            "average20": 130.549,
+            "average60": 125.732
+          },
+          {
+            "date": "2026-05-08",
+            "close": 158.96,
+            "volume": 314120,
+            "average20": 132.922,
+            "average60": 125.796
+          },
+          {
+            "date": "2026-05-11",
+            "close": 164.41,
+            "volume": 275012,
+            "average20": 135.128,
+            "average60": 126.278
+          },
+          {
+            "date": "2026-05-12",
+            "close": 160.66,
+            "volume": 237340,
+            "average20": 137.18,
+            "average60": 126.623
+          },
+          {
+            "date": "2026-05-13",
+            "close": 160.62,
+            "volume": 222080,
+            "average20": 139.131,
+            "average60": 127.07
+          },
+          {
+            "date": "2026-05-14",
+            "close": 157.86,
+            "volume": 200540,
+            "average20": 141.073,
+            "average60": 127.518
+          },
+          {
+            "date": "2026-05-15",
+            "close": 150.09,
+            "volume": 431421,
+            "average20": 142.449,
+            "average60": 127.849
+          },
+          {
+            "date": "2026-05-18",
+            "close": 147.8,
+            "volume": 248058,
+            "average20": 143.672,
+            "average60": 128.047
+          },
+          {
+            "date": "2026-05-19",
+            "close": 149.74,
+            "volume": 265914,
+            "average20": 144.903,
+            "average60": 128.291
+          },
+          {
+            "date": "2026-05-20",
+            "close": 177.8,
+            "volume": 544144,
+            "average20": 147.562,
+            "average60": 129.064
+          },
+          {
+            "date": "2026-05-21",
+            "close": 169,
+            "volume": 431729,
+            "average20": 149.475,
+            "average60": 129.722
+          },
+          {
+            "date": "2026-05-22",
+            "close": 179,
+            "volume": 398938,
+            "average20": 151.997,
+            "average60": 130.509
+          },
+          {
+            "date": "2026-05-25",
+            "close": 214.8,
+            "volume": 501922,
+            "average20": 156.27,
+            "average60": 131.943
+          },
+          {
+            "date": "2026-05-26",
+            "close": 222.42,
+            "volume": 525254,
+            "average20": 161.211,
+            "average60": 133.453
+          },
+          {
+            "date": "2026-05-27",
+            "close": 215.61,
+            "volume": 406616,
+            "average20": 165.052,
+            "average60": 134.901
+          },
+          {
+            "date": "2026-05-28",
+            "close": 249.65,
+            "volume": 436241,
+            "average20": 170.379,
+            "average60": 136.949
+          },
+          {
+            "date": "2026-05-29",
+            "close": 236.68,
+            "volume": 392213,
+            "average20": 175.309,
+            "average60": 138.827
+          },
+          {
+            "date": "2026-06-01",
+            "close": 222.9,
+            "volume": 414451,
+            "average20": 179.846,
+            "average60": 140.62
+          },
+          {
+            "date": "2026-06-02",
+            "close": 226.5,
+            "volume": 290079,
+            "average20": 184.121,
+            "average60": 142.484
+          },
+          {
+            "date": "2026-06-03",
+            "close": 233.24,
+            "volume": 310971,
+            "average20": 188.183,
+            "average60": 144.435
+          },
+          {
+            "date": "2026-06-04",
+            "close": 244,
+            "volume": 286959,
+            "average20": 192.087,
+            "average60": 146.538
+          },
+          {
+            "date": "2026-06-05",
+            "close": 227,
+            "volume": 312402,
+            "average20": 195.489,
+            "average60": 148.41
+          },
+          {
+            "date": "2026-06-08",
+            "close": 213.8,
+            "volume": 237449,
+            "average20": 197.959,
+            "average60": 149.999
+          },
+          {
+            "date": "2026-06-09",
+            "close": 227.4,
+            "volume": 267099,
+            "average20": 201.296,
+            "average60": 151.726
+          },
+          {
+            "date": "2026-06-10",
+            "close": 221.81,
+            "volume": 240877,
+            "average20": 204.355,
+            "average60": 153.313
+          },
+          {
+            "date": "2026-06-11",
+            "close": 221.35,
+            "volume": 213937,
+            "average20": 207.53,
+            "average60": 155.017
+          },
+          {
+            "date": "2026-06-12",
+            "close": 218.37,
+            "volume": 350611,
+            "average20": 210.944,
+            "average60": 156.429
+          },
+          {
+            "date": "2026-06-15",
+            "close": 238.28,
+            "volume": 277267,
+            "average20": 215.468,
+            "average60": 158.287
+          },
+          {
+            "date": "2026-06-16",
+            "close": 238.5,
+            "volume": 220470,
+            "average20": 219.906,
+            "average60": 160.135
+          },
+          {
+            "date": "2026-06-17",
+            "close": 260.7,
+            "volume": 281703,
+            "average20": 224.05,
+            "average60": 162.466
+          },
+          {
+            "date": "2026-06-18",
+            "close": 277.81,
+            "volume": 264871,
+            "average20": 229.491,
+            "average60": 165.162
+          },
+          {
+            "date": "2026-06-22",
+            "close": 280,
+            "volume": 256794,
+            "average20": 234.541,
+            "average60": 168.001
+          },
+          {
+            "date": "2026-06-23",
+            "close": 292.08,
+            "volume": 252819,
+            "average20": 238.405,
+            "average60": 170.965
+          },
+          {
+            "date": "2026-06-24",
+            "close": 316.01,
+            "volume": 284595,
+            "average20": 243.085,
+            "average60": 174.284
+          },
+          {
+            "date": "2026-06-25",
+            "close": 330.36,
+            "volume": 248068,
+            "average20": 248.822,
+            "average60": 177.931
+          },
+          {
+            "date": "2026-06-26",
+            "close": 323,
+            "volume": 222702,
+            "average20": 252.489,
+            "average60": 181.438
+          },
+          {
+            "date": "2026-06-29",
+            "close": 339.14,
+            "volume": 230884,
+            "average20": 257.613,
+            "average60": 185.243
+          },
+          {
+            "date": "2026-06-30",
+            "close": 336.3,
+            "volume": 194819,
+            "average20": 263.282,
+            "average60": 189.083
+          },
+          {
+            "date": "2026-07-01",
+            "close": 315.61,
+            "volume": 258701,
+            "average20": 267.738,
+            "average60": 192.444
+          },
+          {
+            "date": "2026-07-02",
+            "close": 284.5,
+            "volume": 275899,
+            "average20": 270.301,
+            "average60": 195.369
+          },
+          {
+            "date": "2026-07-03",
+            "close": 285,
+            "volume": 212776,
+            "average20": 272.351,
+            "average60": 198.329
+          },
+          {
+            "date": "2026-07-06",
+            "close": 309.68,
+            "volume": 264724,
+            "average20": 276.485,
+            "average60": 201.632
+          },
+          {
+            "date": "2026-07-07",
+            "close": 324,
+            "volume": 223255,
+            "average20": 281.995,
+            "average60": 205.027
+          },
+          {
+            "date": "2026-07-08",
+            "close": 358.4,
+            "volume": 288283,
+            "average20": 288.545,
+            "average60": 209.007
+          },
+          {
+            "date": "2026-07-09",
+            "close": 400.5,
+            "volume": 305752,
+            "average20": 297.48,
+            "average60": 213.655
+          },
+          {
+            "date": "2026-07-10",
+            "close": 369.87,
+            "volume": 306079,
+            "average20": 304.905,
+            "average60": 217.836
+          },
+          {
+            "date": "2026-07-13",
+            "close": 350,
+            "volume": 262557,
+            "average20": 311.487,
+            "average60": 221.626
+          },
+          {
+            "date": "2026-07-14",
+            "close": 352.59,
+            "volume": 276522,
+            "average20": 317.202,
+            "average60": 225.447
+          },
+          {
+            "date": "2026-07-15",
+            "close": 331.42,
+            "volume": 230352,
+            "average20": 321.849,
+            "average60": 228.886
+          },
+          {
+            "date": "2026-07-16",
+            "close": 327.85,
+            "volume": 242312,
+            "average20": 325.206,
+            "average60": 232.273
+          },
+          {
+            "date": "2026-07-17",
+            "close": 309,
+            "volume": 349423,
+            "average20": 326.766,
+            "average60": 235.244
+          },
+          {
+            "date": "2026-07-20",
+            "close": 331.48,
+            "volume": 330980,
+            "average20": 329.34,
+            "average60": 238.626
+          },
+          {
+            "date": "2026-07-21",
+            "close": 397.78,
+            "volume": 354066,
+            "average20": 334.625,
+            "average60": 243.1
+          },
+          {
+            "date": "2026-07-22",
+            "close": 390.06,
+            "volume": 339940,
+            "average20": 338.327,
+            "average60": 247.541
+          },
+          {
+            "date": "2026-07-23",
+            "close": 343.09,
+            "volume": 254035,
+            "average20": 338.964,
+            "average60": 250.946
+          }
+        ],
+        "plainReading": {
+          "state": "上涨后正在回落确认",
+          "what": "现价还在近一个月平均成本下方；今天成交与平时接近。",
+          "meaning": "中期方向还没有明显走坏，但短期需要重新站稳。",
+          "watch": "先看能否重新站上 339.0 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 303.8，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 252.72,
+            "recentAverage": 338.964,
+            "longerAverage": 250.946,
+            "recentHigh": 413.13,
+            "recentLow": 303.78
+          }
+        }
+      },
+      "risk": [
+        "该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。",
+        "若下一期现金流明显落后于利润，华虹公司的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查华虹公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘华虹公司值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收46.25亿元，较可比期+18.22%；归母净利润1.4亿元，较可比期+513.1%；经营现金流9.11亿元。",
+            "2025年，公司8寸和12寸产线平均产能利用率均始终保持在100%以上，华虹宏力 半导体（无锡）二期项目(FAB9)产能快速爬坡，全力承接市场与客户的强劲需求。"
+          ]
+        },
+        "upside": {
+          "summary": "华虹公司的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "华虹公司的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本288.91元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。继续恶化，或价格跌破60日平均成本288.91元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "华虹公司的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 4,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收172.91亿元，同比+20.18%；归母净利润3.77亿元，同比-1.04%。2026-03-31营收46.25亿元，较可比期+18.22%；归母净利润1.4亿元，较可比期+513.1%；经营现金流9.11亿元。",
+            "reason": "华虹公司当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-05-15/1225307974.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2025年，公司8寸和12寸产线平均产能利用率均始终保持在100%以上，华虹宏力 半导体（无锡）二期项目(FAB9)产能快速爬坡，全力承接市场与客户的强劲需求。",
+            "reason": "华虹公司当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-05-15/1225307974.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-05-15/1225307974.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘244.02元，低于20日平均成本252.03元；60日平均成本288.91元，近20个交易日涨跌-5.46%。",
+            "reason": "华虹公司当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收46.25亿元，较可比期+18.22%；归母净利润1.4亿元，较可比期+513.1%；经营现金流9.11亿元。2025年，公司8寸和12寸产线平均产能利用率均始终保持在100%以上，华虹宏力 半导体（无锡）二期项目(FAB9)产能快速爬坡，全力承接市场与客户的强劲需求。",
+          "先看价格站上20日平均成本252.03元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收172.91亿元，同比+20.18%；归母净利润3.77亿元，同比-1.04%。2026-03-31营收46.25亿元，较可比期+18.22%；归母净利润1.4亿元，较可比期+513.1%；经营现金流9.11亿元。",
+          "2025年，公司8寸和12寸产线平均产能利用率均始终保持在100%以上，华虹宏力 半导体（无锡）二期项目(FAB9)产能快速爬坡，全力承接市场与客户的强劲需求。",
+          "该等前瞻性陈述乃反映华虹公司高级管 理层根据最佳判断作出的估计，存在重大已知及未知的风险、不确定性以及其它可能导致华虹公 司实际业绩、财务状况或经营结果与前瞻性陈述所载数据有重大差异的因素，包括（但不限于） 与半导体行业周期及市场情况有关风险、半导体行业的激烈竞争、华虹公司客户能否及时接收晶 圆产品、能否及时引进新技术、华虹公司量产新产品的能力、半导体代工服务供求情况、行业产 能过剩、设备、零备件、原材料及软件短缺、制造产能供给、终端市场的金融情况是否稳定、来 自未决诉讼的命令或判决、半导体行业常见的知识产权诉讼、宏观经济状况、货币汇率波动及地 缘政治风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查华虹公司的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘华虹公司值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 252.72,
+    "previousClose": 244.00888288114317,
+    "changePct": 3.570000000000009,
+    "high": 389.5,
+    "low": 333.64,
+    "open": 383.96,
+    "volume": 254035,
+    "turnover": 9069844502,
+    "turnoverText": "50.14亿",
+    "currency": "CNY",
+    "asOf": "20260827161459",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 252.72,
+    "changePct": 3.57,
+    "turnoverText": "50.14亿",
+    "turnoverRate": 4.94,
+    "totalMarketCap": "4391.58亿",
+    "floatMarketCap": "1030.47亿",
+    "fiveDayChangePct": 8.61,
+    "twentyDayChangePct": 9.88,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161459",
+    "asOf": "20260827161459",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161459",
+    "latestAsOf": "20260827161459",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.71,
+    "evidence_confidence_score": 80.4,
+    "market_payoff_score": 63.8,
+    "technical_timing_score": 66.2,
+    "data_readiness_score": 100,
+    "action_readiness_score": 76.79,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 72,
+        "average_rating": 3.6,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 3,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 63.8,
+        "average_rating": 3.19,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 3.25,
+          "upside_downside": 3.2,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.1
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 66.2,
+        "average_rating": 3.31,
+        "details": {
+          "monthly_trend": 4.9,
+          "weekly_structure": 2.2,
+          "daily_buy_point": 2.5,
+          "gf_dma_alignment": 3.95,
+          "drawdown_position": 3
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "晶圆制造处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 3.9%，近60日涨跌 147.2%；客户或订单证据 0 条直接、4 条线索。",
+        "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+      "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+      "行业景气回落，价格或库存变化削弱原来的增长判断。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

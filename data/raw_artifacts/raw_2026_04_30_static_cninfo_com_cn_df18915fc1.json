@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_df18915fc1",
+  "artifactType": "filing",
+  "title": "长江电力2025年度环境、社会和公司治理报告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225262474.PDF",
+  "sourceId": "src_static_cninfo_com_cn_df18915fc1",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_df18915fc1",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:31f0e863135347202a992479478c7f635e75fcbac65cf2b4b2b8b37cc112fb34",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_df18915fc1.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_e57cbe8431"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ac4dc7322e2b689d; listSourceId=src_cninfo_600900_announcements."
+}

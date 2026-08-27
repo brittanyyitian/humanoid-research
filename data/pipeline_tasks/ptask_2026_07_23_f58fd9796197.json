@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_f58fd9796197",
+  "rawArtifactId": "raw_2026_05_22_static_cninfo_com_cn_12052ce7f9",
+  "routeDecisionId": "route_2026_05_22_f8c059352209",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "beite_technology",
+  "entityIds": [
+    "beite_technology"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:18+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:18+08:00",
+  "finishedAt": "2026-07-23T16:16:18+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_22_filing_eb34044b4c"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_22_filing_eb34044b4c"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_22_filing_material_v0_9d1f915ab4"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_d4f80332ab59"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_15_static_cninfo_com_cn_c6951640b5",
+  "artifactType": "filing",
+  "title": "中无人机2025年年度权益分派实施公告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225307821.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c6951640b5",
+  "fetchRunId": "fetch_2026_05_15_static_cninfo_com_cn_c6951640b5",
+  "publishedAt": "2026-05-15",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:db29fa3d756d8102ef1d617ba22ea2df22989882fda1da25ebda6cbaf2860e11",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_c6951640b5.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_b906f4f1ce"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3f0ee4ee400ebc80; listSourceId=src_cninfo_688297_announcements."
+}

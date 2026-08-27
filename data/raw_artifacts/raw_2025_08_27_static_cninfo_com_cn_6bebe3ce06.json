@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_27_static_cninfo_com_cn_6bebe3ce06",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224584135.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6bebe3ce06",
+  "fetchRunId": "fetch_2025_08_27_static_cninfo_com_cn_6bebe3ce06",
+  "publishedAt": "2025-08-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:ac7d83670be92e8601bd3ebd825c62af6c7ffd09776d66af1123216c7ad8a814",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_27_static_cninfo_com_cn_6bebe3ce06.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2025_08_27_filing_182f651dcb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_37c644c8db8f0426; listSourceId=src_cninfo_000566_announcements."
+}

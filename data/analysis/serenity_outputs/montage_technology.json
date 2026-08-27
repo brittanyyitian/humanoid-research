@@ -1,0 +1,1300 @@
+{
+  "id": "saout_montage_technology_c30a64049d73",
+  "entityId": "montage_technology",
+  "name": "澜起科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688008.SH",
+    "symbol": "688008.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_45_41_montage_technology",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_45_41_montage_technology/data/688008/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_45_41_montage_technology/ai_research/688008.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_45_41_montage_technology/ai_research/688008.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "澜起科技 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "澜起科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查澜起科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘澜起科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "芯片设计",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688008.SH",
+      "name": "澜起科技",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 221.22,
+        "previousClose": 200.999454842813,
+        "changePct": 10.06,
+        "high": 230.98,
+        "low": 220.77,
+        "open": 228.45,
+        "volume": 284348,
+        "turnover": 6415733993,
+        "turnoverText": "144.63亿",
+        "currency": "CNY",
+        "asOf": "20260827161455",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.98,
+        "technicalTimingScore": 39.6,
+        "marketPayoffScore": 61.72,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 96,
+        "evidenceScore": 96,
+        "valuationScore": 43,
+        "timingScore": 39.6,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 66.25,
+          "fundamentalScore": 91.2,
+          "companyScore": 96,
+          "evidenceScore": 96,
+          "valuationScore": 43,
+          "timingScore": 39.6,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 121.2147,
+            "ps": 49.6643,
+            "revenueGrowth": 0.1951,
+            "profitGrowth": 0.613,
+            "cashConversion": 0.7395,
+            "debtRatio": 0.0417,
+            "return20": -0.0353
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收54.56亿元，同比+49.94%；归母净利润22.36亿元，同比+58.35%。2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。",
+          "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。",
+          "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+          "2026-08-26复权收盘201元，低于20日平均成本207.6元；60日平均成本230.1元，近20个交易日涨跌-3.53%。"
+        ],
+        "possible": [
+          "澜起科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "澜起科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "澜起科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.72,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.98/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 39.6,
+        "dailyBuyPointScore": 1.9,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 146.5,
+            "volume": 265749,
+            "average20": 159.766,
+            "average60": 145.848
+          },
+          {
+            "date": "2026-03-16",
+            "close": 152.5,
+            "volume": 409655,
+            "average20": 159.214,
+            "average60": 146.381
+          },
+          {
+            "date": "2026-03-17",
+            "close": 146.59,
+            "volume": 299524,
+            "average20": 157.871,
+            "average60": 146.834
+          },
+          {
+            "date": "2026-03-18",
+            "close": 153.62,
+            "volume": 479788,
+            "average20": 156.677,
+            "average60": 147.388
+          },
+          {
+            "date": "2026-03-19",
+            "close": 149.68,
+            "volume": 382434,
+            "average20": 155.666,
+            "average60": 147.963
+          },
+          {
+            "date": "2026-03-20",
+            "close": 144.9,
+            "volume": 350753,
+            "average20": 154.505,
+            "average60": 148.486
+          },
+          {
+            "date": "2026-03-23",
+            "close": 136.8,
+            "volume": 383500,
+            "average20": 153.115,
+            "average60": 148.811
+          },
+          {
+            "date": "2026-03-24",
+            "close": 137.57,
+            "volume": 300404,
+            "average20": 151.263,
+            "average60": 149.157
+          },
+          {
+            "date": "2026-03-25",
+            "close": 142,
+            "volume": 325800,
+            "average20": 149.976,
+            "average60": 149.564
+          },
+          {
+            "date": "2026-03-26",
+            "close": 136.99,
+            "volume": 248477,
+            "average20": 148.57,
+            "average60": 149.841
+          },
+          {
+            "date": "2026-03-27",
+            "close": 135.1,
+            "volume": 234873,
+            "average20": 147.147,
+            "average60": 150.076
+          },
+          {
+            "date": "2026-03-30",
+            "close": 132,
+            "volume": 255719,
+            "average20": 145.775,
+            "average60": 150.246
+          },
+          {
+            "date": "2026-03-31",
+            "close": 125.28,
+            "volume": 364438,
+            "average20": 144.645,
+            "average60": 150.312
+          },
+          {
+            "date": "2026-04-01",
+            "close": 129.97,
+            "volume": 342306,
+            "average20": 143.628,
+            "average60": 150.464
+          },
+          {
+            "date": "2026-04-02",
+            "close": 129,
+            "volume": 305824,
+            "average20": 142.446,
+            "average60": 150.628
+          },
+          {
+            "date": "2026-04-03",
+            "close": 127.26,
+            "volume": 185981,
+            "average20": 141.228,
+            "average60": 150.751
+          },
+          {
+            "date": "2026-04-07",
+            "close": 127.9,
+            "volume": 198026,
+            "average20": 140.215,
+            "average60": 150.919
+          },
+          {
+            "date": "2026-04-08",
+            "close": 139.21,
+            "volume": 500429,
+            "average20": 139.526,
+            "average60": 151.11
+          },
+          {
+            "date": "2026-04-09",
+            "close": 139.17,
+            "volume": 371454,
+            "average20": 138.995,
+            "average60": 151.204
+          },
+          {
+            "date": "2026-04-10",
+            "close": 143.53,
+            "volume": 401409,
+            "average20": 138.779,
+            "average60": 151.335
+          },
+          {
+            "date": "2026-04-13",
+            "close": 152.3,
+            "volume": 534921,
+            "average20": 139.069,
+            "average60": 151.672
+          },
+          {
+            "date": "2026-04-14",
+            "close": 153.36,
+            "volume": 630132,
+            "average20": 139.112,
+            "average60": 152.021
+          },
+          {
+            "date": "2026-04-15",
+            "close": 147.18,
+            "volume": 491317,
+            "average20": 139.141,
+            "average60": 152.271
+          },
+          {
+            "date": "2026-04-16",
+            "close": 151,
+            "volume": 397312,
+            "average20": 139.01,
+            "average60": 152.629
+          },
+          {
+            "date": "2026-04-17",
+            "close": 150.78,
+            "volume": 455254,
+            "average20": 139.065,
+            "average60": 152.934
+          },
+          {
+            "date": "2026-04-20",
+            "close": 154.66,
+            "volume": 432314,
+            "average20": 139.553,
+            "average60": 153.259
+          },
+          {
+            "date": "2026-04-21",
+            "close": 158.4,
+            "volume": 452161,
+            "average20": 140.633,
+            "average60": 153.522
+          },
+          {
+            "date": "2026-04-22",
+            "close": 163.35,
+            "volume": 581695,
+            "average20": 141.922,
+            "average60": 153.93
+          },
+          {
+            "date": "2026-04-23",
+            "close": 159.7,
+            "volume": 621430,
+            "average20": 142.807,
+            "average60": 154.208
+          },
+          {
+            "date": "2026-04-24",
+            "close": 163.5,
+            "volume": 621122,
+            "average20": 144.132,
+            "average60": 154.266
+          },
+          {
+            "date": "2026-04-27",
+            "close": 178.09,
+            "volume": 825574,
+            "average20": 146.282,
+            "average60": 154.436
+          },
+          {
+            "date": "2026-04-28",
+            "close": 173.61,
+            "volume": 694863,
+            "average20": 148.363,
+            "average60": 154.662
+          },
+          {
+            "date": "2026-04-29",
+            "close": 169.9,
+            "volume": 517497,
+            "average20": 150.594,
+            "average60": 154.759
+          },
+          {
+            "date": "2026-04-30",
+            "close": 173.3,
+            "volume": 591288,
+            "average20": 152.76,
+            "average60": 154.83
+          },
+          {
+            "date": "2026-05-06",
+            "close": 198.98,
+            "volume": 1100590,
+            "average20": 156.259,
+            "average60": 155.259
+          },
+          {
+            "date": "2026-05-07",
+            "close": 209.91,
+            "volume": 885443,
+            "average20": 160.392,
+            "average60": 156.054
+          },
+          {
+            "date": "2026-05-08",
+            "close": 210.27,
+            "volume": 623845,
+            "average20": 164.51,
+            "average60": 156.528
+          },
+          {
+            "date": "2026-05-11",
+            "close": 249.22,
+            "volume": 1102142,
+            "average20": 170.011,
+            "average60": 157.716
+          },
+          {
+            "date": "2026-05-12",
+            "close": 240.7,
+            "volume": 974189,
+            "average20": 175.087,
+            "average60": 158.694
+          },
+          {
+            "date": "2026-05-13",
+            "close": 258.8,
+            "volume": 848754,
+            "average20": 180.85,
+            "average60": 160.159
+          },
+          {
+            "date": "2026-05-14",
+            "close": 265.08,
+            "volume": 1076689,
+            "average20": 186.489,
+            "average60": 161.774
+          },
+          {
+            "date": "2026-05-15",
+            "close": 247.98,
+            "volume": 1145287,
+            "average20": 191.22,
+            "average60": 163.182
+          },
+          {
+            "date": "2026-05-18",
+            "close": 247.99,
+            "volume": 789791,
+            "average20": 196.261,
+            "average60": 164.424
+          },
+          {
+            "date": "2026-05-19",
+            "close": 247.11,
+            "volume": 690322,
+            "average20": 201.067,
+            "average60": 165.584
+          },
+          {
+            "date": "2026-05-20",
+            "close": 257.3,
+            "volume": 747902,
+            "average20": 206.392,
+            "average60": 167.041
+          },
+          {
+            "date": "2026-05-21",
+            "close": 262.17,
+            "volume": 1120044,
+            "average20": 211.768,
+            "average60": 168.609
+          },
+          {
+            "date": "2026-05-22",
+            "close": 271.83,
+            "volume": 785466,
+            "average20": 217.44,
+            "average60": 170.396
+          },
+          {
+            "date": "2026-05-25",
+            "close": 284.08,
+            "volume": 894252,
+            "average20": 223.476,
+            "average60": 172.22
+          },
+          {
+            "date": "2026-05-26",
+            "close": 272.29,
+            "volume": 789223,
+            "average20": 229.106,
+            "average60": 173.963
+          },
+          {
+            "date": "2026-05-27",
+            "close": 265.5,
+            "volume": 766214,
+            "average20": 234.206,
+            "average60": 175.636
+          },
+          {
+            "date": "2026-05-28",
+            "close": 260.98,
+            "volume": 624091,
+            "average20": 238.35,
+            "average60": 177.26
+          },
+          {
+            "date": "2026-05-29",
+            "close": 253,
+            "volume": 730562,
+            "average20": 242.319,
+            "average60": 178.819
+          },
+          {
+            "date": "2026-06-01",
+            "close": 232.3,
+            "volume": 719863,
+            "average20": 245.44,
+            "average60": 180.226
+          },
+          {
+            "date": "2026-06-02",
+            "close": 237,
+            "volume": 666311,
+            "average20": 248.625,
+            "average60": 181.671
+          },
+          {
+            "date": "2026-06-03",
+            "close": 253.9,
+            "volume": 913174,
+            "average20": 251.37,
+            "average60": 183.358
+          },
+          {
+            "date": "2026-06-04",
+            "close": 259.67,
+            "volume": 650951,
+            "average20": 253.858,
+            "average60": 185.159
+          },
+          {
+            "date": "2026-06-05",
+            "close": 239.39,
+            "volume": 692408,
+            "average20": 255.315,
+            "average60": 186.68
+          },
+          {
+            "date": "2026-06-08",
+            "close": 224.31,
+            "volume": 609373,
+            "average20": 254.069,
+            "average60": 187.868
+          },
+          {
+            "date": "2026-06-09",
+            "close": 236.4,
+            "volume": 528244,
+            "average20": 253.854,
+            "average60": 189.312
+          },
+          {
+            "date": "2026-06-10",
+            "close": 231,
+            "volume": 429642,
+            "average20": 252.464,
+            "average60": 190.698
+          },
+          {
+            "date": "2026-06-11",
+            "close": 228.7,
+            "volume": 429837,
+            "average20": 250.645,
+            "average60": 192.068
+          },
+          {
+            "date": "2026-06-12",
+            "close": 224.88,
+            "volume": 637454,
+            "average20": 249.49,
+            "average60": 193.274
+          },
+          {
+            "date": "2026-06-15",
+            "close": 240.1,
+            "volume": 537362,
+            "average20": 249.096,
+            "average60": 194.832
+          },
+          {
+            "date": "2026-06-16",
+            "close": 244.17,
+            "volume": 538362,
+            "average20": 248.949,
+            "average60": 196.342
+          },
+          {
+            "date": "2026-06-17",
+            "close": 262.5,
+            "volume": 741507,
+            "average20": 249.209,
+            "average60": 198.222
+          },
+          {
+            "date": "2026-06-18",
+            "close": 269.9,
+            "volume": 815717,
+            "average20": 249.595,
+            "average60": 200.305
+          },
+          {
+            "date": "2026-06-22",
+            "close": 280.05,
+            "volume": 795528,
+            "average20": 250.006,
+            "average60": 202.693
+          },
+          {
+            "date": "2026-06-23",
+            "close": 258,
+            "volume": 774899,
+            "average20": 248.702,
+            "average60": 204.7
+          },
+          {
+            "date": "2026-06-24",
+            "close": 266.49,
+            "volume": 635915,
+            "average20": 248.412,
+            "average60": 206.775
+          },
+          {
+            "date": "2026-06-25",
+            "close": 279.16,
+            "volume": 913012,
+            "average20": 249.095,
+            "average60": 209.144
+          },
+          {
+            "date": "2026-06-26",
+            "close": 261.82,
+            "volume": 755002,
+            "average20": 249.137,
+            "average60": 211.256
+          },
+          {
+            "date": "2026-06-29",
+            "close": 296.06,
+            "volume": 1067263,
+            "average20": 251.29,
+            "average60": 213.991
+          },
+          {
+            "date": "2026-06-30",
+            "close": 309.9,
+            "volume": 899118,
+            "average20": 255.17,
+            "average60": 217.068
+          },
+          {
+            "date": "2026-07-01",
+            "close": 315.89,
+            "volume": 886648,
+            "average20": 259.115,
+            "average60": 220.166
+          },
+          {
+            "date": "2026-07-02",
+            "close": 269.15,
+            "volume": 899764,
+            "average20": 259.877,
+            "average60": 222.502
+          },
+          {
+            "date": "2026-07-03",
+            "close": 266.8,
+            "volume": 723750,
+            "average20": 260.233,
+            "average60": 224.828
+          },
+          {
+            "date": "2026-07-06",
+            "close": 268.68,
+            "volume": 633465,
+            "average20": 261.698,
+            "average60": 227.174
+          },
+          {
+            "date": "2026-07-07",
+            "close": 253.2,
+            "volume": 607205,
+            "average20": 263.143,
+            "average60": 229.074
+          },
+          {
+            "date": "2026-07-08",
+            "close": 247.15,
+            "volume": 511464,
+            "average20": 263.68,
+            "average60": 230.874
+          },
+          {
+            "date": "2026-07-09",
+            "close": 285.8,
+            "volume": 821932,
+            "average20": 266.42,
+            "average60": 233.245
+          },
+          {
+            "date": "2026-07-10",
+            "close": 268.06,
+            "volume": 830993,
+            "average20": 268.388,
+            "average60": 235.174
+          },
+          {
+            "date": "2026-07-13",
+            "close": 252.79,
+            "volume": 568035,
+            "average20": 269.784,
+            "average60": 236.831
+          },
+          {
+            "date": "2026-07-14",
+            "close": 270,
+            "volume": 636142,
+            "average20": 271.279,
+            "average60": 238.878
+          },
+          {
+            "date": "2026-07-15",
+            "close": 252.68,
+            "volume": 535091,
+            "average20": 271.704,
+            "average60": 240.573
+          },
+          {
+            "date": "2026-07-16",
+            "close": 211.13,
+            "volume": 1160080,
+            "average20": 269.136,
+            "average60": 241.579
+          },
+          {
+            "date": "2026-07-17",
+            "close": 183.6,
+            "volume": 976888,
+            "average20": 264.821,
+            "average60": 242.061
+          },
+          {
+            "date": "2026-07-20",
+            "close": 189.94,
+            "volume": 771424,
+            "average20": 260.315,
+            "average60": 242.587
+          },
+          {
+            "date": "2026-07-21",
+            "close": 219.6,
+            "volume": 929386,
+            "average20": 258.395,
+            "average60": 243.524
+          },
+          {
+            "date": "2026-07-22",
+            "close": 223,
+            "volume": 902888,
+            "average20": 256.221,
+            "average60": 244.579
+          },
+          {
+            "date": "2026-07-23",
+            "close": 222.6,
+            "volume": 284348,
+            "average20": 253.393,
+            "average60": 245.564
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 253.4 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 180.3，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 221.22,
+            "recentAverage": 253.393,
+            "longerAverage": 245.564,
+            "recentHigh": 332.9,
+            "recentLow": 180.25
+          }
+        }
+      },
+      "risk": [
+        "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+        "若下一期现金流明显落后于利润，澜起科技的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查澜起科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘澜起科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。",
+            "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。"
+          ]
+        },
+        "upside": {
+          "summary": "澜起科技的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "澜起科技的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本230.1元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。继续恶化，或价格跌破60日平均成本230.1元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "澜起科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收54.56亿元，同比+49.94%；归母净利润22.36亿元，同比+58.35%。2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。",
+            "reason": "澜起科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225206629.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。",
+            "reason": "澜起科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-31/1225057736.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-31/1225057736.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘201元，低于20日平均成本207.6元；60日平均成本230.1元，近20个交易日涨跌-3.53%。",
+            "reason": "澜起科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收54.56亿元，同比+49.94%；归母净利润22.36亿元，同比+58.35%。2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。",
+          "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。",
+          "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查澜起科技的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘澜起科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收54.56亿元，同比+49.94%；归母净利润22.36亿元，同比+58.35%。2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。"
+      },
+      {
+        "label": "已确认",
+        "text": "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘201元，低于20日平均成本207.6元；60日平均成本230.1元，近20个交易日涨跌-3.53%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "澜起科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "澜起科技当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "澜起科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，澜起科技的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "status": "open"
+      },
+      {
+        "question": "澜起科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "688008.SH",
+      "research_status": "COMPLETED",
+      "score": 96.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "688008.SH",
+      "company": "澜起科技",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.39,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 61.72,
+      "technical_timing_score": 39.6,
+      "data_readiness_score": 100,
+      "action_readiness_score": 64.82,
+      "candidate_priority_score": 55.98,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 61.72,
+          "average_rating": 3.09,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 2.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 39.6,
+          "average_rating": 1.98,
+          "details": {
+            "monthly_trend": 2.9,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 1.9,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1.8
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "芯片设计处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -20.3%，近60日涨跌 36.1%；客户或订单证据 0 条直接、2 条线索。",
+          "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+        "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+        "行业景气回落，价格或库存变化削弱原来的增长判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "A",
+      "overallScore": 66.25,
+      "fundamentalScore": 91.2,
+      "companyScore": 96,
+      "evidenceScore": 96,
+      "valuationScore": 43,
+      "timingScore": 39.6,
+      "riskScore": 64,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 121.2147,
+        "ps": 49.6643,
+        "revenueGrowth": 0.1951,
+        "profitGrowth": 0.613,
+        "cashConversion": 0.7395,
+        "debtRatio": 0.0417,
+        "return20": -0.0353
+      }
+    },
+    "overlay": {
+      "symbol": "688008.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "芯片设计",
+      "bottleneck_reason": "半导体景气必须经过产品、客户验证和产能利用，再进入收入和现金流；本次最关键的公司原文是：2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。",
+      "revenue_transmission": "这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收54.56亿元，同比+49.94%；归母净利润22.36亿元，同比+58.35%。2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。2026-08-26复权收盘201元，低于20日平均成本207.6元；60日平均成本230.1元，近20个交易日涨跌-3.53%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+        "若下一期现金流明显落后于利润，澜起科技的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "澜起科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收14.61亿元，较可比期+19.51%；归母净利润8.47亿元，较可比期+61.3%；经营现金流6.27亿元。",
+          "2．由于客户需求及销售订单增长，2025年度公司增加备货，期末互连类芯片库存量较上年末增 长184.09%。"
+        ]
+      },
+      "upside": {
+        "summary": "澜起科技的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "核心产品、客户验证、产量、产能利用率或分部收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "澜起科技的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本230.1元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若2．人才流失风险 芯片设计行业属于技术密集型产业，对技术人员的依赖度较高。继续恶化，或价格跌破60日平均成本230.1元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本207.6元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

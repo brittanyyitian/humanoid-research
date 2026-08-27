@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_c7b84552ac",
+  "artifactType": "filing",
+  "title": "长江电力关于董事会换届选举的公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225354351.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c7b84552ac",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_c7b84552ac",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d9d97f61e3aa0d44df5a7476b8a31a43803ff6324df6dacf42fbbd64a2f0e473",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_c7b84552ac.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_2597a0c0c3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_931de3346bb4f55d; listSourceId=src_cninfo_600900_announcements."
+}

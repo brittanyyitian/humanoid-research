@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_03_27_static_cninfo_com_cn_e4bf5abdb0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中国海油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_03_27_static_cninfo_com_cn_e4bf5abdb0"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_4f7d68cb1a"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225035999.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:62c438a5f9e9bb12243ce61a9b41125813701e6fc9aae2d13f89ed6cdd226dd9",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_e4bf5abdb0.json"
+    }
+  ]
+}

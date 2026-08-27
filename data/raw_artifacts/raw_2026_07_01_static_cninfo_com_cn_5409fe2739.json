@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_5409fe2739",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225399402.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5409fe2739",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_5409fe2739",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:41d1ccc2989864e908ae3303ee1016b6c4fe33ed29f28cd96a9b49a302ddfbcd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_5409fe2739.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_dae2de0df9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d88c9c65c7c1d4df; listSourceId=src_cninfo_002896_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_22_static_cninfo_com_cn_559ae49d9c",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-22/1225136962.PDF",
+  "sourceId": "src_static_cninfo_com_cn_559ae49d9c",
+  "fetchRunId": "fetch_2026_04_22_static_cninfo_com_cn_559ae49d9c",
+  "publishedAt": "2026-04-22",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:1424c865ae86215e2687e4e8cbdfff0e119cac2b0f73888505c07975612882ba",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_22_static_cninfo_com_cn_559ae49d9c.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_04_22_filing_93ede5209f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_421144531211441a; listSourceId=src_cninfo_000426_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
+  "artifactType": "news_page",
+  "title": "智元携手长隆打造全球首个具身智能主题乐园",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/185.html",
+  "sourceId": "src_agibot_com_cn_90cc5e9e82",
+  "fetchRunId": "fetch_2026_08_25_agibot_com_cn_90cc5e9e82",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:bd6a54cc5b1a3a354f16b332efd417b728f296f1eecc6ba23c48eadb112e178f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_agibot_com_cn_90cc5e9e82.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_other_7f8acee3d1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_02d9a76e96ab7b3d; listSourceId=src_agibot_official_news."
+}

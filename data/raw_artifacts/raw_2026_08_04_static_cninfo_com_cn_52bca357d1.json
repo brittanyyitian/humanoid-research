@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_52bca357d1",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩预告的自愿性披露公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225455464.PDF",
+  "sourceId": "src_static_cninfo_com_cn_52bca357d1",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_52bca357d1",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:8b9d6d9471554c3bb6bb743856ffdc9b40bcee7802377cf140934eb10ec00745",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_52bca357d1.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_01fd7053eb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_249ead7b83c43ed7; listSourceId=src_cninfo_688012_announcements."
+}

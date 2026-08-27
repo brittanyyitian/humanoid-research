@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_419b1dee5a",
+  "artifactType": "filing",
+  "title": "2025年社会责任报告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036405.PDF",
+  "sourceId": "src_static_cninfo_com_cn_419b1dee5a",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_419b1dee5a",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:125a505d945fbe33fc4be16b713badfe5c69eebb129e5b864ee8f117211b9d09",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_419b1dee5a.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_4ea85bb1a4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3a6e3f32a26ec726; listSourceId=src_cninfo_002389_announcements."
+}

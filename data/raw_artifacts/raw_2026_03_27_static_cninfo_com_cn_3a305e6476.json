@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_3a305e6476",
+  "artifactType": "filing",
+  "title": "关于会计政策变更的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036401.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3a305e6476",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_3a305e6476",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2e977c8168afc61bf5a9898d9f8709e5b40494d0b880708a0c90fd89dd0691a6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_3a305e6476.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_e8fd6e346e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7b9d0e815cc820d2; listSourceId=src_cninfo_002389_announcements."
+}

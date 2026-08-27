@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_f891baa9e2",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司、国投证券股份有限公司关于国投电力控股股份有限公司向参股公司提供财务资助的核查意见",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329683.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f891baa9e2",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_f891baa9e2",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4bdf10d4e8c465e17f4b8dd28340c54da0894f41121c86cfaafb7a2f6b4c5bc6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_f891baa9e2.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_e1189ffc58"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_304ab2103a6b0eea; listSourceId=src_cninfo_600886_announcements."
+}

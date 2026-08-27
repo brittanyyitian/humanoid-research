@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_14_static_cninfo_com_cn_4043195e28",
+  "artifactType": "filing",
+  "title": "员工持股计划2026年第一次持有人会议决议公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-14/1225304594.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4043195e28",
+  "fetchRunId": "fetch_2026_05_14_static_cninfo_com_cn_4043195e28",
+  "publishedAt": "2026-05-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:8a14c9aff46aa8612357bdef8808e378750e572f350323d59301819d93e5006f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_14_static_cninfo_com_cn_4043195e28.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_14_filing_321aaf9c64"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d6ec23accef75bd0; listSourceId=src_cninfo_600667_announcements."
+}

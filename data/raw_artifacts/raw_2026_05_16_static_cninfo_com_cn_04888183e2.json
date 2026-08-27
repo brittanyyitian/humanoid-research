@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_16_static_cninfo_com_cn_04888183e2",
+  "artifactType": "filing",
+  "title": "关于董事长、董事工作调整暨补选董事的公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-16/1225308637.PDF",
+  "sourceId": "src_static_cninfo_com_cn_04888183e2",
+  "fetchRunId": "fetch_2026_05_16_static_cninfo_com_cn_04888183e2",
+  "publishedAt": "2026-05-16",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:622588ea204d5ba05899660f221a4b0eda6a50e99c3851d22efa03f6c198a0dd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_16_static_cninfo_com_cn_04888183e2.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_16_filing_1fe65dc814"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3e6dbb78279266ad; listSourceId=src_cninfo_000159_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_05_08_static_cninfo_com_cn_29a30b4881",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "海南海药",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:52:32+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_05_08_static_cninfo_com_cn_29a30b4881"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_c830bcebdb"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282765.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:9c9d78264f9f81b3ac0289d52cbe0295990b5a4920505bbd80b5f90485454ae5",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_29a30b4881.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:52:32+08:00",
+      "finishedAt": "2026-07-23T09:52:32+08:00",
+      "contentHash": "sha256:7c9c16d2a4e6f08fa6ab31e28164127dfb4a8ee6ab97b0c7aef807d4d0f68672",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_29a30b4881.json"
+    }
+  ]
+}

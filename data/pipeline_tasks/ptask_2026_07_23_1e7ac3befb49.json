@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_1e7ac3befb49",
+  "rawArtifactId": "raw_2026_07_17_static_cninfo_com_cn_ed5979b4c6",
+  "routeDecisionId": "route_2026_07_17_e9a71b4ccf9c",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "sinopec",
+  "entityIds": [
+    "sinopec"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:31:19+08:00",
+  "updatedAt": "2026-07-23T09:31:20+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:31:20+08:00",
+  "finishedAt": "2026-07-23T09:31:20+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_17_filing_4338191c37"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_17_filing_4338191c37"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_17_filing_material_v0_9b37f50aea"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_e07e1c3fce54"
+  ]
+}

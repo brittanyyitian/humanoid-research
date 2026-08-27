@@ -1,0 +1,1062 @@
+{
+  "id": "saout_cambricon_41216a0e0ede",
+  "entityId": "cambricon",
+  "name": "寒武纪",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/cambricon.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "寒武纪 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "寒武纪的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查寒武纪的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘寒武纪值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "芯片设计",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688256.SH",
+      "name": "寒武纪",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 1048,
+        "previousClose": 1019.9513381995133,
+        "changePct": 2.7500000000000067,
+        "high": 1336,
+        "low": 1260.01,
+        "open": 1336,
+        "volume": 47779,
+        "turnover": 6163792443,
+        "turnoverText": "95.33亿",
+        "currency": "CNY",
+        "asOf": "20260827161449",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.77,
+        "technicalTimingScore": 34.2,
+        "marketPayoffScore": 61.72,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 96,
+        "evidenceScore": 96,
+        "valuationScore": 28,
+        "timingScore": 34.2,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 61.15,
+          "fundamentalScore": 91.2,
+          "companyScore": 96,
+          "evidenceScore": 96,
+          "valuationScore": 28,
+          "timingScore": 34.2,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 385.8464,
+            "ps": 122.2906,
+            "revenueGrowth": 1.5956,
+            "profitGrowth": 1.8504,
+            "cashConversion": 0.8231,
+            "debtRatio": 0.1638,
+            "return20": -0.1268
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收64.97亿元，同比+453.21%；归母净利润20.59亿元，同比-555.24%。2026-03-31营收28.85亿元，较可比期+159.56%；归母净利润10.13亿元，较可比期+185.04%；经营现金流8.34亿元。",
+          "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 主要产品 单位 生产量 销售量 库存量 上年增减 上年增减 上年增减 （%） （%） （%） 智能芯片 片 127,673 117,436 857,057 409.84 201.57 0.63 及板卡 产销量情况说明 报告期内产销量同比上一年度均实现增长，主要系报告期内受益于人工智能行业算力需求的 持续攀升，公司凭借产品的优异竞争力持续拓展市场所致。",
+          "截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。",
+          "2026-08-26复权收盘1020元，低于20日平均成本1089.44元；60日平均成本1233.25元，近20个交易日涨跌-12.68%。"
+        ],
+        "possible": [
+          "寒武纪当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "寒武纪当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "寒武纪当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.72,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.77/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 34.2,
+        "dailyBuyPointScore": 1.2,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 734.63,
+            "volume": 92906,
+            "average20": 749.661,
+            "average60": 845.616
+          },
+          {
+            "date": "2026-03-16",
+            "close": 730.52,
+            "volume": 66957,
+            "average20": 751.439,
+            "average60": 841.914
+          },
+          {
+            "date": "2026-03-17",
+            "close": 723.82,
+            "volume": 55321,
+            "average20": 751.21,
+            "average60": 838.536
+          },
+          {
+            "date": "2026-03-18",
+            "close": 714.43,
+            "volume": 68393,
+            "average20": 750.039,
+            "average60": 835.426
+          },
+          {
+            "date": "2026-03-19",
+            "close": 694.98,
+            "volume": 48853,
+            "average20": 748.634,
+            "average60": 832.128
+          },
+          {
+            "date": "2026-03-20",
+            "close": 686.91,
+            "volume": 101952,
+            "average20": 745.697,
+            "average60": 829.343
+          },
+          {
+            "date": "2026-03-23",
+            "close": 650.87,
+            "volume": 81515,
+            "average20": 740.684,
+            "average60": 825.492
+          },
+          {
+            "date": "2026-03-24",
+            "close": 689.26,
+            "volume": 90596,
+            "average20": 739.24,
+            "average60": 822.601
+          },
+          {
+            "date": "2026-03-25",
+            "close": 696.31,
+            "volume": 89714,
+            "average20": 737.775,
+            "average60": 820.039
+          },
+          {
+            "date": "2026-03-26",
+            "close": 686.85,
+            "volume": 49947,
+            "average20": 732.947,
+            "average60": 817.132
+          },
+          {
+            "date": "2026-03-27",
+            "close": 686.24,
+            "volume": 50423,
+            "average20": 727.779,
+            "average60": 813.642
+          },
+          {
+            "date": "2026-03-30",
+            "close": 676.48,
+            "volume": 52269,
+            "average20": 721.656,
+            "average60": 810.099
+          },
+          {
+            "date": "2026-03-31",
+            "close": 658.72,
+            "volume": 50754,
+            "average20": 716.62,
+            "average60": 806.336
+          },
+          {
+            "date": "2026-04-01",
+            "close": 704.63,
+            "volume": 100009,
+            "average20": 714.416,
+            "average60": 803.512
+          },
+          {
+            "date": "2026-04-02",
+            "close": 669.46,
+            "volume": 70915,
+            "average20": 708.745,
+            "average60": 799.49
+          },
+          {
+            "date": "2026-04-03",
+            "close": 687.38,
+            "volume": 62245,
+            "average20": 704.41,
+            "average60": 795.127
+          },
+          {
+            "date": "2026-04-07",
+            "close": 750,
+            "volume": 140829,
+            "average20": 704.175,
+            "average60": 792.481
+          },
+          {
+            "date": "2026-04-08",
+            "close": 780.2,
+            "volume": 104833,
+            "average20": 704.743,
+            "average60": 789.953
+          },
+          {
+            "date": "2026-04-09",
+            "close": 803.02,
+            "volume": 97509,
+            "average20": 708.064,
+            "average60": 787.882
+          },
+          {
+            "date": "2026-04-10",
+            "close": 811.54,
+            "volume": 90037,
+            "average20": 711.812,
+            "average60": 785.822
+          },
+          {
+            "date": "2026-04-13",
+            "close": 817.53,
+            "volume": 78791,
+            "average20": 715.957,
+            "average60": 783.312
+          },
+          {
+            "date": "2026-04-14",
+            "close": 832.54,
+            "volume": 77032,
+            "average20": 721.058,
+            "average60": 780.527
+          },
+          {
+            "date": "2026-04-15",
+            "close": 854.03,
+            "volume": 124299,
+            "average20": 727.569,
+            "average60": 777.887
+          },
+          {
+            "date": "2026-04-16",
+            "close": 876.17,
+            "volume": 77965,
+            "average20": 735.656,
+            "average60": 776.757
+          },
+          {
+            "date": "2026-04-17",
+            "close": 894.3,
+            "volume": 72105,
+            "average20": 745.622,
+            "average60": 775.581
+          },
+          {
+            "date": "2026-04-20",
+            "close": 923.96,
+            "volume": 75196,
+            "average20": 757.474,
+            "average60": 775.169
+          },
+          {
+            "date": "2026-04-21",
+            "close": 891.61,
+            "volume": 81791,
+            "average20": 769.511,
+            "average60": 774.117
+          },
+          {
+            "date": "2026-04-22",
+            "close": 896.31,
+            "volume": 68082,
+            "average20": 779.864,
+            "average60": 773.192
+          },
+          {
+            "date": "2026-04-23",
+            "close": 886.91,
+            "volume": 77188,
+            "average20": 789.394,
+            "average60": 772.968
+          },
+          {
+            "date": "2026-04-24",
+            "close": 906.71,
+            "volume": 124071,
+            "average20": 800.387,
+            "average60": 772.953
+          },
+          {
+            "date": "2026-04-27",
+            "close": 909.54,
+            "volume": 70932,
+            "average20": 811.552,
+            "average60": 772.995
+          },
+          {
+            "date": "2026-04-28",
+            "close": 921.48,
+            "volume": 74535,
+            "average20": 823.802,
+            "average60": 773.437
+          },
+          {
+            "date": "2026-04-29",
+            "close": 949.75,
+            "volume": 90860,
+            "average20": 838.353,
+            "average60": 774.741
+          },
+          {
+            "date": "2026-04-30",
+            "close": 1139.91,
+            "volume": 178843,
+            "average20": 860.118,
+            "average60": 779.205
+          },
+          {
+            "date": "2026-05-06",
+            "close": 1223.83,
+            "volume": 197805,
+            "average20": 887.836,
+            "average60": 785.27
+          },
+          {
+            "date": "2026-05-07",
+            "close": 1252.68,
+            "volume": 109983,
+            "average20": 916.101,
+            "average60": 792.16
+          },
+          {
+            "date": "2026-05-08",
+            "close": 1182.53,
+            "volume": 191024,
+            "average20": 937.727,
+            "average60": 797.804
+          },
+          {
+            "date": "2026-05-11",
+            "close": 1200,
+            "volume": 231722,
+            "average20": 958.717,
+            "average60": 803.929
+          },
+          {
+            "date": "2026-05-12",
+            "close": 1277.87,
+            "volume": 209581,
+            "average20": 982.46,
+            "average60": 812.626
+          },
+          {
+            "date": "2026-05-13",
+            "close": 1316.88,
+            "volume": 158778,
+            "average20": 1007.727,
+            "average60": 822.644
+          },
+          {
+            "date": "2026-05-14",
+            "close": 1260.58,
+            "volume": 181139,
+            "average20": 1029.88,
+            "average60": 831.833
+          },
+          {
+            "date": "2026-05-15",
+            "close": 1209,
+            "volume": 161750,
+            "average20": 1048.703,
+            "average60": 840.4
+          },
+          {
+            "date": "2026-05-18",
+            "close": 1216.99,
+            "volume": 125056,
+            "average20": 1066.851,
+            "average60": 848.543
+          },
+          {
+            "date": "2026-05-19",
+            "close": 1319.2,
+            "volume": 186352,
+            "average20": 1089.002,
+            "average60": 858.232
+          },
+          {
+            "date": "2026-05-20",
+            "close": 1362.41,
+            "volume": 183743,
+            "average20": 1112.408,
+            "average60": 868.888
+          },
+          {
+            "date": "2026-05-21",
+            "close": 1290.9,
+            "volume": 153395,
+            "average20": 1130.755,
+            "average60": 877.975
+          },
+          {
+            "date": "2026-05-22",
+            "close": 1286,
+            "volume": 112240,
+            "average20": 1150.474,
+            "average60": 886.89
+          },
+          {
+            "date": "2026-05-25",
+            "close": 1406.5,
+            "volume": 173384,
+            "average20": 1175.984,
+            "average60": 898.362
+          },
+          {
+            "date": "2026-05-26",
+            "close": 1410.96,
+            "volume": 153975,
+            "average20": 1202.186,
+            "average60": 909.785
+          },
+          {
+            "date": "2026-05-27",
+            "close": 1340,
+            "volume": 138029,
+            "average20": 1223.851,
+            "average60": 919.061
+          },
+          {
+            "date": "2026-05-28",
+            "close": 1391.5,
+            "volume": 126717,
+            "average20": 1247.948,
+            "average60": 929.093
+          },
+          {
+            "date": "2026-05-29",
+            "close": 1310,
+            "volume": 145030,
+            "average20": 1267.375,
+            "average60": 937.611
+          },
+          {
+            "date": "2026-06-01",
+            "close": 1238,
+            "volume": 134896,
+            "average20": 1281.787,
+            "average60": 945.587
+          },
+          {
+            "date": "2026-06-02",
+            "close": 1300,
+            "volume": 124339,
+            "average20": 1289.791,
+            "average60": 954.775
+          },
+          {
+            "date": "2026-06-03",
+            "close": 1378.1,
+            "volume": 165598,
+            "average20": 1297.505,
+            "average60": 964.695
+          },
+          {
+            "date": "2026-06-04",
+            "close": 1358.9,
+            "volume": 88416,
+            "average20": 1302.816,
+            "average60": 974.442
+          },
+          {
+            "date": "2026-06-05",
+            "close": 1299.2,
+            "volume": 116355,
+            "average20": 1308.649,
+            "average60": 983.517
+          },
+          {
+            "date": "2026-06-08",
+            "close": 1250.36,
+            "volume": 114171,
+            "average20": 1311.168,
+            "average60": 991.542
+          },
+          {
+            "date": "2026-06-09",
+            "close": 1270.01,
+            "volume": 106732,
+            "average20": 1310.774,
+            "average60": 1000.433
+          },
+          {
+            "date": "2026-06-10",
+            "close": 1231,
+            "volume": 138327,
+            "average20": 1306.481,
+            "average60": 1008.673
+          },
+          {
+            "date": "2026-06-11",
+            "close": 1219.5,
+            "volume": 111820,
+            "average20": 1304.427,
+            "average60": 1016.754
+          },
+          {
+            "date": "2026-06-12",
+            "close": 1240,
+            "volume": 149766,
+            "average20": 1305.976,
+            "average60": 1025.246
+          },
+          {
+            "date": "2026-06-15",
+            "close": 1335,
+            "volume": 154373,
+            "average20": 1311.877,
+            "average60": 1035.432
+          },
+          {
+            "date": "2026-06-16",
+            "close": 1306.99,
+            "volume": 99672,
+            "average20": 1311.267,
+            "average60": 1045.308
+          },
+          {
+            "date": "2026-06-17",
+            "close": 1320,
+            "volume": 133226,
+            "average20": 1309.146,
+            "average60": 1055.725
+          },
+          {
+            "date": "2026-06-18",
+            "close": 1507.46,
+            "volume": 221694,
+            "average20": 1319.974,
+            "average60": 1069.401
+          },
+          {
+            "date": "2026-06-22",
+            "close": 1456.99,
+            "volume": 150357,
+            "average20": 1328.524,
+            "average60": 1082.836
+          },
+          {
+            "date": "2026-06-23",
+            "close": 1413,
+            "volume": 138376,
+            "average20": 1328.849,
+            "average60": 1094.899
+          },
+          {
+            "date": "2026-06-24",
+            "close": 1453,
+            "volume": 140656,
+            "average20": 1330.951,
+            "average60": 1107.51
+          },
+          {
+            "date": "2026-06-25",
+            "close": 1505,
+            "volume": 159822,
+            "average20": 1339.201,
+            "average60": 1121.146
+          },
+          {
+            "date": "2026-06-26",
+            "close": 1458,
+            "volume": 124352,
+            "average20": 1342.526,
+            "average60": 1134.009
+          },
+          {
+            "date": "2026-06-29",
+            "close": 1482,
+            "volume": 151178,
+            "average20": 1351.125,
+            "average60": 1147.434
+          },
+          {
+            "date": "2026-06-30",
+            "close": 1595.55,
+            "volume": 162216,
+            "average20": 1369.003,
+            "average60": 1163.048
+          },
+          {
+            "date": "2026-07-01",
+            "close": 1485.33,
+            "volume": 125802,
+            "average20": 1378.269,
+            "average60": 1176.06
+          },
+          {
+            "date": "2026-07-02",
+            "close": 1372,
+            "volume": 140564,
+            "average20": 1377.965,
+            "average60": 1187.769
+          },
+          {
+            "date": "2026-07-03",
+            "close": 1353,
+            "volume": 101922,
+            "average20": 1377.669,
+            "average60": 1198.862
+          },
+          {
+            "date": "2026-07-06",
+            "close": 1369.75,
+            "volume": 103684,
+            "average20": 1381.197,
+            "average60": 1209.191
+          },
+          {
+            "date": "2026-07-07",
+            "close": 1388,
+            "volume": 118753,
+            "average20": 1388.079,
+            "average60": 1219.321
+          },
+          {
+            "date": "2026-07-08",
+            "close": 1413.55,
+            "volume": 117177,
+            "average20": 1395.256,
+            "average60": 1229.497
+          },
+          {
+            "date": "2026-07-09",
+            "close": 1535.01,
+            "volume": 165449,
+            "average20": 1410.456,
+            "average60": 1241.555
+          },
+          {
+            "date": "2026-07-10",
+            "close": 1400,
+            "volume": 131950,
+            "average20": 1419.481,
+            "average60": 1251.263
+          },
+          {
+            "date": "2026-07-13",
+            "close": 1390,
+            "volume": 164764,
+            "average20": 1426.981,
+            "average60": 1260.554
+          },
+          {
+            "date": "2026-07-14",
+            "close": 1411,
+            "volume": 136598,
+            "average20": 1430.781,
+            "average60": 1269.836
+          },
+          {
+            "date": "2026-07-15",
+            "close": 1347.46,
+            "volume": 94703,
+            "average20": 1432.805,
+            "average60": 1277.691
+          },
+          {
+            "date": "2026-07-16",
+            "close": 1279.22,
+            "volume": 132087,
+            "average20": 1430.766,
+            "average60": 1284.107
+          },
+          {
+            "date": "2026-07-17",
+            "close": 1190.58,
+            "volume": 166501,
+            "average20": 1414.922,
+            "average60": 1288.55
+          },
+          {
+            "date": "2026-07-20",
+            "close": 1209,
+            "volume": 161400,
+            "average20": 1402.522,
+            "average60": 1293.84
+          },
+          {
+            "date": "2026-07-21",
+            "close": 1350.02,
+            "volume": 171844,
+            "average20": 1399.373,
+            "average60": 1301.402
+          },
+          {
+            "date": "2026-07-22",
+            "close": 1310,
+            "volume": 132757,
+            "average20": 1392.224,
+            "average60": 1308.453
+          },
+          {
+            "date": "2026-07-23",
+            "close": 1260.01,
+            "volume": 47779,
+            "average20": 1379.974,
+            "average60": 1314.342
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 1380.0 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 1156.0，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 1048,
+            "recentAverage": 1379.974,
+            "longerAverage": 1314.342,
+            "recentHigh": 1620,
+            "recentLow": 1156
+          }
+        }
+      },
+      "risk": [
+        "截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。",
+        "若下一期现金流明显落后于利润，寒武纪的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查寒武纪的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘寒武纪值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收28.85亿元，较可比期+159.56%；归母净利润10.13亿元，较可比期+185.04%；经营现金流8.34亿元。",
+            "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 主要产品 单位 生产量 销售量 库存量 上年增减 上年增减 上年增减 （%） （%） （%） 智能芯片 片 127,673 117,436 857,057 409.84 201.57 0.63 及板卡 产销量情况说明 报告期内产销量同比上一年度均实现增长，主要系报告期内受益于人工智能行业算力需求的 持续攀升，公司凭借产品的优异竞争力持续拓展市场所致。"
+          ]
+        },
+        "upside": {
+          "summary": "寒武纪的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "寒武纪的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本1233.25元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。继续恶化，或价格跌破60日平均成本1233.25元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "寒武纪的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收64.97亿元，同比+453.21%；归母净利润20.59亿元，同比-555.24%。2026-03-31营收28.85亿元，较可比期+159.56%；归母净利润10.13亿元，较可比期+185.04%；经营现金流8.34亿元。",
+            "reason": "寒武纪当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225264337.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 主要产品 单位 生产量 销售量 库存量 上年增减 上年增减 上年增减 （%） （%） （%） 智能芯片 片 127,673 117,436 857,057 409.84 201.57 0.63 及板卡 产销量情况说明 报告期内产销量同比上一年度均实现增长，主要系报告期内受益于人工智能行业算力需求的 持续攀升，公司凭借产品的优异竞争力持续拓展市场所致。",
+            "reason": "寒武纪当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘1020元，低于20日平均成本1089.44元；60日平均成本1233.25元，近20个交易日涨跌-12.68%。",
+            "reason": "寒武纪当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收28.85亿元，较可比期+159.56%；归母净利润10.13亿元，较可比期+185.04%；经营现金流8.34亿元。(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 主要产品 单位 生产量 销售量 库存量 上年增减 上年增减 上年增减 （%） （%） （%） 智能芯片 片 127,673 117,436 857,057 409.84 201.57 0.63 及板卡 产销量情况说明 报告期内产销量同比上一年度均实现增长，主要系报告期内受益于人工智能行业算力需求的 持续攀升，公司凭借产品的优异竞争力持续拓展市场所致。",
+          "先看价格站上20日平均成本1089.44元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收64.97亿元，同比+453.21%；归母净利润20.59亿元，同比-555.24%。2026-03-31营收28.85亿元，较可比期+159.56%；归母净利润10.13亿元，较可比期+185.04%；经营现金流8.34亿元。",
+          "(2). 产销量情况分析表 √适用 □不适用 生产量比 销售量比 库存量比 主要产品 单位 生产量 销售量 库存量 上年增减 上年增减 上年增减 （%） （%） （%） 智能芯片 片 127,673 117,436 857,057 409.84 201.57 0.63 及板卡 产销量情况说明 报告期内产销量同比上一年度均实现增长，主要系报告期内受益于人工智能行业算力需求的 持续攀升，公司凭借产品的优异竞争力持续拓展市场所致。",
+          "截至2025年12月31日，本公司存在一定的信用集中风险，本公司应收账款和 合同资产的94.09%（2024年12月31日：78.39%）源于余额前五名客户。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查寒武纪的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘寒武纪值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 1048,
+    "previousClose": 1019.9513381995133,
+    "changePct": 2.7500000000000067,
+    "high": 1336,
+    "low": 1260.01,
+    "open": 1336,
+    "volume": 47779,
+    "turnover": 6163792443,
+    "turnoverText": "95.33亿",
+    "currency": "CNY",
+    "asOf": "20260827161449",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 1048,
+    "changePct": 2.75,
+    "turnoverText": "95.33亿",
+    "turnoverRate": 1.45,
+    "totalMarketCap": "6590.39亿",
+    "floatMarketCap": "6590.39亿",
+    "fiveDayChangePct": 3.67,
+    "twentyDayChangePct": 0.53,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161449",
+    "asOf": "20260827161449",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161449",
+    "latestAsOf": "20260827161449",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.39,
+    "evidence_confidence_score": 79.28,
+    "market_payoff_score": 61.72,
+    "technical_timing_score": 34.2,
+    "data_readiness_score": 100,
+    "action_readiness_score": 62.39,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 70.4,
+        "average_rating": 3.52,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 61.72,
+        "average_rating": 3.09,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 3.08,
+          "upside_downside": 2.6,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 34.2,
+        "average_rating": 1.71,
+        "details": {
+          "monthly_trend": 2.9,
+          "weekly_structure": 0.8,
+          "daily_buy_point": 1.2,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 2.45
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "芯片设计处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 3 份财报或业绩材料；近20日涨跌 -16.3%，近60日涨跌 39.0%；客户或订单证据 0 条直接、2 条线索。",
+        "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+      "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+      "行业景气回落，价格或库存变化削弱原来的增长判断。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

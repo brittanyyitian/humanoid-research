@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_24_static_cninfo_com_cn_cfebff6bb2",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "机器人",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-24T16:15:57+08:00",
+  "finishedAt": "2026-08-25T16:16:18+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_24_static_cninfo_com_cn_cfebff6bb2"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_f703069dab"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225490257.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-24T16:15:57+08:00",
+      "finishedAt": "2026-08-24T16:15:57+08:00",
+      "contentHash": "sha256:4da417f2e87e282d21e1118abfcce7e67c1c56cef59b11d46b109777a508d091",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_cfebff6bb2.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-25T16:16:18+08:00",
+      "finishedAt": "2026-08-25T16:16:18+08:00",
+      "contentHash": "sha256:b5826c201ad4385c581481da56b44fb7658c30979b2732c4f49ecfc384694f08",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_cfebff6bb2.json"
+    }
+  ]
+}

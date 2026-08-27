@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_19_static_cninfo_com_cn_874ca5c113",
+  "artifactType": "filing",
+  "title": "第十届董事会第四十二次会议决议公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-19/1225481000.PDF",
+  "sourceId": "src_static_cninfo_com_cn_874ca5c113",
+  "fetchRunId": "fetch_2026_08_19_static_cninfo_com_cn_874ca5c113",
+  "publishedAt": "2026-08-19",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:a8f58092d43c2a246fa2c018e62fc21e51e7552280cee714f6380ea598225c25",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_19_static_cninfo_com_cn_874ca5c113.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_08_19_filing_07c2a0841a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b5773be5928e3936; listSourceId=src_cninfo_000426_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_f111d43668",
+  "artifactType": "filing",
+  "title": "2025年年度股东会决议公告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225383924.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f111d43668",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_f111d43668",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c65169f9746a80923ae6654823ddf178eed61d7143bb861d7e1d1ce356cc0ff7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_f111d43668.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_ccd9c5897c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4d87d540dd4ad660; listSourceId=src_cninfo_688206_announcements."
+}

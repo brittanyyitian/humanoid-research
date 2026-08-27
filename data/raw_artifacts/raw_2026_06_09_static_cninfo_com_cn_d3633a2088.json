@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_d3633a2088",
+  "artifactType": "filing",
+  "title": "关于董事会提前换届选举的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357137.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d3633a2088",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_d3633a2088",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:eb6934a2ced2059ed93846de1b068d647b962a35efce44673e5fbb026ade7520",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_d3633a2088.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_2be04fa08f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dce9fdb16b1b6204; listSourceId=src_cninfo_300164_announcements."
+}

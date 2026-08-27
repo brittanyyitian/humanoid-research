@@ -1,0 +1,3336 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "policy": "Market context modes are generated data projections. watchlist_snapshot is not causal; evidence_linked_market requires event/relation/claim evidence; entity_market is the selected entity's own market snapshot.",
+  "rows": [
+    {
+      "entityId": "unitree",
+      "mode": "watchlist_snapshot",
+      "title": "观察池市场快照",
+      "relatedToSelectedEntity": false,
+      "sortBy": "latestChangePctDesc",
+      "disclaimer": "按最新涨跌幅排序，不表示与当前对象或当前事件存在因果关系。",
+      "items": [
+        {
+          "entityId": "montage_technology",
+          "name": "澜起科技",
+          "ticker": "688008.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "芯片设计",
+          "roboticsRole": null,
+          "sectorRole": "半导体芯片设计环节观察公司",
+          "changePct": 10.06,
+          "price": 221.22,
+          "turnoverAmount": "144.63亿",
+          "turnoverRate": 5.88,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688008",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688008",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688008",
+              "title": "腾讯财经K线接口 · 688008",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        },
+        {
+          "entityId": "harbin_pharma",
+          "name": "哈药股份",
+          "ticker": "600664.SH",
+          "sector": "innovative_drug",
+          "sectorLabel": "创新药",
+          "industryRole": "医药制造与销售",
+          "roboticsRole": null,
+          "sectorRole": "创新药 · 医药制造与销售",
+          "changePct": 6.97,
+          "price": 8.75,
+          "turnoverAmount": "32.28亿",
+          "turnoverRate": 14.99,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600664",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600664",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600664",
+              "title": "腾讯财经K线接口 · 600664",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        },
+        {
+          "entityId": "avic_jonhon",
+          "name": "中航光电",
+          "ticker": "002179.SZ",
+          "sector": "drone",
+          "sectorLabel": "无人机",
+          "industryRole": "连接器与互连",
+          "roboticsRole": null,
+          "sectorRole": "无人机 · 连接器与互连",
+          "changePct": 6.38,
+          "price": 35.5,
+          "turnoverAmount": "15.89亿",
+          "turnoverRate": 2.16,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002179",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002179",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002179",
+              "title": "腾讯财经K线接口 · 002179",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        },
+        {
+          "entityId": "anji_microelectronics",
+          "name": "安集科技",
+          "ticker": "688019.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "制造材料",
+          "roboticsRole": null,
+          "sectorRole": "半导体制造材料环节观察公司",
+          "changePct": 6.1,
+          "price": 248.06,
+          "turnoverAmount": "17.33亿",
+          "turnoverRate": 3.09,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688019",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688019",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688019",
+              "title": "腾讯财经K线接口 · 688019",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        },
+        {
+          "entityId": "beite_technology",
+          "name": "北特科技",
+          "ticker": "603009.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "丝杠",
+          "roboticsRole": "机器人丝杠链观察标的",
+          "sectorRole": "机器人丝杠链观察标的",
+          "changePct": 5.09,
+          "price": 46.91,
+          "turnoverAmount": "4.07亿",
+          "turnoverRate": 2.53,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603009",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603009",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603009",
+              "title": "腾讯财经K线接口 · 603009",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "zhiyuan_robot",
+      "mode": "evidence_linked_market",
+      "title": "有证据连接的市场对象",
+      "relatedToSelectedEntity": true,
+      "sortBy": "latestChangePctDesc",
+      "disclaimer": "以下对象存在公开材料或关系证据连接，不表示因果或投资判断。",
+      "linkEvidenceIds": [],
+      "items": [
+        {
+          "entityId": "longcheer_technology",
+          "name": "龙旗科技",
+          "ticker": "603341.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "3C制造",
+          "roboticsRole": "3C制造部署场景",
+          "sectorRole": "3C制造部署场景",
+          "changePct": 3.06,
+          "price": 38.1,
+          "turnoverAmount": "4.11亿",
+          "turnoverRate": 4.06,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": true,
+          "linkChangeId": "chg_evt_2026_06_25_zhiyuan_3c_line_live",
+          "eventId": "evt_2026_06_25_zhiyuan_3c_line_live",
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "linkReason": "依据：智元创新（上海）科技股份有限公司 / 产品/技术",
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603341",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603341",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603341",
+              "title": "腾讯财经K线接口 · 603341",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "ubtech",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "ubtech",
+          "name": "优必选",
+          "ticker": "09880.HK",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "整机厂",
+          "roboticsRole": "人形机器人整机厂观察对象",
+          "sectorRole": "人形机器人整机厂观察对象",
+          "changePct": 1.65,
+          "price": 83.05,
+          "turnoverAmount": "2.43亿",
+          "turnoverRate": 0,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=hk09880",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_09880",
+              "title": "腾讯财经K线接口 · 09880",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anpeilong",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "anpeilong",
+          "name": "安培龙",
+          "ticker": "301413.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "力传感器",
+          "roboticsRole": "机器人力传感器链观察标的",
+          "sectorRole": "机器人力传感器链观察标的",
+          "changePct": 3.15,
+          "price": 61.86,
+          "turnoverAmount": "1.93亿",
+          "turnoverRate": 4.13,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301413",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301413",
+              "title": "腾讯财经K线接口 · 301413",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "keli_sensing",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "keli_sensing",
+          "name": "柯力传感",
+          "ticker": "603662.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "力传感器",
+          "roboticsRole": "机器人力传感器链观察标的",
+          "sectorRole": "机器人力传感器链观察标的",
+          "changePct": 2.03,
+          "price": 49.66,
+          "turnoverAmount": "1.38亿",
+          "turnoverRate": 1,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603662",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603662",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603662",
+              "title": "腾讯财经K线接口 · 603662",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603662,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "hanwei_electronics",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "hanwei_electronics",
+          "name": "汉威科技",
+          "ticker": "300007.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "力传感器",
+          "roboticsRole": "机器人力传感器链观察标的",
+          "sectorRole": "机器人力传感器链观察标的",
+          "changePct": 2.2,
+          "price": 31.59,
+          "turnoverAmount": "1.87亿",
+          "turnoverRate": 2.1,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300007",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300007",
+              "title": "腾讯财经K线接口 · 300007",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "donghua_testing",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "donghua_testing",
+          "name": "东华测试",
+          "ticker": "300354.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "力传感器",
+          "roboticsRole": "机器人力传感器链观察标的",
+          "sectorRole": "机器人力传感器链观察标的",
+          "changePct": 0.56,
+          "price": 27,
+          "turnoverAmount": "6542.00万",
+          "turnoverRate": 2.9,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300354",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300354",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300354",
+              "title": "腾讯财经K线接口 · 300354",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300354,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "leaderdrive",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "leaderdrive",
+          "name": "绿的谐波",
+          "ticker": "688017.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "减速器",
+          "roboticsRole": "机器人减速器链观察标的",
+          "sectorRole": "机器人减速器链观察标的",
+          "changePct": 2.2,
+          "price": 299.3,
+          "turnoverAmount": "22.16亿",
+          "turnoverRate": 4.1,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688017",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688017",
+              "title": "腾讯财经K线接口 · 688017",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "zhongda_leader",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "zhongda_leader",
+          "name": "中大力德",
+          "ticker": "002896.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "减速器",
+          "roboticsRole": "机器人减速器链观察标的",
+          "sectorRole": "机器人减速器链观察标的",
+          "changePct": 1.59,
+          "price": 64.52,
+          "turnoverAmount": "4.53亿",
+          "turnoverRate": 3.6,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002896",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002896",
+              "title": "腾讯财经K线接口 · 002896",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "shuanghuan_driveline",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "shuanghuan_driveline",
+          "name": "双环传动",
+          "ticker": "002472.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "减速器",
+          "roboticsRole": "机器人减速器链观察标的",
+          "sectorRole": "机器人减速器链观察标的",
+          "changePct": 0.53,
+          "price": 35.79,
+          "turnoverAmount": "4.58亿",
+          "turnoverRate": 1.7,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002472",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002472",
+              "title": "腾讯财经K线接口 · 002472",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "shuanglin",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "shuanglin",
+          "name": "双林股份",
+          "ticker": "300100.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "丝杠",
+          "roboticsRole": "机器人丝杠链观察标的",
+          "sectorRole": "机器人丝杠链观察标的",
+          "changePct": 0.74,
+          "price": 21.75,
+          "turnoverAmount": "1.43亿",
+          "turnoverRate": 1.17,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300100",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300100",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300100",
+              "title": "腾讯财经K线接口 · 300100",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300100,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "best",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "best",
+          "name": "贝斯特",
+          "ticker": "300580.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "丝杠",
+          "roboticsRole": "机器人丝杠链观察标的",
+          "sectorRole": "机器人丝杠链观察标的",
+          "changePct": 2.13,
+          "price": 20.17,
+          "turnoverAmount": "1.38亿",
+          "turnoverRate": 1.46,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300580",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300580",
+              "title": "腾讯财经K线接口 · 300580",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "beite_technology",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "beite_technology",
+          "name": "北特科技",
+          "ticker": "603009.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "丝杠",
+          "roboticsRole": "机器人丝杠链观察标的",
+          "sectorRole": "机器人丝杠链观察标的",
+          "changePct": 5.09,
+          "price": 46.91,
+          "turnoverAmount": "4.07亿",
+          "turnoverRate": 2.53,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603009",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603009",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603009",
+              "title": "腾讯财经K线接口 · 603009",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "wuzhou_xinchun",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "wuzhou_xinchun",
+          "name": "五洲新春",
+          "ticker": "603667.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "丝杠",
+          "roboticsRole": "机器人丝杠链观察标的",
+          "sectorRole": "机器人丝杠链观察标的",
+          "changePct": 3.67,
+          "price": 52.55,
+          "turnoverAmount": "8.17亿",
+          "turnoverRate": 4.3,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603667",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603667",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603667",
+              "title": "腾讯财经K线接口 · 603667",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603667,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "inovance",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "inovance",
+          "name": "汇川技术",
+          "ticker": "300124.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "电机",
+          "roboticsRole": "机器人电机链观察标的",
+          "sectorRole": "机器人电机链观察标的",
+          "changePct": 0.36,
+          "price": 62.12,
+          "turnoverAmount": "8.33亿",
+          "turnoverRate": 0.56,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300124",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300124",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300124",
+              "title": "腾讯财经K线接口 · 300124",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300124,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "moons",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "moons",
+          "name": "鸣志电器",
+          "ticker": "603728.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "电机",
+          "roboticsRole": "机器人电机链观察标的",
+          "sectorRole": "机器人电机链观察标的",
+          "changePct": 0.78,
+          "price": 47.88,
+          "turnoverAmount": "2.04亿",
+          "turnoverRate": 1.02,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603728",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603728",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603728",
+              "title": "腾讯财经K线接口 · 603728",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603728,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "hechuan_technology",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "hechuan_technology",
+          "name": "禾川科技",
+          "ticker": "688320.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "电机",
+          "roboticsRole": "机器人电机链观察标的",
+          "sectorRole": "机器人电机链观察标的",
+          "changePct": 3.46,
+          "price": 35.9,
+          "turnoverAmount": "1.17亿",
+          "turnoverRate": 2.18,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688320",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688320",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688320",
+              "title": "腾讯财经K线接口 · 688320",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688320,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "zhaowei_machinery",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "zhaowei_machinery",
+          "name": "兆威机电",
+          "ticker": "003021.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "灵巧手 / 传动",
+          "roboticsRole": "机器人灵巧手 / 传动链观察标的",
+          "sectorRole": "机器人灵巧手 / 传动链观察标的",
+          "changePct": 0.83,
+          "price": 71.55,
+          "turnoverAmount": "2.35亿",
+          "turnoverRate": 1.6,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz003021",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_003021",
+              "title": "腾讯财经K线接口 · 003021",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "sanhuazk",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "sanhuazk",
+          "name": "三花智控",
+          "ticker": "002050.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "执行器 / 热管理",
+          "roboticsRole": "机器人执行器 / 热管理链观察标的",
+          "sectorRole": "机器人执行器 / 热管理链观察标的",
+          "changePct": 1.88,
+          "price": 36.82,
+          "turnoverAmount": "15.42亿",
+          "turnoverRate": 1.14,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002050",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002050",
+              "title": "腾讯财经K线接口 · 002050",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002050,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "tuopu_group",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "tuopu_group",
+          "name": "拓普集团",
+          "ticker": "601689.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "执行器 / 汽车零部件",
+          "roboticsRole": "机器人执行器 / 汽车零部件链观察标的",
+          "sectorRole": "机器人执行器 / 汽车零部件链观察标的",
+          "changePct": 1.78,
+          "price": 47.43,
+          "turnoverAmount": "8.30亿",
+          "turnoverRate": 1.02,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh601689",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_601689",
+              "title": "腾讯财经K线接口 · 601689",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "siasun_robot",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "siasun_robot",
+          "name": "机器人",
+          "ticker": "300024.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "机器人本体 / 系统集成",
+          "roboticsRole": "机器人机器人本体 / 系统集成链观察标的",
+          "sectorRole": "机器人机器人本体 / 系统集成链观察标的",
+          "changePct": 0.97,
+          "price": 14.6,
+          "turnoverAmount": "2.97亿",
+          "turnoverRate": 1.31,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300024",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300024",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300024",
+              "title": "腾讯财经K线接口 · 300024",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300024,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "estun",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "estun",
+          "name": "埃斯顿",
+          "ticker": "002747.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "控制器 / 机器人",
+          "roboticsRole": "机器人控制器 / 机器人链观察标的",
+          "sectorRole": "机器人控制器 / 机器人链观察标的",
+          "changePct": 1.79,
+          "price": 31.81,
+          "turnoverAmount": "11.98亿",
+          "turnoverRate": 4.85,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002747",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002747",
+              "title": "腾讯财经K线接口 · 002747",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "orbbec",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "orbbec",
+          "name": "奥比中光",
+          "ticker": "688322.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "视觉传感器",
+          "roboticsRole": "机器人视觉传感器链观察标的",
+          "sectorRole": "机器人视觉传感器链观察标的",
+          "changePct": 3.53,
+          "price": 97.28,
+          "turnoverAmount": "6.37亿",
+          "turnoverRate": 2.07,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688322",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688322",
+              "title": "腾讯财经K线接口 · 688322",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "kinco",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "kinco",
+          "name": "步科股份",
+          "ticker": "688160.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "控制器 / 驱动",
+          "roboticsRole": "机器人控制器 / 驱动链观察标的",
+          "sectorRole": "机器人控制器 / 驱动链观察标的",
+          "changePct": 2.68,
+          "price": 99.56,
+          "turnoverAmount": "1.02亿",
+          "turnoverRate": 1.13,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688160",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688160",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688160",
+              "title": "腾讯财经K线接口 · 688160",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688160,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "highly_electric",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "highly_electric",
+          "name": "华依科技",
+          "ticker": "688071.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "测试设备 / 传感",
+          "roboticsRole": "机器人测试设备 / 传感链观察标的",
+          "sectorRole": "机器人测试设备 / 传感链观察标的",
+          "changePct": 2.15,
+          "price": 33.29,
+          "turnoverAmount": "5512.00万",
+          "turnoverRate": 1.97,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688071",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688071",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688071",
+              "title": "腾讯财经K线接口 · 688071",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688071,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "luster_lighttech",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "luster_lighttech",
+          "name": "凌云光",
+          "ticker": "688400.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "机器视觉",
+          "roboticsRole": "机器人机器视觉链观察标的",
+          "sectorRole": "机器人机器视觉链观察标的",
+          "changePct": 3.89,
+          "price": 47.25,
+          "turnoverAmount": "3.92亿",
+          "turnoverRate": 1.84,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688400",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688400",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688400",
+              "title": "腾讯财经K线接口 · 688400",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688400,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "yeeda",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "yeeda",
+          "name": "怡合达",
+          "ticker": "301029.SZ",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "FA零部件",
+          "roboticsRole": "机器人FA零部件链观察标的",
+          "sectorRole": "机器人FA零部件链观察标的",
+          "changePct": 0.58,
+          "price": 25.96,
+          "turnoverAmount": "2.07亿",
+          "turnoverRate": 1.76,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301029",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301029",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301029",
+              "title": "腾讯财经K线接口 · 301029",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301029,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "piotech",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "piotech",
+          "name": "均普智能",
+          "ticker": "688306.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "智能制造装备",
+          "roboticsRole": "机器人智能制造装备链观察标的",
+          "sectorRole": "机器人智能制造装备链观察标的",
+          "changePct": 1.85,
+          "price": 8.83,
+          "turnoverAmount": "6700.00万",
+          "turnoverRate": 0.62,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688306",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688306",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688306",
+              "title": "腾讯财经K线接口 · 688306",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688306,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "longcheer_technology",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "longcheer_technology",
+          "name": "龙旗科技",
+          "ticker": "603341.SH",
+          "sector": "robotics",
+          "sectorLabel": "机器人",
+          "industryRole": "3C制造",
+          "roboticsRole": "3C制造部署场景",
+          "sectorRole": "3C制造部署场景",
+          "changePct": 3.06,
+          "price": 38.1,
+          "turnoverAmount": "4.11亿",
+          "turnoverRate": 4.06,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 603341",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh603341",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_603341",
+              "title": "腾讯财经K线接口 · 603341",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "huada_jiutian",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "huada_jiutian",
+          "name": "华大九天",
+          "ticker": "301269.SZ",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "芯片设计工具",
+          "roboticsRole": null,
+          "sectorRole": "半导体芯片设计工具环节观察公司",
+          "changePct": 2.46,
+          "price": 96.62,
+          "turnoverAmount": "6.03亿",
+          "turnoverRate": 1.15,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 301269",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz301269",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_301269",
+              "title": "腾讯财经K线接口 · 301269",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301269,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "primarius",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "primarius",
+          "name": "概伦电子",
+          "ticker": "688206.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "芯片设计工具",
+          "roboticsRole": null,
+          "sectorRole": "半导体芯片设计工具环节观察公司",
+          "changePct": 3.45,
+          "price": 43.76,
+          "turnoverAmount": "4.33亿",
+          "turnoverRate": 2.29,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688206",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688206",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688206",
+              "title": "腾讯财经K线接口 · 688206",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688206,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "cambricon",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "cambricon",
+          "name": "寒武纪",
+          "ticker": "688256.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "芯片设计",
+          "roboticsRole": null,
+          "sectorRole": "半导体芯片设计环节观察公司",
+          "changePct": 2.75,
+          "price": 1048,
+          "turnoverAmount": "95.33亿",
+          "turnoverRate": 1.45,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688256",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688256",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688256",
+              "title": "腾讯财经K线接口 · 688256",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688256,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "montage_technology",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "montage_technology",
+          "name": "澜起科技",
+          "ticker": "688008.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "芯片设计",
+          "roboticsRole": null,
+          "sectorRole": "半导体芯片设计环节观察公司",
+          "changePct": 10.06,
+          "price": 221.22,
+          "turnoverAmount": "144.63亿",
+          "turnoverRate": 5.88,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688008",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688008",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688008",
+              "title": "腾讯财经K线接口 · 688008",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "smic",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "smic",
+          "name": "中芯国际",
+          "ticker": "688981.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "晶圆制造",
+          "roboticsRole": null,
+          "sectorRole": "半导体晶圆制造环节观察公司",
+          "changePct": 1.76,
+          "price": 126.33,
+          "turnoverAmount": "43.14亿",
+          "turnoverRate": 1.72,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688981",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688981",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688981",
+              "title": "腾讯财经K线接口 · 688981",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688981,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "huahong_semiconductor",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "huahong_semiconductor",
+          "name": "华虹公司",
+          "ticker": "688347.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "晶圆制造",
+          "roboticsRole": null,
+          "sectorRole": "半导体晶圆制造环节观察公司",
+          "changePct": 3.57,
+          "price": 252.72,
+          "turnoverAmount": "50.14亿",
+          "turnoverRate": 4.94,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688347",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688347",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688347",
+              "title": "腾讯财经K线接口 · 688347",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688347,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "naura",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "naura",
+          "name": "北方华创",
+          "ticker": "002371.SZ",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "制造设备",
+          "roboticsRole": null,
+          "sectorRole": "半导体制造设备环节观察公司",
+          "changePct": 2.47,
+          "price": 718,
+          "turnoverAmount": "43.76亿",
+          "turnoverRate": 0.85,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002371",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002371",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002371",
+              "title": "腾讯财经K线接口 · 002371",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002371,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "amec",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "amec",
+          "name": "中微公司",
+          "ticker": "688012.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "制造设备",
+          "roboticsRole": null,
+          "sectorRole": "半导体制造设备环节观察公司",
+          "changePct": 2.16,
+          "price": 376.01,
+          "turnoverAmount": "59.21亿",
+          "turnoverRate": 1.69,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688012",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688012",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688012",
+              "title": "腾讯财经K线接口 · 688012",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688012,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anji_microelectronics",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "anji_microelectronics",
+          "name": "安集科技",
+          "ticker": "688019.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "制造材料",
+          "roboticsRole": null,
+          "sectorRole": "半导体制造材料环节观察公司",
+          "changePct": 6.1,
+          "price": 248.06,
+          "turnoverAmount": "17.33亿",
+          "turnoverRate": 3.09,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688019",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688019",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688019",
+              "title": "腾讯财经K线接口 · 688019",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "national_silicon",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "national_silicon",
+          "name": "沪硅产业",
+          "ticker": "688126.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "制造材料",
+          "roboticsRole": null,
+          "sectorRole": "半导体制造材料环节观察公司",
+          "changePct": 4,
+          "price": 25.22,
+          "turnoverAmount": "15.72亿",
+          "turnoverRate": 2.21,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688126",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688126",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688126",
+              "title": "腾讯财经K线接口 · 688126",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688126,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "jcet",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "jcet",
+          "name": "长电科技",
+          "ticker": "600584.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "封装测试",
+          "roboticsRole": null,
+          "sectorRole": "半导体封装测试环节观察公司",
+          "changePct": 3.97,
+          "price": 76.54,
+          "turnoverAmount": "73.78亿",
+          "turnoverRate": 5.45,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600584",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600584",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600584",
+              "title": "腾讯财经K线接口 · 600584",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600584,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "tongfu_microelectronics",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "tongfu_microelectronics",
+          "name": "通富微电",
+          "ticker": "002156.SZ",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "封装测试",
+          "roboticsRole": null,
+          "sectorRole": "半导体封装测试环节观察公司",
+          "changePct": 4.05,
+          "price": 63.73,
+          "turnoverAmount": "54.45亿",
+          "turnoverRate": 5.7,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002156",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002156",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002156",
+              "title": "腾讯财经K线接口 · 002156",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002156,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "taiji_industry",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "taiji_industry",
+          "name": "太极实业",
+          "ticker": "600667.SH",
+          "sector": "semiconductor",
+          "sectorLabel": "半导体",
+          "industryRole": "晶圆制造服务与工程",
+          "roboticsRole": null,
+          "sectorRole": "半导体晶圆制造服务与工程环节观察公司",
+          "changePct": 2.6,
+          "price": 20.14,
+          "turnoverAmount": "44.11亿",
+          "turnoverRate": 10.61,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600667",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600667",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600667",
+              "title": "腾讯财经K线接口 · 600667",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600667,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "avic_jonhon",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "avic_jonhon",
+          "name": "中航光电",
+          "ticker": "002179.SZ",
+          "sector": "drone",
+          "sectorLabel": "无人机",
+          "industryRole": "连接器与互连",
+          "roboticsRole": null,
+          "sectorRole": "无人机 · 连接器与互连",
+          "changePct": 6.38,
+          "price": 35.5,
+          "turnoverAmount": "15.89亿",
+          "turnoverRate": 2.16,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002179",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002179",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002179",
+              "title": "腾讯财经K线接口 · 002179",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "avic_uav",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "avic_uav",
+          "name": "中无人机",
+          "ticker": "688297.SH",
+          "sector": "drone",
+          "sectorLabel": "无人机",
+          "industryRole": "大型无人机整机",
+          "roboticsRole": null,
+          "sectorRole": "无人机 · 大型无人机整机",
+          "changePct": 0.8,
+          "price": 38.9,
+          "turnoverAmount": "2.03亿",
+          "turnoverRate": 0.77,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688297",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688297",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688297",
+              "title": "腾讯财经K线接口 · 688297",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688297,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "rainbow_uav",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "rainbow_uav",
+          "name": "航天彩虹",
+          "ticker": "002389.SZ",
+          "sector": "drone",
+          "sectorLabel": "无人机",
+          "industryRole": "无人机整机与系统",
+          "roboticsRole": null,
+          "sectorRole": "无人机 · 无人机整机与系统",
+          "changePct": 0.95,
+          "price": 18.09,
+          "turnoverAmount": "2.03亿",
+          "turnoverRate": 1.15,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002389",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002389",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002389",
+              "title": "腾讯财经K线接口 · 002389",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002389,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "taishan_petroleum",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "taishan_petroleum",
+          "name": "泰山石油",
+          "ticker": "000554.SZ",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "成品油零售",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 成品油零售",
+          "changePct": -1.07,
+          "price": 6.46,
+          "turnoverAmount": "8227.00万",
+          "turnoverRate": 3.54,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 000554",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz000554",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_000554",
+              "title": "腾讯财经K线接口 · 000554",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000554,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "sinopec",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "sinopec",
+          "name": "中国石化",
+          "ticker": "600028.SH",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "炼化与销售",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 炼化与销售",
+          "changePct": -0.75,
+          "price": 5.29,
+          "turnoverAmount": "8.95亿",
+          "turnoverRate": 0.18,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600028",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600028",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600028",
+              "title": "腾讯财经K线接口 · 600028",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600028,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "international_industry",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "international_industry",
+          "name": "国际实业",
+          "ticker": "000159.SZ",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "油品贸易与仓储",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 油品贸易与仓储",
+          "changePct": -0.33,
+          "price": 6.05,
+          "turnoverAmount": "5295.00万",
+          "turnoverRate": 1.82,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 000159",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz000159",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_000159",
+              "title": "腾讯财经K线接口 · 000159",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000159,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "tongyuan_petroleum",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "tongyuan_petroleum",
+          "name": "通源石油",
+          "ticker": "300164.SZ",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "油田服务",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 油田服务",
+          "changePct": 1.34,
+          "price": 9.83,
+          "turnoverAmount": "8.27亿",
+          "turnoverRate": 14.46,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 300164",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz300164",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_300164",
+              "title": "腾讯财经K线接口 · 300164",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300164,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "cnooc",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "cnooc",
+          "name": "中国海油",
+          "ticker": "600938.SH",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "油气开采",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 油气开采",
+          "changePct": 1.47,
+          "price": 33.82,
+          "turnoverAmount": "14.16亿",
+          "turnoverRate": 1.41,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600938",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600938",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600938",
+              "title": "腾讯财经K线接口 · 600938",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600938,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "jereh",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "jereh",
+          "name": "杰瑞股份",
+          "ticker": "002353.SZ",
+          "sector": "oil",
+          "sectorLabel": "石油",
+          "industryRole": "油气设备与服务",
+          "roboticsRole": null,
+          "sectorRole": "石油 · 油气设备与服务",
+          "changePct": -0.92,
+          "price": 136.24,
+          "turnoverAmount": "34.99亿",
+          "turnoverRate": 3.73,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 002353",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz002353",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_002353",
+              "title": "腾讯财经K线接口 · 002353",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002353,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "three_gorges_water",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "three_gorges_water",
+          "name": "三峡水利",
+          "ticker": "600116.SH",
+          "sector": "power",
+          "sectorLabel": "电力",
+          "industryRole": "区域电网与水电",
+          "roboticsRole": null,
+          "sectorRole": "电力 · 区域电网与水电",
+          "changePct": -0.47,
+          "price": 6.31,
+          "turnoverAmount": "7739.00万",
+          "turnoverRate": 0.64,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600116",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600116",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600116",
+              "title": "腾讯财经K线接口 · 600116",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600116,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "datang_power",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "datang_power",
+          "name": "大唐发电",
+          "ticker": "601991.SH",
+          "sector": "power",
+          "sectorLabel": "电力",
+          "industryRole": "火电与新能源",
+          "roboticsRole": null,
+          "sectorRole": "电力 · 火电与新能源",
+          "changePct": 0.17,
+          "price": 5.95,
+          "turnoverAmount": "14.45亿",
+          "turnoverRate": 1.98,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 601991",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh601991",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_601991",
+              "title": "腾讯财经K线接口 · 601991",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601991,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "cypc",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "cypc",
+          "name": "长江电力",
+          "ticker": "600900.SH",
+          "sector": "power",
+          "sectorLabel": "电力",
+          "industryRole": "大型水电",
+          "roboticsRole": null,
+          "sectorRole": "电力 · 大型水电",
+          "changePct": -0.5,
+          "price": 28.1,
+          "turnoverAmount": "26.58亿",
+          "turnoverRate": 0.39,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600900",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600900",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600900",
+              "title": "腾讯财经K线接口 · 600900",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600900,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "sdic_power",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "sdic_power",
+          "name": "国投电力",
+          "ticker": "600886.SH",
+          "sector": "power",
+          "sectorLabel": "电力",
+          "industryRole": "水电与新能源",
+          "roboticsRole": null,
+          "sectorRole": "电力 · 水电与新能源",
+          "changePct": -1,
+          "price": 13.91,
+          "turnoverAmount": "2.90亿",
+          "turnoverRate": 0.28,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600886",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600886",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600886",
+              "title": "腾讯财经K线接口 · 600886",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600886,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "hainan_haiyao",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "hainan_haiyao",
+          "name": "海南海药",
+          "ticker": "000566.SZ",
+          "sector": "innovative_drug",
+          "sectorLabel": "创新药",
+          "industryRole": "药品研发与制造",
+          "roboticsRole": null,
+          "sectorRole": "创新药 · 药品研发与制造",
+          "changePct": 0.4,
+          "price": 5.05,
+          "turnoverAmount": "7.31亿",
+          "turnoverRate": 11.15,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 000566",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz000566",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_000566",
+              "title": "腾讯财经K线接口 · 000566",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000566,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "harbin_pharma",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "harbin_pharma",
+          "name": "哈药股份",
+          "ticker": "600664.SH",
+          "sector": "innovative_drug",
+          "sectorLabel": "创新药",
+          "industryRole": "医药制造与销售",
+          "roboticsRole": null,
+          "sectorRole": "创新药 · 医药制造与销售",
+          "changePct": 6.97,
+          "price": 8.75,
+          "turnoverAmount": "32.28亿",
+          "turnoverRate": 14.99,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600664",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600664",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600664",
+              "title": "腾讯财经K线接口 · 600664",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "hengrui",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "hengrui",
+          "name": "恒瑞医药",
+          "ticker": "600276.SH",
+          "sector": "innovative_drug",
+          "sectorLabel": "创新药",
+          "industryRole": "创新药研发与销售",
+          "roboticsRole": null,
+          "sectorRole": "创新药 · 创新药研发与销售",
+          "changePct": 1.86,
+          "price": 47.61,
+          "turnoverAmount": "36.67亿",
+          "turnoverRate": 1.22,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600276",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600276",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600276",
+              "title": "腾讯财经K线接口 · 600276",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600276,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "beone",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "beone",
+          "name": "百济神州",
+          "ticker": "688235.SH",
+          "sector": "innovative_drug",
+          "sectorLabel": "创新药",
+          "industryRole": "创新药研发与全球销售",
+          "roboticsRole": null,
+          "sectorRole": "创新药 · 创新药研发与全球销售",
+          "changePct": 0.27,
+          "price": 279.75,
+          "turnoverAmount": "11.09亿",
+          "turnoverRate": 3.5,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 688235",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh688235",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_688235",
+              "title": "腾讯财经K线接口 · 688235",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688235,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "zijin_mining",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "zijin_mining",
+          "name": "紫金矿业",
+          "ticker": "601899.SH",
+          "sector": "precious_metals",
+          "sectorLabel": "贵金属",
+          "industryRole": "金铜资源",
+          "roboticsRole": null,
+          "sectorRole": "贵金属 · 金铜资源",
+          "changePct": 0.29,
+          "price": 34.57,
+          "turnoverAmount": "79.87亿",
+          "turnoverRate": 1.12,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 601899",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh601899",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_601899",
+              "title": "腾讯财经K线接口 · 601899",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "shandong_gold",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "shandong_gold",
+          "name": "山东黄金",
+          "ticker": "600547.SH",
+          "sector": "precious_metals",
+          "sectorLabel": "贵金属",
+          "industryRole": "黄金开采",
+          "roboticsRole": null,
+          "sectorRole": "贵金属 · 黄金开采",
+          "changePct": 1.16,
+          "price": 34.89,
+          "turnoverAmount": "35.06亿",
+          "turnoverRate": 2.76,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 600547",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sh600547",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_600547",
+              "title": "腾讯财经K线接口 · 600547",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600547,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "xingye_silver",
+      "mode": "entity_market",
+      "title": "当前对象行情",
+      "relatedToSelectedEntity": true,
+      "sortBy": "selectedEntity",
+      "disclaimer": null,
+      "items": [
+        {
+          "entityId": "xingye_silver",
+          "name": "兴业银锡",
+          "ticker": "000426.SZ",
+          "sector": "precious_metals",
+          "sectorLabel": "贵金属",
+          "industryRole": "白银与多金属",
+          "roboticsRole": null,
+          "sectorRole": "贵金属 · 白银与多金属",
+          "changePct": 1.4,
+          "price": 40.69,
+          "turnoverAmount": "32.40亿",
+          "turnoverRate": 4.45,
+          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "evidenceLinked": false,
+          "linkChangeId": null,
+          "eventId": null,
+          "relationId": null,
+          "claimId": null,
+          "linkEvidenceIds": [],
+          "linkSourceIds": [],
+          "linkReason": null,
+          "sources": [
+            {
+              "id": "src_tencent_market_quote",
+              "title": "腾讯财经行情接口 · 000426",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://qt.gtimg.cn/q=sz000426",
+              "evidenceLevel": "B"
+            },
+            {
+              "id": "src_tencent_market_quote_kline_000426",
+              "title": "腾讯财经K线接口 · 000426",
+              "publisher": "腾讯财经",
+              "sourceType": "market_data",
+              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000426,day,,,30,qfq",
+              "evidenceLevel": "B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

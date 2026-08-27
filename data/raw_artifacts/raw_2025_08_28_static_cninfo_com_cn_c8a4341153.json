@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_28_static_cninfo_com_cn_c8a4341153",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-28/1224598427.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c8a4341153",
+  "fetchRunId": "fetch_2025_08_28_static_cninfo_com_cn_c8a4341153",
+  "publishedAt": "2025-08-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:39c8afc8fd8f4e7f76bf243624b2af9557f9edc937e3e96660c6c2ac8ea0195b",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_28_static_cninfo_com_cn_c8a4341153.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2025_08_28_filing_2db7f3cf7e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5b70640fea3857da; listSourceId=src_cninfo_000554_announcements."
+}

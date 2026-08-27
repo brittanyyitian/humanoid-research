@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_08_27_static_cninfo_com_cn_1362dbabe5",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "紫金矿业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:58+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_08_27_static_cninfo_com_cn_1362dbabe5"
+  ],
+  "claimIds": [
+    "claim_2025_08_27_filing_a1f7c25a5a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-27/1224583059.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:cdc1aae213111aa26579ef95765e4afd11581fe7d1bc325212408df14ee8a592",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_27_static_cninfo_com_cn_1362dbabe5.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:58+08:00",
+      "finishedAt": "2026-07-23T09:57:58+08:00",
+      "contentHash": "sha256:4e0e560789ac9d0049009de9a8852daa6ddb141d06670123892223e9412e45ca",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_27_static_cninfo_com_cn_1362dbabe5.json"
+    }
+  ]
+}

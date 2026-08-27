@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_8a6cdd88024b",
+  "rawArtifactId": "raw_2026_06_18_static_cninfo_com_cn_05935f3407",
+  "routeDecisionId": "route_2026_06_18_8c5b1c4ef632",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "three_gorges_water",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:58+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:58+08:00",
+  "finishedAt": "2026-07-23T09:50:58+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_18_filing_c59d2e31ee"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_18_filing_c59d2e31ee"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_18_filing_material_v0_0a0ca8d126"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_621bf652af0b"
+  ]
+}

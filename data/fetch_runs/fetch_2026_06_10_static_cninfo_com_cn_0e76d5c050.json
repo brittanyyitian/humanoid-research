@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_10_static_cninfo_com_cn_0e76d5c050",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "沪硅产业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_10_static_cninfo_com_cn_0e76d5c050"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_ed4954635e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225361241.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:a33c0e81b98a5aa1b993507f18dae022623a40e5316ed4a0cfe2b5131534a8e8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_0e76d5c050.json"
+    }
+  ]
+}

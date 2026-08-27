@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_95a3bc479f",
+  "artifactType": "filing",
+  "title": "拓普集团关于使用部分暂时闲置募集资金进行现金管理的进展公告",
+  "publisher": "拓普集团",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225511751.PDF",
+  "sourceId": "src_static_cninfo_com_cn_95a3bc479f",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_95a3bc479f",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:d15c1e298950205d0783e8090e27546b4743eda420e71358667168a6eb30c098",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_95a3bc479f.json",
+  "entityIds": [
+    "tuopu_group"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_bafc9b004e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_840a3505a94f100d; listSourceId=src_cninfo_601689_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_25_static_cninfo_com_cn_ecdfdea442",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "长江电力",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-25T16:16:13+08:00",
+  "finishedAt": "2026-08-25T16:16:13+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_25_static_cninfo_com_cn_ecdfdea442"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_dc8ba9e018"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225494048.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-25T16:16:13+08:00",
+      "finishedAt": "2026-08-25T16:16:13+08:00",
+      "contentHash": "sha256:836468a574414f333bfd55a0a34446c3144dd44f2823b4b8fd3a44c1a27c6a84",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_ecdfdea442.json"
+    }
+  ]
+}

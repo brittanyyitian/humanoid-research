@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_429b8c32e9",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于变更公司董事会秘书的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225483607.PDF",
+  "sourceId": "src_static_cninfo_com_cn_429b8c32e9",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_429b8c32e9",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:bd9dd2dedc26dc88bf6098180071da1e8728e6a19a48b702b99102e324a52276",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_429b8c32e9.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_8d10ad4d16"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_42470f724eb3a045; listSourceId=src_cninfo_600276_announcements."
+}

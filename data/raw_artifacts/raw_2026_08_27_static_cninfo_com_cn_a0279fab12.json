@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_a0279fab12",
+  "artifactType": "filing",
+  "title": "关于公司董事长、副总裁增持股份计划时间过半的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225508691.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a0279fab12",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_a0279fab12",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:d514d0deaafbe6288483d21df3fb518d27cca8fbf9058d2bb97787ce2d3da724",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_a0279fab12.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_793eee8724"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0f89fe391483f29c; listSourceId=src_cninfo_002353_announcements."
+}

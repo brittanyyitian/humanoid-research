@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_18_static_cninfo_com_cn_2599593bd7",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "兆威机电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-18T18:32:18+08:00",
+  "finishedAt": "2026-07-18T18:32:18+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_18_static_cninfo_com_cn_2599593bd7"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_446b03a3f8"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225430673.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-18T18:32:18+08:00",
+      "finishedAt": "2026-07-18T18:32:18+08:00",
+      "contentHash": "sha256:11267258338b8802834a01f9f7fbf7abe1b5042d31151118c84a1042a145b96f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_2599593bd7.json"
+    }
+  ]
+}

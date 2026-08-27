@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_09_static_cninfo_com_cn_eb69347d74",
+  "artifactType": "filing",
+  "title": "港股公告：2025年年报",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-09/1225084819.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eb69347d74",
+  "fetchRunId": "fetch_2026_04_09_static_cninfo_com_cn_eb69347d74",
+  "publishedAt": "2026-04-09",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:cb8c0bc78de114f76bb07a581acc5ec5dd71c3eb7fd9d46fa10a603ede605201",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_09_static_cninfo_com_cn_eb69347d74.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_04_09_filing_05a230e7bb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_976758e6ac53b657; listSourceId=src_cninfo_688981_announcements."
+}

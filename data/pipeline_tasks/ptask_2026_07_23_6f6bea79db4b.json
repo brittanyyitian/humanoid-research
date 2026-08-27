@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_6f6bea79db4b",
+  "rawArtifactId": "raw_2026_06_25_static_cninfo_com_cn_7e7bab14aa",
+  "routeDecisionId": "route_2026_06_25_ffbb9afd37f6",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "shandong_gold",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:56+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:56+08:00",
+  "finishedAt": "2026-07-23T09:50:56+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_25_filing_b10857f515"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_25_filing_b10857f515"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_25_filing_material_v0_135bb07298"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_3d244734b4c8"
+  ]
+}

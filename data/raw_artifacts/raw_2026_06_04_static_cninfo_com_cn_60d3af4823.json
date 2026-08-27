@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_60d3af4823",
+  "artifactType": "filing",
+  "title": "关于收到上海证券交易所审核中心意见落实函的公告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225350460.PDF",
+  "sourceId": "src_static_cninfo_com_cn_60d3af4823",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_60d3af4823",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b69f30c4c52645653195b2b12b28b1713d8017e3b6d28f8329738c887887c6cb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_60d3af4823.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_4249f794c2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_78545b59156ed120; listSourceId=src_cninfo_688206_announcements."
+}

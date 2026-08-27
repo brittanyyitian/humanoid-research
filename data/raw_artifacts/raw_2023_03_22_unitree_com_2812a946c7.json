@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_03_22_unitree_com_2812a946c7",
+  "artifactType": "news_page",
+  "title": "宇树四足机器人B1，赋能消防侦察、应急救援",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/22",
+  "sourceId": "src_unitree_com_2812a946c7",
+  "fetchRunId": "fetch_2023_03_22_unitree_com_2812a946c7",
+  "publishedAt": "2023-03-22",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:accbf4d8163b354fb29aece44b832c5bd87f03ec8a0e3b2fdc7dc1b374f8293f",
+  "storagePath": "raw_artifacts/payloads/raw_2023_03_22_unitree_com_2812a946c7.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_03_22_other_a62373385c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_5a43cff83c1e1130; listSourceId=src_unitree_official_news."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_25cc2ed940",
+  "capturedAt": "2026-08-20T16:16:22+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225481988.PDF",
+    "title": "北京坤元至诚资产评估有限公司对《关于重庆三峡水利电力(集团)股份有限公司2025年年度报告的信息披露监管问询函》的回复",
+    "publisher": "三峡水利",
+    "publishedAt": "2026-08-20",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "three_gorges_water"
+    ],
+    "body": "北京坤元至诚资产评估有限公司\n对 《关于对重庆三峡水利电力 (集团) 股份有限公司 2025年 年\n度报告的信息披露监管问询函》 的回复\n北京 坤 元 至 诚 资产 评 估 有 限公 司\nBeijing KYSIN Assets Appraisal Co.,Ltd\n二 O 二 六 年 八 月 十 九 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-08-20T16:16:22+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 31170467,
+    "method": "pypdf",
+    "pageCount": 42,
+    "pagesRead": 20,
+    "truncated": true
+  }
+}

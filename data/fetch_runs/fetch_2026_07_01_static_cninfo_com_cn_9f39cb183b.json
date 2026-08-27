@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_01_static_cninfo_com_cn_9f39cb183b",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "汇川技术",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:33+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_01_static_cninfo_com_cn_9f39cb183b"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_343f6e7967"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225402651.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:dcb0e232343417326661c04f092161d13cbd83efc09b1c97faf9d947fff23ba8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_9f39cb183b.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:33+08:00",
+      "finishedAt": "2026-07-15T11:30:33+08:00",
+      "contentHash": "sha256:8fbe2900204aebc6b67c91502ede372d12d90d466f2c5823059d0720a7039f9f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_9f39cb183b.json"
+    }
+  ]
+}

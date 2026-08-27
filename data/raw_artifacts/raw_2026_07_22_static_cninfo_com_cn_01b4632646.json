@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_22_static_cninfo_com_cn_01b4632646",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于2026年中期利润分配方案的公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-22/1225435351.PDF",
+  "sourceId": "src_static_cninfo_com_cn_01b4632646",
+  "fetchRunId": "fetch_2026_07_22_static_cninfo_com_cn_01b4632646",
+  "publishedAt": "2026-07-22",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ad2e30b47e53da798a2325b68d5a3415967022d786af690d968821b04b00026d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_01b4632646.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_22_filing_2e96329e10"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3e257471c7ed4565; listSourceId=src_cninfo_600547_announcements."
+}

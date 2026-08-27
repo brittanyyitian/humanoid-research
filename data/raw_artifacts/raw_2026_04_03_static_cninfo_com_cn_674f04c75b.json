@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_03_static_cninfo_com_cn_674f04c75b",
+  "artifactType": "filing",
+  "title": "关于召开2025年度报告业绩说明会的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-03/1225074338.PDF",
+  "sourceId": "src_static_cninfo_com_cn_674f04c75b",
+  "fetchRunId": "fetch_2026_04_03_static_cninfo_com_cn_674f04c75b",
+  "publishedAt": "2026-04-03",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:e28b4aed6c1aa2c11bd5d024ba904cb2bcbe7f9a5e229e1405aeb6df1fc20424",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_03_static_cninfo_com_cn_674f04c75b.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_04_03_filing_2d4921d79c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_351a150038c43971; listSourceId=src_cninfo_002389_announcements."
+}

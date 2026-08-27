@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_13_static_cninfo_com_cn_ab6cd907c6",
+  "artifactType": "filing",
+  "title": "关于2025年度利润分配及资本公积金转增股本方案公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-13/1225007370.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ab6cd907c6",
+  "fetchRunId": "fetch_2026_03_13_static_cninfo_com_cn_ab6cd907c6",
+  "publishedAt": "2026-03-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c084ba29f30d9a63d173fe4e7b8c3a80d7e1e5b630f7f6955be019e75f4e3146",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_13_static_cninfo_com_cn_ab6cd907c6.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_03_13_filing_9f738c4de2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f167d476ec1e3516; listSourceId=src_cninfo_688256_announcements."
+}

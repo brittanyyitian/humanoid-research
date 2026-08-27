@@ -1,0 +1,3942 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "policy": "Data acquisition matrix describes whether public research inputs exist for each entity. It is a research-readiness view, not an investment rating.",
+  "rows": [
+    {
+      "entityId": "unitree",
+      "name": "宇树科技",
+      "industryRole": "整机厂",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_unitree_com_9ed4ddc103",
+            "src_unitree_com_432d7a83cf",
+            "src_unitree_h2plus_product",
+            "src_unitree_com_1b70ceffc7",
+            "src_unitree_news_center"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "NOT_APPLICABLE",
+          "statusLabel": "不适用",
+          "evidenceRefs": [],
+          "gap": "非上市对象"
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "NOT_APPLICABLE",
+          "statusLabel": "不适用",
+          "evidenceRefs": [],
+          "gap": "非上市对象"
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_unitree_news_center",
+            "src_unitree_h2plus_product"
+          ],
+          "gap": "已有线索，仍需原始披露确认"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "OK": 1,
+        "NOT_APPLICABLE": 2,
+        "PARTIAL": 1,
+        "NOT_REQUESTED": 1
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "zhiyuan_robot",
+      "name": "智元机器人",
+      "industryRole": "整机厂",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_agibot_com_cn_3a2e3fadb0",
+            "src_agibot_com_cn_37a8354e2d",
+            "src_agibot_com_cn_1bd6261c2f",
+            "src_agibot_com_cn_f381cbe667",
+            "src_agibot_com_cn_01d8c80601"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "NOT_APPLICABLE",
+          "statusLabel": "不适用",
+          "evidenceRefs": [],
+          "gap": "非上市对象"
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "NOT_APPLICABLE",
+          "statusLabel": "不适用",
+          "evidenceRefs": [],
+          "gap": "非上市对象"
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_agibot_com_cn_c161085c62",
+            "src_agibot_20260629_15000_robots_downline",
+            "src_agibot_com_cn_e39f8dfa5d",
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "gap": "已有线索，仍需原始披露确认"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_agibot_20260629_15000_robots_downline",
+            "src_agibot_com_cn_e39f8dfa5d",
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "gap": ""
+        }
+      ],
+      "statusCounts": {
+        "OK": 2,
+        "NOT_APPLICABLE": 2,
+        "PARTIAL": 1
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "ubtech",
+      "name": "优必选",
+      "industryRole": "整机厂",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_ubtrobot_com_7c5567dfbd",
+            "src_ubtrobot_com_c704a93c68",
+            "src_ubtrobot_com_6b74e3e827"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未接入公告/财报源"
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_09880"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "OK": 2,
+        "NOT_REQUESTED": 3
+      },
+      "acquisitionState": "ready",
+      "blockers": []
+    },
+    {
+      "entityId": "anpeilong",
+      "name": "安培龙",
+      "industryRole": "力传感器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_4deaa67cf6",
+            "src_static_cninfo_com_cn_c13ab8241b",
+            "src_static_cninfo_com_cn_2b226729f7",
+            "src_static_cninfo_com_cn_e81b389ca5",
+            "src_static_cninfo_com_cn_af00472321"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_301413"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "industryRole": "力传感器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_b83e982255",
+            "src_static_cninfo_com_cn_1a96f6f484",
+            "src_static_cninfo_com_cn_4cd7f52328",
+            "src_static_cninfo_com_cn_386f4dc40a",
+            "src_static_cninfo_com_cn_593c898829"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_603662"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "hanwei_electronics",
+      "name": "汉威科技",
+      "industryRole": "力传感器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_fbfbfae937",
+            "src_static_cninfo_com_cn_d6708789b3",
+            "src_static_cninfo_com_cn_e61c5c21b9",
+            "src_static_cninfo_com_cn_369026c1fb",
+            "src_static_cninfo_com_cn_075d06c575"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300007"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "industryRole": "力传感器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_b461d8dee2",
+            "src_static_cninfo_com_cn_2a5d7324e5",
+            "src_static_cninfo_com_cn_dbcb5c5fdb",
+            "src_static_cninfo_com_cn_6f2b62393c",
+            "src_static_cninfo_com_cn_9737f05f4a"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300354"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "industryRole": "减速器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_leaderdrive_com_fe87884c06",
+            "src_leaderdrive_com_b4f1eb0dcf",
+            "src_leaderdrive_com_82044a18e5",
+            "src_leaderdrive_com_57db398b59",
+            "src_leaderdrive_com_f0d6610dd2"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_4d646fcf62",
+            "src_static_cninfo_com_cn_7cbdcba51e",
+            "src_static_cninfo_com_cn_d0c3137a7e",
+            "src_static_cninfo_com_cn_7a8d474abf",
+            "src_static_cninfo_com_cn_1eccf91a41"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688017"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "OK": 3,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "ready",
+      "blockers": []
+    },
+    {
+      "entityId": "zhongda_leader",
+      "name": "中大力德",
+      "industryRole": "减速器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_37090ada37",
+            "src_static_cninfo_com_cn_4e3f2fc200",
+            "src_static_cninfo_com_cn_f41dfbb37e",
+            "src_static_cninfo_com_cn_58af12ae26",
+            "src_static_cninfo_com_cn_079cbbc6ff"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002896"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "shuanghuan_driveline",
+      "name": "双环传动",
+      "industryRole": "减速器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_8aa747d694",
+            "src_static_cninfo_com_cn_af477d9713",
+            "src_static_cninfo_com_cn_19ae611ac2",
+            "src_static_cninfo_com_cn_d91950086a",
+            "src_static_cninfo_com_cn_762dde3465"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002472"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "shuanglin",
+      "name": "双林股份",
+      "industryRole": "丝杠",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_90e8ebf5c5",
+            "src_static_cninfo_com_cn_6008067149",
+            "src_static_cninfo_com_cn_fae6e558df",
+            "src_static_cninfo_com_cn_f89450ef66",
+            "src_static_cninfo_com_cn_89373fe36a"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300100"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "best",
+      "name": "贝斯特",
+      "industryRole": "丝杠",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_139fb349b8",
+            "src_static_cninfo_com_cn_9bd535249f",
+            "src_static_cninfo_com_cn_3535a30bbe",
+            "src_static_cninfo_com_cn_a398fc8042",
+            "src_static_cninfo_com_cn_298bff092b"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300580"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "beite_technology",
+      "name": "北特科技",
+      "industryRole": "丝杠",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_46e0c519fb",
+            "src_static_cninfo_com_cn_90f9ca8f3a",
+            "src_static_cninfo_com_cn_2d7b96a4d8",
+            "src_static_cninfo_com_cn_7cf41db562",
+            "src_static_cninfo_com_cn_af882a4a6e"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_603009"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "wuzhou_xinchun",
+      "name": "五洲新春",
+      "industryRole": "丝杠",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_3c5fa8a28a",
+            "src_static_cninfo_com_cn_1a31553c66",
+            "src_static_cninfo_com_cn_cea5fb6f30",
+            "src_static_cninfo_com_cn_5a33ddfad4",
+            "src_static_cninfo_com_cn_3ef891a771"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_603667"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "inovance",
+      "name": "汇川技术",
+      "industryRole": "电机",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_9fca04d93c",
+            "src_static_cninfo_com_cn_13fd5eeeec",
+            "src_static_cninfo_com_cn_912cf09672",
+            "src_static_cninfo_com_cn_2b915ec107",
+            "src_static_cninfo_com_cn_e317881f48"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300124"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "moons",
+      "name": "鸣志电器",
+      "industryRole": "电机",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_7448348438",
+            "src_static_cninfo_com_cn_7c09cca8fd",
+            "src_static_cninfo_com_cn_0cbd7d3064",
+            "src_static_cninfo_com_cn_87ad1de535",
+            "src_static_cninfo_com_cn_ef94da101c"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_603728"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "hechuan_technology",
+      "name": "禾川科技",
+      "industryRole": "电机",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_f8038bb76a",
+            "src_static_cninfo_com_cn_289f327f61",
+            "src_static_cninfo_com_cn_758e9eda64",
+            "src_static_cninfo_com_cn_f28136426d",
+            "src_static_cninfo_com_cn_bee54b32d9"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688320"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "industryRole": "灵巧手 / 传动",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_199edacd78",
+            "src_static_cninfo_com_cn_7e618f3d59",
+            "src_static_cninfo_com_cn_ba13b71130",
+            "src_static_cninfo_com_cn_e83117d9de",
+            "src_static_cninfo_com_cn_cf0029d5bb"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_003021"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "sanhuazk",
+      "name": "三花智控",
+      "industryRole": "执行器 / 热管理",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_2d56cc013a",
+            "src_static_cninfo_com_cn_c40d717e69",
+            "src_static_cninfo_com_cn_155a355c4e",
+            "src_static_cninfo_com_cn_4d0f3ce485",
+            "src_static_cninfo_com_cn_5a654e1f5b"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002050"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "industryRole": "执行器 / 汽车零部件",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_95a3bc479f",
+            "src_static_cninfo_com_cn_cc6bf20e9c",
+            "src_static_cninfo_com_cn_b579d8b20d",
+            "src_static_cninfo_com_cn_9922de8584",
+            "src_static_cninfo_com_cn_1b4f591afa"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_601689"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "siasun_robot",
+      "name": "机器人",
+      "industryRole": "机器人本体 / 系统集成",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_56745393f6",
+            "src_static_cninfo_com_cn_6f511957d3",
+            "src_static_cninfo_com_cn_a5b00afb0e",
+            "src_static_cninfo_com_cn_9898500dfa",
+            "src_static_cninfo_com_cn_cfebff6bb2"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300024"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "estun",
+      "name": "埃斯顿",
+      "industryRole": "控制器 / 机器人",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_1dad1797ec",
+            "src_static_cninfo_com_cn_0153b92ce6",
+            "src_static_cninfo_com_cn_ed443e772d",
+            "src_static_cninfo_com_cn_0b6f1468e0",
+            "src_static_cninfo_com_cn_d1d5d0085c"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002747"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "industryRole": "视觉传感器",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_orbbec_com_cn_80a52c114e",
+            "src_orbbec_com_cn_02fa578a48",
+            "src_orbbec_com_cn_d1eadfea62",
+            "src_orbbec_com_cn_4ae6dae4a7",
+            "src_orbbec_com_cn_7b186799a0"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_20ac2cda54",
+            "src_static_cninfo_com_cn_cc280fbfa0",
+            "src_static_cninfo_com_cn_91e503d38b",
+            "src_static_cninfo_com_cn_2a0d2c08f4",
+            "src_static_cninfo_com_cn_e30c5cfe9e"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688322"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_orbbec_com_cn_45b2dd709c"
+          ],
+          "gap": "已有线索，仍需原始披露确认"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_orbbec_com_cn_80a52c114e",
+            "src_orbbec_com_cn_02fa578a48",
+            "src_orbbec_com_cn_4ae6dae4a7",
+            "src_orbbec_com_cn_7b186799a0",
+            "src_orbbec_com_cn_a28697e66e"
+          ],
+          "gap": "已有供应链线索，待正式关系验证"
+        }
+      ],
+      "statusCounts": {
+        "OK": 3,
+        "PARTIAL": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "kinco",
+      "name": "步科股份",
+      "industryRole": "控制器 / 驱动",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_3cbae80623",
+            "src_static_cninfo_com_cn_f50d79db27",
+            "src_static_cninfo_com_cn_d3ff757f0f",
+            "src_static_cninfo_com_cn_81c2d59b79",
+            "src_static_cninfo_com_cn_f3aabb24a0"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688160"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "highly_electric",
+      "name": "华依科技",
+      "industryRole": "测试设备 / 传感",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_23fab21efe",
+            "src_static_cninfo_com_cn_7601afb2be",
+            "src_static_cninfo_com_cn_d0d945daf3",
+            "src_static_cninfo_com_cn_56b16b2e40",
+            "src_static_cninfo_com_cn_0ad4d2cfed"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688071"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "luster_lighttech",
+      "name": "凌云光",
+      "industryRole": "机器视觉",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_a71c6b6be4",
+            "src_static_cninfo_com_cn_0c7b23b655",
+            "src_static_cninfo_com_cn_67c6f35ed9",
+            "src_static_cninfo_com_cn_a75ceaae4c",
+            "src_static_cninfo_com_cn_b8c0a7ca5a"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688400"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "yeeda",
+      "name": "怡合达",
+      "industryRole": "FA零部件",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_f73a745004",
+            "src_static_cninfo_com_cn_553d940935",
+            "src_static_cninfo_com_cn_1d96708b3f",
+            "src_static_cninfo_com_cn_54cb8541ff",
+            "src_static_cninfo_com_cn_10f3971b03"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_301029"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "piotech",
+      "name": "均普智能",
+      "industryRole": "智能制造装备",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_9f3cc7d4a5",
+            "src_static_cninfo_com_cn_b97cc18353",
+            "src_static_cninfo_com_cn_d800f63339",
+            "src_static_cninfo_com_cn_914ad5b20f",
+            "src_static_cninfo_com_cn_47fc37a030"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688306"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "longcheer_technology",
+      "name": "龙旗科技",
+      "industryRole": "3C制造",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_agibot_20260629_15000_robots_downline",
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未接入公告/财报源"
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_603341"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_agibot_20260629_15000_robots_downline",
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "gap": "已有线索，仍需原始披露确认"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_agibot_20260629_15000_robots_downline",
+            "src_agibot_20260625_3c_line_live"
+          ],
+          "gap": ""
+        }
+      ],
+      "statusCounts": {
+        "OK": 3,
+        "NOT_REQUESTED": 1,
+        "PARTIAL": 1
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "huada_jiutian",
+      "name": "华大九天",
+      "industryRole": "芯片设计工具",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_19b5545d21",
+            "src_static_cninfo_com_cn_8fda28de77",
+            "src_static_cninfo_com_cn_d9fc7a0afa",
+            "src_static_cninfo_com_cn_726beac856",
+            "src_static_cninfo_com_cn_98b499a27a"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_301269"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "industryRole": "芯片设计工具",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_a484a49bae",
+            "src_static_cninfo_com_cn_75f977acad",
+            "src_static_cninfo_com_cn_c774dffdf9",
+            "src_static_cninfo_com_cn_cd9e090843",
+            "src_static_cninfo_com_cn_1908946387"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688206"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_9fab2b51c7"
+          ],
+          "gap": "已有供应链线索，待正式关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 2,
+        "OK": 2,
+        "NOT_REQUESTED": 1
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "cambricon",
+      "name": "寒武纪",
+      "industryRole": "芯片设计",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_3f4811ef61",
+            "src_static_cninfo_com_cn_1a7e3e62d0",
+            "src_static_cninfo_com_cn_07d2572fb5",
+            "src_static_cninfo_com_cn_d51ca0f632",
+            "src_static_cninfo_com_cn_ec4b64e921"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688256"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "industryRole": "芯片设计",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_c3b4e79d34",
+            "src_static_cninfo_com_cn_4462eaaa55",
+            "src_static_cninfo_com_cn_230c18eb7c",
+            "src_static_cninfo_com_cn_c71af14df0",
+            "src_static_cninfo_com_cn_48724b19c1"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688008"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "smic",
+      "name": "中芯国际",
+      "industryRole": "晶圆制造",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_44cadd9369",
+            "src_static_cninfo_com_cn_0b3175b7f0",
+            "src_static_cninfo_com_cn_686cff3a0c",
+            "src_static_cninfo_com_cn_451060e0f2",
+            "src_static_cninfo_com_cn_616e8e5b3f"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688981"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "huahong_semiconductor",
+      "name": "华虹公司",
+      "industryRole": "晶圆制造",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_598a27eea1",
+            "src_static_cninfo_com_cn_38e0d73b5a",
+            "src_static_cninfo_com_cn_d4dd81e838",
+            "src_static_cninfo_com_cn_be19ec55a7",
+            "src_static_cninfo_com_cn_91865f3666"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688347"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "naura",
+      "name": "北方华创",
+      "industryRole": "制造设备",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_34007aff3d",
+            "src_static_cninfo_com_cn_d7c4082483",
+            "src_static_cninfo_com_cn_74b1070724",
+            "src_static_cninfo_com_cn_c2bbe9fa52",
+            "src_static_cninfo_com_cn_b82e45fa6d"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002371"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "amec",
+      "name": "中微公司",
+      "industryRole": "制造设备",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_c8729c07c7",
+            "src_static_cninfo_com_cn_6859852402",
+            "src_static_cninfo_com_cn_77993e7849",
+            "src_static_cninfo_com_cn_4c2506a56e",
+            "src_static_cninfo_com_cn_0af761cddd"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688012"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "anji_microelectronics",
+      "name": "安集科技",
+      "industryRole": "制造材料",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_4da3b0f70e",
+            "src_static_cninfo_com_cn_2bede71166",
+            "src_static_cninfo_com_cn_c48212040a",
+            "src_static_cninfo_com_cn_9aabfdf796",
+            "src_static_cninfo_com_cn_54a28b611a"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688019"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "national_silicon",
+      "name": "沪硅产业",
+      "industryRole": "制造材料",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_4d5d52245f",
+            "src_static_cninfo_com_cn_6316ff9457",
+            "src_static_cninfo_com_cn_ce4089061f",
+            "src_static_cninfo_com_cn_c94e106ba6",
+            "src_static_cninfo_com_cn_6f5d45e2b4"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688126"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "jcet",
+      "name": "长电科技",
+      "industryRole": "封装测试",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_77561aa5d2",
+            "src_static_cninfo_com_cn_e7cc305b1a",
+            "src_static_cninfo_com_cn_027aee8b5e",
+            "src_static_cninfo_com_cn_9d80962231",
+            "src_static_cninfo_com_cn_84a783fffd"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600584"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "tongfu_microelectronics",
+      "name": "通富微电",
+      "industryRole": "封装测试",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_dd5031ce46",
+            "src_static_cninfo_com_cn_f7f3212ffc",
+            "src_static_cninfo_com_cn_aab097dce0",
+            "src_static_cninfo_com_cn_1eacd45b00",
+            "src_static_cninfo_com_cn_dfadfafceb"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002156"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "taiji_industry",
+      "name": "太极实业",
+      "industryRole": "晶圆制造服务与工程",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_76ca166a25",
+            "src_static_cninfo_com_cn_140cc70419",
+            "src_static_cninfo_com_cn_f7164d5bed",
+            "src_static_cninfo_com_cn_0c500ab30f",
+            "src_static_cninfo_com_cn_c47265237c"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600667"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "avic_jonhon",
+      "name": "中航光电",
+      "industryRole": "连接器与互连",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_53a6297abb",
+            "src_static_cninfo_com_cn_f6b90d9201",
+            "src_static_cninfo_com_cn_4941b04de1",
+            "src_static_cninfo_com_cn_f30081026d",
+            "src_static_cninfo_com_cn_7c0ce2b78b"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002179"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "avic_uav",
+      "name": "中无人机",
+      "industryRole": "大型无人机整机",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_dcb6f41329",
+            "src_static_cninfo_com_cn_4f9d473057",
+            "src_static_cninfo_com_cn_81f9e9c796",
+            "src_static_cninfo_com_cn_277567622c",
+            "src_static_cninfo_com_cn_9845dbcd87"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688297"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "rainbow_uav",
+      "name": "航天彩虹",
+      "industryRole": "无人机整机与系统",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_c8bcf5706c",
+            "src_static_cninfo_com_cn_0fcbd28004",
+            "src_static_cninfo_com_cn_73981a5def",
+            "src_static_cninfo_com_cn_4848bec278",
+            "src_static_cninfo_com_cn_edb9a417f1"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002389"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "industryRole": "成品油零售",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_b0f7e2f4c1",
+            "src_static_cninfo_com_cn_07c6822d28",
+            "src_static_cninfo_com_cn_ca77f53f74",
+            "src_static_cninfo_com_cn_d57ab946a7",
+            "src_static_cninfo_com_cn_d67f9742a3"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_000554"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "sinopec",
+      "name": "中国石化",
+      "industryRole": "炼化与销售",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_51532e5462",
+            "src_static_cninfo_com_cn_878909db83",
+            "src_static_cninfo_com_cn_c2961ef4da",
+            "src_static_cninfo_com_cn_ca48c5b382",
+            "src_static_cninfo_com_cn_f94e3513a1"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600028"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "industryRole": "油品贸易与仓储",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_e3edaf9400",
+            "src_static_cninfo_com_cn_6e48599ac3",
+            "src_static_cninfo_com_cn_9e24ffbd14",
+            "src_static_cninfo_com_cn_64a9cc18f6",
+            "src_static_cninfo_com_cn_6ce965393f"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_000159"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "tongyuan_petroleum",
+      "name": "通源石油",
+      "industryRole": "油田服务",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_9d71311b0c",
+            "src_static_cninfo_com_cn_c90e3a195a",
+            "src_static_cninfo_com_cn_1d6f4de9fd",
+            "src_static_cninfo_com_cn_4b1ca3a055",
+            "src_static_cninfo_com_cn_2e5f3317f8"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_300164"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "industryRole": "油气开采",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_de13f9aed9",
+            "src_static_cninfo_com_cn_1f69b8972f",
+            "src_static_cninfo_com_cn_c66e325714",
+            "src_static_cninfo_com_cn_44ebbb999b",
+            "src_static_cninfo_com_cn_a439092907"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600938"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "jereh",
+      "name": "杰瑞股份",
+      "industryRole": "油气设备与服务",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_a0279fab12",
+            "src_static_cninfo_com_cn_69e75bcfd8",
+            "src_static_cninfo_com_cn_389f356ecc",
+            "src_static_cninfo_com_cn_f5da38ac45",
+            "src_static_cninfo_com_cn_53873513bb"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_002353"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "three_gorges_water",
+      "name": "三峡水利",
+      "industryRole": "区域电网与水电",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_396b748838",
+            "src_static_cninfo_com_cn_ca32704150",
+            "src_static_cninfo_com_cn_64bc1b4069",
+            "src_static_cninfo_com_cn_c2847fe69f",
+            "src_static_cninfo_com_cn_1f619a329d"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600116"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "datang_power",
+      "name": "大唐发电",
+      "industryRole": "火电与新能源",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_2913e4eea4",
+            "src_static_cninfo_com_cn_9f13039dc8",
+            "src_static_cninfo_com_cn_e29d626c48",
+            "src_static_cninfo_com_cn_eaebf97312",
+            "src_static_cninfo_com_cn_e8ffdc42d1"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_601991"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "cypc",
+      "name": "长江电力",
+      "industryRole": "大型水电",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_b6c0582d8d",
+            "src_static_cninfo_com_cn_ecdfdea442",
+            "src_static_cninfo_com_cn_d59a29cc56",
+            "src_static_cninfo_com_cn_7a91824b05",
+            "src_static_cninfo_com_cn_060657cf51"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600900"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "sdic_power",
+      "name": "国投电力",
+      "industryRole": "水电与新能源",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_9f20f1d7c1",
+            "src_static_cninfo_com_cn_6a696b1352",
+            "src_static_cninfo_com_cn_7d3792936e",
+            "src_static_cninfo_com_cn_e80a0d0a24",
+            "src_static_cninfo_com_cn_34f5fa6cc7"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600886"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "hainan_haiyao",
+      "name": "海南海药",
+      "industryRole": "药品研发与制造",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_4b6bc1bf56",
+            "src_static_cninfo_com_cn_0b80495c3d",
+            "src_static_cninfo_com_cn_fa43f08446",
+            "src_static_cninfo_com_cn_48b409a09c",
+            "src_static_cninfo_com_cn_89ab2f3d28"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_000566"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "harbin_pharma",
+      "name": "哈药股份",
+      "industryRole": "医药制造与销售",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_3d148ca904",
+            "src_static_cninfo_com_cn_4aa667d50d",
+            "src_static_cninfo_com_cn_75ad5c56d7",
+            "src_static_cninfo_com_cn_cac20cabc4",
+            "src_static_cninfo_com_cn_3764d3d360"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600664"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "industryRole": "创新药研发与销售",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_b832cb3b4c",
+            "src_static_cninfo_com_cn_84e74d1d04",
+            "src_static_cninfo_com_cn_a0144ab225",
+            "src_static_cninfo_com_cn_e895b182a4",
+            "src_static_cninfo_com_cn_d53fdfed73"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600276"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "beone",
+      "name": "百济神州",
+      "industryRole": "创新药研发与全球销售",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_92f8ec7dc3",
+            "src_static_cninfo_com_cn_2f57f4bfa9",
+            "src_static_cninfo_com_cn_211e2f8b1c",
+            "src_static_cninfo_com_cn_8e9f6aacf9",
+            "src_static_cninfo_com_cn_cebeea728e"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_688235"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_a5420e748e"
+          ],
+          "gap": "已有供应链线索，待正式关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 2,
+        "OK": 2,
+        "NOT_REQUESTED": 1
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "zijin_mining",
+      "name": "紫金矿业",
+      "industryRole": "金铜资源",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_6c9903182e",
+            "src_static_cninfo_com_cn_2cba75fa89",
+            "src_static_cninfo_com_cn_55c7ea5f01",
+            "src_static_cninfo_com_cn_242b7dd1f7",
+            "src_static_cninfo_com_cn_3a435785ea"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_601899"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "industryRole": "黄金开采",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_ebd08627f8",
+            "src_static_cninfo_com_cn_e58f1b9b15",
+            "src_static_cninfo_com_cn_d9868eb52f",
+            "src_static_cninfo_com_cn_15b6c23398",
+            "src_static_cninfo_com_cn_1407652d11"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_600547"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    },
+    {
+      "entityId": "xingye_silver",
+      "name": "兴业银锡",
+      "industryRole": "白银与多金属",
+      "datasets": [
+        {
+          "id": "official_news",
+          "label": "官网/新闻",
+          "status": "PARTIAL",
+          "statusLabel": "部分",
+          "evidenceRefs": [],
+          "gap": "缺官方新闻或产品页"
+        },
+        {
+          "id": "filings_announcements",
+          "label": "公告/财报",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_static_cninfo_com_cn_874ca5c113",
+            "src_static_cninfo_com_cn_c09ce0414b",
+            "src_static_cninfo_com_cn_123c388cdc",
+            "src_static_cninfo_com_cn_98dfcf4f24",
+            "src_static_cninfo_com_cn_f356260452"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "market_snapshot",
+          "label": "行情快照",
+          "status": "OK",
+          "statusLabel": "已取得",
+          "evidenceRefs": [
+            "src_tencent_market_quote",
+            "src_tencent_market_quote_kline_000426"
+          ],
+          "gap": ""
+        },
+        {
+          "id": "customer_order_capacity",
+          "label": "客户/订单/产能",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成客户/订单/产能验证任务"
+        },
+        {
+          "id": "supply_relationship",
+          "label": "供应关系",
+          "status": "NOT_REQUESTED",
+          "statusLabel": "未接入",
+          "evidenceRefs": [],
+          "gap": "尚未形成供应关系验证"
+        }
+      ],
+      "statusCounts": {
+        "PARTIAL": 1,
+        "OK": 2,
+        "NOT_REQUESTED": 2
+      },
+      "acquisitionState": "partial",
+      "blockers": []
+    }
+  ]
+}

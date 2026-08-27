@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_11_static_cninfo_com_cn_24a2396cf6",
+  "artifactType": "filing",
+  "title": "澜起科技2024年年度报告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-11/1223058389.PDF",
+  "sourceId": "src_static_cninfo_com_cn_24a2396cf6",
+  "fetchRunId": "fetch_2025_04_11_static_cninfo_com_cn_24a2396cf6",
+  "publishedAt": "2025-04-11",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:43233a648a2c18a5164971a1cdd7e8a9875399da9996f4a11fc3b107470249d3",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_11_static_cninfo_com_cn_24a2396cf6.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2025_04_11_filing_94c2426c58"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a8cafba9835a187a; listSourceId=src_cninfo_688008_announcements."
+}

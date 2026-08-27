@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_04_24_static_cninfo_com_cn_f8b93b801f",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "太极实业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_04_24_static_cninfo_com_cn_f8b93b801f"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_7775de030a"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225166146.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:7dbb7d3bfee053da2ff7655a9946efaa7f0b170e031c7b609d35532529191d4e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_f8b93b801f.json"
+    }
+  ]
+}

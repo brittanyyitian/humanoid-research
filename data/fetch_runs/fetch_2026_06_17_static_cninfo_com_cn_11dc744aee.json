@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_17_static_cninfo_com_cn_11dc744aee",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "汉威科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_17_static_cninfo_com_cn_11dc744aee"
+  ],
+  "claimIds": [
+    "claim_2026_06_17_filing_54ad74475e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-17/1225375383.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:5dca0e55ed0bd73518ebe562ae73527899f15e102fe2bb90a0ade9346da402da",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_17_static_cninfo_com_cn_11dc744aee.json"
+    }
+  ]
+}

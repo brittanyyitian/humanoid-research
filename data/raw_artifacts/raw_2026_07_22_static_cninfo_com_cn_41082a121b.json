@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_22_static_cninfo_com_cn_41082a121b",
+  "artifactType": "filing",
+  "title": "第九届董事会第四次会议决议公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-22/1225435697.PDF",
+  "sourceId": "src_static_cninfo_com_cn_41082a121b",
+  "fetchRunId": "fetch_2026_07_22_static_cninfo_com_cn_41082a121b",
+  "publishedAt": "2026-07-22",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:f85df175d9e2b0b3e5cefa0d23112f474fca0afe4a597020cccc0f2d926e689a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_41082a121b.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_07_22_filing_40e16fb55e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_986bcb9a2ed825e5; listSourceId=src_cninfo_002371_announcements."
+}

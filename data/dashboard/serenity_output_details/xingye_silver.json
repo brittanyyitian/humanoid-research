@@ -1,0 +1,1056 @@
+{
+  "id": "saout_xingye_silver_e955b5fe34e0",
+  "entityId": "xingye_silver",
+  "name": "兴业银锡",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/xingye_silver.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "兴业银锡 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+      "兴业银锡的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查兴业银锡的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "白银与多金属",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "000426.SZ",
+      "name": "兴业银锡",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 40.69,
+        "previousClose": 40.128205128205124,
+        "changePct": 1.4000000000000046,
+        "high": 34,
+        "low": 31.93,
+        "open": 32.3,
+        "volume": 769528,
+        "turnover": 2530640172.9,
+        "turnoverText": "32.40亿",
+        "currency": "CNY",
+        "asOf": "20260827161454",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 55.95,
+        "technicalTimingScore": 45.6,
+        "marketPayoffScore": 58.96,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待价格和成交共同确认。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 96,
+        "evidenceScore": 96,
+        "valuationScore": 60,
+        "timingScore": 45.6,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但走势还没有形成可验证的买点。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 72,
+          "fundamentalScore": 91.2,
+          "companyScore": 96,
+          "evidenceScore": 96,
+          "valuationScore": 60,
+          "timingScore": 45.6,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但走势还没有形成可验证的买点。",
+          "nextCondition": "等待价格和成交共同确认。",
+          "metrics": {
+            "pe": 35.3513,
+            "ps": 10.845,
+            "revenueGrowth": 0.8532,
+            "profitGrowth": 2.5732,
+            "cashConversion": 0.9097,
+            "debtRatio": 0.414,
+            "return20": 0.0708
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收55.55亿元，同比+30.09%；归母净利润17.04亿元，同比+11.4%。2026-03-31营收21.3亿元，较可比期+85.32%；归母净利润13.38亿元，较可比期+257.32%；经营现金流12.17亿元。",
+          "③矿产金生产量本期数较上期数增加438.59%,销售量本期数较上期数增加295.12%,主要原因系报告期 合并增加子公司宇邦矿业及公司子公司博盛矿业金矿石选矿处理量同比增加所致。",
+          "智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。",
+          "2026-08-26复权收盘40.24元，高于20日平均成本39.35元；60日平均成本35.36元，近20个交易日涨跌+7.08%。"
+        ],
+        "possible": [
+          "兴业银锡当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "兴业银锡当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+          "兴业银锡当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 58.96,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.95/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 45.6,
+        "dailyBuyPointScore": 3.15,
+        "dmaAlignmentScore": 2.75,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 46.9,
+            "volume": 527804,
+            "average20": 51.164,
+            "average60": 47.291
+          },
+          {
+            "date": "2026-03-16",
+            "close": 45.37,
+            "volume": 777658,
+            "average20": 51.032,
+            "average60": 47.459
+          },
+          {
+            "date": "2026-03-17",
+            "close": 44.71,
+            "volume": 406067,
+            "average20": 50.757,
+            "average60": 47.641
+          },
+          {
+            "date": "2026-03-18",
+            "close": 44.12,
+            "volume": 547270,
+            "average20": 50.482,
+            "average60": 47.795
+          },
+          {
+            "date": "2026-03-19",
+            "close": 40.33,
+            "volume": 1000144,
+            "average20": 49.979,
+            "average60": 47.889
+          },
+          {
+            "date": "2026-03-20",
+            "close": 39.37,
+            "volume": 732633,
+            "average20": 49.44,
+            "average60": 47.998
+          },
+          {
+            "date": "2026-03-23",
+            "close": 36.09,
+            "volume": 1085819,
+            "average20": 48.84,
+            "average60": 48.017
+          },
+          {
+            "date": "2026-03-24",
+            "close": 38.25,
+            "volume": 867158,
+            "average20": 48.196,
+            "average60": 48.074
+          },
+          {
+            "date": "2026-03-25",
+            "close": 40.15,
+            "volume": 1000218,
+            "average20": 47.55,
+            "average60": 48.155
+          },
+          {
+            "date": "2026-03-26",
+            "close": 39.1,
+            "volume": 480561,
+            "average20": 46.898,
+            "average60": 48.204
+          },
+          {
+            "date": "2026-03-27",
+            "close": 40.08,
+            "volume": 537322,
+            "average20": 46.142,
+            "average60": 48.284
+          },
+          {
+            "date": "2026-03-30",
+            "close": 40.26,
+            "volume": 479508,
+            "average20": 45.144,
+            "average60": 48.354
+          },
+          {
+            "date": "2026-03-31",
+            "close": 40.22,
+            "volume": 692220,
+            "average20": 44.445,
+            "average60": 48.441
+          },
+          {
+            "date": "2026-04-01",
+            "close": 41.55,
+            "volume": 668222,
+            "average20": 43.932,
+            "average60": 48.538
+          },
+          {
+            "date": "2026-04-02",
+            "close": 39.96,
+            "volume": 534365,
+            "average20": 43.373,
+            "average60": 48.59
+          },
+          {
+            "date": "2026-04-03",
+            "close": 39.42,
+            "volume": 296754,
+            "average20": 42.835,
+            "average60": 48.636
+          },
+          {
+            "date": "2026-04-07",
+            "close": 39.6,
+            "volume": 278727,
+            "average20": 42.331,
+            "average60": 48.703
+          },
+          {
+            "date": "2026-04-08",
+            "close": 43.56,
+            "volume": 555920,
+            "average20": 41.924,
+            "average60": 48.776
+          },
+          {
+            "date": "2026-04-09",
+            "close": 43.56,
+            "volume": 790818,
+            "average20": 41.568,
+            "average60": 48.83
+          },
+          {
+            "date": "2026-04-10",
+            "close": 43.3,
+            "volume": 523510,
+            "average20": 41.295,
+            "average60": 48.85
+          },
+          {
+            "date": "2026-04-13",
+            "close": 42.72,
+            "volume": 398398,
+            "average20": 41.086,
+            "average60": 48.88
+          },
+          {
+            "date": "2026-04-14",
+            "close": 43.6,
+            "volume": 480639,
+            "average20": 40.997,
+            "average60": 48.902
+          },
+          {
+            "date": "2026-04-15",
+            "close": 43.87,
+            "volume": 832307,
+            "average20": 40.955,
+            "average60": 48.876
+          },
+          {
+            "date": "2026-04-16",
+            "close": 44.75,
+            "volume": 524553,
+            "average20": 40.987,
+            "average60": 48.843
+          },
+          {
+            "date": "2026-04-17",
+            "close": 44.28,
+            "volume": 422533,
+            "average20": 41.184,
+            "average60": 48.741
+          },
+          {
+            "date": "2026-04-20",
+            "close": 45.48,
+            "volume": 630871,
+            "average20": 41.49,
+            "average60": 48.668
+          },
+          {
+            "date": "2026-04-21",
+            "close": 44.93,
+            "volume": 379318,
+            "average20": 41.932,
+            "average60": 48.567
+          },
+          {
+            "date": "2026-04-22",
+            "close": 43.62,
+            "volume": 902160,
+            "average20": 42.2,
+            "average60": 48.458
+          },
+          {
+            "date": "2026-04-23",
+            "close": 41.1,
+            "volume": 840229,
+            "average20": 42.248,
+            "average60": 48.281
+          },
+          {
+            "date": "2026-04-24",
+            "close": 40.54,
+            "volume": 504032,
+            "average20": 42.32,
+            "average60": 48.053
+          },
+          {
+            "date": "2026-04-27",
+            "close": 42.02,
+            "volume": 535513,
+            "average20": 42.417,
+            "average60": 47.876
+          },
+          {
+            "date": "2026-04-28",
+            "close": 41.69,
+            "volume": 440653,
+            "average20": 42.489,
+            "average60": 47.606
+          },
+          {
+            "date": "2026-04-29",
+            "close": 43.34,
+            "volume": 500706,
+            "average20": 42.645,
+            "average60": 47.267
+          },
+          {
+            "date": "2026-04-30",
+            "close": 42.38,
+            "volume": 661516,
+            "average20": 42.686,
+            "average60": 46.925
+          },
+          {
+            "date": "2026-05-06",
+            "close": 45.18,
+            "volume": 884217,
+            "average20": 42.947,
+            "average60": 46.532
+          },
+          {
+            "date": "2026-05-07",
+            "close": 48.14,
+            "volume": 1175519,
+            "average20": 43.383,
+            "average60": 46.195
+          },
+          {
+            "date": "2026-05-08",
+            "close": 49.75,
+            "volume": 1114497,
+            "average20": 43.89,
+            "average60": 45.999
+          },
+          {
+            "date": "2026-05-11",
+            "close": 49.29,
+            "volume": 1076730,
+            "average20": 44.177,
+            "average60": 45.897
+          },
+          {
+            "date": "2026-05-12",
+            "close": 50.95,
+            "volume": 1222410,
+            "average20": 44.547,
+            "average60": 45.889
+          },
+          {
+            "date": "2026-05-13",
+            "close": 49.98,
+            "volume": 854474,
+            "average20": 44.88,
+            "average60": 45.832
+          },
+          {
+            "date": "2026-05-14",
+            "close": 48.17,
+            "volume": 722599,
+            "average20": 45.153,
+            "average60": 45.801
+          },
+          {
+            "date": "2026-05-15",
+            "close": 44.14,
+            "volume": 1188552,
+            "average20": 45.18,
+            "average60": 45.736
+          },
+          {
+            "date": "2026-05-18",
+            "close": 43,
+            "volume": 635227,
+            "average20": 45.136,
+            "average60": 45.616
+          },
+          {
+            "date": "2026-05-19",
+            "close": 41.72,
+            "volume": 574520,
+            "average20": 44.985,
+            "average60": 45.485
+          },
+          {
+            "date": "2026-05-20",
+            "close": 41.39,
+            "volume": 649300,
+            "average20": 44.841,
+            "average60": 45.335
+          },
+          {
+            "date": "2026-05-21",
+            "close": 39.86,
+            "volume": 706918,
+            "average20": 44.559,
+            "average60": 45.163
+          },
+          {
+            "date": "2026-05-22",
+            "close": 41.47,
+            "volume": 579072,
+            "average20": 44.386,
+            "average60": 45.053
+          },
+          {
+            "date": "2026-05-25",
+            "close": 41.76,
+            "volume": 553600,
+            "average20": 44.294,
+            "average60": 44.896
+          },
+          {
+            "date": "2026-05-26",
+            "close": 43.66,
+            "volume": 894837,
+            "average20": 44.422,
+            "average60": 44.74
+          },
+          {
+            "date": "2026-05-27",
+            "close": 41.14,
+            "volume": 695812,
+            "average20": 44.452,
+            "average60": 44.556
+          },
+          {
+            "date": "2026-05-28",
+            "close": 39.59,
+            "volume": 683966,
+            "average20": 44.33,
+            "average60": 44.296
+          },
+          {
+            "date": "2026-05-29",
+            "close": 39.7,
+            "volume": 533757,
+            "average20": 44.231,
+            "average60": 43.954
+          },
+          {
+            "date": "2026-06-01",
+            "close": 39.69,
+            "volume": 550381,
+            "average20": 44.048,
+            "average60": 43.712
+          },
+          {
+            "date": "2026-06-02",
+            "close": 42.97,
+            "volume": 1023074,
+            "average20": 44.078,
+            "average60": 43.565
+          },
+          {
+            "date": "2026-06-03",
+            "close": 42.08,
+            "volume": 775916,
+            "average20": 43.923,
+            "average60": 43.414
+          },
+          {
+            "date": "2026-06-04",
+            "close": 39.89,
+            "volume": 697434,
+            "average20": 43.51,
+            "average60": 43.243
+          },
+          {
+            "date": "2026-06-05",
+            "close": 38.08,
+            "volume": 647722,
+            "average20": 42.927,
+            "average60": 43.049
+          },
+          {
+            "date": "2026-06-08",
+            "close": 35.06,
+            "volume": 761187,
+            "average20": 42.215,
+            "average60": 42.772
+          },
+          {
+            "date": "2026-06-09",
+            "close": 36.13,
+            "volume": 560170,
+            "average20": 41.474,
+            "average60": 42.53
+          },
+          {
+            "date": "2026-06-10",
+            "close": 35.41,
+            "volume": 569675,
+            "average20": 40.746,
+            "average60": 42.307
+          },
+          {
+            "date": "2026-06-11",
+            "close": 36.05,
+            "volume": 500278,
+            "average20": 40.139,
+            "average60": 42.126
+          },
+          {
+            "date": "2026-06-12",
+            "close": 36.82,
+            "volume": 910525,
+            "average20": 39.774,
+            "average60": 41.984
+          },
+          {
+            "date": "2026-06-15",
+            "close": 40.26,
+            "volume": 981453,
+            "average20": 39.637,
+            "average60": 41.91
+          },
+          {
+            "date": "2026-06-16",
+            "close": 40.01,
+            "volume": 634102,
+            "average20": 39.551,
+            "average60": 41.841
+          },
+          {
+            "date": "2026-06-17",
+            "close": 40.61,
+            "volume": 583910,
+            "average20": 39.512,
+            "average60": 41.846
+          },
+          {
+            "date": "2026-06-18",
+            "close": 39.57,
+            "volume": 764831,
+            "average20": 39.498,
+            "average60": 41.849
+          },
+          {
+            "date": "2026-06-22",
+            "close": 43.01,
+            "volume": 1123059,
+            "average20": 39.575,
+            "average60": 41.964
+          },
+          {
+            "date": "2026-06-23",
+            "close": 38.71,
+            "volume": 983664,
+            "average20": 39.422,
+            "average60": 41.972
+          },
+          {
+            "date": "2026-06-24",
+            "close": 37.82,
+            "volume": 813849,
+            "average20": 39.13,
+            "average60": 41.933
+          },
+          {
+            "date": "2026-06-25",
+            "close": 35.28,
+            "volume": 892935,
+            "average20": 38.837,
+            "average60": 41.87
+          },
+          {
+            "date": "2026-06-26",
+            "close": 33.01,
+            "volume": 791861,
+            "average20": 38.508,
+            "average60": 41.752
+          },
+          {
+            "date": "2026-06-29",
+            "close": 33.27,
+            "volume": 552957,
+            "average20": 38.187,
+            "average60": 41.635
+          },
+          {
+            "date": "2026-06-30",
+            "close": 32.96,
+            "volume": 648799,
+            "average20": 37.85,
+            "average60": 41.514
+          },
+          {
+            "date": "2026-07-01",
+            "close": 33.04,
+            "volume": 602646,
+            "average20": 37.353,
+            "average60": 41.372
+          },
+          {
+            "date": "2026-07-02",
+            "close": 34.33,
+            "volume": 885294,
+            "average20": 36.966,
+            "average60": 41.279
+          },
+          {
+            "date": "2026-07-03",
+            "close": 35.34,
+            "volume": 921103,
+            "average20": 36.739,
+            "average60": 41.211
+          },
+          {
+            "date": "2026-07-06",
+            "close": 35.6,
+            "volume": 851702,
+            "average20": 36.614,
+            "average60": 41.144
+          },
+          {
+            "date": "2026-07-07",
+            "close": 34.1,
+            "volume": 567967,
+            "average20": 36.567,
+            "average60": 40.986
+          },
+          {
+            "date": "2026-07-08",
+            "close": 33.23,
+            "volume": 458870,
+            "average20": 36.422,
+            "average60": 40.814
+          },
+          {
+            "date": "2026-07-09",
+            "close": 32.35,
+            "volume": 724846,
+            "average20": 36.269,
+            "average60": 40.632
+          },
+          {
+            "date": "2026-07-10",
+            "close": 33,
+            "volume": 556535,
+            "average20": 36.116,
+            "average60": 40.47
+          },
+          {
+            "date": "2026-07-13",
+            "close": 30.45,
+            "volume": 499274,
+            "average20": 35.797,
+            "average60": 40.25
+          },
+          {
+            "date": "2026-07-14",
+            "close": 31.97,
+            "volume": 507433,
+            "average20": 35.383,
+            "average60": 40.052
+          },
+          {
+            "date": "2026-07-15",
+            "close": 30.56,
+            "volume": 499199,
+            "average20": 34.91,
+            "average60": 39.815
+          },
+          {
+            "date": "2026-07-16",
+            "close": 30.15,
+            "volume": 380780,
+            "average20": 34.388,
+            "average60": 39.58
+          },
+          {
+            "date": "2026-07-17",
+            "close": 27.9,
+            "volume": 625878,
+            "average20": 33.804,
+            "average60": 39.287
+          },
+          {
+            "date": "2026-07-20",
+            "close": 26.93,
+            "volume": 576578,
+            "average20": 33,
+            "average60": 38.987
+          },
+          {
+            "date": "2026-07-21",
+            "close": 29.62,
+            "volume": 721858,
+            "average20": 32.545,
+            "average60": 38.754
+          },
+          {
+            "date": "2026-07-22",
+            "close": 31.73,
+            "volume": 1126025,
+            "average20": 32.241,
+            "average60": 38.597
+          },
+          {
+            "date": "2026-07-23",
+            "close": 33.94,
+            "volume": 769528,
+            "average20": 32.174,
+            "average60": 38.487
+          }
+        ],
+        "plainReading": {
+          "state": "方向还不清楚",
+          "what": "现价在近一个月平均成本上方；今天成交与平时接近。",
+          "meaning": "价格没有形成持续向上或持续向下的状态，先等它自己走出来。",
+          "watch": "接下来能守住 32.17 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 26.30，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 40.69,
+            "recentAverage": 32.174,
+            "longerAverage": 38.487,
+            "recentHigh": 38.45,
+            "recentLow": 26.3
+          }
+        }
+      },
+      "risk": [
+        "智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。",
+        "若下一期现金流明显落后于利润，兴业银锡的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，兴业银锡需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查兴业银锡的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收21.3亿元，较可比期+85.32%；归母净利润13.38亿元，较可比期+257.32%；经营现金流12.17亿元。",
+            "③矿产金生产量本期数较上期数增加438.59%,销售量本期数较上期数增加295.12%,主要原因系报告期 合并增加子公司宇邦矿业及公司子公司博盛矿业金矿石选矿处理量同比增加所致。"
+          ]
+        },
+        "upside": {
+          "summary": "兴业银锡的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "资源量、储量、产量、单位成本、销量或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "兴业银锡的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本35.36元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "资源量、储量、产量、单位成本、销量或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。继续恶化，或价格跌破60日平均成本35.36元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "资源量、储量、产量、单位成本、销量或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+        "兴业银锡的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收55.55亿元，同比+30.09%；归母净利润17.04亿元，同比+11.4%。2026-03-31营收21.3亿元，较可比期+85.32%；归母净利润13.38亿元，较可比期+257.32%；经营现金流12.17亿元。",
+            "reason": "兴业银锡当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225255187.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "③矿产金生产量本期数较上期数增加438.59%,销售量本期数较上期数增加295.12%,主要原因系报告期 合并增加子公司宇邦矿业及公司子公司博盛矿业金矿石选矿处理量同比增加所致。",
+            "reason": "兴业银锡当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-22/1225136963.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-22/1225136963.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘40.24元，高于20日平均成本39.35元；60日平均成本35.36元，近20个交易日涨跌+7.08%。",
+            "reason": "兴业银锡当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收21.3亿元，较可比期+85.32%；归母净利润13.38亿元，较可比期+257.32%；经营现金流12.17亿元。③矿产金生产量本期数较上期数增加438.59%,销售量本期数较上期数增加295.12%,主要原因系报告期 合并增加子公司宇邦矿业及公司子公司博盛矿业金矿石选矿处理量同比增加所致。",
+          "先看价格站上20日平均成本39.35元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收55.55亿元，同比+30.09%；归母净利润17.04亿元，同比+11.4%。2026-03-31营收21.3亿元，较可比期+85.32%；归母净利润13.38亿元，较可比期+257.32%；经营现金流12.17亿元。",
+          "③矿产金生产量本期数较上期数增加438.59%,销售量本期数较上期数增加295.12%,主要原因系报告期 合并增加子公司宇邦矿业及公司子公司博盛矿业金矿石选矿处理量同比增加所致。",
+          "智能化控制建设：引入在 本降低，尾矿污染风险有效减少 险，助力绿色矿山建设3.填补锌精矿 同时药剂成本降低15%-20%，将 线监测系统，实现浮选参数的实时优 伴生银高效回收技术空白，形成相关 进一步压缩生产端成本，双向 化。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查兴业银锡的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 40.69,
+    "previousClose": 40.128205128205124,
+    "changePct": 1.4000000000000046,
+    "high": 34,
+    "low": 31.93,
+    "open": 32.3,
+    "volume": 769528,
+    "turnover": 2530640172.9,
+    "turnoverText": "32.40亿",
+    "currency": "CNY",
+    "asOf": "20260827161454",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 40.69,
+    "changePct": 1.4,
+    "turnoverText": "32.40亿",
+    "turnoverRate": 4.45,
+    "totalMarketCap": "722.51亿",
+    "floatMarketCap": "722.33亿",
+    "fiveDayChangePct": 5.83,
+    "twentyDayChangePct": 29.63,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161454",
+    "asOf": "20260827161454",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161454",
+    "latestAsOf": "20260827161454",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 59.37,
+    "evidence_confidence_score": 79.28,
+    "market_payoff_score": 58.96,
+    "technical_timing_score": 45.6,
+    "data_readiness_score": 100,
+    "action_readiness_score": 67.52,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 70.4,
+        "average_rating": 3.52,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 58.96,
+        "average_rating": 2.95,
+        "details": {
+          "valuation_discount": 2.5,
+          "implied_growth_vs_evidence": 2.99,
+          "upside_downside": 1.6,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 45.6,
+        "average_rating": 2.28,
+        "details": {
+          "monthly_trend": 1.1,
+          "weekly_structure": 2.6,
+          "daily_buy_point": 3.15,
+          "gf_dma_alignment": 2.75,
+          "drawdown_position": 1.8
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "白银与多金属处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量变化、成本变化和项目投产。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -3.8%，近60日涨跌 -16.3%。",
+        "missing_proof": "产量变化 / 成本变化 / 项目投产 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "金属价格上涨，但产量、成本或利润没有同步改善。",
+      "扩产项目延期，资源量没有转成可销售产量。",
+      "现金流弱于利润，资本开支和负债压力上升。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

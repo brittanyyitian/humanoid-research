@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_cd48f93a1e",
+  "artifactType": "filing",
+  "title": "大唐发电关于召开2025年年度股东会的通知",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225354768.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cd48f93a1e",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_cd48f93a1e",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:96615158d56aff3282488edf2bc6114ae1db834717d63d20475d2ce94467e339",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_cd48f93a1e.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_0abaaf24bb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5151d150f5e2d761; listSourceId=src_cninfo_601991_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_411a01a2fd",
+  "artifactType": "filing",
+  "title": "大唐发电关于股票交易异常波动的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225339563.PDF",
+  "sourceId": "src_static_cninfo_com_cn_411a01a2fd",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_411a01a2fd",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:3987f0d7703bff69cf3a92b3e906665be76899289a5cdead48b6002cae2ea46c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_411a01a2fd.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_9fb5ec01f7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ccf1e52124250d24; listSourceId=src_cninfo_601991_announcements."
+}

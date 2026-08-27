@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_3b8373c427",
+  "artifactType": "filing",
+  "title": "关于股东权益变动触及1%刻度的提示性公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417392.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3b8373c427",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_3b8373c427",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:aa1d9c1e0510537dc198272e1bcc913dd0fde8ade273a4e5c12181336ff36225",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_3b8373c427.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_9e4948a5f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3b73d0737aa647c0; listSourceId=src_cninfo_600667_announcements."
+}

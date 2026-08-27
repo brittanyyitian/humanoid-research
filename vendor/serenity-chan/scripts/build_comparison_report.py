@@ -1,0 +1,2917 @@
+#!/usr/bin/env python3
+"""Build a decision-grade candidate comparison report from fetch manifests."""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import json
+import math
+import sys
+from pathlib import Path
+from typing import Any, Mapping, Optional, Sequence
+
+try:
+    from a_share_capital_actions import analyze_announcements
+    from a_share_capital_action_quantifier import quantify_capital_actions
+    from build_research_debt_runbook import build_runbook_rows
+    from currency_normalizer import build_currency_normalization_row
+    from data_consumption import financial_consumption_audit, ranking_validity_from_consumption, valuation_consumption_audit
+    from financial_amounts import financial_unit_multiplier, normalize_financial_amount
+    from financial_periods import latest_annual as select_latest_annual
+    from financial_periods import latest_quarter as select_latest_quarter
+    from financial_periods import normalize_financial_period
+    from financial_periods import period_year as normalized_period_year
+    from fx_provider import currency_code_from_unit, normalize_currency_code
+    from report_labels import display_bool, display_label, display_list, display_mapping_pairs
+    from score_ai_research_dossier import score_dossier
+    from technical_health import analyze_price_csv
+    from validate_ai_research_dossier import validate_dossier
+    from validate_ai_overlay import evidence_context_from_manifest, validate_overlay
+    from validate_ai_review_outcome import validate_review_outcome
+except ModuleNotFoundError:  # pragma: no cover - supports python -m scripts.build_comparison_report
+    from scripts.a_share_capital_actions import analyze_announcements
+    from scripts.a_share_capital_action_quantifier import quantify_capital_actions
+    from scripts.build_research_debt_runbook import build_runbook_rows
+    from scripts.currency_normalizer import build_currency_normalization_row
+    from scripts.data_consumption import financial_consumption_audit, ranking_validity_from_consumption, valuation_consumption_audit
+    from scripts.financial_amounts import financial_unit_multiplier, normalize_financial_amount
+    from scripts.financial_periods import latest_annual as select_latest_annual
+    from scripts.financial_periods import latest_quarter as select_latest_quarter
+    from scripts.financial_periods import normalize_financial_period
+    from scripts.financial_periods import period_year as normalized_period_year
+    from scripts.fx_provider import currency_code_from_unit, normalize_currency_code
+    from scripts.report_labels import display_bool, display_label, display_list, display_mapping_pairs
+    from scripts.score_ai_research_dossier import score_dossier
+    from scripts.technical_health import analyze_price_csv
+    from scripts.validate_ai_research_dossier import validate_dossier
+    from scripts.validate_ai_overlay import evidence_context_from_manifest, validate_overlay
+    from scripts.validate_ai_review_outcome import validate_review_outcome
+
+
+RATING_SCORE_LIMIT: dict[str, float] = {"S": 100.0, "A": 84.0, "B": 72.0, "C": 55.0, "D": 35.0, "OBSERVE_ONLY": 25.0}
+STATUS_SCORE: dict[str, float] = {"OK": 100.0, "PARTIAL": 70.0, "STALE": 55.0, "PENDING": 45.0, "NOT_REQUESTED": 35.0, "NOT_APPLICABLE": 35.0, "FAILED": 25.0}
+CAPITAL_RISK_SCORE: dict[str, float] = {"none": 0.0, "supportive": -2.0, "low": 3.0, "medium": 8.0, "medium_high": 12.0, "high": 18.0}
+GROWTH_ORDER: dict[str, int] = {"H0": 0, "H1": 1, "H2": 2, "H3": 3, "H4": 4, "H5": 5, "UNKNOWN": -1}
+RATING_CAPS: set[str] = set(RATING_SCORE_LIMIT)
+ACTION_READINESS: set[str] = {"CORE_CANDIDATE", "STRONG_OBSERVE", "CANDIDATE_POOL", "WAIT_FOR_BUY_POINT", "DATA_GATED", "RESEARCH_GATED", "LEAD_TRACKING", "ELIMINATE", "OBSERVE_ONLY"}
+ACTION_GATE_TYPES: set[str] = {
+    "NONE",
+    "DATA_GATED",
+    "EVIDENCE_GATED",
+    "VALUATION_GATED",
+    "AI_REVIEW_GATED",
+    "BUY_POINT_GATED",
+    "CAPITAL_ACTION_GATED",
+}
+ACTION_GATE_CLASSES: set[str] = {"NONE", "DATA_ACQUISITION", "EVIDENCE_VALIDATION", "RESEARCH_VALIDATION", "ACTION_TIMING"}
+DECISION_MODES: set[str] = {
+    "single_research_object",
+    "clear_decision_candidate",
+    "research_lead",
+    "candidate_cluster",
+    "comparison_not_decision_grade",
+}
+RANKING_VALIDITY_STATUSES: set[str] = {"VALID", "PARTIAL", "INVALID"}
+AI_REVIEW_STATUSES: set[str] = {"NOT_RUN", "COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA", "SKIPPED_QUICK_AUDIT"}
+FORMAL_AI_STATUSES: set[str] = {"COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA"}
+REPORT_READINESS_STAGES: set[str] = {"INTERNAL_BASELINE", "FINAL_REPORT_READY", "DIAGNOSTIC_ONLY"}
+CANDIDATE_POOL_COHERENCE: set[str] = {"UNREVIEWED", "SAME_LAYER", "SAME_THEME_DIFFERENT_LAYERS", "CROSS_THEME_DIAGNOSTIC", "UNRELATED_DIAGNOSTIC"}
+CANDIDATE_POOL_COHERENCE_FIELDS: set[str] = {"status", "reason", "market_count", "layer_families", "decision_constraint"}
+COMPARISON_SCOPE_FIELDS: set[str] = {"candidate_count", "as_of", "basis"}
+CANDIDATE_FIELDS: set[str] = {"symbol", "name", "market", "currency", "rating_cap", "data_package_path"}
+SERENITY_LAYER_ROW_FIELDS: set[str] = {
+    "symbol",
+    "layer",
+    "bottleneck_reason",
+    "layer_score",
+    "company_fit",
+    "revenue_transmission",
+    "evidence_gap",
+    "ai_confidence",
+    "ai_review_status",
+    "key_evidence_refs",
+    "contrary_evidence",
+    "research_questions",
+    "dossier_ref",
+    "thesis_quality_delta",
+    "evidence_confidence_delta",
+    "risk_adjustment",
+    "action_condition_summary",
+}
+AI_REVIEW_STATUS_ROW_FIELDS: set[str] = {"symbol", "ai_review_status", "overlay_merged", "layer_mapped", "evidence_ref_count", "research_question_count", "blocking_reason"}
+AI_DOSSIER_ROW_FIELDS: set[str] = {
+    "symbol",
+    "dossier_status",
+    "dossier_merged",
+    "source_read_count",
+    "observed_count",
+    "inferred_count",
+    "judgment_count",
+    "hypothesis_count",
+    "evidence_test_count",
+    "unresolved_question_count",
+    "claim_count",
+    "supported_claim_count",
+    "causal_step_count",
+    "scenario_count",
+    "trigger_count",
+    "action_condition_count",
+    "thesis_quality_delta",
+    "evidence_confidence_delta",
+    "risk_adjustment",
+    "confidence_dampers",
+    "action_condition_summary",
+    "dossier_ref",
+    "quality_score",
+    "quality_band",
+    "quality_delivery_allowed",
+    "quality_blocking_issues",
+    "quality_cap_reasons",
+}
+READINESS_ROW_FIELDS: set[str] = {"symbol", "fetch_status", "research_readiness", "action_readiness", "primary_gate", "primary_gate_class", "gate_classes", "data_evidence_cap", "decision_grade", "reason_codes"}
+RANKING_ROW_FIELDS: set[str] = {"rank", "symbol", "priority_score", "research_priority_score", "action_priority_score", "rating_cap", "decision_grade", "action_readiness", "action_gate", "key_reason"}
+ACTION_GATE_FIELDS: set[str] = {"state", "primary_gate", "primary_gate_class", "gate_classes", "secondary_gates", "blocking_datasets", "blocking_reasons"}
+ACTION_GATE_STATES: set[str] = {"ACTIONABLE_WATCH", "NOT_ACTIONABLE"}
+FINAL_DECISION_FIELDS: set[str] = {
+    "leading_research_candidate",
+    "leading_action_candidate",
+    "decision_candidate",
+    "decision_mode",
+    "score_gap_to_runner_up",
+    "candidate_count_warning",
+    "candidate_pool_semantic_coherence",
+    "ranking_validity",
+    "decision",
+    "next_research_actions",
+}
+RANKING_VALIDITY_FIELDS: set[str] = {"status", "reason", "blocked_by", "partial_axes"}
+REPORT_READINESS_FIELDS: set[str] = {"stage", "delivery_allowed", "blocking_statuses", "next_phase", "reason"}
+CONSUMPTION_AUDIT_DATASETS: set[str] = {"financials", "valuation_inputs"}
+ACTION_BLOCKING_DEBT_DATASETS: set[str] = {
+    "current_quote",
+    "price_history_adjusted",
+    "financials",
+    "filings_announcements",
+    "valuation",
+    "valuation_currency",
+    "valuation_growth",
+    "share_capital",
+    "valuation_inputs",
+    "peer_valuation",
+    "consensus_estimates",
+    "serenity_layer",
+    "customer_order_capacity_evidence",
+}
+VALUATION_DATA_DEBT_DATASETS: set[str] = {"valuation", "valuation_currency", "share_capital", "valuation_inputs", "peer_valuation", "consensus_estimates"}
+VALUATION_RESEARCH_DEBT_DATASETS: set[str] = {"valuation_growth"}
+CUSTOMER_EVIDENCE_DATASET: str = "customer_order_capacity_evidence"
+GATE_CLASS_STRENGTH: dict[str, int] = {
+    "NONE": 0,
+    "ACTION_TIMING": 1,
+    "RESEARCH_VALIDATION": 2,
+    "EVIDENCE_VALIDATION": 3,
+    "DATA_ACQUISITION": 4,
+}
+DATA_ACQUISITION_GAP_TYPES: set[str] = {
+    "ACCESS_FAILURE",
+    "SCOPE_NOT_REQUESTED",
+    "SOURCE_NOT_IMPLEMENTED",
+    "SOURCE_UNAVAILABLE",
+    "ISSUER_NON_DISCLOSURE",
+    "STALE_DATA",
+    "POLICY_BLOCKED",
+}
+EVIDENCE_VALIDATION_GAP_TYPES: set[str] = {
+    "NOT_MACHINE_READABLE",
+    "CONFLICTING_SOURCES",
+    "EVIDENCE_DEPTH_LIMIT",
+    "ADJUSTMENT_BASIS_UNVERIFIED",
+}
+
+
+def _load_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _load_manifest(path: Path) -> Mapping[str, Any]:
+    loaded: Any = _load_json(path)
+    if not isinstance(loaded, Mapping):
+        raise ValueError(f"{path} must contain a JSON object")
+    manifest: Any = dict(loaded)
+    manifest["_manifest_path"] = str(path.resolve())
+    return manifest
+
+
+def _round(value: Optional[float], digits: int = 2) -> Optional[float]:
+    return None if value is None else round(value, digits)
+
+
+def _currency_code(value: Any) -> str:
+    return normalize_currency_code(value)
+
+
+def _currency_code_from_unit(value: Any) -> str:
+    return currency_code_from_unit(value)
+
+
+def _financial_currency(financials: Mapping[str, Any], latest_annual: Mapping[str, Any]) -> str:
+    for value in [
+        financials.get("currency"),
+        financials.get("financial_currency"),
+        financials.get("reporting_currency"),
+        latest_annual.get("currency"),
+        latest_annual.get("financial_currency"),
+        latest_annual.get("reporting_currency"),
+    ]:
+        code: str = _currency_code(value) or _currency_code_from_unit(value)
+        if code:
+            return code
+    for value in [
+        latest_annual.get("revenue_unit"),
+        latest_annual.get("net_income_unit"),
+        financials.get("unit"),
+        latest_annual.get("unit"),
+    ]:
+        code = _currency_code_from_unit(value)
+        if code:
+            return code
+    return ""
+
+
+def _financial_statement_unit(financials: Mapping[str, Any], latest_annual: Mapping[str, Any]) -> str:
+    return str(
+        latest_annual.get("unit")
+        or financials.get("unit")
+        or latest_annual.get("revenue_unit")
+        or latest_annual.get("net_income_unit")
+        or ""
+    )
+
+
+def _non_empty_strings(value: Any) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    return [str(item).strip() for item in value if item is not None and str(item).strip()]
+
+
+def _reject_unsupported_keys(value: Mapping[str, Any], allowed: set[str], label: str, errors: list[str]) -> None:
+    unsupported: list[str] = sorted(set(value) - allowed)
+    if unsupported:
+        errors.append(f"{label} contains unsupported keys: {', '.join(unsupported)}")
+
+
+def _require_object_keys(value: Mapping[str, Any], required: set[str], label: str, errors: list[str]) -> None:
+    missing: list[str] = sorted(required - set(value))
+    if missing:
+        errors.append(f"{label} missing keys: {', '.join(missing)}")
+
+
+def _display_cell(value: Any, default: str = "无") -> str:
+    if value is None:
+        return default
+    text: str = str(value).strip()
+    return text if text else default
+
+
+def _gate_class_summary(value: Any) -> str:
+    return display_mapping_pairs(value, empty="")
+
+
+def _as_float(value: Any) -> Optional[float]:
+    if value is None or value == "":
+        return None
+    try:
+        number: Any = float(str(value).replace(",", ""))
+    except Exception:
+        return None
+    if math.isnan(number) or math.isinf(number):
+        return None
+    return number
+
+
+def _pct_change(current: Optional[float], previous: Optional[float]) -> Optional[float]:
+    if current is None or previous in (None, 0):
+        return None
+    return (current / previous - 1.0) * 100.0
+
+
+def _ratio(numerator: Optional[float], denominator: Optional[float]) -> Optional[float]:
+    if numerator is None or denominator in (None, 0):
+        return None
+    return numerator / denominator * 100.0
+
+
+def _close_enough(actual: Optional[float], expected: Optional[float], *, tolerance_pct: float = 0.01) -> bool:
+    if actual is None or expected is None:
+        return False
+    return abs(actual - expected) <= max(0.02, abs(expected) * tolerance_pct)
+
+
+def _result_for_dataset(manifest: Mapping[str, Any], dataset: str) -> Mapping[str, Any]:
+    for item in manifest.get("results", []) if isinstance(manifest.get("results"), list) else []:
+        if isinstance(item, Mapping) and item.get("dataset") == dataset:
+            return item
+    return {}
+
+
+def _path_from_result(manifest: Mapping[str, Any], result: Mapping[str, Any], key: str = "data_path") -> Optional[Path]:
+    value: Any = result.get(key)
+    if not value:
+        return None
+    path: Any = Path(str(value))
+    if path.is_absolute() and path.exists():
+        return path
+    manifest_path: Any = manifest.get("_manifest_path")
+    candidates: Any = [path]
+    if manifest_path:
+        manifest_file: Any = Path(str(manifest_path))
+        candidates.append(manifest_file.parent / path)
+        candidates.extend(parent / path for parent in manifest_file.parents)
+    out_dir: Any = manifest.get("out_dir")
+    if out_dir:
+        candidates.append(Path(str(out_dir)) / path)
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def _load_result_json(manifest: Mapping[str, Any], dataset: str) -> Any:
+    path: Any = _path_from_result(manifest, _result_for_dataset(manifest, dataset))
+    if not path:
+        return None
+    return _load_json(path)
+
+
+def _valuation_payload(manifest: Mapping[str, Any]) -> Mapping[str, Any]:
+    acquisition: Any = manifest.get("data_acquisition") if isinstance(manifest.get("data_acquisition"), Mapping) else {}
+    status_by_dataset: Any = acquisition.get("status_by_dataset") if isinstance(acquisition.get("status_by_dataset"), Mapping) else {}
+    data_quality: Any = manifest.get("data_quality") if isinstance(manifest.get("data_quality"), Mapping) else {}
+    valuation_status: Any = str(status_by_dataset.get("valuation_inputs") or data_quality.get("valuation_inputs") or "")
+    if valuation_status != "OK":
+        return {}
+    payload: Any = _load_result_json(manifest, "valuation_inputs")
+    if isinstance(payload, Mapping):
+        return payload
+    return {}
+
+
+def _valuation_audit_payload(manifest: Mapping[str, Any]) -> Mapping[str, Any]:
+    payload: Any = _load_result_json(manifest, "valuation_inputs")
+    if isinstance(payload, Mapping):
+        return payload
+    return {}
+
+
+def _dataset_status(manifest: Mapping[str, Any], dataset: str) -> str:
+    acquisition: Any = manifest.get("data_acquisition") if isinstance(manifest.get("data_acquisition"), Mapping) else {}
+    status_by_dataset: Any = acquisition.get("status_by_dataset") if isinstance(acquisition.get("status_by_dataset"), Mapping) else {}
+    data_quality: Any = manifest.get("data_quality") if isinstance(manifest.get("data_quality"), Mapping) else {}
+    result: Any = _result_for_dataset(manifest, dataset)
+    return str(status_by_dataset.get(dataset) or data_quality.get(dataset) or result.get("status") or "NOT_REQUESTED")
+
+
+def _list_field(payload: Mapping[str, Any], key: str) -> list[str]:
+    value: Any = payload.get(key)
+    if not isinstance(value, list):
+        return []
+    return [str(item) for item in value if str(item)]
+
+
+def _valuation_input_row(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    symbol: Any = _symbol(manifest)
+    result: Any = _result_for_dataset(manifest, "valuation_inputs")
+    payload: Any = _valuation_audit_payload(manifest)
+    status: Any = _dataset_status(manifest, "valuation_inputs")
+    source_level: Any = str(result.get("source_level") or payload.get("source_level") or "")
+    warnings: Any = _list_field(result, "warnings") + _list_field(payload, "warnings")
+    errors: Any = _list_field(result, "errors") + _list_field(payload, "errors")
+    verification_needed: Any = bool(
+        payload.get("requires_l0_l1_verification")
+        or (status != "OK")
+        or (source_level and not source_level.startswith(("L0", "L1")))
+    )
+    source_basis: Any = str(payload.get("source_basis") or "")
+    if status != "OK":
+        valuation_stage: Any = "unavailable"
+        valuation_confidence: Any = "blocked"
+    elif source_basis == "quote_derived_preflight" or "quote" in source_basis.lower() or verification_needed:
+        valuation_stage = "preflight"
+        valuation_confidence = "medium" if source_level.startswith(("L0", "L1")) else "low"
+    elif source_level.startswith("L0"):
+        valuation_stage = "verified_l0"
+        valuation_confidence = "high"
+    elif source_level.startswith("L1"):
+        valuation_stage = "verified_l1"
+        valuation_confidence = "high"
+    else:
+        valuation_stage = "preflight"
+        valuation_confidence = "low"
+    return {
+        "symbol": symbol,
+        "valuation_input_ref": f"valuation_input_matrix:{symbol}",
+        "status": status,
+        "valuation_stage": valuation_stage,
+        "valuation_confidence": valuation_confidence,
+        "regular_market_price": _round(_as_float(payload.get("regular_market_price"))),
+        "total_shares": _round(_as_float(payload.get("total_shares"))),
+        "float_shares": _round(_as_float(payload.get("float_shares"))),
+        "total_market_cap": _round(_as_float(payload.get("total_market_cap"))),
+        "float_market_cap": _round(_as_float(payload.get("float_market_cap"))),
+        "currency": _currency_code(payload.get("currency")),
+        "as_of_date": str(payload.get("as_of_date") or result.get("as_of_date") or ""),
+        "source_name": str(result.get("source") or payload.get("source") or ""),
+        "source_level": source_level,
+        "source_basis": source_basis,
+        "share_count_basis": str(payload.get("share_count_basis") or ""),
+        "market_cap_basis": str(payload.get("market_cap_basis") or ""),
+        "verification_needed": verification_needed,
+        "warnings": warnings,
+        "errors": errors,
+    }
+
+
+def _currency_normalization_row(
+    manifest: Mapping[str, Any],
+    financial: Mapping[str, Any],
+    valuation: Mapping[str, Any],
+) -> dict[str, Any]:
+    return build_currency_normalization_row(
+        symbol=_symbol(manifest),
+        valuation_currency=valuation.get("currency"),
+        financial_currency=financial.get("financial_currency"),
+        total_market_cap=valuation.get("total_market_cap"),
+        as_of_date=valuation.get("as_of_date"),
+        allow_network=True,
+    )
+
+
+def _symbol(manifest: Mapping[str, Any]) -> str:
+    symbol: Any = manifest.get("symbol")
+    if isinstance(symbol, Mapping):
+        return str(symbol.get("symbol") or symbol.get("input_value") or "")
+    return str(symbol or "")
+
+
+def _market(manifest: Mapping[str, Any]) -> str:
+    symbol: Any = manifest.get("symbol")
+    if isinstance(symbol, Mapping):
+        return str(symbol.get("market") or "UNKNOWN")
+    return str(manifest.get("market") or "UNKNOWN")
+
+
+def _currency(manifest: Mapping[str, Any]) -> str:
+    symbol: Any = manifest.get("symbol")
+    if isinstance(symbol, Mapping):
+        return str(symbol.get("currency") or "UNKNOWN")
+    return str(manifest.get("currency") or "UNKNOWN")
+
+
+def _candidate_name(manifest: Mapping[str, Any]) -> str:
+    quote: Any = _load_result_json(manifest, "current_quote")
+    if isinstance(quote, Mapping) and quote.get("name"):
+        return str(quote.get("name"))
+    filings: Any = _load_result_json(manifest, "filings_announcements")
+    if isinstance(filings, Mapping) and filings.get("name"):
+        return str(filings.get("name"))
+    financials: Any = _load_result_json(manifest, "financials")
+    if isinstance(financials, Mapping):
+        periods: Any = financials.get("periods")
+        if isinstance(periods, list):
+            for row in reversed(periods):
+                if isinstance(row, Mapping) and row.get("security_name"):
+                    return str(row.get("security_name"))
+    return ""
+
+
+def _periods(financials: Any) -> list[Mapping[str, Any]]:
+    if not isinstance(financials, Mapping):
+        return []
+    rows: Any = financials.get("periods", [])
+    if not isinstance(rows, list):
+        return []
+    return [row for row in rows if isinstance(row, Mapping) and row.get("period")]
+
+
+def _period_year(period: Any) -> Optional[int]:
+    return normalized_period_year(period)
+
+
+def _latest_annual(
+    rows: Sequence[Mapping[str, Any]],
+    before_year: Optional[int] = None,
+    *,
+    before_period_end: Optional[str] = None,
+    market: str = "",
+    source: str = "",
+) -> Optional[Mapping[str, Any]]:
+    return select_latest_annual(rows, before_fiscal_year=before_year, before_period_end=before_period_end, market=market, source=source)
+
+
+def _latest_quarter(
+    rows: Sequence[Mapping[str, Any]],
+    suffix: str,
+    before_year: Optional[int] = None,
+    *,
+    before_period_end: Optional[str] = None,
+    market: str = "",
+    source: str = "",
+) -> Optional[Mapping[str, Any]]:
+    quarter: Any = "q1" if suffix in {"03-31", "q1", "Q1"} else str(suffix).lower()
+    return select_latest_quarter(rows, quarter, before_fiscal_year=before_year, before_period_end=before_period_end, market=market, source=source)
+
+
+def _financial_quality(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    financials: Any = _load_result_json(manifest, "financials")
+    rows: Any = _periods(financials)
+    source_level: Any = str((financials or {}).get("source_level") or _result_for_dataset(manifest, "financials").get("source_level") or "")
+    source_name: Any = str((financials or {}).get("source") or _result_for_dataset(manifest, "financials").get("source") or "")
+    source_usage: Mapping[str, Any] = (financials or {}).get("source_usage", {}) if isinstance((financials or {}).get("source_usage"), Mapping) else {}
+    market: Any = _market(manifest)
+    latest_annual: Any = _latest_annual(rows, market=market, source=source_name)
+    latest_annual_meta: Any = normalize_financial_period(latest_annual, market=market, source=source_name) if latest_annual else {}
+    latest_annual_year: Any = latest_annual_meta.get("fiscal_year") if isinstance(latest_annual_meta.get("fiscal_year"), int) else None
+    previous_annual: Any = _latest_annual(rows, before_period_end=str(latest_annual_meta.get("period_end") or ""), market=market, source=source_name) if latest_annual else None
+    latest_q1: Any = _latest_quarter(rows, "q1", market=market, source=source_name)
+    latest_q1_meta: Any = normalize_financial_period(latest_q1, market=market, source=source_name) if latest_q1 else {}
+    latest_q1_year: Any = latest_q1_meta.get("fiscal_year") if isinstance(latest_q1_meta.get("fiscal_year"), int) else None
+    previous_q1: Any = _latest_quarter(rows, "q1", before_period_end=str(latest_q1_meta.get("period_end") or ""), market=market, source=source_name) if latest_q1 else None
+    previous_annual_meta: Any = normalize_financial_period(previous_annual, market=market, source=source_name) if previous_annual else {}
+    previous_q1_meta: Any = normalize_financial_period(previous_q1, market=market, source=source_name) if previous_q1 else {}
+
+    if not latest_annual:
+        research_debt: Any = (
+            "Financial statement period rows exist, but no annual period could be selected after fiscal-period normalization."
+            if rows
+            else "Financial statement rows are missing from the data package."
+        )
+        return {
+            "symbol": _symbol(manifest),
+            "status": "DATA_GATED",
+            "score": 30.0,
+            "source_level": source_level,
+            "period_row_count": len(rows),
+            "research_debt": research_debt,
+        }
+    missing_comparison_periods: list[str] = []
+    if not previous_annual:
+        missing_comparison_periods.append("previous_annual")
+    if latest_q1 and not previous_q1:
+        missing_comparison_periods.append("previous_q1")
+    period_coverage_status: str = "OK" if not missing_comparison_periods else "PARTIAL"
+
+    revenue: Any = _as_float(latest_annual.get("revenue"))
+    previous_revenue: Any = _as_float(previous_annual.get("revenue")) if previous_annual else None
+    net_income: Any = _as_float(latest_annual.get("net_income") or latest_annual.get("net_profit"))
+    previous_net_income: Any = _as_float(previous_annual.get("net_income") or previous_annual.get("net_profit")) if previous_annual else None
+    statement_unit: str = _financial_statement_unit(financials or {}, latest_annual)
+    unit_multiplier: float = financial_unit_multiplier(statement_unit)
+    revenue_absolute: Any = normalize_financial_amount(revenue, statement_unit)
+    net_income_absolute: Any = normalize_financial_amount(net_income, statement_unit)
+    operating_cash_flow: Any = _as_float(latest_annual.get("operating_cash_flow"))
+    operating_cost: Any = _as_float(latest_annual.get("operating_cost"))
+    gross_profit: Any = (revenue - operating_cost) if revenue is not None and operating_cost is not None else _as_float(latest_annual.get("gross_profit"))
+    assets: Any = _as_float(latest_annual.get("assets"))
+    liabilities: Any = _as_float(latest_annual.get("liabilities"))
+    receivables: Any = _as_float(latest_annual.get("accounts_receivable"))
+    inventory: Any = _as_float(latest_annual.get("inventory"))
+    rd_expense: Any = _as_float(latest_annual.get("research_expense"))
+    valuation_payload: Any = _valuation_payload(manifest)
+    quote: Any = _load_result_json(manifest, "current_quote")
+    regular_market_price: Any = (
+        _as_float(valuation_payload.get("regular_market_price"))
+        or (_as_float(quote.get("regular_market_price")) if isinstance(quote, Mapping) else None)
+    )
+    total_market_cap: Any = _as_float(valuation_payload.get("total_market_cap"))
+    float_market_cap: Any = _as_float(valuation_payload.get("float_market_cap"))
+    total_shares: Any = _as_float(valuation_payload.get("total_shares"))
+    financial_currency: Any = _financial_currency(financials or {}, latest_annual)
+    valuation_currency: Any = _currency_code(
+        valuation_payload.get("currency")
+        or (quote.get("currency") if isinstance(quote, Mapping) else "")
+    )
+    valuation_currency_match: Any = bool(financial_currency and valuation_currency and financial_currency == valuation_currency)
+    q1_revenue_growth: Any = _pct_change(_as_float(latest_q1.get("revenue")) if latest_q1 else None, _as_float(previous_q1.get("revenue")) if previous_q1 else None)
+    q1_net_income_growth: Any = _pct_change(_as_float(latest_q1.get("net_income") or latest_q1.get("net_profit")) if latest_q1 else None, _as_float(previous_q1.get("net_income") or previous_q1.get("net_profit")) if previous_q1 else None)
+    q1_ocf_to_ni: Any = _ratio(
+        _as_float(latest_q1.get("operating_cash_flow")) if latest_q1 else None,
+        _as_float(latest_q1.get("net_income") or latest_q1.get("net_profit")) if latest_q1 else None,
+    )
+
+    revenue_growth: Any = _pct_change(revenue, previous_revenue)
+    net_income_growth: Any = _pct_change(net_income, previous_net_income)
+    turned_profitable: Any = previous_net_income is not None and previous_net_income < 0 and (net_income or 0) > 0
+    gross_margin: Any = _ratio(gross_profit, revenue)
+    net_margin: Any = _ratio(net_income, revenue)
+    ocf_to_ni: Any = _ratio(operating_cash_flow, net_income)
+    receivables_to_revenue: Any = _ratio(receivables, revenue)
+    inventory_to_revenue: Any = _ratio(inventory, revenue)
+    debt_to_assets: Any = _ratio(liabilities, assets)
+    rd_to_revenue: Any = _ratio(rd_expense, revenue)
+
+    score: Any = 45.0
+    if revenue_growth is not None:
+        score += 14.0 if revenue_growth >= 30 else 9.0 if revenue_growth >= 15 else 4.0 if revenue_growth >= 5 else -4.0
+    if turned_profitable:
+        score += 7.0
+    elif net_income_growth is not None:
+        score += 14.0 if net_income_growth >= 25 else 8.0 if net_income_growth >= 10 else 2.0 if net_income_growth >= 0 else -8.0
+    if gross_margin is not None:
+        score += 10.0 if gross_margin >= 50 else 7.0 if gross_margin >= 40 else 3.0 if gross_margin >= 25 else -4.0
+    if net_margin is not None:
+        score += 10.0 if net_margin >= 25 else 6.0 if net_margin >= 12 else 2.0 if net_margin >= 5 else -5.0
+    if ocf_to_ni is not None:
+        score += 8.0 if ocf_to_ni >= 80 else 4.0 if ocf_to_ni >= 50 else -8.0 if ocf_to_ni < 0 else -3.0
+    if debt_to_assets is not None:
+        score += 5.0 if debt_to_assets <= 35 else 1.0 if debt_to_assets <= 55 else -5.0
+    if q1_revenue_growth is not None and q1_revenue_growth < 10:
+        score -= 6.0
+    if q1_ocf_to_ni is not None and q1_ocf_to_ni < 0:
+        score -= 10.0
+    if source_level.startswith("L3"):
+        score = min(score, 90.0)
+
+    if score >= 76:
+        label: Any = "strong_preflight"
+    elif score >= 62:
+        label = "constructive_preflight"
+    elif score >= 48:
+        label = "watch_preflight"
+    else:
+        label = "weak_preflight"
+
+    research_debt_items: list[dict[str, str]] = []
+    if source_level.startswith("L3"):
+        research_debt_items.append({
+            "priority": "critical",
+            "next_action": "用 L0/L1 年报和季报复核核心财务行项目后，才能给出 A/S 级结论。",
+        })
+    if source_usage.get("structured_supplement_used"):
+        supplemented_periods: Any = source_usage.get("structured_supplemented_periods", [])
+        period_text: str = "、".join(
+            str(item.get("period") or "")
+            for item in supplemented_periods
+            if isinstance(item, Mapping) and item.get("period")
+        )
+        research_debt_items.append({
+            "priority": "high",
+            "next_action": f"财务可比期使用了 L3 结构化补充{f'（{period_text}）' if period_text else ''}，需要用 L0/L1 定期报告或授权数据库复核后再升级评级。",
+        })
+    if missing_comparison_periods:
+        research_debt_items.append({
+            "priority": "high",
+            "next_action": "补齐上一年年报和上一年同季一季报，重新计算收入、利润和经营现金流的同口径变化。",
+        })
+    return {
+        "symbol": _symbol(manifest),
+        "status": "OK",
+        "source_level": source_level,
+        "score": round(max(0.0, min(100.0, score)), 2),
+        "label": label,
+        "latest_annual_period": str(latest_annual.get("period")),
+        "latest_annual_fiscal_year": latest_annual_year,
+        "latest_annual_period_type": str(latest_annual_meta.get("period_type") or ""),
+        "latest_annual_selection_rule": str(latest_annual_meta.get("selection_rule") or ""),
+        "previous_annual_period": str(previous_annual.get("period")) if previous_annual else "",
+        "previous_annual_fiscal_year": previous_annual_meta.get("fiscal_year") if isinstance(previous_annual_meta.get("fiscal_year"), int) else None,
+        "latest_q1_period": str(latest_q1.get("period")) if latest_q1 else "",
+        "latest_q1_fiscal_year": latest_q1_year,
+        "previous_q1_period": str(previous_q1.get("period")) if previous_q1 else "",
+        "previous_q1_fiscal_year": previous_q1_meta.get("fiscal_year") if isinstance(previous_q1_meta.get("fiscal_year"), int) else None,
+        "period_coverage_status": period_coverage_status,
+        "missing_comparison_periods": missing_comparison_periods,
+        "revenue": _round(revenue),
+        "revenue_absolute": _round(revenue_absolute),
+        "revenue_growth_pct": _round(revenue_growth),
+        "net_income": _round(net_income),
+        "net_income_absolute": _round(net_income_absolute),
+        "net_income_growth_pct": None if turned_profitable else _round(net_income_growth),
+        "turned_profitable": turned_profitable,
+        "gross_margin_pct": _round(gross_margin),
+        "net_margin_pct": _round(net_margin),
+        "ocf_to_net_income_pct": _round(ocf_to_ni),
+        "receivables_to_revenue_pct": _round(receivables_to_revenue),
+        "inventory_to_revenue_pct": _round(inventory_to_revenue),
+        "debt_to_assets_pct": _round(debt_to_assets),
+        "rd_to_revenue_pct": _round(rd_to_revenue),
+        "regular_market_price": _round(regular_market_price),
+        "total_shares": _round(total_shares),
+        "total_market_cap": _round(total_market_cap),
+        "float_market_cap": _round(float_market_cap),
+        "financial_currency": financial_currency,
+        "financial_statement_unit": statement_unit,
+        "financial_unit_multiplier": _round(unit_multiplier, 0),
+        "valuation_currency": valuation_currency,
+        "valuation_currency_match": valuation_currency_match,
+        "valuation_source_basis": str(valuation_payload.get("source_basis") or ""),
+        "share_count_basis": str(valuation_payload.get("share_count_basis") or ""),
+        "market_cap_basis": str(valuation_payload.get("market_cap_basis") or ""),
+        "financial_sector_profile_required": bool(source_usage.get("financial_sector_profile_required")),
+        "financial_sector_profile_status": str(source_usage.get("financial_sector_profile_status") or ""),
+        "financial_sector_profile_fallback": source_usage.get("financial_sector_profile_fallback", {}) if isinstance(source_usage.get("financial_sector_profile_fallback"), Mapping) else {},
+        "structured_supplement_used": bool(source_usage.get("structured_supplement_used")),
+        "structured_supplement_source": str(source_usage.get("structured_supplement_source") or ""),
+        "structured_supplemented_periods": source_usage.get("structured_supplemented_periods", []) if isinstance(source_usage.get("structured_supplemented_periods"), list) else [],
+        "q1_revenue_growth_pct": _round(q1_revenue_growth),
+        "q1_net_income_growth_pct": _round(q1_net_income_growth),
+        "q1_ocf_to_net_income_pct": _round(q1_ocf_to_ni),
+        "research_debt": "；".join(item["next_action"] for item in research_debt_items),
+        "research_debt_items": research_debt_items,
+    }
+
+
+def _data_summary(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    acquisition: Any = manifest.get("data_acquisition") if isinstance(manifest.get("data_acquisition"), Mapping) else {}
+    quality: Any = manifest.get("data_quality") if isinstance(manifest.get("data_quality"), Mapping) else {}
+    statuses: Any = acquisition.get("status_by_dataset") if isinstance(acquisition.get("status_by_dataset"), Mapping) else {}
+    def count_field(count_key: str, list_key: str) -> int:
+        items: Any = acquisition.get(list_key)
+        item_count: Any = len(items) if isinstance(items, list) else 0
+        value: Any = acquisition.get(count_key)
+        if value is not None:
+            try:
+                return max(int(value), item_count)
+            except Exception:
+                pass
+        return item_count
+
+    return {
+        "symbol": _symbol(manifest),
+        "market": _market(manifest),
+        "status_by_dataset": dict(statuses),
+        "rating_cap": str(quality.get("rating_cap") or quality.get("full_research_rating_cap") or "OBSERVE_ONLY"),
+        "attempt_count": count_field("attempt_count", "attempt_ledger"),
+        "gap_count": count_field("gap_count", "data_gaps"),
+        "research_debt_count": count_field("research_debt_count", "research_debt"),
+        "manual_task_count": count_field("manual_task_count", "manual_retrieval_tasks"),
+        "full_research_ready": bool(acquisition.get("full_research_ready")),
+    }
+
+
+def _data_readiness_score(summary: Mapping[str, Any]) -> float:
+    statuses: Any = summary.get("status_by_dataset") if isinstance(summary.get("status_by_dataset"), Mapping) else {}
+    if not statuses:
+        return 25.0
+    weights: Any = {
+        "current_quote": 0.18,
+        "price_history_adjusted": 0.22,
+        "financials": 0.26,
+        "filings_announcements": 0.22,
+        "valuation_inputs": 0.12,
+    }
+    return sum(STATUS_SCORE.get(str(statuses.get(key) or "NOT_REQUESTED"), 25.0) * weight for key, weight in weights.items())
+
+
+def _technical_summary(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    price_path: Any = _path_from_result(manifest, _result_for_dataset(manifest, "price_history_adjusted"))
+    quote_path: Any = _path_from_result(manifest, _result_for_dataset(manifest, "current_quote"))
+    if not price_path:
+        return {
+            "symbol": _symbol(manifest),
+            "status": "DATA_GATED",
+            "trend_state": "DATA_GATED",
+            "chan_action": "DATA_REQUIRED",
+            "buy_point_claim_allowed": False,
+            "decision_note": "Adjusted price history is missing from the manifest.",
+            "readiness_score": 25.0,
+            "metrics": {"bars": 0},
+        }
+    result: Any = analyze_price_csv(price_path, quote_path)
+    result["symbol"] = _symbol(manifest)
+    return result
+
+
+def _capital_summary(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    filings: Any = _load_result_json(manifest, "filings_announcements")
+    if _market(manifest) != "CN_A" or filings is None:
+        return {
+            "symbol": _symbol(manifest),
+            "summary": {
+                "action_count": 0,
+                "material_action_count": 0,
+                "material_risk_level": "none",
+                "action_types": [],
+                "has_dilution_event": False,
+            },
+            "actions": [],
+            "research_debt": [],
+        }
+    result: Any = analyze_announcements(filings)
+    result["symbol"] = _symbol(manifest)
+    return result
+
+
+def _customer_evidence_summary(manifest: Mapping[str, Any]) -> dict[str, Any]:
+    symbol: str = _symbol(manifest)
+    status: str = _dataset_status(manifest, CUSTOMER_EVIDENCE_DATASET)
+    payload: Any = _load_result_json(manifest, CUSTOMER_EVIDENCE_DATASET)
+    if not isinstance(payload, Mapping):
+        return {
+            "symbol": symbol,
+            "status": status,
+            "evidence_status": "NOT_AVAILABLE",
+            "score": 25.0 if status in {"FAILED", "PENDING"} else 35.0,
+            "direct_evidence_count": 0,
+            "lead_evidence_count": 0,
+            "review_queue_count": 0,
+            "loaded_record_count": 0,
+            "source_name": "",
+            "source_level": "",
+            "top_evidence_refs": [],
+            "required_next_evidence": "获取客户、订单、中标、产能、投资者关系或收入传导披露后，再升级产业链证据。",
+        }
+    summary: Mapping[str, Any] = payload.get("summary") if isinstance(payload.get("summary"), Mapping) else {}
+    evidence_items: list[Any] = payload.get("evidence_items") if isinstance(payload.get("evidence_items"), list) else []
+    required_items: list[Any] = payload.get("required_next_evidence") if isinstance(payload.get("required_next_evidence"), list) else []
+    direct_count: int = int(_as_float(summary.get("direct_evidence_count")) or 0)
+    lead_count: int = int(_as_float(summary.get("lead_evidence_count")) or 0)
+    review_count: int = int(_as_float(summary.get("review_queue_count")) or 0)
+    loaded_count: int = int(_as_float(summary.get("loaded_record_count")) or 0)
+    evidence_status: str = str(summary.get("evidence_status") or "UNKNOWN")
+    score: float = _as_float(summary.get("score")) or 35.0
+    if status in {"FAILED", "PENDING"}:
+        score = min(score, 25.0)
+    elif status in {"PARTIAL", "STALE"}:
+        score = min(score, 55.0)
+    refs: list[str] = []
+    for item in evidence_items[:5]:
+        if not isinstance(item, Mapping):
+            continue
+        ref: str = str(item.get("source_ref") or item.get("title") or "")
+        if ref:
+            refs.append(ref)
+    next_evidence: str = "；".join(str(item) for item in required_items if item) or "补充客户、订单、产能或分部收入传导证据。"
+    return {
+        "symbol": symbol,
+        "status": status,
+        "evidence_status": evidence_status,
+        "score": _round(score),
+        "direct_evidence_count": direct_count,
+        "lead_evidence_count": lead_count,
+        "review_queue_count": review_count,
+        "loaded_record_count": loaded_count,
+        "source_name": str(payload.get("source_name") or ""),
+        "source_level": str(payload.get("source_level") or ""),
+        "top_evidence_refs": refs,
+        "required_next_evidence": next_evidence,
+    }
+
+
+def _profile_from_overlay(
+    symbol: str,
+    overlay: Mapping[str, Any],
+    evidence_context: Optional[Mapping[str, str]] = None,
+) -> dict[str, Any]:
+    if not isinstance(overlay, Mapping):
+        raise ValueError(f"{symbol} overlay must be a JSON object")
+    validated: Any = validate_overlay(overlay, evidence_context=evidence_context)["normalized_overlay"]
+    overlay_symbol: Any = str(validated.get("symbol") or "")
+    if overlay_symbol != symbol:
+        raise ValueError(f"overlay assignment {symbol} does not match overlay.symbol {overlay_symbol}")
+    # Only validated overlay fields enter the scoring profile; deterministic
+    # valuation, source status, and market-implied growth remain report-owned.
+    profile: Any = {
+        "layer": validated["layer"],
+        "bottleneck_reason": validated["bottleneck_reason"],
+        "layer_score": validated["layer_score"],
+        "company_fit": validated["company_fit"],
+        "serenity_fit": validated["serenity_fit"],
+        "revenue_transmission": validated["revenue_transmission"],
+        "evidence_gap": "; ".join(validated.get("research_questions", [])) or "AI overlay supplied evidence-backed layer mapping.",
+        "ai_confidence": validated["ai_confidence"],
+        "ai_review_status": "COMPLETED",
+        "key_evidence_refs": validated.get("key_evidence_refs", []),
+        "contrary_evidence": validated.get("contrary_evidence", []),
+        "research_questions": validated.get("research_questions", []),
+    }
+    for key in [
+        "dossier_ref",
+        "evidence_supported_growth",
+        "required_next_evidence",
+        "posterior_basis",
+        "thesis_quality_delta",
+        "evidence_confidence_delta",
+        "risk_adjustment",
+        "action_condition_summary",
+    ]:
+        if key in validated:
+            profile[key] = validated[key]
+    return profile
+
+
+def _profile_from_review_outcome(symbol: str, outcome: Mapping[str, Any]) -> dict[str, Any]:
+    validated: Any = validate_review_outcome(outcome)["normalized_outcome"]
+    outcome_symbol: str = str(validated.get("symbol") or "")
+    if outcome_symbol != symbol:
+        raise ValueError(f"AI review outcome assignment {symbol} does not match outcome.symbol {outcome_symbol}")
+    status: str = str(validated.get("ai_review_status") or "NOT_RUN")
+    reason: str = str(validated.get("reason") or "")
+    required: list[str] = [str(item) for item in validated.get("required_evidence") or []]
+    conflicts: list[str] = [str(item) for item in validated.get("conflicting_fields") or []]
+    questions: list[str] = [str(item) for item in validated.get("research_questions") or []]
+    if not questions:
+        questions = required or conflicts
+    evidence_gap_parts: list[str] = [reason]
+    if required:
+        evidence_gap_parts.append("需补证据：" + "；".join(required))
+    if conflicts:
+        evidence_gap_parts.append("冲突字段：" + "；".join(conflicts))
+    if status == "CONFLICT_WITH_DATA":
+        bottleneck_reason: str = "AI 研究已执行，当前候选结论与确定性数据存在冲突。"
+        revenue_transmission: str = "收入传导结论需要先解决数据冲突后再合并。"
+    elif status == "SKIPPED_QUICK_AUDIT":
+        bottleneck_reason = "本轮为快速审计，未执行完整产业链映射。"
+        revenue_transmission = "快速审计不形成可验证的收入传导结论。"
+    else:
+        bottleneck_reason = "AI 研究已执行，当前证据不足以形成可合并的产业链映射。"
+        revenue_transmission = "AI 研究未形成可验证的收入传导结论。"
+    return {
+        "layer": "VALUE_CHAIN_UNMAPPED",
+        "bottleneck_reason": bottleneck_reason,
+        "layer_score": None,
+        "company_fit": None,
+        "revenue_transmission": revenue_transmission,
+        "evidence_gap": " ".join(part for part in evidence_gap_parts if part),
+        "ai_confidence": "NOT_PROVIDED",
+        "ai_review_status": status if status in AI_REVIEW_STATUSES else "NOT_RUN",
+        "key_evidence_refs": [{"source_ref": str(ref)} for ref in validated.get("source_refs") or []],
+        "contrary_evidence": conflicts,
+        "research_questions": questions,
+    }
+
+
+def _overlay_profiles(
+    manifests: Sequence[Mapping[str, Any]],
+    overlays: Optional[Mapping[str, Mapping[str, Any]]],
+    evidence_contexts: Optional[Mapping[str, Mapping[str, str]]] = None,
+) -> dict[str, dict[str, Any]]:
+    if overlays is None:
+        return {}
+    if not isinstance(overlays, Mapping):
+        raise ValueError("overlays must be a mapping from candidate symbol to overlay JSON object")
+    candidate_symbols: Any = {_symbol(manifest) for manifest in manifests}
+    normalized_overlays: Any = {str(symbol): overlay for symbol, overlay in overlays.items()}
+    overlay_symbols: Any = set(normalized_overlays)
+    unknown: Any = sorted(overlay_symbols - candidate_symbols)
+    if unknown:
+        raise ValueError(f"overlay supplied for non-candidate symbol(s): {', '.join(unknown)}")
+    return {
+        symbol: _profile_from_overlay(
+            symbol,
+            normalized_overlays[symbol],
+            evidence_contexts.get(symbol) if evidence_contexts is not None else None,
+        )
+        for symbol in sorted(overlay_symbols)
+    }
+
+
+def _review_outcome_profiles(
+    manifests: Sequence[Mapping[str, Any]],
+    outcomes: Optional[Mapping[str, Mapping[str, Any]]],
+) -> dict[str, dict[str, Any]]:
+    if outcomes is None:
+        return {}
+    if not isinstance(outcomes, Mapping):
+        raise ValueError("ai_review_outcomes must be a mapping from candidate symbol to AI review outcome JSON object")
+    candidate_symbols: set[str] = {_symbol(manifest) for manifest in manifests}
+    normalized_outcomes: dict[str, Mapping[str, Any]] = {str(symbol): outcome for symbol, outcome in outcomes.items()}
+    outcome_symbols: set[str] = set(normalized_outcomes)
+    unknown: list[str] = sorted(outcome_symbols - candidate_symbols)
+    if unknown:
+        raise ValueError(f"AI review outcome supplied for non-candidate symbol(s): {', '.join(unknown)}")
+    return {
+        symbol: _profile_from_review_outcome(symbol, normalized_outcomes[symbol])
+        for symbol in sorted(outcome_symbols)
+    }
+
+
+def _ai_review_profiles(
+    manifests: Sequence[Mapping[str, Any]],
+    overlays: Optional[Mapping[str, Mapping[str, Any]]],
+    outcomes: Optional[Mapping[str, Mapping[str, Any]]],
+    evidence_contexts: Optional[Mapping[str, Mapping[str, str]]] = None,
+) -> dict[str, dict[str, Any]]:
+    overlay_profiles: dict[str, dict[str, Any]] = _overlay_profiles(manifests, overlays, evidence_contexts)
+    outcome_profiles: dict[str, dict[str, Any]] = _review_outcome_profiles(manifests, outcomes)
+    overlap: list[str] = sorted(set(overlay_profiles) & set(outcome_profiles))
+    if overlap:
+        raise ValueError(f"candidate(s) cannot have both AI overlay and AI review outcome: {', '.join(overlap)}")
+    return {**overlay_profiles, **outcome_profiles}
+
+
+def _ai_research_dossier_profiles(
+    manifests: Sequence[Mapping[str, Any]],
+    dossiers: Optional[Mapping[str, Mapping[str, Any]]],
+    evidence_contexts: Optional[Mapping[str, Mapping[str, str]]] = None,
+) -> dict[str, dict[str, Any]]:
+    if dossiers is None:
+        return {}
+    if not isinstance(dossiers, Mapping):
+        raise ValueError("ai_research_dossiers must be a mapping from candidate symbol to dossier JSON object")
+    candidate_symbols: set[str] = {_symbol(manifest) for manifest in manifests}
+    normalized_dossiers: dict[str, Mapping[str, Any]] = {str(symbol): dossier for symbol, dossier in dossiers.items()}
+    dossier_symbols: set[str] = set(normalized_dossiers)
+    unknown: list[str] = sorted(dossier_symbols - candidate_symbols)
+    if unknown:
+        raise ValueError(f"AI research dossier supplied for non-candidate symbol(s): {', '.join(unknown)}")
+    result: dict[str, dict[str, Any]] = {}
+    for symbol in sorted(dossier_symbols):
+        validated: Mapping[str, Any] = validate_dossier(
+            normalized_dossiers[symbol],
+            evidence_context=evidence_contexts.get(symbol) if evidence_contexts is not None else None,
+        )["normalized_dossier"]
+        dossier_score: dict[str, Any] = score_dossier(
+            validated,
+            evidence_context=evidence_contexts.get(symbol) if evidence_contexts is not None else None,
+        )
+        dossier_symbol: str = str(validated.get("symbol") or "")
+        if dossier_symbol != symbol:
+            raise ValueError(f"AI research dossier assignment {symbol} does not match dossier.symbol {dossier_symbol}")
+        enriched: dict[str, Any] = dict(validated)
+        enriched["_dossier_quality_score"] = dossier_score
+        result[symbol] = enriched
+    return result
+
+
+def _enrich_profile_from_dossier(profile: Mapping[str, Any], dossier: Optional[Mapping[str, Any]]) -> dict[str, Any]:
+    enriched: dict[str, Any] = dict(profile)
+    if not isinstance(dossier, Mapping):
+        return enriched
+    projection: Mapping[str, Any] = dossier.get("overlay_projection") if isinstance(dossier.get("overlay_projection"), Mapping) else {}
+    for key in [
+        "thesis_quality_delta",
+        "evidence_confidence_delta",
+        "risk_adjustment",
+        "action_condition_summary",
+    ]:
+        current_value: Any = enriched.get(key)
+        if (key not in enriched or current_value is None or current_value == "") and key in projection:
+            enriched[key] = projection[key]
+    if "dossier_ref" not in enriched:
+        enriched["dossier_ref"] = f"ai_research_dossier:{dossier.get('symbol', '')}"
+    return enriched
+
+
+def _ai_research_dossier_row(symbol: str, dossier: Optional[Mapping[str, Any]]) -> dict[str, Any]:
+    if not isinstance(dossier, Mapping):
+        return {
+            "symbol": symbol,
+            "dossier_status": "NOT_PROVIDED",
+            "dossier_merged": False,
+            "source_read_count": 0,
+            "observed_count": 0,
+            "inferred_count": 0,
+            "judgment_count": 0,
+            "hypothesis_count": 0,
+            "evidence_test_count": 0,
+            "unresolved_question_count": 0,
+            "claim_count": 0,
+            "supported_claim_count": 0,
+            "causal_step_count": 0,
+            "scenario_count": 0,
+            "trigger_count": 0,
+            "action_condition_count": 0,
+            "thesis_quality_delta": None,
+            "evidence_confidence_delta": None,
+            "risk_adjustment": None,
+            "confidence_dampers": [],
+            "action_condition_summary": "",
+            "dossier_ref": "",
+            "quality_score": None,
+            "quality_band": "",
+            "quality_delivery_allowed": False,
+            "quality_blocking_issues": [],
+            "quality_cap_reasons": [],
+        }
+    claims: list[Any] = dossier.get("claim_graph", []) if isinstance(dossier.get("claim_graph"), list) else []
+    supported_claims: int = sum(
+        1
+        for item in claims
+        if isinstance(item, Mapping) and str(item.get("status") or "") in {"SUPPORTED", "PARTIAL"}
+    )
+    projection: Mapping[str, Any] = dossier.get("overlay_projection") if isinstance(dossier.get("overlay_projection"), Mapping) else {}
+    action_conditions: Mapping[str, Any] = dossier.get("action_conditions") if isinstance(dossier.get("action_conditions"), Mapping) else {}
+    trigger_table: Mapping[str, Any] = dossier.get("trigger_table") if isinstance(dossier.get("trigger_table"), Mapping) else {}
+    research_path: Mapping[str, Any] = dossier.get("research_path") if isinstance(dossier.get("research_path"), Mapping) else {}
+    quality: Mapping[str, Any] = dossier.get("_dossier_quality_score") if isinstance(dossier.get("_dossier_quality_score"), Mapping) else {}
+    return {
+        "symbol": symbol,
+        "dossier_status": str(dossier.get("research_status") or ""),
+        "dossier_merged": True,
+        "source_read_count": len(dossier.get("source_reading_log", [])) if isinstance(dossier.get("source_reading_log"), list) else 0,
+        "observed_count": len(dossier.get("observed", [])) if isinstance(dossier.get("observed"), list) else 0,
+        "inferred_count": len(dossier.get("inferred", [])) if isinstance(dossier.get("inferred"), list) else 0,
+        "judgment_count": len(dossier.get("judgment", [])) if isinstance(dossier.get("judgment"), list) else 0,
+        "hypothesis_count": len(research_path.get("hypotheses", [])) if isinstance(research_path.get("hypotheses"), list) else 0,
+        "evidence_test_count": len(research_path.get("evidence_tests", [])) if isinstance(research_path.get("evidence_tests"), list) else 0,
+        "unresolved_question_count": len(research_path.get("unresolved_questions", [])) if isinstance(research_path.get("unresolved_questions"), list) else 0,
+        "claim_count": len(claims),
+        "supported_claim_count": supported_claims,
+        "causal_step_count": len(dossier.get("causal_chain", [])) if isinstance(dossier.get("causal_chain"), list) else 0,
+        "scenario_count": len(dossier.get("scenario_view", {})) if isinstance(dossier.get("scenario_view"), Mapping) else 0,
+        "trigger_count": sum(len(value) for value in trigger_table.values() if isinstance(value, list)),
+        "action_condition_count": sum(len(value) for value in action_conditions.values() if isinstance(value, list)),
+        "thesis_quality_delta": _round(_as_float(projection.get("thesis_quality_delta"))),
+        "evidence_confidence_delta": _round(_as_float(projection.get("evidence_confidence_delta"))),
+        "risk_adjustment": _round(_as_float(projection.get("risk_adjustment"))),
+        "confidence_dampers": dossier.get("confidence_dampers", []) if isinstance(dossier.get("confidence_dampers"), list) else [],
+        "action_condition_summary": str(projection.get("action_condition_summary") or ""),
+        "dossier_ref": f"ai_research_dossier:{symbol}",
+        "quality_score": _round(_as_float(quality.get("score"))),
+        "quality_band": str(quality.get("quality_band") or ""),
+        "quality_delivery_allowed": bool(quality.get("delivery_allowed")),
+        "quality_blocking_issues": quality.get("blocking_issues", []) if isinstance(quality.get("blocking_issues"), list) else [],
+        "quality_cap_reasons": quality.get("cap_reasons", []) if isinstance(quality.get("cap_reasons"), list) else [],
+    }
+
+
+def _serenity_layer(manifest: Mapping[str, Any], profile: Optional[Mapping[str, Any]] = None) -> dict[str, Any]:
+    profile = profile or {}
+    ai_review_status: str = str(profile.get("ai_review_status") or "NOT_RUN")
+    layer: Any = str(profile.get("layer") or "VALUE_CHAIN_UNMAPPED")
+    serenity_fit: Any = _as_float(profile.get("serenity_fit"))
+    layer_score: Any = _as_float(profile.get("layer_score"))
+    company_fit: Any = _as_float(profile.get("company_fit"))
+    if layer_score is None and serenity_fit is not None:
+        layer_score = serenity_fit * 100.0 if serenity_fit <= 1.0 else serenity_fit
+    if company_fit is None and serenity_fit is not None:
+        company_fit = serenity_fit * 100.0 if serenity_fit <= 1.0 else serenity_fit
+    return {
+        "symbol": _symbol(manifest),
+        "layer": layer,
+        "bottleneck_reason": str(profile.get("bottleneck_reason") or "在正式评级前，需要把公司映射到具体价值链瓶颈。"),
+        "layer_score": _round(layer_score),
+        "company_fit": _round(company_fit),
+        "revenue_transmission": str(profile.get("revenue_transmission") or "需要用公告、财报或公司披露把产品/客户映射到财务行项目。"),
+        "evidence_gap": str(profile.get("evidence_gap") or "AI 研究尚未执行；必须生成、校验并合并 ai_research_overlay 后才能完成产业链映射。"),
+        "ai_confidence": str(profile.get("ai_confidence") or "NOT_PROVIDED"),
+        "ai_review_status": ai_review_status if ai_review_status in AI_REVIEW_STATUSES else "NOT_RUN",
+        "key_evidence_refs": profile.get("key_evidence_refs", []) if isinstance(profile.get("key_evidence_refs", []), list) else [],
+        "contrary_evidence": profile.get("contrary_evidence", []) if isinstance(profile.get("contrary_evidence", []), list) else [],
+        "research_questions": profile.get("research_questions", []) if isinstance(profile.get("research_questions", []), list) else [],
+        "dossier_ref": str(profile.get("dossier_ref") or ""),
+        "thesis_quality_delta": _round(_as_float(profile.get("thesis_quality_delta"))),
+        "evidence_confidence_delta": _round(_as_float(profile.get("evidence_confidence_delta"))),
+        "risk_adjustment": _round(_as_float(profile.get("risk_adjustment"))),
+        "action_condition_summary": str(profile.get("action_condition_summary") or ""),
+    }
+
+
+def _ai_review_status_row(layer: Mapping[str, Any]) -> dict[str, Any]:
+    status: str = str(layer.get("ai_review_status") or "NOT_RUN")
+    if status not in AI_REVIEW_STATUSES:
+        status = "NOT_RUN"
+    completed: bool = status == "COMPLETED"
+    evidence_refs: Any = layer.get("key_evidence_refs", [])
+    questions: Any = layer.get("research_questions", [])
+    return {
+        "symbol": str(layer.get("symbol") or ""),
+        "ai_review_status": status,
+        "overlay_merged": completed,
+        "layer_mapped": completed and str(layer.get("layer") or "") not in {"", "VALUE_CHAIN_UNMAPPED"},
+        "evidence_ref_count": len(evidence_refs) if isinstance(evidence_refs, list) else 0,
+        "research_question_count": len(questions) if isinstance(questions, list) else 0,
+        "blocking_reason": "" if completed else str(layer.get("evidence_gap") or "AI overlay has not been generated and merged."),
+    }
+
+
+def _report_readiness(ai_review_rows: Sequence[Mapping[str, Any]], ai_dossier_rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    statuses: list[str] = [str(row.get("ai_review_status") or "") for row in ai_review_rows]
+    blocking_statuses: list[str] = sorted({status for status in statuses if status not in FORMAL_AI_STATUSES})
+    quality_blocked: list[str] = [
+        str(row.get("symbol") or "")
+        for row in ai_dossier_rows
+        if str(row.get("dossier_status") or "") != "NOT_PROVIDED" and row.get("quality_delivery_allowed") is not True
+    ]
+    if quality_blocked and "AI_DOSSIER_QUALITY_BLOCKED" not in blocking_statuses:
+        blocking_statuses.append("AI_DOSSIER_QUALITY_BLOCKED")
+        blocking_statuses = sorted(blocking_statuses)
+    if not statuses or "NOT_RUN" in blocking_statuses:
+        return {
+            "stage": "INTERNAL_BASELINE",
+            "delivery_allowed": False,
+            "blocking_statuses": blocking_statuses,
+            "next_phase": "execute_agent_research",
+            "reason": "AI research results are required before formal report delivery.",
+        }
+    if "SKIPPED_QUICK_AUDIT" in blocking_statuses:
+        return {
+            "stage": "DIAGNOSTIC_ONLY",
+            "delivery_allowed": False,
+            "blocking_statuses": blocking_statuses,
+            "next_phase": "deliver",
+            "reason": "Quick-audit AI outcome is not a formal research result.",
+        }
+    if "AI_DOSSIER_QUALITY_BLOCKED" in blocking_statuses:
+        return {
+            "stage": "INTERNAL_BASELINE",
+            "delivery_allowed": False,
+            "blocking_statuses": blocking_statuses,
+            "next_phase": "execute_agent_research",
+            "reason": "AI research dossier quality score must pass before formal report delivery.",
+        }
+    return {
+        "stage": "FINAL_REPORT_READY",
+        "delivery_allowed": True,
+        "blocking_statuses": [],
+        "next_phase": "build_strategy_input",
+        "reason": "Every candidate has a validated AI overlay or validated AI outcome.",
+    }
+
+
+def _layer_family(layer: str) -> str:
+    text: str = layer.lower()
+    if not text or text == "value_chain_unmapped":
+        return "unmapped"
+    if any(token in text for token in ["gpu", "accelerator", "cuda", "compute", "data center"]):
+        return "ai_compute"
+    if any(token in text for token in ["cmp", "slurry", "wet", "semicap", "semiconductor-material", "materials"]):
+        return "semicap_materials"
+    if any(token in text for token in ["robot", "vision", "sensing", "module", "embodied"]):
+        return "robotics_vision"
+    if any(token in text for token in ["internet", "gaming", "advertising", "social", "platform"]):
+        return "internet_platform"
+    return "_".join(text.split()[:3])
+
+
+def _candidate_pool_semantic_coherence(candidates: Sequence[Mapping[str, Any]], layer_rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    markets: set[str] = {str(candidate.get("market") or "") for candidate in candidates if str(candidate.get("market") or "")}
+    reviewed_layers: list[str] = [
+        str(row.get("layer") or "")
+        for row in layer_rows
+        if str(row.get("ai_review_status") or "") == "COMPLETED"
+    ]
+    if len(reviewed_layers) != len(candidates):
+        return {
+            "status": "UNREVIEWED",
+            "reason": "候选池语义一致性需要在所有候选完成可合并产业层级映射后判断。",
+            "market_count": len(markets),
+            "layer_families": [],
+            "decision_constraint": "COMPLETE_LAYER_MAPPING_REQUIRED",
+        }
+    families: set[str] = {_layer_family(layer) for layer in reviewed_layers}
+    families.discard("unmapped")
+    if len(families) <= 1:
+        status: str = "SAME_LAYER"
+        constraint: str = "NONE"
+        reason: str = "候选公司处于同一主要产业层级，可作为同池候选比较。"
+    elif len(markets) > 1 and len(families) > 1:
+        status = "CROSS_THEME_DIAGNOSTIC"
+        constraint = "NO_FORMAL_DECISION_OBJECT"
+        reason = "候选池横跨市场和产业层级，只能作为诊断/研究优先级集合，不能视为同池投资排序。"
+    else:
+        status = "SAME_THEME_DIFFERENT_LAYERS"
+        constraint = "RESEARCH_PRIORITY_ONLY"
+        reason = "候选公司不在同一细分层级，排序应解释为主题内研究优先级。"
+    return {
+        "status": status,
+        "reason": reason,
+        "market_count": len(markets),
+        "layer_families": sorted(families),
+        "decision_constraint": constraint,
+    }
+
+
+def _growth_level_from_valuation(pe: Optional[float], ps: Optional[float]) -> str:
+    if pe is None and ps is None:
+        return "UNKNOWN"
+    pe_value: Any = pe if pe is not None and pe > 0 else None
+    ps_value: Any = ps if ps is not None and ps > 0 else None
+    if (pe_value is not None and pe_value >= 120) or (ps_value is not None and ps_value >= 35):
+        return "H5"
+    if (pe_value is not None and pe_value >= 60) or (ps_value is not None and ps_value >= 18):
+        return "H4"
+    if (pe_value is not None and pe_value >= 35) or (ps_value is not None and ps_value >= 10):
+        return "H3"
+    if (pe_value is not None and pe_value >= 20) or (ps_value is not None and ps_value >= 5):
+        return "H2"
+    return "H1"
+
+
+def _growth_hypothesis(
+    manifest: Mapping[str, Any],
+    financial: Mapping[str, Any],
+    profile: Optional[Mapping[str, Any]] = None,
+    currency_normalization: Optional[Mapping[str, Any]] = None,
+) -> dict[str, Any]:
+    profile = profile or {}
+    score: Any = _as_float(financial.get("score")) or 0.0
+    if score >= 76:
+        supported: Any = "H3"
+    elif score >= 62:
+        supported = "H2"
+    elif score >= 48:
+        supported = "H1"
+    elif financial.get("status") == "OK":
+        supported = "H0"
+    else:
+        supported = "UNKNOWN"
+    supported = str(profile.get("evidence_supported_growth") or supported)
+    quote: Any = _load_result_json(manifest, "current_quote")
+    valuation_payload: Any = _valuation_payload(manifest)
+    valuation_row: Any = _valuation_input_row(manifest)
+    price: Any = _as_float(quote.get("regular_market_price")) if isinstance(quote, Mapping) else None
+    total_shares: Any = _as_float(valuation_payload.get("total_shares"))
+    revenue: Any = _as_float(financial.get("revenue_absolute"))
+    if revenue is None:
+        revenue = _as_float(financial.get("revenue"))
+    net_income: Any = _as_float(financial.get("net_income_absolute"))
+    if net_income is None:
+        net_income = _as_float(financial.get("net_income"))
+    market_cap: Any = _as_float(valuation_payload.get("total_market_cap"))
+    if valuation_payload and market_cap is None and price is not None and total_shares is not None:
+        market_cap = price * total_shares
+    financial_currency: Any = _currency_code(financial.get("financial_currency"))
+    valuation_currency: Any = _currency_code(financial.get("valuation_currency") or valuation_payload.get("currency"))
+    valuation_input_ready: bool = bool(valuation_payload) and market_cap is not None
+    currency_ready: bool = bool(financial_currency and valuation_currency)
+    currency_mismatch: bool = bool(currency_ready and financial_currency != valuation_currency)
+    normalization_status: str = str((currency_normalization or {}).get("normalization_status") or "")
+    normalized_market_cap: Optional[float] = _as_float((currency_normalization or {}).get("normalized_total_market_cap"))
+    original_market_cap: Optional[float] = _as_float((currency_normalization or {}).get("original_total_market_cap")) or _as_float(market_cap)
+    fx_rate: Optional[float] = _as_float((currency_normalization or {}).get("fx_rate"))
+    if currency_mismatch and normalization_status == "OK" and normalized_market_cap is not None:
+        market_cap = normalized_market_cap
+        valuation_currency = financial_currency
+        currency_mismatch = False
+        currency_ready = True
+    pe: Any = (
+        None
+        if not valuation_input_ready or not currency_ready or currency_mismatch
+        else market_cap / net_income if market_cap is not None and net_income and net_income > 0 else None
+    )
+    ps: Any = (
+        None
+        if not valuation_input_ready or not currency_ready or currency_mismatch
+        else market_cap / revenue if market_cap is not None and revenue and revenue > 0 else None
+    )
+    valuation_can_infer_growth: bool = valuation_input_ready and currency_ready and not currency_mismatch and (pe is not None or ps is not None)
+    market_implied: Any = _growth_level_from_valuation(pe, ps) if valuation_can_infer_growth else "UNKNOWN"
+    gap: Any
+    required: Any
+    if not valuation_input_ready:
+        gap = "valuation_input_required"
+        required = "补齐总股本、总市值、估值倍数和同业/DCF 依据后，才能推断市场隐含增长。"
+    elif not currency_ready:
+        gap = "valuation_currency_reconciliation_required"
+        required = "补齐估值货币和财报货币后，才能计算 PE/PS 和市场隐含增长。"
+    elif currency_mismatch:
+        gap = "valuation_currency_reconciliation_required"
+        required = f"把估值市值从 {valuation_currency} 归一到财报口径 {financial_currency}；若 FX 获取失败，则不能输出市场隐含增长。"
+    elif market_implied == "UNKNOWN":
+        gap = "valuation_input_required"
+        required = "补齐总股本、总市值、估值倍数和同业/DCF 依据后，才能推断市场隐含增长。"
+    else:
+        implied_order: Any = GROWTH_ORDER.get(market_implied, -1)
+        supported_order: Any = GROWTH_ORDER.get(supported, -1)
+        if supported_order >= implied_order and implied_order >= 0:
+            gap = "roughly_matched"
+        elif implied_order >= 4 and supported_order < implied_order:
+            gap = "market_ahead_of_evidence"
+        else:
+            gap = "requires_ai_review"
+        required = str(profile.get("required_next_evidence") or "用 L0/L1 证据复核股本、分部收入、订单、产能和估值口径。")
+    implied_order = GROWTH_ORDER.get(market_implied, -1)
+    supported_order = GROWTH_ORDER.get(supported, -1)
+    h4_h5_bar_met: bool = implied_order < 4 or supported_order >= implied_order
+    valuation_stage: Any = str(valuation_row.get("valuation_stage") or "unavailable")
+    valuation_confidence: Any = str(valuation_row.get("valuation_confidence") or "blocked")
+    if valuation_can_infer_growth:
+        posterior_basis: Any = f"{valuation_stage} 估值预检来自当前价、总股本、总市值、收入和净利润；PE/PS 仍需 L0/L1 财务与股本口径复核后才能视为正式估值。"
+    elif not valuation_input_ready:
+        posterior_basis = "市场隐含增长在估值输入完整前保持阻断。"
+    elif not currency_ready or currency_mismatch:
+        posterior_basis = "市场隐含增长在完成同币种财务口径前保持阻断。"
+    else:
+        posterior_basis = "市场隐含增长在收入、净利润和估值倍数可计算前保持阻断。"
+    if normalization_status == "OK" and fx_rate is not None:
+        posterior_basis = (
+            f"{posterior_basis} 本轮已按 {currency_normalization.get('fx_rate_direction')}="
+            f"{currency_normalization.get('fx_rate')} 将市值归一到 {financial_currency}。"
+        )
+    return {
+        "symbol": str(financial.get("symbol") or ""),
+        "valuation_input_ref": f"valuation_input_matrix:{financial.get('symbol') or ''}",
+        "market_implied_growth": market_implied,
+        "evidence_supported_growth": supported,
+        "gap": gap,
+        "h4_h5_evidence_bar_met": h4_h5_bar_met,
+        "required_next_evidence": required,
+        "posterior_basis": str(profile.get("posterior_basis") or posterior_basis),
+        "total_market_cap": _round(market_cap),
+        "original_total_market_cap": _round(original_market_cap),
+        "normalized_total_market_cap": _round(normalized_market_cap),
+        "total_shares": _round(total_shares),
+        "revenue_amount": _round(revenue),
+        "net_income_amount": _round(net_income),
+        "financial_statement_unit": str(financial.get("financial_statement_unit") or ""),
+        "financial_unit_multiplier": financial.get("financial_unit_multiplier"),
+        "financial_currency": financial_currency,
+        "valuation_currency": valuation_currency,
+        "valuation_currency_match": not currency_mismatch if currency_ready else None,
+        "currency_normalization_status": normalization_status,
+        "fx_rate": _round(fx_rate, 6),
+        "pe_preflight": _round(pe),
+        "ps_preflight": _round(ps),
+        "valuation_stage": valuation_stage,
+        "valuation_confidence": valuation_confidence,
+        "valuation_basis": str(
+            valuation_payload.get("market_cap_basis")
+            or valuation_payload.get("share_count_basis")
+            or ""
+        ),
+    }
+
+
+def _research_debt_rows(
+    manifest: Mapping[str, Any],
+    capital: Mapping[str, Any],
+    capital_quantification: Mapping[str, Any],
+    customer_evidence: Mapping[str, Any],
+    financial: Mapping[str, Any],
+    technical: Mapping[str, Any],
+    layer: Mapping[str, Any],
+    growth: Mapping[str, Any],
+) -> list[dict[str, Any]]:
+    symbol: Any = _symbol(manifest)
+    rows: list[dict[str, Any]] = []
+    acquisition: Any = manifest.get("data_acquisition") if isinstance(manifest.get("data_acquisition"), Mapping) else {}
+    for item in acquisition.get("research_debt", []) if isinstance(acquisition.get("research_debt"), list) else []:
+        if isinstance(item, Mapping):
+            rows.append({"symbol": symbol, **dict(item)})
+    for task in acquisition.get("manual_retrieval_tasks", []) if isinstance(acquisition.get("manual_retrieval_tasks"), list) else []:
+        if isinstance(task, Mapping):
+            rows.append({"symbol": symbol, "task_type": "manual_retrieval", **dict(task)})
+    for item in capital.get("research_debt", []) if isinstance(capital.get("research_debt"), list) else []:
+        rows.append({"symbol": symbol, "dataset": "capital_actions", "priority": "high", "next_action": str(item)})
+    for item in capital_quantification.get("research_debt", []) if isinstance(capital_quantification.get("research_debt"), list) else []:
+        rows.append({"symbol": symbol, "dataset": "capital_action_quantification", "priority": "high", "next_action": str(item)})
+    customer_status: str = str(customer_evidence.get("evidence_status") or "")
+    if customer_status not in {"DIRECT_EVIDENCE_FOUND"}:
+        implied_order: int = GROWTH_ORDER.get(str(growth.get("market_implied_growth") or "UNKNOWN"), -1)
+        supported_order: int = GROWTH_ORDER.get(str(growth.get("evidence_supported_growth") or "UNKNOWN"), -1)
+        dataset_status: str = str(customer_evidence.get("status") or "")
+        acquisition_missing: bool = dataset_status in {"FAILED", "PENDING", "NOT_REQUESTED"}
+        priority: str = "high" if acquisition_missing or (implied_order >= 4 and supported_order < implied_order) else "medium"
+        if dataset_status == "NOT_REQUESTED":
+            gap_type: str = "SCOPE_NOT_REQUESTED"
+        elif dataset_status in {"FAILED", "PENDING"}:
+            gap_type = "ACCESS_FAILURE"
+        else:
+            gap_type = "EVIDENCE_DEPTH_LIMIT"
+        rows.append({
+            "symbol": symbol,
+            "dataset": CUSTOMER_EVIDENCE_DATASET,
+            "priority": priority,
+            "status": dataset_status,
+            "gap_type": gap_type,
+            "decision_impact": "RESEARCH_IMPACT",
+            "next_action": str(customer_evidence.get("required_next_evidence") or "补齐客户、订单、产能或收入传导证据。"),
+            "evidence_status": customer_status,
+            "direct_evidence_count": customer_evidence.get("direct_evidence_count"),
+            "lead_evidence_count": customer_evidence.get("lead_evidence_count"),
+        })
+    financial_debt_items: Any = financial.get("research_debt_items")
+    if isinstance(financial_debt_items, list) and financial_debt_items:
+        for item in financial_debt_items:
+            if isinstance(item, Mapping):
+                rows.append({
+                    "symbol": symbol,
+                    "dataset": "financials",
+                    "priority": str(item.get("priority") or "high"),
+                    "next_action": str(item.get("next_action") or ""),
+                })
+    elif financial.get("research_debt"):
+        rows.append({"symbol": symbol, "dataset": "financials", "priority": "critical", "next_action": str(financial.get("research_debt"))})
+    valuation_row: Mapping[str, Any] = _valuation_input_row(manifest)
+    if valuation_row.get("verification_needed"):
+        rows.append({
+            "symbol": symbol,
+            "dataset": "valuation_inputs",
+            "priority": "high",
+            "next_action": "用 L0/L1 股本变动、定期报告或交易所口径复核总股本、市值和每股估值基数。",
+            "valuation_stage": str(valuation_row.get("valuation_stage") or ""),
+            "source_basis": str(valuation_row.get("source_basis") or ""),
+        })
+    if technical.get("status") == "DATA_GATED" or technical.get("chan_action") == "DATA_REQUIRED":
+        rows.append({
+            "symbol": symbol,
+            "dataset": "price_history_adjusted",
+            "priority": "high",
+            "next_action": "补齐足够长度的复权日线历史后，才能输出缠论时机或买点判断。",
+        })
+    if layer.get("ai_review_status") != "COMPLETED":
+        rows.append({"symbol": symbol, "dataset": "serenity_layer", "priority": "high", "next_action": str(layer.get("evidence_gap"))})
+    if growth.get("gap") == "valuation_currency_reconciliation_required":
+        rows.append({"symbol": symbol, "dataset": "valuation_currency", "priority": "high", "next_action": str(growth.get("required_next_evidence"))})
+    elif growth.get("market_implied_growth") == "UNKNOWN":
+        rows.append({"symbol": symbol, "dataset": "valuation", "priority": "high", "next_action": str(growth.get("required_next_evidence"))})
+    elif growth.get("h4_h5_evidence_bar_met") is False or growth.get("gap") == "market_ahead_of_evidence":
+        rows.append({
+            "symbol": symbol,
+            "dataset": "valuation_growth",
+            "priority": "high",
+            "next_action": str(growth.get("required_next_evidence")),
+            "gap": str(growth.get("gap")),
+            "market_implied_growth": str(growth.get("market_implied_growth")),
+            "evidence_supported_growth": str(growth.get("evidence_supported_growth")),
+        })
+    deduped: list[dict[str, Any]] = []
+    seen: set[tuple[str, str, str]] = set()
+    for row in rows:
+        key: Any = (str(row.get("symbol")), str(row.get("dataset")), str(row.get("next_action") or row.get("objective")))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(row)
+    return deduped
+
+
+def _research_debt_from_consumption(consumption_rows: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for row in consumption_rows:
+        if row.get("consumption_status") != "MISMATCH":
+            continue
+        dataset: Any = str(row.get("dataset") or "data_consumption")
+        warnings: Any = row.get("warnings", [])
+        rows.append({
+            "symbol": str(row.get("symbol") or ""),
+            "dataset": dataset,
+            "priority": "critical",
+            "gap_type": "CONFLICTING_SOURCES",
+            "decision_impact": "EVIDENCE_IMPACT" if dataset == "financials" else "VALUATION_IMPACT",
+            "next_action": "; ".join(str(item) for item in warnings if item) or "先修复下游数据消费错配，再使用候选排序。",
+        })
+    return rows
+
+
+def _stronger_gate_class(current: str, candidate: str) -> str:
+    current_value: str = current if current in GATE_CLASS_STRENGTH else "NONE"
+    candidate_value: str = candidate if candidate in GATE_CLASS_STRENGTH else "NONE"
+    if GATE_CLASS_STRENGTH[candidate_value] > GATE_CLASS_STRENGTH[current_value]:
+        return candidate_value
+    return current_value
+
+
+def _valuation_inputs_debt_gate_class(row: Mapping[str, Any]) -> str:
+    gap_type: str = str(row.get("gap_type") or "")
+    status: str = str(row.get("status") or "")
+    valuation_stage: str = str(row.get("valuation_stage") or "")
+    source_basis: str = str(row.get("source_basis") or "")
+    next_action: str = str(row.get("next_action") or row.get("objective") or "").lower()
+
+    if gap_type in DATA_ACQUISITION_GAP_TYPES or status in {"FAILED", "PENDING", "STALE", "NOT_REQUESTED"}:
+        return "DATA_ACQUISITION"
+    if gap_type in EVIDENCE_VALIDATION_GAP_TYPES:
+        return "EVIDENCE_VALIDATION"
+    if valuation_stage or source_basis:
+        return "EVIDENCE_VALIDATION"
+    if any(token in next_action for token in ("fetch", "add total", "补齐", "获取", "抓取")):
+        return "DATA_ACQUISITION"
+    return "EVIDENCE_VALIDATION"
+
+
+def _debt_row_gate_class(row: Mapping[str, Any]) -> str:
+    dataset: str = str(row.get("dataset") or row.get("task_type") or "unknown")
+    gap_type: str = str(row.get("gap_type") or "")
+    status: str = str(row.get("status") or "")
+    if dataset in {"current_quote", "price_history_adjusted"}:
+        return "DATA_ACQUISITION"
+    if dataset in {"financials", "filings_announcements"}:
+        return "EVIDENCE_VALIDATION"
+    if dataset == "valuation_inputs":
+        return _valuation_inputs_debt_gate_class(row)
+    if dataset in {"valuation", "valuation_currency", "share_capital", "peer_valuation", "consensus_estimates"}:
+        return "EVIDENCE_VALIDATION" if gap_type in EVIDENCE_VALIDATION_GAP_TYPES else "DATA_ACQUISITION"
+    if dataset in VALUATION_RESEARCH_DEBT_DATASETS:
+        return "RESEARCH_VALIDATION"
+    if dataset == CUSTOMER_EVIDENCE_DATASET:
+        if gap_type in DATA_ACQUISITION_GAP_TYPES or status in {"FAILED", "PENDING", "NOT_REQUESTED"}:
+            return "DATA_ACQUISITION"
+        return "EVIDENCE_VALIDATION"
+    if dataset in {"serenity_layer", "capital_actions", "capital_action_quantification"}:
+        return "RESEARCH_VALIDATION"
+    if gap_type in DATA_ACQUISITION_GAP_TYPES:
+        return "DATA_ACQUISITION"
+    if gap_type in EVIDENCE_VALIDATION_GAP_TYPES:
+        return "EVIDENCE_VALIDATION"
+    return "RESEARCH_VALIDATION"
+
+
+def _debt_gate_profile(debt_rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    priorities_by_dataset: dict[str, set[str]] = {}
+    gate_classes_by_dataset: dict[str, str] = {}
+    for row in debt_rows:
+        dataset: Any = str(row.get("dataset") or row.get("task_type") or "unknown")
+        priority: Any = str(row.get("priority") or "").lower()
+        priorities_by_dataset.setdefault(dataset, set()).add(priority)
+        gate_classes_by_dataset[dataset] = _stronger_gate_class(
+            gate_classes_by_dataset.get(dataset, "NONE"),
+            _debt_row_gate_class(row),
+        )
+
+    critical_datasets: Any = {dataset for dataset, priorities in priorities_by_dataset.items() if "critical" in priorities}
+    high_datasets: Any = {dataset for dataset, priorities in priorities_by_dataset.items() if "high" in priorities}
+    blocking_datasets: Any = set(critical_datasets) | (high_datasets & ACTION_BLOCKING_DEBT_DATASETS)
+
+    drag: Any = 0.0
+    if "financials" in critical_datasets:
+        drag += 6.0
+    elif critical_datasets:
+        drag += 5.0
+    valuation_high: Any = high_datasets & {"valuation", "share_capital", "valuation_inputs", "peer_valuation", "consensus_estimates"}
+    if "valuation_growth" in high_datasets:
+        drag += 6.0
+    if valuation_high:
+        drag += 4.0
+    if "serenity_layer" in high_datasets:
+        drag += 4.0
+    if "capital_actions" in high_datasets:
+        drag += 3.0
+    if "capital_action_quantification" in high_datasets:
+        drag += 3.0
+    if CUSTOMER_EVIDENCE_DATASET in high_datasets:
+        drag += 5.0
+    if "current_quote" in high_datasets:
+        drag += 4.0
+    if "price_history_adjusted" in high_datasets:
+        drag += 4.0
+    other_high: Any = high_datasets - {"valuation_growth", "valuation", "share_capital", "valuation_inputs", "peer_valuation", "consensus_estimates", "serenity_layer", "capital_actions", "capital_action_quantification", CUSTOMER_EVIDENCE_DATASET, "current_quote", "price_history_adjusted"}
+    drag += min(4.0, 2.0 * len(other_high))
+
+    return {
+        "critical_datasets": sorted(critical_datasets),
+        "high_datasets": sorted(high_datasets),
+        "blocking_datasets": sorted(blocking_datasets),
+        "dataset_gate_classes": {dataset: gate_classes_by_dataset[dataset] for dataset in sorted(gate_classes_by_dataset)},
+        "debt_drag": min(18.0, drag),
+    }
+
+
+def _ranking_validity(
+    consumption_rows: Sequence[Mapping[str, Any]],
+    debt_rows: Sequence[Mapping[str, Any]],
+) -> dict[str, Any]:
+    validity: dict[str, Any] = ranking_validity_from_consumption(consumption_rows)
+    if validity.get("status") == "INVALID":
+        return validity
+
+    debt_profile: dict[str, Any] = _debt_gate_profile(debt_rows)
+    open_debt_axes: list[str] = sorted(
+        set(debt_profile.get("critical_datasets") or [])
+        | set(debt_profile.get("high_datasets") or [])
+    )
+    if not open_debt_axes:
+        return validity
+
+    partial_axes: list[str] = [str(axis) for axis in validity.get("partial_axes") or []]
+    for dataset in open_debt_axes:
+        axis: str = f"research_debt:{dataset}"
+        if axis not in partial_axes:
+            partial_axes.append(axis)
+
+    reason: str = str(validity.get("reason") or "")
+    if validity.get("status") == "VALID":
+        reason = "排序可用于研究优先级，但仍存在高优先级或关键研究债务。"
+    else:
+        reason = f"{reason} 仍存在高优先级或关键研究债务。".strip()
+    return {
+        "status": "PARTIAL",
+        "reason": reason,
+        "blocked_by": list(validity.get("blocked_by") or []),
+        "partial_axes": partial_axes,
+    }
+
+
+def _apply_candidate_pool_coherence(validity: Mapping[str, Any], coherence: Mapping[str, Any]) -> dict[str, Any]:
+    status: str = str(coherence.get("status") or "")
+    if status not in {"SAME_THEME_DIFFERENT_LAYERS", "CROSS_THEME_DIAGNOSTIC", "UNRELATED_DIAGNOSTIC"}:
+        return dict(validity)
+    partial_axis: str = f"candidate_pool_semantic_coherence:{status}"
+    partial_axes: list[str] = [str(item) for item in validity.get("partial_axes") or []]
+    if partial_axis not in partial_axes:
+        partial_axes.append(partial_axis)
+    reason: str = str(validity.get("reason") or "")
+    coherence_reason: str = str(coherence.get("reason") or "")
+    if str(validity.get("status") or "") == "VALID":
+        reason = coherence_reason
+    elif coherence_reason and coherence_reason not in reason:
+        reason = f"{reason} {coherence_reason}".strip()
+    return {
+        "status": "PARTIAL" if str(validity.get("status") or "") != "INVALID" else "INVALID",
+        "reason": reason,
+        "blocked_by": list(validity.get("blocked_by") or []),
+        "partial_axes": partial_axes,
+    }
+
+
+def _action_gate_profile(
+    technical: Mapping[str, Any],
+    capital: Mapping[str, Any],
+    layer: Mapping[str, Any],
+    growth: Mapping[str, Any],
+    debt_profile: Mapping[str, Any],
+) -> dict[str, Any]:
+    gate_order: Any = [
+        "DATA_GATED",
+        "EVIDENCE_GATED",
+        "VALUATION_GATED",
+        "CAPITAL_ACTION_GATED",
+        "AI_REVIEW_GATED",
+        "BUY_POINT_GATED",
+    ]
+    gates: list[str] = []
+    reasons: list[str] = []
+    blocking_datasets: set[str] = set()
+    gate_classes: dict[str, str] = {}
+    dataset_gate_classes: Mapping[str, Any] = debt_profile.get("dataset_gate_classes", {}) if isinstance(debt_profile.get("dataset_gate_classes"), Mapping) else {}
+
+    def add(gate: str, reason: str, dataset: str = "", gate_class: str = "RESEARCH_VALIDATION") -> None:
+        if gate not in gates:
+            gates.append(gate)
+            gate_classes[gate] = gate_class
+        else:
+            gate_classes[gate] = _stronger_gate_class(gate_classes.get(gate, "NONE"), gate_class)
+        if reason and reason not in reasons:
+            reasons.append(reason)
+        if dataset:
+            blocking_datasets.add(dataset)
+
+    def valuation_growth_reason() -> str:
+        status: str = str(layer.get("ai_review_status") or "NOT_RUN")
+        if status == "COMPLETED":
+            return "市场隐含增长高于已验证证据支持增长，需要下一轮 L0/L1 客户、订单、产能或财务传导证据。"
+        if status == "FAILED_INSUFFICIENT_EVIDENCE":
+            return "agent research 已执行但增长证据不足，需要补充客户、订单、产能或财务传导证据。"
+        if status == "CONFLICT_WITH_DATA":
+            return "agent research 发现增长证据与数据冲突，需要先解决冲突字段。"
+        return "市场隐含增长高于证据支持增长，需要完成 agent research 结果并合并后再判断。"
+
+    def serenity_layer_reason() -> str:
+        status: str = str(layer.get("ai_review_status") or "NOT_RUN")
+        if status == "FAILED_INSUFFICIENT_EVIDENCE":
+            return "agent research 已执行但产业链映射证据不足，需要补充 L0/L1 价值链和收入传导证据。"
+        if status == "CONFLICT_WITH_DATA":
+            return "agent research 发现产业链映射与源数据冲突，需要先解决冲突字段。"
+        return "产业链层级、瓶颈位置和收入传导需要完成 agent research 结果并合并。"
+
+    high_or_blocking: Any = set(debt_profile.get("blocking_datasets") or []) | set(debt_profile.get("high_datasets") or [])
+    for dataset in sorted(high_or_blocking):
+        if dataset in {"current_quote", "price_history_adjusted"}:
+            add("DATA_GATED", f"{dataset} 不完整，当前估值或技术时机结论保持阻断。", dataset, "DATA_ACQUISITION")
+        elif dataset in {"financials", "filings_announcements"}:
+            add("EVIDENCE_GATED", f"{dataset} 证据仍需 L0/L1 复核，高置信研究结论保持阻断。", dataset, "EVIDENCE_VALIDATION")
+        elif dataset in VALUATION_DATA_DEBT_DATASETS | VALUATION_RESEARCH_DEBT_DATASETS:
+            dataset_gate_class: str = str(dataset_gate_classes.get(dataset) or "")
+            if dataset in VALUATION_RESEARCH_DEBT_DATASETS:
+                add("VALUATION_GATED", valuation_growth_reason(), dataset, "RESEARCH_VALIDATION")
+            elif dataset_gate_class == "EVIDENCE_VALIDATION":
+                add("VALUATION_GATED", "估值输入已取得，但股本、市值、币种或来源口径仍需 L0/L1 证据复核。", dataset, "EVIDENCE_VALIDATION")
+            else:
+                add("VALUATION_GATED", "估值输入不完整，市场隐含增长和赔率判断保持阻断。", dataset, "DATA_ACQUISITION")
+        elif dataset == "serenity_layer":
+            add("AI_REVIEW_GATED", serenity_layer_reason(), dataset, "RESEARCH_VALIDATION")
+        elif dataset == CUSTOMER_EVIDENCE_DATASET:
+            dataset_gate_class = str(dataset_gate_classes.get(dataset) or "")
+            if dataset_gate_class == "DATA_ACQUISITION":
+                add("DATA_GATED", "客户、订单、产能或收入传导证据数据集未取得，收入传导和高增长结论保持阻断。", dataset, "DATA_ACQUISITION")
+            else:
+                add("EVIDENCE_GATED", "客户、订单、产能或收入传导证据不足，不能升级为行动级结论。", dataset, "EVIDENCE_VALIDATION")
+        elif dataset in {"capital_actions", "capital_action_quantification"}:
+            add("CAPITAL_ACTION_GATED", "资本动作需要量化稀释、回购、上市或减持影响。", dataset, "RESEARCH_VALIDATION")
+
+    if growth.get("market_implied_growth") == "UNKNOWN" or growth.get("gap") == "valuation_input_required":
+        add("VALUATION_GATED", str(growth.get("required_next_evidence") or "Valuation inputs are required."), "valuation", "DATA_ACQUISITION")
+    if layer.get("ai_review_status") != "COMPLETED":
+        add("AI_REVIEW_GATED", str(layer.get("evidence_gap") or "需要执行 AI 研究 overlay。"), "serenity_layer", "RESEARCH_VALIDATION")
+
+    risk_level: Any = str((capital.get("summary") or {}).get("material_risk_level") or "none") if isinstance(capital.get("summary"), Mapping) else "none"
+    has_dilution: Any = bool((capital.get("summary") or {}).get("has_dilution_event")) if isinstance(capital.get("summary"), Mapping) else False
+    if risk_level in {"medium_high", "high"} or has_dilution:
+        add("CAPITAL_ACTION_GATED", f"资本动作风险为 {risk_level}，需要量化稀释和流动性影响。", "capital_actions", "RESEARCH_VALIDATION")
+
+    if technical.get("buy_point_claim_allowed") is not True:
+        action: Any = str(technical.get("chan_action") or "")
+        if action in {"NO_BUY_POINT", "WAIT_FOR_SECOND_BUY", "WAIT_FOR_THIRD_BUY", "WAIT_FOR_STRUCTURE_CONFIRMATION", "DATA_REQUIRED"}:
+            add("BUY_POINT_GATED", str(technical.get("decision_note") or "当前没有确认的缠论买点。"), "price_history_adjusted", "ACTION_TIMING")
+
+    ordered: Any = [gate for gate in gate_order if gate in gates]
+    primary: Any = ordered[0] if ordered else "NONE"
+    primary_class: Any = gate_classes.get(primary, "NONE") if primary != "NONE" else "NONE"
+    return {
+        "state": "ACTIONABLE_WATCH" if primary == "NONE" else "NOT_ACTIONABLE",
+        "primary_gate": primary,
+        "primary_gate_class": primary_class,
+        "gate_classes": {gate: gate_classes.get(gate, "RESEARCH_VALIDATION") for gate in ordered},
+        "secondary_gates": ordered[1:],
+        "blocking_datasets": sorted(blocking_datasets),
+        "blocking_reasons": reasons,
+    }
+
+
+def _readiness_from_gate(primary_gate: str, gate: Mapping[str, Any], action_score: float) -> str:
+    gate_class: Any = str(gate.get("primary_gate_class") or "")
+    if primary_gate == "DATA_GATED":
+        return "DATA_GATED"
+    if primary_gate == "EVIDENCE_GATED":
+        return "RESEARCH_GATED"
+    if primary_gate == "VALUATION_GATED":
+        return "DATA_GATED" if gate_class == "DATA_ACQUISITION" else "RESEARCH_GATED"
+    if primary_gate in {"CAPITAL_ACTION_GATED", "AI_REVIEW_GATED"}:
+        return "RESEARCH_GATED"
+    if primary_gate == "BUY_POINT_GATED":
+        return "WAIT_FOR_BUY_POINT"
+    return "STRONG_OBSERVE" if action_score >= 68 else "CANDIDATE_POOL" if action_score >= 55 else "LEAD_TRACKING"
+
+
+def _priority_score(
+    data_summary: Mapping[str, Any],
+    financial: Mapping[str, Any],
+    technical: Mapping[str, Any],
+    capital: Mapping[str, Any],
+    customer_evidence: Mapping[str, Any],
+    layer: Mapping[str, Any],
+    growth: Mapping[str, Any],
+    research_debt: Sequence[Mapping[str, Any]],
+) -> tuple[float, float, float, str, str, dict[str, Any]]:
+    financial_score: Any = _as_float(financial.get("score")) or 35.0
+    data_score: Any = _data_readiness_score(data_summary)
+    technical_score: Any = _as_float(technical.get("readiness_score")) or 25.0
+    customer_score: Any = _as_float(customer_evidence.get("score")) or 35.0
+    layer_score: Any = _as_float(layer.get("layer_score"))
+    thesis_proxy: Any = (
+        financial_score * 0.72 + customer_score * 0.28
+        if layer_score is None
+        else financial_score * 0.42 + layer_score * 0.38 + customer_score * 0.20
+    )
+    risk_level: Any = str((capital.get("summary") or {}).get("material_risk_level") or "none") if isinstance(capital.get("summary"), Mapping) else "none"
+    capital_drag: Any = CAPITAL_RISK_SCORE.get(risk_level, 0.0)
+    debt_profile: Any = _debt_gate_profile(research_debt)
+    debt_drag: Any = _as_float(debt_profile.get("debt_drag")) or 0.0
+    thesis_delta: float = _as_float(layer.get("thesis_quality_delta")) or 0.0
+    evidence_delta: float = _as_float(layer.get("evidence_confidence_delta")) or 0.0
+    risk_adjustment: float = _as_float(layer.get("risk_adjustment")) or 0.0
+    research_score: Any = thesis_proxy * 0.50 + data_score * 0.14 + financial_score * 0.22 + customer_score * 0.08 + 6.0
+    research_score += thesis_delta + evidence_delta * 0.50 - max(risk_adjustment, 0.0) * 0.30
+    research_score -= min(8.0, debt_drag * 0.45)
+    action_score: Any = technical_score * 0.34 + data_score * 0.18 + financial_score * 0.12 + research_score * 0.16 + 18.0
+    action_score += thesis_delta * 0.35 + evidence_delta * 0.25 - risk_adjustment
+    action_score -= capital_drag
+    action_score -= debt_drag
+    cap: Any = str(data_summary.get("rating_cap") or "OBSERVE_ONLY")
+    if cap in {"C", "D", "OBSERVE_ONLY"}:
+        research_score = min(research_score, RATING_SCORE_LIMIT.get(cap, 25.0))
+        action_score = min(action_score, RATING_SCORE_LIMIT.get(cap, 25.0))
+    gate: Any = _action_gate_profile(technical, capital, layer, growth, debt_profile)
+    primary_gate: Any = str(gate.get("primary_gate") or "NONE")
+    if primary_gate in {"DATA_GATED", "EVIDENCE_GATED"}:
+        action_score = min(action_score, 48.0)
+    elif primary_gate == "VALUATION_GATED":
+        action_score = min(action_score, 58.0)
+    elif primary_gate == "CAPITAL_ACTION_GATED":
+        action_score = min(action_score, 55.0)
+    elif primary_gate == "AI_REVIEW_GATED":
+        action_score = min(action_score, 62.0)
+    elif primary_gate == "BUY_POINT_GATED":
+        action_score = min(action_score, 62.0)
+    research_score = max(0.0, min(100.0, research_score))
+    action_score = max(0.0, min(100.0, action_score))
+    combined_score: Any = research_score * 0.72 + action_score * 0.28
+    action: Any = _readiness_from_gate(primary_gate, gate, action_score)
+    debt_items: Any = debt_profile.get("blocking_datasets") or debt_profile.get("high_datasets") or []
+    debt_label: str = display_list(debt_items, empty="无")
+    reason: Any = (
+        f"研究={research_score:.1f}，行动={action_score:.1f}，财务={financial_score:.1f}，客户/订单证据={customer_score:.1f}，"
+        f"数据={data_score:.1f}，技术={technical_score:.1f}，资本风险={display_label(risk_level)}，"
+        f"AI增量=thesis {thesis_delta:+.1f}/evidence {evidence_delta:+.1f}/risk {risk_adjustment:+.1f}，"
+        f"主门控={display_label(primary_gate)}，研究债务={debt_label}，证据上限={cap}"
+    )
+    return round(combined_score, 2), round(research_score, 2), round(action_score, 2), action, reason, gate
+
+
+def _final_decision(
+    ranked: Sequence[Mapping[str, Any]],
+    next_actions: Sequence[str],
+    ranking_validity: Mapping[str, Any],
+    candidate_pool_semantic_coherence: Mapping[str, Any],
+) -> dict[str, Any]:
+    top: Any = ranked[0] if ranked else {}
+    leading_research: Mapping[str, Any] = max(
+        ranked,
+        key=lambda item: _as_float(item.get("research_priority_score")) or 0.0,
+        default={},
+    )
+    leading_action: Mapping[str, Any] = max(
+        [
+            item for item in ranked
+            if bool(item.get("decision_grade"))
+            and isinstance(item.get("action_gate"), Mapping)
+            and str(item.get("action_gate", {}).get("primary_gate") or "") == "NONE"
+        ],
+        key=lambda item: _as_float(item.get("action_priority_score")) or 0.0,
+        default={},
+    )
+    leading_research_symbol: str = str(leading_research.get("symbol") or "")
+    leading_action_symbol: str = str(leading_action.get("symbol") or "")
+    top_score: Any = _as_float(top.get("priority_score"))
+    runner_up_score: Any = _as_float(ranked[1].get("priority_score")) if len(ranked) > 1 else None
+    score_gap: Any = _round(top_score - runner_up_score) if top_score is not None and runner_up_score is not None else None
+    validity_status: Any = str(ranking_validity.get("status") or "VALID")
+    coherence_status: str = str(candidate_pool_semantic_coherence.get("status") or "")
+    same_layer: bool = coherence_status in {"", "SAME_LAYER"}
+    decision_candidate: str = leading_action_symbol if validity_status == "VALID" and same_layer else ""
+    if validity_status == "INVALID":
+        decision_mode: Any = "comparison_not_decision_grade"
+        decision: Any = "在数据消费错配修复前不产生正式决策对象；当前排序只用于工程诊断和补数任务。"
+        score_gap = None
+    elif score_gap is None:
+        decision_mode = "single_research_object"
+        decision = f"将 {leading_research_symbol} 作为单一研究对象推进；行动结论必须受当前门控约束。"
+    elif score_gap >= 10.0 and decision_candidate:
+        decision_mode = "clear_decision_candidate"
+        decision = f"{decision_candidate} 可作为当前正式决策对象；仍需遵守行动门控、仓位纪律和失效条件。"
+    elif score_gap >= 10.0:
+        decision_mode = "research_lead"
+        decision = f"{leading_research_symbol} 是当前研究队列首位；开放门控解除前不产生正式决策对象。"
+    elif score_gap >= 5.0:
+        decision_mode = "research_lead"
+        decision = f"先研究 {leading_research_symbol}，同时补齐第二候选的关键证据差异后再确认排序稳定性。"
+    else:
+        decision_mode = "candidate_cluster"
+        decision = "将领先候选视为同一研究簇，先处理区分度研究债务，再判断是否存在稳定决策对象。"
+    if not same_layer and decision_mode == "clear_decision_candidate":
+        decision_mode = "research_lead"
+        decision_candidate = ""
+        decision = f"{leading_research_symbol} 是当前研究队列首位；候选池未达到同层可比条件，不能视为正式同池投资排序。"
+    candidate_count_warning: Any = "insufficient_universe_warning" if len(ranked) < 3 else ""
+    return {
+        "leading_research_candidate": leading_research_symbol,
+        "leading_action_candidate": leading_action_symbol,
+        "decision_candidate": decision_candidate,
+        "decision_mode": decision_mode,
+        "score_gap_to_runner_up": score_gap,
+        "candidate_count_warning": candidate_count_warning,
+        "candidate_pool_semantic_coherence": dict(candidate_pool_semantic_coherence),
+        "ranking_validity": dict(ranking_validity),
+        "decision": decision,
+        "next_research_actions": list(next_actions)[:12],
+    }
+
+
+def _fetch_status_from_summary(summary: Mapping[str, Any]) -> str:
+    statuses: Mapping[str, Any] = summary.get("status_by_dataset") if isinstance(summary.get("status_by_dataset"), Mapping) else {}
+    if not statuses:
+        return "FAILED"
+    values: list[str] = [str(value) for value in statuses.values()]
+    if all(value == "OK" for value in values):
+        return "PASS"
+    if any(value in {"FAILED", "PENDING"} for value in values):
+        return "FAILED"
+    return "PARTIAL"
+
+
+def _readiness_matrix(
+    *,
+    data_rows: Sequence[Mapping[str, Any]],
+    ranked_rows: Sequence[Mapping[str, Any]],
+    consumption_rows: Sequence[Mapping[str, Any]],
+    debt_rows: Sequence[Mapping[str, Any]],
+    ranking_validity: Mapping[str, Any],
+) -> list[dict[str, Any]]:
+    ranked_by_symbol: dict[str, Mapping[str, Any]] = {str(row.get("symbol") or ""): row for row in ranked_rows}
+    consumption_by_symbol: dict[str, list[Mapping[str, Any]]] = {}
+    for row in consumption_rows:
+        consumption_by_symbol.setdefault(str(row.get("symbol") or ""), []).append(row)
+    debt_by_symbol: dict[str, list[Mapping[str, Any]]] = {}
+    for row in debt_rows:
+        debt_by_symbol.setdefault(str(row.get("symbol") or ""), []).append(row)
+
+    validity_status: str = str(ranking_validity.get("status") or "")
+    rows: list[dict[str, Any]] = []
+    for data in data_rows:
+        symbol: str = str(data.get("symbol") or "")
+        ranking: Mapping[str, Any] = ranked_by_symbol.get(symbol, {})
+        cap: str = str(data.get("rating_cap") or "OBSERVE_ONLY")
+        symbol_debt: list[Mapping[str, Any]] = debt_by_symbol.get(symbol, [])
+        reason_codes: list[str] = []
+        for item in consumption_by_symbol.get(symbol, []):
+            code: str = str(item.get("reason_code") or "")
+            if code and code != "NONE" and code not in reason_codes:
+                reason_codes.append(code)
+        for item in symbol_debt:
+            code = str(item.get("gap_type") or item.get("dataset") or "")
+            if code and code not in reason_codes:
+                reason_codes.append(code)
+
+        fetch_status: str = _fetch_status_from_summary(data)
+        has_blocking_debt: bool = any(str(item.get("priority") or "").lower() in {"critical", "high"} for item in symbol_debt)
+        if fetch_status == "FAILED" or cap in {"C", "D", "OBSERVE_ONLY"}:
+            research_readiness: str = "NOT_READY"
+        elif has_blocking_debt or cap == "B" or validity_status in {"PARTIAL", "INVALID"}:
+            research_readiness = "PARTIAL"
+        else:
+            research_readiness = "HIGH"
+
+        action_gate: Mapping[str, Any] = ranking.get("action_gate") if isinstance(ranking.get("action_gate"), Mapping) else {}
+        primary_gate: str = str(action_gate.get("primary_gate") or "NONE")
+        primary_gate_class: str = str(action_gate.get("primary_gate_class") or "NONE")
+        gate_classes: dict[str, Any] = (
+            dict(action_gate.get("gate_classes"))
+            if isinstance(action_gate.get("gate_classes"), Mapping)
+            else {}
+        )
+        action_readiness: str = str(ranking.get("action_readiness") or "")
+        decision_grade: bool = validity_status == "VALID"
+        rows.append({
+            "symbol": symbol,
+            "fetch_status": fetch_status,
+            "research_readiness": research_readiness,
+            "action_readiness": action_readiness,
+            "primary_gate": primary_gate,
+            "primary_gate_class": primary_gate_class,
+            "gate_classes": gate_classes,
+            "data_evidence_cap": cap,
+            "decision_grade": decision_grade,
+            "reason_codes": reason_codes,
+        })
+    return rows
+
+
+def validate_comparison_report(report: Mapping[str, Any]) -> list[str]:
+    errors: list[str] = []
+    # Keep the final report root closed so diagnostic fields cannot silently
+    # become part of the delivery contract.
+    required: set[str] = {
+        "comparison_scope",
+        "candidate_pool_semantic_coherence",
+        "candidates",
+        "data_acquisition_summary",
+        "serenity_layer_matrix",
+        "ai_review_status_matrix",
+        "ai_research_dossier_matrix",
+        "financial_quality_matrix",
+        "customer_evidence_matrix",
+        "valuation_input_matrix",
+        "currency_normalization_matrix",
+        "growth_hypothesis_matrix",
+        "technical_timing_matrix",
+        "capital_actions",
+        "capital_action_quantification",
+        "data_consumption_audit",
+        "readiness_matrix",
+        "research_debt",
+        "research_debt_runbook",
+        "candidate_priority_ranking",
+        "report_readiness",
+        "final_decision",
+    }
+    missing: Any = sorted(required - set(report))
+    if missing:
+        errors.append(f"comparison report missing keys: {', '.join(missing)}")
+    unsupported_root: list[str] = sorted(set(report) - required)
+    if unsupported_root:
+        errors.append(f"comparison report contains unsupported root keys: {', '.join(unsupported_root)}")
+    comparison_scope: Any = report.get("comparison_scope")
+    if isinstance(comparison_scope, Mapping):
+        _require_object_keys(comparison_scope, COMPARISON_SCOPE_FIELDS, "comparison_scope", errors)
+        _reject_unsupported_keys(comparison_scope, COMPARISON_SCOPE_FIELDS, "comparison_scope", errors)
+    else:
+        errors.append("comparison_scope must be an object")
+    final_decision: Any = report.get("final_decision")
+    if not isinstance(final_decision, Mapping):
+        errors.append("final_decision must be an object")
+    else:
+        _require_object_keys(final_decision, FINAL_DECISION_FIELDS, "final_decision", errors)
+        _reject_unsupported_keys(final_decision, FINAL_DECISION_FIELDS, "final_decision", errors)
+        if str(final_decision.get("decision_mode") or "") not in DECISION_MODES:
+            errors.append("final_decision.decision_mode is unknown")
+        gap: Any = final_decision.get("score_gap_to_runner_up")
+        if gap is not None and _as_float(gap) is None:
+            errors.append("final_decision.score_gap_to_runner_up must be numeric or null")
+        if not isinstance(final_decision.get("next_research_actions", []), list):
+            errors.append("final_decision.next_research_actions must be an array")
+        ranking_validity: Any = final_decision.get("ranking_validity")
+        if not isinstance(ranking_validity, Mapping):
+            errors.append("final_decision.ranking_validity must be an object")
+        else:
+            _require_object_keys(ranking_validity, RANKING_VALIDITY_FIELDS, "final_decision.ranking_validity", errors)
+            _reject_unsupported_keys(ranking_validity, RANKING_VALIDITY_FIELDS, "final_decision.ranking_validity", errors)
+            validity_status: str = str(ranking_validity.get("status") or "")
+            blocked_by: Any = ranking_validity.get("blocked_by")
+            partial_axes: Any = ranking_validity.get("partial_axes")
+            blocked_items: list[str] = _non_empty_strings(blocked_by)
+            partial_items: list[str] = _non_empty_strings(partial_axes)
+            if validity_status not in RANKING_VALIDITY_STATUSES:
+                errors.append("final_decision.ranking_validity.status is unknown")
+            if not isinstance(blocked_by, list):
+                errors.append("final_decision.ranking_validity.blocked_by must be an array")
+            if not isinstance(partial_axes, list):
+                errors.append("final_decision.ranking_validity.partial_axes must be an array")
+            if validity_status == "INVALID" and final_decision.get("decision_mode") != "comparison_not_decision_grade":
+                errors.append("INVALID ranking_validity requires comparison_not_decision_grade decision_mode")
+            if validity_status == "INVALID" and str(final_decision.get("decision_candidate") or ""):
+                errors.append("INVALID ranking_validity requires empty decision_candidate")
+            if validity_status == "INVALID" and not blocked_items:
+                errors.append("INVALID ranking_validity requires non-empty blocked_by")
+            if validity_status == "PARTIAL" and final_decision.get("decision_mode") == "clear_decision_candidate":
+                errors.append("PARTIAL ranking_validity cannot use clear_decision_candidate decision_mode")
+            if final_decision.get("decision_mode") == "clear_decision_candidate" and not str(final_decision.get("decision_candidate") or ""):
+                errors.append("clear_decision_candidate requires decision_candidate")
+            if validity_status == "PARTIAL" and not partial_items:
+                errors.append("PARTIAL ranking_validity requires non-empty partial_axes")
+            if validity_status == "VALID" and (blocked_items or partial_items):
+                errors.append("VALID ranking_validity cannot carry blocked_by or partial_axes")
+            final_coherence: Any = final_decision.get("candidate_pool_semantic_coherence")
+            if isinstance(final_coherence, Mapping):
+                _require_object_keys(final_coherence, CANDIDATE_POOL_COHERENCE_FIELDS, "final_decision.candidate_pool_semantic_coherence", errors)
+                _reject_unsupported_keys(final_coherence, CANDIDATE_POOL_COHERENCE_FIELDS, "final_decision.candidate_pool_semantic_coherence", errors)
+                final_coherence_status: str = str(final_coherence.get("status") or "")
+                if final_coherence_status in {"SAME_THEME_DIFFERENT_LAYERS", "CROSS_THEME_DIAGNOSTIC", "UNRELATED_DIAGNOSTIC"} and final_decision.get("decision_mode") == "clear_decision_candidate":
+                    errors.append("candidate pools without same-layer coherence cannot use clear_decision_candidate")
+            else:
+                errors.append("final_decision.candidate_pool_semantic_coherence must be an object")
+    candidates: Any = report.get("candidates", [])
+    if not isinstance(candidates, list) or len(candidates) < 2:
+        errors.append("comparison report requires at least two candidates")
+    for row in candidates if isinstance(candidates, list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        _require_object_keys(row, {"symbol", "market", "currency", "rating_cap", "data_package_path"}, "candidates[]", errors)
+        _reject_unsupported_keys(row, CANDIDATE_FIELDS, f"{row.get('symbol')} candidate", errors)
+    symbols: set[str] = {str(item.get("symbol")) for item in candidates if isinstance(item, Mapping)}
+    coherence: Any = report.get("candidate_pool_semantic_coherence")
+    if not isinstance(coherence, Mapping):
+        errors.append("candidate_pool_semantic_coherence must be an object")
+    else:
+        _require_object_keys(coherence, CANDIDATE_POOL_COHERENCE_FIELDS, "candidate_pool_semantic_coherence", errors)
+        _reject_unsupported_keys(coherence, CANDIDATE_POOL_COHERENCE_FIELDS, "candidate_pool_semantic_coherence", errors)
+        if str(coherence.get("status") or "") not in CANDIDATE_POOL_COHERENCE:
+            errors.append("candidate_pool_semantic_coherence.status is unknown")
+    for key in ["data_acquisition_summary", "serenity_layer_matrix", "ai_review_status_matrix", "ai_research_dossier_matrix", "financial_quality_matrix", "customer_evidence_matrix", "valuation_input_matrix", "currency_normalization_matrix", "growth_hypothesis_matrix", "technical_timing_matrix", "capital_actions", "capital_action_quantification", "readiness_matrix"]:
+        rows: Any = report.get(key, [])
+        if not isinstance(rows, list) or {str(item.get("symbol")) for item in rows if isinstance(item, Mapping)} != symbols:
+            errors.append(f"{key} must contain one row per candidate")
+    ranked_gate_by_symbol: dict[str, Mapping[str, Any]] = {}
+    ranked_items_for_readiness: Any = report.get("candidate_priority_ranking", [])
+    if isinstance(ranked_items_for_readiness, list):
+        for item in ranked_items_for_readiness:
+            if not isinstance(item, Mapping):
+                continue
+            _require_object_keys(item, RANKING_ROW_FIELDS, f"{item.get('symbol')} candidate_priority_ranking", errors)
+            _reject_unsupported_keys(item, RANKING_ROW_FIELDS, f"{item.get('symbol')} candidate_priority_ranking", errors)
+            gate: Any = item.get("action_gate")
+            if isinstance(gate, Mapping):
+                _require_object_keys(gate, ACTION_GATE_FIELDS, f"{item.get('symbol')} action_gate", errors)
+                _reject_unsupported_keys(gate, ACTION_GATE_FIELDS, f"{item.get('symbol')} action_gate", errors)
+                if str(gate.get("state") or "") not in ACTION_GATE_STATES:
+                    errors.append(f"{item.get('symbol')} action_gate.state is unknown")
+                ranked_gate_by_symbol[str(item.get("symbol") or "")] = gate
+            else:
+                errors.append(f"{item.get('symbol')} candidate_priority_ranking.action_gate must be an object")
+    for row in report.get("readiness_matrix", []) if isinstance(report.get("readiness_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        _require_object_keys(row, READINESS_ROW_FIELDS, f"{row.get('symbol')} readiness_matrix", errors)
+        _reject_unsupported_keys(row, READINESS_ROW_FIELDS, f"{row.get('symbol')} readiness_matrix", errors)
+        primary_gate: str = str(row.get("primary_gate") or "")
+        primary_gate_class: str = str(row.get("primary_gate_class") or "")
+        gate_classes: Any = row.get("gate_classes")
+        if primary_gate not in ACTION_GATE_TYPES:
+            errors.append(f"{row.get('symbol')} readiness_matrix.primary_gate is unknown")
+        if primary_gate_class not in ACTION_GATE_CLASSES:
+            errors.append(f"{row.get('symbol')} readiness_matrix.primary_gate_class is unknown")
+        if not isinstance(gate_classes, Mapping):
+            errors.append(f"{row.get('symbol')} readiness_matrix.gate_classes must be an object")
+            gate_classes = {}
+        if primary_gate != "NONE" and gate_classes.get(primary_gate) != primary_gate_class:
+            errors.append(f"{row.get('symbol')} readiness_matrix.gate_classes must include the primary gate class")
+        ranked_gate: Mapping[str, Any] = ranked_gate_by_symbol.get(str(row.get("symbol") or ""), {})
+        if ranked_gate:
+            ranked_classes: Any = ranked_gate.get("gate_classes")
+            if primary_gate != str(ranked_gate.get("primary_gate") or "NONE"):
+                errors.append(f"{row.get('symbol')} readiness_matrix.primary_gate must mirror candidate_priority_ranking")
+            if primary_gate_class != str(ranked_gate.get("primary_gate_class") or "NONE"):
+                errors.append(f"{row.get('symbol')} readiness_matrix.primary_gate_class must mirror candidate_priority_ranking")
+            if isinstance(ranked_classes, Mapping) and dict(gate_classes) != dict(ranked_classes):
+                errors.append(f"{row.get('symbol')} readiness_matrix.gate_classes must mirror candidate_priority_ranking")
+    for row in report.get("ai_review_status_matrix", []) if isinstance(report.get("ai_review_status_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        _require_object_keys(row, AI_REVIEW_STATUS_ROW_FIELDS, f"{row.get('symbol')} ai_review_status_matrix", errors)
+        _reject_unsupported_keys(row, AI_REVIEW_STATUS_ROW_FIELDS, f"{row.get('symbol')} ai_review_status_matrix", errors)
+        status = str(row.get("ai_review_status") or "")
+        if status not in AI_REVIEW_STATUSES:
+            errors.append(f"{row.get('symbol')} ai_review_status_matrix.ai_review_status is unknown")
+        if status == "COMPLETED" and not row.get("overlay_merged"):
+            errors.append(f"{row.get('symbol')} completed AI review must have overlay_merged=true")
+    ai_status_by_symbol: dict[str, str] = {
+        str(row.get("symbol") or ""): str(row.get("ai_review_status") or "")
+        for row in report.get("ai_review_status_matrix", [])
+        if isinstance(row, Mapping)
+    } if isinstance(report.get("ai_review_status_matrix"), list) else {}
+    for row in report.get("ai_research_dossier_matrix", []) if isinstance(report.get("ai_research_dossier_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        _require_object_keys(row, AI_DOSSIER_ROW_FIELDS, f"{row.get('symbol')} ai_research_dossier_matrix", errors)
+        _reject_unsupported_keys(row, AI_DOSSIER_ROW_FIELDS, f"{row.get('symbol')} ai_research_dossier_matrix", errors)
+        status = str(row.get("dossier_status") or "")
+        if status not in {"NOT_PROVIDED", *FORMAL_AI_STATUSES}:
+            errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.dossier_status is unknown")
+        if status != "NOT_PROVIDED" and row.get("dossier_merged") is not True:
+            errors.append(f"{row.get('symbol')} ai_research_dossier_matrix dossier_merged must be true when provided")
+        ai_status: str = ai_status_by_symbol.get(str(row.get("symbol") or ""), "")
+        if status != "NOT_PROVIDED" and ai_status in FORMAL_AI_STATUSES and status != ai_status:
+            errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.dossier_status must match formal AI status")
+        if status != "NOT_PROVIDED":
+            for field, minimum in [("hypothesis_count", 2), ("evidence_test_count", 2), ("unresolved_question_count", 1)]:
+                value: Any = row.get(field)
+                if not isinstance(value, int) or value < minimum:
+                    errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.{field} must be >= {minimum} when dossier is provided")
+            score_value: Any = _as_float(row.get("quality_score"))
+            if score_value is None or score_value < 0 or score_value > 100:
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.quality_score must be 0-100 when dossier is provided")
+            if str(row.get("quality_band") or "") not in {"A", "B", "C", "D"}:
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.quality_band is unknown")
+            if row.get("quality_delivery_allowed") is not True:
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix quality must pass before formal merge")
+            if not isinstance(row.get("quality_blocking_issues"), list):
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.quality_blocking_issues must be an array")
+            if not isinstance(row.get("quality_cap_reasons"), list):
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.quality_cap_reasons must be an array")
+        for field in ["thesis_quality_delta", "evidence_confidence_delta", "risk_adjustment"]:
+            value: Any = row.get(field)
+            if value is None:
+                continue
+            number: Any = _as_float(value)
+            if number is None or number < -8 or number > 8:
+                errors.append(f"{row.get('symbol')} ai_research_dossier_matrix.{field} must be between -8 and 8 or null")
+    readiness: Any = report.get("report_readiness")
+    if not isinstance(readiness, Mapping):
+        errors.append("report_readiness must be an object")
+    else:
+        _require_object_keys(readiness, REPORT_READINESS_FIELDS, "report_readiness", errors)
+        _reject_unsupported_keys(readiness, REPORT_READINESS_FIELDS, "report_readiness", errors)
+        stage: str = str(readiness.get("stage") or "")
+        if stage not in REPORT_READINESS_STAGES:
+            errors.append("report_readiness.stage is unknown")
+        if not isinstance(readiness.get("delivery_allowed"), bool):
+            errors.append("report_readiness.delivery_allowed must be boolean")
+        blocking: Any = readiness.get("blocking_statuses")
+        if not isinstance(blocking, list):
+            errors.append("report_readiness.blocking_statuses must be an array")
+            blocking = []
+        statuses_for_readiness: list[str] = [
+            str(row.get("ai_review_status") or "")
+            for row in report.get("ai_review_status_matrix", [])
+            if isinstance(row, Mapping)
+        ] if isinstance(report.get("ai_review_status_matrix"), list) else []
+        expected_blocking: list[str] = sorted({status for status in statuses_for_readiness if status not in FORMAL_AI_STATUSES})
+        dossier_quality_blocked: bool = any(
+            isinstance(row, Mapping)
+            and str(row.get("dossier_status") or "") != "NOT_PROVIDED"
+            and row.get("quality_delivery_allowed") is not True
+            for row in report.get("ai_research_dossier_matrix", [])
+        ) if isinstance(report.get("ai_research_dossier_matrix"), list) else False
+        if dossier_quality_blocked and "AI_DOSSIER_QUALITY_BLOCKED" not in expected_blocking:
+            expected_blocking.append("AI_DOSSIER_QUALITY_BLOCKED")
+            expected_blocking = sorted(expected_blocking)
+        if sorted(str(item) for item in blocking) != expected_blocking:
+            errors.append("report_readiness.blocking_statuses must match AI finality and dossier quality gates")
+        if "NOT_RUN" in expected_blocking and stage != "INTERNAL_BASELINE":
+            errors.append("NOT_RUN AI status requires INTERNAL_BASELINE readiness")
+        if "SKIPPED_QUICK_AUDIT" in expected_blocking and "NOT_RUN" not in expected_blocking and stage != "DIAGNOSTIC_ONLY":
+            errors.append("SKIPPED_QUICK_AUDIT without NOT_RUN requires DIAGNOSTIC_ONLY readiness")
+        if not expected_blocking and stage != "FINAL_REPORT_READY":
+            errors.append("final AI statuses require FINAL_REPORT_READY readiness")
+        if stage == "FINAL_REPORT_READY" and readiness.get("delivery_allowed") is not True:
+            errors.append("FINAL_REPORT_READY requires delivery_allowed=true")
+        if stage != "FINAL_REPORT_READY" and readiness.get("delivery_allowed") is not False:
+            errors.append("non-final report readiness requires delivery_allowed=false")
+    for row in report.get("currency_normalization_matrix", []) if isinstance(report.get("currency_normalization_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        status: str = str(row.get("normalization_status") or "")
+        if status not in {"OK", "NOT_REQUIRED", "DATA_GATED", "FAILED"}:
+            errors.append(f"{row.get('symbol')} currency_normalization_matrix.normalization_status is unknown")
+        if status == "OK":
+            for field in ["source_currency", "target_currency", "original_total_market_cap", "normalized_total_market_cap", "fx_rate", "fx_source", "fx_source_level"]:
+                if row.get(field) in (None, ""):
+                    errors.append(f"{row.get('symbol')} currency_normalization_matrix OK row missing {field}")
+    financial_rows_for_validation: Any = report.get("financial_quality_matrix", [])
+    financial_by_symbol: dict[str, Mapping[str, Any]] = {}
+    if isinstance(financial_rows_for_validation, list):
+        for row in financial_rows_for_validation:
+            if not isinstance(row, Mapping):
+                continue
+            financial_by_symbol[str(row.get("symbol") or "")] = row
+            if row.get("status") == "OK":
+                for field in ["financial_statement_unit", "financial_unit_multiplier", "revenue_absolute", "net_income_absolute"]:
+                    if row.get(field) in (None, ""):
+                        errors.append(f"{row.get('symbol')} financial_quality_matrix OK row missing {field}")
+                multiplier: Optional[float] = _as_float(row.get("financial_unit_multiplier"))
+                revenue_reported: Optional[float] = _as_float(row.get("revenue"))
+                revenue_absolute: Optional[float] = _as_float(row.get("revenue_absolute"))
+                net_income_reported: Optional[float] = _as_float(row.get("net_income"))
+                net_income_absolute: Optional[float] = _as_float(row.get("net_income_absolute"))
+                if multiplier is not None and revenue_reported is not None and revenue_absolute is not None:
+                    if not _close_enough(revenue_absolute, revenue_reported * multiplier):
+                        errors.append(f"{row.get('symbol')} revenue_absolute must match reported revenue times financial_unit_multiplier")
+                if multiplier is not None and net_income_reported is not None and net_income_absolute is not None:
+                    if not _close_enough(net_income_absolute, net_income_reported * multiplier):
+                        errors.append(f"{row.get('symbol')} net_income_absolute must match reported net_income times financial_unit_multiplier")
+    consumption_rows: Any = report.get("data_consumption_audit", [])
+    if not isinstance(consumption_rows, list):
+        errors.append("data_consumption_audit must be an array")
+    else:
+        audited_symbols: set[str] = {str(item.get("symbol")) for item in consumption_rows if isinstance(item, Mapping)}
+        if audited_symbols != symbols:
+            errors.append("data_consumption_audit must contain audited rows for every candidate")
+        audited_pairs: set[tuple[str, str]] = set()
+        duplicate_pairs: set[tuple[str, str]] = set()
+        for row in consumption_rows:
+            if not isinstance(row, Mapping):
+                errors.append("data_consumption_audit rows must be objects")
+                continue
+            pair: tuple[str, str] = (str(row.get("symbol") or ""), str(row.get("dataset") or ""))
+            if pair in audited_pairs:
+                duplicate_pairs.add(pair)
+            audited_pairs.add(pair)
+            if str(row.get("consumption_status") or "") not in {"OK", "PARTIAL", "DATA_GATED", "MISMATCH"}:
+                errors.append(f"{row.get('symbol')} {row.get('dataset')} has unknown consumption_status")
+            if str(row.get("reason_code") or "") == "":
+                errors.append(f"{row.get('symbol')} {row.get('dataset')} missing reason_code")
+        required_pairs: set[tuple[str, str]] = {(symbol, dataset) for symbol in symbols for dataset in CONSUMPTION_AUDIT_DATASETS}
+        missing_pairs: list[tuple[str, str]] = sorted(required_pairs - audited_pairs)
+        if missing_pairs:
+            formatted: str = ", ".join(f"{symbol} {dataset}" for symbol, dataset in missing_pairs)
+            errors.append(f"data_consumption_audit missing required dataset rows: {formatted}")
+        if duplicate_pairs:
+            formatted = ", ".join(f"{symbol} {dataset}" for symbol, dataset in sorted(duplicate_pairs))
+            errors.append(f"data_consumption_audit has duplicate dataset rows: {formatted}")
+        has_mismatch: bool = any(isinstance(row, Mapping) and row.get("consumption_status") == "MISMATCH" for row in consumption_rows)
+        has_partial_consumption: bool = any(isinstance(row, Mapping) and row.get("consumption_status") in {"PARTIAL", "DATA_GATED"} for row in consumption_rows)
+        final_validity: Any = final_decision.get("ranking_validity") if isinstance(final_decision, Mapping) else {}
+        if has_mismatch and isinstance(final_validity, Mapping) and final_validity.get("status") != "INVALID":
+            errors.append("data-consumption mismatch requires INVALID ranking_validity")
+        if has_partial_consumption and isinstance(final_validity, Mapping) and final_validity.get("status") == "VALID":
+            errors.append("partial or data-gated consumption requires PARTIAL ranking_validity")
+    debt_rows: Any = report.get("research_debt", [])
+    if isinstance(debt_rows, list):
+        debt_profile: Any = _debt_gate_profile([row for row in debt_rows if isinstance(row, Mapping)])
+        has_high_or_critical_debt: Any = bool(debt_profile.get("critical_datasets") or debt_profile.get("high_datasets"))
+        final_validity = final_decision.get("ranking_validity") if isinstance(final_decision, Mapping) else {}
+        if has_high_or_critical_debt and isinstance(final_validity, Mapping) and final_validity.get("status") == "VALID":
+            errors.append("open high/critical research debt requires PARTIAL ranking_validity")
+    for row in report.get("serenity_layer_matrix", []) if isinstance(report.get("serenity_layer_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        _require_object_keys(row, {"symbol", "layer", "bottleneck_reason", "layer_score", "company_fit", "revenue_transmission", "evidence_gap"}, f"{row.get('symbol')} serenity_layer_matrix", errors)
+        _reject_unsupported_keys(row, SERENITY_LAYER_ROW_FIELDS, f"{row.get('symbol')} serenity_layer_matrix", errors)
+        if row.get("layer") == "AI_REVIEW_REQUIRED":
+            errors.append(f"{row.get('symbol')} serenity_layer_matrix.layer must not use ambiguous AI_REVIEW_REQUIRED")
+        if row.get("ai_review_status") == "COMPLETED" and str(row.get("layer") or "") == "VALUE_CHAIN_UNMAPPED":
+            errors.append(f"{row.get('symbol')} completed AI overlay must provide a concrete serenity layer")
+        for field in ["layer_score", "company_fit"]:
+            value: Any = row.get(field)
+            if value is None:
+                continue
+            score: Any = _as_float(value)
+            if score is None or score < 0 or score > 100:
+                errors.append(f"{row.get('symbol')} serenity_layer_matrix.{field} must be 0-100 or null")
+    for row in report.get("valuation_input_matrix", []) if isinstance(report.get("valuation_input_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        status: Any = str(row.get("status") or "")
+        expected_ref: Any = f"valuation_input_matrix:{row.get('symbol')}"
+        if row.get("valuation_input_ref") != expected_ref:
+            errors.append(f"{row.get('symbol')} valuation input row requires valuation_input_ref={expected_ref}")
+        if str(row.get("valuation_stage") or "") not in {"unavailable", "preflight", "verified_l0", "verified_l1", "deep_valuation"}:
+            errors.append(f"{row.get('symbol')} valuation_input_matrix.valuation_stage is unknown")
+        if status == "OK":
+            for field in [
+                "valuation_stage",
+                "valuation_confidence",
+                "regular_market_price",
+                "total_shares",
+                "total_market_cap",
+                "currency",
+                "as_of_date",
+                "source_name",
+                "source_level",
+                "source_basis",
+                "share_count_basis",
+                "market_cap_basis",
+            ]:
+                if row.get(field) in (None, ""):
+                    errors.append(f"{row.get('symbol')} valuation_input_matrix OK row missing {field}")
+    ranking: Any = report.get("candidate_priority_ranking", [])
+    if not isinstance(ranking, list) or len(ranking) != len(symbols):
+        errors.append("candidate_priority_ranking must contain one row per candidate")
+    else:
+        debt_rows = report.get("research_debt", [])
+        debt_by_symbol: dict[str, list[Mapping[str, Any]]] = {}
+        if isinstance(debt_rows, list):
+            for row in debt_rows:
+                if isinstance(row, Mapping):
+                    debt_by_symbol.setdefault(str(row.get("symbol")), []).append(row)
+        last_score: Optional[float] = None
+        for idx, item in enumerate(ranking, start=1):
+            if not isinstance(item, Mapping):
+                errors.append(f"candidate_priority_ranking[{idx - 1}] must be an object")
+                continue
+            if item.get("rank") != idx:
+                errors.append(f"candidate_priority_ranking[{idx - 1}].rank must equal {idx}")
+            score = _as_float(item.get("priority_score"))
+            if score is None or score < 0 or score > 100:
+                errors.append(f"candidate_priority_ranking[{idx - 1}].priority_score must be 0-100")
+            elif last_score is not None and score > last_score:
+                errors.append("candidate_priority_ranking must be sorted by descending priority_score")
+            last_score = score
+            for field in ["research_priority_score", "action_priority_score"]:
+                field_score: Any = _as_float(item.get(field))
+                if field_score is None or field_score < 0 or field_score > 100:
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].{field} must be 0-100")
+            if str(item.get("rating_cap")) not in RATING_CAPS:
+                errors.append(f"candidate_priority_ranking[{idx - 1}].rating_cap is unknown")
+            if str(item.get("action_readiness")) not in ACTION_READINESS:
+                errors.append(f"candidate_priority_ranking[{idx - 1}].action_readiness is unknown")
+            if not isinstance(item.get("decision_grade"), bool):
+                errors.append(f"candidate_priority_ranking[{idx - 1}].decision_grade must be boolean")
+            action_gate: Any = item.get("action_gate")
+            if not isinstance(action_gate, Mapping):
+                errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate must be an object")
+            else:
+                primary_gate: Any = str(action_gate.get("primary_gate") or "")
+                if primary_gate not in ACTION_GATE_TYPES:
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.primary_gate is unknown")
+                if not isinstance(action_gate.get("secondary_gates", []), list):
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.secondary_gates must be an array")
+                if not isinstance(action_gate.get("blocking_datasets", []), list):
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.blocking_datasets must be an array")
+                if not isinstance(action_gate.get("blocking_reasons", []), list):
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.blocking_reasons must be an array")
+                readiness: Any = str(item.get("action_readiness") or "")
+                primary_gate_class: Any = str(action_gate.get("primary_gate_class") or "")
+                gate_classes: Any = action_gate.get("gate_classes")
+                if primary_gate_class not in ACTION_GATE_CLASSES:
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.primary_gate_class is unknown")
+                if not isinstance(gate_classes, Mapping):
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.gate_classes must be an object")
+                elif primary_gate != "NONE" and gate_classes.get(primary_gate) != primary_gate_class:
+                    errors.append(f"candidate_priority_ranking[{idx - 1}].action_gate.gate_classes must include the primary gate class")
+                if primary_gate == "DATA_GATED" and readiness != "DATA_GATED":
+                    errors.append(f"{item.get('symbol')} DATA_GATED requires DATA_GATED action_readiness")
+                if primary_gate == "EVIDENCE_GATED" and readiness != "RESEARCH_GATED":
+                    errors.append(f"{item.get('symbol')} EVIDENCE_GATED requires RESEARCH_GATED action_readiness")
+                if primary_gate == "VALUATION_GATED":
+                    expected: Any = "DATA_GATED" if primary_gate_class == "DATA_ACQUISITION" else "RESEARCH_GATED"
+                    if readiness != expected:
+                        errors.append(f"{item.get('symbol')} VALUATION_GATED requires {expected} action_readiness")
+                if primary_gate in {"CAPITAL_ACTION_GATED", "AI_REVIEW_GATED"} and readiness != "RESEARCH_GATED":
+                    errors.append(f"{item.get('symbol')} {primary_gate} requires RESEARCH_GATED action_readiness")
+                if primary_gate == "BUY_POINT_GATED" and readiness != "WAIT_FOR_BUY_POINT":
+                    errors.append(f"{item.get('symbol')} BUY_POINT_GATED requires WAIT_FOR_BUY_POINT action_readiness")
+    for row in report.get("growth_hypothesis_matrix", []) if isinstance(report.get("growth_hypothesis_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        implied: Any = str(row.get("market_implied_growth"))
+        supported: Any = str(row.get("evidence_supported_growth"))
+        if implied not in GROWTH_ORDER:
+            errors.append(f"{row.get('symbol')} market_implied_growth is unknown: {implied}")
+        if supported not in GROWTH_ORDER:
+            errors.append(f"{row.get('symbol')} evidence_supported_growth is unknown: {supported}")
+        if row.get("valuation_input_ref") != f"valuation_input_matrix:{row.get('symbol')}":
+            errors.append(f"{row.get('symbol')} growth row must reference valuation_input_matrix")
+        valuation_rows: Any = report.get("valuation_input_matrix", [])
+        valuation_row: Any = next(
+            (
+                item for item in valuation_rows
+                if isinstance(item, Mapping) and item.get("symbol") == row.get("symbol")
+            ),
+            {},
+        ) if isinstance(valuation_rows, list) else {}
+        valuation_complete: Any = (
+            isinstance(valuation_row, Mapping)
+            and valuation_row.get("status") == "OK"
+            and valuation_row.get("total_market_cap") is not None
+            and bool(str(valuation_row.get("currency") or "").strip())
+            and (row.get("pe_preflight") is not None or row.get("ps_preflight") is not None)
+        )
+        if implied != "UNKNOWN" and not valuation_complete:
+            errors.append(f"{row.get('symbol')} market_implied_growth requires complete valuation inputs and computed PE/PS")
+        expected_implied: Any = _growth_level_from_valuation(_as_float(row.get("pe_preflight")), _as_float(row.get("ps_preflight"))) if valuation_complete else "UNKNOWN"
+        if implied != expected_implied:
+            errors.append(f"{row.get('symbol')} market_implied_growth must match valuation-derived PE/PS tier {expected_implied}")
+        financial_row: Mapping[str, Any] = financial_by_symbol.get(str(row.get("symbol") or ""), {})
+        market_cap: Optional[float] = _as_float(row.get("total_market_cap"))
+        revenue_absolute = _as_float(financial_row.get("revenue_absolute"))
+        net_income_absolute = _as_float(financial_row.get("net_income_absolute"))
+        expected_pe: Optional[float] = market_cap / net_income_absolute if market_cap is not None and net_income_absolute and net_income_absolute > 0 else None
+        expected_ps: Optional[float] = market_cap / revenue_absolute if market_cap is not None and revenue_absolute and revenue_absolute > 0 else None
+        if row.get("pe_preflight") is not None and not _close_enough(_as_float(row.get("pe_preflight")), expected_pe):
+            errors.append(f"{row.get('symbol')} pe_preflight must use normalized absolute net income")
+        if row.get("ps_preflight") is not None and not _close_enough(_as_float(row.get("ps_preflight")), expected_ps):
+            errors.append(f"{row.get('symbol')} ps_preflight must use normalized absolute revenue")
+        if not isinstance(row.get("h4_h5_evidence_bar_met"), bool):
+            errors.append(f"{row.get('symbol')} h4_h5_evidence_bar_met must be boolean")
+        else:
+            expected_bar: Any = GROWTH_ORDER.get(implied, -1) < 4 or GROWTH_ORDER.get(supported, -1) >= GROWTH_ORDER.get(implied, -1)
+            if row.get("h4_h5_evidence_bar_met") is not expected_bar:
+                errors.append(f"{row.get('symbol')} h4_h5_evidence_bar_met must match market/evidence growth tiers")
+        valuation_input_ready: bool = (
+            isinstance(valuation_row, Mapping)
+            and valuation_row.get("status") == "OK"
+            and row.get("total_market_cap") is not None
+        )
+        if not valuation_input_ready:
+            expected_gap: Any = "valuation_input_required"
+        elif row.get("valuation_currency_match") is False or not str(row.get("financial_currency") or "").strip() or not str(row.get("valuation_currency") or "").strip():
+            expected_gap = "valuation_currency_reconciliation_required"
+        elif implied == "UNKNOWN":
+            expected_gap = "valuation_input_required"
+        elif GROWTH_ORDER.get(supported, -1) >= GROWTH_ORDER.get(implied, -1) and GROWTH_ORDER.get(implied, -1) >= 0:
+            expected_gap = "roughly_matched"
+        elif GROWTH_ORDER.get(implied, -1) >= 4 and GROWTH_ORDER.get(supported, -1) < GROWTH_ORDER.get(implied, -1):
+            expected_gap = "market_ahead_of_evidence"
+        else:
+            expected_gap = "requires_ai_review"
+        if row.get("gap") != expected_gap:
+            errors.append(f"{row.get('symbol')} growth gap must be {expected_gap}")
+        if implied in {"H4", "H5"} and GROWTH_ORDER.get(supported, -1) < GROWTH_ORDER[implied]:
+            if row.get("h4_h5_evidence_bar_met") is not False:
+                errors.append(f"{row.get('symbol')} H4/H5 valuation gap requires h4_h5_evidence_bar_met=false")
+            debt_rows = report.get("research_debt", [])
+            has_growth_debt: Any = any(
+                isinstance(item, Mapping)
+                and item.get("symbol") == row.get("symbol")
+                and item.get("dataset") == "valuation_growth"
+                for item in debt_rows
+            ) if isinstance(debt_rows, list) else False
+            if not has_growth_debt:
+                errors.append(f"{row.get('symbol')} H4/H5 valuation gap requires valuation_growth research debt")
+    for row in report.get("capital_actions", []) if isinstance(report.get("capital_actions"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        actions: Any = row.get("actions", [])
+        if not isinstance(actions, list):
+            errors.append("capital_actions.actions must be an array")
+            continue
+        for action in actions:
+            if isinstance(action, Mapping) and action.get("action_type") == "private_placement" and not str(action.get("research_debt", "")).strip():
+                errors.append(f"{row.get('symbol')} private placement requires dilution research debt")
+    for row in report.get("capital_action_quantification", []) if isinstance(report.get("capital_action_quantification"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        actions = row.get("actions", [])
+        if not isinstance(actions, list):
+            errors.append("capital_action_quantification.actions must be an array")
+            continue
+        for action in actions:
+            if not isinstance(action, Mapping):
+                continue
+            status_value: str = str(action.get("quantification_status") or "")
+            if status_value not in {"QUANTIFIED", "PARTIAL", "NEEDS_PDF_EXTRACTION", "NOT_REQUIRED"}:
+                errors.append(f"{row.get('symbol')} capital action quantification status is unknown")
+            if status_value in {"PARTIAL", "NEEDS_PDF_EXTRACTION"}:
+                debt_rows_for_check = report.get("research_debt", [])
+                has_quant_debt: bool = any(
+                    isinstance(item, Mapping)
+                    and item.get("symbol") == row.get("symbol")
+                    and item.get("dataset") == "capital_action_quantification"
+                    for item in debt_rows_for_check
+                ) if isinstance(debt_rows_for_check, list) else False
+                if not has_quant_debt:
+                    errors.append(f"{row.get('symbol')} unquantified capital action requires capital_action_quantification debt")
+    for row in report.get("technical_timing_matrix", []) if isinstance(report.get("technical_timing_matrix"), list) else []:
+        if not isinstance(row, Mapping):
+            continue
+        if row.get("trend_state") == "CONSTRUCTIVE_PULLBACK_WATCH" and row.get("buy_point_claim_allowed") is not False:
+            errors.append(f"{row.get('symbol')} short-average proximity cannot be marked as a confirmed buy point")
+        if row.get("status") == "DATA_GATED" or row.get("chan_action") == "DATA_REQUIRED":
+            debt_rows = report.get("research_debt", [])
+            has_technical_debt: Any = any(
+                isinstance(item, Mapping)
+                and item.get("symbol") == row.get("symbol")
+                and item.get("dataset") == "price_history_adjusted"
+                for item in debt_rows
+            ) if isinstance(debt_rows, list) else False
+            if not has_technical_debt:
+                errors.append(f"{row.get('symbol')} missing adjusted history requires price_history_adjusted research debt")
+    return errors
+
+
+def build_comparison_report(
+    manifest_paths: Sequence[Path],
+    overlays: Optional[Mapping[str, Mapping[str, Any]]] = None,
+    ai_review_outcomes: Optional[Mapping[str, Mapping[str, Any]]] = None,
+    ai_research_dossiers: Optional[Mapping[str, Mapping[str, Any]]] = None,
+) -> dict[str, Any]:
+    manifests: Any = [_load_manifest(path) for path in manifest_paths]
+    if len(manifests) < 2:
+        raise ValueError("comparison requires at least two manifest paths")
+    evidence_contexts: Optional[dict[str, Mapping[str, str]]] = None
+    if overlays is not None or ai_research_dossiers is not None:
+        # Build source context at the core entrypoint so direct API callers get
+        # the same source-ref enforcement as the validated merge CLI.
+        evidence_contexts = {
+            _symbol(manifest): evidence_context_from_manifest(Path(path))
+            for manifest, path in zip(manifests, manifest_paths)
+        }
+    profiles: Any = _ai_review_profiles(manifests, overlays, ai_review_outcomes, evidence_contexts)
+    dossier_profiles: dict[str, dict[str, Any]] = _ai_research_dossier_profiles(manifests, ai_research_dossiers, evidence_contexts)
+
+    candidates: Any = []
+    data_rows: Any = []
+    layer_rows: Any = []
+    ai_review_rows: list[dict[str, Any]] = []
+    ai_dossier_rows: list[dict[str, Any]] = []
+    financial_rows: Any = []
+    customer_rows: list[dict[str, Any]] = []
+    valuation_rows: Any = []
+    currency_rows: Any = []
+    growth_rows: Any = []
+    technical_rows: Any = []
+    capital_rows: Any = []
+    capital_quantification_rows: list[dict[str, Any]] = []
+    consumption_rows: list[dict[str, Any]] = []
+    debt_rows: list[dict[str, Any]] = []
+    ranking_seed: Any = []
+
+    for manifest, path in zip(manifests, manifest_paths):
+        symbol: Any = _symbol(manifest)
+        profile: Any = _enrich_profile_from_dossier(profiles.get(symbol, {}), dossier_profiles.get(symbol))
+        data_summary: Any = _data_summary(manifest)
+        financial: Any = _financial_quality(manifest)
+        valuation: Any = _valuation_input_row(manifest)
+        currency_normalization: Any = _currency_normalization_row(manifest, financial, valuation)
+        technical: Any = _technical_summary(manifest)
+        capital: Any = _capital_summary(manifest)
+        capital_quantification: dict[str, Any] = quantify_capital_actions(symbol, capital, base_shares=_as_float(valuation.get("total_shares")))
+        customer_evidence: dict[str, Any] = _customer_evidence_summary(manifest)
+        layer: Any = _serenity_layer(manifest, profile)
+        growth: Any = _growth_hypothesis(manifest, financial, profile, currency_normalization)
+        candidate_consumption: Any = [
+            financial_consumption_audit(
+                symbol=symbol,
+                raw_status=_dataset_status(manifest, "financials"),
+                financial_payload=_load_result_json(manifest, "financials"),
+                financial_row=financial,
+            ),
+            valuation_consumption_audit(
+                symbol=symbol,
+                raw_status=_dataset_status(manifest, "valuation_inputs"),
+                valuation_payload=_valuation_audit_payload(manifest),
+                valuation_row=valuation,
+                growth_row=growth,
+                currency_normalization_row=currency_normalization,
+            ),
+        ]
+        candidate_debt: Any = _research_debt_rows(manifest, capital, capital_quantification, customer_evidence, financial, technical, layer, growth)
+        candidate_debt.extend(_research_debt_from_consumption(candidate_consumption))
+        score: Any
+        research_score: Any
+        action_score: Any
+        action_readiness: Any
+        reason: Any
+        action_gate: Any
+        score, research_score, action_score, action_readiness, reason, action_gate = _priority_score(data_summary, financial, technical, capital, customer_evidence, layer, growth, candidate_debt)
+
+        candidates.append({
+            "symbol": symbol,
+            "name": _candidate_name(manifest),
+            "market": _market(manifest),
+            "currency": _currency(manifest),
+            "rating_cap": data_summary["rating_cap"],
+            "data_package_path": str(path),
+        })
+        data_rows.append(data_summary)
+        layer_rows.append(layer)
+        ai_review_rows.append(_ai_review_status_row(layer))
+        ai_dossier_rows.append(_ai_research_dossier_row(symbol, dossier_profiles.get(symbol)))
+        financial_rows.append(financial)
+        customer_rows.append(customer_evidence)
+        valuation_rows.append(valuation)
+        currency_rows.append(currency_normalization)
+        growth_rows.append(growth)
+        technical_rows.append(technical)
+        capital_rows.append(capital)
+        capital_quantification_rows.append(capital_quantification)
+        consumption_rows.extend(candidate_consumption)
+        debt_rows.extend(candidate_debt)
+        ranking_seed.append({
+            "symbol": symbol,
+            "priority_score": score,
+            "research_priority_score": research_score,
+            "action_priority_score": action_score,
+            "rating_cap": data_summary["rating_cap"],
+            "action_readiness": action_readiness,
+            "action_gate": action_gate,
+            "key_reason": reason,
+        })
+
+    ranked: Any = sorted(ranking_seed, key=lambda item: item["priority_score"], reverse=True)
+    for index, item in enumerate(ranked, start=1):
+        item["rank"] = index
+
+    next_actions: Any = []
+    for row in debt_rows:
+        action: Any = str(row.get("next_action") or row.get("objective") or "")
+        if action and action not in next_actions:
+            next_actions.append(action)
+
+    candidate_pool_semantic_coherence: dict[str, Any] = _candidate_pool_semantic_coherence(candidates, layer_rows)
+    ranking_validity: Any = _apply_candidate_pool_coherence(
+        _ranking_validity(consumption_rows, debt_rows),
+        candidate_pool_semantic_coherence,
+    )
+    for item in ranked:
+        item["decision_grade"] = ranking_validity.get("status") == "VALID"
+    readiness_rows: list[dict[str, Any]] = _readiness_matrix(
+        data_rows=data_rows,
+        ranked_rows=ranked,
+        consumption_rows=consumption_rows,
+        debt_rows=debt_rows,
+        ranking_validity=ranking_validity,
+    )
+    report: Any = {
+        "comparison_scope": {
+            "candidate_count": len(candidates),
+            "as_of": dt.datetime.now(dt.timezone.utc).isoformat(),
+            "basis": "fetch_manifest_plus_deterministic_decision_matrices",
+        },
+        "candidate_pool_semantic_coherence": candidate_pool_semantic_coherence,
+        "candidates": candidates,
+        "data_acquisition_summary": data_rows,
+        "serenity_layer_matrix": layer_rows,
+        "ai_review_status_matrix": ai_review_rows,
+        "ai_research_dossier_matrix": ai_dossier_rows,
+        "financial_quality_matrix": financial_rows,
+        "customer_evidence_matrix": customer_rows,
+        "valuation_input_matrix": valuation_rows,
+        "currency_normalization_matrix": currency_rows,
+        "growth_hypothesis_matrix": growth_rows,
+        "technical_timing_matrix": technical_rows,
+        "capital_actions": capital_rows,
+        "capital_action_quantification": capital_quantification_rows,
+        "data_consumption_audit": consumption_rows,
+        "readiness_matrix": readiness_rows,
+        "research_debt": debt_rows,
+        "candidate_priority_ranking": ranked,
+        "report_readiness": _report_readiness(ai_review_rows, ai_dossier_rows),
+        "final_decision": _final_decision(ranked, next_actions, ranking_validity, candidate_pool_semantic_coherence),
+    }
+    report["research_debt_runbook"] = build_runbook_rows(report)
+    errors: Any = validate_comparison_report(report)
+    if errors:
+        raise ValueError("; ".join(errors))
+    return report
+
+
+def to_markdown(report: Mapping[str, Any]) -> str:
+    lines: Any = [
+        "# 候选公司对比决策报告",
+        "",
+        "## 0. 结论先行",
+    ]
+    decision: Any = report.get("final_decision", {}) if isinstance(report.get("final_decision"), Mapping) else {}
+    lines.append(f"- 研究队列首位：{decision.get('leading_research_candidate', '')}")
+    action_candidate: str = str(decision.get("leading_action_candidate") or "")
+    lines.append(f"- 行动候选首位：{action_candidate or '无，当前仍受行动门控约束'}")
+    decision_candidate: str = str(decision.get("decision_candidate") or "")
+    lines.append(f"- 正式决策对象：{decision_candidate or '无'}")
+    lines.append(f"- 决策模式：{display_label(decision.get('decision_mode', ''))}")
+    lines.append(f"- 与第二名分差：{decision.get('score_gap_to_runner_up', '')}")
+    if decision.get("candidate_count_warning"):
+        lines.append(f"- 候选池提示：{display_label(decision.get('candidate_count_warning'))}")
+    coherence: Any = decision.get("candidate_pool_semantic_coherence") if isinstance(decision.get("candidate_pool_semantic_coherence"), Mapping) else report.get("candidate_pool_semantic_coherence", {})
+    if isinstance(coherence, Mapping):
+        lines.append(f"- 候选池一致性：{display_label(coherence.get('status'))}｜{coherence.get('reason', '')}")
+    readiness: Any = report.get("report_readiness") if isinstance(report.get("report_readiness"), Mapping) else {}
+    if readiness:
+        lines.append(f"- 报告状态：{display_label(readiness.get('stage'))}｜可交付 {display_bool(readiness.get('delivery_allowed'))}")
+    ranking_validity: Any = decision.get("ranking_validity") if isinstance(decision.get("ranking_validity"), Mapping) else {}
+    lines.append(f"- 排序可信度：{display_label(ranking_validity.get('status', ''))}｜{ranking_validity.get('reason', '')}")
+    lines.append(f"- 决策说明：{decision.get('decision', '')}")
+    invalid_ranking: bool = ranking_validity.get("status") == "INVALID"
+    if invalid_ranking:
+        lines.extend([
+            "",
+            "> 本报告不产生正式决策对象。以下排序仅用于定位数据消费、研究债务和工程修复点，不代表投资研究排序。",
+        ])
+    ranking_title: str = "工程诊断排序｜非投资候选排序" if invalid_ranking else "研究队列排序"
+    lines.extend(["", f"## 1. {ranking_title}", "| 排名 | 标的 | 可形成结论 | 研究分 | 行动分 | 优先级 | 主门控 | 行动状态 | 理由 |", "|---:|---|---|---:|---:|---:|---|---|---|"])
+    for row in report.get("candidate_priority_ranking", []):
+        if isinstance(row, Mapping):
+            gate: Any = row.get("action_gate") if isinstance(row.get("action_gate"), Mapping) else {}
+            decision_grade: bool = bool(row.get("decision_grade"))
+            lines.append(f"| {row.get('rank')} | {row.get('symbol')} | {display_bool(decision_grade)} | {row.get('research_priority_score')} | {row.get('action_priority_score')} | {row.get('priority_score')} | {display_label(gate.get('primary_gate', ''))} | {display_label(row.get('action_readiness'))} | {row.get('key_reason')} |")
+    lines.extend(["", "## 1.1 行动门控", "| 标的 | 主门控 | 门控类别 | 次级门控 | 门控类别明细 | 阻断数据集 | 阻断原因 |", "|---|---|---|---|---|---|---|"])
+    for row in report.get("candidate_priority_ranking", []):
+        if isinstance(row, Mapping):
+            gate = row.get("action_gate") if isinstance(row.get("action_gate"), Mapping) else {}
+            secondary: Any = display_list(gate.get("secondary_gates", []), empty="")
+            gate_classes: str = _gate_class_summary(gate.get("gate_classes"))
+            datasets: Any = display_list(gate.get("blocking_datasets", []), empty="")
+            reasons: Any = "; ".join(str(item) for item in gate.get("blocking_reasons", []) if item) if isinstance(gate.get("blocking_reasons", []), list) else ""
+            lines.append(f"| {row.get('symbol')} | {display_label(gate.get('primary_gate', ''))} | {display_label(gate.get('primary_gate_class', ''))} | {secondary} | {gate_classes} | {datasets} | {reasons} |")
+    lines.extend(["", "## 1.2 三层状态", "| 标的 | 数据获取状态 | 研究状态 | 行动状态 | 主门控类别 | 门控类别明细 | 数据证据上限 | 原因码 |", "|---|---|---|---|---|---|---|---|"])
+    for row in report.get("readiness_matrix", []):
+        if isinstance(row, Mapping):
+            reasons = display_list(row.get("reason_codes", []), empty="")
+            gate_classes = _gate_class_summary(row.get("gate_classes"))
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('fetch_status'))} | {display_label(row.get('research_readiness'))} | {display_label(row.get('action_readiness'))} | {display_label(row.get('primary_gate_class'))} | {gate_classes} | {row.get('data_evidence_cap')} | {reasons} |")
+    lines.extend(["", "## 1.3 AI 研究状态", "| 标的 | AI 状态 | Overlay 已合并 | 产业层级已映射 | 证据数 | 问题数 | 阻断说明 |", "|---|---|---|---|---:|---:|---|"])
+    for row in report.get("ai_review_status_matrix", []):
+        if isinstance(row, Mapping):
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('ai_review_status'))} | {display_bool(row.get('overlay_merged'))} | {display_bool(row.get('layer_mapped'))} | {row.get('evidence_ref_count')} | {row.get('research_question_count')} | {row.get('blocking_reason', '')} |")
+    lines.extend(["", "## 1.4 AI 深研 Dossier", "| 标的 | Dossier 状态 | 质量分 | 质量档 | 已合并 | 已读源 | 观察 | 推断 | 判断 | 假设 | 证据测试 | 未决问题 | Claim | 支持 Claim | 因果步骤 | AI 增量 | 行动条件 |", "|---|---|---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|"])
+    for row in report.get("ai_research_dossier_matrix", []):
+        if isinstance(row, Mapping):
+            deltas: str = f"thesis {row.get('thesis_quality_delta')} / evidence {row.get('evidence_confidence_delta')} / risk {row.get('risk_adjustment')}"
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('dossier_status'))} | {row.get('quality_score')} | {display_label(row.get('quality_band'))} | {display_bool(row.get('dossier_merged'))} | {row.get('source_read_count')} | {row.get('observed_count')} | {row.get('inferred_count')} | {row.get('judgment_count')} | {row.get('hypothesis_count')} | {row.get('evidence_test_count')} | {row.get('unresolved_question_count')} | {row.get('claim_count')} | {row.get('supported_claim_count')} | {row.get('causal_step_count')} | {deltas} | {row.get('action_condition_summary', '')} |")
+    lines.extend(["", "## 1.5 客户/订单/产能证据", "| 标的 | 数据状态 | 证据状态 | 分数 | 直接证据 | 线索证据 | 待阅读记录 | 来源 | 下一步证据 |", "|---|---|---|---:|---:|---:|---:|---|---|"])
+    for row in report.get("customer_evidence_matrix", []):
+        if isinstance(row, Mapping):
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('status'))} | {display_label(row.get('evidence_status'))} | {row.get('score')} | {row.get('direct_evidence_count')} | {row.get('lead_evidence_count')} | {row.get('review_queue_count')} | {row.get('source_name')} | {row.get('required_next_evidence')} |")
+    lines.extend(["", "## 2. 数据消费审计", "| 标的 | 数据集 | 原始状态 | 行数 | 消费状态 | 原因码 | 必需转换 | 阻断矩阵 | 选中期间 | 选择规则 | 警告 |", "|---|---|---|---:|---|---|---|---|---|---|---|"])
+    for row in report.get("data_consumption_audit", []):
+        if isinstance(row, Mapping):
+            warnings: Any = "; ".join(str(item) for item in row.get("warnings", []) if item) if isinstance(row.get("warnings", []), list) else ""
+            blocked: Any = display_list(row.get("blocked_matrices", []), empty="")
+            lines.append(f"| {row.get('symbol')} | {row.get('dataset')} | {display_label(row.get('raw_status'))} | {row.get('row_count')} | {display_label(row.get('consumption_status'))} | {display_label(row.get('reason_code'))} | {row.get('required_transform', '')} | {blocked} | {row.get('selected_period')} | {row.get('selection_rule')} | {warnings} |")
+    lines.extend(["", "## 3. 数据追索与研究债务", "| 标的 | 数据集 | 优先级 | 下一步动作 |", "|---|---|---|---|"])
+    for row in report.get("research_debt", []):
+        if isinstance(row, Mapping):
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('dataset', ''))} | {display_label(row.get('priority', ''))} | {row.get('next_action') or row.get('objective', '')} |")
+    lines.extend(["", "## 3.1 研究债务 Runbook", "| 标的 | 数据集 | 轴线 | 阻断级别 | 下一步动作 | 验证目标 | 预期效果 |", "|---|---|---|---|---|---|---|"])
+    for row in report.get("research_debt_runbook", []):
+        if isinstance(row, Mapping):
+            targets: Any = display_list(row.get("validation_target", []), empty="")
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('dataset', ''))} | {display_label(row.get('axis', ''))} | {display_label(row.get('blocking_level', ''))} | {row.get('next_action', '')} | {targets} | {row.get('expected_effect_if_resolved', '')} |")
+    lines.extend(["", "## 4. 财务质量矩阵", "| 标的 | 分数 | 年报期间 | 选择规则 | 金额单位 | 收入增速 | 净利率 | 经营现金流/净利润 | 负债/资产 | 预检标签 |", "|---|---:|---|---|---|---:|---:|---:|---:|---|"])
+    for row in report.get("financial_quality_matrix", []):
+        if isinstance(row, Mapping):
+            amount_unit: str = f"{row.get('financial_statement_unit', '')} x{row.get('financial_unit_multiplier', '')}"
+            lines.append(f"| {row.get('symbol')} | {row.get('score')} | {row.get('latest_annual_period', '')} | {row.get('latest_annual_selection_rule', '')} | {amount_unit} | {_display_cell(row.get('revenue_growth_pct'))} | {_display_cell(row.get('net_margin_pct'))} | {_display_cell(row.get('ocf_to_net_income_pct'))} | {_display_cell(row.get('debt_to_assets_pct'))} | {display_label(row.get('label', ''))} |")
+    lines.extend(["", "## 5. 估值输入矩阵", "| 标的 | 状态 | 阶段 | 价格 | 股数 | 总市值 | 币种 | 来源 | 口径 | 需复核 |", "|---|---|---|---:|---:|---:|---|---|---|---|"])
+    for row in report.get("valuation_input_matrix", []):
+        if isinstance(row, Mapping):
+            basis: Any = row.get("market_cap_basis") or row.get("share_count_basis") or row.get("source_basis")
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('status'))} | {display_label(row.get('valuation_stage'))} | {row.get('regular_market_price')} | {row.get('total_shares')} | {row.get('total_market_cap')} | {row.get('currency')} | {row.get('source_name')} | {basis} | {display_bool(row.get('verification_needed'))} |")
+    lines.extend(["", "## 5.1 币种归一矩阵", "| 标的 | 状态 | 估值币种 | 财报币种 | 原始总市值 | 汇率 | 归一后总市值 | 汇率来源 | 原因 |", "|---|---|---|---|---:|---:|---:|---|---|"])
+    for row in report.get("currency_normalization_matrix", []):
+        if isinstance(row, Mapping):
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('normalization_status'))} | {row.get('source_currency')} | {row.get('target_currency')} | {row.get('original_total_market_cap')} | {row.get('fx_rate')} | {row.get('normalized_total_market_cap')} | {row.get('fx_source')} | {display_label(row.get('reason_code'))} |")
+    lines.extend(["", "## 6. 市场隐含增长 vs 证据支持增长", "| 标的 | 估值引用 | 市场隐含增长 | 证据支持增长 | PE | PS | 财务金额口径 | 缺口 | 所需证据 |", "|---|---|---|---|---:|---:|---|---|---|"])
+    for row in report.get("growth_hypothesis_matrix", []):
+        if isinstance(row, Mapping):
+            amount_basis: str = f"revenue={row.get('revenue_amount')} / net_income={row.get('net_income_amount')} / unit={row.get('financial_statement_unit')} x{row.get('financial_unit_multiplier')}"
+            lines.append(f"| {row.get('symbol')} | {row.get('valuation_input_ref')} | {display_label(row.get('market_implied_growth'))} | {display_label(row.get('evidence_supported_growth'))} | {row.get('pe_preflight')} | {row.get('ps_preflight')} | {amount_basis} | {display_label(row.get('gap'))} | {row.get('required_next_evidence')} |")
+    lines.extend(["", "## 7. 技术健康与缠论动作", "| 标的 | 历史深度 | 趋势状态 | 缠论动作 | 允许买点判断 | 说明 |", "|---|---|---|---|---|---|"])
+    for row in report.get("technical_timing_matrix", []):
+        if isinstance(row, Mapping):
+            lines.append(f"| {row.get('symbol')} | {display_label(row.get('history_depth_status'))} | {display_label(row.get('trend_state'))} | {display_label(row.get('chan_action'))} | {display_bool(row.get('buy_point_claim_allowed'))} | {row.get('decision_note')} |")
+    lines.extend(["", "## 8. A 股资本动作", "| 标的 | 风险 | 动作类型 | 研究债务 |", "|---|---|---|---|"])
+    for row in report.get("capital_actions", []):
+        if isinstance(row, Mapping):
+            summary: Any = row.get("summary", {}) if isinstance(row.get("summary"), Mapping) else {}
+            lines.append(f"| {row.get('symbol')} | {display_label(summary.get('material_risk_level'))} | {display_list(summary.get('action_types', []), empty='无')} | {'; '.join(row.get('research_debt', [])) if isinstance(row.get('research_debt'), list) else ''} |")
+    lines.extend(["", "## 8.1 资本动作量化", "| 标的 | 状态 | 需量化动作数 | 最大摊薄 | 行动影响 | 字段级缺口 |", "|---|---|---:|---:|---|---|"])
+    for row in report.get("capital_action_quantification", []):
+        if isinstance(row, Mapping):
+            summary = row.get("summary", {}) if isinstance(row.get("summary"), Mapping) else {}
+            missing: list[str] = []
+            actions = row.get("actions", [])
+            if isinstance(actions, list):
+                for action in actions:
+                    if isinstance(action, Mapping) and isinstance(action.get("missing_fields"), list) and action.get("missing_fields"):
+                        missing.append(f"{display_label(action.get('action_type'))}: {', '.join(str(item) for item in action.get('missing_fields', []))}")
+            lines.append(f"| {row.get('symbol')} | {display_label(summary.get('quantification_status'))} | {summary.get('requires_quantification_count')} | {_display_cell(summary.get('max_dilution_pct'))} | {display_label(summary.get('impact_on_action'))} | {'; '.join(missing)} |")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def main(argv: Optional[Sequence[str]] = None) -> int:
+    parser: Any = argparse.ArgumentParser(description="Build Serenity + Chan candidate comparison report")
+    parser.add_argument("manifests", nargs="+", help="fetch manifest JSON paths")
+    parser.add_argument("--format", choices=["json", "md", "both"], default="json")
+    args: Any = parser.parse_args(argv)
+    try:
+        report: Any = build_comparison_report([Path(path) for path in args.manifests])
+        if args.format == "json":
+            print(json.dumps(report, ensure_ascii=False, indent=2))
+        elif args.format == "md":
+            print(to_markdown(report))
+        else:
+            print(json.dumps(report, ensure_ascii=False, indent=2))
+            print("\n---\n")
+            print(to_markdown(report))
+    except Exception as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

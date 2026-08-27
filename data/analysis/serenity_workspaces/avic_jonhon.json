@@ -1,0 +1,142 @@
+{
+  "id": "saout_avic_jonhon_6bca8bc54097",
+  "entityId": "avic_jonhon",
+  "name": "中航光电",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "  },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 28.2,\n      \"average_rating\": 1.41,\n      \"details\": {\n        \"monthly_trend\": 1.2,\n        \"weekly_structure\": 2.1,\n        \"daily_buy_point\": 1.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.0\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"连接器与互连处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺批量订单、实际交付、无人机业务收入和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -19.9%，近60日涨跌 -2.1%；客户或订单证据 0 条直接、2 条线索。\",\n      \"missing_proof\": \"批量订单 / 实际交付 / 无人机业务收入 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"产品或项目进展没有转成批量订单和实际交付。\",\n    \"无人机相关收入增长弱于公司整体，无法证明业务在兑现。\",\n    \"应收、库存或现金流恶化，说明订单质量低于预期。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "002179.SZ",
+    "symbol": "002179"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_27_static_cninfo_com_cn_7c0ce2b78b",
+      "raw_2026_03_28_static_cninfo_com_cn_bbcd3cd54d",
+      "raw_2026_03_28_static_cninfo_com_cn_3ef90024f3",
+      "raw_2025_08_30_static_cninfo_com_cn_6d80560a3d",
+      "raw_2025_08_30_static_cninfo_com_cn_95725be088",
+      "raw_2025_03_29_static_cninfo_com_cn_a5ff19ce7b",
+      "raw_2025_03_29_static_cninfo_com_cn_3af816b49e",
+      "raw_2026_06_25_static_cninfo_com_cn_d1c74fdf15"
+    ],
+    "claimIds": [
+      "claim_2026_08_27_filing_e116331ea2",
+      "claim_2026_03_28_filing_f5e9bde0bf",
+      "claim_2026_03_28_filing_9b8515419d",
+      "claim_2025_08_30_filing_0c44bc4c49",
+      "claim_2025_08_30_filing_20fe31e0c0",
+      "claim_2025_03_29_filing_d8f5d3c37c",
+      "claim_2025_03_29_filing_a966478c27",
+      "claim_2026_06_25_filing_e3f12f4f93",
+      "claim_2026_06_04_filing_d0e0090ea1",
+      "claim_2026_04_25_filing_79d32e6f6c",
+      "claim_2026_03_28_filing_1ba905b0c4",
+      "claim_2025_04_29_filing_3d51d162fc",
+      "claim_2026_06_18_filing_9a0e94f150",
+      "claim_2026_06_18_filing_cf833d0c93",
+      "claim_2026_08_27_filing_b5e47858b9",
+      "claim_2026_08_27_filing_59090306ca",
+      "claim_2026_08_27_filing_1436f98e17",
+      "claim_2026_07_28_filing_d70b56c2e4",
+      "claim_2026_04_24_filing_c9e243261f",
+      "claim_2026_04_24_filing_1cab76d282"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/data/002179/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "中航光电 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 55.41/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/data/002179/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 002179.SZ (中航光电)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **55.41 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 61.12 |\n| Technical timing | 28.2 |\n| Data readiness | 100.0 |\n| Action readiness | 59.69 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 产品或项目进展没有转成批量订单和实际交付。\n- 无人机相关收入增长弱于公司整体，无法证明业务在兑现。\n- 应收、库存或现金流恶化，说明订单质量低于预期。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

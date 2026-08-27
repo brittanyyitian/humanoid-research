@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_12_static_cninfo_com_cn_8e00cf7606",
+  "artifactType": "filing",
+  "title": "关于收到上海证券交易所审核中心意见落实函的公告",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-12/1225365715.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8e00cf7606",
+  "fetchRunId": "fetch_2026_06_12_static_cninfo_com_cn_8e00cf7606",
+  "publishedAt": "2026-06-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1d9f79929e302e12d29e055e0c1927ddddc078e032316a49efa3610fe189370e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_12_static_cninfo_com_cn_8e00cf7606.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_06_12_filing_943fd1b9d2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4c9c147f78a365de; listSourceId=src_cninfo_688347_announcements."
+}

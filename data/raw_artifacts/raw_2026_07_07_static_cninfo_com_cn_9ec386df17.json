@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_07_static_cninfo_com_cn_9ec386df17",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于安集微电子科技（上海）股份有限公司股东向特定机构投资者询价转让股份的核查报告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225411169.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9ec386df17",
+  "fetchRunId": "fetch_2026_07_07_static_cninfo_com_cn_9ec386df17",
+  "publishedAt": "2026-07-07",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4f6b18fccf286a14d57fa5ea861189a2df3d4cbbf96c8713fc3d31f50f1ef16a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_9ec386df17.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_07_filing_c378a7c8fe"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5994649327ea6c4f; listSourceId=src_cninfo_688019_announcements."
+}

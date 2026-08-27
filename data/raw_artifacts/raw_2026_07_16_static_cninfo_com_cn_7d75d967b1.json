@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_16_static_cninfo_com_cn_7d75d967b1",
+  "artifactType": "filing",
+  "title": "部分董事及高级管理人员减持股份结果公告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225427163.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7d75d967b1",
+  "fetchRunId": "fetch_2026_07_16_static_cninfo_com_cn_7d75d967b1",
+  "publishedAt": "2026-07-16",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:b2ed522d9a40a4c2aa4bd0e2a2c78af9051a88ed3097458c106878c8191a8210",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_16_static_cninfo_com_cn_7d75d967b1.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_16_filing_6725a3833f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b51c385b28e3cf82; listSourceId=src_cninfo_688019_announcements."
+}

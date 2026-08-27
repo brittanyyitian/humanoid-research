@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_b4c75b83b621",
+  "rawArtifactId": "raw_2026_07_23_static_cninfo_com_cn_cbf39d64d6",
+  "routeDecisionId": "route_2026_07_23_19966464e473",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "yeeda",
+  "entityIds": [
+    "yeeda"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_23_filing_610478feeb"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_23_filing_610478feeb"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_23_filing_material_v0_e4e9a196ee"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_94e6d4ea4f3b"
+  ]
+}

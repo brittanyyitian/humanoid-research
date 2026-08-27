@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_f3aabb24a0",
+  "artifactType": "filing",
+  "title": "2026年半年度报告",
+  "publisher": "步科股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503327.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3aabb24a0",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_f3aabb24a0",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:1fea566dc1ade5ff66e824ceaf0a47861e8001e89aa04a6858bab31778c049ed",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_f3aabb24a0.json",
+  "entityIds": [
+    "kinco"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_f89e679f2a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2079a8f41b7a38d0; listSourceId=src_cninfo_688160_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_19_static_cninfo_com_cn_df6db3122a",
+  "artifactType": "filing",
+  "title": "2025年第一季度报告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-19/1223155692.PDF",
+  "sourceId": "src_static_cninfo_com_cn_df6db3122a",
+  "fetchRunId": "fetch_2025_04_19_static_cninfo_com_cn_df6db3122a",
+  "publishedAt": "2025-04-19",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:56bc0b46cefea37d844c19ff0b3c598a6abeffe14614f3713d3e4c9e2a3fa55b",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_19_static_cninfo_com_cn_df6db3122a.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2025_04_19_filing_fbb394cd5b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_18d2e0b540839212; listSourceId=src_cninfo_688256_announcements."
+}

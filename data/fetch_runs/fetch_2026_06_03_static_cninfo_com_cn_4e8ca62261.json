@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_03_static_cninfo_com_cn_4e8ca62261",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "紫金矿业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_03_static_cninfo_com_cn_4e8ca62261"
+  ],
+  "claimIds": [
+    "claim_2026_06_03_filing_d69c669250"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-03/1225347320.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:320de0a918f5fb96f75591bcfaebded8f2a24d3fa81670a26c2607a92fa2e43d",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_03_static_cninfo_com_cn_4e8ca62261.json"
+    }
+  ]
+}

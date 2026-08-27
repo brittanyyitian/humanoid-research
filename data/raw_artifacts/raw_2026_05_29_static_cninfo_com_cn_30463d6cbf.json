@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_29_static_cninfo_com_cn_30463d6cbf",
+  "artifactType": "filing",
+  "title": "第八届董事会第四次会议决议公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-29/1225336755.PDF",
+  "sourceId": "src_static_cninfo_com_cn_30463d6cbf",
+  "fetchRunId": "fetch_2026_05_29_static_cninfo_com_cn_30463d6cbf",
+  "publishedAt": "2026-05-29",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:589f9e76598de8a4031e0d765c7be8c17622c3bdb184bbf477ec9687973323f8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_29_static_cninfo_com_cn_30463d6cbf.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_05_29_filing_640c44094c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fd5a3ea3ec0e6233; listSourceId=src_cninfo_002179_announcements."
+}

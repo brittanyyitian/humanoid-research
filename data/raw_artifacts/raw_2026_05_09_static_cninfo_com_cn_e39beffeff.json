@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_e39beffeff",
+  "artifactType": "filing",
+  "title": "关于董事长及高级管理人员增持公司股份的公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225286089.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e39beffeff",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_e39beffeff",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:8af804e096f64de8f81b7be26d4521b375643b6868ef0f39e8729612c445a527",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_e39beffeff.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_58288fe959"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1c8f9dd9bbcf6b86; listSourceId=src_cninfo_002179_announcements."
+}

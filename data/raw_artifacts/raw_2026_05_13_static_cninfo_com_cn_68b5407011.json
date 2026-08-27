@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_13_static_cninfo_com_cn_68b5407011",
+  "artifactType": "filing",
+  "title": "关于公司高级管理人员辞职的公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-13/1225300598.PDF",
+  "sourceId": "src_static_cninfo_com_cn_68b5407011",
+  "fetchRunId": "fetch_2026_05_13_static_cninfo_com_cn_68b5407011",
+  "publishedAt": "2026-05-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b4d13eceb66387564c52287014ea75a987c6cd2e76be78a9c856346095dca8d3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_13_static_cninfo_com_cn_68b5407011.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_13_filing_ccc89bc4ea"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_95fab730621a21b7; listSourceId=src_cninfo_000159_announcements."
+}

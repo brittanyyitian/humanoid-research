@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_d212cb26b5",
+  "artifactType": "filing",
+  "title": "2026年上半年计提减值准备的公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225493868.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d212cb26b5",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_d212cb26b5",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:e76e9c477fe45d9418865db5be3f7413c5be75b2ba5ef709751bfe20a9942de1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_d212cb26b5.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_eeaabe13b3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4db862a3f4d577b5; listSourceId=src_cninfo_600028_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_57ab803a3e",
+  "artifactType": "filing",
+  "title": "大唐发电2025年半年度报告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224611936.PDF",
+  "sourceId": "src_static_cninfo_com_cn_57ab803a3e",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_57ab803a3e",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:80133a253aa048a98f3541cb8cb03a122adde37872e101100f4c20e45f7352ea",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_57ab803a3e.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_cb85d06039"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_16dc74acec2bfa8b; listSourceId=src_cninfo_601991_announcements."
+}

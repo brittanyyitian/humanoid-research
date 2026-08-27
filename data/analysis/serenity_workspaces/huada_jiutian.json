@@ -1,0 +1,142 @@
+{
+  "id": "saout_huada_jiutian_6bc6cba7493b",
+  "entityId": "huada_jiutian",
+  "name": "华大九天",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": ",\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 26.6,\n      \"average_rating\": 1.33,\n      \"details\": {\n        \"monthly_trend\": 2.3,\n        \"weekly_structure\": 0.8,\n        \"daily_buy_point\": 0.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.8\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"芯片设计工具处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -13.7%，近60日涨跌 9.3%；客户或订单证据 0 条直接、2 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "301269.SZ",
+    "symbol": "301269"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_04_28_static_cninfo_com_cn_66bcd014f2",
+      "raw_2026_04_28_static_cninfo_com_cn_0c3296c8ce",
+      "raw_2025_08_16_static_cninfo_com_cn_9af1ceb858",
+      "raw_2025_08_16_static_cninfo_com_cn_1defd6dedc",
+      "raw_2025_04_28_static_cninfo_com_cn_7730cf16a1",
+      "raw_2025_04_28_static_cninfo_com_cn_1827a6b747",
+      "raw_2026_07_22_static_cninfo_com_cn_726beac856",
+      "raw_2026_07_09_static_cninfo_com_cn_1a5b0f5f12"
+    ],
+    "claimIds": [
+      "claim_2026_04_28_filing_a9dcfcd462",
+      "claim_2026_04_28_filing_a9167b160f",
+      "claim_2025_08_16_filing_9525376bcb",
+      "claim_2025_08_16_filing_694778340f",
+      "claim_2025_04_28_filing_83a2fcfa94",
+      "claim_2025_04_28_filing_fe10a43f8c",
+      "claim_2026_07_22_filing_0c0387aa5f",
+      "claim_2026_07_09_filing_b36f104ed1",
+      "claim_2026_07_09_filing_5e82517b78",
+      "claim_2026_07_09_filing_0eb18c137a",
+      "claim_2026_05_13_filing_8a1d225194",
+      "claim_2026_04_28_filing_7590f1be71",
+      "claim_2025_04_29_filing_475dabe09f",
+      "claim_2026_08_24_filing_1a77b3b031",
+      "claim_2026_07_29_filing_4fe5eac9d5",
+      "claim_2026_07_09_filing_e76e38b42b",
+      "claim_2026_05_26_filing_9de510fb16",
+      "claim_2026_05_15_filing_ea6ee9162a",
+      "claim_2026_05_15_filing_09b809c4e6",
+      "claim_2026_05_15_filing_ec020936f5"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/data/301269/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "华大九天 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 55.34/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/data/301269/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_33_huada_jiutian/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 301269.SZ (华大九天)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **55.34 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 61.12 |\n| Technical timing | 26.6 |\n| Data readiness | 100.0 |\n| Action readiness | 58.97 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 后续财报仍看不到核心产品收入、客户验证或份额提升。\n- 研发和扩产投入增加，但订单、收入与现金流没有同步改善。\n- 行业景气回落，价格或库存变化削弱原来的增长判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

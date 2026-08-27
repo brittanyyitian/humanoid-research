@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_80be383bad",
+  "capturedAt": "2026-07-23T09:32:52+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225391585.PDF",
+    "title": "关于公司副总裁辞任的公告",
+    "publisher": "杰瑞股份",
+    "publishedAt": "2026-06-27",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "jereh"
+    ],
+    "body": "证券代码：002353 证券简称：杰瑞股份 公告编号：2026-044\n烟台杰瑞石油服务集团股份有限公司\n关于公司副总裁辞任的公告\n本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚\n假记载、误导性陈述或重大遗漏。\n烟台杰瑞石油服务集团股份有限公司（以下简称“公司”）董事会近日收到\n公司副总裁李伟斌先生的辞任报告。李伟斌先生由于工作原因，申请辞去公司副\n总裁职务。辞任后，李伟斌先生仍在公司担任其他职务，负责推动公司海外油气\n工程、天然气开发、SMR 小型模块化反应堆等重要业务的开展。\n李伟斌先生辞任不会影响公司相关工作的正常进行。根据《公司法》《公司\n章程》等相关规定，其辞任报告自送达董事会之日起生效。\n截至本公告披露日，李伟斌先生未持有公司股份，不存在应当履行而未履行\n的承诺事项。\n李伟斌先生在担任公司副总裁期间认真履行工作职责，恪尽职守，勤勉尽责，\n公司董事会对李伟斌先生在任期内为公司发展作出的贡献表示衷心感谢！\n特此公告。\n烟台杰瑞石油服务集团股份有限公司董事会\n2026 年 6 月 26 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:52+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 52520,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_46292c42f7",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司会计师事务所履职情况评估报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036000.PDF",
+  "sourceId": "src_static_cninfo_com_cn_46292c42f7",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_46292c42f7",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c30637805e71d6fceadc3513d86d2ef32368ed18bd742a4594d630e419529562",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_46292c42f7.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_46d470e3e5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7a0c405bda0ff21f; listSourceId=src_cninfo_600938_announcements."
+}

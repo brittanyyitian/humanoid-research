@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_13_static_cninfo_com_cn_04f0007a79",
+  "artifactType": "filing",
+  "title": "关于首次实现盈利暨取消股票简称标识U的公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-13/1225007364.PDF",
+  "sourceId": "src_static_cninfo_com_cn_04f0007a79",
+  "fetchRunId": "fetch_2026_03_13_static_cninfo_com_cn_04f0007a79",
+  "publishedAt": "2026-03-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:8607bc03f9a5ee382dada51de9d4ce7c7c502121bf600d37c2e686b47675a2e5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_13_static_cninfo_com_cn_04f0007a79.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_03_13_filing_fa9cfd70e3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f999efae80cb6b1b; listSourceId=src_cninfo_688256_announcements."
+}

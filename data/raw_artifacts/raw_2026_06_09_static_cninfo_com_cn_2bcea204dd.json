@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_2bcea204dd",
+  "artifactType": "filing",
+  "title": "关于中证中小投资者服务中心有限责任公司公开征集表决权的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225360360.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2bcea204dd",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_2bcea204dd",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:846338f72b16d0d0d4b486e8a4cdc520a4fe3e5e0a459e02e7f5685df294eb6d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_2bcea204dd.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_b5ff3145cb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_790e522fd44948c4; listSourceId=src_cninfo_300164_announcements."
+}

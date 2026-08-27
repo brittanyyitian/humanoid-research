@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_0483249381",
+  "artifactType": "filing",
+  "title": "关于控股股东部分股份质押的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225408174.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0483249381",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_0483249381",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:354a9f72a0f865680d061059162e5a35e637d4e469b4a21a6e41f3b644c4e7e3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_0483249381.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_adb12d1db3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_89e1ab5e009cd360; listSourceId=src_cninfo_300164_announcements."
+}

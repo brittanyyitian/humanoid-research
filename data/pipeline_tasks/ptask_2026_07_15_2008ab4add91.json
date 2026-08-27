@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_2008ab4add91",
+  "rawArtifactId": "raw_2026_07_09_static_cninfo_com_cn_1a31553c66",
+  "routeDecisionId": "route_2026_07_09_7d4c26bd4859",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "wuzhou_xinchun",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-15T11:03:07+08:00",
+  "updatedAt": "2026-07-15T11:03:07+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_09_filing_b074b9b27d"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_09_filing_b074b9b27d"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_09_filing_material_v0_7b7bf431d9"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_193d4134a3fb"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_9f39cb183b",
+  "artifactType": "filing",
+  "title": "关于回购公司股份的进展公告",
+  "publisher": "汇川技术",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225402651.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9f39cb183b",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_9f39cb183b",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:8fbe2900204aebc6b67c91502ede372d12d90d466f2c5823059d0720a7039f9f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_9f39cb183b.json",
+  "entityIds": [
+    "inovance"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_343f6e7967"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_830d0dda7d0b92ff; listSourceId=src_cninfo_300124_announcements."
+}

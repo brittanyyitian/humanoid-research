@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_04_23_static_cninfo_com_cn_dfe42e6f52",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "杰瑞股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:34+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_04_23_static_cninfo_com_cn_dfe42e6f52"
+  ],
+  "claimIds": [
+    "claim_2025_04_23_filing_6a6d032ad1"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-23/1223210695.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:28bca7820cfab24b33f433062475a2a498d7d394c5ad3759ee38fd67709936dd",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_23_static_cninfo_com_cn_dfe42e6f52.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:34+08:00",
+      "finishedAt": "2026-07-23T09:58:34+08:00",
+      "contentHash": "sha256:881263b9d0848d67c9cb12c61a5e6ae9e4089c7a11502af6982166d406474aa3",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_23_static_cninfo_com_cn_dfe42e6f52.json"
+    }
+  ]
+}

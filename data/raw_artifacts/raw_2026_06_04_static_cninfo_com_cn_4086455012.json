@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_4086455012",
+  "artifactType": "filing",
+  "title": "经理层成员薪酬管理办法",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225350139.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4086455012",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_4086455012",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:b5ff5099ee055c656136e416d8973febbfdb4073d881b4be81b1308206d317c0",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_4086455012.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_d0e0090ea1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_230d0a8fb752a1fb; listSourceId=src_cninfo_002179_announcements."
+}

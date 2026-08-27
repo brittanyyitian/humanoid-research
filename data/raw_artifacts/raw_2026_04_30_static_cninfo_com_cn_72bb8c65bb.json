@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_72bb8c65bb",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司、国投证券股份有限公司对国投电力控股股份有限公司关于融实国际财资管理有限公司2025年度风险持续评估报告的核查意见",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225257756.PDF",
+  "sourceId": "src_static_cninfo_com_cn_72bb8c65bb",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_72bb8c65bb",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:99469c9c3ec8956243c0d575bd54646be0cfb30749292447f5f8731a8b70d409",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_72bb8c65bb.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_2de0de6408"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e947e7b01332db75; listSourceId=src_cninfo_600886_announcements."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_b0c0364a2266",
+  "rawArtifactId": "raw_2026_06_24_static_cninfo_com_cn_c8536b1fb3",
+  "routeDecisionId": "route_2026_06_24_4eeff90539b4",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "hainan_haiyao",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:57+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:57+08:00",
+  "finishedAt": "2026-07-23T09:50:57+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_24_filing_efc4c5ea44"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_24_filing_efc4c5ea44"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_24_filing_material_v0_7cd54a39a5"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_8ec10cbcb0af"
+  ]
+}

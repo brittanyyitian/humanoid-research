@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_04_static_cninfo_com_cn_2c9a601eed",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "长电科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-04T16:16:54+08:00",
+  "finishedAt": "2026-08-04T16:16:54+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_04_static_cninfo_com_cn_2c9a601eed"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_8b43e5c639"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225455789.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-04T16:16:54+08:00",
+      "finishedAt": "2026-08-04T16:16:54+08:00",
+      "contentHash": "sha256:d7015df8c8bcf3b8ca50649f063929790e499bb44206e2eac02d1e976a0a6835",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_2c9a601eed.json"
+    }
+  ]
+}

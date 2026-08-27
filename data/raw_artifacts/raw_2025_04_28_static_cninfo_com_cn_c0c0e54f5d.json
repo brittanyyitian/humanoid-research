@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_28_static_cninfo_com_cn_c0c0e54f5d",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-28/1223317584.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c0c0e54f5d",
+  "fetchRunId": "fetch_2025_04_28_static_cninfo_com_cn_c0c0e54f5d",
+  "publishedAt": "2025-04-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:f48db534c931fe094677f1304863e80ff0042d1568f2f8f4e830f5442ac5b0f9",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_28_static_cninfo_com_cn_c0c0e54f5d.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2025_04_28_filing_e4bd2ff6a6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9c423cae2a2ccc0c; listSourceId=src_cninfo_000426_announcements."
+}

@@ -1,0 +1,1634 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "hengrui",
+  "name": "恒瑞医药",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_hengrui_2026-07-23",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.91,
+      "currency": "CNY",
+      "changePct": -0.87,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": -13.05773083227098,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": -11.7670612974498,
+          "maxDrawdownPct": -13.152628706567212,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-24",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.45,
+      "currency": "CNY",
+      "changePct": -2.66,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": -10.68288119738073,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": -13.742858391943686,
+          "maxDrawdownPct": -13.152628706567212,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-25",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.45,
+      "currency": "CNY",
+      "changePct": -2.66,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": -10.68288119738073,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": -13.53250855380336,
+          "maxDrawdownPct": -13.152628706567212,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-26",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.45,
+      "currency": "CNY",
+      "changePct": -2.66,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -12.516370439663246,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": -11.811107281768507,
+          "maxDrawdownPct": -14.93541931962889,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-27",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.6,
+      "currency": "CNY",
+      "changePct": 0.28,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": -13.264925373134325,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": -11.449552642350243,
+          "maxDrawdownPct": -15.426596325268324,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-28",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.29,
+      "currency": "CNY",
+      "changePct": -0.58,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": -12.291236629761675,
+          "poolReturnPct": 0,
+          "excessReturnPct": -12.291236629761675,
+          "maxDrawdownPct": -15.426596325268324,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-29",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.89,
+      "currency": "CNY",
+      "changePct": 1.13,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": -11.653367971794399,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": -13.874356311605606,
+          "maxDrawdownPct": -15.426596325268324,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-30",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.65,
+      "currency": "CNY",
+      "changePct": 1.41,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-07-31",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.08,
+      "currency": "CNY",
+      "changePct": -1.04,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-01",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.08,
+      "currency": "CNY",
+      "changePct": -1.04,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-02",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.08,
+      "currency": "CNY",
+      "changePct": -1.04,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-03",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53,
+      "currency": "CNY",
+      "changePct": -2,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-04",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.42,
+      "currency": "CNY",
+      "changePct": 0.79,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-05",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.54,
+      "currency": "CNY",
+      "changePct": 0.22,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-06",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:54+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:32+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.11,
+      "currency": "CNY",
+      "changePct": -2.67,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-07",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.62,
+      "currency": "CNY",
+      "changePct": 4.82,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-08",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.62,
+      "currency": "CNY",
+      "changePct": 4.82,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-09",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.62,
+      "currency": "CNY",
+      "changePct": 4.82,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-10",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.18,
+      "currency": "CNY",
+      "changePct": -0.81,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-11",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.97,
+      "currency": "CNY",
+      "changePct": 1.46,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-12",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.36,
+      "currency": "CNY",
+      "changePct": -1.11,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-13",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.76,
+      "currency": "CNY",
+      "changePct": -1.1,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-14",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.62,
+      "currency": "CNY",
+      "changePct": -2.12,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-15",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.62,
+      "currency": "CNY",
+      "changePct": -2.12,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-16",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.62,
+      "currency": "CNY",
+      "changePct": -2.12,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-17",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.87,
+      "currency": "CNY",
+      "changePct": 0.48,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-18",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.37,
+      "currency": "CNY",
+      "changePct": -0.95,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-19",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 52.66,
+      "currency": "CNY",
+      "changePct": 0.55,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-20",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:19+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.5,
+      "currency": "CNY",
+      "changePct": -6,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-21",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.74,
+      "currency": "CNY",
+      "changePct": -3.56,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-22",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.74,
+      "currency": "CNY",
+      "changePct": -3.56,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-23",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.74,
+      "currency": "CNY",
+      "changePct": -3.56,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-24",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.76,
+      "currency": "CNY",
+      "changePct": -2.05,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-25",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.49,
+      "currency": "CNY",
+      "changePct": -0.58,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-26",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.74,
+      "currency": "CNY",
+      "changePct": 0.54,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_hengrui_2026-08-27",
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "symbol": "600276.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.61,
+      "currency": "CNY",
+      "changePct": 1.86,
+      "technicalTimingScore": 48.8,
+      "marketPayoffScore": 60.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘恒瑞医药值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

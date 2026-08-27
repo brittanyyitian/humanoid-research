@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_55c917cb54",
+  "artifactType": "filing",
+  "title": "中芯国际2026年度股东会决议公告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225393408.PDF",
+  "sourceId": "src_static_cninfo_com_cn_55c917cb54",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_55c917cb54",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:13330dc80cfb6470b8536b4c58cc4d64fb29c61702928b06c0a47f6e9cbe942d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_55c917cb54.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_27f2ec82e7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_48b18caccef8a91e; listSourceId=src_cninfo_688981_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_06_static_cninfo_com_cn_e29aa26ea2",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "国际实业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_06_static_cninfo_com_cn_e29aa26ea2"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_3070d0e6ad"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225353663.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:4b0255c131cccdc22e9620b21faa634c4f09b4746fda7f9d59bda89ce8535305",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_e29aa26ea2.json"
+    }
+  ]
+}

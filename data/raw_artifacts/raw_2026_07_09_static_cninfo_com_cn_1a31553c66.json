@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_09_static_cninfo_com_cn_1a31553c66",
+  "artifactType": "filing",
+  "title": "五洲新春股票交易异常波动公告",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415116.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1a31553c66",
+  "fetchRunId": "fetch_2026_07_09_static_cninfo_com_cn_1a31553c66",
+  "publishedAt": "2026-07-09",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:53b3e0c337f1414fae4b6cd63bdebf217fbb99cefba6290177156dff546292d6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_09_static_cninfo_com_cn_1a31553c66.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_07_09_filing_b074b9b27d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1090b6d73958b5b4; listSourceId=src_cninfo_603667_announcements."
+}

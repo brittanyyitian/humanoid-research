@@ -1,0 +1,147 @@
+{
+  "id": "saout_hengrui_3e10bdf2b490",
+  "entityId": "hengrui",
+  "name": "恒瑞医药",
+  "generatedAt": "2026-08-27T16:37:24+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "   \"implied_growth_vs_evidence\": 2.99,\n        \"upside_downside\": 2.65,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.1\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 48.8,\n      \"average_rating\": 2.44,\n      \"details\": {\n        \"monthly_trend\": 2.0,\n        \"weekly_structure\": 2.45,\n        \"daily_buy_point\": 1.15,\n        \"gf_dma_alignment\": 3.05,\n        \"drawdown_position\": 3.55\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"创新药研发与销售处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 7.9%，近60日涨跌 -3.3%。\",\n      \"missing_proof\": \"临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"关键临床、审批或商业化进度晚于原计划。\",\n    \"研发投入继续增加，但获批产品销售没有形成增长。\",\n    \"核心产品出现安全性、竞争或医保价格压力。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600276.SH",
+    "symbol": "600276"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_20_static_cninfo_com_cn_c06cd4a69d",
+      "raw_2026_03_26_static_cninfo_com_cn_cc6ae6da31",
+      "raw_2026_03_26_static_cninfo_com_cn_987170a1a6",
+      "raw_2025_08_21_static_cninfo_com_cn_c4b01e435c",
+      "raw_2025_08_21_static_cninfo_com_cn_1dd94428db",
+      "raw_2025_03_31_static_cninfo_com_cn_0b28f96628",
+      "raw_2025_03_31_static_cninfo_com_cn_1cc04fe50f",
+      "raw_2026_08_25_static_cninfo_com_cn_a0144ab225"
+    ],
+    "claimIds": [
+      "claim_2026_08_20_filing_ceef493635",
+      "claim_2026_03_26_filing_f72dfc2c0c",
+      "claim_2026_03_26_filing_0318cc051b",
+      "claim_2025_08_21_filing_86793403dd",
+      "claim_2025_08_21_filing_5ce5476ac8",
+      "claim_2025_03_31_filing_c90569c34c",
+      "claim_2025_03_31_filing_1b3f37c5ab",
+      "claim_2026_08_25_filing_10c6d7a149",
+      "claim_2026_08_21_filing_497e08650d",
+      "claim_2026_08_21_filing_b16fbdaf14",
+      "claim_2026_08_13_filing_07acd33ec6",
+      "claim_2026_08_13_filing_1b55385a4a",
+      "claim_2026_08_07_filing_37d19235b9",
+      "claim_2026_08_07_filing_fdd9447ea7",
+      "claim_2026_08_05_filing_8b87f75baa",
+      "claim_2026_07_30_filing_f03ed662c5",
+      "claim_2026_07_30_filing_48fac1fc51",
+      "claim_2026_07_28_filing_7095d3e155",
+      "claim_2026_07_28_filing_56c7b9368b",
+      "claim_2026_07_24_filing_9c0ce357e6"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/data/600276/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "恒瑞医药 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 56.42/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/data/600276/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 600276.SH (恒瑞医药)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **56.42 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **STRONG_OBSERVE**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 59.37 |\n| Evidence confidence | 79.28 |\n| Market payoff | 60.56 |\n| Technical timing | 48.8 |\n| Data readiness | 100.0 |\n| Action readiness | 68.96 |\n\n## Falsification Points\n- 关键临床、审批或商业化进度晚于原计划。\n- 研发投入继续增加，但获批产品销售没有形成增长。\n- 核心产品出现安全性、竞争或医保价格压力。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_82030dfcfa",
+  "artifactType": "filing",
+  "title": "澜起科技2026年第一季度报告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225206629.PDF",
+  "sourceId": "src_static_cninfo_com_cn_82030dfcfa",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_82030dfcfa",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:cdd4400486ac78679ca4a08ebd046ead214f30683e4943f3d665e2b02099d139",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_82030dfcfa.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_994a424bc9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_91e0b077c34eed26; listSourceId=src_cninfo_688008_announcements."
+}

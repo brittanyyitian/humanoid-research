@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_fc25a3758a",
+  "artifactType": "filing",
+  "title": "拓普集团关于闲置募集资金现金管理到期赎回的公告",
+  "publisher": "拓普集团",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225399662.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fc25a3758a",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_fc25a3758a",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:a1c3a13a7803f13670785c3819977d9caf542212695427fa1e59431e97b1fe91",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_fc25a3758a.json",
+  "entityIds": [
+    "tuopu_group"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_3503b7ec63"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_58d42b13628eafc4; listSourceId=src_cninfo_601689_announcements."
+}

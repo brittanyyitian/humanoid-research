@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_9092d62563",
+  "artifactType": "filing",
+  "title": "关于回购股份实施结果暨股份变动的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225158866.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9092d62563",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_9092d62563",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ae54b4dda83c4a1d29a770dee9c567ab5c2314e7ec61072a90224900832765bc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_9092d62563.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_473a7deb8e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0a0893b303e4a40a; listSourceId=src_cninfo_002353_announcements."
+}

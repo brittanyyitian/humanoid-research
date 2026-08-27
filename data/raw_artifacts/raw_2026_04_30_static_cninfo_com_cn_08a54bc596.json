@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_08a54bc596",
+  "artifactType": "filing",
+  "title": "第八届董事会第二十次会议决议公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225261885.PDF",
+  "sourceId": "src_static_cninfo_com_cn_08a54bc596",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_08a54bc596",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:767691584415086126f5bc3501e4851abc2abd5fc42be88e9d5097c3a87ddcdb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_08a54bc596.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_814dfc9eaa"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3a8e8a40a9aa22ab; listSourceId=src_cninfo_002156_announcements."
+}

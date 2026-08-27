@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_15_static_cninfo_com_cn_b05da28f6c",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司2026年上半年发电量、上网电量及售电量完成情况公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225424004.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b05da28f6c",
+  "fetchRunId": "fetch_2026_07_15_static_cninfo_com_cn_b05da28f6c",
+  "publishedAt": "2026-07-15",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:67442aba3d0536e2b4cd78d5ba7048889642132cbad6277b1b5d66081f4960ec",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_b05da28f6c.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_19dcfe55a8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fed7648cdd15da2e; listSourceId=src_cninfo_600116_announcements."
+}

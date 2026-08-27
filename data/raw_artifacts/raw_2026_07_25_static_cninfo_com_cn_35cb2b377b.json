@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_25_static_cninfo_com_cn_35cb2b377b",
+  "artifactType": "filing",
+  "title": "关于作废部分限制性股票的公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-25/1225441718.PDF",
+  "sourceId": "src_static_cninfo_com_cn_35cb2b377b",
+  "fetchRunId": "fetch_2026_07_25_static_cninfo_com_cn_35cb2b377b",
+  "publishedAt": "2026-07-25",
+  "firstSeenAt": "2026-07-25T16:17:49+08:00",
+  "capturedAt": "2026-07-25T16:17:49+08:00",
+  "contentHash": "sha256:9c1d65cb0886e49236c67f2444a1d6b9a27297812f98d09385b85e3d1d78d24b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_25_static_cninfo_com_cn_35cb2b377b.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_07_25_filing_e769fe4d01"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7476f5505ce11285; listSourceId=src_cninfo_688256_announcements."
+}

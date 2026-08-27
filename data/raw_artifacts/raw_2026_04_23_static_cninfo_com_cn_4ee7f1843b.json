@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_4ee7f1843b",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司2025年年度报告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225150377.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4ee7f1843b",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_4ee7f1843b",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:0b117e647a10044440ea959ed792f76e4aa88d56df4821102e284a4390e561ca",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_4ee7f1843b.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_f4d001b946"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e22a509cc2366012; listSourceId=src_cninfo_600116_announcements."
+}

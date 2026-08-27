@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_f7164d5bed",
+  "artifactType": "filing",
+  "title": "关于2026年半年度利润分配方案的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513005.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f7164d5bed",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_f7164d5bed",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:2c734826a17a9729f7f4ce1cfeaec1f1c115bb6b6cec7bc2b19caccfebd757c3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_f7164d5bed.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_56afcdc5f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_98903058c0736697; listSourceId=src_cninfo_600667_announcements."
+}

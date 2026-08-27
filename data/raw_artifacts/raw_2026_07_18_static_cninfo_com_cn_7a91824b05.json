@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_18_static_cninfo_com_cn_7a91824b05",
+  "artifactType": "filing",
+  "title": "长江电力关于公司控股股东发行可交换公司债券对持有的部分本公司A股股票办理补充担保及信托登记的公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225429337.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7a91824b05",
+  "fetchRunId": "fetch_2026_07_18_static_cninfo_com_cn_7a91824b05",
+  "publishedAt": "2026-07-18",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:05e0e75c006927d868d3b2991089c4aedf350bdf1966b72413464545de58e537",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_7a91824b05.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_a540f5ed68"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_20ba6cba513c30ae; listSourceId=src_cninfo_600900_announcements."
+}

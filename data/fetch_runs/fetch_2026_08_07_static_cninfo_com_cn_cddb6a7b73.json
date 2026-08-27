@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_07_static_cninfo_com_cn_cddb6a7b73",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "恒瑞医药",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-07T16:16:18+08:00",
+  "finishedAt": "2026-08-07T16:16:18+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_07_static_cninfo_com_cn_cddb6a7b73"
+  ],
+  "claimIds": [
+    "claim_2026_08_07_filing_877cab72a5"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-07/1225461691.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-07T16:16:18+08:00",
+      "finishedAt": "2026-08-07T16:16:18+08:00",
+      "contentHash": "sha256:5f5305a329b934f58e7775d9dc64964c476d21b2bacff43e15166f9c8ebbfa8d",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_07_static_cninfo_com_cn_cddb6a7b73.json"
+    }
+  ]
+}

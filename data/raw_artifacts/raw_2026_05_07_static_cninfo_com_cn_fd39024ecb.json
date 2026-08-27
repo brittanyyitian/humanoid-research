@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_07_static_cninfo_com_cn_fd39024ecb",
+  "artifactType": "filing",
+  "title": "美股公告：季度报告10-Q表格",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-07/1225280718.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fd39024ecb",
+  "fetchRunId": "fetch_2026_05_07_static_cninfo_com_cn_fd39024ecb",
+  "publishedAt": "2026-05-07",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a1e6bd939ab8cbb2f817fc7913dd9dda639d1f8847f8560c36301ead72d63a13",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_07_static_cninfo_com_cn_fd39024ecb.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_05_07_filing_4f102bce6e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b79395b9223003c4; listSourceId=src_cninfo_688235_announcements."
+}

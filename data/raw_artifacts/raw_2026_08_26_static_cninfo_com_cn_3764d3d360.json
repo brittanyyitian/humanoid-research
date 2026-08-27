@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_3764d3d360",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于召开2026年半年度业绩说明会的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225502644.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3764d3d360",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_3764d3d360",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:ce5d32512fb0ea8cb430fb5e449c0ebc31c7c70055db3590d2443498f1d0d1ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_3764d3d360.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_d7569eb82a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e7e0e09073a5995b; listSourceId=src_cninfo_600664_announcements."
+}

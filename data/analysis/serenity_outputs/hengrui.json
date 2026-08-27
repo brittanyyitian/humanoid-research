@@ -1,0 +1,1294 @@
+{
+  "id": "saout_hengrui_70136f0a643c",
+  "entityId": "hengrui",
+  "name": "恒瑞医药",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600276.SH",
+    "symbol": "600276.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/data/600276/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/ai_research/600276.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_41_22_hengrui/ai_research/600276.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "恒瑞医药 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+      "恒瑞医药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查恒瑞医药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘恒瑞医药值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "创新药研发与销售",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600276.SH",
+      "name": "恒瑞医药",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 47.61,
+        "previousClose": 46.740624386412726,
+        "changePct": 1.8599999999999925,
+        "high": 55.4,
+        "low": 53.9,
+        "open": 55.39,
+        "volume": 378065,
+        "turnover": 2059828172,
+        "turnoverText": "36.67亿",
+        "currency": "CNY",
+        "asOf": "20260827161442",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 56.42,
+        "technicalTimingScore": 48.8,
+        "marketPayoffScore": 60.56,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 87,
+        "evidenceScore": 96,
+        "valuationScore": 52,
+        "timingScore": 45,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 67.38,
+          "fundamentalScore": 86.25,
+          "companyScore": 87,
+          "evidenceScore": 96,
+          "valuationScore": 52,
+          "timingScore": 45,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 46.4799,
+            "ps": 11.3315,
+            "revenueGrowth": 0.1298,
+            "profitGrowth": 0.2178,
+            "cashConversion": 0.3446,
+            "debtRatio": 0.1002,
+            "return20": -0.1031
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收316.29亿元，同比+13.02%；归母净利润77.11亿元，同比+21.69%。2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。",
+          "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。",
+          "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+          "2026-08-26复权收盘46.74元，低于20日平均成本51.48元；60日平均成本52.74元，近20个交易日涨跌-10.31%。"
+        ],
+        "possible": [
+          "恒瑞医药当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "恒瑞医药当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+          "恒瑞医药当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 60.56,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.42/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 48.8,
+        "dailyBuyPointScore": 1.15,
+        "dmaAlignmentScore": 3.05,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 技术时机分偏低，未给出确认买点。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 54.91,
+            "volume": 244164,
+            "average20": 56.116,
+            "average60": 59.087
+          },
+          {
+            "date": "2026-03-16",
+            "close": 55.39,
+            "volume": 307751,
+            "average20": 56.03,
+            "average60": 58.958
+          },
+          {
+            "date": "2026-03-17",
+            "close": 56.1,
+            "volume": 504111,
+            "average20": 55.972,
+            "average60": 58.839
+          },
+          {
+            "date": "2026-03-18",
+            "close": 56.68,
+            "volume": 393793,
+            "average20": 55.897,
+            "average60": 58.733
+          },
+          {
+            "date": "2026-03-19",
+            "close": 55.82,
+            "volume": 343647,
+            "average20": 55.752,
+            "average60": 58.643
+          },
+          {
+            "date": "2026-03-20",
+            "close": 54.94,
+            "volume": 347395,
+            "average20": 55.573,
+            "average60": 58.576
+          },
+          {
+            "date": "2026-03-23",
+            "close": 52.58,
+            "volume": 487702,
+            "average20": 55.3,
+            "average60": 58.451
+          },
+          {
+            "date": "2026-03-24",
+            "close": 53.44,
+            "volume": 348355,
+            "average20": 55.082,
+            "average60": 58.345
+          },
+          {
+            "date": "2026-03-25",
+            "close": 53.9,
+            "volume": 411526,
+            "average20": 54.894,
+            "average60": 58.233
+          },
+          {
+            "date": "2026-03-26",
+            "close": 51.43,
+            "volume": 649417,
+            "average20": 54.639,
+            "average60": 58.078
+          },
+          {
+            "date": "2026-03-27",
+            "close": 54.98,
+            "volume": 991196,
+            "average20": 54.57,
+            "average60": 57.967
+          },
+          {
+            "date": "2026-03-30",
+            "close": 55.56,
+            "volume": 697271,
+            "average20": 54.631,
+            "average60": 57.876
+          },
+          {
+            "date": "2026-03-31",
+            "close": 55.02,
+            "volume": 692924,
+            "average20": 54.712,
+            "average60": 57.773
+          },
+          {
+            "date": "2026-04-01",
+            "close": 57.53,
+            "volume": 1005517,
+            "average20": 54.949,
+            "average60": 57.718
+          },
+          {
+            "date": "2026-04-02",
+            "close": 57.17,
+            "volume": 765170,
+            "average20": 55.131,
+            "average60": 57.665
+          },
+          {
+            "date": "2026-04-03",
+            "close": 56.18,
+            "volume": 454916,
+            "average20": 55.172,
+            "average60": 57.602
+          },
+          {
+            "date": "2026-04-07",
+            "close": 55.92,
+            "volume": 401467,
+            "average20": 55.231,
+            "average60": 57.544
+          },
+          {
+            "date": "2026-04-08",
+            "close": 57.25,
+            "volume": 734463,
+            "average20": 55.276,
+            "average60": 57.451
+          },
+          {
+            "date": "2026-04-09",
+            "close": 56.76,
+            "volume": 480755,
+            "average20": 55.333,
+            "average60": 57.349
+          },
+          {
+            "date": "2026-04-10",
+            "close": 56.86,
+            "volume": 587795,
+            "average20": 55.421,
+            "average60": 57.236
+          },
+          {
+            "date": "2026-04-13",
+            "close": 55,
+            "volume": 796044,
+            "average20": 55.425,
+            "average60": 57.096
+          },
+          {
+            "date": "2026-04-14",
+            "close": 55.98,
+            "volume": 574457,
+            "average20": 55.455,
+            "average60": 56.969
+          },
+          {
+            "date": "2026-04-15",
+            "close": 57.53,
+            "volume": 1029480,
+            "average20": 55.526,
+            "average60": 56.867
+          },
+          {
+            "date": "2026-04-16",
+            "close": 57.27,
+            "volume": 576718,
+            "average20": 55.556,
+            "average60": 56.75
+          },
+          {
+            "date": "2026-04-17",
+            "close": 56.13,
+            "volume": 632524,
+            "average20": 55.572,
+            "average60": 56.628
+          },
+          {
+            "date": "2026-04-20",
+            "close": 56.14,
+            "volume": 433049,
+            "average20": 55.632,
+            "average60": 56.515
+          },
+          {
+            "date": "2026-04-21",
+            "close": 55.55,
+            "volume": 432751,
+            "average20": 55.78,
+            "average60": 56.411
+          },
+          {
+            "date": "2026-04-22",
+            "close": 55.24,
+            "volume": 523563,
+            "average20": 55.87,
+            "average60": 56.317
+          },
+          {
+            "date": "2026-04-23",
+            "close": 56.2,
+            "volume": 963938,
+            "average20": 55.985,
+            "average60": 56.248
+          },
+          {
+            "date": "2026-04-24",
+            "close": 55.85,
+            "volume": 557798,
+            "average20": 56.206,
+            "average60": 56.181
+          },
+          {
+            "date": "2026-04-27",
+            "close": 55.18,
+            "volume": 455530,
+            "average20": 56.216,
+            "average60": 56.113
+          },
+          {
+            "date": "2026-04-28",
+            "close": 54.64,
+            "volume": 903120,
+            "average20": 56.17,
+            "average60": 56.044
+          },
+          {
+            "date": "2026-04-29",
+            "close": 54.79,
+            "volume": 591509,
+            "average20": 56.159,
+            "average60": 55.991
+          },
+          {
+            "date": "2026-04-30",
+            "close": 53.68,
+            "volume": 712485,
+            "average20": 55.966,
+            "average60": 55.936
+          },
+          {
+            "date": "2026-05-06",
+            "close": 53.43,
+            "volume": 665748,
+            "average20": 55.779,
+            "average60": 55.887
+          },
+          {
+            "date": "2026-05-07",
+            "close": 53.48,
+            "volume": 623452,
+            "average20": 55.644,
+            "average60": 55.813
+          },
+          {
+            "date": "2026-05-08",
+            "close": 52.6,
+            "volume": 802415,
+            "average20": 55.478,
+            "average60": 55.724
+          },
+          {
+            "date": "2026-05-11",
+            "close": 53.32,
+            "volume": 1023063,
+            "average20": 55.281,
+            "average60": 55.674
+          },
+          {
+            "date": "2026-05-12",
+            "close": 55.91,
+            "volume": 2465400,
+            "average20": 55.239,
+            "average60": 55.652
+          },
+          {
+            "date": "2026-05-13",
+            "close": 55.66,
+            "volume": 1327791,
+            "average20": 55.179,
+            "average60": 55.623
+          },
+          {
+            "date": "2026-05-14",
+            "close": 54.12,
+            "volume": 917227,
+            "average20": 55.135,
+            "average60": 55.559
+          },
+          {
+            "date": "2026-05-15",
+            "close": 53.79,
+            "volume": 765989,
+            "average20": 55.025,
+            "average60": 55.503
+          },
+          {
+            "date": "2026-05-18",
+            "close": 52.23,
+            "volume": 786609,
+            "average20": 54.761,
+            "average60": 55.42
+          },
+          {
+            "date": "2026-05-19",
+            "close": 51.39,
+            "volume": 699095,
+            "average20": 54.466,
+            "average60": 55.306
+          },
+          {
+            "date": "2026-05-20",
+            "close": 50.75,
+            "volume": 827046,
+            "average20": 54.198,
+            "average60": 55.174
+          },
+          {
+            "date": "2026-05-21",
+            "close": 51.25,
+            "volume": 994025,
+            "average20": 53.953,
+            "average60": 55.052
+          },
+          {
+            "date": "2026-05-22",
+            "close": 50.27,
+            "volume": 677620,
+            "average20": 53.689,
+            "average60": 54.923
+          },
+          {
+            "date": "2026-05-25",
+            "close": 49.23,
+            "volume": 838355,
+            "average20": 53.389,
+            "average60": 54.78
+          },
+          {
+            "date": "2026-05-26",
+            "close": 49,
+            "volume": 713746,
+            "average20": 53.028,
+            "average60": 54.636
+          },
+          {
+            "date": "2026-05-27",
+            "close": 50.37,
+            "volume": 961153,
+            "average20": 52.754,
+            "average60": 54.533
+          },
+          {
+            "date": "2026-05-28",
+            "close": 48,
+            "volume": 978697,
+            "average20": 52.395,
+            "average60": 54.394
+          },
+          {
+            "date": "2026-05-29",
+            "close": 50.19,
+            "volume": 1300405,
+            "average20": 52.173,
+            "average60": 54.325
+          },
+          {
+            "date": "2026-06-01",
+            "close": 49.17,
+            "volume": 946653,
+            "average20": 51.892,
+            "average60": 54.254
+          },
+          {
+            "date": "2026-06-02",
+            "close": 48.4,
+            "volume": 611443,
+            "average20": 51.628,
+            "average60": 54.181
+          },
+          {
+            "date": "2026-06-03",
+            "close": 47.2,
+            "volume": 815364,
+            "average20": 51.316,
+            "average60": 54.076
+          },
+          {
+            "date": "2026-06-04",
+            "close": 46.63,
+            "volume": 639249,
+            "average20": 50.974,
+            "average60": 53.93
+          },
+          {
+            "date": "2026-06-05",
+            "close": 47.08,
+            "volume": 930264,
+            "average20": 50.698,
+            "average60": 53.802
+          },
+          {
+            "date": "2026-06-08",
+            "close": 45.94,
+            "volume": 684211,
+            "average20": 50.329,
+            "average60": 53.629
+          },
+          {
+            "date": "2026-06-09",
+            "close": 46.38,
+            "volume": 621286,
+            "average20": 49.853,
+            "average60": 53.475
+          },
+          {
+            "date": "2026-06-10",
+            "close": 47.01,
+            "volume": 621576,
+            "average20": 49.42,
+            "average60": 53.34
+          },
+          {
+            "date": "2026-06-11",
+            "close": 46.98,
+            "volume": 473374,
+            "average20": 49.063,
+            "average60": 53.208
+          },
+          {
+            "date": "2026-06-12",
+            "close": 48.49,
+            "volume": 1002990,
+            "average20": 48.798,
+            "average60": 53.093
+          },
+          {
+            "date": "2026-06-15",
+            "close": 47.88,
+            "volume": 669408,
+            "average20": 48.581,
+            "average60": 52.956
+          },
+          {
+            "date": "2026-06-16",
+            "close": 47.35,
+            "volume": 502935,
+            "average20": 48.379,
+            "average60": 52.8
+          },
+          {
+            "date": "2026-06-17",
+            "close": 46.99,
+            "volume": 518239,
+            "average20": 48.191,
+            "average60": 52.653
+          },
+          {
+            "date": "2026-06-18",
+            "close": 48.42,
+            "volume": 1185928,
+            "average20": 48.049,
+            "average60": 52.544
+          },
+          {
+            "date": "2026-06-22",
+            "close": 49.36,
+            "volume": 946321,
+            "average20": 48.003,
+            "average60": 52.491
+          },
+          {
+            "date": "2026-06-23",
+            "close": 48.98,
+            "volume": 1075827,
+            "average20": 47.991,
+            "average60": 52.417
+          },
+          {
+            "date": "2026-06-24",
+            "close": 50.25,
+            "volume": 1358812,
+            "average20": 48.053,
+            "average60": 52.356
+          },
+          {
+            "date": "2026-06-25",
+            "close": 50.04,
+            "volume": 1051386,
+            "average20": 48.037,
+            "average60": 52.333
+          },
+          {
+            "date": "2026-06-26",
+            "close": 48.67,
+            "volume": 749617,
+            "average20": 48.07,
+            "average60": 52.227
+          },
+          {
+            "date": "2026-06-29",
+            "close": 52.93,
+            "volume": 1727562,
+            "average20": 48.207,
+            "average60": 52.184
+          },
+          {
+            "date": "2026-06-30",
+            "close": 52.04,
+            "volume": 1146413,
+            "average20": 48.351,
+            "average60": 52.134
+          },
+          {
+            "date": "2026-07-01",
+            "close": 53.78,
+            "volume": 1569308,
+            "average20": 48.62,
+            "average60": 52.071
+          },
+          {
+            "date": "2026-07-02",
+            "close": 53.49,
+            "volume": 1320238,
+            "average20": 48.934,
+            "average60": 52.01
+          },
+          {
+            "date": "2026-07-03",
+            "close": 54.45,
+            "volume": 1098671,
+            "average20": 49.325,
+            "average60": 51.981
+          },
+          {
+            "date": "2026-07-06",
+            "close": 56.77,
+            "volume": 1796982,
+            "average20": 49.81,
+            "average60": 51.995
+          },
+          {
+            "date": "2026-07-07",
+            "close": 55.36,
+            "volume": 1077221,
+            "average20": 50.281,
+            "average60": 51.964
+          },
+          {
+            "date": "2026-07-08",
+            "close": 54.01,
+            "volume": 957827,
+            "average20": 50.662,
+            "average60": 51.918
+          },
+          {
+            "date": "2026-07-09",
+            "close": 55.61,
+            "volume": 1108322,
+            "average20": 51.093,
+            "average60": 51.897
+          },
+          {
+            "date": "2026-07-10",
+            "close": 55.75,
+            "volume": 1336189,
+            "average20": 51.531,
+            "average60": 51.91
+          },
+          {
+            "date": "2026-07-13",
+            "close": 55.75,
+            "volume": 930293,
+            "average20": 51.894,
+            "average60": 51.906
+          },
+          {
+            "date": "2026-07-14",
+            "close": 54.82,
+            "volume": 966292,
+            "average20": 52.241,
+            "average60": 51.861
+          },
+          {
+            "date": "2026-07-15",
+            "close": 57.5,
+            "volume": 1941697,
+            "average20": 52.749,
+            "average60": 51.865
+          },
+          {
+            "date": "2026-07-16",
+            "close": 55.99,
+            "volume": 1220084,
+            "average20": 53.199,
+            "average60": 51.862
+          },
+          {
+            "date": "2026-07-17",
+            "close": 53.19,
+            "volume": 1161817,
+            "average20": 53.437,
+            "average60": 51.813
+          },
+          {
+            "date": "2026-07-20",
+            "close": 55.57,
+            "volume": 1133069,
+            "average20": 53.748,
+            "average60": 51.813
+          },
+          {
+            "date": "2026-07-21",
+            "close": 54.93,
+            "volume": 964390,
+            "average20": 54.045,
+            "average60": 51.808
+          },
+          {
+            "date": "2026-07-22",
+            "close": 55.39,
+            "volume": 859798,
+            "average20": 54.302,
+            "average60": 51.795
+          },
+          {
+            "date": "2026-07-23",
+            "close": 54,
+            "volume": 378065,
+            "average20": 54.5,
+            "average60": 51.764
+          }
+        ],
+        "plainReading": {
+          "state": "方向还不清楚",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格没有形成持续向上或持续向下的状态，先等它自己走出来。",
+          "watch": "先看能否重新站上 54.50 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 52.90，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 47.61,
+            "recentAverage": 54.5,
+            "longerAverage": 51.764,
+            "recentHigh": 58,
+            "recentLow": 52.9
+          }
+        }
+      },
+      "risk": [
+        "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+        "若下一期现金流明显落后于利润，恒瑞医药的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查恒瑞医药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘恒瑞医药值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。",
+            "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。"
+          ]
+        },
+        "upside": {
+          "summary": "恒瑞医药的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "临床或审批进展、产品销售、授权收入或研发效率",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "恒瑞医药的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本52.74元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。继续恶化，或价格跌破60日平均成本52.74元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "恒瑞医药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收316.29亿元，同比+13.02%；归母净利润77.11亿元，同比+21.69%。2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。",
+            "reason": "恒瑞医药当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-26/1225032585.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。",
+            "reason": "恒瑞医药当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-26/1225032585.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-26/1225032585.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘46.74元，低于20日平均成本51.48元；60日平均成本52.74元，近20个交易日涨跌-10.31%。",
+            "reason": "恒瑞医药当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收316.29亿元，同比+13.02%；归母净利润77.11亿元，同比+21.69%。2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。",
+          "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。",
+          "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查恒瑞医药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘恒瑞医药值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收316.29亿元，同比+13.02%；归母净利润77.11亿元，同比+21.69%。2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。"
+      },
+      {
+        "label": "已确认",
+        "text": "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘46.74元，低于20日平均成本51.48元；60日平均成本52.74元，近20个交易日涨跌-10.31%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "恒瑞医药当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "恒瑞医药当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "恒瑞医药当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，恒瑞医药的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "status": "open"
+      },
+      {
+        "question": "恒瑞医药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "600276.SH",
+      "research_status": "COMPLETED",
+      "score": 96.4,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.2,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "600276.SH",
+      "company": "恒瑞医药",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 59.37,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 60.56,
+      "technical_timing_score": 48.8,
+      "data_readiness_score": 100,
+      "action_readiness_score": 68.96,
+      "candidate_priority_score": 56.42,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 54.4,
+          "average_rating": 2.72,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2.7,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 60.56,
+          "average_rating": 3.03,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 2.99,
+            "upside_downside": 2.65,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.1
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 48.8,
+          "average_rating": 2.44,
+          "details": {
+            "monthly_trend": 2,
+            "weekly_structure": 2.45,
+            "daily_buy_point": 1.15,
+            "gf_dma_alignment": 3.05,
+            "drawdown_position": 3.55
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "创新药研发与销售处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 7.9%，近60日涨跌 -3.3%。",
+          "missing_proof": "临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "关键临床、审批或商业化进度晚于原计划。",
+        "研发投入继续增加，但获批产品销售没有形成增长。",
+        "核心产品出现安全性、竞争或医保价格压力。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "A",
+      "overallScore": 67.38,
+      "fundamentalScore": 86.25,
+      "companyScore": 87,
+      "evidenceScore": 96,
+      "valuationScore": 52,
+      "timingScore": 45,
+      "riskScore": 64,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 46.4799,
+        "ps": 11.3315,
+        "revenueGrowth": 0.1298,
+        "profitGrowth": 0.2178,
+        "cashConversion": 0.3446,
+        "debtRatio": 0.1002,
+        "return20": -0.1031
+      }
+    },
+    "overlay": {
+      "symbol": "600276.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "创新药研发与销售",
+      "bottleneck_reason": "创新药价值必须经过临床、获批和销售，再进入利润和现金流；本次最关键的公司原文是：1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。",
+      "revenue_transmission": "这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收316.29亿元，同比+13.02%；归母净利润77.11亿元，同比+21.69%。2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。2026-08-26复权收盘46.74元，低于20日平均成本51.48元；60日平均成本52.74元，近20个交易日涨跌-10.31%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+        "若下一期现金流明显落后于利润，恒瑞医药的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "恒瑞医药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收81.41亿元，较可比期+12.98%；归母净利润22.82亿元，较可比期+21.78%；经营现金流7.86亿元。",
+          "1.创新成果转化高效赋能，创新药销售引领业绩增长 2025年公司创新药销售收入163.42亿元，同比增长26.09%，占药品销售收入的比重达58.34%。"
+        ]
+      },
+      "upside": {
+        "summary": "恒瑞医药的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "临床或审批进展、产品销售、授权收入或研发效率",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "恒瑞医药的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本52.74元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若(四)可能面对的风险 √适用 □不适用 1.研发创新风险 药品从研制、临床试验报批到投产的周期长、环节多，药品研发至上市销售常常需要耗费10 年以上的时间，期间任何决策偏差、技术失误都将影响创新成果。继续恶化，或价格跌破60日平均成本52.74元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本51.48元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

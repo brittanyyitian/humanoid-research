@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_44cadd9369",
+  "artifactType": "filing",
+  "title": "港股公告：董事会批准发布2026年中期业绩通知",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225483219.PDF",
+  "sourceId": "src_static_cninfo_com_cn_44cadd9369",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_44cadd9369",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:33338ed3a74a030f7fd4673db507d0aea490be28287ae4d46530c56eacb3662e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_44cadd9369.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_6650bcd06e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_08f6d2b5b5596483; listSourceId=src_cninfo_688981_announcements."
+}

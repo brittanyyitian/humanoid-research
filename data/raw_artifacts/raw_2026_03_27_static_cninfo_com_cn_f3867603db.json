@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_f3867603db",
+  "artifactType": "filing",
+  "title": "关于与航天科技财务有限责任公司签订金融服务协议暨关联交易的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036397.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3867603db",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_f3867603db",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:dba5961bb115970825ff68aa1cf8cf96973593dafe4d9a92af6a2b78bc6a078b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_f3867603db.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_67f2b7aac5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_adbde04fe7d63cc5; listSourceId=src_cninfo_002389_announcements."
+}

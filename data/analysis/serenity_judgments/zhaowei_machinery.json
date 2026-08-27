@@ -1,0 +1,1984 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "zhaowei_machinery",
+  "name": "兆威机电",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-15",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T17:20:46+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 81.99,
+      "currency": "CNY",
+      "changePct": 0.11,
+      "technicalTimingScore": 19,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -0.8049762166117778,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": 1.6522887406531654,
+          "maxDrawdownPct": -12.362935293408835,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-16",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:27:17+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 82.99,
+      "currency": "CNY",
+      "changePct": 1.22,
+      "technicalTimingScore": 19,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -1.2170140980840956,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -1.1712265522965426,
+          "maxDrawdownPct": -12.362935293408835,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-17",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:27:47+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 79.94,
+      "currency": "CNY",
+      "changePct": -3.68,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": 2.5519139354515965,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": -1.223829771642226,
+          "maxDrawdownPct": -9.019264448336244,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-19",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T21:08:56+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 79.94,
+      "currency": "CNY",
+      "changePct": -3.6751415833232888,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": 2.514385789342013,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -9.019264448336244,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-20",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:26:52+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 74.81,
+      "currency": "CNY",
+      "changePct": -6.42,
+      "technicalTimingScore": 28.4,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 9.343670632268406,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": -1.4671401785424045,
+          "maxDrawdownPct": -7.101800996295826,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-21",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:25:17+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 78.29,
+      "currency": "CNY",
+      "changePct": 4.65,
+      "technicalTimingScore": 19,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": -5.965001915953508,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": -4.02500191595351,
+          "maxDrawdownPct": -10.197609172969017,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-22",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:23:48+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "A",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 77.02,
+      "currency": "CNY",
+      "changePct": -1.62,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": -11.659309270319385,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": -9.948782954529912,
+          "maxDrawdownPct": -17.00414735301293,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-23",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 76.66,
+      "currency": "CNY",
+      "changePct": -0.47,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": -10.89225150013044,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": -9.60158196530926,
+          "maxDrawdownPct": -17.00414735301293,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-24",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 73.62,
+      "currency": "CNY",
+      "changePct": -3.97,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": -7.212713936430321,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": -10.272691130993277,
+          "maxDrawdownPct": -17.00414735301293,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-25",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 73.62,
+      "currency": "CNY",
+      "changePct": -3.97,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": -7.212713936430321,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": -10.062341292852953,
+          "maxDrawdownPct": -17.00414735301293,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-26",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 73.62,
+      "currency": "CNY",
+      "changePct": -3.97,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -10.133116001086671,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": -9.427852843191932,
+          "maxDrawdownPct": -19.297389607221284,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-27",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:47+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 75.81,
+      "currency": "CNY",
+      "changePct": 2.97,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": -3.996834190740009,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": -2.1814614599559268,
+          "maxDrawdownPct": -19.297389607221284,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-28",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 74.41,
+      "currency": "CNY",
+      "changePct": -1.85,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": -4.636473592259109,
+          "poolReturnPct": 0,
+          "excessReturnPct": -4.636473592259109,
+          "maxDrawdownPct": -19.297389607221284,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-29",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 75.35,
+      "currency": "CNY",
+      "changePct": 1.26,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": -5.043132050431317,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": -7.264120390242525,
+          "maxDrawdownPct": -19.297389607221284,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-30",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 72.73,
+      "currency": "CNY",
+      "changePct": -3.48,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-07-31",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 77.54,
+      "currency": "CNY",
+      "changePct": 6.61,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-01",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 77.54,
+      "currency": "CNY",
+      "changePct": 6.61,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-02",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 77.54,
+      "currency": "CNY",
+      "changePct": 6.61,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-03",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 79.99,
+      "currency": "CNY",
+      "changePct": 3.16,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-04",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 79.9,
+      "currency": "CNY",
+      "changePct": -0.11,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-05",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.17,
+      "currency": "CNY",
+      "changePct": 1.59,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-06",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:43+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 80.25,
+      "currency": "CNY",
+      "changePct": -1.13,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-07",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.15,
+      "currency": "CNY",
+      "changePct": 1.12,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-08",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.15,
+      "currency": "CNY",
+      "changePct": 1.12,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-09",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.15,
+      "currency": "CNY",
+      "changePct": 1.12,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-10",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 79.55,
+      "currency": "CNY",
+      "changePct": -1.97,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-11",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.04,
+      "currency": "CNY",
+      "changePct": 1.87,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-12",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.52,
+      "currency": "CNY",
+      "changePct": 0.59,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-13",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.33,
+      "currency": "CNY",
+      "changePct": -0.23,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-14",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.98,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-15",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.98,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-16",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.98,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-17",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.95,
+      "currency": "CNY",
+      "changePct": -0.04,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-18",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 81.8,
+      "currency": "CNY",
+      "changePct": -0.18,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-19",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 73.62,
+      "currency": "CNY",
+      "changePct": -10,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-20",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 68.04,
+      "currency": "CNY",
+      "changePct": -7.58,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-21",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 68.31,
+      "currency": "CNY",
+      "changePct": 0.4,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-22",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 68.31,
+      "currency": "CNY",
+      "changePct": 0.4,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-23",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 68.31,
+      "currency": "CNY",
+      "changePct": 0.4,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-24",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 66.16,
+      "currency": "CNY",
+      "changePct": -3.15,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-25",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 72.78,
+      "currency": "CNY",
+      "changePct": 10.01,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-26",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 70.96,
+      "currency": "CNY",
+      "changePct": -2.5,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_zhaowei_machinery_2026-08-27",
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "symbol": "003021.SZ",
+      "market": "SZSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 71.55,
+      "currency": "CNY",
+      "changePct": 0.83,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 55.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘兆威机电保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_18_fe4882344137",
+  "rawArtifactId": "raw_2026_08_18_static_cninfo_com_cn_fbfbfae937",
+  "routeDecisionId": "route_2026_08_18_d6774a98c066",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "hanwei_electronics",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-18T21:15:18+08:00",
+  "updatedAt": "2026-08-18T21:15:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-18T21:15:19+08:00",
+  "finishedAt": "2026-08-18T21:15:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_18_filing_27e8dfe5c1"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_18_filing_27e8dfe5c1"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_18_filing_material_v0_4594ac9d6f"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_18_e2a28bb31552"
+  ]
+}

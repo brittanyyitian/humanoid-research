@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_91713e17a8e5",
+  "rawArtifactId": "raw_2025_04_24_leaderdrive_com_f0d6610dd2",
+  "routeDecisionId": "route_2025_04_24_a7ab5f9a3306",
+  "pipeline": "supply_chain_pipeline",
+  "type": "supply_chain",
+  "entityId": "leaderdrive",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "inputType": "url",
+  "sourceKind": "media",
+  "status": "completed",
+  "createdAt": "2026-07-15T10:58:14+08:00",
+  "updatedAt": "2026-07-15T10:58:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2025_04_24_other_b4bf4b1502"
+  ],
+  "evidenceIds": [
+    "evd_2025_04_24_other_b4bf4b1502"
+  ],
+  "ruleOutputIds": [
+    "rout_2025_04_24_supply_chain_material_v0_300626e328"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_9e30f3e27134"
+  ]
+}

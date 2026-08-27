@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_3a2878c2ad",
+  "artifactType": "filing",
+  "title": "长江电力6届54次董事会决议公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225354354.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3a2878c2ad",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_3a2878c2ad",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d8bfbc64c4d490c30da9bd7d0082bf043767283d50128e7ff19a6b4234ec9b93",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_3a2878c2ad.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_50b0cc45cd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e48c075a5cb19819; listSourceId=src_cninfo_600900_announcements."
+}

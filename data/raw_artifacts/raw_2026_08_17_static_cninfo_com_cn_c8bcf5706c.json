@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_17_static_cninfo_com_cn_c8bcf5706c",
+  "artifactType": "filing",
+  "title": "关于公司董事辞职的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-17/1225476176.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c8bcf5706c",
+  "fetchRunId": "fetch_2026_08_17_static_cninfo_com_cn_c8bcf5706c",
+  "publishedAt": "2026-08-17",
+  "firstSeenAt": "2026-08-17T16:17:00+08:00",
+  "capturedAt": "2026-08-17T16:17:00+08:00",
+  "contentHash": "sha256:fe123aafedf3f6f7a6560e3174dee5987980891b6f0854b0f52fd8cee47309bd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_17_static_cninfo_com_cn_c8bcf5706c.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_08_17_filing_7b0eedf894"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0c73bffd646dab6e; listSourceId=src_cninfo_002389_announcements."
+}

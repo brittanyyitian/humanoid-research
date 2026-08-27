@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_7ddad72f95",
+  "artifactType": "filing",
+  "title": "大唐国际发电股份有限公司2026年度向特定对象发行A股股票预案",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417879.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7ddad72f95",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_7ddad72f95",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:43999a2d7639d8241852b26f6a2b7c1f3374ff8369a1d80a867fcff3838bb6c7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_7ddad72f95.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_74ff6a5321"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_322ebc53acd4daf3; listSourceId=src_cninfo_601991_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_7ab89f850d",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2026年中期利润分配方案公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225419752.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7ab89f850d",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_7ab89f850d",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ef58621c97a356f5e5e1ebad9ea58d5069857688f6d52d2455c98e2bda8ea120",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_7ab89f850d.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_8e017b39f3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_28b28eabff4ef464; listSourceId=src_cninfo_601899_announcements."
+}

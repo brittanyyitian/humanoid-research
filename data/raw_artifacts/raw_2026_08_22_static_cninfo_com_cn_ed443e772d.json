@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_ed443e772d",
+  "artifactType": "filing",
+  "title": "关于2026年半年度计提资产减值准备及确认公允价值变动损益的公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225490665.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ed443e772d",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_ed443e772d",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:f978ea2908317adf54dd9bd8dce02ff6ed7b56ec89c9e246bb0ee32d25155084",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_ed443e772d.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_bcdb260f1c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3df846352b83d403; listSourceId=src_cninfo_002747_announcements."
+}

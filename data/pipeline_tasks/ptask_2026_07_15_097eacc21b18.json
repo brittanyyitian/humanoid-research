@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_097eacc21b18",
+  "rawArtifactId": "raw_2026_07_02_static_cninfo_com_cn_d42d592f57",
+  "routeDecisionId": "route_2026_07_02_eec97419d6fe",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "orbbec",
+  "entityIds": [
+    "orbbec"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-15T11:03:07+08:00",
+  "updatedAt": "2026-07-15T11:03:07+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_02_filing_b68024d97f"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_02_filing_b68024d97f"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_02_filing_material_v0_3595e187d9"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_7f6ccbe804e0"
+  ]
+}

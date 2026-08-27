@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_12_static_cninfo_com_cn_8f63e81e3b",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-12/1223072417.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8f63e81e3b",
+  "fetchRunId": "fetch_2025_04_12_static_cninfo_com_cn_8f63e81e3b",
+  "publishedAt": "2025-04-12",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:5777568ed5b027134dd3c31e0ee022381a92266a64c1cb23ccfd5da54fd93fe0",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_12_static_cninfo_com_cn_8f63e81e3b.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2025_04_12_filing_a39847cdc9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_05a95fabef9872f9; listSourceId=src_cninfo_000566_announcements."
+}

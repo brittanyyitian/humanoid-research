@@ -1,0 +1,1294 @@
+{
+  "id": "saout_national_silicon_abbee4c8dee3",
+  "entityId": "national_silicon",
+  "name": "沪硅产业",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688126.SH",
+    "symbol": "688126.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/data/688126/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/ai_research/688126.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/ai_research/688126.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "沪硅产业 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+      "沪硅产业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查沪硅产业的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘沪硅产业值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "制造材料",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688126.SH",
+      "name": "沪硅产业",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 25.22,
+        "previousClose": 24.249999999999996,
+        "changePct": 4.000000000000011,
+        "high": 27.02,
+        "low": 25.62,
+        "open": 26.71,
+        "volume": 463246,
+        "turnover": 1215114925,
+        "turnoverText": "15.72亿",
+        "currency": "CNY",
+        "asOf": "20260827161453",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 58.4,
+        "technicalTimingScore": 34.2,
+        "marketPayoffScore": 64.36,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "CANDIDATE_POOL",
+        "confidence": "HIGH",
+        "companyScore": 91,
+        "evidenceScore": 96,
+        "valuationScore": 35,
+        "timingScore": 34.2,
+        "riskScore": 64,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "A",
+          "overallScore": 61.53,
+          "fundamentalScore": 88.45,
+          "companyScore": 91,
+          "evidenceScore": 96,
+          "valuationScore": 35,
+          "timingScore": 34.2,
+          "riskScore": 64,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": null,
+            "ps": 22.893,
+            "revenueGrowth": 0.3522,
+            "profitGrowth": 1.3167,
+            "cashConversion": 0.3428,
+            "debtRatio": 0.4219,
+            "return20": -0.063
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收37.16亿元，同比+9.69%；归母净利润-15.08亿元，同比+55.33%。2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。",
+          "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。",
+          "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+          "2026-08-26复权收盘24.25元，低于20日平均成本25.67元；60日平均成本28.69元，近20个交易日涨跌-6.3%。"
+        ],
+        "possible": [
+          "沪硅产业当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "沪硅产业当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+          "沪硅产业当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 64.36,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 58.4/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 34.2,
+        "dailyBuyPointScore": 0.55,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 19.34,
+            "volume": 258997,
+            "average20": 20.366,
+            "average60": 21.568
+          },
+          {
+            "date": "2026-03-16",
+            "close": 19.42,
+            "volume": 245422,
+            "average20": 20.297,
+            "average60": 21.527
+          },
+          {
+            "date": "2026-03-17",
+            "close": 18.88,
+            "volume": 207488,
+            "average20": 20.194,
+            "average60": 21.486
+          },
+          {
+            "date": "2026-03-18",
+            "close": 18.86,
+            "volume": 219158,
+            "average20": 20.103,
+            "average60": 21.449
+          },
+          {
+            "date": "2026-03-19",
+            "close": 18.65,
+            "volume": 192919,
+            "average20": 20,
+            "average60": 21.415
+          },
+          {
+            "date": "2026-03-20",
+            "close": 18.22,
+            "volume": 266404,
+            "average20": 19.879,
+            "average60": 21.379
+          },
+          {
+            "date": "2026-03-23",
+            "close": 17.37,
+            "volume": 326140,
+            "average20": 19.718,
+            "average60": 21.324
+          },
+          {
+            "date": "2026-03-24",
+            "close": 17.61,
+            "volume": 230109,
+            "average20": 19.554,
+            "average60": 21.275
+          },
+          {
+            "date": "2026-03-25",
+            "close": 17.76,
+            "volume": 241579,
+            "average20": 19.338,
+            "average60": 21.229
+          },
+          {
+            "date": "2026-03-26",
+            "close": 17.48,
+            "volume": 162130,
+            "average20": 19.116,
+            "average60": 21.169
+          },
+          {
+            "date": "2026-03-27",
+            "close": 17.59,
+            "volume": 151253,
+            "average20": 18.909,
+            "average60": 21.103
+          },
+          {
+            "date": "2026-03-30",
+            "close": 17.27,
+            "volume": 205047,
+            "average20": 18.739,
+            "average60": 21.028
+          },
+          {
+            "date": "2026-03-31",
+            "close": 16.9,
+            "volume": 208977,
+            "average20": 18.598,
+            "average60": 20.946
+          },
+          {
+            "date": "2026-04-01",
+            "close": 17.25,
+            "volume": 193662,
+            "average20": 18.495,
+            "average60": 20.872
+          },
+          {
+            "date": "2026-04-02",
+            "close": 16.9,
+            "volume": 198802,
+            "average20": 18.365,
+            "average60": 20.796
+          },
+          {
+            "date": "2026-04-03",
+            "close": 16.61,
+            "volume": 138665,
+            "average20": 18.217,
+            "average60": 20.715
+          },
+          {
+            "date": "2026-04-07",
+            "close": 16.86,
+            "volume": 167237,
+            "average20": 18.098,
+            "average60": 20.635
+          },
+          {
+            "date": "2026-04-08",
+            "close": 17.88,
+            "volume": 316437,
+            "average20": 18.014,
+            "average60": 20.561
+          },
+          {
+            "date": "2026-04-09",
+            "close": 17.51,
+            "volume": 238238,
+            "average20": 17.895,
+            "average60": 20.468
+          },
+          {
+            "date": "2026-04-10",
+            "close": 17.72,
+            "volume": 229928,
+            "average20": 17.804,
+            "average60": 20.367
+          },
+          {
+            "date": "2026-04-13",
+            "close": 17.66,
+            "volume": 210217,
+            "average20": 17.72,
+            "average60": 20.267
+          },
+          {
+            "date": "2026-04-14",
+            "close": 17.8,
+            "volume": 262531,
+            "average20": 17.639,
+            "average60": 20.17
+          },
+          {
+            "date": "2026-04-15",
+            "close": 17.76,
+            "volume": 380765,
+            "average20": 17.583,
+            "average60": 20.074
+          },
+          {
+            "date": "2026-04-16",
+            "close": 17.85,
+            "volume": 236331,
+            "average20": 17.533,
+            "average60": 19.992
+          },
+          {
+            "date": "2026-04-17",
+            "close": 18.13,
+            "volume": 348572,
+            "average20": 17.507,
+            "average60": 19.915
+          },
+          {
+            "date": "2026-04-20",
+            "close": 20.8,
+            "volume": 1149935,
+            "average20": 17.636,
+            "average60": 19.884
+          },
+          {
+            "date": "2026-04-21",
+            "close": 19.77,
+            "volume": 643046,
+            "average20": 17.756,
+            "average60": 19.828
+          },
+          {
+            "date": "2026-04-22",
+            "close": 19.93,
+            "volume": 536935,
+            "average20": 17.872,
+            "average60": 19.781
+          },
+          {
+            "date": "2026-04-23",
+            "close": 20.7,
+            "volume": 880262,
+            "average20": 18.018,
+            "average60": 19.744
+          },
+          {
+            "date": "2026-04-24",
+            "close": 20.8,
+            "volume": 663543,
+            "average20": 18.184,
+            "average60": 19.7
+          },
+          {
+            "date": "2026-04-27",
+            "close": 21.1,
+            "volume": 760064,
+            "average20": 18.36,
+            "average60": 19.67
+          },
+          {
+            "date": "2026-04-28",
+            "close": 20.58,
+            "volume": 525831,
+            "average20": 18.526,
+            "average60": 19.623
+          },
+          {
+            "date": "2026-04-29",
+            "close": 20.1,
+            "volume": 550449,
+            "average20": 18.686,
+            "average60": 19.581
+          },
+          {
+            "date": "2026-04-30",
+            "close": 20.61,
+            "volume": 739169,
+            "average20": 18.854,
+            "average60": 19.528
+          },
+          {
+            "date": "2026-05-06",
+            "close": 22.33,
+            "volume": 1359390,
+            "average20": 19.125,
+            "average60": 19.505
+          },
+          {
+            "date": "2026-05-07",
+            "close": 22.54,
+            "volume": 851251,
+            "average20": 19.422,
+            "average60": 19.495
+          },
+          {
+            "date": "2026-05-08",
+            "close": 22.99,
+            "volume": 1122263,
+            "average20": 19.728,
+            "average60": 19.505
+          },
+          {
+            "date": "2026-05-11",
+            "close": 24.19,
+            "volume": 1604254,
+            "average20": 20.044,
+            "average60": 19.554
+          },
+          {
+            "date": "2026-05-12",
+            "close": 25.26,
+            "volume": 1815043,
+            "average20": 20.431,
+            "average60": 19.615
+          },
+          {
+            "date": "2026-05-13",
+            "close": 25.56,
+            "volume": 1401744,
+            "average20": 20.823,
+            "average60": 19.689
+          },
+          {
+            "date": "2026-05-14",
+            "close": 24.97,
+            "volume": 1309033,
+            "average20": 21.188,
+            "average60": 19.758
+          },
+          {
+            "date": "2026-05-15",
+            "close": 24.07,
+            "volume": 1525402,
+            "average20": 21.502,
+            "average60": 19.813
+          },
+          {
+            "date": "2026-05-18",
+            "close": 24.6,
+            "volume": 1305656,
+            "average20": 21.844,
+            "average60": 19.874
+          },
+          {
+            "date": "2026-05-19",
+            "close": 29.52,
+            "volume": 2605023,
+            "average20": 22.427,
+            "average60": 20.021
+          },
+          {
+            "date": "2026-05-20",
+            "close": 29.31,
+            "volume": 2328854,
+            "average20": 22.986,
+            "average60": 20.164
+          },
+          {
+            "date": "2026-05-21",
+            "close": 27.68,
+            "volume": 2597265,
+            "average20": 23.331,
+            "average60": 20.282
+          },
+          {
+            "date": "2026-05-22",
+            "close": 27.81,
+            "volume": 2146836,
+            "average20": 23.732,
+            "average60": 20.402
+          },
+          {
+            "date": "2026-05-25",
+            "close": 29.05,
+            "volume": 2183664,
+            "average20": 24.189,
+            "average60": 20.538
+          },
+          {
+            "date": "2026-05-26",
+            "close": 26.9,
+            "volume": 1725767,
+            "average20": 24.498,
+            "average60": 20.618
+          },
+          {
+            "date": "2026-05-27",
+            "close": 28.07,
+            "volume": 1998814,
+            "average20": 24.862,
+            "average60": 20.721
+          },
+          {
+            "date": "2026-05-28",
+            "close": 30.61,
+            "volume": 2515800,
+            "average20": 25.337,
+            "average60": 20.869
+          },
+          {
+            "date": "2026-05-29",
+            "close": 27.7,
+            "volume": 2173353,
+            "average20": 25.694,
+            "average60": 20.986
+          },
+          {
+            "date": "2026-06-01",
+            "close": 25.88,
+            "volume": 1505229,
+            "average20": 25.982,
+            "average60": 21.089
+          },
+          {
+            "date": "2026-06-02",
+            "close": 24.71,
+            "volume": 1328870,
+            "average20": 26.188,
+            "average60": 21.179
+          },
+          {
+            "date": "2026-06-03",
+            "close": 25.28,
+            "volume": 1676037,
+            "average20": 26.335,
+            "average60": 21.275
+          },
+          {
+            "date": "2026-06-04",
+            "close": 28.85,
+            "volume": 2474895,
+            "average20": 26.651,
+            "average60": 21.43
+          },
+          {
+            "date": "2026-06-05",
+            "close": 28.49,
+            "volume": 1757199,
+            "average20": 26.925,
+            "average60": 21.584
+          },
+          {
+            "date": "2026-06-08",
+            "close": 26.44,
+            "volume": 1563150,
+            "average20": 27.038,
+            "average60": 21.699
+          },
+          {
+            "date": "2026-06-09",
+            "close": 31.73,
+            "volume": 2178719,
+            "average20": 27.362,
+            "average60": 21.896
+          },
+          {
+            "date": "2026-06-10",
+            "close": 32.65,
+            "volume": 2972114,
+            "average20": 27.716,
+            "average60": 22.114
+          },
+          {
+            "date": "2026-06-11",
+            "close": 32.5,
+            "volume": 2204794,
+            "average20": 28.093,
+            "average60": 22.334
+          },
+          {
+            "date": "2026-06-12",
+            "close": 29.59,
+            "volume": 3195531,
+            "average20": 28.369,
+            "average60": 22.503
+          },
+          {
+            "date": "2026-06-15",
+            "close": 31.22,
+            "volume": 2496365,
+            "average20": 28.7,
+            "average60": 22.709
+          },
+          {
+            "date": "2026-06-16",
+            "close": 31.05,
+            "volume": 2045617,
+            "average20": 28.776,
+            "average60": 22.912
+          },
+          {
+            "date": "2026-06-17",
+            "close": 32.4,
+            "volume": 2611436,
+            "average20": 28.93,
+            "average60": 23.141
+          },
+          {
+            "date": "2026-06-18",
+            "close": 32.2,
+            "volume": 1980411,
+            "average20": 29.157,
+            "average60": 23.374
+          },
+          {
+            "date": "2026-06-22",
+            "close": 33.9,
+            "volume": 2527798,
+            "average20": 29.461,
+            "average60": 23.65
+          },
+          {
+            "date": "2026-06-23",
+            "close": 32.22,
+            "volume": 1741189,
+            "average20": 29.619,
+            "average60": 23.893
+          },
+          {
+            "date": "2026-06-24",
+            "close": 32.57,
+            "volume": 1745391,
+            "average20": 29.903,
+            "average60": 24.14
+          },
+          {
+            "date": "2026-06-25",
+            "close": 33.31,
+            "volume": 2073333,
+            "average20": 30.165,
+            "average60": 24.404
+          },
+          {
+            "date": "2026-06-26",
+            "close": 34.86,
+            "volume": 2656248,
+            "average20": 30.378,
+            "average60": 24.692
+          },
+          {
+            "date": "2026-06-29",
+            "close": 39,
+            "volume": 2801530,
+            "average20": 30.942,
+            "average60": 25.054
+          },
+          {
+            "date": "2026-06-30",
+            "close": 39.89,
+            "volume": 2258991,
+            "average20": 31.643,
+            "average60": 25.437
+          },
+          {
+            "date": "2026-07-01",
+            "close": 41.06,
+            "volume": 2339239,
+            "average20": 32.461,
+            "average60": 25.834
+          },
+          {
+            "date": "2026-07-02",
+            "close": 37.45,
+            "volume": 2092890,
+            "average20": 33.069,
+            "average60": 26.176
+          },
+          {
+            "date": "2026-07-03",
+            "close": 34.53,
+            "volume": 1974508,
+            "average20": 33.353,
+            "average60": 26.475
+          },
+          {
+            "date": "2026-07-06",
+            "close": 34.61,
+            "volume": 1547459,
+            "average20": 33.659,
+            "average60": 26.771
+          },
+          {
+            "date": "2026-07-07",
+            "close": 36.28,
+            "volume": 1851640,
+            "average20": 34.151,
+            "average60": 27.077
+          },
+          {
+            "date": "2026-07-08",
+            "close": 32.5,
+            "volume": 2318505,
+            "average20": 34.189,
+            "average60": 27.327
+          },
+          {
+            "date": "2026-07-09",
+            "close": 37.25,
+            "volume": 2094450,
+            "average20": 34.419,
+            "average60": 27.653
+          },
+          {
+            "date": "2026-07-10",
+            "close": 36.4,
+            "volume": 2122387,
+            "average20": 34.614,
+            "average60": 27.965
+          },
+          {
+            "date": "2026-07-13",
+            "close": 35.86,
+            "volume": 1602624,
+            "average20": 34.928,
+            "average60": 28.266
+          },
+          {
+            "date": "2026-07-14",
+            "close": 34.58,
+            "volume": 1656793,
+            "average20": 35.096,
+            "average60": 28.546
+          },
+          {
+            "date": "2026-07-15",
+            "close": 31.04,
+            "volume": 1584162,
+            "average20": 35.096,
+            "average60": 28.766
+          },
+          {
+            "date": "2026-07-16",
+            "close": 28.9,
+            "volume": 1326646,
+            "average20": 34.92,
+            "average60": 28.946
+          },
+          {
+            "date": "2026-07-17",
+            "close": 26.66,
+            "volume": 1500923,
+            "average20": 34.643,
+            "average60": 29.044
+          },
+          {
+            "date": "2026-07-20",
+            "close": 25.3,
+            "volume": 1532007,
+            "average20": 34.213,
+            "average60": 29.136
+          },
+          {
+            "date": "2026-07-21",
+            "close": 27.68,
+            "volume": 1783128,
+            "average20": 33.986,
+            "average60": 29.265
+          },
+          {
+            "date": "2026-07-22",
+            "close": 26.6,
+            "volume": 1363730,
+            "average20": 33.688,
+            "average60": 29.363
+          },
+          {
+            "date": "2026-07-23",
+            "close": 25.85,
+            "volume": 463246,
+            "average20": 33.315,
+            "average60": 29.447
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 33.31 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 23.33，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 25.22,
+            "recentAverage": 33.315,
+            "longerAverage": 29.447,
+            "recentHigh": 43.87,
+            "recentLow": 23.33
+          }
+        }
+      },
+      "risk": [
+        "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+        "若下一期现金流明显落后于利润，沪硅产业的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查沪硅产业的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘沪硅产业值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。",
+            "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。"
+          ]
+        },
+        "upside": {
+          "summary": "沪硅产业的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "核心产品、客户验证、产量、产能利用率或分部收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "沪硅产业的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本28.69元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。继续恶化，或价格跌破60日平均成本28.69元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "沪硅产业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 2,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DIRECT_EVIDENCE_FOUND",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收37.16亿元，同比+9.69%；归母净利润-15.08亿元，同比+55.33%。2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。",
+            "reason": "沪硅产业当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225260379.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。",
+            "reason": "沪硅产业当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-17/1225114274.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-17/1225114274.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘24.25元，低于20日平均成本25.67元；60日平均成本28.69元，近20个交易日涨跌-6.3%。",
+            "reason": "沪硅产业当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收37.16亿元，同比+9.69%；归母净利润-15.08亿元，同比+55.33%。2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。",
+          "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。",
+          "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查沪硅产业的新公告是否出现核心产品、客户验证、产量、产能利用率或分部收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘沪硅产业值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收37.16亿元，同比+9.69%；归母净利润-15.08亿元，同比+55.33%。2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。"
+      },
+      {
+        "label": "已确认",
+        "text": "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘24.25元，低于20日平均成本25.67元；60日平均成本28.69元，近20个交易日涨跌-6.3%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "沪硅产业当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "沪硅产业当前业务信号为：这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "沪硅产业当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，沪硅产业的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "status": "open"
+      },
+      {
+        "question": "沪硅产业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "688126.SH",
+      "research_status": "COMPLETED",
+      "score": 96.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "688126.SH",
+      "company": "沪硅产业",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 61.43,
+      "evidence_confidence_score": 84.04,
+      "market_payoff_score": 64.36,
+      "technical_timing_score": 34.2,
+      "data_readiness_score": 100,
+      "action_readiness_score": 62.39,
+      "candidate_priority_score": 58.4,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "CANDIDATE_POOL",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 56.4,
+          "average_rating": 2.82,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 3.2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 77.2,
+          "average_rating": 3.86,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3.8,
+            "cross_source_consistency": 3.5,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 64.36,
+          "average_rating": 3.22,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 3.74,
+            "upside_downside": 2.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 34.2,
+          "average_rating": 1.71,
+          "details": {
+            "monthly_trend": 2.9,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 0.55,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1.8
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "制造材料处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 5 份财报或业绩材料；近20日涨跌 -22.4%，近60日涨跌 24.3%；客户或订单证据 2 条直接、2 条线索。",
+          "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "后续财报仍看不到核心产品收入、客户验证或份额提升。",
+        "研发和扩产投入增加，但订单、收入与现金流没有同步改善。",
+        "行业景气回落，价格或库存变化削弱原来的增长判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "A",
+      "overallScore": 61.53,
+      "fundamentalScore": 88.45,
+      "companyScore": 91,
+      "evidenceScore": 96,
+      "valuationScore": 35,
+      "timingScore": 34.2,
+      "riskScore": 64,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": null,
+        "ps": 22.893,
+        "revenueGrowth": 0.3522,
+        "profitGrowth": 1.3167,
+        "cashConversion": 0.3428,
+        "debtRatio": 0.4219,
+        "return20": -0.063
+      }
+    },
+    "overlay": {
+      "symbol": "688126.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "制造材料",
+      "bottleneck_reason": "半导体景气必须经过产品、客户验证和产能利用，再进入收入和现金流；本次最关键的公司原文是：报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。",
+      "revenue_transmission": "这条原文直接说明核心产品、客户验证、产量、产能利用率或分部收入已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "核心产品、客户验证、产量、产能利用率或分部收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收37.16亿元，同比+9.69%；归母净利润-15.08亿元，同比+55.33%。2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。2026-08-26复权收盘24.25元，低于20日平均成本25.67元；60日平均成本28.69元，近20个交易日涨跌-6.3%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+        "若下一期现金流明显落后于利润，沪硅产业的增长质量需要下调。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化核心产品、客户验证、产量、产能利用率或分部收入？",
+        "沪硅产业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收10.84亿元，较可比期+35.22%；归母净利润-4.83亿元，较可比期+131.67%；经营现金流-1.66亿元。",
+          "报告期内，子公司上海新昇作为国内领先的300mm半导体硅片产品供应商，保持了稳定的产 能利用率及出货量，销量同比增长约27%，其300mm半导体硅片业务实现了逻辑工艺与存储工 艺产品全覆盖、国内主要客户全覆盖、下游应用场景全覆盖。"
+        ]
+      },
+      "upside": {
+        "summary": "沪硅产业的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "核心产品、客户验证、产量、产能利用率或分部收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "沪硅产业的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本28.69元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "核心产品、客户验证、产量、产能利用率或分部收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若5.存货减值的风险 截至2025年12月31日，公司存货总额为230,812.25万元，存货跌价准备金额为34,209.23 万元，占比为14.82%。继续恶化，或价格跌破60日平均成本28.69元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本25.67元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

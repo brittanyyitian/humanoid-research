@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_15_static_cninfo_com_cn_8eb7743bd6",
+  "artifactType": "filing",
+  "title": "关于召开2026年半年度业绩说明会的公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-15/1225473600.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8eb7743bd6",
+  "fetchRunId": "fetch_2026_08_15_static_cninfo_com_cn_8eb7743bd6",
+  "publishedAt": "2026-08-15",
+  "firstSeenAt": "2026-08-15T16:16:04+08:00",
+  "capturedAt": "2026-08-15T16:16:04+08:00",
+  "contentHash": "sha256:bba11870024ca388279f29675942defe43c34f547567af5402b6197d5dad1b5b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_15_static_cninfo_com_cn_8eb7743bd6.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_08_15_filing_91335c2831"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_33d3546f95cf3034; listSourceId=src_cninfo_600028_announcements."
+}

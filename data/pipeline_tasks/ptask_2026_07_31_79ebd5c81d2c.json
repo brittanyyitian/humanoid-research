@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_31_79ebd5c81d2c",
+  "rawArtifactId": "raw_2026_07_31_static_cninfo_com_cn_818fb8f7ef",
+  "routeDecisionId": "route_2026_07_31_84ae74f33422",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "huahong_semiconductor",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-31T16:18:10+08:00",
+  "updatedAt": "2026-07-31T16:18:11+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-31T16:18:11+08:00",
+  "finishedAt": "2026-07-31T16:18:11+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_31_filing_5b6f97e2b3"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_31_filing_5b6f97e2b3"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_31_filing_material_v0_57c0d16cd8"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_31_96b164fd9222"
+  ]
+}

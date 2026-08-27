@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_38e0d73b5a",
+  "artifactType": "filing",
+  "title": "2026年半年度报告",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514149.PDF",
+  "sourceId": "src_static_cninfo_com_cn_38e0d73b5a",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_38e0d73b5a",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:9b0dd5687263e16d44e9bb89b9002da02a4c0d3c378ef5dc8352298da0cf29a4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_38e0d73b5a.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_8901f6ae18"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e797a908bee57d5b; listSourceId=src_cninfo_688347_announcements."
+}

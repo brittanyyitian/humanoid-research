@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_43eec45fdd",
+  "artifactType": "filing",
+  "title": "关于第三届职工代表大会第一次会议决议公告",
+  "publisher": "概伦电子",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225486036.PDF",
+  "sourceId": "src_static_cninfo_com_cn_43eec45fdd",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_43eec45fdd",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:d38a85e4afd7cb31437218a03d6b1255cf2df8fbbe0c140241c6ac0056cec458",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_43eec45fdd.json",
+  "entityIds": [
+    "primarius"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_other_07a0d67008"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fb822c98d9451b6d; listSourceId=src_cninfo_688206_announcements."
+}

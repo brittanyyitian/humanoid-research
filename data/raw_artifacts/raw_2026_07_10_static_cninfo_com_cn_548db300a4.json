@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_548db300a4",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于控股子公司山金国际全资子公司之间终止提供担保的公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225416819.PDF",
+  "sourceId": "src_static_cninfo_com_cn_548db300a4",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_548db300a4",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ac612858f6676c94cfbb4ec4245d771059cb0eeecff0af52aa8bcd482bfeea64",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_548db300a4.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_8f458f1dbd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a5957bdde202919a; listSourceId=src_cninfo_600547_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_0cb78870f3",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于以集中竞价交易方式回购公司A股股份方案的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225483605.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0cb78870f3",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_0cb78870f3",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:cec1293dee4b2014b3017facb4c1951808e677f152e98e6c38f21ad5f09a828b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_0cb78870f3.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_fe459673ed"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_05d86699ced19a29; listSourceId=src_cninfo_600276_announcements."
+}

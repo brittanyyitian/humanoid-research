@@ -1,0 +1,147 @@
+{
+  "id": "saout_datang_power_174ae1583231",
+  "entityId": "datang_power",
+  "name": "大唐发电",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "    \"implied_growth_vs_evidence\": 2.64,\n        \"upside_downside\": 2.6,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.35\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 55.0,\n      \"average_rating\": 2.75,\n      \"details\": {\n        \"monthly_trend\": 4.1,\n        \"weekly_structure\": 1.8,\n        \"daily_buy_point\": 2.65,\n        \"gf_dma_alignment\": 2.75,\n        \"drawdown_position\": 2.45\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"火电与新能源处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺发电量、电价和成本和现金流兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -7.0%，近60日涨跌 70.8%。\",\n      \"missing_proof\": \"发电量 / 电价和成本 / 现金流兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"发电量或利用小时下降，电价和成本又没有改善。\",\n    \"利润增长没有转成经营现金流，负债压力继续上升。\",\n    \"水情、煤价或新增装机变化削弱原来的盈利判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "601991.SH",
+    "symbol": "601991"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_07_21_static_cninfo_com_cn_82e4ab76f6",
+      "raw_2026_03_28_static_cninfo_com_cn_459d989814",
+      "raw_2026_03_28_static_cninfo_com_cn_9ca69a9312",
+      "raw_2025_08_29_static_cninfo_com_cn_57ab803a3e",
+      "raw_2025_08_29_static_cninfo_com_cn_6c03e915b6",
+      "raw_2025_07_19_static_cninfo_com_cn_3de398aa52",
+      "raw_2025_03_26_static_cninfo_com_cn_5d0460e670",
+      "raw_2025_03_26_static_cninfo_com_cn_989d54bb9b"
+    ],
+    "claimIds": [
+      "claim_2026_07_21_filing_a201e61024",
+      "claim_2026_03_28_filing_ee423e6909",
+      "claim_2026_03_28_filing_37a79a6190",
+      "claim_2025_08_29_filing_cb85d06039",
+      "claim_2025_08_29_filing_6fb6aea656",
+      "claim_2025_07_19_filing_1f1a68064b",
+      "claim_2025_03_26_filing_6adc611197",
+      "claim_2025_03_26_filing_29c755d28b",
+      "claim_2026_08_18_filing_911175c1b5",
+      "claim_2026_07_22_filing_b0941a748f",
+      "claim_2026_07_21_filing_908edf96dc",
+      "claim_2026_07_16_filing_787e49d746",
+      "claim_2026_04_29_filing_a6021f62fe",
+      "claim_2026_08_22_filing_44acbe3af5",
+      "claim_2026_08_22_filing_ab2dc5463b",
+      "claim_2026_08_22_filing_7fc40fbc17",
+      "claim_2026_08_22_filing_67dd315fc3",
+      "claim_2026_08_22_filing_311f383069",
+      "claim_2026_08_19_filing_f98e66a047",
+      "claim_2026_08_14_filing_38bef7fe16"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/data/601991/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "大唐发电 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 56/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/data/601991/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_54_42_datang_power/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 601991.SH (大唐发电)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **56.0 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **STRONG_OBSERVE**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.89 |\n| Evidence confidence | 77.6 |\n| Market payoff | 59.96 |\n| Technical timing | 55.0 |\n| Data readiness | 100.0 |\n| Action readiness | 71.75 |\n\n## Falsification Points\n- 发电量或利用小时下降，电价和成本又没有改善。\n- 利润增长没有转成经营现金流，负债压力继续上升。\n- 水情、煤价或新增装机变化削弱原来的盈利判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

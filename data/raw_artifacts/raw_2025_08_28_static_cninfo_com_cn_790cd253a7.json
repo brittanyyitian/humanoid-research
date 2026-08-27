@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_28_static_cninfo_com_cn_790cd253a7",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2025年半年度报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-28/1224592996.PDF",
+  "sourceId": "src_static_cninfo_com_cn_790cd253a7",
+  "fetchRunId": "fetch_2025_08_28_static_cninfo_com_cn_790cd253a7",
+  "publishedAt": "2025-08-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d1063db757a4fd4b3c08d4055dd7fdaf79e9c87cff1f7fbc61f9e0de8fbf21df",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_28_static_cninfo_com_cn_790cd253a7.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2025_08_28_filing_fefd1b7af7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_37ef3a5447128583; listSourceId=src_cninfo_600938_announcements."
+}

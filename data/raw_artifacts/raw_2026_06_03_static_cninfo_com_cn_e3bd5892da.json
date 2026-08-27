@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_03_static_cninfo_com_cn_e3bd5892da",
+  "artifactType": "filing",
+  "title": "港股公告：证券变动月报表",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-03/1225346264.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e3bd5892da",
+  "fetchRunId": "fetch_2026_06_03_static_cninfo_com_cn_e3bd5892da",
+  "publishedAt": "2026-06-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:34087947da5b30ff309c97d94c9ff91a3a43cf336cbca438245d3bb3cd53b340",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_03_static_cninfo_com_cn_e3bd5892da.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_03_filing_c990a4a4d0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c97110e0254e514c; listSourceId=src_cninfo_688981_announcements."
+}

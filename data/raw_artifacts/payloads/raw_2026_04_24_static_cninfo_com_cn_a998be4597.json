@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_a998be4597",
+  "capturedAt": "2026-07-23T16:16:25+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225170968.PDF",
+    "title": "2025年年度报告及2026年第一季度报告披露提示性公告",
+    "publisher": "机器人",
+    "publishedAt": "2026-04-24",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "siasun_robot"
+    ],
+    "body": "证券代码：300024 证券简称：机器人 公告编号：2026-004\n沈阳新松机器人自动化股份有限公司\n2025年年度报告及2026年第一季度报告披露提示性公告\n本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假\n记载、误导性陈述或者重大遗漏。\n2026 年 4 月 23 日，沈阳新松机器人自动化股份有限公司（以下简称“本公\n司”）召开第八届董事会第七次会议，审议通过了公司 2025 年年度报告及摘要，\n2026 年第一季度报告相关议案。\n为使投资者全面了解本公司的经营成果、财务状况及未来发展规划，本公司\n《2025 年年度报告》《2025 年年度报告摘要》及《2026 年第一季度报告》于 2026\n年 4 月 24 日 在 中 国 证 监 会 创 业 板 指 定 信 息 披 露 网 站 巨 潮 资 讯 网\n（www.cninfo.com.cn）上披露，敬请投资者注意查阅。\n特此公告。\n沈阳新松机器人自动化股份有限公司董事会\n2026年4月23日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T16:16:25+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 109808,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

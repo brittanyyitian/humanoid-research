@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_e03e8290d5",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225219213.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e03e8290d5",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_e03e8290d5",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5f1ff2229f58e65a5ba80773fa69401b4de21a0c756246a3635b98dbdaac7cb2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_e03e8290d5.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_7590f1be71"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6b600ef97f60f900; listSourceId=src_cninfo_301269_announcements."
+}

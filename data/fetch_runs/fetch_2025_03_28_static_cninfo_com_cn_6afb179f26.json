@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_03_28_static_cninfo_com_cn_6afb179f26",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "国际实业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T16:16:52+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_03_28_static_cninfo_com_cn_6afb179f26"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_5f4a5a10f1"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222926801.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:56d9265b929c4f74fe14ae485e704b274b183ef600351646fb84fa0a93705beb",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_6afb179f26.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:52+08:00",
+      "finishedAt": "2026-07-23T16:16:52+08:00",
+      "contentHash": "sha256:d1cd02624fbb335a22f9edb606577c90a98a18dd4d487a2946b61f0304f1a375",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_6afb179f26.json"
+    }
+  ]
+}

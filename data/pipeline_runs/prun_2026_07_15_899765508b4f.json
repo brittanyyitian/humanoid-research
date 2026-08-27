@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_15_899765508b4f",
+  "pipelineTaskId": "ptask_2026_07_15_a16f92273ebc",
+  "rawArtifactId": "raw_2026_07_14_orbbec_com_cn_20063e6a81",
+  "routeDecisionId": "route_2026_07_14_3bd4aa8ea0d8",
+  "pipeline": "supply_chain_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "claimIds": [
+    "claim_2026_07_14_other_a7dff4dba4"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_14_other_a7dff4dba4"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_14_supply_chain_material_v0_1ef0fe58b8"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

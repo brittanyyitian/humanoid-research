@@ -1,0 +1,1984 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "keli_sensing",
+  "name": "柯力传感",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-15",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T17:20:46+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 58.41,
+      "currency": "CNY",
+      "changePct": -0.41,
+      "technicalTimingScore": 21.8,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -8.611539120013687,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": -6.154274162748743,
+          "maxDrawdownPct": -20.561547680191747,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-16",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:31:12+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 57,
+      "currency": "CNY",
+      "changePct": -1.81,
+      "technicalTimingScore": 24.2,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -6.403508771929822,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -6.357721226142269,
+          "maxDrawdownPct": -18.596491228070178,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-17",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:30:50+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 52.6,
+      "currency": "CNY",
+      "changePct": -7.72,
+      "technicalTimingScore": 27.8,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": 1.4258555133079849,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": -2.3498881937858376,
+          "maxDrawdownPct": -11.787072243346012,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-19",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T21:44:23+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 52.6,
+      "currency": "CNY",
+      "changePct": -7.719298245614032,
+      "technicalTimingScore": 27.8,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": 4.1634980988593115,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -11.787072243346012,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-20",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:32:32+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 48.52,
+      "currency": "CNY",
+      "changePct": -7.76,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 62,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 13.375927452596855,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": 2.5651166417860445,
+          "maxDrawdownPct": -8.499309800828243,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-21",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:32:26+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 50.71,
+      "currency": "CNY",
+      "changePct": 4.51,
+      "technicalTimingScore": 27.8,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": -2.3663971603234133,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": -0.42639716032341557,
+          "maxDrawdownPct": -9.998182148700236,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-22",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:35:28+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 49.11,
+      "currency": "CNY",
+      "changePct": -3.16,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": -0.12217470983506877,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": 1.5883516059544036,
+          "maxDrawdownPct": -10.83439374659153,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-23",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.69,
+      "currency": "CNY",
+      "changePct": -0.86,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 1.6225097555966301,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 2.91317929041781,
+          "maxDrawdownPct": -10.83439374659153,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-24",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.4,
+      "currency": "CNY",
+      "changePct": -4.7,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 6.637931034482755,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 3.5779538399197994,
+          "maxDrawdownPct": -10.83439374659153,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-25",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.4,
+      "currency": "CNY",
+      "changePct": -4.7,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 6.637931034482755,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 3.7883036780601245,
+          "maxDrawdownPct": -10.83439374659153,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-26",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.4,
+      "currency": "CNY",
+      "changePct": -4.7,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 3.383620689655173,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 4.088883847549912,
+          "maxDrawdownPct": -12.7976731503363,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-27",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.63,
+      "currency": "CNY",
+      "changePct": 4.81,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 0.5963397079991757,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 2.411712438783258,
+          "maxDrawdownPct": -12.7976731503363,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-28",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.94,
+      "currency": "CNY",
+      "changePct": -1.42,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 1.522736754276187,
+          "poolReturnPct": 0,
+          "excessReturnPct": 1.522736754276187,
+          "maxDrawdownPct": -12.7976731503363,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-29",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.66,
+      "currency": "CNY",
+      "changePct": 1.5,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 2.055076037813399,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": -0.1659123019978086,
+          "maxDrawdownPct": -12.7976731503363,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-30",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.73,
+      "currency": "CNY",
+      "changePct": -3.97,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-07-31",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.53,
+      "currency": "CNY",
+      "changePct": 8.13,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-01",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.53,
+      "currency": "CNY",
+      "changePct": 8.13,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-02",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.53,
+      "currency": "CNY",
+      "changePct": 8.13,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-03",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 51.87,
+      "currency": "CNY",
+      "changePct": 2.65,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-04",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.14,
+      "currency": "CNY",
+      "changePct": 2.45,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-05",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.25,
+      "currency": "CNY",
+      "changePct": 2.09,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-06",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:54+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.86,
+      "currency": "CNY",
+      "changePct": -0.72,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-07",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.39,
+      "currency": "CNY",
+      "changePct": 0.98,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-08",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.39,
+      "currency": "CNY",
+      "changePct": 0.98,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-09",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.39,
+      "currency": "CNY",
+      "changePct": 0.98,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-10",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.08,
+      "currency": "CNY",
+      "changePct": -2.41,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-11",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.8,
+      "currency": "CNY",
+      "changePct": 1.36,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-12",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.9,
+      "currency": "CNY",
+      "changePct": 0.19,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-13",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.38,
+      "currency": "CNY",
+      "changePct": -0.96,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-14",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.35,
+      "currency": "CNY",
+      "changePct": -0.06,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-15",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.35,
+      "currency": "CNY",
+      "changePct": -0.06,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-16",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 53.35,
+      "currency": "CNY",
+      "changePct": -0.06,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-17",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 54.79,
+      "currency": "CNY",
+      "changePct": 2.7,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-18",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 55.01,
+      "currency": "CNY",
+      "changePct": 0.4,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-19",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.51,
+      "currency": "CNY",
+      "changePct": -10,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-20",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.05,
+      "currency": "CNY",
+      "changePct": -0.93,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-21",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.48,
+      "currency": "CNY",
+      "changePct": 0.88,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-22",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.48,
+      "currency": "CNY",
+      "changePct": 0.88,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-23",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.48,
+      "currency": "CNY",
+      "changePct": 0.88,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-24",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.97,
+      "currency": "CNY",
+      "changePct": -3.05,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-25",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.92,
+      "currency": "CNY",
+      "changePct": 1.98,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-26",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.67,
+      "currency": "CNY",
+      "changePct": -0.51,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_keli_sensing_2026-08-27",
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "symbol": "603662.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.66,
+      "currency": "CNY",
+      "changePct": 2.03,
+      "technicalTimingScore": 25,
+      "marketPayoffScore": 55.4,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘柯力传感值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

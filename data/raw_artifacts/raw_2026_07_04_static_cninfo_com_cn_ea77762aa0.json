@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_04_static_cninfo_com_cn_ea77762aa0",
+  "artifactType": "filing",
+  "title": "H股公告-截至2026年6月30日止月份之股份发行人的证券变动月报表",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-04/1225408878.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ea77762aa0",
+  "fetchRunId": "fetch_2026_07_04_static_cninfo_com_cn_ea77762aa0",
+  "publishedAt": "2026-07-04",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:eecdf2655cefb7d784d29319ad1ba0649cfc87e17b66ad9e1d22843954e687ff",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_ea77762aa0.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_04_filing_adfb0a2ab4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_95b6e961f72fe1b6; listSourceId=src_cninfo_002747_announcements."
+}

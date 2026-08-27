@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_32c612103c",
+  "artifactType": "filing",
+  "title": "港股公告：暂停办理股份过户登记",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225349278.PDF",
+  "sourceId": "src_static_cninfo_com_cn_32c612103c",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_32c612103c",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:900e9200416ae1a2f26ef56ef3b4c915e4717d480649e609f6d23e0bfa561bba",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_32c612103c.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_35f51b8f55"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3143ec153a435295; listSourceId=src_cninfo_688981_announcements."
+}

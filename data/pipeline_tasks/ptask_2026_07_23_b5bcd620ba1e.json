@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_b5bcd620ba1e",
+  "rawArtifactId": "raw_2026_06_12_static_cninfo_com_cn_f1d3d73914",
+  "routeDecisionId": "route_2026_06_12_cc41f0e3ea1e",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "taishan_petroleum",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:31:19+08:00",
+  "updatedAt": "2026-07-23T09:31:24+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:31:24+08:00",
+  "finishedAt": "2026-07-23T09:31:24+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_12_filing_03aeb9d7ae"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_12_filing_03aeb9d7ae"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_12_filing_material_v0_ff0c1e92fe"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_c900683db53a"
+  ]
+}

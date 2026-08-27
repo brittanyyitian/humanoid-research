@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_4e3f2fc200",
+  "artifactType": "filing",
+  "title": "关于计提资产减值准备的公告",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503755.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4e3f2fc200",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_4e3f2fc200",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:d0885bf674a63c43947c7127960d38f92ac24c7eb5048e8be47e5b8bfe5d088a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_4e3f2fc200.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_1aef11ad97"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_63d545ba1bbb10d8; listSourceId=src_cninfo_002896_announcements."
+}

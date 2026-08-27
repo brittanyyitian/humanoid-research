@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_f3fbba828e",
+  "artifactType": "filing",
+  "title": "关于参与设立私募投资基金暨关联交易的公告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401858.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3fbba828e",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_f3fbba828e",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b7d50b41e822e1354c2177a7a553376086fd0132a6b331ccb693096edbf47388",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_f3fbba828e.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_ee8160df4c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ff2dd041980c5f46; listSourceId=src_cninfo_688012_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_bee54b32d9",
+  "artifactType": "filing",
+  "title": "浙江禾川科技股份有限公司非经常性损益鉴证报告",
+  "publisher": "禾川科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405111.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bee54b32d9",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_bee54b32d9",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:350c806c44b9d0a40a9558828519b39d328f84546dc5599aa5d7a5bffb681f7e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_bee54b32d9.json",
+  "entityIds": [
+    "hechuan_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_6d833a74ce"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f01c7ebbf066284d; listSourceId=src_cninfo_688320_announcements."
+}

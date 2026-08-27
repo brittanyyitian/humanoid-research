@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_7b07f74b3e",
+  "artifactType": "filing",
+  "title": "2025年度股东会决议公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225282020.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7b07f74b3e",
+  "fetchRunId": "fetch_2026_05_08_static_cninfo_com_cn_7b07f74b3e",
+  "publishedAt": "2026-05-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:780ed780a6d5bdcd17a218e1a206137f3f900080005f97f12c2e79709955f2cf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_7b07f74b3e.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_8b4ab7daf3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5e1e7dea7d60081a; listSourceId=src_cninfo_002353_announcements."
+}

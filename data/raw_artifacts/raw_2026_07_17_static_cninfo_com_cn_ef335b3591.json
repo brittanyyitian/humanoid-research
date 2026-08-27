@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_ef335b3591",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司十届二十七次董事会决议公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225427628.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ef335b3591",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_ef335b3591",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:7fd1b8e47aae022bf8612bca39d3b5b966bd25b3ae072696935fc605ced186ec",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_ef335b3591.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_d2c802228b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bf8e391f6d446f3d; listSourceId=src_cninfo_600664_announcements."
+}

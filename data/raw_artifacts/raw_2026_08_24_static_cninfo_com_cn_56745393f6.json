@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_56745393f6",
+  "artifactType": "filing",
+  "title": "2026年半年度报告披露提示性公告",
+  "publisher": "机器人",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225490261.PDF",
+  "sourceId": "src_static_cninfo_com_cn_56745393f6",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_56745393f6",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:03e5c2d4f094e91bd38f710d86f378321c12b6c5737babad1b010aaa2cf033c3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_56745393f6.json",
+  "entityIds": [
+    "siasun_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_2b8dda4350"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_594ed78731a53d23; listSourceId=src_cninfo_300024_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_13_static_cninfo_com_cn_469a505b5b",
+  "artifactType": "filing",
+  "title": "H股公告-董事会会议召开日期",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-13/1225470022.PDF",
+  "sourceId": "src_static_cninfo_com_cn_469a505b5b",
+  "fetchRunId": "fetch_2026_08_13_static_cninfo_com_cn_469a505b5b",
+  "publishedAt": "2026-08-13",
+  "firstSeenAt": "2026-08-13T16:16:03+08:00",
+  "capturedAt": "2026-08-13T16:16:03+08:00",
+  "contentHash": "sha256:1e5508e0eb020f705ead4e81bd9226dd740e48ca0b1e35b3ec93b601023378c9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_13_static_cninfo_com_cn_469a505b5b.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_13_filing_093d41ca94"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fd24aadd6afaf64c; listSourceId=src_cninfo_002050_announcements."
+}

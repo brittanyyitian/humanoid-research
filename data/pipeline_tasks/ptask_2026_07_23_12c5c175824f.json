@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_12c5c175824f",
+  "rawArtifactId": "raw_2026_05_09_static_cninfo_com_cn_134591626a",
+  "routeDecisionId": "route_2026_05_09_37f4738ef6d1",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "taiji_industry",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:12+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:12+08:00",
+  "finishedAt": "2026-07-23T09:51:12+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_09_filing_62ef8479a9"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_09_filing_62ef8479a9"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_09_filing_material_v0_5031b3f1c1"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_53558c1134a7"
+  ]
+}

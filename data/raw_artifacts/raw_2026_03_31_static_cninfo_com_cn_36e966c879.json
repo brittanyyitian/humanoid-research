@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_31_static_cninfo_com_cn_36e966c879",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225062430.PDF",
+  "sourceId": "src_static_cninfo_com_cn_36e966c879",
+  "fetchRunId": "fetch_2026_03_31_static_cninfo_com_cn_36e966c879",
+  "publishedAt": "2026-03-31",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:23af9eb2b9637c37867c3ca58093c9aeb8a3fa7bf8cb0cfb59afea46b64aeb05",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_31_static_cninfo_com_cn_36e966c879.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_03_31_filing_0bb8128df9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7389ec4b95f0b4c5; listSourceId=src_cninfo_688012_announcements."
+}

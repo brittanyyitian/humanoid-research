@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_2f57f4bfa9",
+  "artifactType": "filing",
+  "title": "港股公告：百济神州有限公司截至2026年6月30日止六个月中期业绩公告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512414.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2f57f4bfa9",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_2f57f4bfa9",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:44a18ce54c80173af1f73820796ca397a7fcc9f053ad9cc0b47c3244cad5611d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_2f57f4bfa9.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_0da45f8988"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4aafcead373d3271; listSourceId=src_cninfo_688235_announcements."
+}

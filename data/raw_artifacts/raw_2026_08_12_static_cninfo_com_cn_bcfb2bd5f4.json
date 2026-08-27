@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_12_static_cninfo_com_cn_bcfb2bd5f4",
+  "artifactType": "filing",
+  "title": "第五届董事会第二次会议决议的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-12/1225467785.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bcfb2bd5f4",
+  "fetchRunId": "fetch_2026_08_12_static_cninfo_com_cn_bcfb2bd5f4",
+  "publishedAt": "2026-08-12",
+  "firstSeenAt": "2026-08-12T16:17:44+08:00",
+  "capturedAt": "2026-08-12T16:17:44+08:00",
+  "contentHash": "sha256:e2a160d55b17bf7aa959381c752f21c1fb799839416f6d3b83143594bf1a1b55",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_12_static_cninfo_com_cn_bcfb2bd5f4.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_12_filing_a25c623e9b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_87ec980fbf1e03b5; listSourceId=src_cninfo_300580_announcements."
+}

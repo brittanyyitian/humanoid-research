@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_15_943c4c532a47",
+  "pipelineTaskId": "ptask_2026_07_15_9ca0bcd822b3",
+  "rawArtifactId": "raw_2024_07_05_unitree_com_80f413d63a",
+  "routeDecisionId": "route_2024_07_05_afc596087066",
+  "pipeline": "product_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "claimIds": [
+    "claim_2024_07_05_product_release_027a20e48a"
+  ],
+  "evidenceIds": [
+    "evd_2024_07_05_product_release_027a20e48a"
+  ],
+  "ruleOutputIds": [
+    "rout_2024_07_05_product_material_v0_388e340f54"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

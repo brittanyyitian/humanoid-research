@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_03_28_static_cninfo_com_cn_b26f96f972",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "山东黄金",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T16:16:52+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_03_28_static_cninfo_com_cn_b26f96f972"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_4cc37104cd"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222928628.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:15357557becd2080071cfb0af56a605950c1f2b4d13cd26fd5b3c0fe750ffeee",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_b26f96f972.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:52+08:00",
+      "finishedAt": "2026-07-23T16:16:52+08:00",
+      "contentHash": "sha256:8ee0cd66980e4fd4c7fc54e075e9aabee5264b3bc115a1a21e65fa1f85c1baad",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_b26f96f972.json"
+    }
+  ]
+}

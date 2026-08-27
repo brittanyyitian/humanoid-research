@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_5f288eedeb",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225352518.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5f288eedeb",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_5f288eedeb",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:5e69641f050854bbf21161cd732d77b92db4ad9dbb8c5120ac7b13a5a5f80eae",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_5f288eedeb.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_945312e366"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_94d158624a5902b3; listSourceId=src_cninfo_300007_announcements."
+}

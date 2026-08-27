@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_08_static_cninfo_com_cn_79587d6c1c",
+  "artifactType": "filing",
+  "title": "中无人机关于董事增持股份结果的公告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-08/1225082393.PDF",
+  "sourceId": "src_static_cninfo_com_cn_79587d6c1c",
+  "fetchRunId": "fetch_2026_04_08_static_cninfo_com_cn_79587d6c1c",
+  "publishedAt": "2026-04-08",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e3498260288fdeaa8c085b89667c0133d17dece7cce79951b053c846daee06b2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_08_static_cninfo_com_cn_79587d6c1c.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_04_08_filing_0e9818ad61"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e37f9d7d0b7dd894; listSourceId=src_cninfo_688297_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_06_24_static_cninfo_com_cn_4f56d24ed4",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "双环传动",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:34+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_06_24_static_cninfo_com_cn_4f56d24ed4"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_077c49d9c0"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225382442.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:c2986f679bbd504fa624d46bc08ac659038a0aac235655bbef3452871582f5d3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_4f56d24ed4.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:34+08:00",
+      "finishedAt": "2026-07-15T11:30:34+08:00",
+      "contentHash": "sha256:c13b44f45ca03fae6661b06bca10d428d7ec1328ab03d7ecc97c36b73c6043c2",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_4f56d24ed4.json"
+    }
+  ]
+}

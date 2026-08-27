@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_4c32e44363",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司2025年年度股东会决议公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225383180.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4c32e44363",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_4c32e44363",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9d5e06f14a081ddc9700253e88beea676fcd8ef74531640a898585176c7bd56a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_4c32e44363.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_6a12fe1562"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dfe28664ae33ba07; listSourceId=src_cninfo_600664_announcements."
+}

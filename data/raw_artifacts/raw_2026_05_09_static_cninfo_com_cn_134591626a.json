@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_134591626a",
+  "artifactType": "filing",
+  "title": "关于子公司缴纳税款的进展公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225284527.PDF",
+  "sourceId": "src_static_cninfo_com_cn_134591626a",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_134591626a",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:41eff7cf1d3fe4c68b18cd3f62ee384cfbb135b797669633fc50ad46193e7c17",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_134591626a.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_62ef8479a9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7367e22c2e81c846; listSourceId=src_cninfo_600667_announcements."
+}

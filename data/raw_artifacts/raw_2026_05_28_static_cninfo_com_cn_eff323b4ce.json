@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_eff323b4ce",
+  "artifactType": "filing",
+  "title": "关于董事会换届选举的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332600.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eff323b4ce",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_eff323b4ce",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a524913c0996006ca46cbb679fbee1578087b7fae3449e17bd78c79fb7efe56e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_eff323b4ce.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_0a241a426e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c003882522b3ed56; listSourceId=src_cninfo_000554_announcements."
+}

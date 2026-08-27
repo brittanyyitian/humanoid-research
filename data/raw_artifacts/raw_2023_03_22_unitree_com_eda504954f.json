@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_03_22_unitree_com_eda504954f",
+  "artifactType": "news_page",
+  "title": "招聘 宇树社招&2023校招正式启动！",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/23",
+  "sourceId": "src_unitree_com_eda504954f",
+  "fetchRunId": "fetch_2023_03_22_unitree_com_eda504954f",
+  "publishedAt": "2023-03-22",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:96ae2fec2dffe372c9ccb49fdf321779c8b0f0f230ac22f118f6d016859fce32",
+  "storagePath": "raw_artifacts/payloads/raw_2023_03_22_unitree_com_eda504954f.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_03_22_other_e9a819ac05"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_449f3e3dc62202c1; listSourceId=src_unitree_official_news."
+}

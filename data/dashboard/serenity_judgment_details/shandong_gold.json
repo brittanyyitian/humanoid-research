@@ -1,0 +1,1677 @@
+{
+  "entityId": "shandong_gold",
+  "name": "山东黄金",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_shandong_gold_2026-08-27",
+    "entityId": "shandong_gold",
+    "name": "山东黄金",
+    "symbol": "600547.SH",
+    "market": "SSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "值得重点观察",
+    "actionReadiness": "STRONG_OBSERVE",
+    "confidence": "HIGH",
+    "reason": "接近买点",
+    "price": 34.89,
+    "currency": "CNY",
+    "changePct": 1.16,
+    "technicalTimingScore": 52.6,
+    "marketPayoffScore": 55.96,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "自动检查山东黄金的新公告是否出现",
+      "90d": "收入是否兑现",
+      "180d": "复盘山东黄金值得重点观察，但等待"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-23",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 27.42,
+      "currency": "CNY",
+      "changePct": 0.07,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 35.12035010940917,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 36.41101964423035,
+          "maxDrawdownPct": -6.768350810295516,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-24",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 25.94,
+      "currency": "CNY",
+      "changePct": -5.4,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 42.829606784888185,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 39.76962959032523,
+          "maxDrawdownPct": -6.768350810295516,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-25",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 25.94,
+      "currency": "CNY",
+      "changePct": -5.4,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 42.829606784888185,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 39.979979428465555,
+          "maxDrawdownPct": -6.768350810295516,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-26",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 25.94,
+      "currency": "CNY",
+      "changePct": -5.4,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 40.70932922127987,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 41.414592379174614,
+          "maxDrawdownPct": -6.768350810295516,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-27",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 26.44,
+      "currency": "CNY",
+      "changePct": 1.93,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 32.26172465960664,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 34.077097390390726,
+          "maxDrawdownPct": -6.768350810295516,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-28",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 26.6,
+      "currency": "CNY",
+      "changePct": 0.61,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 29.661654135338345,
+          "poolReturnPct": 0,
+          "excessReturnPct": 29.661654135338345,
+          "maxDrawdownPct": -6.909581646423739,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-29",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 27.33,
+      "currency": "CNY",
+      "changePct": 2.74,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 27.66190998902306,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 25.44092164921185,
+          "maxDrawdownPct": -6.909581646423739,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-30",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 27.69,
+      "currency": "CNY",
+      "changePct": 1.32,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-07-31",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 28.2,
+      "currency": "CNY",
+      "changePct": 1.84,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-01",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 28.2,
+      "currency": "CNY",
+      "changePct": 1.84,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-02",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 28.2,
+      "currency": "CNY",
+      "changePct": 1.84,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-03",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 27.67,
+      "currency": "CNY",
+      "changePct": -1.88,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-04",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 27.08,
+      "currency": "CNY",
+      "changePct": -2.13,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-05",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 28.95,
+      "currency": "CNY",
+      "changePct": 6.91,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-06",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 29.96,
+      "currency": "CNY",
+      "changePct": 3.49,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-07",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.48,
+      "currency": "CNY",
+      "changePct": 1.74,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-08",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.48,
+      "currency": "CNY",
+      "changePct": 1.74,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-09",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.48,
+      "currency": "CNY",
+      "changePct": 1.74,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-10",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.47,
+      "currency": "CNY",
+      "changePct": 3.25,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-11",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.05,
+      "currency": "CNY",
+      "changePct": -4.51,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-12",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.02,
+      "currency": "CNY",
+      "changePct": 3.23,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-13",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 29.5,
+      "currency": "CNY",
+      "changePct": -4.9,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-14",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 29.34,
+      "currency": "CNY",
+      "changePct": -0.54,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-15",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 29.34,
+      "currency": "CNY",
+      "changePct": -0.54,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-16",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 29.34,
+      "currency": "CNY",
+      "changePct": -0.54,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-17",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.1,
+      "currency": "CNY",
+      "changePct": 2.59,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-18",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.61,
+      "currency": "CNY",
+      "changePct": 1.69,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-19",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.6,
+      "currency": "CNY",
+      "changePct": 6.5,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-20",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 35.4,
+      "currency": "CNY",
+      "changePct": 8.59,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-21",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 37.05,
+      "currency": "CNY",
+      "changePct": 4.96,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-22",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 37.05,
+      "currency": "CNY",
+      "changePct": 4.96,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-23",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 37.05,
+      "currency": "CNY",
+      "changePct": 4.96,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-24",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 36.5,
+      "currency": "CNY",
+      "changePct": -1.48,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-25",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 34.97,
+      "currency": "CNY",
+      "changePct": -4.19,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-26",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 34.49,
+      "currency": "CNY",
+      "changePct": -1.37,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_shandong_gold_2026-08-27",
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "symbol": "600547.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 34.89,
+      "currency": "CNY",
+      "changePct": 1.16,
+      "technicalTimingScore": 52.6,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "自动检查山东黄金的新公告是否出现",
+        "90d": "收入是否兑现",
+        "180d": "复盘山东黄金值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

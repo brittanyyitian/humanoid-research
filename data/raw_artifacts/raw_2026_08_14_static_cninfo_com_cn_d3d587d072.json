@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_14_static_cninfo_com_cn_d3d587d072",
+  "artifactType": "filing",
+  "title": "大唐发电关于中期票据发行的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225472121.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d3d587d072",
+  "fetchRunId": "fetch_2026_08_14_static_cninfo_com_cn_d3d587d072",
+  "publishedAt": "2026-08-14",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:108c4d771ecb9722f0dd1744cbe634122a739640f28e56645bc3f2d8456720c8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_d3d587d072.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_38bef7fe16"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_69873d79b3b2f2ea; listSourceId=src_cninfo_601991_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_53e0ecb64e",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "怡合达",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225446726.PDF",
+  "sourceId": "src_static_cninfo_com_cn_53e0ecb64e",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_53e0ecb64e",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:51b26ac1fa45a3cb450b44b2a7b792f9b470ca17307f87479b06a805d949ca22",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_53e0ecb64e.json",
+  "entityIds": [
+    "yeeda"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_fb181ce26b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b6c060302df5c180; listSourceId=src_cninfo_301029_announcements."
+}

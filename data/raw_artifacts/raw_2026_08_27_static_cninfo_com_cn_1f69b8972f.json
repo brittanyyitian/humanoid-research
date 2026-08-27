@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_1f69b8972f",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司关于对中海石油财务有限责任公司的风险持续评估报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512998.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1f69b8972f",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_1f69b8972f",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:f53a355e4350730c67eb798c87441ec32a0ec5049a1c1123b39f2b95f2cefe70",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_1f69b8972f.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_3dadfa5ae8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ae435a3401bfc610; listSourceId=src_cninfo_600938_announcements."
+}

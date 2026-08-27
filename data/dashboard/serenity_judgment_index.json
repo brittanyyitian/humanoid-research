@@ -1,0 +1,487 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "contractType": "serenity_judgment_history_index_v0",
+  "rows": [
+    {
+      "entityId": "estun",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 40.9
+      }
+    },
+    {
+      "entityId": "anji_microelectronics",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 253.01
+      }
+    },
+    {
+      "entityId": "anpeilong",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 64.02
+      }
+    },
+    {
+      "entityId": "orbbec",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 113.96
+      }
+    },
+    {
+      "entityId": "beone",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 272.45
+      }
+    },
+    {
+      "entityId": "naura",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SZSE",
+        "price": 764
+      }
+    },
+    {
+      "entityId": "beite_technology",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 45.78
+      }
+    },
+    {
+      "entityId": "best",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 22.61
+      }
+    },
+    {
+      "entityId": "kinco",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 113.88
+      }
+    },
+    {
+      "entityId": "datang_power",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 6.99
+      }
+    },
+    {
+      "entityId": "donghua_testing",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 32.5
+      }
+    },
+    {
+      "entityId": "primarius",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 36.29
+      }
+    },
+    {
+      "entityId": "international_industry",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 5.26
+      }
+    },
+    {
+      "entityId": "sdic_power",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 15.12
+      }
+    },
+    {
+      "entityId": "harbin_pharma",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 6
+      }
+    },
+    {
+      "entityId": "hainan_haiyao",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 5.09
+      }
+    },
+    {
+      "entityId": "cambricon",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 1310
+      }
+    },
+    {
+      "entityId": "hanwei_electronics",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 35.49
+      }
+    },
+    {
+      "entityId": "rainbow_uav",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 17.89
+      }
+    },
+    {
+      "entityId": "hechuan_technology",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 31.67
+      }
+    },
+    {
+      "entityId": "hengrui",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 54.91
+      }
+    },
+    {
+      "entityId": "national_silicon",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 26.6
+      }
+    },
+    {
+      "entityId": "huada_jiutian",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SZSE",
+        "price": 98.13
+      }
+    },
+    {
+      "entityId": "huahong_semiconductor",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 390.06
+      }
+    },
+    {
+      "entityId": "highly_electric",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 31.51
+      }
+    },
+    {
+      "entityId": "inovance",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 61.04
+      }
+    },
+    {
+      "entityId": "siasun_robot",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 15.06
+      }
+    },
+    {
+      "entityId": "jereh",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 135.11
+      }
+    },
+    {
+      "entityId": "piotech",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 9.36
+      }
+    },
+    {
+      "entityId": "keli_sensing",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 58.41
+      }
+    },
+    {
+      "entityId": "montage_technology",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 223
+      }
+    },
+    {
+      "entityId": "luster_lighttech",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 50.64
+      }
+    },
+    {
+      "entityId": "longcheer_technology",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 39.93
+      }
+    },
+    {
+      "entityId": "leaderdrive",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 386.08
+      }
+    },
+    {
+      "entityId": "moons",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 54.61
+      }
+    },
+    {
+      "entityId": "sanhuazk",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 41.5
+      }
+    },
+    {
+      "entityId": "three_gorges_water",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 6.51
+      }
+    },
+    {
+      "entityId": "shandong_gold",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 27.42
+      }
+    },
+    {
+      "entityId": "shuanghuan_driveline",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 42.39
+      }
+    },
+    {
+      "entityId": "shuanglin",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 23.8
+      }
+    },
+    {
+      "entityId": "tuopu_group",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 54.5
+      }
+    },
+    {
+      "entityId": "taiji_industry",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 16.23
+      }
+    },
+    {
+      "entityId": "taishan_petroleum",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 6.83
+      }
+    },
+    {
+      "entityId": "tongfu_microelectronics",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SZSE",
+        "price": 74.9
+      }
+    },
+    {
+      "entityId": "tongyuan_petroleum",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 12.49
+      }
+    },
+    {
+      "entityId": "wuzhou_xinchun",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SSE",
+        "price": 59.3
+      }
+    },
+    {
+      "entityId": "xingye_silver",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 33.59
+      }
+    },
+    {
+      "entityId": "yeeda",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 27.47
+      }
+    },
+    {
+      "entityId": "ubtech",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "HKEX",
+        "price": 85.75
+      }
+    },
+    {
+      "entityId": "jcet",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 85.78
+      }
+    },
+    {
+      "entityId": "cypc",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 28.94
+      }
+    },
+    {
+      "entityId": "zhaowei_machinery",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 81.99
+      }
+    },
+    {
+      "entityId": "zhongda_leader",
+      "baseline": {
+        "date": "2026-07-15",
+        "market": "SZSE",
+        "price": 70.88
+      }
+    },
+    {
+      "entityId": "cnooc",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 32.99
+      }
+    },
+    {
+      "entityId": "sinopec",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 5.19
+      }
+    },
+    {
+      "entityId": "avic_jonhon",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SZSE",
+        "price": 34.1
+      }
+    },
+    {
+      "entityId": "amec",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 392.99
+      }
+    },
+    {
+      "entityId": "avic_uav",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 39.97
+      }
+    },
+    {
+      "entityId": "smic",
+      "baseline": {
+        "date": "2026-07-22",
+        "market": "SSE",
+        "price": 155.59
+      }
+    },
+    {
+      "entityId": "zijin_mining",
+      "baseline": {
+        "date": "2026-07-23",
+        "market": "SSE",
+        "price": 33.06
+      }
+    }
+  ]
+}

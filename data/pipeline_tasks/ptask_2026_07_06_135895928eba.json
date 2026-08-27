@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_06_135895928eba",
+  "rawArtifactId": "raw_2026_05_29_orbbec_com_cn_5acbf2af25",
+  "routeDecisionId": "route_2026_05_29_471365128cae",
+  "pipeline": "supply_chain_pipeline",
+  "type": "supply_chain",
+  "entityId": "orbbec",
+  "entityIds": [
+    "orbbec"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-07-06T12:02:00+08:00",
+  "updatedAt": "2026-07-06T12:02:00+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-06T12:02:00+08:00",
+  "finishedAt": "2026-07-06T12:02:00+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_29_other_fe1b4d0853"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_29_other_fe1b4d0853"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_29_supply_chain_material_v0_549ea4b24e"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_06_1af6c5ad32e1"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_22_364eb4d3f2bf",
+  "rawArtifactId": "raw_2026_08_22_static_cninfo_com_cn_ed443e772d",
+  "routeDecisionId": "route_2026_08_22_2bb476b2962c",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "estun",
+  "entityIds": [
+    "estun"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-22T16:15:52+08:00",
+  "updatedAt": "2026-08-22T16:15:55+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-22T16:15:55+08:00",
+  "finishedAt": "2026-08-22T16:15:55+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_22_filing_bcdb260f1c"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_22_filing_bcdb260f1c"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_22_filing_material_v0_019cb87bcd"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_22_c81d4b83dc95"
+  ]
+}

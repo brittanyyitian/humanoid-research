@@ -1,0 +1,21 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "network failure keeps buy points blocked",
+  "transcript": "User: 没网了，帮我判断 300750 当前买点。 Agent: 当前无法取得实时行情与复权历史，数据状态为 FAILED。按规则我不能输出当前买点，评级上限降到 B 或观察；等网络恢复后我会先运行 python scripts/data_router.py fetch 300750 再做技术结构判断。",
+  "expectations": {
+    "required_patterns": [
+      "FAILED",
+      "评级上限",
+      "不能输出当前买点"
+    ],
+    "forbidden_patterns": [
+      "现在是二买",
+      "可以买入"
+    ],
+    "required_commands": [
+      "python scripts/data_router.py fetch"
+    ],
+    "required_artifacts": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_01_static_cninfo_com_cn_fc642133c9",
+  "artifactType": "filing",
+  "title": "关于以场外要约收购方式收购Far East Gold Limited 的进展公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-01/1225449994.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fc642133c9",
+  "fetchRunId": "fetch_2026_08_01_static_cninfo_com_cn_fc642133c9",
+  "publishedAt": "2026-08-01",
+  "firstSeenAt": "2026-08-01T16:15:57+08:00",
+  "capturedAt": "2026-08-01T16:15:57+08:00",
+  "contentHash": "sha256:18606511700fde3cba7c57ec6db5d57e03c230995a66617544603e19216d94ec",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_01_static_cninfo_com_cn_fc642133c9.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_08_01_filing_caac4b8ce6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_34d47fa366438f5b; listSourceId=src_cninfo_000426_announcements."
+}

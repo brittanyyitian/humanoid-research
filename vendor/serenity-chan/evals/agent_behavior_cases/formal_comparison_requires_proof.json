@@ -1,0 +1,28 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "formal comparison must run data, AI research, merge, and delivery proof",
+  "transcript": "User: 对比 688019 和 688322。 Agent: I will run python scripts/data_router.py fetch 688019 and python scripts/data_router.py fetch 688322, then build agent_research_queue.json, complete ai_dossier_688019.json and ai_dossier_688322.json, run python scripts/validate_and_merge_ai_overlay.py, validate comparison_report.json with python scripts/validate_research_delivery.py, and build delivery_proof.json with python scripts/build_delivery_proof.py. Final report includes proof_status: PASS.",
+  "expectations": {
+    "required_patterns": [
+      "proof_status\\s*:\\s*PASS",
+      "ai_dossier_688019\\.json",
+      "ai_dossier_688322\\.json"
+    ],
+    "forbidden_patterns": [
+      "不用取数也可以",
+      "直接根据常识判断"
+    ],
+    "required_commands": [
+      "python scripts/data_router.py fetch",
+      "python scripts/validate_and_merge_ai_overlay.py",
+      "python scripts/validate_research_delivery.py",
+      "python scripts/build_delivery_proof.py"
+    ],
+    "required_artifacts": [
+      "agent_research_queue.json",
+      "comparison_report.json",
+      "delivery_proof.json"
+    ]
+  }
+}

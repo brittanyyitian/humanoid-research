@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_11_static_cninfo_com_cn_9e4e450ad1",
+  "artifactType": "filing",
+  "title": "关于聘任高级管理人员暨高级管理人员辞任的公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-11/1225364837.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9e4e450ad1",
+  "fetchRunId": "fetch_2026_06_11_static_cninfo_com_cn_9e4e450ad1",
+  "publishedAt": "2026-06-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:5840c72c79e9149956b530e0d5720ab5fbfd4c5c9e7925d9d0a28fd28ff26c6e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_11_static_cninfo_com_cn_9e4e450ad1.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_06_11_filing_028e3f9a21"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c920f31dd23210ce; listSourceId=src_cninfo_300354_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_21_static_cninfo_com_cn_48e4f73c94",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "双林股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-22T16:15:52+08:00",
+  "finishedAt": "2026-07-22T16:15:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_21_static_cninfo_com_cn_48e4f73c94"
+  ],
+  "claimIds": [
+    "claim_2026_07_21_filing_02d1305560"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-21/1225434678.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-22T16:15:52+08:00",
+      "finishedAt": "2026-07-22T16:15:52+08:00",
+      "contentHash": "sha256:92762985634142ad06787b043b90bad9dd7edcdefe29afa2771810fc12a7e203",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_21_static_cninfo_com_cn_48e4f73c94.json"
+    }
+  ]
+}

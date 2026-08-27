@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_24_6dfda856ffcb",
+  "rawArtifactId": "raw_2026_08_24_static_cninfo_com_cn_a5b00afb0e",
+  "routeDecisionId": "route_2026_08_24_c509e24d997e",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "siasun_robot",
+  "entityIds": [
+    "siasun_robot"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-24T16:15:57+08:00",
+  "updatedAt": "2026-08-24T16:15:58+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-24T16:15:58+08:00",
+  "finishedAt": "2026-08-24T16:15:58+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_24_filing_aa3cb39628"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_24_filing_aa3cb39628"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_24_filing_material_v0_3b1e24a234"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_24_f4372216e989"
+  ]
+}

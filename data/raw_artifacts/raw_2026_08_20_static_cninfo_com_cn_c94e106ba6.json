@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_c94e106ba6",
+  "artifactType": "filing",
+  "title": "沪硅产业关于召开2026年半年度业绩说明会的公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225483476.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c94e106ba6",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_c94e106ba6",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:fa0c99aab4aa733db0c9fbfd3b5b33dcd9be897a5469ad9321b452940f07a775",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_c94e106ba6.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_b0cd6e914e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5ca145e96b26a527; listSourceId=src_cninfo_688126_announcements."
+}

@@ -1,0 +1,1062 @@
+{
+  "id": "saout_shuanglin_fd8ad08a7a5a",
+  "entityId": "shuanglin",
+  "name": "双林股份",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/shuanglin.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "双林股份 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：双林股份当前不列为优先关注。",
+    "currentFocus": "Serenity 当前判断：双林股份当前不列为优先关注。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "双林股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本22.34元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：双林股份当前不列为优先关注。",
+    "followup": "未来30天：自动检查双林股份的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘双林股份当前不列为优先关注。是否被业务、财务和价格共同验证。",
+    "materialLine": "丝杠",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "300100.SZ",
+      "name": "双林股份",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 21.75,
+        "previousClose": 21.59023228111971,
+        "changePct": 0.7400000000000149,
+        "high": 23,
+        "low": 22.3,
+        "open": 22.84,
+        "volume": 68453,
+        "turnover": 15458,
+        "turnoverText": "1.43亿",
+        "currency": "CNY",
+        "asOf": "20260827161442",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 40.29,
+        "technicalTimingScore": 21.4,
+        "marketPayoffScore": 52.56,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 35,
+        "evidenceScore": 76,
+        "valuationScore": 65,
+        "timingScore": 21.4,
+        "riskScore": 52,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 46.53,
+          "fundamentalScore": 49.85,
+          "companyScore": 35,
+          "evidenceScore": 76,
+          "valuationScore": 65,
+          "timingScore": 21.4,
+          "riskScore": 52,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 25.8291,
+            "ps": 2.3703,
+            "revenueGrowth": -0.1042,
+            "profitGrowth": -0.4701,
+            "cashConversion": 0.1881,
+            "debtRatio": 0.4834,
+            "return20": -0.0718
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收54.84亿元，同比+11.67%；归母净利润5.03亿元，同比+1.25%。2026-03-31营收11.52亿元，较可比期-10.42%；归母净利润8447.73万元，较可比期-47.01%；经营现金流1588.98万元。",
+          "2026年1月6日,双林股份\"十万套丝杠产线\"暨新一代磨床投产仪式现场(宁海梅桥工厂),按照双方约定对该工件进 行当场磨削验证,最终磨削时间为9 分52秒；",
+          "（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。",
+          "2026-08-26复权收盘21.59元，低于20日平均成本22.34元；60日平均成本24.02元，近20个交易日涨跌-7.18%。"
+        ],
+        "possible": [
+          "双林股份当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "双林股份当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+          "双林股份当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 52.56,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 40.29/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 21.4,
+        "dailyBuyPointScore": 0.55,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 32.26,
+            "volume": 58273,
+            "average20": 34.652,
+            "average60": 36.907
+          },
+          {
+            "date": "2026-03-13",
+            "close": 31.57,
+            "volume": 55180,
+            "average20": 34.485,
+            "average60": 36.8
+          },
+          {
+            "date": "2026-03-16",
+            "close": 32,
+            "volume": 52490,
+            "average20": 34.315,
+            "average60": 36.7
+          },
+          {
+            "date": "2026-03-17",
+            "close": 31.35,
+            "volume": 48904,
+            "average20": 34.106,
+            "average60": 36.603
+          },
+          {
+            "date": "2026-03-18",
+            "close": 31.37,
+            "volume": 40350,
+            "average20": 33.883,
+            "average60": 36.498
+          },
+          {
+            "date": "2026-03-19",
+            "close": 30.55,
+            "volume": 71774,
+            "average20": 33.65,
+            "average60": 36.391
+          },
+          {
+            "date": "2026-03-20",
+            "close": 29.57,
+            "volume": 80001,
+            "average20": 33.362,
+            "average60": 36.28
+          },
+          {
+            "date": "2026-03-23",
+            "close": 30.77,
+            "volume": 182216,
+            "average20": 33,
+            "average60": 36.182
+          },
+          {
+            "date": "2026-03-24",
+            "close": 30.52,
+            "volume": 107850,
+            "average20": 32.688,
+            "average60": 36.087
+          },
+          {
+            "date": "2026-03-25",
+            "close": 30.53,
+            "volume": 91706,
+            "average20": 32.372,
+            "average60": 35.99
+          },
+          {
+            "date": "2026-03-26",
+            "close": 30.58,
+            "volume": 82841,
+            "average20": 32.086,
+            "average60": 35.886
+          },
+          {
+            "date": "2026-03-27",
+            "close": 30.51,
+            "volume": 62256,
+            "average20": 31.794,
+            "average60": 35.791
+          },
+          {
+            "date": "2026-03-30",
+            "close": 29.93,
+            "volume": 70781,
+            "average20": 31.552,
+            "average60": 35.68
+          },
+          {
+            "date": "2026-03-31",
+            "close": 29.87,
+            "volume": 70858,
+            "average20": 31.399,
+            "average60": 35.533
+          },
+          {
+            "date": "2026-04-01",
+            "close": 30.47,
+            "volume": 79278,
+            "average20": 31.282,
+            "average60": 35.412
+          },
+          {
+            "date": "2026-04-02",
+            "close": 29.56,
+            "volume": 64208,
+            "average20": 31.112,
+            "average60": 35.255
+          },
+          {
+            "date": "2026-04-03",
+            "close": 28.62,
+            "volume": 68207,
+            "average20": 30.886,
+            "average60": 35.054
+          },
+          {
+            "date": "2026-04-07",
+            "close": 28.75,
+            "volume": 46303,
+            "average20": 30.723,
+            "average60": 34.875
+          },
+          {
+            "date": "2026-04-08",
+            "close": 30.5,
+            "volume": 117005,
+            "average20": 30.608,
+            "average60": 34.729
+          },
+          {
+            "date": "2026-04-09",
+            "close": 29.95,
+            "volume": 57440,
+            "average20": 30.462,
+            "average60": 34.578
+          },
+          {
+            "date": "2026-04-10",
+            "close": 30.64,
+            "volume": 84966,
+            "average20": 30.381,
+            "average60": 34.445
+          },
+          {
+            "date": "2026-04-13",
+            "close": 30.49,
+            "volume": 52816,
+            "average20": 30.327,
+            "average60": 34.3
+          },
+          {
+            "date": "2026-04-14",
+            "close": 30.83,
+            "volume": 58543,
+            "average20": 30.268,
+            "average60": 34.156
+          },
+          {
+            "date": "2026-04-15",
+            "close": 30.42,
+            "volume": 65569,
+            "average20": 30.221,
+            "average60": 33.981
+          },
+          {
+            "date": "2026-04-16",
+            "close": 30.7,
+            "volume": 56910,
+            "average20": 30.188,
+            "average60": 33.827
+          },
+          {
+            "date": "2026-04-17",
+            "close": 30.82,
+            "volume": 65582,
+            "average20": 30.202,
+            "average60": 33.684
+          },
+          {
+            "date": "2026-04-20",
+            "close": 31.76,
+            "volume": 189971,
+            "average20": 30.311,
+            "average60": 33.564
+          },
+          {
+            "date": "2026-04-21",
+            "close": 31.17,
+            "volume": 93446,
+            "average20": 30.331,
+            "average60": 33.418
+          },
+          {
+            "date": "2026-04-22",
+            "close": 30.79,
+            "volume": 71918,
+            "average20": 30.345,
+            "average60": 33.258
+          },
+          {
+            "date": "2026-04-23",
+            "close": 29.88,
+            "volume": 104561,
+            "average20": 30.312,
+            "average60": 33.101
+          },
+          {
+            "date": "2026-04-24",
+            "close": 29.65,
+            "volume": 53872,
+            "average20": 30.265,
+            "average60": 32.929
+          },
+          {
+            "date": "2026-04-27",
+            "close": 29.92,
+            "volume": 53980,
+            "average20": 30.236,
+            "average60": 32.772
+          },
+          {
+            "date": "2026-04-28",
+            "close": 29.02,
+            "volume": 72560,
+            "average20": 30.19,
+            "average60": 32.59
+          },
+          {
+            "date": "2026-04-29",
+            "close": 28.1,
+            "volume": 113840,
+            "average20": 30.102,
+            "average60": 32.43
+          },
+          {
+            "date": "2026-04-30",
+            "close": 28.51,
+            "volume": 67102,
+            "average20": 30.004,
+            "average60": 32.282
+          },
+          {
+            "date": "2026-05-06",
+            "close": 29.3,
+            "volume": 83047,
+            "average20": 29.991,
+            "average60": 32.157
+          },
+          {
+            "date": "2026-05-07",
+            "close": 30.5,
+            "volume": 119886,
+            "average20": 30.085,
+            "average60": 32.068
+          },
+          {
+            "date": "2026-05-08",
+            "close": 31.32,
+            "volume": 197869,
+            "average20": 30.213,
+            "average60": 31.992
+          },
+          {
+            "date": "2026-05-11",
+            "close": 31.8,
+            "volume": 155312,
+            "average20": 30.279,
+            "average60": 31.942
+          },
+          {
+            "date": "2026-05-12",
+            "close": 31.31,
+            "volume": 116438,
+            "average20": 30.346,
+            "average60": 31.874
+          },
+          {
+            "date": "2026-05-13",
+            "close": 30.99,
+            "volume": 83648,
+            "average20": 30.364,
+            "average60": 31.799
+          },
+          {
+            "date": "2026-05-14",
+            "close": 29.83,
+            "volume": 98907,
+            "average20": 30.331,
+            "average60": 31.714
+          },
+          {
+            "date": "2026-05-15",
+            "close": 33.15,
+            "volume": 377357,
+            "average20": 30.447,
+            "average60": 31.677
+          },
+          {
+            "date": "2026-05-18",
+            "close": 33.31,
+            "volume": 280784,
+            "average20": 30.591,
+            "average60": 31.64
+          },
+          {
+            "date": "2026-05-19",
+            "close": 34.86,
+            "volume": 331497,
+            "average20": 30.8,
+            "average60": 31.623
+          },
+          {
+            "date": "2026-05-20",
+            "close": 33.45,
+            "volume": 196685,
+            "average20": 30.931,
+            "average60": 31.594
+          },
+          {
+            "date": "2026-05-21",
+            "close": 34.38,
+            "volume": 308808,
+            "average20": 31.062,
+            "average60": 31.579
+          },
+          {
+            "date": "2026-05-22",
+            "close": 33.91,
+            "volume": 200591,
+            "average20": 31.199,
+            "average60": 31.51
+          },
+          {
+            "date": "2026-05-25",
+            "close": 33.14,
+            "volume": 152077,
+            "average20": 31.316,
+            "average60": 31.45
+          },
+          {
+            "date": "2026-05-26",
+            "close": 35.2,
+            "volume": 335978,
+            "average20": 31.582,
+            "average60": 31.422
+          },
+          {
+            "date": "2026-05-27",
+            "close": 35.44,
+            "volume": 301529,
+            "average20": 31.872,
+            "average60": 31.408
+          },
+          {
+            "date": "2026-05-28",
+            "close": 33.01,
+            "volume": 272765,
+            "average20": 32.026,
+            "average60": 31.352
+          },
+          {
+            "date": "2026-05-29",
+            "close": 30.51,
+            "volume": 208497,
+            "average20": 32.101,
+            "average60": 31.281
+          },
+          {
+            "date": "2026-06-01",
+            "close": 30.16,
+            "volume": 118346,
+            "average20": 32.204,
+            "average60": 31.235
+          },
+          {
+            "date": "2026-06-02",
+            "close": 30,
+            "volume": 106215,
+            "average20": 32.278,
+            "average60": 31.188
+          },
+          {
+            "date": "2026-06-03",
+            "close": 29.25,
+            "volume": 118495,
+            "average20": 32.276,
+            "average60": 31.127
+          },
+          {
+            "date": "2026-06-04",
+            "close": 30.76,
+            "volume": 190182,
+            "average20": 32.289,
+            "average60": 31.087
+          },
+          {
+            "date": "2026-06-05",
+            "close": 31.87,
+            "volume": 243311,
+            "average20": 32.316,
+            "average60": 31.084
+          },
+          {
+            "date": "2026-06-08",
+            "close": 31.85,
+            "volume": 187565,
+            "average20": 32.319,
+            "average60": 31.069
+          },
+          {
+            "date": "2026-06-09",
+            "close": 31.61,
+            "volume": 137982,
+            "average20": 32.334,
+            "average60": 31.047
+          },
+          {
+            "date": "2026-06-10",
+            "close": 29.98,
+            "volume": 115705,
+            "average20": 32.284,
+            "average60": 31.009
+          },
+          {
+            "date": "2026-06-11",
+            "close": 28.65,
+            "volume": 97448,
+            "average20": 32.224,
+            "average60": 30.961
+          },
+          {
+            "date": "2026-06-12",
+            "close": 28.88,
+            "volume": 108449,
+            "average20": 32.011,
+            "average60": 30.909
+          },
+          {
+            "date": "2026-06-15",
+            "close": 29.54,
+            "volume": 82449,
+            "average20": 31.822,
+            "average60": 30.878
+          },
+          {
+            "date": "2026-06-16",
+            "close": 29.32,
+            "volume": 111147,
+            "average20": 31.545,
+            "average60": 30.844
+          },
+          {
+            "date": "2026-06-17",
+            "close": 28.33,
+            "volume": 127305,
+            "average20": 31.29,
+            "average60": 30.807
+          },
+          {
+            "date": "2026-06-18",
+            "close": 31.69,
+            "volume": 295757,
+            "average20": 31.155,
+            "average60": 30.843
+          },
+          {
+            "date": "2026-06-22",
+            "close": 30.2,
+            "volume": 177210,
+            "average20": 30.97,
+            "average60": 30.833
+          },
+          {
+            "date": "2026-06-23",
+            "close": 30,
+            "volume": 162130,
+            "average20": 30.813,
+            "average60": 30.825
+          },
+          {
+            "date": "2026-06-24",
+            "close": 29.38,
+            "volume": 92857,
+            "average20": 30.522,
+            "average60": 30.805
+          },
+          {
+            "date": "2026-06-25",
+            "close": 28.48,
+            "volume": 107046,
+            "average20": 30.174,
+            "average60": 30.77
+          },
+          {
+            "date": "2026-06-26",
+            "close": 27.28,
+            "volume": 92519,
+            "average20": 29.887,
+            "average60": 30.717
+          },
+          {
+            "date": "2026-06-29",
+            "close": 26.8,
+            "volume": 99217,
+            "average20": 29.701,
+            "average60": 30.664
+          },
+          {
+            "date": "2026-06-30",
+            "close": 27.78,
+            "volume": 123450,
+            "average20": 29.582,
+            "average60": 30.63
+          },
+          {
+            "date": "2026-07-01",
+            "close": 28.53,
+            "volume": 135862,
+            "average20": 29.509,
+            "average60": 30.597
+          },
+          {
+            "date": "2026-07-02",
+            "close": 28.67,
+            "volume": 139114,
+            "average20": 29.48,
+            "average60": 30.582
+          },
+          {
+            "date": "2026-07-03",
+            "close": 30.83,
+            "volume": 285120,
+            "average20": 29.483,
+            "average60": 30.619
+          },
+          {
+            "date": "2026-07-06",
+            "close": 28.9,
+            "volume": 198646,
+            "average20": 29.335,
+            "average60": 30.622
+          },
+          {
+            "date": "2026-07-07",
+            "close": 27.75,
+            "volume": 136053,
+            "average20": 29.13,
+            "average60": 30.576
+          },
+          {
+            "date": "2026-07-08",
+            "close": 26.49,
+            "volume": 102630,
+            "average20": 28.874,
+            "average60": 30.518
+          },
+          {
+            "date": "2026-07-09",
+            "close": 25.52,
+            "volume": 127086,
+            "average20": 28.651,
+            "average60": 30.433
+          },
+          {
+            "date": "2026-07-10",
+            "close": 25.37,
+            "volume": 139176,
+            "average20": 28.487,
+            "average60": 30.347
+          },
+          {
+            "date": "2026-07-13",
+            "close": 23.6,
+            "volume": 108781,
+            "average20": 28.223,
+            "average60": 30.227
+          },
+          {
+            "date": "2026-07-14",
+            "close": 23.62,
+            "volume": 67945,
+            "average20": 27.927,
+            "average60": 30.114
+          },
+          {
+            "date": "2026-07-15",
+            "close": 23.8,
+            "volume": 64325,
+            "average20": 27.651,
+            "average60": 29.999
+          },
+          {
+            "date": "2026-07-16",
+            "close": 24.03,
+            "volume": 69134,
+            "average20": 27.436,
+            "average60": 29.885
+          },
+          {
+            "date": "2026-07-17",
+            "close": 22.34,
+            "volume": 97703,
+            "average20": 26.968,
+            "average60": 29.728
+          },
+          {
+            "date": "2026-07-20",
+            "close": 22.55,
+            "volume": 93956,
+            "average20": 26.586,
+            "average60": 29.585
+          },
+          {
+            "date": "2026-07-21",
+            "close": 23.06,
+            "volume": 85313,
+            "average20": 26.239,
+            "average60": 29.456
+          },
+          {
+            "date": "2026-07-22",
+            "close": 22.45,
+            "volume": 68453,
+            "average20": 25.893,
+            "average60": 29.332
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 25.89 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 21.41，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 21.75,
+            "recentAverage": 25.893,
+            "longerAverage": 29.332,
+            "recentHigh": 31.8,
+            "recentLow": 21.41
+          }
+        }
+      },
+      "risk": [
+        "（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查双林股份的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘双林股份当前不列为优先关注。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：双林股份当前不列为优先关注。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收11.52亿元，较可比期-10.42%；归母净利润8447.73万元，较可比期-47.01%；经营现金流1588.98万元。",
+            "2026年1月6日,双林股份\"十万套丝杠产线\"暨新一代磨床投产仪式现场(宁海梅桥工厂),按照双方约定对该工件进 行当场磨削验证,最终磨削时间为9 分52秒；"
+          ]
+        },
+        "upside": {
+          "summary": "双林股份的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本22.34元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "双林股份的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本24.02元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本22.34元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。继续恶化，或价格跌破60日平均成本24.02元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "只有核心业务兑现和经营现金流重新改善，才上调关注等级。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "双林股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本22.34元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收54.84亿元，同比+11.67%；归母净利润5.03亿元，同比+1.25%。2026-03-31营收11.52亿元，较可比期-10.42%；归母净利润8447.73万元，较可比期-47.01%；经营现金流1588.98万元。",
+            "reason": "双林股份当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225225491.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "2026年1月6日,双林股份\"十万套丝杠产线\"暨新一代磨床投产仪式现场(宁海梅桥工厂),按照双方约定对该工件进 行当场磨削验证,最终磨削时间为9 分52秒；",
+            "reason": "双林股份当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-25/1225028868.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-25/1225028868.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘21.59元，低于20日平均成本22.34元；60日平均成本24.02元，近20个交易日涨跌-7.18%。",
+            "reason": "双林股份当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：双林股份当前不列为优先关注。",
+        "items": [
+          "2026-03-31营收11.52亿元，较可比期-10.42%；归母净利润8447.73万元，较可比期-47.01%；经营现金流1588.98万元。2026年1月6日,双林股份\"十万套丝杠产线\"暨新一代磨床投产仪式现场(宁海梅桥工厂),按照双方约定对该工件进 行当场磨削验证,最终磨削时间为9 分52秒；",
+          "只有核心业务兑现和经营现金流重新改善，才上调关注等级。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收54.84亿元，同比+11.67%；归母净利润5.03亿元，同比+1.25%。2026-03-31营收11.52亿元，较可比期-10.42%；归母净利润8447.73万元，较可比期-47.01%；经营现金流1588.98万元。",
+          "2026年1月6日,双林股份\"十万套丝杠产线\"暨新一代磨床投产仪式现场(宁海梅桥工厂),按照双方约定对该工件进 行当场磨削验证,最终磨削时间为9 分52秒；",
+          "（二）对公司未来发展战略和经营目标的实现产生不利影响的风险因素分析 1、宏观经济形势及政策风险 汽车工业作为国民经济的重要支柱产业和先导型产业，是推动产业结构转型升级的关键力量。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查双林股份的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘双林股份当前不列为优先关注。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 21.75,
+    "previousClose": 21.59023228111971,
+    "changePct": 0.7400000000000149,
+    "high": 23,
+    "low": 22.3,
+    "open": 22.84,
+    "volume": 68453,
+    "turnover": 15458,
+    "turnoverText": "1.43亿",
+    "currency": "CNY",
+    "asOf": "20260827161442",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 21.75,
+    "changePct": 0.74,
+    "turnoverText": "1.43亿",
+    "turnoverRate": 1.17,
+    "totalMarketCap": "125.93亿",
+    "floatMarketCap": "121.28亿",
+    "fiveDayChangePct": 4.32,
+    "twentyDayChangePct": 3.67,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161442",
+    "asOf": "20260827161442",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161442",
+    "latestAsOf": "20260827161442",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.39,
+    "evidence_confidence_score": 79.28,
+    "market_payoff_score": 52.56,
+    "technical_timing_score": 21.4,
+    "data_readiness_score": 100,
+    "action_readiness_score": 56.63,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 70.4,
+        "average_rating": 3.52,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 52.56,
+        "average_rating": 2.63,
+        "details": {
+          "valuation_discount": 3,
+          "implied_growth_vs_evidence": 2.99,
+          "upside_downside": 1.6,
+          "liquidity_capacity": 2.2,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 21.4,
+        "average_rating": 1.07,
+        "details": {
+          "monthly_trend": 0.5,
+          "weekly_structure": 2.1,
+          "daily_buy_point": 0.55,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 1
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "丝杠处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 3 份正式公告，其中 1 份财报或业绩材料；近20日涨跌 -23.6%，近60日涨跌 -24.9%；客户或订单证据 0 条直接、1 条线索。",
+        "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续公告或财报持续无法披露订单、客户或交付证据。",
+      "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+      "供应链或合作披露不能被官方材料交叉验证。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

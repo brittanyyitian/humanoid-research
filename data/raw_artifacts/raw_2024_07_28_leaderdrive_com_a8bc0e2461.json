@@ -1,0 +1,22 @@
+{
+  "id": "raw_2024_07_28_leaderdrive_com_a8bc0e2461",
+  "artifactType": "news_page",
+  "title": "New products to be present at the SPS exhibition in Nuremberg",
+  "publisher": "Leaderdrive",
+  "url": "http://www.leaderdrive.com/news/7.html",
+  "sourceId": "src_leaderdrive_com_a8bc0e2461",
+  "fetchRunId": "fetch_2024_07_28_leaderdrive_com_a8bc0e2461",
+  "publishedAt": "2024-07-28",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:d70a7f14dd804394f6f5509b62e4ea9a9a54f199ed5f9bedb89a7501070bbed3",
+  "storagePath": "raw_artifacts/payloads/raw_2024_07_28_leaderdrive_com_a8bc0e2461.json",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "claimIds": [
+    "claim_2024_07_28_product_release_acc838b050"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_f58955c853c53452; listSourceId=src_leaderdrive_official_news."
+}

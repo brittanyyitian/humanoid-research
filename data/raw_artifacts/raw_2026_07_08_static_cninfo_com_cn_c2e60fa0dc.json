@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_08_static_cninfo_com_cn_c2e60fa0dc",
+  "artifactType": "filing",
+  "title": "股票交易异常波动公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-08/1225413448.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c2e60fa0dc",
+  "fetchRunId": "fetch_2026_07_08_static_cninfo_com_cn_c2e60fa0dc",
+  "publishedAt": "2026-07-08",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:3dd1f9ec5bfabaf82f1deeb758723bfb83314a2fb8193ffe249f2841b7ac77be",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_c2e60fa0dc.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_08_filing_f2a19f72fd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_03025a52a51a96ce; listSourceId=src_cninfo_002747_announcements."
+}

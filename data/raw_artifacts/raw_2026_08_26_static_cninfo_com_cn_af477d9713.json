@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_af477d9713",
+  "artifactType": "filing",
+  "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504496.PDF",
+  "sourceId": "src_static_cninfo_com_cn_af477d9713",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_af477d9713",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:db45e66247bc41732c345afb642659e41f1c34a6a806a809c2be8323b0ba678f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_af477d9713.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_38048e059c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_36decc8354f4e62b; listSourceId=src_cninfo_002472_announcements."
+}

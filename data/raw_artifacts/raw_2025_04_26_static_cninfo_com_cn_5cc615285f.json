@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_26_static_cninfo_com_cn_5cc615285f",
+  "artifactType": "filing",
+  "title": "2025年一季度报告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223309242.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5cc615285f",
+  "fetchRunId": "fetch_2025_04_26_static_cninfo_com_cn_5cc615285f",
+  "publishedAt": "2025-04-26",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:5a7203532c822ddd619d2658aac4518a6efcf0a5b65a76cebc10ec0cdd99fff3",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_26_static_cninfo_com_cn_5cc615285f.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2025_04_26_filing_40ba056d7a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_82bd3d9d32bc61a5; listSourceId=src_cninfo_002371_announcements."
+}

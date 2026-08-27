@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_static_cninfo_com_cn_3242bd5078",
+  "artifactType": "filing",
+  "title": "关于拟变更会计师事务所的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225380356.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3242bd5078",
+  "fetchRunId": "fetch_2026_06_23_static_cninfo_com_cn_3242bd5078",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:55686560c05f67dbc908574aeb7ce627b39c6a138173c0e018c4ceb87c7ca7c4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_3242bd5078.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_cff8dd8a94"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5013727ee66b52f3; listSourceId=src_cninfo_002353_announcements."
+}

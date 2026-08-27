@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_30_static_cninfo_com_cn_64ef349af0",
+  "artifactType": "filing",
+  "title": "长江电力2024年年度报告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223421172.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64ef349af0",
+  "fetchRunId": "fetch_2025_04_30_static_cninfo_com_cn_64ef349af0",
+  "publishedAt": "2025-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:dcce9250a0cf8aa67bedd9566bf590e51bf851862aaad6f0ae52662b5f0c3b64",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_30_static_cninfo_com_cn_64ef349af0.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2025_04_30_filing_3a591cdb6d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0cb21471f6740628; listSourceId=src_cninfo_600900_announcements."
+}

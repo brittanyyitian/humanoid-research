@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_a33ddaee70",
+  "artifactType": "filing",
+  "title": "关于召开2026年第一次临时股东会的通知",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401854.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a33ddaee70",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_a33ddaee70",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c2b6a168bfaf208acc29c4305d2fd0078c784517d28ce7404acaa7846b8d7db8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_a33ddaee70.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_6de9aa58d9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6390b3245c6c86d8; listSourceId=src_cninfo_688012_announcements."
+}

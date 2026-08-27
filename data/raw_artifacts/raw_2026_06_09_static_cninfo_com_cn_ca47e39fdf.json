@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_ca47e39fdf",
+  "artifactType": "filing",
+  "title": "股票交易异常波动公告",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225358081.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ca47e39fdf",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_ca47e39fdf",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:ac4af6a164f6d7a59b7fc135ce46ce09eeeb15f9f43a5fb32c9844715ce4d45b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_ca47e39fdf.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_35262a2058"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_af4327138ab8b3f7; listSourceId=src_cninfo_002896_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_12_30_ubtrobot_com_7c5567dfbd",
+  "artifactType": "news_page",
+  "title": "As Walker S Strikes the Gong, UBTECH Robotics Becomes the First Humanoid Robot Company Listed on the Main Board of the HKEX",
+  "publisher": "UBTECH ROBOTICS CORP LTD",
+  "url": "https://www.ubtrobot.com/en/about/news/498758766067781",
+  "sourceId": "src_ubtrobot_com_7c5567dfbd",
+  "fetchRunId": "fetch_2023_12_30_ubtrobot_com_7c5567dfbd",
+  "publishedAt": "2023-12-30",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:e9ac6d879a373e8a1b8b73410191f33430006fa6b40196b78975658b805a9b75",
+  "storagePath": "raw_artifacts/payloads/raw_2023_12_30_ubtrobot_com_7c5567dfbd.json",
+  "entityIds": [
+    "ubtech"
+  ],
+  "claimIds": [
+    "claim_2023_12_30_filing_efa20fcb65"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_2206ea17f93129c4; listSourceId=src_ubtech_official_news."
+}

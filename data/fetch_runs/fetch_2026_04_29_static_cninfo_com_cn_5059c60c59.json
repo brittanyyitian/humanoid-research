@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_04_29_static_cninfo_com_cn_5059c60c59",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "北特科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_04_29_static_cninfo_com_cn_5059c60c59"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_f05ae09745"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225223913.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:c61f91682a8577d158973b351cb53d830df3b8c24d8ac52823ed483d86a2ef3a",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_5059c60c59.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:25+08:00",
+      "finishedAt": "2026-07-23T16:16:25+08:00",
+      "contentHash": "sha256:7b72228847f605d7c9863fdb75c07fa0aa577b85ae995cfbfc1f8d2f935947b3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_5059c60c59.json"
+    }
+  ]
+}

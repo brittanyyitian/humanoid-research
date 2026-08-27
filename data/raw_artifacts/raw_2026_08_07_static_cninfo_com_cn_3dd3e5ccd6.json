@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_07_static_cninfo_com_cn_3dd3e5ccd6",
+  "artifactType": "filing",
+  "title": "大唐发电董事会决议公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-07/1225462432.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3dd3e5ccd6",
+  "fetchRunId": "fetch_2026_08_07_static_cninfo_com_cn_3dd3e5ccd6",
+  "publishedAt": "2026-08-07",
+  "firstSeenAt": "2026-08-07T16:16:18+08:00",
+  "capturedAt": "2026-08-07T16:16:18+08:00",
+  "contentHash": "sha256:9a42c5efca446a745ab31a11e7bf3abce4cb87dd36d371fcdd920f5ccec9e56b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_07_static_cninfo_com_cn_3dd3e5ccd6.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_08_07_filing_5a64ccca8d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_00f3fbed448a2994; listSourceId=src_cninfo_601991_announcements."
+}

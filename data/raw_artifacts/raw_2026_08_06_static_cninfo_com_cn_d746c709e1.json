@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_06_static_cninfo_com_cn_d746c709e1",
+  "artifactType": "filing",
+  "title": "H股公告-截至2026年7月31日止之股份发行人的证券变动月报表",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-06/1225459252.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d746c709e1",
+  "fetchRunId": "fetch_2026_08_06_static_cninfo_com_cn_d746c709e1",
+  "publishedAt": "2026-08-06",
+  "firstSeenAt": "2026-08-06T16:16:34+08:00",
+  "capturedAt": "2026-08-06T16:16:34+08:00",
+  "contentHash": "sha256:345f3324728e84aa4b5f9df60c574ae69731396aabf472803c5c9fbfa9f7bb19",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_06_static_cninfo_com_cn_d746c709e1.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_06_filing_f613070d78"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a8986f11f8afd2b2; listSourceId=src_cninfo_002050_announcements."
+}

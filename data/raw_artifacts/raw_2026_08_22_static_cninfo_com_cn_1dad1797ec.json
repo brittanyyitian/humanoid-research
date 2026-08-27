@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_1dad1797ec",
+  "artifactType": "filing",
+  "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225490662.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1dad1797ec",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_1dad1797ec",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:561c67fd66fb6cbf5620ead05e3a168c52ea92af041ec0cde603fdc147650d9f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_1dad1797ec.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_3fbaa222a4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_54b15ad4fdfabd6c; listSourceId=src_cninfo_002747_announcements."
+}

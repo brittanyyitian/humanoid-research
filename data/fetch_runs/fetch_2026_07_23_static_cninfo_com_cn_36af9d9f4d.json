@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_23_static_cninfo_com_cn_36af9d9f4d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "奥比中光",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_23_static_cninfo_com_cn_36af9d9f4d"
+  ],
+  "claimIds": [
+    "claim_2026_07_23_filing_03d457b39e"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-23/1225437945.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:a5a5fda5050b6fcd3b3bb9f246b164b8fa1e4362370e2fdbc55fc401dc16cfad",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_23_static_cninfo_com_cn_36af9d9f4d.json"
+    }
+  ]
+}

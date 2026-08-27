@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_75ad5c56d7",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于会计政策变更的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225502742.PDF",
+  "sourceId": "src_static_cninfo_com_cn_75ad5c56d7",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_75ad5c56d7",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:ec225d4b9f650c92eef30dfeb4b7e807d6ab5fe5ad9d488f25cea99904ed501b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_75ad5c56d7.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_46a7d2d58a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_baf1a4e99a983d23; listSourceId=src_cninfo_600664_announcements."
+}

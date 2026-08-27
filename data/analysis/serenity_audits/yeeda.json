@@ -1,0 +1,145 @@
+{
+  "id": "saout_yeeda_6c54be289131",
+  "entityId": "yeeda",
+  "name": "怡合达",
+  "generatedAt": "2026-07-22T21:16:45+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_data_audit",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity.py",
+      "ask",
+      "怡合达 数据面怎么样",
+      "--symbols",
+      "301029",
+      "--out-dir",
+      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda",
+    "note": "调用 vendored Serenity Chan CLI 获取公开数据审计结果。",
+    "exitCode": 0,
+    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda/research_brief.md\nnext (formal): python scripts/serenity.py ask \"怡合达 数据面怎么样\" --formal --symbols 301029\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "301029.SZ",
+    "symbol": "301029"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_07_11_static_cninfo_com_cn_4fbd71daf7",
+      "raw_2026_07_11_static_cninfo_com_cn_942f994965",
+      "raw_2026_07_11_static_cninfo_com_cn_7353a77961",
+      "raw_2026_07_11_static_cninfo_com_cn_9a96190530",
+      "raw_2026_07_22_static_cninfo_com_cn_e09613a5a8",
+      "raw_2026_07_11_static_cninfo_com_cn_e09fda292b"
+    ],
+    "claimIds": [
+      "claim_2026_07_11_filing_ff07080e94",
+      "claim_2026_07_11_filing_454584d860",
+      "claim_2026_07_11_filing_43affb7b3e",
+      "claim_2026_07_11_filing_6ed14b6025",
+      "claim_2026_07_22_filing_2c08e10045",
+      "claim_2026_07_11_filing_42b6afd80e"
+    ],
+    "evidenceIds": [],
+    "sourceIds": [],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda/data/301029/manifest.json",
+    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda/research_brief.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_data_audit",
+    "label": "Serenity 数据审计",
+    "title": "怡合达 Serenity 数据审计",
+    "summary": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
+    "currentFocus": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
+    "toVerify": [
+      "可进入正式研究"
+    ],
+    "viewLabel": "Serenity 数据审计",
+    "view": "数据审计通过，可进入正式研究；这仍不是投资结论。",
+    "followup": "需要正式分析时，进入 Serenity formal dossier 工作流。",
+    "materialLine": "manifest: manifest.json",
+    "inputState": "6/6 数据集 OK"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "current_quote",
+        "text": "current_quote: OK",
+        "refs": {}
+      },
+      {
+        "label": "price_history_adjusted",
+        "text": "price_history_adjusted: OK",
+        "refs": {}
+      },
+      {
+        "label": "financials",
+        "text": "financials: OK",
+        "refs": {}
+      },
+      {
+        "label": "filings_announcements",
+        "text": "filings_announcements: OK",
+        "refs": {}
+      },
+      {
+        "label": "customer_order_capacity_evidence",
+        "text": "customer_order_capacity_evidence: OK",
+        "refs": {}
+      },
+      {
+        "label": "valuation_inputs",
+        "text": "valuation_inputs: OK",
+        "refs": {}
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "数据审计边界",
+        "text": "Serenity quick route 只输出取数与校验事实；正式 AI 深研需要 formal dossier 工作流。",
+        "refs": {
+          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "可进入正式研究",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "researchBriefExcerpt": "# 301029.SZ 数据审计报告\n\n## 1. Market Resolution\n- Input：301029\n- Normalized：301029.SZ\n- Market：CN_A\n- Exchange：SZ\n- Currency：CNY\n- Retrieved at：2026-07-22T13:17:13.653024+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-07-22 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-07-22 | - |\n| financials | OK | CNINFO_FinancialReports_L0 | L0_OFFICIAL_DISCLOSURE | 2026-03-31 | CNINFO official financial report PDFs were parsed into core financial lines where machine-readable page text was available.; Use consolidated statements; do not mix parent-company statements with consolidated revenue, cash flow, assets, liabilities, or equity.; annual 2026-04-27 extraction status=PARTIAL missing=['assets', 'liabilities', 'equity'] |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-07-22 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-07-10 | - |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-07-22 | - |\n\n## 3. Data Gaps And Research Debt\n- 无数据缺口（gap_count=0）。\n\n## 4. Manual Retrieval Tasks\n- 无待补任务。\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：15880435908.48\n- 市值口径偏差：2.7450156171135695e-05\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：S\n- 完整研究评级上限：S\n- full_research_ready：True\n- 取数尝试：30 次；缺口 0；研究债务 0；补数任务 0\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_07_22_21_16_45_yeeda/data/301029/manifest.json\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "数据审计不生成预测账本。"
+  },
+  "guardrails": [
+    "Serenity 数据审计不是正式研究结论。",
+    "不输出买卖建议。",
+    "不把市场涨跌解释为事件影响。"
+  ]
+}

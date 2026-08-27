@@ -1,0 +1,1056 @@
+{
+  "id": "saout_hainan_haiyao_e78b0a181458",
+  "entityId": "hainan_haiyao",
+  "name": "海南海药",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/hainan_haiyao.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "海南海药 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+      "海南海药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本5.44元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查海南海药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘海南海药保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "药品研发与制造",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "000566.SZ",
+      "name": "海南海药",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 5.05,
+        "previousClose": 5.029880478087649,
+        "changePct": 0.4000000000000058,
+        "high": 5.27,
+        "low": 4.95,
+        "open": 5.21,
+        "volume": 1165570,
+        "turnover": 594025651.9,
+        "turnoverText": "7.31亿",
+        "currency": "CNY",
+        "asOf": "20260827161433",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 57.66,
+        "technicalTimingScore": 47,
+        "marketPayoffScore": 65.04,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 43,
+        "evidenceScore": 76,
+        "valuationScore": 32,
+        "timingScore": 47,
+        "riskScore": 39,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 45.9,
+          "fundamentalScore": 52.3,
+          "companyScore": 43,
+          "evidenceScore": 76,
+          "valuationScore": 32,
+          "timingScore": 47,
+          "riskScore": 39,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": null,
+            "ps": 7.8515,
+            "revenueGrowth": -0.186,
+            "profitGrowth": 0.1183,
+            "cashConversion": -0.2007,
+            "debtRatio": 0.9935,
+            "return20": -0.1794
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收8.31亿元，同比-16.1%；归母净利润-4.3亿元，同比-71.81%。2026-03-31营收1.68亿元，较可比期-18.6%；归母净利润-7645.21万元，较可比期+11.83%；经营现金流1534.6万元。",
+          "公司抗肝纤维化 1 类新药氟非尼酮胶 囊 III 期临床试验已加速筹备中。",
+          "利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。",
+          "2026-08-26复权收盘5.03元，低于20日平均成本5.44元；60日平均成本5.21元，近20个交易日涨跌-17.94%。"
+        ],
+        "possible": [
+          "海南海药当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "海南海药当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+          "海南海药当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 65.04,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.66/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 47,
+        "dailyBuyPointScore": 1.5,
+        "dmaAlignmentScore": 2.95,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 技术时机分偏低，未给出确认买点。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 5.55,
+            "volume": 245105,
+            "average20": 5.973,
+            "average60": 6.758
+          },
+          {
+            "date": "2026-03-16",
+            "close": 5.62,
+            "volume": 242435,
+            "average20": 5.937,
+            "average60": 6.713
+          },
+          {
+            "date": "2026-03-17",
+            "close": 5.53,
+            "volume": 272048,
+            "average20": 5.893,
+            "average60": 6.672
+          },
+          {
+            "date": "2026-03-18",
+            "close": 5.55,
+            "volume": 220071,
+            "average20": 5.851,
+            "average60": 6.638
+          },
+          {
+            "date": "2026-03-19",
+            "close": 5.38,
+            "volume": 236773,
+            "average20": 5.805,
+            "average60": 6.604
+          },
+          {
+            "date": "2026-03-20",
+            "close": 5.24,
+            "volume": 228475,
+            "average20": 5.755,
+            "average60": 6.572
+          },
+          {
+            "date": "2026-03-23",
+            "close": 5.06,
+            "volume": 397147,
+            "average20": 5.698,
+            "average60": 6.545
+          },
+          {
+            "date": "2026-03-24",
+            "close": 5.29,
+            "volume": 422220,
+            "average20": 5.646,
+            "average60": 6.523
+          },
+          {
+            "date": "2026-03-25",
+            "close": 5.35,
+            "volume": 212038,
+            "average20": 5.591,
+            "average60": 6.492
+          },
+          {
+            "date": "2026-03-26",
+            "close": 5.27,
+            "volume": 217190,
+            "average20": 5.554,
+            "average60": 6.447
+          },
+          {
+            "date": "2026-03-27",
+            "close": 5.49,
+            "volume": 440420,
+            "average20": 5.527,
+            "average60": 6.392
+          },
+          {
+            "date": "2026-03-30",
+            "close": 5.56,
+            "volume": 334149,
+            "average20": 5.515,
+            "average60": 6.347
+          },
+          {
+            "date": "2026-03-31",
+            "close": 5.44,
+            "volume": 318169,
+            "average20": 5.507,
+            "average60": 6.303
+          },
+          {
+            "date": "2026-04-01",
+            "close": 5.61,
+            "volume": 501742,
+            "average20": 5.507,
+            "average60": 6.261
+          },
+          {
+            "date": "2026-04-02",
+            "close": 5.69,
+            "volume": 801518,
+            "average20": 5.508,
+            "average60": 6.231
+          },
+          {
+            "date": "2026-04-03",
+            "close": 5.33,
+            "volume": 625648,
+            "average20": 5.486,
+            "average60": 6.202
+          },
+          {
+            "date": "2026-04-07",
+            "close": 5.4,
+            "volume": 360627,
+            "average20": 5.47,
+            "average60": 6.173
+          },
+          {
+            "date": "2026-04-08",
+            "close": 5.5,
+            "volume": 378372,
+            "average20": 5.458,
+            "average60": 6.143
+          },
+          {
+            "date": "2026-04-09",
+            "close": 5.28,
+            "volume": 540429,
+            "average20": 5.438,
+            "average60": 6.11
+          },
+          {
+            "date": "2026-04-10",
+            "close": 5.29,
+            "volume": 354211,
+            "average20": 5.421,
+            "average60": 6.08
+          },
+          {
+            "date": "2026-04-13",
+            "close": 5.36,
+            "volume": 284085,
+            "average20": 5.412,
+            "average60": 6.045
+          },
+          {
+            "date": "2026-04-14",
+            "close": 5.36,
+            "volume": 246064,
+            "average20": 5.399,
+            "average60": 6.011
+          },
+          {
+            "date": "2026-04-15",
+            "close": 5.47,
+            "volume": 408032,
+            "average20": 5.396,
+            "average60": 5.978
+          },
+          {
+            "date": "2026-04-16",
+            "close": 5.54,
+            "volume": 428367,
+            "average20": 5.396,
+            "average60": 5.952
+          },
+          {
+            "date": "2026-04-17",
+            "close": 5.51,
+            "volume": 303221,
+            "average20": 5.402,
+            "average60": 5.927
+          },
+          {
+            "date": "2026-04-20",
+            "close": 5.54,
+            "volume": 279154,
+            "average20": 5.417,
+            "average60": 5.906
+          },
+          {
+            "date": "2026-04-21",
+            "close": 5.37,
+            "volume": 343005,
+            "average20": 5.433,
+            "average60": 5.883
+          },
+          {
+            "date": "2026-04-22",
+            "close": 5.31,
+            "volume": 228009,
+            "average20": 5.434,
+            "average60": 5.856
+          },
+          {
+            "date": "2026-04-23",
+            "close": 5.13,
+            "volume": 310158,
+            "average20": 5.423,
+            "average60": 5.83
+          },
+          {
+            "date": "2026-04-24",
+            "close": 5.07,
+            "volume": 233828,
+            "average20": 5.413,
+            "average60": 5.803
+          },
+          {
+            "date": "2026-04-27",
+            "close": 5.14,
+            "volume": 307868,
+            "average20": 5.395,
+            "average60": 5.777
+          },
+          {
+            "date": "2026-04-28",
+            "close": 4.93,
+            "volume": 441104,
+            "average20": 5.364,
+            "average60": 5.745
+          },
+          {
+            "date": "2026-04-29",
+            "close": 4.96,
+            "volume": 272663,
+            "average20": 5.34,
+            "average60": 5.709
+          },
+          {
+            "date": "2026-04-30",
+            "close": 5,
+            "volume": 211271,
+            "average20": 5.309,
+            "average60": 5.679
+          },
+          {
+            "date": "2026-05-06",
+            "close": 4.99,
+            "volume": 253212,
+            "average20": 5.274,
+            "average60": 5.651
+          },
+          {
+            "date": "2026-05-07",
+            "close": 4.95,
+            "volume": 266514,
+            "average20": 5.255,
+            "average60": 5.626
+          },
+          {
+            "date": "2026-05-08",
+            "close": 5.05,
+            "volume": 388943,
+            "average20": 5.237,
+            "average60": 5.603
+          },
+          {
+            "date": "2026-05-11",
+            "close": 5.05,
+            "volume": 312720,
+            "average20": 5.215,
+            "average60": 5.583
+          },
+          {
+            "date": "2026-05-12",
+            "close": 4.89,
+            "volume": 371690,
+            "average20": 5.196,
+            "average60": 5.56
+          },
+          {
+            "date": "2026-05-13",
+            "close": 4.92,
+            "volume": 323293,
+            "average20": 5.177,
+            "average60": 5.536
+          },
+          {
+            "date": "2026-05-14",
+            "close": 4.68,
+            "volume": 390753,
+            "average20": 5.143,
+            "average60": 5.509
+          },
+          {
+            "date": "2026-05-15",
+            "close": 4.58,
+            "volume": 267185,
+            "average20": 5.104,
+            "average60": 5.48
+          },
+          {
+            "date": "2026-05-18",
+            "close": 4.56,
+            "volume": 180790,
+            "average20": 5.059,
+            "average60": 5.449
+          },
+          {
+            "date": "2026-05-19",
+            "close": 4.55,
+            "volume": 201401,
+            "average20": 5.009,
+            "average60": 5.418
+          },
+          {
+            "date": "2026-05-20",
+            "close": 4.38,
+            "volume": 301285,
+            "average20": 4.952,
+            "average60": 5.386
+          },
+          {
+            "date": "2026-05-21",
+            "close": 4.27,
+            "volume": 259203,
+            "average20": 4.889,
+            "average60": 5.354
+          },
+          {
+            "date": "2026-05-22",
+            "close": 4.28,
+            "volume": 213252,
+            "average20": 4.834,
+            "average60": 5.322
+          },
+          {
+            "date": "2026-05-25",
+            "close": 4.23,
+            "volume": 240575,
+            "average20": 4.78,
+            "average60": 5.287
+          },
+          {
+            "date": "2026-05-26",
+            "close": 4.17,
+            "volume": 230880,
+            "average20": 4.732,
+            "average60": 5.249
+          },
+          {
+            "date": "2026-05-27",
+            "close": 4.07,
+            "volume": 246657,
+            "average20": 4.683,
+            "average60": 5.216
+          },
+          {
+            "date": "2026-05-28",
+            "close": 4.1,
+            "volume": 247709,
+            "average20": 4.63,
+            "average60": 5.184
+          },
+          {
+            "date": "2026-05-29",
+            "close": 4.11,
+            "volume": 254673,
+            "average20": 4.59,
+            "average60": 5.156
+          },
+          {
+            "date": "2026-06-01",
+            "close": 4.18,
+            "volume": 218888,
+            "average20": 4.55,
+            "average60": 5.132
+          },
+          {
+            "date": "2026-06-02",
+            "close": 4.08,
+            "volume": 197996,
+            "average20": 4.504,
+            "average60": 5.107
+          },
+          {
+            "date": "2026-06-03",
+            "close": 4.08,
+            "volume": 151725,
+            "average20": 4.459,
+            "average60": 5.08
+          },
+          {
+            "date": "2026-06-04",
+            "close": 3.97,
+            "volume": 226692,
+            "average20": 4.41,
+            "average60": 5.051
+          },
+          {
+            "date": "2026-06-05",
+            "close": 3.99,
+            "volume": 221009,
+            "average20": 4.357,
+            "average60": 5.021
+          },
+          {
+            "date": "2026-06-08",
+            "close": 3.88,
+            "volume": 236296,
+            "average20": 4.298,
+            "average60": 4.99
+          },
+          {
+            "date": "2026-06-09",
+            "close": 3.9,
+            "volume": 203695,
+            "average20": 4.249,
+            "average60": 4.961
+          },
+          {
+            "date": "2026-06-10",
+            "close": 3.85,
+            "volume": 193314,
+            "average20": 4.196,
+            "average60": 4.931
+          },
+          {
+            "date": "2026-06-11",
+            "close": 3.79,
+            "volume": 152775,
+            "average20": 4.151,
+            "average60": 4.902
+          },
+          {
+            "date": "2026-06-12",
+            "close": 3.88,
+            "volume": 248113,
+            "average20": 4.116,
+            "average60": 4.873
+          },
+          {
+            "date": "2026-06-15",
+            "close": 3.85,
+            "volume": 226176,
+            "average20": 4.08,
+            "average60": 4.845
+          },
+          {
+            "date": "2026-06-16",
+            "close": 3.87,
+            "volume": 214956,
+            "average20": 4.046,
+            "average60": 4.817
+          },
+          {
+            "date": "2026-06-17",
+            "close": 3.78,
+            "volume": 195143,
+            "average20": 4.016,
+            "average60": 4.79
+          },
+          {
+            "date": "2026-06-18",
+            "close": 3.77,
+            "volume": 280832,
+            "average20": 3.991,
+            "average60": 4.766
+          },
+          {
+            "date": "2026-06-22",
+            "close": 3.71,
+            "volume": 329723,
+            "average20": 3.963,
+            "average60": 4.743
+          },
+          {
+            "date": "2026-06-23",
+            "close": 4.08,
+            "volume": 282450,
+            "average20": 3.955,
+            "average60": 4.723
+          },
+          {
+            "date": "2026-06-24",
+            "close": 4.49,
+            "volume": 503356,
+            "average20": 3.971,
+            "average60": 4.709
+          },
+          {
+            "date": "2026-06-25",
+            "close": 4.59,
+            "volume": 1707985,
+            "average20": 3.998,
+            "average60": 4.697
+          },
+          {
+            "date": "2026-06-26",
+            "close": 4.13,
+            "volume": 964120,
+            "average20": 3.999,
+            "average60": 4.675
+          },
+          {
+            "date": "2026-06-29",
+            "close": 4.54,
+            "volume": 983439,
+            "average20": 4.021,
+            "average60": 4.658
+          },
+          {
+            "date": "2026-06-30",
+            "close": 4.99,
+            "volume": 1880191,
+            "average20": 4.061,
+            "average60": 4.65
+          },
+          {
+            "date": "2026-07-01",
+            "close": 5.49,
+            "volume": 2074936,
+            "average20": 4.131,
+            "average60": 4.648
+          },
+          {
+            "date": "2026-07-02",
+            "close": 6.04,
+            "volume": 1235872,
+            "average20": 4.229,
+            "average60": 4.654
+          },
+          {
+            "date": "2026-07-03",
+            "close": 6.14,
+            "volume": 3587792,
+            "average20": 4.338,
+            "average60": 4.668
+          },
+          {
+            "date": "2026-07-06",
+            "close": 6.43,
+            "volume": 3498224,
+            "average20": 4.46,
+            "average60": 4.685
+          },
+          {
+            "date": "2026-07-07",
+            "close": 5.79,
+            "volume": 318614,
+            "average20": 4.556,
+            "average60": 4.69
+          },
+          {
+            "date": "2026-07-08",
+            "close": 5.21,
+            "volume": 2933581,
+            "average20": 4.621,
+            "average60": 4.689
+          },
+          {
+            "date": "2026-07-09",
+            "close": 4.73,
+            "volume": 2726316,
+            "average20": 4.665,
+            "average60": 4.679
+          },
+          {
+            "date": "2026-07-10",
+            "close": 4.95,
+            "volume": 2745726,
+            "average20": 4.723,
+            "average60": 4.672
+          },
+          {
+            "date": "2026-07-13",
+            "close": 4.78,
+            "volume": 2158010,
+            "average20": 4.768,
+            "average60": 4.663
+          },
+          {
+            "date": "2026-07-14",
+            "close": 4.68,
+            "volume": 1831265,
+            "average20": 4.81,
+            "average60": 4.65
+          },
+          {
+            "date": "2026-07-15",
+            "close": 5.15,
+            "volume": 1086271,
+            "average20": 4.873,
+            "average60": 4.643
+          },
+          {
+            "date": "2026-07-16",
+            "close": 5.67,
+            "volume": 2949555,
+            "average20": 4.968,
+            "average60": 4.646
+          },
+          {
+            "date": "2026-07-17",
+            "close": 5.1,
+            "volume": 3097903,
+            "average20": 5.035,
+            "average60": 4.638
+          },
+          {
+            "date": "2026-07-20",
+            "close": 4.78,
+            "volume": 2245704,
+            "average20": 5.088,
+            "average60": 4.628
+          },
+          {
+            "date": "2026-07-21",
+            "close": 4.74,
+            "volume": 2017596,
+            "average20": 5.121,
+            "average60": 4.619
+          },
+          {
+            "date": "2026-07-22",
+            "close": 5.21,
+            "volume": 1425757,
+            "average20": 5.157,
+            "average60": 4.62
+          },
+          {
+            "date": "2026-07-23",
+            "close": 5.03,
+            "volume": 1165570,
+            "average20": 5.179,
+            "average60": 4.62
+          }
+        ],
+        "plainReading": {
+          "state": "上涨后正在回落确认",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "中期方向还没有明显走坏，但短期需要重新站稳。",
+          "watch": "先看能否重新站上 5.18 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 4.30，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 5.05,
+            "recentAverage": 5.179,
+            "longerAverage": 4.62,
+            "recentHigh": 6.73,
+            "recentLow": 4.3
+          }
+        }
+      },
+      "risk": [
+        "利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，海南海药需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查海南海药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘海南海药保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收1.68亿元，较可比期-18.6%；归母净利润-7645.21万元，较可比期+11.83%；经营现金流1534.6万元。",
+            "公司抗肝纤维化 1 类新药氟非尼酮胶 囊 III 期临床试验已加速筹备中。"
+          ]
+        },
+        "upside": {
+          "summary": "海南海药的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "临床或审批进展、产品销售、授权收入或研发效率",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本5.44元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "海南海药的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本5.21元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本5.44元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。继续恶化，或价格跌破60日平均成本5.21元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "海南海药的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本5.44元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 3,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收8.31亿元，同比-16.1%；归母净利润-4.3亿元，同比-71.81%。2026-03-31营收1.68亿元，较可比期-18.6%；归母净利润-7645.21万元，较可比期+11.83%；经营现金流1534.6万元。",
+            "reason": "海南海药当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225216954.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "公司抗肝纤维化 1 类新药氟非尼酮胶 囊 III 期临床试验已加速筹备中。",
+            "reason": "海南海药当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096273.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096273.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘5.03元，低于20日平均成本5.44元；60日平均成本5.21元，近20个交易日涨跌-17.94%。",
+            "reason": "海南海药当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收1.68亿元，较可比期-18.6%；归母净利润-7645.21万元，较可比期+11.83%；经营现金流1534.6万元。公司抗肝纤维化 1 类新药氟非尼酮胶 囊 III 期临床试验已加速筹备中。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收8.31亿元，同比-16.1%；归母净利润-4.3亿元，同比-71.81%。2026-03-31营收1.68亿元，较可比期-18.6%；归母净利润-7645.21万元，较可比期+11.83%；经营现金流1534.6万元。",
+          "公司抗肝纤维化 1 类新药氟非尼酮胶 囊 III 期临床试验已加速筹备中。",
+          "利率上升会增加新增带息债务的成本以及本公司尚未付清的以浮动利 率计息的带息债务的利息支出，并对本公司的财务业绩产生重大的不利影响，管理层会依据最新的市场状况及时做出调 整，这些调整可能是进行利率互换的安排来降低利率风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查海南海药的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘海南海药保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 5.05,
+    "previousClose": 5.029880478087649,
+    "changePct": 0.4000000000000058,
+    "high": 5.27,
+    "low": 4.95,
+    "open": 5.21,
+    "volume": 1165570,
+    "turnover": 594025651.9,
+    "turnoverText": "7.31亿",
+    "currency": "CNY",
+    "asOf": "20260827161433",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 5.05,
+    "changePct": 0.4,
+    "turnoverText": "7.31亿",
+    "turnoverRate": 11.15,
+    "totalMarketCap": "65.52亿",
+    "floatMarketCap": "65.49亿",
+    "fiveDayChangePct": -2.51,
+    "twentyDayChangePct": -15.13,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161433",
+    "asOf": "20260827161433",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161433",
+    "latestAsOf": "20260827161433",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 59.69,
+    "evidence_confidence_score": 80.4,
+    "market_payoff_score": 65.04,
+    "technical_timing_score": 47,
+    "data_readiness_score": 100,
+    "action_readiness_score": 68.15,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 72,
+        "average_rating": 3.6,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 3,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 65.04,
+        "average_rating": 3.25,
+        "details": {
+          "valuation_discount": 3.4,
+          "implied_growth_vs_evidence": 3.16,
+          "upside_downside": 2.05,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 47,
+        "average_rating": 2.35,
+        "details": {
+          "monthly_trend": 2,
+          "weekly_structure": 2.85,
+          "daily_buy_point": 1.5,
+          "gf_dma_alignment": 2.95,
+          "drawdown_position": 2.45
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "药品研发与制造处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 9.6%，近60日涨跌 -0.8%。",
+        "missing_proof": "临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "关键临床、审批或商业化进度晚于原计划。",
+      "研发投入继续增加，但获批产品销售没有形成增长。",
+      "核心产品出现安全性、竞争或医保价格压力。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

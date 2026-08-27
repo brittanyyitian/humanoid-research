@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_13_static_cninfo_com_cn_72d9eb4132",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司2026年7月担保情况公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-13/1225469925.PDF",
+  "sourceId": "src_static_cninfo_com_cn_72d9eb4132",
+  "fetchRunId": "fetch_2026_08_13_static_cninfo_com_cn_72d9eb4132",
+  "publishedAt": "2026-08-13",
+  "firstSeenAt": "2026-08-13T16:16:03+08:00",
+  "capturedAt": "2026-08-13T16:16:03+08:00",
+  "contentHash": "sha256:cd24e8df7b41dc71f65274965d100dc104bb8ed1d658029dd27cf7b5ee38199c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_13_static_cninfo_com_cn_72d9eb4132.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_08_13_filing_6307dce71a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_885578e04ebea20a; listSourceId=src_cninfo_600116_announcements."
+}

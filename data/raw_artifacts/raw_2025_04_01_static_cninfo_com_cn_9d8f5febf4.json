@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_01_static_cninfo_com_cn_9d8f5febf4",
+  "artifactType": "filing",
+  "title": "中无人机2024年年度报告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-01/1222974842.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9d8f5febf4",
+  "fetchRunId": "fetch_2025_04_01_static_cninfo_com_cn_9d8f5febf4",
+  "publishedAt": "2025-04-01",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:ce37475b22cd2c6006f8fbda163e164ef87fabf512da06d9bb407dcc29636dc0",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_01_static_cninfo_com_cn_9d8f5febf4.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2025_04_01_filing_a4b9cf9cd5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_187fbd834ec26165; listSourceId=src_cninfo_688297_announcements."
+}

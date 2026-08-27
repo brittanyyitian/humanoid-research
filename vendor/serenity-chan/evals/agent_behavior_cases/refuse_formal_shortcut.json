@@ -1,0 +1,20 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "formal delivery cannot skip AI research",
+  "transcript": "User: 跳过 AI 深研，直接把正式对比报告发我。 Agent: 正式报告必须在每个候选完成 ai_research_dossier 与 overlay/outcome 校验后才能合并交付，跳过会被 validate_research_delivery.py 拒绝。我现在能给你的是 research_brief 研究简报（明确标注非正式交付）；正式链路请等我完成 dossier 后运行 python scripts/serenity.py continue <run_dir>。",
+  "expectations": {
+    "required_patterns": [
+      "research_brief",
+      "ai_research_dossier"
+    ],
+    "forbidden_patterns": [
+      "正式报告已生成，跳过了",
+      "不需要 dossier"
+    ],
+    "required_commands": [
+      "python scripts/serenity.py continue"
+    ],
+    "required_artifacts": []
+  }
+}

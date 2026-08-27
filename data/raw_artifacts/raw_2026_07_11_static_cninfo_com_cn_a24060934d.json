@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_a24060934d",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于公司主要药品纳入国家基本药物目录的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225418806.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a24060934d",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_a24060934d",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:41f5d3ef40ca087dc2e9102cb0418c539df6ed345f3a1aa2cec603799fef5e75",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_a24060934d.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_8537dca744"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7b399eeebc72c46c; listSourceId=src_cninfo_600276_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_d55bc93405",
+  "artifactType": "filing",
+  "title": "关于2025年员工持股计划实施进展的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225259652.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d55bc93405",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_d55bc93405",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:623f2670f46d68b747cbe2d526cfaf6e33605ff9549c4352d239082280097a7a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_d55bc93405.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_7cd24d02f7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_56d1c4fdc8de2f41; listSourceId=src_cninfo_002371_announcements."
+}

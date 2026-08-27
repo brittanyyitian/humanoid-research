@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_03_13_static_cninfo_com_cn_50f2bd0903",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "寒武纪",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_03_13_static_cninfo_com_cn_50f2bd0903"
+  ],
+  "claimIds": [
+    "claim_2026_03_13_filing_ebea5a924b"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-13/1225007363.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:5b728fb5a4dee0bf4a66d5606ec81856289a55a22f2d95587c1dd23e41d617a9",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_13_static_cninfo_com_cn_50f2bd0903.json"
+    }
+  ]
+}

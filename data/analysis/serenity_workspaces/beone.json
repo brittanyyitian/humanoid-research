@@ -1,0 +1,147 @@
+{
+  "id": "saout_beone_dadb5251324a",
+  "entityId": "beone",
+  "name": "百济神州",
+  "generatedAt": "2026-08-27T16:37:24+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "lied_growth_vs_evidence\": 3.08,\n        \"upside_downside\": 2.65,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.1\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 67.2,\n      \"average_rating\": 3.36,\n      \"details\": {\n        \"monthly_trend\": 3.7,\n        \"weekly_structure\": 3.45,\n        \"daily_buy_point\": 1.8,\n        \"gf_dma_alignment\": 4.6,\n        \"drawdown_position\": 3.25\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"创新药研发与全球销售处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。\",\n      \"missing_proof\": \"临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"关键临床、审批或商业化进度晚于原计划。\",\n    \"研发投入继续增加，但获批产品销售没有形成增长。\",\n    \"核心产品出现安全性、竞争或医保价格压力。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688235.SH",
+    "symbol": "688235"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_27_static_cninfo_com_cn_211e2f8b1c",
+      "raw_2026_08_21_static_cninfo_com_cn_8102792294",
+      "raw_2026_08_06_static_cninfo_com_cn_785f056ade",
+      "raw_2026_04_28_static_cninfo_com_cn_a5420e748e",
+      "raw_2026_04_15_static_cninfo_com_cn_d77ba7184c",
+      "raw_2026_04_15_static_cninfo_com_cn_3d26d9467f",
+      "raw_2025_08_30_static_cninfo_com_cn_0f0a4e8765",
+      "raw_2025_08_30_static_cninfo_com_cn_156b50d05e"
+    ],
+    "claimIds": [
+      "claim_2026_08_27_filing_1a0492c8fc",
+      "claim_2026_08_21_filing_128c259b25",
+      "claim_2026_08_06_filing_76eef96618",
+      "claim_2026_04_28_filing_d2769ee346",
+      "claim_2026_04_15_filing_6553b2005a",
+      "claim_2026_04_15_filing_9a42b673f0",
+      "claim_2025_08_30_filing_876da2f53b",
+      "claim_2025_08_30_filing_f5973f915b",
+      "claim_2025_04_29_filing_11a3dcbe38",
+      "claim_2025_04_29_filing_60fbe2625e",
+      "claim_2026_08_27_filing_0da45f8988",
+      "claim_2026_08_06_filing_f59d64ae3e",
+      "claim_2026_07_09_filing_954ee7b11a",
+      "claim_2026_07_09_filing_a97d5fd217",
+      "claim_2026_07_01_filing_cfd1beef9e",
+      "claim_2026_06_27_filing_69cd39367d",
+      "claim_2026_05_14_filing_84b71dd434",
+      "claim_2026_05_12_filing_87077f9113",
+      "claim_2026_05_07_filing_d847a94a54",
+      "claim_2026_05_07_filing_2f909e3890"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/data/688235/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "百济神州 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 57.21/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/data/688235/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 688235.SH (百济神州)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **57.21 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **STRONG_OBSERVE**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 59.37 |\n| Evidence confidence | 79.28 |\n| Market payoff | 60.92 |\n| Technical timing | 67.2 |\n| Data readiness | 100.0 |\n| Action readiness | 77.24 |\n\n## Falsification Points\n- 关键临床、审批或商业化进度晚于原计划。\n- 研发投入继续增加，但获批产品销售没有形成增长。\n- 核心产品出现安全性、竞争或医保价格压力。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

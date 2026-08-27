@@ -4,3 +4,5 @@ dist/
 *.log
 .npm-cache/
 data/live/
+data/serenity_provider/runs/
+data/serenity_provider/formal_runs/

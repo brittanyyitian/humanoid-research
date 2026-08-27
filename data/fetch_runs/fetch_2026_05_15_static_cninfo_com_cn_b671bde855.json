@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_05_15_static_cninfo_com_cn_b671bde855",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "柯力传感",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_05_15_static_cninfo_com_cn_b671bde855"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_9b51909b7a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225305689.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:4bc98a56a08c6d4865837f80c3ec83b28d51c602fbd67f95283db1b00dc88a5c",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_b671bde855.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:25+08:00",
+      "finishedAt": "2026-07-23T16:16:25+08:00",
+      "contentHash": "sha256:77a793f43275df24eb2182904d2f356d9df035816b4765d2c0480adf96254aad",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_b671bde855.json"
+    }
+  ]
+}

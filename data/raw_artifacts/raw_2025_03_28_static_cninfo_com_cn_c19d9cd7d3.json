@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_28_static_cninfo_com_cn_c19d9cd7d3",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2024年年度报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222929636.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c19d9cd7d3",
+  "fetchRunId": "fetch_2025_03_28_static_cninfo_com_cn_c19d9cd7d3",
+  "publishedAt": "2025-03-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:218a851f7e144df46c855d6d1f365e8ba2b08847a2e6c1fb3077bba84d292203",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_c19d9cd7d3.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_eed12b5733"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b123ac7937cae8db; listSourceId=src_cninfo_600938_announcements."
+}

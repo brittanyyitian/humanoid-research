@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_11_static_cninfo_com_cn_f89b7afac1",
+  "artifactType": "filing",
+  "title": "2025年年度报告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-11/1225092400.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f89b7afac1",
+  "fetchRunId": "fetch_2026_04_11_static_cninfo_com_cn_f89b7afac1",
+  "publishedAt": "2026-04-11",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:e277fa25cd9d99ee544fcc9e630f520b50e7e2f75ad26e292aa0a2378fd38a99",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_11_static_cninfo_com_cn_f89b7afac1.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_11_filing_7e518c8de7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2ecac9cfc4463ddb; listSourceId=src_cninfo_000159_announcements."
+}

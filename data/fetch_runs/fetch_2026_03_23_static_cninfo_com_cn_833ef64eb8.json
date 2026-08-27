@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_03_23_static_cninfo_com_cn_833ef64eb8",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中国石化",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_03_23_static_cninfo_com_cn_833ef64eb8"
+  ],
+  "claimIds": [
+    "claim_2026_03_23_filing_dfac13b3ee"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-23/1225024100.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:db148b8555f74fe17d841ab3fc1928055a41bfc987bd5698d17f0748dc4a0576",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_23_static_cninfo_com_cn_833ef64eb8.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:25+08:00",
+      "finishedAt": "2026-07-23T09:57:25+08:00",
+      "contentHash": "sha256:ffb670cbc2a06c4065523c780b27f319be807c4531286d7bd91b427b4e2f88f8",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_23_static_cninfo_com_cn_833ef64eb8.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_9434081204",
+  "artifactType": "filing",
+  "title": "中无人机2026年第二次临时股东会决议公告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225368427.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9434081204",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_9434081204",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d8b0fde54bf960350dcda345f44620fe7760ae2754925e19578dc86051dd7a38",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_9434081204.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_f54656e783"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_16bffb0d5bf8b5cc; listSourceId=src_cninfo_688297_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_11_static_cninfo_com_cn_86324462e2",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "凌云光",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_11_static_cninfo_com_cn_86324462e2"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_315b85c494"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225420229.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:fc94f441fc51a7fc4c35591d44ffb7b33a5f9085499bc1b9ccf2ff779a64ac5f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_86324462e2.json"
+    }
+  ]
+}

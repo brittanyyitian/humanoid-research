@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_603101b334",
+  "artifactType": "filing",
+  "title": "第三届董事会第七次会议决议公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225445751.PDF",
+  "sourceId": "src_static_cninfo_com_cn_603101b334",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_603101b334",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:fc87c20fe899cb7d452c68aebbf6d13b79686fc2b849718262874c7deb47c82e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_603101b334.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_ce08d61279"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_835845f61f468b34; listSourceId=src_cninfo_688256_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_04_30_static_cninfo_com_cn_72bb8c65bb",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "国投电力",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_04_30_static_cninfo_com_cn_72bb8c65bb"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_2de0de6408"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225257756.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:99469c9c3ec8956243c0d575bd54646be0cfb30749292447f5f8731a8b70d409",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_72bb8c65bb.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_9a9ff1416d",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225261883.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9a9ff1416d",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_9a9ff1416d",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:581e7be731b634b5d9d05c7c36b3030effe9b012ec694e23e4f9c983af26e97e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_9a9ff1416d.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_aa7e3a0c47"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7c169258b5580b66; listSourceId=src_cninfo_002156_announcements."
+}

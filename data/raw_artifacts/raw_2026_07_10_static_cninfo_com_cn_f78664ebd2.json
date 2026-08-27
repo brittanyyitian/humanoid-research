@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_f78664ebd2",
+  "artifactType": "filing",
+  "title": "大唐发电关于无需编制前次募集资金使用情况报告的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417892.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f78664ebd2",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_f78664ebd2",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ba725465c6649e44695a223dd83ab948698e8377e2ec376d271f985724f2a090",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_f78664ebd2.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_7f6ffc4284"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4d0bd9edc0d64dcc; listSourceId=src_cninfo_601991_announcements."
+}

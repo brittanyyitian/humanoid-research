@@ -1,0 +1,1634 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "cnooc",
+  "name": "中国海油",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_cnooc_2026-07-23",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.99,
+      "currency": "CNY",
+      "changePct": 1.85,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 2.637162776598961,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 3.9278323114201417,
+          "maxDrawdownPct": -6.971809639284634,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-24",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.91,
+      "currency": "CNY",
+      "changePct": -3.27,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 6.110937010341583,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 3.0509598157786275,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-25",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.91,
+      "currency": "CNY",
+      "changePct": -3.27,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 6.110937010341583,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 3.2613096539189526,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-26",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.91,
+      "currency": "CNY",
+      "changePct": -3.27,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 5.67220307113757,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 6.377466229032309,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-27",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.55,
+      "currency": "CNY",
+      "changePct": -1.13,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 6.212361331220277,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 8.02773406200436,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-28",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.32,
+      "currency": "CNY",
+      "changePct": -0.73,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 6.41762452107279,
+          "poolReturnPct": 0,
+          "excessReturnPct": 6.41762452107279,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-29",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.48,
+      "currency": "CNY",
+      "changePct": 0.51,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 7.433290978398984,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 5.212302638587776,
+          "maxDrawdownPct": -5.714285714285702,
+          "result": "市场支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-30",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.55,
+      "currency": "CNY",
+      "changePct": 3.4,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-07-31",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.26,
+      "currency": "CNY",
+      "changePct": -0.89,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-01",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.26,
+      "currency": "CNY",
+      "changePct": -0.89,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-02",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32.26,
+      "currency": "CNY",
+      "changePct": -0.89,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-03",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.85,
+      "currency": "CNY",
+      "changePct": -1.27,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-04",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.56,
+      "currency": "CNY",
+      "changePct": -0.91,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-05",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.69,
+      "currency": "CNY",
+      "changePct": -2.76,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-06",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:54+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:34+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 30.96,
+      "currency": "CNY",
+      "changePct": 0.88,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-07",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.33,
+      "currency": "CNY",
+      "changePct": 1.2,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-08",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.33,
+      "currency": "CNY",
+      "changePct": 1.2,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-09",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 31.33,
+      "currency": "CNY",
+      "changePct": 1.2,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-10",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "接近买点",
+      "price": 32,
+      "currency": "CNY",
+      "changePct": 2.14,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-11",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.7,
+      "currency": "CNY",
+      "changePct": 5.31,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-12",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.85,
+      "currency": "CNY",
+      "changePct": -2.52,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-13",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.63,
+      "currency": "CNY",
+      "changePct": -0.67,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-14",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.67,
+      "currency": "CNY",
+      "changePct": 0.12,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-15",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.67,
+      "currency": "CNY",
+      "changePct": 0.12,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-16",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.67,
+      "currency": "CNY",
+      "changePct": 0.12,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-17",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 32.89,
+      "currency": "CNY",
+      "changePct": 0.67,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-18",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.58,
+      "currency": "CNY",
+      "changePct": 2.1,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-19",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.35,
+      "currency": "CNY",
+      "changePct": -0.68,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-20",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.3,
+      "currency": "CNY",
+      "changePct": -0.15,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-21",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.86,
+      "currency": "CNY",
+      "changePct": 1.68,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-22",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.86,
+      "currency": "CNY",
+      "changePct": 1.68,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-23",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.86,
+      "currency": "CNY",
+      "changePct": 1.68,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-24",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.72,
+      "currency": "CNY",
+      "changePct": -0.41,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-25",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.51,
+      "currency": "CNY",
+      "changePct": -0.62,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-26",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.33,
+      "currency": "CNY",
+      "changePct": -0.54,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_cnooc_2026-08-27",
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "symbol": "600938.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "HIGH",
+      "reason": "适合买入候选",
+      "price": 33.82,
+      "currency": "CNY",
+      "changePct": 1.47,
+      "technicalTimingScore": 66.2,
+      "marketPayoffScore": 61.76,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘中国海油值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

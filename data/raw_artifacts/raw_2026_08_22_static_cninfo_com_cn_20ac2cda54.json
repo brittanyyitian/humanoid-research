@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_20ac2cda54",
+  "artifactType": "filing",
+  "title": "2026年股票期权与限制性股票激励计划（草案）",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225493711.PDF",
+  "sourceId": "src_static_cninfo_com_cn_20ac2cda54",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_20ac2cda54",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:a72d2b77050590bca3a32d4e549bf29a758d26c81921d95b6bd20cffcd068b29",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_20ac2cda54.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_0a5b13c3d7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_eaf429e89ee6fc12; listSourceId=src_cninfo_688322_announcements."
+}

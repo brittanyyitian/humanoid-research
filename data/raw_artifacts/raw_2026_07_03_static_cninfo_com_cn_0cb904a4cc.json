@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_0cb904a4cc",
+  "artifactType": "filing",
+  "title": "紫金矿业H股市场公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225406911.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0cb904a4cc",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_0cb904a4cc",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:4342189fc8078e05a6573ace91ffede2a4561a3f3d178a71163c928d8bf151cb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_0cb904a4cc.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_fed2430d11"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c9fb301d68b2937a; listSourceId=src_cninfo_601899_announcements."
+}

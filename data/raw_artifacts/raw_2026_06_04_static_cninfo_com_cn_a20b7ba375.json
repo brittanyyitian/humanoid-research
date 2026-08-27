@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_a20b7ba375",
+  "artifactType": "filing",
+  "title": "第九届董事会第十六次临时会议决议公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225348272.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a20b7ba375",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_a20b7ba375",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:198e86f32166d62f6177f28113ea43a8eb421a8fae988a1bcb00f680183abc80",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_a20b7ba375.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_6ab945bea6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_980cdf44e9cd67dc; listSourceId=src_cninfo_000159_announcements."
+}

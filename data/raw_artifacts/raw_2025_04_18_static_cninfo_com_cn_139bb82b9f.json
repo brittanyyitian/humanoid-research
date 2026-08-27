@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_18_static_cninfo_com_cn_139bb82b9f",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-18/1223127191.PDF",
+  "sourceId": "src_static_cninfo_com_cn_139bb82b9f",
+  "fetchRunId": "fetch_2025_04_18_static_cninfo_com_cn_139bb82b9f",
+  "publishedAt": "2025-04-18",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:78904c66600ab1f9f4b3866a8f5afd052d3573e7efcd95b72e1476f4bea04e73",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_18_static_cninfo_com_cn_139bb82b9f.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2025_04_18_filing_9a1494f5bf"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fa6085df8e7aec6f; listSourceId=src_cninfo_688012_announcements."
+}

@@ -1,0 +1,20 @@
+{
+  "contract_type": "serenity_agent_behavior_case",
+  "schema_version": "1.0",
+  "name": "what-should-I-do-now must run the decision brief, not improvise",
+  "transcript": "User: 我现在该干什么？帮我看看下一步。 Agent: 这个问题走决策简报路由：python scripts/serenity.py next 会聚合当前市场环境、观察名单实时状态、到期复盘、可结算预测和未完成研究，输出按优先级排序的动作队列。我先运行它，再基于 decision_brief.md 的客观状态逐条讨论，而不是凭印象直接给操作建议。",
+  "expectations": {
+    "required_patterns": [
+      "decision_brief",
+      "优先级"
+    ],
+    "forbidden_patterns": [
+      "凭感觉建议",
+      "直接买入"
+    ],
+    "required_commands": [
+      "python scripts/serenity.py next"
+    ],
+    "required_artifacts": []
+  }
+}

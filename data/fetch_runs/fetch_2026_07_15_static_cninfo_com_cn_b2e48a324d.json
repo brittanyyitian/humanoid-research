@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_15_static_cninfo_com_cn_b2e48a324d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "兴业银锡",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:32:05+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_15_static_cninfo_com_cn_b2e48a324d"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_d2372b42cd"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225422801.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:31:19+08:00",
+      "finishedAt": "2026-07-23T09:31:19+08:00",
+      "contentHash": "sha256:1ec47b5f5814cb4035713c5b7bd85883ffe279e93d0dc02e69377b10e8754c9e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_b2e48a324d.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:32:05+08:00",
+      "finishedAt": "2026-07-23T09:32:05+08:00",
+      "contentHash": "sha256:99be8f06b8cdfaaafcbfe3865af0c627ff68abc6b5bfb6ce5a0d2c8d65704eb3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_b2e48a324d.json"
+    }
+  ]
+}

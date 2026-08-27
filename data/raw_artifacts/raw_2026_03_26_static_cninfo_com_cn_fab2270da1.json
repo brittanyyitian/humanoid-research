@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_26_static_cninfo_com_cn_fab2270da1",
+  "artifactType": "filing",
+  "title": "2025年年度股东会会议资料",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-26/1225030713.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fab2270da1",
+  "fetchRunId": "fetch_2026_03_26_static_cninfo_com_cn_fab2270da1",
+  "publishedAt": "2026-03-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9d0a1c4a50630f97109822d2b13a793e863e6528c12f517acc7970f38ab39f28",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_26_static_cninfo_com_cn_fab2270da1.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_03_26_filing_7d6389cd77"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fc189cf9a80ee65b; listSourceId=src_cninfo_688256_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_88c3bd404d",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司第九届董事会临时会议决议公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357786.PDF",
+  "sourceId": "src_static_cninfo_com_cn_88c3bd404d",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_88c3bd404d",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:e1912502c10bfa81e52ff273957aab4a0ed5c6f93a5cc416c4f6a9167366374a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_88c3bd404d.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_f95032b54d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5a01ac5ad0d6dd7b; listSourceId=src_cninfo_601899_announcements."
+}

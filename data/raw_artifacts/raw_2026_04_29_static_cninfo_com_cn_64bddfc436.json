@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_64bddfc436",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225239047.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64bddfc436",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_64bddfc436",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:c5b2be1860cfa50ab2ee18bd2acc73611faf3e5ca5acbeb90f1ec4931b60dade",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_64bddfc436.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_c12f066121"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8ba0e4588fd2cc42; listSourceId=src_cninfo_688256_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_2b7b0f88ec",
+  "artifactType": "filing",
+  "title": "关于航天科技财务有限责任公司的风险评估报告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036398.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2b7b0f88ec",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_2b7b0f88ec",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:bae6513f291d487e20139280a09d418fae20cc3eec8f86b8b9a34c18f951ebd1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_2b7b0f88ec.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_d462330c02"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e448c73436d67ab3; listSourceId=src_cninfo_002389_announcements."
+}

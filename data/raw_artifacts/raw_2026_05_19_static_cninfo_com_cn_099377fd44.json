@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_099377fd44",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于浙江五洲新春集团股份有限公司募集资金临时补充流动资金的核查意见",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225313610.PDF",
+  "sourceId": "src_static_cninfo_com_cn_099377fd44",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_099377fd44",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:1a33b863b477ec89229d400843e0a62a8d1e1210e04dff518167be41fdbefe12",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_099377fd44.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_93961fb187"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5a462be49834085a; listSourceId=src_cninfo_603667_announcements."
+}

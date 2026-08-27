@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_26_static_cninfo_com_cn_23a456df66",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司2024年年度报告_摘要",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223325586.PDF",
+  "sourceId": "src_static_cninfo_com_cn_23a456df66",
+  "fetchRunId": "fetch_2025_04_26_static_cninfo_com_cn_23a456df66",
+  "publishedAt": "2025-04-26",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:8c66ba7738627d287bf612c1facffd2261a01f4c0ae48fddef59500b0e24f21c",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_26_static_cninfo_com_cn_23a456df66.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2025_04_26_filing_dc2788e445"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cce4e15442299655; listSourceId=src_cninfo_600664_announcements."
+}

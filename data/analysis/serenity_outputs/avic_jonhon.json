@@ -1,0 +1,1300 @@
+{
+  "id": "saout_avic_jonhon_e8156ee99a42",
+  "entityId": "avic_jonhon",
+  "name": "中航光电",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "002179.SZ",
+    "symbol": "002179.SZ"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/data/002179/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/ai_research/002179.SZ/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_49_11_avic_jonhon/ai_research/002179.SZ/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "中航光电 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+      "中航光电的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查中航光电的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘中航光电保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "连接器与互连",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "002179.SZ",
+      "name": "中航光电",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 35.5,
+        "previousClose": 33.37093438616281,
+        "changePct": 6.380000000000013,
+        "high": 34.4,
+        "low": 33.73,
+        "open": 34.31,
+        "volume": 118881,
+        "turnover": 404041691.54,
+        "turnoverText": "15.89亿",
+        "currency": "CNY",
+        "asOf": "20260827161409",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 55.41,
+        "technicalTimingScore": 28.2,
+        "marketPayoffScore": 61.12,
+        "dataReadinessScore": 100,
+        "type": "继续观察，等证据",
+        "currentAction": "等待下一份财报或公告补齐最关键的公司级证据。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 50,
+        "evidenceScore": 76,
+        "valuationScore": 48,
+        "timingScore": 28.2,
+        "riskScore": 54,
+        "decisionReason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WATCH_FOR_EVIDENCE",
+          "label": "继续观察，等证据",
+          "researchRating": "C",
+          "overallScore": 48.25,
+          "fundamentalScore": 58.4,
+          "companyScore": 50,
+          "evidenceScore": 76,
+          "valuationScore": 48,
+          "timingScore": 28.2,
+          "riskScore": 54,
+          "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+          "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+          "metrics": {
+            "pe": 32.9583,
+            "ps": 3.3311,
+            "revenueGrowth": 0.0069,
+            "profitGrowth": 0,
+            "cashConversion": -3.2217,
+            "debtRatio": 0.3511,
+            "return20": -0.0375
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收213.86亿元，同比+3.39%；归母净利润21.62亿元，同比-35.56%。2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。",
+          "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。",
+          "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+          "2026-08-26复权收盘33.37元，低于20日平均成本34.97元；60日平均成本36.67元，近20个交易日涨跌-3.75%。"
+        ],
+        "possible": [
+          "中航光电当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "中航光电当前业务信号为：这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。",
+          "中航光电当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.12,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.41/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 28.2,
+        "dailyBuyPointScore": 1.55,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 35.01,
+            "volume": 693047,
+            "average20": 34.738,
+            "average60": 34.903
+          },
+          {
+            "date": "2026-03-16",
+            "close": 34.81,
+            "volume": 340637,
+            "average20": 34.776,
+            "average60": 34.937
+          },
+          {
+            "date": "2026-03-17",
+            "close": 34.05,
+            "volume": 310352,
+            "average20": 34.766,
+            "average60": 34.967
+          },
+          {
+            "date": "2026-03-18",
+            "close": 34.88,
+            "volume": 311644,
+            "average20": 34.809,
+            "average60": 35.02
+          },
+          {
+            "date": "2026-03-19",
+            "close": 34.01,
+            "volume": 311312,
+            "average20": 34.822,
+            "average60": 35.036
+          },
+          {
+            "date": "2026-03-20",
+            "close": 32.98,
+            "volume": 325162,
+            "average20": 34.773,
+            "average60": 35.047
+          },
+          {
+            "date": "2026-03-23",
+            "close": 32.03,
+            "volume": 280834,
+            "average20": 34.687,
+            "average60": 35.042
+          },
+          {
+            "date": "2026-03-24",
+            "close": 32.5,
+            "volume": 207968,
+            "average20": 34.596,
+            "average60": 35.035
+          },
+          {
+            "date": "2026-03-25",
+            "close": 33.18,
+            "volume": 200900,
+            "average20": 34.521,
+            "average60": 35.028
+          },
+          {
+            "date": "2026-03-26",
+            "close": 32.84,
+            "volume": 172714,
+            "average20": 34.398,
+            "average60": 35.015
+          },
+          {
+            "date": "2026-03-27",
+            "close": 32.68,
+            "volume": 133428,
+            "average20": 34.282,
+            "average60": 35.011
+          },
+          {
+            "date": "2026-03-30",
+            "close": 33.4,
+            "volume": 233934,
+            "average20": 34.157,
+            "average60": 35.014
+          },
+          {
+            "date": "2026-03-31",
+            "close": 33.25,
+            "volume": 172678,
+            "average20": 34.1,
+            "average60": 34.996
+          },
+          {
+            "date": "2026-04-01",
+            "close": 33.55,
+            "volume": 186333,
+            "average20": 34.051,
+            "average60": 34.985
+          },
+          {
+            "date": "2026-04-02",
+            "close": 32.71,
+            "volume": 152687,
+            "average20": 33.964,
+            "average60": 34.938
+          },
+          {
+            "date": "2026-04-03",
+            "close": 32.54,
+            "volume": 161490,
+            "average20": 33.854,
+            "average60": 34.899
+          },
+          {
+            "date": "2026-04-07",
+            "close": 34.53,
+            "volume": 543281,
+            "average20": 33.887,
+            "average60": 34.893
+          },
+          {
+            "date": "2026-04-08",
+            "close": 35.15,
+            "volume": 436507,
+            "average20": 33.904,
+            "average60": 34.892
+          },
+          {
+            "date": "2026-04-09",
+            "close": 36.33,
+            "volume": 747316,
+            "average20": 33.883,
+            "average60": 34.886
+          },
+          {
+            "date": "2026-04-10",
+            "close": 36.29,
+            "volume": 601742,
+            "average20": 33.836,
+            "average60": 34.882
+          },
+          {
+            "date": "2026-04-13",
+            "close": 36.19,
+            "volume": 329606,
+            "average20": 33.895,
+            "average60": 34.852
+          },
+          {
+            "date": "2026-04-14",
+            "close": 35.96,
+            "volume": 286502,
+            "average20": 33.953,
+            "average60": 34.813
+          },
+          {
+            "date": "2026-04-15",
+            "close": 35.32,
+            "volume": 267602,
+            "average20": 34.016,
+            "average60": 34.734
+          },
+          {
+            "date": "2026-04-16",
+            "close": 35.07,
+            "volume": 237349,
+            "average20": 34.026,
+            "average60": 34.692
+          },
+          {
+            "date": "2026-04-17",
+            "close": 35.11,
+            "volume": 276183,
+            "average20": 34.081,
+            "average60": 34.651
+          },
+          {
+            "date": "2026-04-20",
+            "close": 36.16,
+            "volume": 426389,
+            "average20": 34.24,
+            "average60": 34.65
+          },
+          {
+            "date": "2026-04-21",
+            "close": 35.89,
+            "volume": 239494,
+            "average20": 34.433,
+            "average60": 34.644
+          },
+          {
+            "date": "2026-04-22",
+            "close": 35.87,
+            "volume": 236067,
+            "average20": 34.601,
+            "average60": 34.62
+          },
+          {
+            "date": "2026-04-23",
+            "close": 35.3,
+            "volume": 250366,
+            "average20": 34.707,
+            "average60": 34.605
+          },
+          {
+            "date": "2026-04-24",
+            "close": 34.66,
+            "volume": 314347,
+            "average20": 34.798,
+            "average60": 34.584
+          },
+          {
+            "date": "2026-04-27",
+            "close": 36.39,
+            "volume": 659725,
+            "average20": 34.983,
+            "average60": 34.586
+          },
+          {
+            "date": "2026-04-28",
+            "close": 34.99,
+            "volume": 354840,
+            "average20": 35.063,
+            "average60": 34.552
+          },
+          {
+            "date": "2026-04-29",
+            "close": 35.7,
+            "volume": 270610,
+            "average20": 35.185,
+            "average60": 34.556
+          },
+          {
+            "date": "2026-04-30",
+            "close": 36.01,
+            "volume": 338828,
+            "average20": 35.308,
+            "average60": 34.567
+          },
+          {
+            "date": "2026-05-06",
+            "close": 36.61,
+            "volume": 485629,
+            "average20": 35.504,
+            "average60": 34.6
+          },
+          {
+            "date": "2026-05-07",
+            "close": 36.06,
+            "volume": 347834,
+            "average20": 35.68,
+            "average60": 34.636
+          },
+          {
+            "date": "2026-05-08",
+            "close": 36.37,
+            "volume": 380847,
+            "average20": 35.771,
+            "average60": 34.679
+          },
+          {
+            "date": "2026-05-11",
+            "close": 40.06,
+            "volume": 1098050,
+            "average20": 36.017,
+            "average60": 34.79
+          },
+          {
+            "date": "2026-05-12",
+            "close": 40.3,
+            "volume": 1410756,
+            "average20": 36.216,
+            "average60": 34.887
+          },
+          {
+            "date": "2026-05-13",
+            "close": 41.35,
+            "volume": 873659,
+            "average20": 36.468,
+            "average60": 35.002
+          },
+          {
+            "date": "2026-05-14",
+            "close": 39.83,
+            "volume": 570754,
+            "average20": 36.651,
+            "average60": 35.095
+          },
+          {
+            "date": "2026-05-15",
+            "close": 38.91,
+            "volume": 480661,
+            "average20": 36.798,
+            "average60": 35.175
+          },
+          {
+            "date": "2026-05-18",
+            "close": 38.79,
+            "volume": 456908,
+            "average20": 36.971,
+            "average60": 35.251
+          },
+          {
+            "date": "2026-05-19",
+            "close": 39.33,
+            "volume": 439767,
+            "average20": 37.184,
+            "average60": 35.34
+          },
+          {
+            "date": "2026-05-20",
+            "close": 40.9,
+            "volume": 676919,
+            "average20": 37.474,
+            "average60": 35.459
+          },
+          {
+            "date": "2026-05-21",
+            "close": 40.25,
+            "volume": 635466,
+            "average20": 37.678,
+            "average60": 35.564
+          },
+          {
+            "date": "2026-05-22",
+            "close": 40.72,
+            "volume": 331266,
+            "average20": 37.92,
+            "average60": 35.68
+          },
+          {
+            "date": "2026-05-25",
+            "close": 40.45,
+            "volume": 568541,
+            "average20": 38.149,
+            "average60": 35.782
+          },
+          {
+            "date": "2026-05-26",
+            "close": 39.48,
+            "volume": 542479,
+            "average20": 38.358,
+            "average60": 35.862
+          },
+          {
+            "date": "2026-05-27",
+            "close": 38.71,
+            "volume": 436771,
+            "average20": 38.561,
+            "average60": 35.919
+          },
+          {
+            "date": "2026-05-28",
+            "close": 38.99,
+            "volume": 412039,
+            "average20": 38.691,
+            "average60": 35.985
+          },
+          {
+            "date": "2026-05-29",
+            "close": 36.42,
+            "volume": 531072,
+            "average20": 38.762,
+            "average60": 35.994
+          },
+          {
+            "date": "2026-06-01",
+            "close": 35.84,
+            "volume": 363487,
+            "average20": 38.769,
+            "average60": 36.018
+          },
+          {
+            "date": "2026-06-02",
+            "close": 35.63,
+            "volume": 346106,
+            "average20": 38.75,
+            "average60": 36.037
+          },
+          {
+            "date": "2026-06-03",
+            "close": 36.92,
+            "volume": 454799,
+            "average20": 38.766,
+            "average60": 36.078
+          },
+          {
+            "date": "2026-06-04",
+            "close": 39.22,
+            "volume": 660014,
+            "average20": 38.923,
+            "average60": 36.152
+          },
+          {
+            "date": "2026-06-05",
+            "close": 37.78,
+            "volume": 449961,
+            "average20": 38.994,
+            "average60": 36.217
+          },
+          {
+            "date": "2026-06-08",
+            "close": 35.33,
+            "volume": 479001,
+            "average20": 38.758,
+            "average60": 36.226
+          },
+          {
+            "date": "2026-06-09",
+            "close": 37.14,
+            "volume": 414086,
+            "average20": 38.599,
+            "average60": 36.233
+          },
+          {
+            "date": "2026-06-10",
+            "close": 37.16,
+            "volume": 362139,
+            "average20": 38.39,
+            "average60": 36.231
+          },
+          {
+            "date": "2026-06-11",
+            "close": 36.5,
+            "volume": 263308,
+            "average20": 38.223,
+            "average60": 36.256
+          },
+          {
+            "date": "2026-06-12",
+            "close": 36.01,
+            "volume": 481929,
+            "average20": 38.078,
+            "average60": 36.276
+          },
+          {
+            "date": "2026-06-15",
+            "close": 38.19,
+            "volume": 516881,
+            "average20": 38.049,
+            "average60": 36.345
+          },
+          {
+            "date": "2026-06-16",
+            "close": 38.11,
+            "volume": 347777,
+            "average20": 37.987,
+            "average60": 36.399
+          },
+          {
+            "date": "2026-06-17",
+            "close": 38.82,
+            "volume": 552895,
+            "average20": 37.884,
+            "average60": 36.479
+          },
+          {
+            "date": "2026-06-18",
+            "close": 40.78,
+            "volume": 766308,
+            "average20": 37.91,
+            "average60": 36.609
+          },
+          {
+            "date": "2026-06-22",
+            "close": 42.73,
+            "volume": 801736,
+            "average20": 38.011,
+            "average60": 36.788
+          },
+          {
+            "date": "2026-06-23",
+            "close": 41.5,
+            "volume": 640713,
+            "average20": 38.063,
+            "average60": 36.938
+          },
+          {
+            "date": "2026-06-24",
+            "close": 41.99,
+            "volume": 513272,
+            "average20": 38.188,
+            "average60": 37.085
+          },
+          {
+            "date": "2026-06-25",
+            "close": 42.34,
+            "volume": 519381,
+            "average20": 38.37,
+            "average60": 37.243
+          },
+          {
+            "date": "2026-06-26",
+            "close": 42.69,
+            "volume": 671782,
+            "average20": 38.555,
+            "average60": 37.41
+          },
+          {
+            "date": "2026-06-29",
+            "close": 44.1,
+            "volume": 804023,
+            "average20": 38.939,
+            "average60": 37.588
+          },
+          {
+            "date": "2026-06-30",
+            "close": 46.2,
+            "volume": 712669,
+            "average20": 39.457,
+            "average60": 37.804
+          },
+          {
+            "date": "2026-07-01",
+            "close": 44.6,
+            "volume": 662107,
+            "average20": 39.906,
+            "average60": 37.988
+          },
+          {
+            "date": "2026-07-02",
+            "close": 44.11,
+            "volume": 595319,
+            "average20": 40.265,
+            "average60": 38.178
+          },
+          {
+            "date": "2026-07-03",
+            "close": 42.35,
+            "volume": 464258,
+            "average20": 40.422,
+            "average60": 38.342
+          },
+          {
+            "date": "2026-07-06",
+            "close": 43.79,
+            "volume": 570005,
+            "average20": 40.722,
+            "average60": 38.496
+          },
+          {
+            "date": "2026-07-07",
+            "close": 43.16,
+            "volume": 385335,
+            "average20": 41.114,
+            "average60": 38.629
+          },
+          {
+            "date": "2026-07-08",
+            "close": 41.22,
+            "volume": 469225,
+            "average20": 41.318,
+            "average60": 38.711
+          },
+          {
+            "date": "2026-07-09",
+            "close": 40.13,
+            "volume": 614042,
+            "average20": 41.466,
+            "average60": 38.775
+          },
+          {
+            "date": "2026-07-10",
+            "close": 39.1,
+            "volume": 627803,
+            "average20": 41.596,
+            "average60": 38.823
+          },
+          {
+            "date": "2026-07-13",
+            "close": 35.23,
+            "volume": 737263,
+            "average20": 41.557,
+            "average60": 38.811
+          },
+          {
+            "date": "2026-07-14",
+            "close": 35.86,
+            "volume": 498804,
+            "average20": 41.441,
+            "average60": 38.82
+          },
+          {
+            "date": "2026-07-15",
+            "close": 34.92,
+            "volume": 353562,
+            "average20": 41.281,
+            "average60": 38.818
+          },
+          {
+            "date": "2026-07-16",
+            "close": 34.01,
+            "volume": 360386,
+            "average20": 41.041,
+            "average60": 38.799
+          },
+          {
+            "date": "2026-07-17",
+            "close": 32.7,
+            "volume": 351736,
+            "average20": 40.637,
+            "average60": 38.742
+          },
+          {
+            "date": "2026-07-20",
+            "close": 32.27,
+            "volume": 386609,
+            "average20": 40.114,
+            "average60": 38.681
+          },
+          {
+            "date": "2026-07-21",
+            "close": 34.07,
+            "volume": 440662,
+            "average20": 39.742,
+            "average60": 38.651
+          },
+          {
+            "date": "2026-07-22",
+            "close": 34.31,
+            "volume": 360285,
+            "average20": 39.358,
+            "average60": 38.635
+          },
+          {
+            "date": "2026-07-23",
+            "close": 33.93,
+            "volume": 118881,
+            "average20": 38.938,
+            "average60": 38.623
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 38.94 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 31.88，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 35.5,
+            "recentAverage": 38.938,
+            "longerAverage": 38.623,
+            "recentHigh": 47.21,
+            "recentLow": 31.88
+          }
+        }
+      },
+      "risk": [
+        "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查中航光电的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘中航光电保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。",
+            "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。"
+          ]
+        },
+        "upside": {
+          "summary": "中航光电的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "型号、批量订单、交付数量或无人机业务收入",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "中航光电的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本36.67元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "型号、批量订单、交付数量或无人机业务收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。继续恶化，或价格跌破60日平均成本36.67元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "型号、批量订单、交付数量或无人机业务收入与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+        "中航光电的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收213.86亿元，同比+3.39%；归母净利润21.62亿元，同比-35.56%。2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。",
+            "reason": "中航光电当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-25/1225189353.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。",
+            "reason": "中航光电当前业务信号为：这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘33.37元，低于20日平均成本34.97元；60日平均成本36.67元，近20个交易日涨跌-3.75%。",
+            "reason": "中航光电当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收213.86亿元，同比+3.39%；归母净利润21.62亿元，同比-35.56%。2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。",
+          "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。",
+          "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查中航光电的新公告是否出现型号、批量订单、交付数量或无人机业务收入，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘中航光电保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收213.86亿元，同比+3.39%；归母净利润21.62亿元，同比-35.56%。2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。"
+      },
+      {
+        "label": "已确认",
+        "text": "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘33.37元，低于20日平均成本34.97元；60日平均成本36.67元，近20个交易日涨跌-3.75%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "中航光电当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。"
+      },
+      {
+        "label": "分析",
+        "text": "中航光电当前业务信号为：这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "中航光电当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：中航光电保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+        "status": "open"
+      },
+      {
+        "text": "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "status": "open"
+      },
+      {
+        "text": "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+        "status": "open"
+      },
+      {
+        "question": "中航光电的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "002179.SZ",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "002179.SZ",
+      "company": "中航光电",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.39,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 61.12,
+      "technical_timing_score": 28.2,
+      "data_readiness_score": 100,
+      "action_readiness_score": 59.69,
+      "candidate_priority_score": 55.41,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 61.12,
+          "average_rating": 3.06,
+          "details": {
+            "valuation_discount": 2.5,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 2.05,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 28.2,
+          "average_rating": 1.41,
+          "details": {
+            "monthly_trend": 1.2,
+            "weekly_structure": 2.1,
+            "daily_buy_point": 1.55,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "连接器与互连处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺批量订单、实际交付、无人机业务收入和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -19.9%，近60日涨跌 -2.1%；客户或订单证据 0 条直接、2 条线索。",
+          "missing_proof": "批量订单 / 实际交付 / 无人机业务收入 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "产品或项目进展没有转成批量订单和实际交付。",
+        "无人机相关收入增长弱于公司整体，无法证明业务在兑现。",
+        "应收、库存或现金流恶化，说明订单质量低于预期。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WATCH_FOR_EVIDENCE",
+      "label": "继续观察，等证据",
+      "researchRating": "C",
+      "overallScore": 48.25,
+      "fundamentalScore": 58.4,
+      "companyScore": 50,
+      "evidenceScore": 76,
+      "valuationScore": 48,
+      "timingScore": 28.2,
+      "riskScore": 54,
+      "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+      "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+      "metrics": {
+        "pe": 32.9583,
+        "ps": 3.3311,
+        "revenueGrowth": 0.0069,
+        "profitGrowth": 0,
+        "cashConversion": -3.2217,
+        "debtRatio": 0.3511,
+        "return20": -0.0375
+      }
+    },
+    "overlay": {
+      "symbol": "002179.SZ",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "连接器与互连",
+      "bottleneck_reason": "无人机需求必须经过型号、订单和交付，再进入收入和现金流；本次最关键的公司原文是：依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。",
+      "revenue_transmission": "这条原文直接说明型号、批量订单、交付数量或无人机业务收入已经出现，能检验行业逻辑是否落到公司。收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+      "serenity_fit": 0.44,
+      "layer_score": 52,
+      "company_fit": 49,
+      "evidence_supported_growth": "H1",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "型号、批量订单、交付数量或无人机业务收入与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收213.86亿元，同比+3.39%；归母净利润21.62亿元，同比-35.56%。2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。2026-08-26复权收盘33.37元，低于20日平均成本34.97元；60日平均成本36.67元，近20个交易日涨跌-3.75%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": -1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化型号、批量订单、交付数量或无人机业务收入？",
+        "中航光电的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收48.72亿元，较可比期+0.69%；归母净利润6.4亿元，较可比期+0%；经营现金流-20.61亿元。",
+          "依托新园区全流程能力，以及自动化铆接设备、智能投影布线、脉动生产线等高端制 造设备，中航光电已具备国产大飞机配套产品的批产交付能力。"
+        ]
+      },
+      "upside": {
+        "summary": "中航光电的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "型号、批量订单、交付数量或无人机业务收入",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "中航光电的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本36.67元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "型号、批量订单、交付数量或无人机业务收入继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本34.97元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若1.产品经济性风险 当前国内宏观经济形势复杂多变，宏观政策、产业政策及行业竞争格局持续调整，下游客户对产品经济性要求不断 提升，叠加有色金属、贵金属等大宗原材料价格波动上涨，导致公司生产成本承压，对整体盈利水平和经营效益带来一 定挑战。继续恶化，或价格跌破60日平均成本36.67元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

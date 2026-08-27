@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_08_29_static_cninfo_com_cn_6c03e915b6",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "大唐发电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:50+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_08_29_static_cninfo_com_cn_6c03e915b6"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_6fb6aea656"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224611935.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:89831575126ee72c7528a7d8dfc6391c4ea16ea5a760915d826b1c3d1a84aa8d",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_6c03e915b6.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:50+08:00",
+      "finishedAt": "2026-07-23T09:57:50+08:00",
+      "contentHash": "sha256:60ba1b09af2faf802e9ff46a051410a990c24c63181679cbd6cc6fc385fc9e1f",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_6c03e915b6.json"
+    }
+  ]
+}

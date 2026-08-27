@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_835c5262e2",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司关于副总经理退休离任的公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225453525.PDF",
+  "sourceId": "src_static_cninfo_com_cn_835c5262e2",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_835c5262e2",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:f5d71b965d545c2a625cbf9594c2ba4f7822e692d6def1f201e92aae131cc3ea",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_835c5262e2.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_f50ac957e0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_856a9bbc8db66025; listSourceId=src_cninfo_600116_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_c5db08265e",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2025年年度股东会决议公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225355497.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c5db08265e",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_c5db08265e",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9a90fda0d051a8d5ac0a8fdd30e312b6677a1b8eb7e2a243ba9db7a4fbbdb84c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_c5db08265e.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_e36a4c2505"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b459414539b769d7; listSourceId=src_cninfo_601899_announcements."
+}

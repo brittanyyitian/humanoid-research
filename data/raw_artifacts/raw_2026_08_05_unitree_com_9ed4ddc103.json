@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_unitree_com_9ed4ddc103",
+  "artifactType": "news_page",
+  "title": "欢迎缅甸总统敏昂莱参观宇树科技",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/43",
+  "sourceId": "src_unitree_com_9ed4ddc103",
+  "fetchRunId": "fetch_2026_08_05_unitree_com_9ed4ddc103",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:228f649ca195b1c52bcff28406e2c769bea23b719828ef6df0f532ef827be917",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_unitree_com_9ed4ddc103.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_other_30fd63f373"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_3dbe2f7f5dbd79d2; listSourceId=src_unitree_official_news."
+}

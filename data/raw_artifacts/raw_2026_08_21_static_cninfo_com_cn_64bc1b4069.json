@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_64bc1b4069",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司2026年半年度报告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225485033.PDF",
+  "sourceId": "src_static_cninfo_com_cn_64bc1b4069",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_64bc1b4069",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:0cc63d9a9b086357d2aae0a7e897bd2fd719b0791546283947c219634106e489",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_64bc1b4069.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_b13a5e763f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7316cb80daa52e66; listSourceId=src_cninfo_600116_announcements."
+}

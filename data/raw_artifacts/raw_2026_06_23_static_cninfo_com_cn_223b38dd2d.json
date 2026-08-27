@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_static_cninfo_com_cn_223b38dd2d",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于中微半导体设备（上海）股份有限公司发行股份及支付现金购买资产并募集配套资金实施情况之独立财务顾问核查意见",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225381103.PDF",
+  "sourceId": "src_static_cninfo_com_cn_223b38dd2d",
+  "fetchRunId": "fetch_2026_06_23_static_cninfo_com_cn_223b38dd2d",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:74d85eb70646909f7a0770a0a045f0033a07944b23055434f88d8991eb5ff111",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_223b38dd2d.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_d76356c472"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f3d1b4ae1e180a2b; listSourceId=src_cninfo_688012_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_09_static_cninfo_com_cn_4bf0d290de",
+  "artifactType": "filing",
+  "title": "关于持股5%以上股东股份变动比例触及1%整数倍的公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225284641.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4bf0d290de",
+  "fetchRunId": "fetch_2026_05_09_static_cninfo_com_cn_4bf0d290de",
+  "publishedAt": "2026-05-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b2cf070c74d632ae0f9835af3de0d8f4884295f6475cb12c23243055583d2abc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_4bf0d290de.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_4e3bf4d5ee"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2964987ecf03cbb8; listSourceId=src_cninfo_002156_announcements."
+}

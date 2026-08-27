@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_19_static_cninfo_com_cn_66063481a5",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-19/1223155708.PDF",
+  "sourceId": "src_static_cninfo_com_cn_66063481a5",
+  "fetchRunId": "fetch_2025_04_19_static_cninfo_com_cn_66063481a5",
+  "publishedAt": "2025-04-19",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:81bbcde89e0749178507ee19eaa724d39fa4b5b799a1db4e04d741a5d69f5f5a",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_19_static_cninfo_com_cn_66063481a5.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2025_04_19_filing_901deeaedc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e8b5f591092c80f1; listSourceId=src_cninfo_688256_announcements."
+}

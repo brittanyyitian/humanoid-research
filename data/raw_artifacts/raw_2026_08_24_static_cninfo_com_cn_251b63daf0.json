@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_251b63daf0",
+  "artifactType": "filing",
+  "title": "2026年半年度A股利润分配方案公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225493860.PDF",
+  "sourceId": "src_static_cninfo_com_cn_251b63daf0",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_251b63daf0",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:5341d909478854f024225dfbf6329e2d4f692be5ae66e457c9df39afad77310a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_251b63daf0.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_c24a3ff0f4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_636dd591a1033c40; listSourceId=src_cninfo_600028_announcements."
+}

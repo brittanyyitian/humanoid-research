@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_3a61205cad",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司关于召开2025年年度股东会的通知",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329679.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3a61205cad",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_3a61205cad",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:92e1854d32925e30b7966354ba24f2a2cef472d5d71c849b9cf1a7c7529ffee5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_3a61205cad.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_dfebab151a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8fe4c4f2a7f98c98; listSourceId=src_cninfo_600886_announcements."
+}

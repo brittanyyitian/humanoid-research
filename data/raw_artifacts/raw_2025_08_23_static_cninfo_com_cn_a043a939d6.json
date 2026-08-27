@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_23_static_cninfo_com_cn_a043a939d6",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-23/1224555042.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a043a939d6",
+  "fetchRunId": "fetch_2025_08_23_static_cninfo_com_cn_a043a939d6",
+  "publishedAt": "2025-08-23",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:5d48bad66e7cd372e38d0ddbc4b41a779c0c5cb16dfb0949f9bc505c9cea350a",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_23_static_cninfo_com_cn_a043a939d6.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2025_08_23_filing_5c86e62440"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e6bdf853d4ba59ce; listSourceId=src_cninfo_300164_announcements."
+}

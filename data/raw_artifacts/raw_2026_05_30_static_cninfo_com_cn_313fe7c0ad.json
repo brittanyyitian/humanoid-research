@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_313fe7c0ad",
+  "artifactType": "filing",
+  "title": "董事会议事规则（2026年5月)",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225340539.PDF",
+  "sourceId": "src_static_cninfo_com_cn_313fe7c0ad",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_313fe7c0ad",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9558ecf6323f17663b0c5316216b817670e3b6f3dbf37ead764f45b1a4cd7116",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_313fe7c0ad.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_96ac77b008"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ebc5f6cf64698344; listSourceId=src_cninfo_000566_announcements."
+}

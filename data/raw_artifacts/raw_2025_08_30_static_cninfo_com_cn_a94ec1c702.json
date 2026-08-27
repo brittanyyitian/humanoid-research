@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_30_static_cninfo_com_cn_a94ec1c702",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司2025年半年度报告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-30/1224625277.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a94ec1c702",
+  "fetchRunId": "fetch_2025_08_30_static_cninfo_com_cn_a94ec1c702",
+  "publishedAt": "2025-08-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:573181486bdf0828988709cfe0d36515ad354ef55dfb24e4930a0e66da4cde08",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_a94ec1c702.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2025_08_30_filing_8ae76b1ae7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_64e7464f77a29903; listSourceId=src_cninfo_600886_announcements."
+}

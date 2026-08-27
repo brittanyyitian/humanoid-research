@@ -1,0 +1,7 @@
+# Core validation scripts use the Python standard library only.
+# Real-data fetch adapters also use the standard library; if certifi is
+# installed, HTTPS certificate validation uses it to fix local CA path issues.
+# Optional runtime add-ons:
+# - certifi: improves HTTPS CA discovery on local machines with incomplete CA paths.
+# - pdfplumber: enables A-share and HK official PDF financial-report line extraction.
+# Keep this file comment-only unless the whole skill truly requires a dependency.

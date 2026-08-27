@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_08_24_d2cfde2ca7ad",
+  "rawArtifactId": "raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb",
+  "routeDecisionId": "route_2026_08_24_25a8786f14ac",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "donghua_testing",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-08-24T16:15:57+08:00",
+  "updatedAt": "2026-08-24T16:15:58+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-08-24T16:15:58+08:00",
+  "finishedAt": "2026-08-24T16:15:58+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_08_24_filing_862393bde2"
+  ],
+  "evidenceIds": [
+    "evd_2026_08_24_filing_862393bde2"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_08_24_filing_material_v0_4767a54d61"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_08_24_accdc0fcdb91"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_e84d3cc6de",
+  "artifactType": "filing",
+  "title": "关于2025年度利润分配预案的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036394.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e84d3cc6de",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_e84d3cc6de",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2c64dc656fffe016034b7c850d704a1c5c9cfa91b6511b66c9eed24bca937fdb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_e84d3cc6de.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_07d1fc41e1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9457befd2b0cd271; listSourceId=src_cninfo_002389_announcements."
+}

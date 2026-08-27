@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_d858b2b570",
+  "artifactType": "filing",
+  "title": "关于使用向特定对象发行股票部分暂时闲置募集资金进行现金管理的公告",
+  "publisher": "步科股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225448168.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d858b2b570",
+  "fetchRunId": "fetch_2026_07_31_static_cninfo_com_cn_d858b2b570",
+  "publishedAt": "2026-07-31",
+  "firstSeenAt": "2026-07-31T16:18:10+08:00",
+  "capturedAt": "2026-07-31T16:18:10+08:00",
+  "contentHash": "sha256:3ce8da78095d0144d0854743772ae67d7fde72eab5b5645421da0937b57856cd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_31_static_cninfo_com_cn_d858b2b570.json",
+  "entityIds": [
+    "kinco"
+  ],
+  "claimIds": [
+    "claim_2026_07_31_filing_012582d6bf"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ecc32c881d24c79d; listSourceId=src_cninfo_688160_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_21_static_cninfo_com_cn_1dd94428db",
+  "artifactType": "filing",
+  "title": "恒瑞医药2025年半年度报告摘要",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-21/1224526674.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1dd94428db",
+  "fetchRunId": "fetch_2025_08_21_static_cninfo_com_cn_1dd94428db",
+  "publishedAt": "2025-08-21",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:ace82a7e3259c1806e15acb022549874e9e7de1beede7f80514089e4635faf00",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_21_static_cninfo_com_cn_1dd94428db.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2025_08_21_filing_5ce5476ac8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_cf6a575ca92ca876; listSourceId=src_cninfo_600276_announcements."
+}

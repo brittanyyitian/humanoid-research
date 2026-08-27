@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_08_agibot_com_cn_f4c5371683",
+  "artifactType": "news_page",
+  "title": "定标准、建生态、促行业，AGIBOT WORLD CHALLENGE@ICRA ...",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/168.html",
+  "sourceId": "src_agibot_com_cn_f4c5371683",
+  "fetchRunId": "fetch_2026_06_08_agibot_com_cn_f4c5371683",
+  "publishedAt": "2026-06-08",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:8b43bb86b4f9fe329ecf03c8095b8b9cc089dffb06d3ca5d27d8be38a898c898",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_08_agibot_com_cn_f4c5371683.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_06_08_other_0d68cbb3b2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_e06c14fdb41d6e7b; listSourceId=src_agibot_official_news."
+}

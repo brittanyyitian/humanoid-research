@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_2ac031e36d",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于中国海洋石油有限公司募投项目结项并将节余募集资金永久补充流动资金的核查意见",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036041.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2ac031e36d",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_2ac031e36d",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:75ff78a431895f8bfb563a6cfd7b1c94f4079ae49b43585e6344f0f931f044da",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_2ac031e36d.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_fe4aed816c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1a3e0e18c64a02e6; listSourceId=src_cninfo_600938_announcements."
+}

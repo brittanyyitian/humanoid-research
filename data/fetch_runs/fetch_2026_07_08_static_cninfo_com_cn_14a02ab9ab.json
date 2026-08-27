@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_08_static_cninfo_com_cn_14a02ab9ab",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "沪硅产业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-22T16:15:52+08:00",
+  "finishedAt": "2026-07-23T09:32:41+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_08_static_cninfo_com_cn_14a02ab9ab"
+  ],
+  "claimIds": [
+    "claim_2026_07_08_filing_fdf5e25586"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-08/1225413231.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-22T16:15:52+08:00",
+      "finishedAt": "2026-07-22T16:15:52+08:00",
+      "contentHash": "sha256:029bda69670ba10ba24202fcfa3c3f39a422b8e5ec364a3a923cfd2be763762d",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_14a02ab9ab.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:32:41+08:00",
+      "finishedAt": "2026-07-23T09:32:41+08:00",
+      "contentHash": "sha256:6f32cc8e7e4ffc045452c84cf2b737060c4fbb94c75a6cad26d4ac494dd02392",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_14a02ab9ab.json"
+    }
+  ]
+}

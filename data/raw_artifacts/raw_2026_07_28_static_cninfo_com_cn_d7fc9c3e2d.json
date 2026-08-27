@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_28_static_cninfo_com_cn_d7fc9c3e2d",
+  "artifactType": "filing",
+  "title": "关于为全资子公司提供担保的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d7fc9c3e2d",
+  "fetchRunId": "fetch_2026_07_28_static_cninfo_com_cn_d7fc9c3e2d",
+  "publishedAt": "2026-07-28",
+  "firstSeenAt": "2026-07-28T16:16:24+08:00",
+  "capturedAt": "2026-07-28T16:16:24+08:00",
+  "contentHash": "sha256:7beaf96a66587a0265bc066a135bdbe8455563c611e122c4bd4755325d8201bf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_28_static_cninfo_com_cn_d7fc9c3e2d.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_07_28_filing_1c997d66a0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_99e07e0c8466d0cb; listSourceId=src_cninfo_300164_announcements."
+}

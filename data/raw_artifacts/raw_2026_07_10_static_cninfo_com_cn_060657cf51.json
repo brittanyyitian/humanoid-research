@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_060657cf51",
+  "artifactType": "filing",
+  "title": "长江电力2025年年度权益分派实施公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225416894.PDF",
+  "sourceId": "src_static_cninfo_com_cn_060657cf51",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_060657cf51",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:39ec0fd84a77fcf8a310bc8d10a43d9a1bbba16388d34fa230270dc0975f5ac8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_060657cf51.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_cc08ba84f0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b8a693f3c32cd177; listSourceId=src_cninfo_600900_announcements."
+}

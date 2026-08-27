@@ -1,0 +1,1300 @@
+{
+  "id": "saout_beite_technology_e8dd0e85e57e",
+  "entityId": "beite_technology",
+  "name": "北特科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "603009.SH",
+    "symbol": "603009.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/data/603009/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/ai_research/603009.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_22_21_34_13_beite_technology/ai_research/603009.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "北特科技 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "北特科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查北特科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘北特科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "丝杠",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "603009.SH",
+      "name": "北特科技",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 46.91,
+        "previousClose": 44.637929393852886,
+        "changePct": 5.089999999999996,
+        "high": 42.69,
+        "low": 41.08,
+        "open": 41.8,
+        "volume": 70122,
+        "turnover": 29368,
+        "turnoverText": "4.07亿",
+        "currency": "CNY",
+        "asOf": "20260827161458",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 40.44,
+        "technicalTimingScore": 24.6,
+        "marketPayoffScore": 52.92,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 71,
+        "evidenceScore": 96,
+        "valuationScore": 39,
+        "timingScore": 24.6,
+        "riskScore": 54,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 53.88,
+          "fundamentalScore": 75.95,
+          "companyScore": 71,
+          "evidenceScore": 96,
+          "valuationScore": 39,
+          "timingScore": 24.6,
+          "riskScore": 54,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 122.2429,
+            "ps": 6.2915,
+            "revenueGrowth": 0.0804,
+            "profitGrowth": 0.1786,
+            "cashConversion": -0.616,
+            "debtRatio": 0.4656,
+            "return20": 0.1022
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收23.23亿元，同比+14.79%；归母净利润1.2亿元，同比+67.35%。2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。",
+          "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。",
+          "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+          "2026-08-26复权收盘44.64元，低于20日平均成本45.04元；60日平均成本43.86元，近20个交易日涨跌+10.22%。"
+        ],
+        "possible": [
+          "北特科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "北特科技当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+          "北特科技当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 52.92,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 40.44/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 24.6,
+        "dailyBuyPointScore": 1.85,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 53.111,
+            "volume": 107661,
+            "average20": 52.302,
+            "average60": 48.888
+          },
+          {
+            "date": "2026-03-13",
+            "close": 52.011,
+            "volume": 86088,
+            "average20": 52.344,
+            "average60": 49.025
+          },
+          {
+            "date": "2026-03-16",
+            "close": 50.871,
+            "volume": 84294,
+            "average20": 52.296,
+            "average60": 49.143
+          },
+          {
+            "date": "2026-03-17",
+            "close": 48.401,
+            "volume": 102566,
+            "average20": 52.176,
+            "average60": 49.238
+          },
+          {
+            "date": "2026-03-18",
+            "close": 48.761,
+            "volume": 52964,
+            "average20": 51.998,
+            "average60": 49.344
+          },
+          {
+            "date": "2026-03-19",
+            "close": 47.721,
+            "volume": 76658,
+            "average20": 51.828,
+            "average60": 49.458
+          },
+          {
+            "date": "2026-03-20",
+            "close": 46.661,
+            "volume": 51567,
+            "average20": 51.525,
+            "average60": 49.571
+          },
+          {
+            "date": "2026-03-23",
+            "close": 44.871,
+            "volume": 75514,
+            "average20": 51.203,
+            "average60": 49.633
+          },
+          {
+            "date": "2026-03-24",
+            "close": 44.591,
+            "volume": 64725,
+            "average20": 50.954,
+            "average60": 49.702
+          },
+          {
+            "date": "2026-03-25",
+            "close": 45.541,
+            "volume": 59951,
+            "average20": 50.648,
+            "average60": 49.774
+          },
+          {
+            "date": "2026-03-26",
+            "close": 44.831,
+            "volume": 44236,
+            "average20": 50.226,
+            "average60": 49.827
+          },
+          {
+            "date": "2026-03-27",
+            "close": 45.091,
+            "volume": 44054,
+            "average20": 49.805,
+            "average60": 49.883
+          },
+          {
+            "date": "2026-03-30",
+            "close": 45.381,
+            "volume": 41822,
+            "average20": 49.451,
+            "average60": 49.942
+          },
+          {
+            "date": "2026-03-31",
+            "close": 43.961,
+            "volume": 49831,
+            "average20": 49.097,
+            "average60": 49.951
+          },
+          {
+            "date": "2026-04-01",
+            "close": 46.581,
+            "volume": 80972,
+            "average20": 48.746,
+            "average60": 50.011
+          },
+          {
+            "date": "2026-04-02",
+            "close": 46.881,
+            "volume": 57445,
+            "average20": 48.406,
+            "average60": 50.061
+          },
+          {
+            "date": "2026-04-03",
+            "close": 46.861,
+            "volume": 48784,
+            "average20": 48.003,
+            "average60": 50.038
+          },
+          {
+            "date": "2026-04-07",
+            "close": 46.221,
+            "volume": 44552,
+            "average20": 47.717,
+            "average60": 50.008
+          },
+          {
+            "date": "2026-04-08",
+            "close": 47.761,
+            "volume": 63198,
+            "average20": 47.465,
+            "average60": 49.989
+          },
+          {
+            "date": "2026-04-09",
+            "close": 49.661,
+            "volume": 94927,
+            "average20": 47.288,
+            "average60": 50.016
+          },
+          {
+            "date": "2026-04-10",
+            "close": 49.561,
+            "volume": 57774,
+            "average20": 47.111,
+            "average60": 50.056
+          },
+          {
+            "date": "2026-04-13",
+            "close": 48.661,
+            "volume": 49824,
+            "average20": 46.943,
+            "average60": 50.086
+          },
+          {
+            "date": "2026-04-14",
+            "close": 48.891,
+            "volume": 55504,
+            "average20": 46.844,
+            "average60": 50.101
+          },
+          {
+            "date": "2026-04-15",
+            "close": 49.671,
+            "volume": 76763,
+            "average20": 46.908,
+            "average60": 50.126
+          },
+          {
+            "date": "2026-04-16",
+            "close": 51.061,
+            "volume": 89724,
+            "average20": 47.023,
+            "average60": 50.158
+          },
+          {
+            "date": "2026-04-17",
+            "close": 50.981,
+            "volume": 56830,
+            "average20": 47.186,
+            "average60": 50.214
+          },
+          {
+            "date": "2026-04-20",
+            "close": 50.661,
+            "volume": 52149,
+            "average20": 47.386,
+            "average60": 50.266
+          },
+          {
+            "date": "2026-04-21",
+            "close": 50.841,
+            "volume": 52978,
+            "average20": 47.685,
+            "average60": 50.297
+          },
+          {
+            "date": "2026-04-22",
+            "close": 51.141,
+            "volume": 52770,
+            "average20": 48.012,
+            "average60": 50.308
+          },
+          {
+            "date": "2026-04-23",
+            "close": 48.061,
+            "volume": 120600,
+            "average20": 48.138,
+            "average60": 50.28
+          },
+          {
+            "date": "2026-04-24",
+            "close": 46.351,
+            "volume": 73623,
+            "average20": 48.214,
+            "average60": 50.223
+          },
+          {
+            "date": "2026-04-27",
+            "close": 46.661,
+            "volume": 45676,
+            "average20": 48.293,
+            "average60": 50.13
+          },
+          {
+            "date": "2026-04-28",
+            "close": 45.281,
+            "volume": 49549,
+            "average20": 48.288,
+            "average60": 49.997
+          },
+          {
+            "date": "2026-04-29",
+            "close": 45.321,
+            "volume": 49141,
+            "average20": 48.355,
+            "average60": 49.904
+          },
+          {
+            "date": "2026-04-30",
+            "close": 45.801,
+            "volume": 66609,
+            "average20": 48.317,
+            "average60": 49.825
+          },
+          {
+            "date": "2026-05-06",
+            "close": 45.341,
+            "volume": 82470,
+            "average20": 48.24,
+            "average60": 49.698
+          },
+          {
+            "date": "2026-05-07",
+            "close": 49.061,
+            "volume": 146802,
+            "average20": 48.349,
+            "average60": 49.645
+          },
+          {
+            "date": "2026-05-08",
+            "close": 51.021,
+            "volume": 168114,
+            "average20": 48.59,
+            "average60": 49.574
+          },
+          {
+            "date": "2026-05-11",
+            "close": 52.231,
+            "volume": 125854,
+            "average20": 48.813,
+            "average60": 49.563
+          },
+          {
+            "date": "2026-05-12",
+            "close": 52.361,
+            "volume": 83429,
+            "average20": 48.948,
+            "average60": 49.52
+          },
+          {
+            "date": "2026-05-13",
+            "close": 51.971,
+            "volume": 61177,
+            "average20": 49.069,
+            "average60": 49.494
+          },
+          {
+            "date": "2026-05-14",
+            "close": 49.611,
+            "volume": 71786,
+            "average20": 49.116,
+            "average60": 49.468
+          },
+          {
+            "date": "2026-05-15",
+            "close": 51.711,
+            "volume": 106990,
+            "average20": 49.257,
+            "average60": 49.466
+          },
+          {
+            "date": "2026-05-18",
+            "close": 52.521,
+            "volume": 110850,
+            "average20": 49.4,
+            "average60": 49.495
+          },
+          {
+            "date": "2026-05-19",
+            "close": 51.951,
+            "volume": 70464,
+            "average20": 49.444,
+            "average60": 49.489
+          },
+          {
+            "date": "2026-05-20",
+            "close": 51.061,
+            "volume": 70748,
+            "average20": 49.448,
+            "average60": 49.487
+          },
+          {
+            "date": "2026-05-21",
+            "close": 55.691,
+            "volume": 270297,
+            "average20": 49.7,
+            "average60": 49.537
+          },
+          {
+            "date": "2026-05-22",
+            "close": 58.661,
+            "volume": 277597,
+            "average20": 50.091,
+            "average60": 49.659
+          },
+          {
+            "date": "2026-05-25",
+            "close": 59.451,
+            "volume": 155019,
+            "average20": 50.506,
+            "average60": 49.824
+          },
+          {
+            "date": "2026-05-26",
+            "close": 57.751,
+            "volume": 194869,
+            "average20": 50.99,
+            "average60": 49.926
+          },
+          {
+            "date": "2026-05-27",
+            "close": 55.491,
+            "volume": 125523,
+            "average20": 51.448,
+            "average60": 49.963
+          },
+          {
+            "date": "2026-05-28",
+            "close": 52.301,
+            "volume": 130799,
+            "average20": 51.729,
+            "average60": 49.943
+          },
+          {
+            "date": "2026-05-29",
+            "close": 48.26,
+            "volume": 123152,
+            "average20": 51.878,
+            "average60": 49.872
+          },
+          {
+            "date": "2026-06-01",
+            "close": 47.91,
+            "volume": 88524,
+            "average20": 52.008,
+            "average60": 49.82
+          },
+          {
+            "date": "2026-06-02",
+            "close": 47.85,
+            "volume": 91877,
+            "average20": 52.11,
+            "average60": 49.724
+          },
+          {
+            "date": "2026-06-03",
+            "close": 48.74,
+            "volume": 139703,
+            "average20": 52.28,
+            "average60": 49.642
+          },
+          {
+            "date": "2026-06-04",
+            "close": 50.45,
+            "volume": 99918,
+            "average20": 52.35,
+            "average60": 49.567
+          },
+          {
+            "date": "2026-06-05",
+            "close": 50.3,
+            "volume": 134980,
+            "average20": 52.314,
+            "average60": 49.54
+          },
+          {
+            "date": "2026-06-08",
+            "close": 49.63,
+            "volume": 122199,
+            "average20": 52.184,
+            "average60": 49.487
+          },
+          {
+            "date": "2026-06-09",
+            "close": 48.1,
+            "volume": 116730,
+            "average20": 51.971,
+            "average60": 49.402
+          },
+          {
+            "date": "2026-06-10",
+            "close": 45.06,
+            "volume": 107508,
+            "average20": 51.625,
+            "average60": 49.268
+          },
+          {
+            "date": "2026-06-11",
+            "close": 43.36,
+            "volume": 69736,
+            "average20": 51.313,
+            "average60": 49.124
+          },
+          {
+            "date": "2026-06-12",
+            "close": 42.67,
+            "volume": 100520,
+            "average20": 50.86,
+            "average60": 48.987
+          },
+          {
+            "date": "2026-06-15",
+            "close": 43.24,
+            "volume": 89716,
+            "average20": 50.396,
+            "average60": 48.901
+          },
+          {
+            "date": "2026-06-16",
+            "close": 43.47,
+            "volume": 101365,
+            "average20": 49.972,
+            "average60": 48.813
+          },
+          {
+            "date": "2026-06-17",
+            "close": 42.87,
+            "volume": 64093,
+            "average20": 49.563,
+            "average60": 48.732
+          },
+          {
+            "date": "2026-06-18",
+            "close": 42.67,
+            "volume": 94087,
+            "average20": 48.912,
+            "average60": 48.666
+          },
+          {
+            "date": "2026-06-22",
+            "close": 40.74,
+            "volume": 128962,
+            "average20": 48.016,
+            "average60": 48.597
+          },
+          {
+            "date": "2026-06-23",
+            "close": 42.4,
+            "volume": 167868,
+            "average20": 47.163,
+            "average60": 48.56
+          },
+          {
+            "date": "2026-06-24",
+            "close": 43.55,
+            "volume": 125229,
+            "average20": 46.453,
+            "average60": 48.527
+          },
+          {
+            "date": "2026-06-25",
+            "close": 45.7,
+            "volume": 135479,
+            "average20": 45.964,
+            "average60": 48.542
+          },
+          {
+            "date": "2026-06-26",
+            "close": 43.59,
+            "volume": 93371,
+            "average20": 45.528,
+            "average60": 48.517
+          },
+          {
+            "date": "2026-06-29",
+            "close": 46.9,
+            "volume": 154937,
+            "average20": 45.46,
+            "average60": 48.542
+          },
+          {
+            "date": "2026-06-30",
+            "close": 47.97,
+            "volume": 106524,
+            "average20": 45.463,
+            "average60": 48.609
+          },
+          {
+            "date": "2026-07-01",
+            "close": 49.65,
+            "volume": 115831,
+            "average20": 45.553,
+            "average60": 48.66
+          },
+          {
+            "date": "2026-07-02",
+            "close": 50.5,
+            "volume": 125885,
+            "average20": 45.641,
+            "average60": 48.72
+          },
+          {
+            "date": "2026-07-03",
+            "close": 53.34,
+            "volume": 144545,
+            "average20": 45.786,
+            "average60": 48.828
+          },
+          {
+            "date": "2026-07-06",
+            "close": 52.9,
+            "volume": 146219,
+            "average20": 45.916,
+            "average60": 48.94
+          },
+          {
+            "date": "2026-07-07",
+            "close": 50.57,
+            "volume": 108355,
+            "average20": 45.963,
+            "average60": 48.986
+          },
+          {
+            "date": "2026-07-08",
+            "close": 46.65,
+            "volume": 106862,
+            "average20": 45.89,
+            "average60": 48.936
+          },
+          {
+            "date": "2026-07-09",
+            "close": 46.38,
+            "volume": 89797,
+            "average20": 45.956,
+            "average60": 48.883
+          },
+          {
+            "date": "2026-07-10",
+            "close": 48.15,
+            "volume": 105166,
+            "average20": 46.195,
+            "average60": 48.875
+          },
+          {
+            "date": "2026-07-13",
+            "close": 46,
+            "volume": 94911,
+            "average20": 46.362,
+            "average60": 48.826
+          },
+          {
+            "date": "2026-07-14",
+            "close": 45.2,
+            "volume": 54472,
+            "average20": 46.46,
+            "average60": 48.752
+          },
+          {
+            "date": "2026-07-15",
+            "close": 45.78,
+            "volume": 59207,
+            "average20": 46.575,
+            "average60": 48.664
+          },
+          {
+            "date": "2026-07-16",
+            "close": 44.61,
+            "volume": 59941,
+            "average20": 46.663,
+            "average60": 48.558
+          },
+          {
+            "date": "2026-07-17",
+            "close": 42.02,
+            "volume": 153125,
+            "average20": 46.63,
+            "average60": 48.414
+          },
+          {
+            "date": "2026-07-20",
+            "close": 41.28,
+            "volume": 104833,
+            "average20": 46.657,
+            "average60": 48.254
+          },
+          {
+            "date": "2026-07-21",
+            "close": 42.36,
+            "volume": 74946,
+            "average20": 46.655,
+            "average60": 48.108
+          },
+          {
+            "date": "2026-07-22",
+            "close": 42.19,
+            "volume": 70122,
+            "average20": 46.587,
+            "average60": 48.01
+          }
+        ],
+        "plainReading": {
+          "state": "短期反弹，尚未完全转强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "最近有所修复，但更长一段时间形成的压力还没有越过。",
+          "watch": "接下来能守住 46.59 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 39.60，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 46.91,
+            "recentAverage": 46.587,
+            "longerAverage": 48.01,
+            "recentHigh": 55.6,
+            "recentLow": 39.6
+          }
+        }
+      },
+      "risk": [
+        "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+        "若下一期现金流明显落后于利润，北特科技的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，北特科技需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查北特科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘北特科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。",
+            "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。"
+          ]
+        },
+        "upside": {
+          "summary": "北特科技的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "北特科技的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本43.86元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。继续恶化，或价格跌破60日平均成本43.86元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "北特科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收23.23亿元，同比+14.79%；归母净利润1.2亿元，同比+67.35%。2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。",
+            "reason": "北特科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225223913.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。",
+            "reason": "北特科技当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2025-02-28/1222661481.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2025-02-28/1222661481.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘44.64元，低于20日平均成本45.04元；60日平均成本43.86元，近20个交易日涨跌+10.22%。",
+            "reason": "北特科技当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收23.23亿元，同比+14.79%；归母净利润1.2亿元，同比+67.35%。2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。",
+          "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。",
+          "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查北特科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘北特科技值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收23.23亿元，同比+14.79%；归母净利润1.2亿元，同比+67.35%。2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。"
+      },
+      {
+        "label": "已确认",
+        "text": "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。"
+      },
+      {
+        "label": "已确认",
+        "text": "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘44.64元，低于20日平均成本45.04元；60日平均成本43.86元，近20个交易日涨跌+10.22%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "北特科技当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "北特科技当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "北特科技当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，北特科技的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，北特科技需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "status": "open"
+      },
+      {
+        "question": "北特科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "603009.SH",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "603009.SH",
+      "company": "北特科技",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.39,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 52.92,
+      "technical_timing_score": 24.6,
+      "data_readiness_score": 100,
+      "action_readiness_score": 58.07,
+      "candidate_priority_score": 40.44,
+      "raw_research_rating": "C",
+      "rating_cap": "B",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "B",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 51.6,
+          "average_rating": 2.58,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 52.92,
+          "average_rating": 2.65,
+          "details": {
+            "valuation_discount": 3,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 1.6,
+            "liquidity_capacity": 2.2,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 24.6,
+          "average_rating": 1.23,
+          "details": {
+            "monthly_trend": 0.5,
+            "weekly_structure": 1.6,
+            "daily_buy_point": 1.85,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [
+        {
+          "name": "customer_order_delivery_unverified",
+          "severity": "major",
+          "effect": "rating_cap_b"
+        }
+      ],
+      "evidence_notes": [
+        {
+          "claim": "丝杠处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 4 份正式公告，其中 3 份财报或业绩材料；近20日涨跌 -3.1%，近60日涨跌 -12.2%；客户或订单证据 0 条直接、2 条线索。",
+          "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+          "confidence": "Medium"
+        }
+      ],
+      "falsification_points": [
+        "后续公告或财报持续无法披露订单、客户或交付证据。",
+        "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+        "供应链或合作披露不能被官方材料交叉验证。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 53.88,
+      "fundamentalScore": 75.95,
+      "companyScore": 71,
+      "evidenceScore": 96,
+      "valuationScore": 39,
+      "timingScore": 24.6,
+      "riskScore": 54,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 122.2429,
+        "ps": 6.2915,
+        "revenueGrowth": 0.0804,
+        "profitGrowth": 0.1786,
+        "cashConversion": -0.616,
+        "debtRatio": 0.4656,
+        "return20": 0.1022
+      }
+    },
+    "overlay": {
+      "symbol": "603009.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "丝杠",
+      "bottleneck_reason": "机器人需求必须经过客户验证、订单、交付，再进入收入和现金流；本次最关键的公司原文是：（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。",
+      "revenue_transmission": "这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收23.23亿元，同比+14.79%；归母净利润1.2亿元，同比+67.35%。2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。2026-08-26复权收盘44.64元，低于20日平均成本45.04元；60日平均成本43.86元，近20个交易日涨跌+10.22%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -1,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+        "若下一期现金流明显落后于利润，北特科技的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，北特科技需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "北特科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收5.86亿元，较可比期+8.04%；归母净利润2717.81万元，较可比期+17.86%；经营现金流-1674.04万元。",
+          "（二）研发与创新 报告期内，公司进一步加大了研发投入，重点推进了一系列创新项目，包括R290等新型制冷 剂相关技术的压缩机研发、8-15KW集成式热管理系统，以及电动压缩机用控制器（如集成PTC控 制器和SiC控制器）等。"
+        ]
+      },
+      "upside": {
+        "summary": "北特科技的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "机器人相关客户、订单、交付、收入或产量",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "北特科技的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本43.86元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若如果上海光裕未来的经营情况不及预期，则公司可能存在商誉 减值进一步扩大的风险，将会直接影响公司的经营业绩，对公司的盈利水平产生不利影响。继续恶化，或价格跌破60日平均成本43.86元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本45.04元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

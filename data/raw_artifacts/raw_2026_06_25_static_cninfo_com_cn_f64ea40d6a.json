@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_f64ea40d6a",
+  "artifactType": "filing",
+  "title": "关于公司为子公司提供担保的进展公告",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225386521.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f64ea40d6a",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_f64ea40d6a",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:ef107fe2e83a7d196bcaf7bef27e30d0c38d52a92bdf15e82b940f40d2293006",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_f64ea40d6a.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_46c4b138f6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6704d7f004da651d; listSourceId=src_cninfo_002896_announcements."
+}

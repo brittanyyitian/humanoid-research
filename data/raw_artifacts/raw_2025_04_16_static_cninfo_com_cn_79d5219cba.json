@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_16_static_cninfo_com_cn_79d5219cba",
+  "artifactType": "filing",
+  "title": "2024年年度报告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-16/1223101942.PDF",
+  "sourceId": "src_static_cninfo_com_cn_79d5219cba",
+  "fetchRunId": "fetch_2025_04_16_static_cninfo_com_cn_79d5219cba",
+  "publishedAt": "2025-04-16",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:b42f178c5c31b34f897a16d976779a4c22a1d2dd2eb2e8ecb65643623340c953",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_16_static_cninfo_com_cn_79d5219cba.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2025_04_16_filing_1dafcda4fd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a698f9fb10b9056d; listSourceId=src_cninfo_688019_announcements."
+}

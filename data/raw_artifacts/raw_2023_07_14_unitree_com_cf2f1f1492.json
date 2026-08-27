@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_07_14_unitree_com_cf2f1f1492",
+  "artifactType": "news_page",
+  "title": "宇树发布: Unitree Go2 具身智能 新物种 9997元起",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/13",
+  "sourceId": "src_unitree_com_cf2f1f1492",
+  "fetchRunId": "fetch_2023_07_14_unitree_com_cf2f1f1492",
+  "publishedAt": "2023-07-14",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:525859a7fff9d7ca9db6a06cb307e28b0a397db3bd68ae3995d90e45b7c5b0e0",
+  "storagePath": "raw_artifacts/payloads/raw_2023_07_14_unitree_com_cf2f1f1492.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_07_14_product_release_fc5f3ad611"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_656cc23cec850223; listSourceId=src_unitree_official_news."
+}

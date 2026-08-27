@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_90e8ebf5c5",
+  "artifactType": "filing",
+  "title": "关于新增担保额度的公告",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225498975.PDF",
+  "sourceId": "src_static_cninfo_com_cn_90e8ebf5c5",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_90e8ebf5c5",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:dc056cd2d553f6d830a81cadef355b4b13e4b1d02611faed85d5c4b3d20f7cdb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_90e8ebf5c5.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_241b3c9d9b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_38463aa3cc8ec217; listSourceId=src_cninfo_300100_announcements."
+}

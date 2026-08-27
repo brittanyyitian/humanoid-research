@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_28_static_cninfo_com_cn_39a3ab0655",
+  "artifactType": "filing",
+  "title": "中芯国际2024年年度报告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222924320.PDF",
+  "sourceId": "src_static_cninfo_com_cn_39a3ab0655",
+  "fetchRunId": "fetch_2025_03_28_static_cninfo_com_cn_39a3ab0655",
+  "publishedAt": "2025-03-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:84365a36887092da727cfd4a712407e53f600a97d36f68db324207e699e1ce66",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_39a3ab0655.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_c53fdc3c92"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_309183185f8b3678; listSourceId=src_cninfo_688981_announcements."
+}

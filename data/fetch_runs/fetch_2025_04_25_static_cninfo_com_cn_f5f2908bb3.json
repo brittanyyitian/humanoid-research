@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_04_25_static_cninfo_com_cn_f5f2908bb3",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "恒瑞医药",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:33+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_04_25_static_cninfo_com_cn_f5f2908bb3"
+  ],
+  "claimIds": [
+    "claim_2025_04_25_filing_3bd5326c61"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-25/1223274888.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:66c70d44549af838f358380ac57e7d3b03414ac899a1091a7b2b0ba289339a04",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_25_static_cninfo_com_cn_f5f2908bb3.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:33+08:00",
+      "finishedAt": "2026-07-23T09:58:33+08:00",
+      "contentHash": "sha256:5beb4aef8b2ee799b32cec07b2da9612e84251a3886273abbb975829fdab0601",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_25_static_cninfo_com_cn_f5f2908bb3.json"
+    }
+  ]
+}

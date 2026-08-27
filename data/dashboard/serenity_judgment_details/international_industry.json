@@ -1,0 +1,1677 @@
+{
+  "entityId": "international_industry",
+  "name": "国际实业",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_international_industry_2026-08-27",
+    "entityId": "international_industry",
+    "name": "国际实业",
+    "symbol": "000159.SZ",
+    "market": "SZSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "等待更合适的买点",
+    "actionReadiness": "WAIT_FOR_BUY_POINT",
+    "confidence": "HIGH",
+    "reason": "当前不优先",
+    "price": 6.05,
+    "currency": "CNY",
+    "changePct": -0.33,
+    "technicalTimingScore": 21.4,
+    "marketPayoffScore": 62.56,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "订单是否兑现",
+      "90d": "收入是否兑现",
+      "180d": "复盘国际实业保留观察，但现在不急"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_international_industry_2026-07-23",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.26,
+      "currency": "CNY",
+      "changePct": 3.95,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 10.266159695817493,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 11.556829230638673,
+          "maxDrawdownPct": -4.3726235741444786,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-24",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.03,
+      "currency": "CNY",
+      "changePct": -4.37,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 15.308151093439355,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 12.248173898876399,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-25",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.03,
+      "currency": "CNY",
+      "changePct": -4.37,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 15.308151093439355,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 12.458523737016723,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-26",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.03,
+      "currency": "CNY",
+      "changePct": -4.37,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 16.898608349900588,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 17.603871507795326,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-27",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.13,
+      "currency": "CNY",
+      "changePct": 1.99,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 16.959064327485383,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 18.774437058269463,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-28",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.17,
+      "currency": "CNY",
+      "changePct": 0.78,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 17.408123791102522,
+          "poolReturnPct": 0,
+          "excessReturnPct": 17.408123791102522,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-29",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.27,
+      "currency": "CNY",
+      "changePct": 1.93,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 14.800759013282738,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 12.579770673471529,
+          "maxDrawdownPct": -3.89830508474577,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-30",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.22,
+      "currency": "CNY",
+      "changePct": -0.95,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-07-31",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.35,
+      "currency": "CNY",
+      "changePct": 2.49,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-01",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.35,
+      "currency": "CNY",
+      "changePct": 2.49,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-02",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.35,
+      "currency": "CNY",
+      "changePct": 2.49,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-03",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.8,
+      "currency": "CNY",
+      "changePct": 8.41,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-04",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.82,
+      "currency": "CNY",
+      "changePct": 0.34,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-05",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.75,
+      "currency": "CNY",
+      "changePct": -1.2,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-06",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:54+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.77,
+      "currency": "CNY",
+      "changePct": 0.35,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-07",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.62,
+      "currency": "CNY",
+      "changePct": -2.6,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-08",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.62,
+      "currency": "CNY",
+      "changePct": -2.6,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-09",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.62,
+      "currency": "CNY",
+      "changePct": -2.6,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-10",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.79,
+      "currency": "CNY",
+      "changePct": 3.02,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-11",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.77,
+      "currency": "CNY",
+      "changePct": -0.35,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-12",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.9,
+      "currency": "CNY",
+      "changePct": 2.25,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-13",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.7,
+      "currency": "CNY",
+      "changePct": -3.39,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-14",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.68,
+      "currency": "CNY",
+      "changePct": -0.35,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-15",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.68,
+      "currency": "CNY",
+      "changePct": -0.35,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-16",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.68,
+      "currency": "CNY",
+      "changePct": -0.35,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-17",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.72,
+      "currency": "CNY",
+      "changePct": 0.7,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-18",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.8,
+      "currency": "CNY",
+      "changePct": 1.4,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-19",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.67,
+      "currency": "CNY",
+      "changePct": -2.24,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-20",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.73,
+      "currency": "CNY",
+      "changePct": 1.06,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-21",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.8,
+      "currency": "CNY",
+      "changePct": 1.22,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-22",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.8,
+      "currency": "CNY",
+      "changePct": 1.22,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-23",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.8,
+      "currency": "CNY",
+      "changePct": 1.22,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-24",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 5.88,
+      "currency": "CNY",
+      "changePct": 1.38,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-25",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6,
+      "currency": "CNY",
+      "changePct": 2.04,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-26",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.07,
+      "currency": "CNY",
+      "changePct": 1.17,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_international_industry_2026-08-27",
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "symbol": "000159.SZ",
+      "market": "SZSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 6.05,
+      "currency": "CNY",
+      "changePct": -0.33,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 62.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘国际实业保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "ticker": "UNKNOWN",
+  "company": "Unknown Co",
+  "market": "UNKNOWN",
+  "as_of_date": "2026-06-22",
+  "layer": {
+    "x": 5
+  },
+  "company_thesis": {
+    "x": 5
+  },
+  "evidence_confidence": {
+    "x": 5
+  },
+  "market_payoff": {
+    "x": 5
+  },
+  "technical_timing": {
+    "x": 5
+  },
+  "risk_controls": {
+    "x": 5
+  },
+  "data_acquisition": {
+    "status_by_dataset": {
+      "current_quote": "NOT_REQUESTED",
+      "price_history_adjusted": "NOT_REQUESTED",
+      "valuation_inputs": "NOT_REQUESTED",
+      "financials": "NOT_REQUESTED",
+      "filings_announcements": "NOT_REQUESTED"
+    },
+    "data_gaps": [
+      {
+        "dataset": "current_quote",
+        "status": "NOT_REQUESTED",
+        "gap_type": "SCOPE_NOT_REQUESTED",
+        "decision_impact": "ACTION_IMPACT",
+        "rating_impact": "Current action, valuation reference, and buy-point conclusions are capped at B.",
+        "next_action": "Resolve the market and fetch a current market quote."
+      }
+    ],
+    "research_debt": [
+      {
+        "dataset": "current_quote",
+        "priority": "high",
+        "gap_type": "SCOPE_NOT_REQUESTED",
+        "decision_impact": "ACTION_IMPACT",
+        "rating_impact": "Current action, valuation reference, and buy-point conclusions are capped at B.",
+        "next_action": "Resolve the market and fetch a current market quote."
+      }
+    ],
+    "manual_retrieval_tasks": [
+      {
+        "dataset": "current_quote",
+        "priority": "high",
+        "target_source": "Exchange, licensed vendor, or validated open market-data source",
+        "objective": "Resolve the market and fetch a current market quote.",
+        "acceptance_criteria": [
+          "Source, date, status, and evidence level are recorded."
+        ]
+      }
+    ]
+  },
+  "blockers": []
+}

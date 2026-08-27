@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Resolved Claims",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "ledger_path",
+    "due_before",
+    "summary",
+    "resolved_claims",
+    "manual_review_claims"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_resolved_claims" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "ledger_path": { "type": "string", "minLength": 1 },
+    "due_before": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "object",
+      "required": ["due_claim_count", "resolved_count", "manual_review_count", "forecast_count"],
+      "properties": {
+        "due_claim_count": { "type": "integer", "minimum": 0 },
+        "resolved_count": { "type": "integer", "minimum": 0 },
+        "manual_review_count": { "type": "integer", "minimum": 0 },
+        "forecast_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "resolved_claims": { "type": "array", "items": { "type": "object" } },
+    "manual_review_claims": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_0c3e3c6cbd",
+  "artifactType": "filing",
+  "title": "关于会计政策变更的公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225219215.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0c3e3c6cbd",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_0c3e3c6cbd",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:660c41b0ea9336a733c22ae287f081ccb4eec3229a71dc58f63c5605b5f67ad1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_0c3e3c6cbd.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_bea774a897"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d6e9b7bc9a96711f; listSourceId=src_cninfo_301269_announcements."
+}

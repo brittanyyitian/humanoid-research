@@ -1,0 +1,107 @@
+{
+  "symbol": {
+    "symbol": "TEST.SH",
+    "market": "CN_A",
+    "currency": "CNY"
+  },
+  "requested_datasets": [
+    "current_quote",
+    "price_history_adjusted",
+    "financials",
+    "filings_announcements",
+    "customer_order_capacity_evidence",
+    "valuation_inputs"
+  ],
+  "full_research_required_datasets": [
+    "current_quote",
+    "price_history_adjusted",
+    "financials",
+    "filings_announcements",
+    "customer_order_capacity_evidence",
+    "valuation_inputs"
+  ],
+  "out_dir": "",
+  "retrieved_at": "2026-07-02T00:00:00+00:00",
+  "data_acquisition": {
+    "policy": "assets/data_acquisition_policy.json",
+    "status_by_dataset": {
+      "current_quote": "OK",
+      "price_history_adjusted": "OK",
+      "financials": "OK",
+      "filings_announcements": "FAILED",
+      "customer_order_capacity_evidence": "OK",
+      "valuation_inputs": "OK"
+    },
+    "requested_dataset_statuses": {
+      "current_quote": "OK",
+      "price_history_adjusted": "OK",
+      "financials": "OK",
+      "filings_announcements": "FAILED",
+      "customer_order_capacity_evidence": "OK",
+      "valuation_inputs": "OK"
+    },
+    "attempt_ledger": [],
+    "data_gaps": [
+      {
+        "dataset": "filings_announcements",
+        "status": "FAILED",
+        "gap_type": "ACCESS_FAILURE",
+        "decision_impact": "EVIDENCE_IMPACT",
+        "rating_impact": "S/A research ratings require primary filing evidence.",
+        "next_action": "Recover official filing evidence.",
+        "source_name": "CNINFO",
+        "source_level": "L0_OFFICIAL_DISCLOSURE"
+      }
+    ],
+    "research_debt": [
+      {
+        "dataset": "filings_announcements",
+        "priority": "critical",
+        "gap_type": "ACCESS_FAILURE",
+        "decision_impact": "EVIDENCE_IMPACT",
+        "rating_impact": "S/A research ratings require primary filing evidence.",
+        "next_action": "Recover official filing evidence.",
+        "source_name": "CNINFO",
+        "source_level": "L0_OFFICIAL_DISCLOSURE"
+      }
+    ],
+    "manual_retrieval_tasks": [
+      {
+        "dataset": "filings_announcements",
+        "priority": "critical",
+        "target_source": "official disclosure",
+        "objective": "Recover official filing evidence."
+      }
+    ],
+    "attempt_count": 0,
+    "gap_count": 1,
+    "research_debt_count": 1,
+    "manual_task_count": 1,
+    "full_research_ready": false
+  },
+  "data_quality": {
+    "market_resolution": "OK",
+    "current_price": "OK",
+    "adjusted_history": "OK",
+    "valuation_inputs": "OK",
+    "financials": "OK",
+    "filings": "FAILED",
+    "customer_order_capacity_evidence": "OK",
+    "requested_data_rating_cap": "B",
+    "full_research_rating_cap": "B",
+    "rating_cap": "B"
+  },
+  "source_integrity": {},
+  "ai_review": {},
+  "results": [
+    {
+      "dataset": "filings_announcements",
+      "status": "FAILED",
+      "source": "CNINFO",
+      "source_level": "L0_OFFICIAL_DISCLOSURE",
+      "retrieved_at": "2026-07-02T00:00:00+00:00",
+      "warnings": [],
+      "errors": ["access failed"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_961cc5cbe2",
+  "artifactType": "filing",
+  "title": "大唐发电2026年第二次临时股东会会议资料",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225446382.PDF",
+  "sourceId": "src_static_cninfo_com_cn_961cc5cbe2",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_961cc5cbe2",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:1cbb36b37d4b04ef83f162e03d3af5d7b49ed4f98b89fa06f05cb23f1567756d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_961cc5cbe2.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_616e64e789"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_08d355162ac6d28c; listSourceId=src_cninfo_601991_announcements."
+}

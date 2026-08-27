@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_04_29_static_cninfo_com_cn_6f8abdd414",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "鸣志电器",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_04_29_static_cninfo_com_cn_6f8abdd414"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_877f93785d"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225223216.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:5fb424ee2c3ca7f67b59244ab753f2406413285d3213179817f3b72fb9f6baff",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_6f8abdd414.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_static_cninfo_com_cn_be2ea61d6e",
+  "artifactType": "filing",
+  "title": "股票交易异常波动公告",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-05/1225457941.PDF",
+  "sourceId": "src_static_cninfo_com_cn_be2ea61d6e",
+  "fetchRunId": "fetch_2026_08_05_static_cninfo_com_cn_be2ea61d6e",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-05T16:16:18+08:00",
+  "capturedAt": "2026-08-05T16:16:18+08:00",
+  "contentHash": "sha256:222d9894168b04182d46cb2ab0406165708fc90081cd08f15ec5ab9b1ffc0913",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_static_cninfo_com_cn_be2ea61d6e.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_filing_f450b08b09"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_07efd2cdbdd5d91b; listSourceId=src_cninfo_688322_announcements."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_3657430bcde8",
+  "rawArtifactId": "raw_2025_04_12_static_cninfo_com_cn_aea7d892c4",
+  "routeDecisionId": "route_2025_04_12_d3abea535b32",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "tongfu_microelectronics",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:56:01+08:00",
+  "updatedAt": "2026-07-23T09:56:17+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:56:17+08:00",
+  "finishedAt": "2026-07-23T09:56:17+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2025_04_12_filing_cc6eb74783"
+  ],
+  "evidenceIds": [
+    "evd_2025_04_12_filing_cc6eb74783"
+  ],
+  "ruleOutputIds": [
+    "rout_2025_04_12_filing_material_v0_7913f70b55"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_5c6b7d85da98"
+  ]
+}

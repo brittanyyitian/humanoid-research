@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_08_28_static_cninfo_com_cn_c8a4341153",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "泰山石油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:57+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_08_28_static_cninfo_com_cn_c8a4341153"
+  ],
+  "claimIds": [
+    "claim_2025_08_28_filing_2db7f3cf7e"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-28/1224598427.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:8288e27d210e7b6a99cd0b91167389bf55b09113847078b3559ad31496b8c1ea",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_28_static_cninfo_com_cn_c8a4341153.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:57+08:00",
+      "finishedAt": "2026-07-23T09:57:57+08:00",
+      "contentHash": "sha256:39c8afc8fd8f4e7f76bf243624b2af9557f9edc937e3e96660c6c2ac8ea0195b",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_28_static_cninfo_com_cn_c8a4341153.json"
+    }
+  ]
+}

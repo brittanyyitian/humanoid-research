@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_46e0c519fb",
+  "artifactType": "filing",
+  "title": "北特科技2026年半年度报告",
+  "publisher": "北特科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225501025.PDF",
+  "sourceId": "src_static_cninfo_com_cn_46e0c519fb",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_46e0c519fb",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:37e3ded04bf39f874937633a64b12017cfc0d0991ae5f193f8254403cf270b92",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_46e0c519fb.json",
+  "entityIds": [
+    "beite_technology"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_1d7d6370b1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8ed3df03fe26810d; listSourceId=src_cninfo_603009_announcements."
+}

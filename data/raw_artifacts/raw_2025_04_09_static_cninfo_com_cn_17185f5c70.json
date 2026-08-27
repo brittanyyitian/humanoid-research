@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_09_static_cninfo_com_cn_17185f5c70",
+  "artifactType": "filing",
+  "title": "港股公告：2024年度报告",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-09/1223032103.PDF",
+  "sourceId": "src_static_cninfo_com_cn_17185f5c70",
+  "fetchRunId": "fetch_2025_04_09_static_cninfo_com_cn_17185f5c70",
+  "publishedAt": "2025-04-09",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d8083cb3a01fd6556c4b3b04d52cbdaff6829cdb8f6ab95ba7e524294b229b70",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_09_static_cninfo_com_cn_17185f5c70.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2025_04_09_filing_1e85db8520"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b3a1fa442a2c9445; listSourceId=src_cninfo_688347_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_bba805594e",
+  "artifactType": "filing",
+  "title": "港股公告：2026年第一季度财务业绩公布日期及审计委员会行动通告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225148935.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bba805594e",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_bba805594e",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4afe89624a9430545749af51503204b5db601ba2db245fb5b95d67e68c6fbe12",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_bba805594e.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_8629d0e5fb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_47513ad98f875fe3; listSourceId=src_cninfo_688235_announcements."
+}

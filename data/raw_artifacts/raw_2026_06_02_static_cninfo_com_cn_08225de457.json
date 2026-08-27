@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_02_static_cninfo_com_cn_08225de457",
+  "artifactType": "filing",
+  "title": "中无人机关于股份回购进展公告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225343384.PDF",
+  "sourceId": "src_static_cninfo_com_cn_08225de457",
+  "fetchRunId": "fetch_2026_06_02_static_cninfo_com_cn_08225de457",
+  "publishedAt": "2026-06-02",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:c5c448fdc42994444c7ff3e99c82e64ed4d91c0df731509c37e5408269ae957b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_08225de457.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_6f6b56b8dc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_30c27cfb79d1e471; listSourceId=src_cninfo_688297_announcements."
+}

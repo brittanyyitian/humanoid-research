@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_dc3abb3385",
+  "artifactType": "filing",
+  "title": "关于完成补选非独立董事的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225447057.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dc3abb3385",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_dc3abb3385",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:2ee972790ec332b7e96b843d85a9b65a4425f2285c6941a17f78d3addc9b56ca",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_dc3abb3385.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_6f2aae5c80"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c95cff50d4ff5e88; listSourceId=src_cninfo_000426_announcements."
+}

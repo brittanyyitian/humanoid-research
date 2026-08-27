@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_08_30_static_cninfo_com_cn_f0c9884324",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "澜起科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:44+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_08_30_static_cninfo_com_cn_f0c9884324"
+  ],
+  "claimIds": [
+    "claim_2025_08_30_filing_e895914719"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-08-30/1224627769.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:0821e04e8928e29f5a18803790f46896ab64ee29d1b34c3c01fae1d4f3a8ecad",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_f0c9884324.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:44+08:00",
+      "finishedAt": "2026-07-23T09:57:44+08:00",
+      "contentHash": "sha256:767182332c2e86e62a401a6dc2260ebc05ad5e2fb5ec4bcb43ea2a7c44c99a9c",
+      "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_f0c9884324.json"
+    }
+  ]
+}

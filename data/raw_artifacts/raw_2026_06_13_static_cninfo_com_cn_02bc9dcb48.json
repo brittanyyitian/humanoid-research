@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_02bc9dcb48",
+  "artifactType": "filing",
+  "title": "第十一届董事会第九次会议决议公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225368231.PDF",
+  "sourceId": "src_static_cninfo_com_cn_02bc9dcb48",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_02bc9dcb48",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b26ad977a3a4c78a16d09a6960bcd1c0e525131480e0da5c8fd2d9c9f3fa638a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_02bc9dcb48.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_af491e7a8c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_67cd005d53494f01; listSourceId=src_cninfo_600667_announcements."
+}

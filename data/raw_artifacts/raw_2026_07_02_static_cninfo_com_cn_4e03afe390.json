@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_02_static_cninfo_com_cn_4e03afe390",
+  "artifactType": "filing",
+  "title": "关于股票交易异常波动公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-02/1225404364.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4e03afe390",
+  "fetchRunId": "fetch_2026_07_02_static_cninfo_com_cn_4e03afe390",
+  "publishedAt": "2026-07-02",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:71feab87605c15e556ae25cbe5243715a92fb6bc63e27b36f8bac5d081d15ca5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_02_static_cninfo_com_cn_4e03afe390.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_07_02_filing_6af91e8101"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bc77785a2ba55b16; listSourceId=src_cninfo_000566_announcements."
+}

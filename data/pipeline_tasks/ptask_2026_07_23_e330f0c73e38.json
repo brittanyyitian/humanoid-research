@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_e330f0c73e38",
+  "rawArtifactId": "raw_2026_06_23_static_cninfo_com_cn_57f5cd97e1",
+  "routeDecisionId": "route_2026_06_23_fc06f5a97727",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "amec",
+  "entityIds": [
+    "amec"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:57+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:57+08:00",
+  "finishedAt": "2026-07-23T09:50:57+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_23_filing_9ca91deabc"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_23_filing_9ca91deabc"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_23_filing_material_v0_05a0adb1e9"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_09ed93eaf06b"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_f3e137678a",
+  "artifactType": "filing",
+  "title": "五洲新春第五届董事会第十三次会议决议公告",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225313613.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3e137678a",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_f3e137678a",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:805f9e12596ebd7442743df09b91419d72eb6e35f1597fb1bfec446fdca8d074",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_f3e137678a.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_2c43d7505d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7372ea493410386d; listSourceId=src_cninfo_603667_announcements."
+}

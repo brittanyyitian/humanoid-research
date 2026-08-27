@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_16_static_cninfo_com_cn_8822763a3b",
+  "artifactType": "filing",
+  "title": "关于召开2025年度暨2026年第一季度业绩说明会的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-16/1225308309.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8822763a3b",
+  "fetchRunId": "fetch_2026_05_16_static_cninfo_com_cn_8822763a3b",
+  "publishedAt": "2026-05-16",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ea6dce8ca1b0c48e211748aa8a3e3582c78ed3d2316a9e9f31724953a64f56f2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_16_static_cninfo_com_cn_8822763a3b.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_16_filing_ca9d0444dc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d76e2dc4997ed56c; listSourceId=src_cninfo_600667_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_432513d5cf",
+  "artifactType": "filing",
+  "title": "第十一届董事会第八次会议决议公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332780.PDF",
+  "sourceId": "src_static_cninfo_com_cn_432513d5cf",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_432513d5cf",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9aafa7430ccd3e6b556aff2f61ac4884e95dd2bd3758a403ee82f429b4b769cf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_432513d5cf.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_9b2b55d9d7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4384662d39c35155; listSourceId=src_cninfo_600667_announcements."
+}

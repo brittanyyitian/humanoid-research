@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_19_static_cninfo_com_cn_123c388cdc",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-19/1225480405.PDF",
+  "sourceId": "src_static_cninfo_com_cn_123c388cdc",
+  "fetchRunId": "fetch_2026_08_19_static_cninfo_com_cn_123c388cdc",
+  "publishedAt": "2026-08-19",
+  "firstSeenAt": "2026-08-19T16:16:08+08:00",
+  "capturedAt": "2026-08-19T16:16:08+08:00",
+  "contentHash": "sha256:ca42beacaf5711db3c7ef7f43936f1ed02401cb80793cee60aed8991f6156c92",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_19_static_cninfo_com_cn_123c388cdc.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_08_19_filing_f295a53e34"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_722a908bc0e43101; listSourceId=src_cninfo_000426_announcements."
+}

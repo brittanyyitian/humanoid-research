@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_0959b18234",
+  "artifactType": "filing",
+  "title": "公司章程",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357142.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0959b18234",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_0959b18234",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:927e67281cdc8b7c5ce7c10343b958a1d20cb852718bcedc8e727fd97697d9be",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_0959b18234.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_0ca151f84f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8454b8d6a85d5f58; listSourceId=src_cninfo_300164_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_23_static_cninfo_com_cn_5735ad9b7d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中微公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_23_static_cninfo_com_cn_5735ad9b7d"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_bd6f59c4fa"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225381101.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:d58fb1ab75d90246533f90cef8ef45f55e646b6e4eaf40e0ccc23734b4243f49",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_5735ad9b7d.json"
+    }
+  ]
+}

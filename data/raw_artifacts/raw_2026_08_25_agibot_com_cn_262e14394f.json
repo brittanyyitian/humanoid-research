@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_agibot_com_cn_262e14394f",
+  "artifactType": "news_page",
+  "title": "机器人运动会开赛，智元两金三银两铜位列第一",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/184.html",
+  "sourceId": "src_agibot_com_cn_262e14394f",
+  "fetchRunId": "fetch_2026_08_25_agibot_com_cn_262e14394f",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:0ebcaac8cf6bd2b6c6b422398cbdf2ef6d913eb4a2b14355733ffaca0c1db934",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_agibot_com_cn_262e14394f.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_other_77075462d4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_56dbebbd15eec63e; listSourceId=src_agibot_official_news."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_08_static_cninfo_com_cn_7bf060dba7",
+  "artifactType": "filing",
+  "title": "关于公司获得发明专利证书的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-08/1225414867.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7bf060dba7",
+  "fetchRunId": "fetch_2026_07_08_static_cninfo_com_cn_7bf060dba7",
+  "publishedAt": "2026-07-08",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:699b5c05a228b261cb2fa87368c02c5e7fcd2f91c69dc476c10044234303de68",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_7bf060dba7.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_07_08_filing_9e1f46d35f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_313652794bf126ba; listSourceId=src_cninfo_301413_announcements."
+}

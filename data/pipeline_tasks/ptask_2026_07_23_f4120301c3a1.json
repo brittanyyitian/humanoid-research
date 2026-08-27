@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_f4120301c3a1",
+  "rawArtifactId": "raw_2026_06_12_static_cninfo_com_cn_dbcdbcf772",
+  "routeDecisionId": "route_2026_06_12_252f1e7e8fed",
+  "pipeline": "event_pipeline",
+  "type": "event",
+  "entityId": "beone",
+  "entityIds": [
+    "beone"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:50:59+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:50:59+08:00",
+  "finishedAt": "2026-07-23T09:50:59+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_12_other_2c2bef6e62"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_12_other_2c2bef6e62"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_12_event_material_v0_408a016d93"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_4179ebe58f5c"
+  ]
+}

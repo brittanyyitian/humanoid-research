@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_ecdfdea442",
+  "artifactType": "filing",
+  "title": "北京市天元律师事务所关于中国长江电力股份有限公司控股股东增持公司股份的专项核查意见",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225494048.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ecdfdea442",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_ecdfdea442",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:836468a574414f333bfd55a0a34446c3144dd44f2823b4b8fd3a44c1a27c6a84",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_ecdfdea442.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_dc8ba9e018"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_28705b88eb5f9e30; listSourceId=src_cninfo_600900_announcements."
+}

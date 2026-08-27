@@ -1,0 +1,1294 @@
+{
+  "id": "saout_jereh_88c890d58c89",
+  "entityId": "jereh",
+  "name": "杰瑞股份",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "002353.SZ",
+    "symbol": "002353.SZ"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_04_jereh",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_04_jereh/data/002353/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_04_jereh/ai_research/002353.SZ/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_04_jereh/ai_research/002353.SZ/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "杰瑞股份 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+      "杰瑞股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查杰瑞股份的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘杰瑞股份值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "油气设备与服务",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "002353.SZ",
+      "name": "杰瑞股份",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 136.24,
+        "previousClose": 137.5050464271296,
+        "changePct": -0.9199999999999984,
+        "high": 135.11,
+        "low": 135.11,
+        "open": 135.11,
+        "volume": 22605,
+        "turnover": 305412642.14,
+        "turnoverText": "34.99亿",
+        "currency": "CNY",
+        "asOf": "20260827161442",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 56.84,
+        "technicalTimingScore": 30.4,
+        "marketPayoffScore": 61.44,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 70,
+        "evidenceScore": 83,
+        "valuationScore": 49,
+        "timingScore": 30.4,
+        "riskScore": 62,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 56.2,
+          "fundamentalScore": 72.7,
+          "companyScore": 70,
+          "evidenceScore": 83,
+          "valuationScore": 49,
+          "timingScore": 30.4,
+          "riskScore": 62,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 51.6077,
+            "ps": 8.527,
+            "revenueGrowth": 0.2248,
+            "profitGrowth": 0.2632,
+            "cashConversion": -2.1482,
+            "debtRatio": 0.3772,
+            "return20": -0.0489
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收162.23亿元，同比+21.48%；归母净利润26.8亿元，同比+2.03%。2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。",
+          "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+          "2026-08-26复权收盘137.5元，低于20日平均成本148.76元；60日平均成本146.7元，近20个交易日涨跌-4.89%。"
+        ],
+        "possible": [
+          "杰瑞股份当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "杰瑞股份当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。",
+          "杰瑞股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 61.44,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.84/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 30.4,
+        "dailyBuyPointScore": 1.55,
+        "dmaAlignmentScore": 1.85,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 104.53,
+            "volume": 239138,
+            "average20": 108.379,
+            "average60": 88.443
+          },
+          {
+            "date": "2026-03-16",
+            "close": 100.74,
+            "volume": 257225,
+            "average20": 109.179,
+            "average60": 88.921
+          },
+          {
+            "date": "2026-03-17",
+            "close": 100,
+            "volume": 209705,
+            "average20": 109.604,
+            "average60": 89.392
+          },
+          {
+            "date": "2026-03-18",
+            "close": 102.1,
+            "volume": 208768,
+            "average20": 109.954,
+            "average60": 89.841
+          },
+          {
+            "date": "2026-03-19",
+            "close": 97.29,
+            "volume": 190787,
+            "average20": 110.039,
+            "average60": 90.219
+          },
+          {
+            "date": "2026-03-20",
+            "close": 95.46,
+            "volume": 158755,
+            "average20": 109.648,
+            "average60": 90.638
+          },
+          {
+            "date": "2026-03-23",
+            "close": 93.1,
+            "volume": 194525,
+            "average20": 109.417,
+            "average60": 91.005
+          },
+          {
+            "date": "2026-03-24",
+            "close": 98.3,
+            "volume": 231314,
+            "average20": 109.183,
+            "average60": 91.491
+          },
+          {
+            "date": "2026-03-25",
+            "close": 99.61,
+            "volume": 277311,
+            "average20": 108.963,
+            "average60": 92.03
+          },
+          {
+            "date": "2026-03-26",
+            "close": 97.56,
+            "volume": 138629,
+            "average20": 108.361,
+            "average60": 92.501
+          },
+          {
+            "date": "2026-03-27",
+            "close": 97.5,
+            "volume": 120099,
+            "average20": 107.407,
+            "average60": 92.956
+          },
+          {
+            "date": "2026-03-30",
+            "close": 93.09,
+            "volume": 401899,
+            "average20": 105.847,
+            "average60": 93.335
+          },
+          {
+            "date": "2026-03-31",
+            "close": 96.1,
+            "volume": 375702,
+            "average20": 104.539,
+            "average60": 93.769
+          },
+          {
+            "date": "2026-04-01",
+            "close": 99.71,
+            "volume": 292277,
+            "average20": 103.779,
+            "average60": 94.19
+          },
+          {
+            "date": "2026-04-02",
+            "close": 107.3,
+            "volume": 400552,
+            "average20": 103.008,
+            "average60": 94.747
+          },
+          {
+            "date": "2026-04-03",
+            "close": 106.67,
+            "volume": 239248,
+            "average20": 102.252,
+            "average60": 95.321
+          },
+          {
+            "date": "2026-04-07",
+            "close": 100.96,
+            "volume": 234699,
+            "average20": 101.41,
+            "average60": 95.835
+          },
+          {
+            "date": "2026-04-08",
+            "close": 111.13,
+            "volume": 251721,
+            "average20": 101.011,
+            "average60": 96.502
+          },
+          {
+            "date": "2026-04-09",
+            "close": 111.79,
+            "volume": 266908,
+            "average20": 101.035,
+            "average60": 97.156
+          },
+          {
+            "date": "2026-04-10",
+            "close": 116.76,
+            "volume": 231096,
+            "average20": 101.485,
+            "average60": 97.879
+          },
+          {
+            "date": "2026-04-13",
+            "close": 111.03,
+            "volume": 270230,
+            "average20": 101.81,
+            "average60": 98.521
+          },
+          {
+            "date": "2026-04-14",
+            "close": 110.05,
+            "volume": 207470,
+            "average20": 102.275,
+            "average60": 99.094
+          },
+          {
+            "date": "2026-04-15",
+            "close": 108.78,
+            "volume": 167673,
+            "average20": 102.715,
+            "average60": 99.676
+          },
+          {
+            "date": "2026-04-16",
+            "close": 115.6,
+            "volume": 237118,
+            "average20": 103.389,
+            "average60": 100.339
+          },
+          {
+            "date": "2026-04-17",
+            "close": 120.48,
+            "volume": 280638,
+            "average20": 104.549,
+            "average60": 100.957
+          },
+          {
+            "date": "2026-04-20",
+            "close": 117.32,
+            "volume": 173792,
+            "average20": 105.642,
+            "average60": 101.575
+          },
+          {
+            "date": "2026-04-21",
+            "close": 116.45,
+            "volume": 138067,
+            "average20": 106.809,
+            "average60": 102.128
+          },
+          {
+            "date": "2026-04-22",
+            "close": 121.46,
+            "volume": 168968,
+            "average20": 107.968,
+            "average60": 102.713
+          },
+          {
+            "date": "2026-04-23",
+            "close": 129.69,
+            "volume": 259964,
+            "average20": 109.471,
+            "average60": 103.469
+          },
+          {
+            "date": "2026-04-24",
+            "close": 130.3,
+            "volume": 189087,
+            "average20": 111.109,
+            "average60": 104.163
+          },
+          {
+            "date": "2026-04-27",
+            "close": 128.6,
+            "volume": 143459,
+            "average20": 112.663,
+            "average60": 104.839
+          },
+          {
+            "date": "2026-04-28",
+            "close": 124.33,
+            "volume": 134382,
+            "average20": 114.225,
+            "average60": 105.487
+          },
+          {
+            "date": "2026-04-29",
+            "close": 126.55,
+            "volume": 114470,
+            "average20": 115.748,
+            "average60": 106.142
+          },
+          {
+            "date": "2026-04-30",
+            "close": 136.3,
+            "volume": 293370,
+            "average20": 117.578,
+            "average60": 106.991
+          },
+          {
+            "date": "2026-05-06",
+            "close": 149.34,
+            "volume": 247313,
+            "average20": 119.68,
+            "average60": 107.947
+          },
+          {
+            "date": "2026-05-07",
+            "close": 150.1,
+            "volume": 159412,
+            "average20": 121.851,
+            "average60": 108.95
+          },
+          {
+            "date": "2026-05-08",
+            "close": 145.68,
+            "volume": 176352,
+            "average20": 124.087,
+            "average60": 109.919
+          },
+          {
+            "date": "2026-05-11",
+            "close": 144.02,
+            "volume": 212247,
+            "average20": 125.731,
+            "average60": 110.854
+          },
+          {
+            "date": "2026-05-12",
+            "close": 143.1,
+            "volume": 163394,
+            "average20": 127.297,
+            "average60": 111.68
+          },
+          {
+            "date": "2026-05-13",
+            "close": 148.25,
+            "volume": 176210,
+            "average20": 128.871,
+            "average60": 112.608
+          },
+          {
+            "date": "2026-05-14",
+            "close": 137.97,
+            "volume": 201214,
+            "average20": 130.218,
+            "average60": 113.469
+          },
+          {
+            "date": "2026-05-15",
+            "close": 137.16,
+            "volume": 165154,
+            "average20": 131.574,
+            "average60": 114.343
+          },
+          {
+            "date": "2026-05-18",
+            "close": 138.45,
+            "volume": 136889,
+            "average20": 133.057,
+            "average60": 115.126
+          },
+          {
+            "date": "2026-05-19",
+            "close": 138.11,
+            "volume": 118924,
+            "average20": 134.183,
+            "average60": 115.842
+          },
+          {
+            "date": "2026-05-20",
+            "close": 135.33,
+            "volume": 172068,
+            "average20": 134.925,
+            "average60": 116.505
+          },
+          {
+            "date": "2026-05-21",
+            "close": 132.28,
+            "volume": 137462,
+            "average20": 135.673,
+            "average60": 116.988
+          },
+          {
+            "date": "2026-05-22",
+            "close": 132.55,
+            "volume": 183946,
+            "average20": 136.478,
+            "average60": 117.569
+          },
+          {
+            "date": "2026-05-25",
+            "close": 136.65,
+            "volume": 182626,
+            "average20": 137.238,
+            "average60": 118.129
+          },
+          {
+            "date": "2026-05-26",
+            "close": 133.35,
+            "volume": 143061,
+            "average20": 137.421,
+            "average60": 118.619
+          },
+          {
+            "date": "2026-05-27",
+            "close": 140.76,
+            "volume": 245474,
+            "average20": 137.944,
+            "average60": 119.138
+          },
+          {
+            "date": "2026-05-28",
+            "close": 147.38,
+            "volume": 207036,
+            "average20": 138.883,
+            "average60": 119.651
+          },
+          {
+            "date": "2026-05-29",
+            "close": 139.7,
+            "volume": 191741,
+            "average20": 139.651,
+            "average60": 119.908
+          },
+          {
+            "date": "2026-06-01",
+            "close": 146.3,
+            "volume": 248028,
+            "average20": 140.639,
+            "average60": 120.309
+          },
+          {
+            "date": "2026-06-02",
+            "close": 147.39,
+            "volume": 195591,
+            "average20": 141.194,
+            "average60": 120.85
+          },
+          {
+            "date": "2026-06-03",
+            "close": 142.34,
+            "volume": 210667,
+            "average20": 140.844,
+            "average60": 121.177
+          },
+          {
+            "date": "2026-06-04",
+            "close": 156.64,
+            "volume": 246241,
+            "average20": 141.171,
+            "average60": 121.758
+          },
+          {
+            "date": "2026-06-05",
+            "close": 150.68,
+            "volume": 299090,
+            "average20": 141.421,
+            "average60": 122.306
+          },
+          {
+            "date": "2026-06-08",
+            "close": 147.22,
+            "volume": 217070,
+            "average20": 141.58,
+            "average60": 122.775
+          },
+          {
+            "date": "2026-06-09",
+            "close": 151.42,
+            "volume": 166286,
+            "average20": 141.996,
+            "average60": 123.443
+          },
+          {
+            "date": "2026-06-10",
+            "close": 144.8,
+            "volume": 476224,
+            "average20": 141.824,
+            "average60": 124.06
+          },
+          {
+            "date": "2026-06-11",
+            "close": 145.01,
+            "volume": 237856,
+            "average20": 142.176,
+            "average60": 124.735
+          },
+          {
+            "date": "2026-06-12",
+            "close": 144.9,
+            "volume": 298977,
+            "average20": 142.563,
+            "average60": 125.471
+          },
+          {
+            "date": "2026-06-15",
+            "close": 154.87,
+            "volume": 233726,
+            "average20": 143.384,
+            "average60": 126.385
+          },
+          {
+            "date": "2026-06-16",
+            "close": 152.51,
+            "volume": 177929,
+            "average20": 144.104,
+            "average60": 127.226
+          },
+          {
+            "date": "2026-06-17",
+            "close": 157.65,
+            "volume": 144060,
+            "average20": 145.22,
+            "average60": 128.232
+          },
+          {
+            "date": "2026-06-18",
+            "close": 164.22,
+            "volume": 191077,
+            "average20": 146.817,
+            "average60": 129.377
+          },
+          {
+            "date": "2026-06-22",
+            "close": 173.66,
+            "volume": 171390,
+            "average20": 148.873,
+            "average60": 130.72
+          },
+          {
+            "date": "2026-06-23",
+            "close": 164.7,
+            "volume": 130301,
+            "average20": 150.275,
+            "average60": 131.827
+          },
+          {
+            "date": "2026-06-24",
+            "close": 159.14,
+            "volume": 154162,
+            "average20": 151.564,
+            "average60": 132.819
+          },
+          {
+            "date": "2026-06-25",
+            "close": 163.51,
+            "volume": 147622,
+            "average20": 152.702,
+            "average60": 133.918
+          },
+          {
+            "date": "2026-06-26",
+            "close": 161.53,
+            "volume": 115972,
+            "average20": 153.409,
+            "average60": 134.985
+          },
+          {
+            "date": "2026-06-29",
+            "close": 150.69,
+            "volume": 268314,
+            "average20": 153.959,
+            "average60": 135.945
+          },
+          {
+            "date": "2026-06-30",
+            "close": 152.5,
+            "volume": 147242,
+            "average20": 154.269,
+            "average60": 136.885
+          },
+          {
+            "date": "2026-07-01",
+            "close": 154.64,
+            "volume": 138526,
+            "average20": 154.632,
+            "average60": 137.801
+          },
+          {
+            "date": "2026-07-02",
+            "close": 146.78,
+            "volume": 142228,
+            "average20": 154.854,
+            "average60": 138.459
+          },
+          {
+            "date": "2026-07-03",
+            "close": 161.46,
+            "volume": 163289,
+            "average20": 155.095,
+            "average60": 139.372
+          },
+          {
+            "date": "2026-07-06",
+            "close": 171.11,
+            "volume": 237108,
+            "average20": 156.116,
+            "average60": 140.541
+          },
+          {
+            "date": "2026-07-07",
+            "close": 168.81,
+            "volume": 149764,
+            "average20": 157.196,
+            "average60": 141.502
+          },
+          {
+            "date": "2026-07-08",
+            "close": 157.99,
+            "volume": 136691,
+            "average20": 157.524,
+            "average60": 142.273
+          },
+          {
+            "date": "2026-07-09",
+            "close": 168,
+            "volume": 169005,
+            "average20": 158.684,
+            "average60": 143.126
+          },
+          {
+            "date": "2026-07-10",
+            "close": 151.2,
+            "volume": 197554,
+            "average20": 158.993,
+            "average60": 143.796
+          },
+          {
+            "date": "2026-07-13",
+            "close": 138.79,
+            "volume": 243661,
+            "average20": 158.688,
+            "average60": 144.275
+          },
+          {
+            "date": "2026-07-14",
+            "close": 144.74,
+            "volume": 184149,
+            "average20": 158.181,
+            "average60": 144.874
+          },
+          {
+            "date": "2026-07-15",
+            "close": 134.55,
+            "volume": 218354,
+            "average20": 157.284,
+            "average60": 145.19
+          },
+          {
+            "date": "2026-07-16",
+            "close": 130.5,
+            "volume": 163329,
+            "average20": 155.926,
+            "average60": 145.357
+          },
+          {
+            "date": "2026-07-17",
+            "close": 117.45,
+            "volume": 283372,
+            "average20": 153.587,
+            "average60": 145.359
+          },
+          {
+            "date": "2026-07-20",
+            "close": 114.77,
+            "volume": 267268,
+            "average20": 150.643,
+            "average60": 145.331
+          },
+          {
+            "date": "2026-07-21",
+            "close": 126.01,
+            "volume": 384398,
+            "average20": 148.709,
+            "average60": 145.407
+          },
+          {
+            "date": "2026-07-22",
+            "close": 122.83,
+            "volume": 198153,
+            "average20": 146.893,
+            "average60": 145.293
+          },
+          {
+            "date": "2026-07-23",
+            "close": 135.11,
+            "volume": 22605,
+            "average20": 145.473,
+            "average60": 145.373
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 145.5 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 105.0，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 136.24,
+            "recentAverage": 145.473,
+            "longerAverage": 145.373,
+            "recentHigh": 176.59,
+            "recentLow": 105
+          }
+        }
+      },
+      "risk": [
+        "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+        "若下一期现金流明显落后于利润，杰瑞股份的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，杰瑞股份需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查杰瑞股份的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘杰瑞股份值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。",
+            "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+          ]
+        },
+        "upside": {
+          "summary": "杰瑞股份的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "油气产量、销量、服务订单、成本或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "杰瑞股份的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本146.7元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "油气产量、销量、服务订单、成本或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。继续恶化，或价格跌破60日平均成本146.7元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "油气产量、销量、服务订单、成本或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "杰瑞股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 1,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DIRECT_EVIDENCE_FOUND",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收162.23亿元，同比+21.48%；归母净利润26.8亿元，同比+2.03%。2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。",
+            "reason": "杰瑞股份当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-17/1225113322.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+            "reason": "杰瑞股份当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-17/1225113322.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-17/1225113322.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘137.5元，低于20日平均成本148.76元；60日平均成本146.7元，近20个交易日涨跌-4.89%。",
+            "reason": "杰瑞股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收162.23亿元，同比+21.48%；归母净利润26.8亿元，同比+2.03%。2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。",
+          "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查杰瑞股份的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘杰瑞股份值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收162.23亿元，同比+21.48%；归母净利润26.8亿元，同比+2.03%。2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "已确认",
+        "text": "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘137.5元，低于20日平均成本148.76元；60日平均成本146.7元，近20个交易日涨跌-4.89%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "杰瑞股份当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "杰瑞股份当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "杰瑞股份当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，杰瑞股份的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，杰瑞股份需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "status": "open"
+      },
+      {
+        "question": "杰瑞股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "002353.SZ",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "002353.SZ",
+      "company": "杰瑞股份",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 60.71,
+      "evidence_confidence_score": 81.52,
+      "market_payoff_score": 61.44,
+      "technical_timing_score": 30.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 60.68,
+      "candidate_priority_score": 56.84,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 56.4,
+          "average_rating": 2.82,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 3.2,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 73.6,
+          "average_rating": 3.68,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3.8,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 61.44,
+          "average_rating": 3.07,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 3.56,
+            "upside_downside": 2.05,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 30.4,
+          "average_rating": 1.52,
+          "details": {
+            "monthly_trend": 1.2,
+            "weekly_structure": 1.2,
+            "daily_buy_point": 1.55,
+            "gf_dma_alignment": 1.85,
+            "drawdown_position": 1.8
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "油气设备与服务处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量和销量、成本变化和现金流兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -17.4%，近60日涨跌 3.7%。",
+          "missing_proof": "产量和销量 / 成本变化 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "产量或销量没有增长，成本却持续上升。",
+        "油价变化没有转成利润和现金流改善。",
+        "资本开支增加，但储量、产量或项目回报没有兑现。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 56.2,
+      "fundamentalScore": 72.7,
+      "companyScore": 70,
+      "evidenceScore": 83,
+      "valuationScore": 49,
+      "timingScore": 30.4,
+      "riskScore": 62,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 51.6077,
+        "ps": 8.527,
+        "revenueGrowth": 0.2248,
+        "profitGrowth": 0.2632,
+        "cashConversion": -2.1482,
+        "debtRatio": 0.3772,
+        "return20": -0.0489
+      }
+    },
+    "overlay": {
+      "symbol": "002353.SZ",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "油气设备与服务",
+      "bottleneck_reason": "油气景气必须经过产销量、服务工作量和成本，再进入利润和现金流；本次最关键的公司原文是：杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+      "revenue_transmission": "报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.56,
+      "layer_score": 64,
+      "company_fit": 63,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "油气产量、销量、服务订单、成本或经营现金流与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收162.23亿元，同比+21.48%；归母净利润26.8亿元，同比+2.03%。2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。2026-08-26复权收盘137.5元，低于20日平均成本148.76元；60日平均成本146.7元，近20个交易日涨跌-4.89%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 1,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -1,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+        "若下一期现金流明显落后于利润，杰瑞股份的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，杰瑞股份需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "杰瑞股份的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收32.91亿元，较可比期+22.48%；归母净利润5.88亿元，较可比期+26.32%；经营现金流-12.64亿元。",
+          "杰瑞股份最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+        ]
+      },
+      "upside": {
+        "summary": "杰瑞股份的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "油气产量、销量、服务订单、成本或经营现金流",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "杰瑞股份的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本146.7元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "油气产量、销量、服务订单、成本或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若杰瑞股份最新期末资产负债率为37.72%；当前没有抽取到更强的公司级反方原文，后续以新公告和现金流变化复核。继续恶化，或价格跌破60日平均成本146.7元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本148.76元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

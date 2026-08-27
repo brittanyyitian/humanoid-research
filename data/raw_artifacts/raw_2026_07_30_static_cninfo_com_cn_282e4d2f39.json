@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_282e4d2f39",
+  "artifactType": "filing",
+  "title": "关于首次回购公司A股股份的公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225446880.PDF",
+  "sourceId": "src_static_cninfo_com_cn_282e4d2f39",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_282e4d2f39",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:12d51955d3d9ccc933324c5f9f477934847accd022f400feb2a3b73f5b527b11",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_282e4d2f39.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_ff81144df0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bdf8345ff2845405; listSourceId=src_cninfo_002050_announcements."
+}

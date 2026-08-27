@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_22_static_cninfo_com_cn_bb21a8372a",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-22/1225327141.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bb21a8372a",
+  "fetchRunId": "fetch_2026_05_22_static_cninfo_com_cn_bb21a8372a",
+  "publishedAt": "2026-05-22",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c7e45488e68e284b0ffd96cc193632c612adc5146c7e38924aaf2db10b31187b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_22_static_cninfo_com_cn_bb21a8372a.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_05_22_filing_e09f5c77bd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0f79b9c313019498; listSourceId=src_cninfo_301269_announcements."
+}

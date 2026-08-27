@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_18_static_cninfo_com_cn_dd1677bad6",
+  "artifactType": "filing",
+  "title": "董事会薪酬与考核委员会关于公司股权激励相关事项的核查意见",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225430720.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dd1677bad6",
+  "fetchRunId": "fetch_2026_07_18_static_cninfo_com_cn_dd1677bad6",
+  "publishedAt": "2026-07-18",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:fdbbfa3ed10ae671c002bcbc16f33ba9f4d14f8360e854f415eaab2d42a3e414",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_dd1677bad6.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_f856ce786e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e78eb04a36e9ba05; listSourceId=src_cninfo_002050_announcements."
+}

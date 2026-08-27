@@ -1,0 +1,1062 @@
+{
+  "id": "saout_zhongda_leader_ac49fa3958ed",
+  "entityId": "zhongda_leader",
+  "name": "中大力德",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/zhongda_leader.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "中大力德 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "中大力德的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本74.81元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查中大力德的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘中大力德保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "减速器",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "002896.SZ",
+      "name": "中大力德",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 64.52,
+        "previousClose": 63.51018801063096,
+        "changePct": 1.5900000000000025,
+        "high": 63.37,
+        "low": 61.47,
+        "open": 63,
+        "volume": 68937,
+        "turnover": 43087,
+        "turnoverText": "4.53亿",
+        "currency": "CNY",
+        "asOf": "20260827161454",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 54.24,
+        "technicalTimingScore": 22.8,
+        "marketPayoffScore": 55.04,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 40,
+        "evidenceScore": 76,
+        "valuationScore": 32,
+        "timingScore": 22.8,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 39.63,
+          "fundamentalScore": 51.85,
+          "companyScore": 40,
+          "evidenceScore": 76,
+          "valuationScore": 32,
+          "timingScore": 22.8,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 195.8824,
+            "ps": 11.8005,
+            "revenueGrowth": 0.0512,
+            "profitGrowth": -0.3642,
+            "cashConversion": -0.8857,
+            "debtRatio": 0.3498,
+            "return20": -0.1921
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收10.41亿元，同比+6.61%；归母净利润6270.6万元，同比-13.57%。2026-03-31营收2.42亿元，较可比期+5.12%；归母净利润1106.2万元，较可比期-36.42%；经营现金流-979.77万元。",
+          "公司精密减速器产品涵盖行星减速器、RV减速器、谐波减速器，2025年 全年实现营业收入252,360,374.42元，占营业收入的24.24%，较去年同期增长4.04%。",
+          "受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。",
+          "2026-08-26复权收盘63.51元，低于20日平均成本74.81元；60日平均成本72.13元，近20个交易日涨跌-19.21%。"
+        ],
+        "possible": [
+          "中大力德当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "中大力德当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+          "中大力德当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 55.04,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 54.24/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 22.8,
+        "dailyBuyPointScore": 0.9,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 78.58,
+            "volume": 37310,
+            "average20": 80.829,
+            "average60": 83.485
+          },
+          {
+            "date": "2026-03-13",
+            "close": 76.79,
+            "volume": 26715,
+            "average20": 80.672,
+            "average60": 83.36
+          },
+          {
+            "date": "2026-03-16",
+            "close": 76.2,
+            "volume": 23832,
+            "average20": 80.456,
+            "average60": 83.218
+          },
+          {
+            "date": "2026-03-17",
+            "close": 74.48,
+            "volume": 24266,
+            "average20": 80.131,
+            "average60": 83.094
+          },
+          {
+            "date": "2026-03-18",
+            "close": 74.75,
+            "volume": 24088,
+            "average20": 79.735,
+            "average60": 82.952
+          },
+          {
+            "date": "2026-03-19",
+            "close": 72.08,
+            "volume": 32666,
+            "average20": 79.258,
+            "average60": 82.792
+          },
+          {
+            "date": "2026-03-20",
+            "close": 69.88,
+            "volume": 35037,
+            "average20": 78.632,
+            "average60": 82.644
+          },
+          {
+            "date": "2026-03-23",
+            "close": 76.88,
+            "volume": 126225,
+            "average20": 78.172,
+            "average60": 82.592
+          },
+          {
+            "date": "2026-03-24",
+            "close": 74.32,
+            "volume": 145961,
+            "average20": 77.537,
+            "average60": 82.523
+          },
+          {
+            "date": "2026-03-25",
+            "close": 74.32,
+            "volume": 83190,
+            "average20": 76.999,
+            "average60": 82.437
+          },
+          {
+            "date": "2026-03-26",
+            "close": 78.17,
+            "volume": 130931,
+            "average20": 76.732,
+            "average60": 82.342
+          },
+          {
+            "date": "2026-03-27",
+            "close": 76.98,
+            "volume": 77902,
+            "average20": 76.399,
+            "average60": 82.261
+          },
+          {
+            "date": "2026-03-30",
+            "close": 75.4,
+            "volume": 56615,
+            "average20": 76.154,
+            "average60": 82.145
+          },
+          {
+            "date": "2026-03-31",
+            "close": 74.83,
+            "volume": 73347,
+            "average20": 76.013,
+            "average60": 81.969
+          },
+          {
+            "date": "2026-04-01",
+            "close": 75.38,
+            "volume": 51997,
+            "average20": 75.93,
+            "average60": 81.811
+          },
+          {
+            "date": "2026-04-02",
+            "close": 72.33,
+            "volume": 51304,
+            "average20": 75.675,
+            "average60": 81.593
+          },
+          {
+            "date": "2026-04-03",
+            "close": 70.94,
+            "volume": 33041,
+            "average20": 75.344,
+            "average60": 81.242
+          },
+          {
+            "date": "2026-04-07",
+            "close": 70.74,
+            "volume": 27796,
+            "average20": 75.103,
+            "average60": 80.933
+          },
+          {
+            "date": "2026-04-08",
+            "close": 74.12,
+            "volume": 64936,
+            "average20": 74.877,
+            "average60": 80.696
+          },
+          {
+            "date": "2026-04-09",
+            "close": 71.88,
+            "volume": 43982,
+            "average20": 74.453,
+            "average60": 80.426
+          },
+          {
+            "date": "2026-04-10",
+            "close": 73.77,
+            "volume": 74110,
+            "average20": 74.212,
+            "average60": 80.191
+          },
+          {
+            "date": "2026-04-13",
+            "close": 74.02,
+            "volume": 44328,
+            "average20": 74.073,
+            "average60": 79.943
+          },
+          {
+            "date": "2026-04-14",
+            "close": 74.98,
+            "volume": 46351,
+            "average20": 74.013,
+            "average60": 79.711
+          },
+          {
+            "date": "2026-04-15",
+            "close": 73.84,
+            "volume": 39579,
+            "average20": 73.98,
+            "average60": 79.444
+          },
+          {
+            "date": "2026-04-16",
+            "close": 73.71,
+            "volume": 49092,
+            "average20": 73.928,
+            "average60": 79.22
+          },
+          {
+            "date": "2026-04-17",
+            "close": 74.47,
+            "volume": 48547,
+            "average20": 74.048,
+            "average60": 79.007
+          },
+          {
+            "date": "2026-04-20",
+            "close": 72.76,
+            "volume": 70344,
+            "average20": 74.192,
+            "average60": 78.777
+          },
+          {
+            "date": "2026-04-21",
+            "close": 72.48,
+            "volume": 43299,
+            "average20": 73.972,
+            "average60": 78.498
+          },
+          {
+            "date": "2026-04-22",
+            "close": 72.15,
+            "volume": 38286,
+            "average20": 73.864,
+            "average60": 78.205
+          },
+          {
+            "date": "2026-04-23",
+            "close": 70.98,
+            "volume": 46812,
+            "average20": 73.697,
+            "average60": 77.927
+          },
+          {
+            "date": "2026-04-24",
+            "close": 71.17,
+            "volume": 25413,
+            "average20": 73.347,
+            "average60": 77.646
+          },
+          {
+            "date": "2026-04-27",
+            "close": 71.24,
+            "volume": 31120,
+            "average20": 73.06,
+            "average60": 77.386
+          },
+          {
+            "date": "2026-04-28",
+            "close": 68,
+            "volume": 58410,
+            "average20": 72.69,
+            "average60": 77.052
+          },
+          {
+            "date": "2026-04-29",
+            "close": 68.19,
+            "volume": 29127,
+            "average20": 72.358,
+            "average60": 76.802
+          },
+          {
+            "date": "2026-04-30",
+            "close": 70.16,
+            "volume": 50305,
+            "average20": 72.097,
+            "average60": 76.59
+          },
+          {
+            "date": "2026-05-06",
+            "close": 70.78,
+            "volume": 45458,
+            "average20": 72.019,
+            "average60": 76.41
+          },
+          {
+            "date": "2026-05-07",
+            "close": 73.08,
+            "volume": 73616,
+            "average20": 72.126,
+            "average60": 76.288
+          },
+          {
+            "date": "2026-05-08",
+            "close": 75.88,
+            "volume": 169285,
+            "average20": 72.383,
+            "average60": 76.194
+          },
+          {
+            "date": "2026-05-11",
+            "close": 75.44,
+            "volume": 94231,
+            "average20": 72.449,
+            "average60": 76.112
+          },
+          {
+            "date": "2026-05-12",
+            "close": 80.28,
+            "volume": 225002,
+            "average20": 72.869,
+            "average60": 76.096
+          },
+          {
+            "date": "2026-05-13",
+            "close": 78.51,
+            "volume": 142361,
+            "average20": 73.106,
+            "average60": 76.049
+          },
+          {
+            "date": "2026-05-14",
+            "close": 77.44,
+            "volume": 132955,
+            "average20": 73.277,
+            "average60": 76.008
+          },
+          {
+            "date": "2026-05-15",
+            "close": 80.48,
+            "volume": 181723,
+            "average20": 73.552,
+            "average60": 76.007
+          },
+          {
+            "date": "2026-05-18",
+            "close": 80.66,
+            "volume": 139780,
+            "average20": 73.893,
+            "average60": 76.002
+          },
+          {
+            "date": "2026-05-19",
+            "close": 79.53,
+            "volume": 96142,
+            "average20": 74.184,
+            "average60": 75.949
+          },
+          {
+            "date": "2026-05-20",
+            "close": 76.61,
+            "volume": 94802,
+            "average20": 74.291,
+            "average60": 75.866
+          },
+          {
+            "date": "2026-05-21",
+            "close": 79.81,
+            "volume": 188264,
+            "average20": 74.643,
+            "average60": 75.822
+          },
+          {
+            "date": "2026-05-22",
+            "close": 80.24,
+            "volume": 108733,
+            "average20": 75.031,
+            "average60": 75.725
+          },
+          {
+            "date": "2026-05-25",
+            "close": 81.41,
+            "volume": 117409,
+            "average20": 75.495,
+            "average60": 75.632
+          },
+          {
+            "date": "2026-05-26",
+            "close": 89.56,
+            "volume": 304345,
+            "average20": 76.424,
+            "average60": 75.707
+          },
+          {
+            "date": "2026-05-27",
+            "close": 85.99,
+            "volume": 275713,
+            "average20": 77.165,
+            "average60": 75.748
+          },
+          {
+            "date": "2026-05-28",
+            "close": 82.12,
+            "volume": 195455,
+            "average20": 77.709,
+            "average60": 75.722
+          },
+          {
+            "date": "2026-05-29",
+            "close": 75.7,
+            "volume": 170927,
+            "average20": 78.094,
+            "average60": 75.646
+          },
+          {
+            "date": "2026-06-01",
+            "close": 74.15,
+            "volume": 114462,
+            "average20": 78.392,
+            "average60": 75.587
+          },
+          {
+            "date": "2026-06-02",
+            "close": 81.58,
+            "volume": 166998,
+            "average20": 78.963,
+            "average60": 75.663
+          },
+          {
+            "date": "2026-06-03",
+            "close": 78.78,
+            "volume": 266155,
+            "average20": 79.362,
+            "average60": 75.686
+          },
+          {
+            "date": "2026-06-04",
+            "close": 78.76,
+            "volume": 171498,
+            "average20": 79.647,
+            "average60": 75.706
+          },
+          {
+            "date": "2026-06-05",
+            "close": 86.65,
+            "volume": 287153,
+            "average20": 80.185,
+            "average60": 75.89
+          },
+          {
+            "date": "2026-06-08",
+            "close": 95.08,
+            "volume": 429542,
+            "average20": 81.167,
+            "average60": 76.164
+          },
+          {
+            "date": "2026-06-09",
+            "close": 90.57,
+            "volume": 305126,
+            "average20": 81.681,
+            "average60": 76.334
+          },
+          {
+            "date": "2026-06-10",
+            "close": 90.5,
+            "volume": 247031,
+            "average20": 82.281,
+            "average60": 76.533
+          },
+          {
+            "date": "2026-06-11",
+            "close": 81.44,
+            "volume": 200269,
+            "average20": 82.481,
+            "average60": 76.61
+          },
+          {
+            "date": "2026-06-12",
+            "close": 78.16,
+            "volume": 200260,
+            "average20": 82.365,
+            "average60": 76.643
+          },
+          {
+            "date": "2026-06-15",
+            "close": 80.29,
+            "volume": 144503,
+            "average20": 82.347,
+            "average60": 76.74
+          },
+          {
+            "date": "2026-06-16",
+            "close": 80.39,
+            "volume": 142055,
+            "average20": 82.39,
+            "average60": 76.834
+          },
+          {
+            "date": "2026-06-17",
+            "close": 79.57,
+            "volume": 111891,
+            "average20": 82.537,
+            "average60": 76.959
+          },
+          {
+            "date": "2026-06-18",
+            "close": 82.18,
+            "volume": 176613,
+            "average20": 82.656,
+            "average60": 77.164
+          },
+          {
+            "date": "2026-06-22",
+            "close": 79.55,
+            "volume": 151718,
+            "average20": 82.621,
+            "average60": 77.208
+          },
+          {
+            "date": "2026-06-23",
+            "close": 79.17,
+            "volume": 137481,
+            "average20": 82.51,
+            "average60": 77.289
+          },
+          {
+            "date": "2026-06-24",
+            "close": 76.75,
+            "volume": 113252,
+            "average20": 81.869,
+            "average60": 77.33
+          },
+          {
+            "date": "2026-06-25",
+            "close": 72.92,
+            "volume": 147216,
+            "average20": 81.216,
+            "average60": 77.242
+          },
+          {
+            "date": "2026-06-26",
+            "close": 70.18,
+            "volume": 93608,
+            "average20": 80.619,
+            "average60": 77.129
+          },
+          {
+            "date": "2026-06-29",
+            "close": 71.64,
+            "volume": 113131,
+            "average20": 80.416,
+            "average60": 77.066
+          },
+          {
+            "date": "2026-06-30",
+            "close": 76.26,
+            "volume": 143041,
+            "average20": 80.521,
+            "average60": 77.09
+          },
+          {
+            "date": "2026-07-01",
+            "close": 76.24,
+            "volume": 128405,
+            "average20": 80.254,
+            "average60": 77.104
+          },
+          {
+            "date": "2026-07-02",
+            "close": 77.72,
+            "volume": 166829,
+            "average20": 80.201,
+            "average60": 77.194
+          },
+          {
+            "date": "2026-07-03",
+            "close": 85.5,
+            "volume": 202468,
+            "average20": 80.538,
+            "average60": 77.437
+          },
+          {
+            "date": "2026-07-06",
+            "close": 83.9,
+            "volume": 288552,
+            "average20": 80.401,
+            "average60": 77.656
+          },
+          {
+            "date": "2026-07-07",
+            "close": 79.31,
+            "volume": 190989,
+            "average20": 79.612,
+            "average60": 77.743
+          },
+          {
+            "date": "2026-07-08",
+            "close": 73.47,
+            "volume": 140537,
+            "average20": 78.757,
+            "average60": 77.769
+          },
+          {
+            "date": "2026-07-09",
+            "close": 74.6,
+            "volume": 110985,
+            "average20": 77.962,
+            "average60": 77.783
+          },
+          {
+            "date": "2026-07-10",
+            "close": 75.97,
+            "volume": 138242,
+            "average20": 77.688,
+            "average60": 77.816
+          },
+          {
+            "date": "2026-07-13",
+            "close": 70.19,
+            "volume": 98220,
+            "average20": 77.29,
+            "average60": 77.736
+          },
+          {
+            "date": "2026-07-14",
+            "close": 71.37,
+            "volume": 77468,
+            "average20": 76.844,
+            "average60": 77.695
+          },
+          {
+            "date": "2026-07-15",
+            "close": 70.88,
+            "volume": 69720,
+            "average20": 76.369,
+            "average60": 77.647
+          },
+          {
+            "date": "2026-07-16",
+            "close": 71.6,
+            "volume": 80457,
+            "average20": 75.97,
+            "average60": 77.6
+          },
+          {
+            "date": "2026-07-17",
+            "close": 67.28,
+            "volume": 92474,
+            "average20": 75.225,
+            "average60": 77.508
+          },
+          {
+            "date": "2026-07-20",
+            "close": 61.8,
+            "volume": 108084,
+            "average20": 74.338,
+            "average60": 77.33
+          },
+          {
+            "date": "2026-07-21",
+            "close": 63.97,
+            "volume": 86238,
+            "average20": 73.578,
+            "average60": 77.194
+          },
+          {
+            "date": "2026-07-22",
+            "close": 62.5,
+            "volume": 68937,
+            "average20": 72.865,
+            "average60": 77.052
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 72.86 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 59.72，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 64.52,
+            "recentAverage": 72.865,
+            "longerAverage": 77.052,
+            "recentHigh": 88.48,
+            "recentLow": 59.72
+          }
+        }
+      },
+      "risk": [
+        "受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，中大力德需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查中大力德的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘中大力德保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收2.42亿元，较可比期+5.12%；归母净利润1106.2万元，较可比期-36.42%；经营现金流-979.77万元。",
+            "公司精密减速器产品涵盖行星减速器、RV减速器、谐波减速器，2025年 全年实现营业收入252,360,374.42元，占营业收入的24.24%，较去年同期增长4.04%。"
+          ]
+        },
+        "upside": {
+          "summary": "中大力德的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本74.81元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "中大力德的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本72.13元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本74.81元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。继续恶化，或价格跌破60日平均成本72.13元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "中大力德的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本74.81元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 3,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收10.41亿元，同比+6.61%；归母净利润6270.6万元，同比-13.57%。2026-03-31营收2.42亿元，较可比期+5.12%；归母净利润1106.2万元，较可比期-36.42%；经营现金流-979.77万元。",
+            "reason": "中大力德当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-28/1225201132.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "公司精密减速器产品涵盖行星减速器、RV减速器、谐波减速器，2025年 全年实现营业收入252,360,374.42元，占营业收入的24.24%，较去年同期增长4.04%。",
+            "reason": "中大力德当前业务信号为：这条原文直接说明机器人相关客户、订单、交付、收入或产量已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-16/1225108100.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-16/1225108100.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘63.51元，低于20日平均成本74.81元；60日平均成本72.13元，近20个交易日涨跌-19.21%。",
+            "reason": "中大力德当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收2.42亿元，较可比期+5.12%；归母净利润1106.2万元，较可比期-36.42%；经营现金流-979.77万元。公司精密减速器产品涵盖行星减速器、RV减速器、谐波减速器，2025年 全年实现营业收入252,360,374.42元，占营业收入的24.24%，较去年同期增长4.04%。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收10.41亿元，同比+6.61%；归母净利润6270.6万元，同比-13.57%。2026-03-31营收2.42亿元，较可比期+5.12%；归母净利润1106.2万元，较可比期-36.42%；经营现金流-979.77万元。",
+          "公司精密减速器产品涵盖行星减速器、RV减速器、谐波减速器，2025年 全年实现营业收入252,360,374.42元，占营业收入的24.24%，较去年同期增长4.04%。",
+          "受人形机器人、政策支持 及成本优势驱动，国内上下游企业纷纷布局进入减速器领域，市场竞争激烈，部分产品存在价格下降压 力。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查中大力德的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘中大力德保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 64.52,
+    "previousClose": 63.51018801063096,
+    "changePct": 1.5900000000000025,
+    "high": 63.37,
+    "low": 61.47,
+    "open": 63,
+    "volume": 68937,
+    "turnover": 43087,
+    "turnoverText": "4.53亿",
+    "currency": "CNY",
+    "asOf": "20260827161454",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 64.52,
+    "changePct": 1.59,
+    "turnoverText": "4.53亿",
+    "turnoverRate": 3.6,
+    "totalMarketCap": "126.80亿",
+    "floatMarketCap": "126.80亿",
+    "fiveDayChangePct": -6.17,
+    "twentyDayChangePct": 8.78,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161454",
+    "asOf": "20260827161454",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161454",
+    "latestAsOf": "20260827161454",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.71,
+    "evidence_confidence_score": 80.4,
+    "market_payoff_score": 55.04,
+    "technical_timing_score": 22.8,
+    "data_readiness_score": 100,
+    "action_readiness_score": 57.26,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 72,
+        "average_rating": 3.6,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 3,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 55.04,
+        "average_rating": 2.75,
+        "details": {
+          "valuation_discount": 3,
+          "implied_growth_vs_evidence": 3.16,
+          "upside_downside": 2.05,
+          "liquidity_capacity": 2.2,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 22.8,
+        "average_rating": 1.14,
+        "details": {
+          "monthly_trend": 0.5,
+          "weekly_structure": 2.1,
+          "daily_buy_point": 0.9,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 1
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "减速器处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 2 份正式公告，其中 2 份财报或业绩材料；近20日涨跌 -18.6%，近60日涨跌 -11.9%；客户或订单证据 0 条直接、3 条线索。",
+        "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续公告或财报持续无法披露订单、客户或交付证据。",
+      "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+      "供应链或合作披露不能被官方材料交叉验证。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

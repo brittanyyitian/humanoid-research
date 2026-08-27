@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_04_18_static_cninfo_com_cn_d19d13e76b",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "北方华创",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_04_18_static_cninfo_com_cn_d19d13e76b"
+  ],
+  "claimIds": [
+    "claim_2026_04_18_filing_0a47fd8420"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-18/1225122952.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:3e2a36de2c96e97adec72a0ad6d14910248bfb5d921821177014e2e7445f6da2",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_18_static_cninfo_com_cn_d19d13e76b.json"
+    }
+  ]
+}

@@ -152,6 +152,74 @@ record for the captured metadata. The matching `fetch_run` must include an
 `attemptLedger` and a `raw_payload_not_fetched` gap, so later reviewers do not
 mistake metadata-only intake for full source retrieval.
 
+## V2.5 Official News Intake
+
+Use official news intake when the problem is data thickness rather than UI.
+The fetcher reads configured official list pages and writes article-level
+entries into `data/inbox/news_candidates.json`.
+
+```bash
+npm run fetch:news
+```
+
+Official sources are configured in `data/intake/official_news_sources.json`.
+Each source declares the entity, official list URL, source level and parser
+type. The fetcher only creates review candidates such as:
+
+```text
+official news list
+-> news_candidates
+```
+
+It must not write `events`, `relations`, `followups`, observations or dashboard
+files directly.
+
+After reviewing the candidate list, hand selected candidates to the existing
+ingestion/router/pipeline-task layer:
+
+```bash
+npm run intake:news -- --limit 20
+```
+
+To also generate review-gated claim/evidence candidates, run:
+
+```bash
+npm run intake:news -- --limit 20 --run-pipeline
+```
+
+That writes:
+
+```text
+raw_artifact
+route_decision
+pipeline_task
+rule_output
+claim/evidence candidate
+```
+
+The output is still not formal truth. Manual review and `promote:claim` remain
+the only path into `events`, `relations`, `followups` or observations.
+
+## V2.5 Watchlist Daily Update
+
+Use Watchlist Daily Update for a daily market snapshot, not real-time trading.
+It reads listed entities tagged `Watchlist`, fetches public quote data, writes
+the structured inbox, then stores that day's stock snapshot.
+
+```bash
+npm run watchlist:daily
+```
+
+The command writes:
+
+```text
+data/inbox/market_latest.json
+data/stocks/market_YYYY_MM_DD.json
+```
+
+The snapshot is a market dimension for timelines. It does not explain why a
+stock moved, does not create claims, and does not promote events.
+
 ## V2.1 Scheduler Tick
 
 Use Scheduler as the system heartbeat. It reads configured sources, checks

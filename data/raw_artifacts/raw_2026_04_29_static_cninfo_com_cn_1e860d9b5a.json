@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_1e860d9b5a",
+  "artifactType": "filing",
+  "title": "2026年第一季度报告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225224914.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1e860d9b5a",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_1e860d9b5a",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:b98618c8b43fbf1c6f297d6d427647052947babf6373639b27c9e4168776dc31",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_1e860d9b5a.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_ddd50d2e02"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8ea7ae89113b0361; listSourceId=src_cninfo_688019_announcements."
+}

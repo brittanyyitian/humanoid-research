@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_ebc04d1e65",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225445972.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ebc04d1e65",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_ebc04d1e65",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:2a942e726e770302fe259288bbd7f31c28342214fe60af706ce17b186ad16c18",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_ebc04d1e65.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_63987d0415"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_16aa30fd5af9c753; listSourceId=src_cninfo_000554_announcements."
+}

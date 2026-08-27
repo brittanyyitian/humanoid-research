@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_03_static_cninfo_com_cn_b41b3ded91",
+  "artifactType": "filing",
+  "title": "大唐发电关于股票交易风险提示的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-03/1225346960.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b41b3ded91",
+  "fetchRunId": "fetch_2026_06_03_static_cninfo_com_cn_b41b3ded91",
+  "publishedAt": "2026-06-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:75e33ff46207198c29c2e8c6dc8f09a710d18dc6acafb8d415b87b03d574d36a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_03_static_cninfo_com_cn_b41b3ded91.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_06_03_filing_51e4d0da8c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_70ca54a82bf393da; listSourceId=src_cninfo_601991_announcements."
+}

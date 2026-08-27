@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_07c6822d28",
+  "artifactType": "filing",
+  "title": "第十二届董事会第二次会议决议公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514989.pdf",
+  "sourceId": "src_static_cninfo_com_cn_07c6822d28",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_07c6822d28",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:feb5b2ff76b798685f6094b5e57557bcdafc7b634e2a504af90ecbc6b60350af",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_07c6822d28.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_58b3d27b21"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c7b0f845b5d9f8c3; listSourceId=src_cninfo_000554_announcements."
+}

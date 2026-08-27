@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_04_19_static_cninfo_com_cn_66063481a5",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "寒武纪",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:35+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_04_19_static_cninfo_com_cn_66063481a5"
+  ],
+  "claimIds": [
+    "claim_2025_04_19_filing_901deeaedc"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-19/1223155708.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:0b58e1bf674b2b804d9690e27861f2bd08533d3d43eb773eb98b0af42cede5c0",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_19_static_cninfo_com_cn_66063481a5.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:35+08:00",
+      "finishedAt": "2026-07-23T09:58:35+08:00",
+      "contentHash": "sha256:81bbcde89e0749178507ee19eaa724d39fa4b5b799a1db4e04d741a5d69f5f5a",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_19_static_cninfo_com_cn_66063481a5.json"
+    }
+  ]
+}

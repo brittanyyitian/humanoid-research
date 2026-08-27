@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_e131f607ac",
+  "artifactType": "filing",
+  "title": "2026年限制性股票激励计划激励对象名单",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225445750.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e131f607ac",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_e131f607ac",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:7fb59efd6af99b0a13b919bd7d7a0ac7460123d0f2f16991bc3ae9fcd5ee1a23",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_e131f607ac.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_df9586a3a1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b13fc5e2148c5d11; listSourceId=src_cninfo_688256_announcements."
+}

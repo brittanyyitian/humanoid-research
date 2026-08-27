@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_4d0f3ce485",
+  "artifactType": "filing",
+  "title": "第八届董事会第二十一次会议决议公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514008.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4d0f3ce485",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_4d0f3ce485",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:af40d676a99b08bf7a59ca9d9f19a0c13a8a87b1446242c694af893029610115",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_4d0f3ce485.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_edaebee1a1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5a52398f0f2a38bc; listSourceId=src_cninfo_002050_announcements."
+}

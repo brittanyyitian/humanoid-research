@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_19_static_cninfo_com_cn_78e041a65f",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司关于红石能源向ICOHL公司提供财务资助的进展公告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-19/1225377683.PDF",
+  "sourceId": "src_static_cninfo_com_cn_78e041a65f",
+  "fetchRunId": "fetch_2026_06_19_static_cninfo_com_cn_78e041a65f",
+  "publishedAt": "2026-06-19",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:1508391e4d38a65430124f4dbb25a6730135573567d9e0a4f7f9ae650174e436",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_19_static_cninfo_com_cn_78e041a65f.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_06_19_filing_c038228f4d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1d2f7aa4717fcffe; listSourceId=src_cninfo_600886_announcements."
+}

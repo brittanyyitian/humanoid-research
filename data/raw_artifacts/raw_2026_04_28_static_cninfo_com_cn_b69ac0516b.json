@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_b69ac0516b",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225216954.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b69ac0516b",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_b69ac0516b",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:3024dcb9998f2ec15e91f6d0531f5c977b5a33209ad839fe7eac0fb5acaeb83d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_b69ac0516b.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_3017110710"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_674391049db3e30b; listSourceId=src_cninfo_000566_announcements."
+}

@@ -20,6 +20,7 @@ export async function runHardeningChecks() {
   checks.push(await checkLifecycle(data));
   checks.push(await checkRecovery(data));
   checks.push(await checkRuleIsolation(data));
+  checks.push(await checkSerenityReviewIntegrity(data));
 
   const errors = checks.flatMap((check) => check.errors.map((message) => ({ check: check.id, message })));
   const warnings = checks.flatMap((check) => check.warnings.map((message) => ({ check: check.id, message })));
@@ -54,6 +55,7 @@ async function loadData() {
     events: await readDataDir("events"),
     fetchRuns: await readDataDir("fetch_runs"),
     stateTransitions: await readDataDir("state_transitions"),
+    serenityOutputs: await readDataDir("analysis/serenity_outputs"),
   };
   const dashboardObservations = await readJsonFile(path.join(DATA_DIR, "dashboard", "observations.json"));
   const dashboardObservationProjection = await readJsonFile(path.join(DATA_DIR, "dashboard", "observation_projection.json"));
@@ -66,6 +68,7 @@ async function loadData() {
   const lifecycleFixtures = (await readOptionalJson(path.join(DATA_DIR, "hardening", "lifecycle_fixtures.json"))) || {
     claims: [],
   };
+  const serenityAnalysis = await readJsonFile(path.join(DATA_DIR, "dashboard", "serenity_analysis.json"));
 
   return {
     ...rows,
@@ -78,6 +81,7 @@ async function loadData() {
     ingestionRules,
     serenityDatasetMap,
     lifecycleFixtures,
+    serenityAnalysis,
     maps: {
       rawById: mapById(rows.rawArtifacts),
       routeByRawId: mapBy(rows.routeDecisions, (row) => row.rawArtifactId),
@@ -97,6 +101,115 @@ async function loadData() {
       ),
     },
   };
+}
+
+async function checkSerenityReviewIntegrity(data) {
+  const errors = [];
+  const warnings = [];
+  const evidenceFactOwners = new Map();
+  const actionTiers = new Set([
+    "BUY_CANDIDATE",
+    "NEAR_BUY_POINT",
+    "WAIT_FOR_PRICE",
+    "WATCH_FOR_EVIDENCE",
+    "AVOID_FOR_NOW",
+  ]);
+  const noisePattern =
+    /Serenity 正式数据包中的行情|当前的财务兑现状态为|预期信用|信用风险自初始确认|账龄组合|金融工具风险|市值管理制度|证券法|公司章程|历任|高工机器人|GGII|行业.{0,20}数据显示/u;
+  const listedEntityIds = new Set(
+    (data.serenityAnalysis?.rows || [])
+      .filter((row) => row.inputPack?.factInputs?.profile?.ticker)
+      .map((row) => row.entityId)
+  );
+  const listedOutputs = data.serenityOutputs.filter((output) =>
+    listedEntityIds.has(output.entityId)
+  );
+
+  for (const output of listedOutputs) {
+    const confirmed = output.display?.stockRadar?.movement?.confirmed || [];
+    const possible = output.display?.stockRadar?.movement?.possible || [];
+    const templated =
+      confirmed.some((text) =>
+        String(text).startsWith(
+          "Serenity 正式数据包中的行情、长期复权走势、财务、公告、订单/客户/产能证据和估值输入均已取数"
+        )
+      ) ||
+      possible.some((text) =>
+        /当前的财务兑现状态为“(?:增长与现金流相互验证|财务质量偏弱|基本稳定、仍需验证)”/u.test(
+          String(text)
+        )
+      );
+    if (output.status === "serenity_ai_review" && templated) {
+      errors.push(`${output.entityId} exposes a deterministic template as Serenity deep review`);
+    }
+    if (
+      output.status === "serenity_ai_review_outcome" &&
+      (confirmed.length > 0 || possible.length > 0)
+    ) {
+      errors.push(`${output.entityId} review outcome still exposes unreviewed movement claims`);
+    }
+    if (output.status === "serenity_stock_radar") {
+      errors.push(`${output.entityId} fell back to scorecard radar instead of an explicit review outcome`);
+    }
+    if (output.status !== "serenity_ai_review") {
+      errors.push(`${output.entityId} does not expose a completed Serenity deep review`);
+    }
+    const actionGrade = output.display?.stockRadar?.ai?.actionGrade;
+    if (actionGrade?.methodology !== "serenity_evidence_first_action_grade_v2") {
+      errors.push(`${output.entityId} does not expose the evidence-first Serenity action grade`);
+    } else {
+      if (!actionTiers.has(actionGrade.tier)) {
+        errors.push(`${output.entityId} has an unknown Serenity action tier: ${actionGrade.tier}`);
+      }
+      for (const field of [
+        "overallScore",
+        "fundamentalScore",
+        "companyScore",
+        "evidenceScore",
+        "valuationScore",
+        "timingScore",
+        "riskScore",
+      ]) {
+        const value = actionGrade[field];
+        if (!Number.isFinite(value) || value < 0 || value > 100) {
+          errors.push(`${output.entityId} action grade ${field} must be between 0 and 100`);
+        }
+      }
+    }
+    const cards = output.display?.stockRadar?.evidence?.cards || [];
+    if (output.status === "serenity_ai_review" && cards.length < 3) {
+      errors.push(`${output.entityId} deep review has fewer than three evidence tests`);
+    }
+    for (const card of cards) {
+      const fact = String(card.fact || "").trim();
+      if (!fact) errors.push(`${output.entityId} has an empty evidence fact`);
+      if (noisePattern.test(fact)) {
+        errors.push(`${output.entityId} evidence card contains non-decision material: ${fact.slice(0, 80)}`);
+      }
+      if (!(card.sourceRefs || []).length) {
+        errors.push(`${output.entityId} evidence card has no source reference`);
+      }
+      const owners = evidenceFactOwners.get(fact) || [];
+      owners.push(output.entityId);
+      evidenceFactOwners.set(fact, owners);
+    }
+  }
+  for (const [fact, owners] of evidenceFactOwners.entries()) {
+    if (fact && new Set(owners).size > 1) {
+      errors.push(`duplicate Serenity evidence fact across entities ${owners.join(", ")}: ${fact.slice(0, 80)}`);
+    }
+  }
+  if (listedOutputs.length !== listedEntityIds.size) {
+    errors.push(
+      `listed Serenity outputs mismatch: expected ${listedEntityIds.size}, got ${listedOutputs.length}`
+    );
+  }
+
+  return result("serenity_review_integrity", errors, warnings, {
+    listed: listedEntityIds.size,
+    deepReviews: listedOutputs.filter((output) => output.status === "serenity_ai_review").length,
+    withheld: listedOutputs.filter((output) => output.status === "serenity_ai_review_outcome").length,
+  });
 }
 
 async function readDataDir(relativeDir) {

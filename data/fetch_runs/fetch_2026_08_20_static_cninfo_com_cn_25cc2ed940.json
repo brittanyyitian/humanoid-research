@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_20_static_cninfo_com_cn_25cc2ed940",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "三峡水利",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-20T16:16:17+08:00",
+  "finishedAt": "2026-08-20T16:16:22+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_20_static_cninfo_com_cn_25cc2ed940"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_efb2aa469a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225481988.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-20T16:16:17+08:00",
+      "finishedAt": "2026-08-20T16:16:17+08:00",
+      "contentHash": "sha256:c5689cd2fc3cd194e41af438db578a77f35a158b6ed70b54d66f9658b0346c24",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_25cc2ed940.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-20T16:16:22+08:00",
+      "finishedAt": "2026-08-20T16:16:22+08:00",
+      "contentHash": "sha256:1b74095c3663bab163f64f2acf87a7399bbaa1436a853486bbc9efdd985371d7",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_25cc2ed940.json"
+    }
+  ]
+}

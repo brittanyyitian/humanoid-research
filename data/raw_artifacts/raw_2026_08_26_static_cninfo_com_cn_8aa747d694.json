@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_8aa747d694",
+  "artifactType": "filing",
+  "title": "2026年半年度报告",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504495.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8aa747d694",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_8aa747d694",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:31b27d0dfd7fcd9cc8152ece967ba579247efb0174228e4976f56e7020d88b6f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_8aa747d694.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_04e12b4207"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1b9c4b56d8996214; listSourceId=src_cninfo_002472_announcements."
+}

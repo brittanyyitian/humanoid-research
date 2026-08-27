@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_08_agibot_com_cn_fa0d08dd01",
+  "artifactType": "news_page",
+  "title": "智元开源AGIBOT WORLD 2026主题二，专属于世界模型的数据集",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/165.html",
+  "sourceId": "src_agibot_com_cn_fa0d08dd01",
+  "fetchRunId": "fetch_2026_06_08_agibot_com_cn_fa0d08dd01",
+  "publishedAt": "2026-06-08",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:fda92865acb2efe71820d556cb9e935fcec46a113f5fc7d1ee81b942a8e640a0",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_08_agibot_com_cn_fa0d08dd01.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_06_08_other_5719a2052b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_cd415d8b23ff79d0; listSourceId=src_agibot_official_news."
+}

@@ -1,0 +1,1294 @@
+{
+  "id": "saout_beone_ed754b2b3006",
+  "entityId": "beone",
+  "name": "百济神州",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688235.SH",
+    "symbol": "688235.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/data/688235/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/ai_research/688235.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/ai_research/688235.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "百济神州 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+    "currentFocus": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+    "toVerify": [
+      "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+      "百济神州的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+    "followup": "未来30天：自动检查百济神州的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘百济神州值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。",
+    "materialLine": "创新药研发与全球销售",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "688235.SH",
+      "name": "百济神州",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 279.75,
+        "previousClose": 278.9967088860078,
+        "changePct": 0.26999999999998914,
+        "high": 277.96,
+        "low": 267.73,
+        "open": 277,
+        "volume": 22802,
+        "turnover": 620138335,
+        "turnoverText": "11.09亿",
+        "currency": "CNY",
+        "asOf": "20260827161447",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 57.21,
+        "technicalTimingScore": 67.2,
+        "marketPayoffScore": 60.92,
+        "dataReadinessScore": 100,
+        "type": "公司可看，价格不合适",
+        "currentAction": "等待估值回到更合理区间。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 72,
+        "evidenceScore": 96,
+        "valuationScore": 28,
+        "timingScore": 57,
+        "riskScore": 57,
+        "decisionReason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WAIT_FOR_PRICE",
+          "label": "公司可看，价格不合适",
+          "researchRating": "B",
+          "overallScore": 59.73,
+          "fundamentalScore": 76.95,
+          "companyScore": 72,
+          "evidenceScore": 96,
+          "valuationScore": 28,
+          "timingScore": 57,
+          "riskScore": 57,
+          "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+          "nextCondition": "等待估值回到更合理区间。",
+          "metrics": {
+            "pe": 282.9555,
+            "ps": 10.8127,
+            "revenueGrowth": 0.3102,
+            "profitGrowth": -18.013,
+            "cashConversion": 0.8416,
+            "debtRatio": 0.4408,
+            "return20": 0.0372
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收382.25亿元，同比+0%；归母净利润14.61亿元，同比+0%。2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。",
+          "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。",
+          "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+          "2026-08-26复权收盘279元，低于20日平均成本290.78元；60日平均成本269.23元，近20个交易日涨跌+3.72%。"
+        ],
+        "possible": [
+          "百济神州当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "百济神州当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+          "百济神州当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 60.92,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.21/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 67.2,
+        "dailyBuyPointScore": 1.8,
+        "dmaAlignmentScore": 4.6,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 228.68,
+            "volume": 30998,
+            "average20": 256.848,
+            "average60": 275.908
+          },
+          {
+            "date": "2026-03-16",
+            "close": 231.3,
+            "volume": 30833,
+            "average20": 254.788,
+            "average60": 275.149
+          },
+          {
+            "date": "2026-03-17",
+            "close": 236.74,
+            "volume": 38579,
+            "average20": 252.778,
+            "average60": 274.518
+          },
+          {
+            "date": "2026-03-18",
+            "close": 238.5,
+            "volume": 25024,
+            "average20": 250.403,
+            "average60": 273.885
+          },
+          {
+            "date": "2026-03-19",
+            "close": 235,
+            "volume": 21570,
+            "average20": 247.79,
+            "average60": 273.292
+          },
+          {
+            "date": "2026-03-20",
+            "close": 227.57,
+            "volume": 23751,
+            "average20": 245.033,
+            "average60": 272.652
+          },
+          {
+            "date": "2026-03-23",
+            "close": 215.51,
+            "volume": 40832,
+            "average20": 241.828,
+            "average60": 271.72
+          },
+          {
+            "date": "2026-03-24",
+            "close": 221.11,
+            "volume": 38171,
+            "average20": 238.874,
+            "average60": 270.878
+          },
+          {
+            "date": "2026-03-25",
+            "close": 220.17,
+            "volume": 30601,
+            "average20": 235.922,
+            "average60": 269.981
+          },
+          {
+            "date": "2026-03-26",
+            "close": 216.49,
+            "volume": 34948,
+            "average20": 233.575,
+            "average60": 269.017
+          },
+          {
+            "date": "2026-03-27",
+            "close": 232.69,
+            "volume": 61319,
+            "average20": 232.324,
+            "average60": 268.281
+          },
+          {
+            "date": "2026-03-30",
+            "close": 235.3,
+            "volume": 59172,
+            "average20": 231.547,
+            "average60": 267.571
+          },
+          {
+            "date": "2026-03-31",
+            "close": 233.59,
+            "volume": 31235,
+            "average20": 231.477,
+            "average60": 266.913
+          },
+          {
+            "date": "2026-04-01",
+            "close": 249.9,
+            "volume": 61718,
+            "average20": 232.409,
+            "average60": 266.494
+          },
+          {
+            "date": "2026-04-02",
+            "close": 249.25,
+            "volume": 44806,
+            "average20": 233.016,
+            "average60": 266.078
+          },
+          {
+            "date": "2026-04-03",
+            "close": 239.29,
+            "volume": 37441,
+            "average20": 233.056,
+            "average60": 265.533
+          },
+          {
+            "date": "2026-04-07",
+            "close": 237.12,
+            "volume": 26267,
+            "average20": 233.267,
+            "average60": 265.008
+          },
+          {
+            "date": "2026-04-08",
+            "close": 245.88,
+            "volume": 41739,
+            "average20": 233.301,
+            "average60": 264.092
+          },
+          {
+            "date": "2026-04-09",
+            "close": 242.56,
+            "volume": 24480,
+            "average20": 233.525,
+            "average60": 263.156
+          },
+          {
+            "date": "2026-04-10",
+            "close": 244.12,
+            "volume": 24565,
+            "average20": 234.039,
+            "average60": 262.093
+          },
+          {
+            "date": "2026-04-13",
+            "close": 241.95,
+            "volume": 21247,
+            "average20": 234.702,
+            "average60": 260.998
+          },
+          {
+            "date": "2026-04-14",
+            "close": 242.07,
+            "volume": 32172,
+            "average20": 235.24,
+            "average60": 259.816
+          },
+          {
+            "date": "2026-04-15",
+            "close": 254.4,
+            "volume": 60918,
+            "average20": 236.123,
+            "average60": 258.834
+          },
+          {
+            "date": "2026-04-16",
+            "close": 256.99,
+            "volume": 45792,
+            "average20": 237.048,
+            "average60": 257.937
+          },
+          {
+            "date": "2026-04-17",
+            "close": 246.5,
+            "volume": 45294,
+            "average20": 237.623,
+            "average60": 256.912
+          },
+          {
+            "date": "2026-04-20",
+            "close": 245.2,
+            "volume": 28328,
+            "average20": 238.505,
+            "average60": 255.882
+          },
+          {
+            "date": "2026-04-21",
+            "close": 240.1,
+            "volume": 27003,
+            "average20": 239.734,
+            "average60": 254.765
+          },
+          {
+            "date": "2026-04-22",
+            "close": 241.19,
+            "volume": 22718,
+            "average20": 240.738,
+            "average60": 253.877
+          },
+          {
+            "date": "2026-04-23",
+            "close": 234.32,
+            "volume": 31079,
+            "average20": 241.445,
+            "average60": 252.991
+          },
+          {
+            "date": "2026-04-24",
+            "close": 234.86,
+            "volume": 24151,
+            "average20": 242.364,
+            "average60": 252.031
+          },
+          {
+            "date": "2026-04-27",
+            "close": 235,
+            "volume": 18193,
+            "average20": 242.479,
+            "average60": 251.159
+          },
+          {
+            "date": "2026-04-28",
+            "close": 233.01,
+            "volume": 31281,
+            "average20": 242.365,
+            "average60": 250.22
+          },
+          {
+            "date": "2026-04-29",
+            "close": 236.31,
+            "volume": 22200,
+            "average20": 242.501,
+            "average60": 249.406
+          },
+          {
+            "date": "2026-04-30",
+            "close": 234.8,
+            "volume": 25361,
+            "average20": 241.746,
+            "average60": 248.557
+          },
+          {
+            "date": "2026-05-06",
+            "close": 246.86,
+            "volume": 51406,
+            "average20": 241.627,
+            "average60": 247.855
+          },
+          {
+            "date": "2026-05-07",
+            "close": 254.4,
+            "volume": 61241,
+            "average20": 242.382,
+            "average60": 247.332
+          },
+          {
+            "date": "2026-05-08",
+            "close": 247.5,
+            "volume": 40597,
+            "average20": 242.901,
+            "average60": 246.836
+          },
+          {
+            "date": "2026-05-11",
+            "close": 262.08,
+            "volume": 62284,
+            "average20": 243.711,
+            "average60": 246.72
+          },
+          {
+            "date": "2026-05-12",
+            "close": 267.98,
+            "volume": 70621,
+            "average20": 244.982,
+            "average60": 246.63
+          },
+          {
+            "date": "2026-05-13",
+            "close": 260.8,
+            "volume": 50695,
+            "average20": 245.816,
+            "average60": 246.35
+          },
+          {
+            "date": "2026-05-14",
+            "close": 249.7,
+            "volume": 45478,
+            "average20": 246.204,
+            "average60": 245.918
+          },
+          {
+            "date": "2026-05-15",
+            "close": 252.02,
+            "volume": 36560,
+            "average20": 246.701,
+            "average60": 245.577
+          },
+          {
+            "date": "2026-05-18",
+            "close": 239.2,
+            "volume": 46217,
+            "average20": 245.941,
+            "average60": 244.948
+          },
+          {
+            "date": "2026-05-19",
+            "close": 239.97,
+            "volume": 30437,
+            "average20": 245.09,
+            "average60": 244.18
+          },
+          {
+            "date": "2026-05-20",
+            "close": 243.98,
+            "volume": 37159,
+            "average20": 244.964,
+            "average60": 243.459
+          },
+          {
+            "date": "2026-05-21",
+            "close": 251.96,
+            "volume": 69364,
+            "average20": 245.302,
+            "average60": 242.947
+          },
+          {
+            "date": "2026-05-22",
+            "close": 244.57,
+            "volume": 46175,
+            "average20": 245.525,
+            "average60": 242.362
+          },
+          {
+            "date": "2026-05-25",
+            "close": 241.71,
+            "volume": 37397,
+            "average20": 245.551,
+            "average60": 241.721
+          },
+          {
+            "date": "2026-05-26",
+            "close": 244.08,
+            "volume": 37114,
+            "average20": 246.039,
+            "average60": 241.136
+          },
+          {
+            "date": "2026-05-27",
+            "close": 239.38,
+            "volume": 38762,
+            "average20": 246.265,
+            "average60": 240.735
+          },
+          {
+            "date": "2026-05-28",
+            "close": 233.25,
+            "volume": 35473,
+            "average20": 246.178,
+            "average60": 240.327
+          },
+          {
+            "date": "2026-05-29",
+            "close": 243.9,
+            "volume": 61359,
+            "average20": 246.722,
+            "average60": 240.211
+          },
+          {
+            "date": "2026-06-01",
+            "close": 234.62,
+            "volume": 51620,
+            "average20": 246.638,
+            "average60": 240.205
+          },
+          {
+            "date": "2026-06-02",
+            "close": 220.82,
+            "volume": 57456,
+            "average20": 245.939,
+            "average60": 240.031
+          },
+          {
+            "date": "2026-06-03",
+            "close": 222.41,
+            "volume": 30978,
+            "average20": 244.716,
+            "average60": 239.786
+          },
+          {
+            "date": "2026-06-04",
+            "close": 223.98,
+            "volume": 29581,
+            "average20": 243.195,
+            "average60": 239.544
+          },
+          {
+            "date": "2026-06-05",
+            "close": 220.18,
+            "volume": 32870,
+            "average20": 241.829,
+            "average60": 239.332
+          },
+          {
+            "date": "2026-06-08",
+            "close": 214.57,
+            "volume": 28866,
+            "average20": 239.454,
+            "average60": 238.822
+          },
+          {
+            "date": "2026-06-09",
+            "close": 213.9,
+            "volume": 28381,
+            "average20": 236.75,
+            "average60": 238.419
+          },
+          {
+            "date": "2026-06-10",
+            "close": 213.34,
+            "volume": 33396,
+            "average20": 234.377,
+            "average60": 238.077
+          },
+          {
+            "date": "2026-06-11",
+            "close": 208,
+            "volume": 33812,
+            "average20": 232.292,
+            "average60": 237.732
+          },
+          {
+            "date": "2026-06-12",
+            "close": 216.36,
+            "volume": 41994,
+            "average20": 230.509,
+            "average60": 237.483
+          },
+          {
+            "date": "2026-06-15",
+            "close": 216.78,
+            "volume": 29013,
+            "average20": 229.388,
+            "average60": 237.151
+          },
+          {
+            "date": "2026-06-16",
+            "close": 213.31,
+            "volume": 28865,
+            "average20": 228.055,
+            "average60": 236.731
+          },
+          {
+            "date": "2026-06-17",
+            "close": 211.72,
+            "volume": 32776,
+            "average20": 226.442,
+            "average60": 236.343
+          },
+          {
+            "date": "2026-06-18",
+            "close": 218.22,
+            "volume": 54702,
+            "average20": 224.755,
+            "average60": 236.187
+          },
+          {
+            "date": "2026-06-22",
+            "close": 228.79,
+            "volume": 62391,
+            "average20": 223.966,
+            "average60": 236.408
+          },
+          {
+            "date": "2026-06-23",
+            "close": 228,
+            "volume": 53930,
+            "average20": 223.281,
+            "average60": 236.523
+          },
+          {
+            "date": "2026-06-24",
+            "close": 236.79,
+            "volume": 65570,
+            "average20": 222.916,
+            "average60": 236.8
+          },
+          {
+            "date": "2026-06-25",
+            "close": 242.71,
+            "volume": 60926,
+            "average20": 223.083,
+            "average60": 237.237
+          },
+          {
+            "date": "2026-06-26",
+            "close": 232.1,
+            "volume": 45678,
+            "average20": 223.025,
+            "average60": 237.227
+          },
+          {
+            "date": "2026-06-29",
+            "close": 255.9,
+            "volume": 95852,
+            "average20": 223.625,
+            "average60": 237.571
+          },
+          {
+            "date": "2026-06-30",
+            "close": 254.61,
+            "volume": 65301,
+            "average20": 224.624,
+            "average60": 237.921
+          },
+          {
+            "date": "2026-07-01",
+            "close": 261.8,
+            "volume": 99475,
+            "average20": 226.673,
+            "average60": 238.119
+          },
+          {
+            "date": "2026-07-02",
+            "close": 253.56,
+            "volume": 81216,
+            "average20": 228.231,
+            "average60": 238.191
+          },
+          {
+            "date": "2026-07-03",
+            "close": 266.96,
+            "volume": 86061,
+            "average20": 230.38,
+            "average60": 238.652
+          },
+          {
+            "date": "2026-07-06",
+            "close": 277,
+            "volume": 105142,
+            "average20": 233.221,
+            "average60": 239.317
+          },
+          {
+            "date": "2026-07-07",
+            "close": 263.16,
+            "volume": 68611,
+            "average20": 235.651,
+            "average60": 239.605
+          },
+          {
+            "date": "2026-07-08",
+            "close": 256.62,
+            "volume": 56853,
+            "average20": 237.787,
+            "average60": 239.839
+          },
+          {
+            "date": "2026-07-09",
+            "close": 260.78,
+            "volume": 54434,
+            "average20": 240.159,
+            "average60": 240.117
+          },
+          {
+            "date": "2026-07-10",
+            "close": 267.84,
+            "volume": 69507,
+            "average20": 243.151,
+            "average60": 240.549
+          },
+          {
+            "date": "2026-07-13",
+            "close": 260.6,
+            "volume": 58402,
+            "average20": 245.363,
+            "average60": 240.857
+          },
+          {
+            "date": "2026-07-14",
+            "close": 269,
+            "volume": 59191,
+            "average20": 247.974,
+            "average60": 241.101
+          },
+          {
+            "date": "2026-07-15",
+            "close": 274.51,
+            "volume": 88923,
+            "average20": 251.034,
+            "average60": 241.393
+          },
+          {
+            "date": "2026-07-16",
+            "close": 271.73,
+            "volume": 62296,
+            "average20": 254.034,
+            "average60": 241.813
+          },
+          {
+            "date": "2026-07-17",
+            "close": 250.51,
+            "volume": 76164,
+            "average20": 255.648,
+            "average60": 241.902
+          },
+          {
+            "date": "2026-07-20",
+            "close": 259.3,
+            "volume": 60655,
+            "average20": 257.174,
+            "average60": 242.222
+          },
+          {
+            "date": "2026-07-21",
+            "close": 275.5,
+            "volume": 78438,
+            "average20": 259.549,
+            "average60": 242.794
+          },
+          {
+            "date": "2026-07-22",
+            "close": 277.29,
+            "volume": 59291,
+            "average20": 261.574,
+            "average60": 243.51
+          },
+          {
+            "date": "2026-07-23",
+            "close": 268.4,
+            "volume": 22802,
+            "average20": 262.858,
+            "average60": 244.069
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 262.9 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 245.7，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 279.75,
+            "recentAverage": 262.858,
+            "longerAverage": 244.069,
+            "recentHigh": 288.96,
+            "recentLow": 245.66
+          }
+        }
+      },
+      "risk": [
+        "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+        "若下一期现金流明显落后于利润，百济神州的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，百济神州需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查百济神州的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘百济神州值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。",
+            "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。"
+          ]
+        },
+        "upside": {
+          "summary": "百济神州的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "临床或审批进展、产品销售、授权收入或研发效率",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "百济神州的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本269.23元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。继续恶化，或价格跌破60日平均成本269.23元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "下一次财报继续验证现金流，并看价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "百济神州的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收382.25亿元，同比+0%；归母净利润14.61亿元，同比+0%。2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。",
+            "reason": "百济神州当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-05-12/1225291734.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。",
+            "reason": "百济神州当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-15/1225104515.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-15/1225104515.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘279元，低于20日平均成本290.78元；60日平均成本269.23元，近20个交易日涨跌+3.72%。",
+            "reason": "百济神州当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+        "items": [
+          "2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。",
+          "下一次财报继续验证现金流，并看价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收382.25亿元，同比+0%；归母净利润14.61亿元，同比+0%。2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。",
+          "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。",
+          "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查百济神州的新公告是否出现临床或审批进展、产品销售、授权收入或研发效率，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘百济神州值得继续观察，暂不追涨。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收382.25亿元，同比+0%；归母净利润14.61亿元，同比+0%。2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。"
+      },
+      {
+        "label": "已确认",
+        "text": "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘279元，低于20日平均成本290.78元；60日平均成本269.23元，近20个交易日涨跌+3.72%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "百济神州当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "百济神州当前业务信号为：这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "百济神州当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。"
+      },
+      {
+        "label": "判断",
+        "text": "下一次财报继续验证现金流，并看价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，百济神州的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，百济神州需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "status": "open"
+      },
+      {
+        "question": "百济神州的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "688235.SH",
+      "research_status": "COMPLETED",
+      "score": 96.4,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.2,
+        "revenue_transmission": 12,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "688235.SH",
+      "company": "百济神州",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 59.37,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 60.92,
+      "technical_timing_score": 67.2,
+      "data_readiness_score": 100,
+      "action_readiness_score": 77.24,
+      "candidate_priority_score": 57.21,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 54.4,
+          "average_rating": 2.72,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2.7,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 60.92,
+          "average_rating": 3.05,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 3.08,
+            "upside_downside": 2.65,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.1
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 67.2,
+          "average_rating": 3.36,
+          "details": {
+            "monthly_trend": 3.7,
+            "weekly_structure": 3.45,
+            "daily_buy_point": 1.8,
+            "gf_dma_alignment": 4.6,
+            "drawdown_position": 3.25
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "创新药研发与全球销售处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。",
+          "missing_proof": "临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "关键临床、审批或商业化进度晚于原计划。",
+        "研发投入继续增加，但获批产品销售没有形成增长。",
+        "核心产品出现安全性、竞争或医保价格压力。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "WAIT_FOR_PRICE",
+      "label": "公司可看，价格不合适",
+      "researchRating": "B",
+      "overallScore": 59.73,
+      "fundamentalScore": 76.95,
+      "companyScore": 72,
+      "evidenceScore": 96,
+      "valuationScore": 28,
+      "timingScore": 57,
+      "riskScore": 57,
+      "reason": "公司基本面可以继续看，但当前价格相对盈利和增长不够划算。",
+      "nextCondition": "等待估值回到更合理区间。",
+      "metrics": {
+        "pe": 282.9555,
+        "ps": 10.8127,
+        "revenueGrowth": 0.3102,
+        "profitGrowth": -18.013,
+        "cashConversion": 0.8416,
+        "debtRatio": 0.4408,
+        "return20": 0.0372
+      }
+    },
+    "overlay": {
+      "symbol": "688235.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "创新药研发与全球销售",
+      "bottleneck_reason": "创新药价值必须经过临床、获批和销售，再进入利润和现金流；本次最关键的公司原文是：账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。",
+      "revenue_transmission": "这条原文直接说明临床或审批进展、产品销售、授权收入或研发效率已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.62,
+      "layer_score": 70,
+      "company_fit": 70,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "临床或审批进展、产品销售、授权收入或研发效率与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收382.25亿元，同比+0%；归母净利润14.61亿元，同比+0%。2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。2026-08-26复权收盘279元，低于20日平均成本290.78元；60日平均成本269.23元，近20个交易日涨跌+3.72%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 2,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -1,
+      "action_condition_summary": "下一次财报继续验证现金流，并看价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+        "若下一期现金流明显落后于利润，百济神州的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，百济神州需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化临床或审批进展、产品销售、授权收入或研发效率？",
+        "百济神州的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收105.44亿元，较可比期+31.02%；归母净利润16.08亿元，较可比期-1801.3%；经营现金流13.53亿元。",
+          "账龄超过1年且金额重要的预付款项未及时结算原因的说明： 于2025年12月31日及2024年12月31日，账龄超过1年的预付款项主要与临床研究项目有关， 由于临床研究项目时间较长，且合同正在执行过程中，尚未结算，本集团按照合同进度记录研发 费用和应付账款。"
+        ]
+      },
+      "upside": {
+        "summary": "百济神州的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "临床或审批进展、产品销售、授权收入或研发效率",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "百济神州的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本269.23元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "临床或审批进展、产品销售、授权收入或研发效率继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若母公司存在未弥补亏损 √适用 □不适用 截至2025年12月31日，母公司存在未弥补亏损，这主要由于新药研发、生产、商业化是一个 投资大、周期长、风险高的过程，公司自成立以来在药物早期发现、临床前研究、临床开发、监 管审查、生产、商业化推广等多个环节持续投入，存在累计亏损。继续恶化，或价格跌破60日平均成本269.23元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "下一次财报继续验证现金流，并看价格站上20日平均成本290.78元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

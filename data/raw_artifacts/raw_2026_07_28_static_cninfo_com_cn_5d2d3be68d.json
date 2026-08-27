@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_28_static_cninfo_com_cn_5d2d3be68d",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于获得美国FDA孤儿药资格认定的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-28/1225442608.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5d2d3be68d",
+  "fetchRunId": "fetch_2026_07_28_static_cninfo_com_cn_5d2d3be68d",
+  "publishedAt": "2026-07-28",
+  "firstSeenAt": "2026-07-28T16:16:24+08:00",
+  "capturedAt": "2026-07-28T16:16:24+08:00",
+  "contentHash": "sha256:92a86bd69b36e344938499491ba7ee4355e64963ad6c28e41768c7937b9b4816",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_28_static_cninfo_com_cn_5d2d3be68d.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_28_filing_1405359ca3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ea08d6b7ca190096; listSourceId=src_cninfo_600276_announcements."
+}

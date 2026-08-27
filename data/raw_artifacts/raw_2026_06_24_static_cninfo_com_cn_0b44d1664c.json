@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_0b44d1664c",
+  "artifactType": "filing",
+  "title": "北京市天元律师事务所关于中国长江电力股份有限公司2026年第一次临时股东会的法律意见",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225383759.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0b44d1664c",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_0b44d1664c",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:df916e27925884154a9e76a43400fd69daba02e624e52660ff2c5975004a9e83",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_0b44d1664c.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_e9a23c5f93"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d7ef32f4619ec951; listSourceId=src_cninfo_600900_announcements."
+}

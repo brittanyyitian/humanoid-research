@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_17_orbbec_com_cn_54dd05a425",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "奥比中光科技集团股份有限公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-18T18:32:18+08:00",
+  "finishedAt": "2026-07-18T18:32:19+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_17_orbbec_com_cn_54dd05a425"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_other_359f49aedb"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "https://www.orbbec.com.cn/index/News/info.html?cate=31&id=377",
+      "status": "metadata_only",
+      "startedAt": "2026-07-18T18:32:18+08:00",
+      "finishedAt": "2026-07-18T18:32:18+08:00",
+      "contentHash": "sha256:07fed510b5d1374bcd37c8ec80b0b30c510f78a6b74b9cabb2846d8e79db2b50",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_17_orbbec_com_cn_54dd05a425.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-18T18:32:19+08:00",
+      "finishedAt": "2026-07-18T18:32:19+08:00",
+      "contentHash": "sha256:be681be485760c94e405bf1b7429316c954c02af4c7490a709d25863524d3db3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_17_orbbec_com_cn_54dd05a425.json"
+    }
+  ]
+}

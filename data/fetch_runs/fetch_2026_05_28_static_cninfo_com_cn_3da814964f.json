@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_28_static_cninfo_com_cn_3da814964f",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "泰山石油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_28_static_cninfo_com_cn_3da814964f"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_7bdbb55e57"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332606.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:c0c7f68548c410c949e863b6ae490cf38d32031b06920d40b5c4c9a26654adb5",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_3da814964f.json"
+    }
+  ]
+}

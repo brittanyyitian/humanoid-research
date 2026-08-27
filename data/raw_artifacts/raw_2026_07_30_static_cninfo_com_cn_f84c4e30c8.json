@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_f84c4e30c8",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于获得药物临床试验批准通知书的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225446578.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f84c4e30c8",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_f84c4e30c8",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:e3a1620590ec251107ea75008f7cc2b771b62d5bd0ff89e7ec19c67a55b3b656",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_f84c4e30c8.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_8001f2b1d9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b1477e921aa816ee; listSourceId=src_cninfo_600276_announcements."
+}

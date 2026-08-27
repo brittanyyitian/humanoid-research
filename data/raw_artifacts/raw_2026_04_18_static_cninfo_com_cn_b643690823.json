@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_18_static_cninfo_com_cn_b643690823",
+  "artifactType": "filing",
+  "title": "中无人机2025年年度股东会决议公告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-18/1225118546.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b643690823",
+  "fetchRunId": "fetch_2026_04_18_static_cninfo_com_cn_b643690823",
+  "publishedAt": "2026-04-18",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a716c79005f530a00b4a51bdd911b012a049e1e70876640e7ba4aa32b8ef0b3f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_18_static_cninfo_com_cn_b643690823.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_04_18_filing_30c16b1dba"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c24252b970077fd2; listSourceId=src_cninfo_688297_announcements."
+}

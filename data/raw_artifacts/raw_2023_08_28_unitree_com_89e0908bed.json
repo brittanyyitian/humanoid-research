@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_08_28_unitree_com_89e0908bed",
+  "artifactType": "news_page",
+  "title": "宇树首款「通用人形机器人」 重磅发布",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/15",
+  "sourceId": "src_unitree_com_89e0908bed",
+  "fetchRunId": "fetch_2023_08_28_unitree_com_89e0908bed",
+  "publishedAt": "2023-08-28",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:b7835883c8f85c8b0898efa19547bad229dc7a1a79480b3c27f3702034825898",
+  "storagePath": "raw_artifacts/payloads/raw_2023_08_28_unitree_com_89e0908bed.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_08_28_product_release_e4ddb21ba9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_1d226fdc506955e0; listSourceId=src_unitree_official_news."
+}

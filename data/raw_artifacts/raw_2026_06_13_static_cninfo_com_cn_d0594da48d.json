@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_d0594da48d",
+  "artifactType": "filing",
+  "title": "中芯国际关于发行股份购买资产暨关联交易事项之标的资产过户完成的公告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225368688.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d0594da48d",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_d0594da48d",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:83d9975c40d63ea7fe3afe99ce72146d86922751733c106dbe46946e2b15f5f3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_d0594da48d.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_f58b7eafce"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dcd0132b4bce907b; listSourceId=src_cninfo_688981_announcements."
+}

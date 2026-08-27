@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_29_e3b25fffef32",
+  "rawArtifactId": "raw_2026_07_29_agibot_com_cn_709de84458",
+  "routeDecisionId": "route_2026_07_29_c2222d43e1d3",
+  "pipeline": "company_pipeline",
+  "type": "company",
+  "entityId": "zhiyuan_robot",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-07-29T16:16:17+08:00",
+  "updatedAt": "2026-07-29T16:16:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-29T16:16:19+08:00",
+  "finishedAt": "2026-07-29T16:16:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_29_other_b24cdbe0de"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_29_other_b24cdbe0de"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_29_company_material_v0_21dbb46346"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_29_6046be4b555d"
+  ]
+}

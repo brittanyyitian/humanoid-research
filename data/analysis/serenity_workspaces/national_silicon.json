@@ -1,0 +1,147 @@
+{
+  "id": "saout_national_silicon_33b8acc5f7cd",
+  "entityId": "national_silicon",
+  "name": "沪硅产业",
+  "generatedAt": "2026-08-27T16:37:24+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "s_evidence\": 3.74,\n        \"upside_downside\": 2.6,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.35\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 34.2,\n      \"average_rating\": 1.71,\n      \"details\": {\n        \"monthly_trend\": 2.9,\n        \"weekly_structure\": 2.1,\n        \"daily_buy_point\": 0.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.8\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"制造材料处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 5 份财报或业绩材料；近20日涨跌 -22.4%，近60日涨跌 24.3%；客户或订单证据 2 条直接、2 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688126.SH",
+    "symbol": "688126"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_20_static_cninfo_com_cn_ce4089061f",
+      "raw_2026_08_20_static_cninfo_com_cn_6f5d45e2b4",
+      "raw_2026_08_20_static_cninfo_com_cn_6316ff9457",
+      "raw_2026_08_20_static_cninfo_com_cn_32a1d508d9",
+      "raw_2026_08_20_static_cninfo_com_cn_c94e106ba6",
+      "raw_2026_07_29_static_cninfo_com_cn_d4ca02ebde",
+      "raw_2026_07_29_static_cninfo_com_cn_5da04f5af2",
+      "raw_2026_06_10_static_cninfo_com_cn_b601576610"
+    ],
+    "claimIds": [
+      "claim_2026_08_20_filing_a52bea7cde",
+      "claim_2026_08_20_filing_b434b1f3ef",
+      "claim_2026_08_20_filing_8b6f88a62e",
+      "claim_2026_08_20_filing_c1826ee78f",
+      "claim_2026_08_20_filing_b0cd6e914e",
+      "claim_2026_07_29_filing_ac427cd2d6",
+      "claim_2026_07_29_filing_2bdc1aef35",
+      "claim_2026_06_10_filing_1e634252c5",
+      "claim_2026_06_10_filing_012daefb49",
+      "claim_2026_04_17_filing_9e6ab33cee",
+      "claim_2026_04_17_filing_135f32c564",
+      "claim_2025_08_29_filing_fb7c5337ee",
+      "claim_2025_08_29_filing_e019008397",
+      "claim_2025_04_24_filing_0ba41143a5",
+      "claim_2025_04_24_filing_b46e02ad3c",
+      "claim_2026_07_08_filing_fdf5e25586",
+      "claim_2026_06_19_filing_671fc9b628",
+      "claim_2026_04_30_filing_c317182e5d",
+      "claim_2026_04_30_filing_c8e122d108",
+      "claim_2026_04_17_filing_655bc6b4a0"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/data/688126/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "沪硅产业 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 58.4/100",
+    "inputState": "CANDIDATE_POOL · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/data/688126/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_44_34_national_silicon/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 688126.SH (沪硅产业)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **58.4 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **CANDIDATE_POOL**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 61.43 |\n| Evidence confidence | 84.04 |\n| Market payoff | 64.36 |\n| Technical timing | 34.2 |\n| Data readiness | 100.0 |\n| Action readiness | 62.39 |\n\n## Falsification Points\n- 后续财报仍看不到核心产品收入、客户验证或份额提升。\n- 研发和扩产投入增加，但订单、收入与现金流没有同步改善。\n- 行业景气回落，价格或库存变化削弱原来的增长判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

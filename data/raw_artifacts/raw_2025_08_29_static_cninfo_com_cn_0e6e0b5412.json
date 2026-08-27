@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_0e6e0b5412",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224606011.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0e6e0b5412",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_0e6e0b5412",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d4129cb696377fdcdad1ea224bc12ee0876fa39d256f66f76ed2d21cf8608d83",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_0e6e0b5412.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_3b8184b348"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9ebd00fb933e8d6e; listSourceId=src_cninfo_688012_announcements."
+}

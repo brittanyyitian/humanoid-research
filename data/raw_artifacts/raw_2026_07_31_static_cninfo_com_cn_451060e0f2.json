@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_451060e0f2",
+  "artifactType": "filing",
+  "title": "中芯国际关于召开2026年第二季度业绩说明会的预告公告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225448405.PDF",
+  "sourceId": "src_static_cninfo_com_cn_451060e0f2",
+  "fetchRunId": "fetch_2026_07_31_static_cninfo_com_cn_451060e0f2",
+  "publishedAt": "2026-07-31",
+  "firstSeenAt": "2026-07-31T16:18:10+08:00",
+  "capturedAt": "2026-07-31T16:18:10+08:00",
+  "contentHash": "sha256:21a95d88541eb315c7775f34eae983086b954f112c7b5dc0c1fd21a1a4e43767",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_31_static_cninfo_com_cn_451060e0f2.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_07_31_filing_43ab65455b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d489f5cd262c0683; listSourceId=src_cninfo_688981_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_25_static_cninfo_com_cn_4d1ac797c6",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于中科寒武纪科技股份有限公司调整募投项目内部投资结构的核查意见",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-25/1225441720.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4d1ac797c6",
+  "fetchRunId": "fetch_2026_07_25_static_cninfo_com_cn_4d1ac797c6",
+  "publishedAt": "2026-07-25",
+  "firstSeenAt": "2026-07-25T16:17:49+08:00",
+  "capturedAt": "2026-07-25T16:17:49+08:00",
+  "contentHash": "sha256:38e202ef1987c7c50eff7cac1da8d22b62df4e8e09e061db841423a3466d8542",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_25_static_cninfo_com_cn_4d1ac797c6.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_07_25_filing_e00d0e674f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b077d47db4da48ff; listSourceId=src_cninfo_688256_announcements."
+}

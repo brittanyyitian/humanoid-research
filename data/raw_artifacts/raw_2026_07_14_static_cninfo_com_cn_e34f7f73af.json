@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_e34f7f73af",
+  "artifactType": "filing",
+  "title": "关于控股股东、实际控制人部分股份解除质押的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422744.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e34f7f73af",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_e34f7f73af",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:9221dc6a0d6accaa4a3b68a1bf7d07c272f5a2826827616f8a3584d2d3551db1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_e34f7f73af.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_7f1d6c9feb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b7299e8a3cf9c7b6; listSourceId=src_cninfo_301413_announcements."
+}

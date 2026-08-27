@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_9ec9938ed0",
+  "artifactType": "filing",
+  "title": "《安集微电子科技（上海）股份有限公司重大投资和交易决策制度（草案）》（H股发行并上市后适用）",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422221.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9ec9938ed0",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_9ec9938ed0",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:223dbe43a4800554577971d611267d8240ebc346bdf439d8c5bf23009af5b770",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_9ec9938ed0.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_1fda99bc2e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9a9b77fab7e14b9b; listSourceId=src_cninfo_688019_announcements."
+}

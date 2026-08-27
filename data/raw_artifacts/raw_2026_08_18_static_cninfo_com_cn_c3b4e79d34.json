@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_c3b4e79d34",
+  "artifactType": "filing",
+  "title": "H股公告-董事会会议召开日期",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477729.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c3b4e79d34",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_c3b4e79d34",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:b383a6dc854cebfa1673bebb8e581bffbe9f0909b72d16aa56c9c7e702cadd67",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_c3b4e79d34.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_f587e3cee1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_386951ba818bb0aa; listSourceId=src_cninfo_688008_announcements."
+}

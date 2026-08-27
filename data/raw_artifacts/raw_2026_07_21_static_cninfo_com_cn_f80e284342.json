@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_21_static_cninfo_com_cn_f80e284342",
+  "artifactType": "filing",
+  "title": "关于股份回购实施结果暨股份变动的公告",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-21/1225433468.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f80e284342",
+  "fetchRunId": "fetch_2026_07_21_static_cninfo_com_cn_f80e284342",
+  "publishedAt": "2026-07-21",
+  "firstSeenAt": "2026-07-21T16:15:38+08:00",
+  "capturedAt": "2026-07-21T16:15:38+08:00",
+  "contentHash": "sha256:9c8e5ce55bcd43045e9f026eecaf55d42b6c78e4b5657bad2f52ed421112a99b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_21_static_cninfo_com_cn_f80e284342.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_07_21_filing_3db640ff8b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b9994844e7284bec; listSourceId=src_cninfo_688322_announcements."
+}

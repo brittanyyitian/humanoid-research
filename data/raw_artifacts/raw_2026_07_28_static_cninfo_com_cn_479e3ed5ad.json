@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_28_static_cninfo_com_cn_479e3ed5ad",
+  "artifactType": "filing",
+  "title": "关于回购公司A股股份方案的公告暨回购股份报告书",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-28/1225443530.PDF",
+  "sourceId": "src_static_cninfo_com_cn_479e3ed5ad",
+  "fetchRunId": "fetch_2026_07_28_static_cninfo_com_cn_479e3ed5ad",
+  "publishedAt": "2026-07-28",
+  "firstSeenAt": "2026-07-28T16:16:24+08:00",
+  "capturedAt": "2026-07-28T16:16:24+08:00",
+  "contentHash": "sha256:9bbb427e1968fdac6f31b0abd29dd4f591c231a28f4447529124774a2f26ccb9",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_28_static_cninfo_com_cn_479e3ed5ad.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_28_filing_49e450da25"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8926525b9b7a8932; listSourceId=src_cninfo_002050_announcements."
+}

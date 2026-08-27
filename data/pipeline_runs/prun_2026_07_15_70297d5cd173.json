@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_15_70297d5cd173",
+  "pipelineTaskId": "ptask_2026_07_15_60b73f2778a0",
+  "rawArtifactId": "raw_2024_07_28_leaderdrive_com_a8bc0e2461",
+  "routeDecisionId": "route_2024_07_28_728c4c17eecd",
+  "pipeline": "product_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "claimIds": [
+    "claim_2024_07_28_product_release_acc838b050"
+  ],
+  "evidenceIds": [
+    "evd_2024_07_28_product_release_acc838b050"
+  ],
+  "ruleOutputIds": [
+    "rout_2024_07_28_product_material_v0_b51d429ca0"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

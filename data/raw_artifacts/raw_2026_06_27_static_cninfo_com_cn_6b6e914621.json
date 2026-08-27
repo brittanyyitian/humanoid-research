@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_27_static_cninfo_com_cn_6b6e914621",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于所属企业获得化学原料药上市申请批准通知书的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225389677.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6b6e914621",
+  "fetchRunId": "fetch_2026_06_27_static_cninfo_com_cn_6b6e914621",
+  "publishedAt": "2026-06-27",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:297301002d5294beb0be3370b784801252c91e5064a169236ae8fbcbd560300d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_27_static_cninfo_com_cn_6b6e914621.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_06_27_filing_11619270cf"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_14cb608ad3cad78c; listSourceId=src_cninfo_600664_announcements."
+}

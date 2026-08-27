@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_b8d1ce1213a6",
+  "rawArtifactId": "raw_2026_07_03_static_cninfo_com_cn_289f327f61",
+  "routeDecisionId": "route_2026_07_03_9796bf498a75",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "hechuan_technology",
+  "entityIds": [
+    "hechuan_technology"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-15T11:03:07+08:00",
+  "updatedAt": "2026-07-15T11:03:07+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_03_filing_442ec7ff7a"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_03_filing_442ec7ff7a"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_03_filing_material_v0_e722edf3f6"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_e046e26dcec5"
+  ]
+}

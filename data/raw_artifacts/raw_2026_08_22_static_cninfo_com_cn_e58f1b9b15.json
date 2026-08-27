@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_e58f1b9b15",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于A股股票交易异常波动公告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225493658.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e58f1b9b15",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_e58f1b9b15",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:2f6ab44cbc14750bfc8bcdf116ddd6c44751077a479ccff0b771cd46c67d4136",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_e58f1b9b15.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_05886c90c6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2f3b6f04385f405c; listSourceId=src_cninfo_600547_announcements."
+}

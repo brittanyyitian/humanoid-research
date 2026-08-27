@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_f3b9ceaa8f",
+  "artifactType": "filing",
+  "title": "第十届董事会第三十四次会议决议公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225359847.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3b9ceaa8f",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_f3b9ceaa8f",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a37c432b810a5f26916f355e82d424aa6a98004d79d8f509de16bc308e50dd65",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_f3b9ceaa8f.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_0e7b40144e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fbbefdf5e2327aa2; listSourceId=src_cninfo_000426_announcements."
+}

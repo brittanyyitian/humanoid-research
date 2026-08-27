@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_b7d3bf3e6c",
+  "artifactType": "filing",
+  "title": "关于召开2025年度股东会的通知",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036396.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b7d3bf3e6c",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_b7d3bf3e6c",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:61c99a9cf3865fe73a8c730422a6daf92098ea34d6eb3456f68f796af05617e6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_b7d3bf3e6c.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_775b7893ff"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_653864f18c4f8380; listSourceId=src_cninfo_002389_announcements."
+}

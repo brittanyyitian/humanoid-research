@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "serenity_decision_counsel",
+  "description": "AI-written decision counsel over one decision brief: every briefed action gets a stance with rationale, risk, and invalidation; observed/inferred/judgment stay separated; confidence is capped by calibration history.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_type",
+    "schema_version",
+    "generated_at",
+    "source_brief_generated_at",
+    "market_view",
+    "observed",
+    "inferred",
+    "judgment",
+    "action_counsel",
+    "portfolio_counsel",
+    "confidence",
+    "boundaries",
+    "next_review"
+  ],
+  "properties": {
+    "contract_type": {"const": "serenity_decision_counsel"},
+    "schema_version": {"const": "1.0"},
+    "generated_at": {"type": "string"},
+    "source_brief_generated_at": {"type": "string", "minLength": 1},
+    "market_view": {"type": "string", "minLength": 8},
+    "observed": {"type": "array", "minItems": 2, "items": {"type": "string", "minLength": 4}},
+    "inferred": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 4}},
+    "judgment": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 4}},
+    "action_counsel": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["action_index", "kind", "stance", "rationale", "risk", "invalidation"],
+        "properties": {
+          "action_index": {"type": "integer", "minimum": 1},
+          "kind": {"type": "string", "minLength": 1},
+          "symbol": {"type": "string"},
+          "stance": {"enum": ["EXECUTE", "DEFER", "SKIP"]},
+          "rationale": {"type": "string", "minLength": 8},
+          "risk": {"type": "string", "minLength": 4},
+          "invalidation": {"type": "string", "minLength": 4}
+        }
+      }
+    },
+    "watch_counsel": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["symbol", "view"],
+        "properties": {
+          "symbol": {"type": "string", "minLength": 1},
+          "view": {"type": "string", "minLength": 8}
+        }
+      }
+    },
+    "portfolio_counsel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["applicable", "text"],
+      "properties": {
+        "applicable": {"type": "boolean"},
+        "text": {"type": "string", "minLength": 4}
+      }
+    },
+    "confidence": {"enum": ["LOW", "MEDIUM", "HIGH"]},
+    "boundaries": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 4}},
+    "next_review": {"type": "string", "minLength": 4}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_22_static_cninfo_com_cn_9737f05f4a",
+  "artifactType": "filing",
+  "title": "关于控股股东部分股份质押展期的公告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-22/1225380480.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9737f05f4a",
+  "fetchRunId": "fetch_2026_06_22_static_cninfo_com_cn_9737f05f4a",
+  "publishedAt": "2026-06-22",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:402f865451e01ce0122c52a4e875a48859f87b7e6fbf072b2f84c1ba8d554009",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_22_static_cninfo_com_cn_9737f05f4a.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_06_22_filing_df8d5a570b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1974f468978af39c; listSourceId=src_cninfo_300354_announcements."
+}

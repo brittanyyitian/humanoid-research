@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_08357f1a68",
+  "artifactType": "filing",
+  "title": "2025年年度报告摘要",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039260.PDF",
+  "sourceId": "src_static_cninfo_com_cn_08357f1a68",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_08357f1a68",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:f61145bcaf279b18429bcca23e344e2ec7c7253076e78595ea787c92294dcd70",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_08357f1a68.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_1ac61bc6b7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3a698f3ee0674e57; listSourceId=src_cninfo_688347_announcements."
+}

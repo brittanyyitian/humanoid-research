@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_bb9cc21f15",
+  "artifactType": "filing",
+  "title": "2023年度第一期中期票据兑付完成的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225255991.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bb9cc21f15",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_bb9cc21f15",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e71a5fa63d207f1c70e0cdfbe9883010399b919a10e9dafd03582624af37f358",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_bb9cc21f15.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_c0a6d89dc5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2081b144de9c941a; listSourceId=src_cninfo_600667_announcements."
+}

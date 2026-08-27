@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_11283360c2",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "华虹公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224609533.PDF",
+  "sourceId": "src_static_cninfo_com_cn_11283360c2",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_11283360c2",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:f8f691d43bb3dae5cbd78545c4a6b91dac5242a9e82201c37cdd81d05bd3e8fb",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_11283360c2.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_7acfa6340f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fa5dead726e0bf6b; listSourceId=src_cninfo_688347_announcements."
+}

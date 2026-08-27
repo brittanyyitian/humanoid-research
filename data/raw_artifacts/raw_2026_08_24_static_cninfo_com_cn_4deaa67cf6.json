@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_4deaa67cf6",
+  "artifactType": "filing",
+  "title": "关于董事和高级管理人员持股情况变动的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225498128.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4deaa67cf6",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_4deaa67cf6",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T21:15:36+08:00",
+  "capturedAt": "2026-08-24T21:15:36+08:00",
+  "contentHash": "sha256:8b3d1dd38cf38779b79ced1fcbdb37a728a0781017540fcafc289dc0c1d65574",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_4deaa67cf6.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_4aa00c21c5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_89073e8d8a1d057d; listSourceId=src_cninfo_301413_announcements."
+}

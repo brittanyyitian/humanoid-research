@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_23_static_cninfo_com_cn_a7146d9875",
+  "artifactType": "filing",
+  "title": "关于2022年度向特定对象发行A股股票募投项目结项并将节余募集资金永久补充流动资金的公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-23/1225327207.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a7146d9875",
+  "fetchRunId": "fetch_2026_05_23_static_cninfo_com_cn_a7146d9875",
+  "publishedAt": "2026-05-23",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:b6b2db375a34f01deef2123207c8db85662bf107aa4173eaf4dc1cce01928ed3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_23_static_cninfo_com_cn_a7146d9875.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_05_23_filing_ba7b79360d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b50d31dc056b9f46; listSourceId=src_cninfo_688256_announcements."
+}

@@ -1,0 +1,1984 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "orbbec",
+  "name": "奥比中光",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_orbbec_2026-07-15",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T17:57:10+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 113.96,
+      "currency": "CNY",
+      "changePct": 2.19,
+      "technicalTimingScore": 44.6,
+      "marketPayoffScore": 61.56,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -3.7206037206037164,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": -1.2633387633387732,
+          "maxDrawdownPct": -30.185055865921782,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-16",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:18:17+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 114.56,
+      "currency": "CNY",
+      "changePct": 0.53,
+      "technicalTimingScore": 40.6,
+      "marketPayoffScore": 56.36,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -3.9979050279329598,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -3.952117482145407,
+          "maxDrawdownPct": -30.185055865921782,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-17",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:18:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 100.15,
+      "currency": "CNY",
+      "changePct": -12.58,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 56.36,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": 9.815277084373438,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": 6.039533377279616,
+          "maxDrawdownPct": -20.13979031452821,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-19",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T13:19:45+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 100.15,
+      "currency": "CNY",
+      "changePct": -12.578561452513965,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 56.36,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": 12.830753869196199,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -20.13979031452821,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-20",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:19:43+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 92.8,
+      "currency": "CNY",
+      "changePct": -7.34,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 24.04094827586207,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": 13.23013746505126,
+          "maxDrawdownPct": -18.095238095238095,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-21",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 97.65,
+      "currency": "CNY",
+      "changePct": 5.23,
+      "technicalTimingScore": 38.2,
+      "marketPayoffScore": 56.36,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": 0.8704557091653807,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": 2.8104557091653786,
+          "maxDrawdownPct": -18.095238095238095,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-22",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:17:43+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "Serenity 当前判断：放观察池，不升级为核心候选",
+      "price": 93.6,
+      "currency": "CNY",
+      "changePct": -4.15,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": 6.8376068376068435,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": 8.548133153396316,
+          "maxDrawdownPct": -14.55128205128204,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-23",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 90.94,
+      "currency": "CNY",
+      "changePct": -2.84,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 11.062238838794812,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 12.352908373615993,
+          "maxDrawdownPct": -14.429675962123186,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-24",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 87.57,
+      "currency": "CNY",
+      "changePct": -3.71,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 15.336302386662107,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 12.27632519209915,
+          "maxDrawdownPct": -14.429675962123186,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-25",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 87.57,
+      "currency": "CNY",
+      "changePct": -3.71,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 15.336302386662107,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 12.486675030239475,
+          "maxDrawdownPct": -14.429675962123186,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-26",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 87.57,
+      "currency": "CNY",
+      "changePct": -3.71,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 5.629781888774703,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 6.335045046669442,
+          "maxDrawdownPct": -19.642081487273042,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-27",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 91.89,
+      "currency": "CNY",
+      "changePct": 4.93,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 5.3433453041680234,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 7.158718034952106,
+          "maxDrawdownPct": -19.642081487273042,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-28",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 87.91,
+      "currency": "CNY",
+      "changePct": -4.33,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 6.882038448413147,
+          "poolReturnPct": 0,
+          "excessReturnPct": 6.882038448413147,
+          "maxDrawdownPct": -19.642081487273042,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-29",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 86.38,
+      "currency": "CNY",
+      "changePct": -1.74,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 12.618661727251688,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 10.39767338744048,
+          "maxDrawdownPct": -19.642081487273042,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-30",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 79.98,
+      "currency": "CNY",
+      "changePct": -7.41,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-07-31",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 93.86,
+      "currency": "CNY",
+      "changePct": 17.35,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-01",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 93.86,
+      "currency": "CNY",
+      "changePct": 17.35,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-02",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 93.86,
+      "currency": "CNY",
+      "changePct": 17.35,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-03",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 100.23,
+      "currency": "CNY",
+      "changePct": 6.79,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-04",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 106.18,
+      "currency": "CNY",
+      "changePct": 5.94,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-05",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.02,
+      "currency": "CNY",
+      "changePct": 2.67,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-06",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:32+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 108.96,
+      "currency": "CNY",
+      "changePct": -0.06,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-07",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 111.88,
+      "currency": "CNY",
+      "changePct": 2.68,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-08",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 111.88,
+      "currency": "CNY",
+      "changePct": 2.68,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-09",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 111.88,
+      "currency": "CNY",
+      "changePct": 2.68,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-10",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.42,
+      "currency": "CNY",
+      "changePct": -2.2,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-11",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 114.38,
+      "currency": "CNY",
+      "changePct": 4.53,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-12",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 112.51,
+      "currency": "CNY",
+      "changePct": -1.63,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-13",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.72,
+      "currency": "CNY",
+      "changePct": -2.48,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-14",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.98,
+      "currency": "CNY",
+      "changePct": 0.24,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-15",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.98,
+      "currency": "CNY",
+      "changePct": 0.24,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-16",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 109.98,
+      "currency": "CNY",
+      "changePct": 0.24,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-17",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 113,
+      "currency": "CNY",
+      "changePct": 2.75,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-18",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 115.11,
+      "currency": "CNY",
+      "changePct": 1.87,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-19",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 98.5,
+      "currency": "CNY",
+      "changePct": -14.43,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-20",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:19+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 100,
+      "currency": "CNY",
+      "changePct": 1.52,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-21",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 101,
+      "currency": "CNY",
+      "changePct": 1,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-22",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 101,
+      "currency": "CNY",
+      "changePct": 1,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-23",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 101,
+      "currency": "CNY",
+      "changePct": 1,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-24",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 92.5,
+      "currency": "CNY",
+      "changePct": -8.42,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-25",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 96.8,
+      "currency": "CNY",
+      "changePct": 4.65,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-26",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 93.96,
+      "currency": "CNY",
+      "changePct": -2.93,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_orbbec_2026-08-27",
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "symbol": "688322.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "继续观察，等证据",
+      "price": 97.28,
+      "currency": "CNY",
+      "changePct": 3.53,
+      "technicalTimingScore": 35.4,
+      "marketPayoffScore": 58.88,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "订单是否兑现",
+        "180d": "看交付和财务兑现是否连续出现，而"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

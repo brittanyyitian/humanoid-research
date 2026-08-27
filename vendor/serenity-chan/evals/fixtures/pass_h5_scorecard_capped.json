@@ -1,0 +1,103 @@
+{
+  "ticker": "688019.SH",
+  "company": "Example Co",
+  "market": "CN_A",
+  "as_of_date": "2026-06-22",
+  "layer": {
+    "value_chain_bottleneck": 5,
+    "scarcity_and_entry_barrier": 5,
+    "demand_inflection_capture": 5,
+    "industry_positioning": 5
+  },
+  "company_thesis": {
+    "bottleneck_ownership": 5,
+    "revenue_translation": 5,
+    "financial_quality": 5,
+    "management_execution": 5,
+    "durability": 5
+  },
+  "evidence_confidence": {
+    "primary_source_coverage": 5,
+    "financial_statement_verification": 5,
+    "claim_traceability": 5,
+    "cross_source_consistency": 5,
+    "freshness": 5
+  },
+  "market_payoff": {
+    "valuation_discount": 5,
+    "implied_growth_vs_evidence": 5,
+    "upside_downside": 5,
+    "liquidity_capacity": 5,
+    "crowding_control": 5
+  },
+  "technical_timing": {
+    "monthly_trend": 5,
+    "weekly_structure": 5,
+    "daily_buy_point": 5,
+    "gf_dma_alignment": 5,
+    "drawdown_position": 5
+  },
+  "risk_controls": {
+    "falsification_clarity": 5,
+    "governance_accounting_risk_control": 5,
+    "balance_sheet_dilution_control": 5,
+    "cycle_policy_risk_control": 5,
+    "liquidity_event_risk_control": 5
+  },
+  "data_acquisition": {
+    "status_by_dataset": {
+      "current_quote": "OK",
+      "price_history_adjusted": "OK",
+      "valuation_inputs": "OK",
+      "financials": "OK",
+      "filings_announcements": "OK"
+    },
+    "data_gaps": [
+      {
+        "dataset": "financials",
+        "status": "PARTIAL",
+        "gap_type": "NOT_MACHINE_READABLE",
+        "decision_impact": "EVIDENCE_IMPACT",
+        "rating_impact": "S/A research ratings require L0/L1 verification of key financial statements.",
+        "next_action": "Reconcile core financial lines against official filings or an L1 database export.",
+        "source_name": "Eastmoney_F10_L3",
+        "source_level": "L3_MEDIA_F10_RESEARCH"
+      }
+    ],
+    "research_debt": [
+      {
+        "dataset": "financials",
+        "priority": "critical",
+        "gap_type": "NOT_MACHINE_READABLE",
+        "decision_impact": "EVIDENCE_IMPACT",
+        "rating_impact": "S/A research ratings require L0/L1 verification of key financial statements.",
+        "next_action": "Reconcile core financial lines against official filings or an L1 database export."
+      }
+    ],
+    "manual_retrieval_tasks": [
+      {
+        "dataset": "financials",
+        "priority": "critical",
+        "target_source": "Official filing PDF/XBRL or L1 financial database",
+        "objective": "Reconcile core financial lines against official filings or an L1 database export.",
+        "acceptance_criteria": [
+          "Source, date, status, and evidence level are recorded."
+        ]
+      }
+    ]
+  },
+  "blockers": [],
+  "evidence_notes": [
+    {
+      "claim": "Structured financial preflight is usable for screening.",
+      "source": "Eastmoney F10",
+      "source_level": "L3",
+      "supports": "candidate pool",
+      "missing_proof": "Official filing reconciliation",
+      "confidence": "Medium"
+    }
+  ],
+  "falsification_points": [
+    "Do not upgrade above B until L0/L1 financial verification is complete."
+  ]
+}

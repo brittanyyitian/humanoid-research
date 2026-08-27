@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_82eaf2448063",
+  "rawArtifactId": "raw_2026_07_09_static_cninfo_com_cn_31ef3171b7",
+  "routeDecisionId": "route_2026_07_09_3682baa6acbc",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "primarius",
+  "entityIds": [
+    "primarius"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:31:19+08:00",
+  "updatedAt": "2026-07-23T09:31:21+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:31:21+08:00",
+  "finishedAt": "2026-07-23T09:31:21+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_09_filing_763b16dd59"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_09_filing_763b16dd59"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_09_filing_material_v0_2e71a75964"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_1f1d45d17020"
+  ]
+}

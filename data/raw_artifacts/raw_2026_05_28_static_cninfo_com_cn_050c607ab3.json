@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_050c607ab3",
+  "artifactType": "filing",
+  "title": "关于购买董责险的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225332611.PDF",
+  "sourceId": "src_static_cninfo_com_cn_050c607ab3",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_050c607ab3",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:7e17d671af085435f28bf85fdc49600692ce8893f067b23202d6bfd0325820b4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_050c607ab3.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_6202273927"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_aebacc8f47e767da; listSourceId=src_cninfo_000554_announcements."
+}

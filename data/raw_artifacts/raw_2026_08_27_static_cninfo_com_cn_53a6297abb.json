@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_53a6297abb",
+  "artifactType": "filing",
+  "title": "第八届董事会第七次会议决议公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514845.PDF",
+  "sourceId": "src_static_cninfo_com_cn_53a6297abb",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_53a6297abb",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:d97fc83aa16f3dd6960f59321bb1bdc5feaafdda671df3525d0510ad32e72820",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_53a6297abb.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_07da31fe42"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_394afb53acfb42a1; listSourceId=src_cninfo_002179_announcements."
+}

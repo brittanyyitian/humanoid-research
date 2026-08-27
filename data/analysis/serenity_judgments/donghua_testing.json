@@ -1,0 +1,1984 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "donghua_testing",
+  "name": "东华测试",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-15",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T17:20:46+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 32.5,
+      "currency": "CNY",
+      "changePct": 5.11,
+      "technicalTimingScore": 31.2,
+      "marketPayoffScore": 55.96,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -7.630769230769233,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": -5.17350427350429,
+          "maxDrawdownPct": -15.938461538461537,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-16",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:28:25+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 31.53,
+      "currency": "CNY",
+      "changePct": -2.98,
+      "technicalTimingScore": 18.6,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -2.632413574373618,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -2.5866260285860654,
+          "maxDrawdownPct": -13.352362829051698,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-17",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:28:57+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 29.59,
+      "currency": "CNY",
+      "changePct": -6.15,
+      "technicalTimingScore": 20.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": 3.751267320040552,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": -0.024476387053270265,
+          "maxDrawdownPct": -7.671510645488339,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-19",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T21:28:41+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 29.59,
+      "currency": "CNY",
+      "changePct": -6.152870282270857,
+      "technicalTimingScore": 20.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": 4.731328151402496,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -7.671510645488339,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-20",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:30:54+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 28.1,
+      "currency": "CNY",
+      "changePct": -5.04,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 9.537366548042703,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": -1.2734442627681073,
+          "maxDrawdownPct": -5.955249569707402,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-21",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:30:03+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 29.05,
+      "currency": "CNY",
+      "changePct": 3.38,
+      "technicalTimingScore": 19,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": -0.5851979345955308,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": 1.354802065404467,
+          "maxDrawdownPct": -7.048599935629228,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-22",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:32:41+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 27.71,
+      "currency": "CNY",
+      "changePct": -4.61,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": 4.835799350415012,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": 6.546325666204485,
+          "maxDrawdownPct": -7.048599935629228,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-23",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.04,
+      "currency": "CNY",
+      "changePct": 1.19,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 3.958630527817402,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 5.249300062638582,
+          "maxDrawdownPct": -7.048599935629228,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-24",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.32,
+      "currency": "CNY",
+      "changePct": -2.57,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 6.698389458272322,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 3.638412263709366,
+          "maxDrawdownPct": -7.048599935629228,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-25",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.32,
+      "currency": "CNY",
+      "changePct": -2.57,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 6.698389458272322,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 3.848762101849691,
+          "maxDrawdownPct": -7.048599935629228,
+          "result": "仍不明确"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-26",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.32,
+      "currency": "CNY",
+      "changePct": -2.57,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -4.245973645680821,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": -3.5407104877860824,
+          "maxDrawdownPct": -15.803025426456388,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-27",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:47+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.95,
+      "currency": "CNY",
+      "changePct": 2.31,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": -3.4347048300536707,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": -1.6193320992695885,
+          "maxDrawdownPct": -15.803025426456388,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-28",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.73,
+      "currency": "CNY",
+      "changePct": -0.79,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": -3.173458348359174,
+          "poolReturnPct": 0,
+          "excessReturnPct": -3.173458348359174,
+          "maxDrawdownPct": -15.803025426456388,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-29",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.49,
+      "currency": "CNY",
+      "changePct": 2.74,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": -5.229905229905225,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": -7.450893569716433,
+          "maxDrawdownPct": -15.803025426456388,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-30",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27.66,
+      "currency": "CNY",
+      "changePct": -2.91,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-07-31",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.69,
+      "currency": "CNY",
+      "changePct": 3.72,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-01",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.69,
+      "currency": "CNY",
+      "changePct": 3.72,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-02",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.69,
+      "currency": "CNY",
+      "changePct": 3.72,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-03",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.04,
+      "currency": "CNY",
+      "changePct": 1.22,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-04",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.4,
+      "currency": "CNY",
+      "changePct": 1.24,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-05",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.97,
+      "currency": "CNY",
+      "changePct": 1.94,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-06",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:54+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:44+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.44,
+      "currency": "CNY",
+      "changePct": 1.57,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-07",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.3,
+      "currency": "CNY",
+      "changePct": -0.46,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-08",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.3,
+      "currency": "CNY",
+      "changePct": -0.46,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-09",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.3,
+      "currency": "CNY",
+      "changePct": -0.46,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-10",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 31.07,
+      "currency": "CNY",
+      "changePct": 2.54,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-11",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.49,
+      "currency": "CNY",
+      "changePct": -1.87,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-12",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.77,
+      "currency": "CNY",
+      "changePct": 0.92,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-13",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.02,
+      "currency": "CNY",
+      "changePct": -2.44,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-14",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.7,
+      "currency": "CNY",
+      "changePct": 2.27,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-15",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.7,
+      "currency": "CNY",
+      "changePct": 2.27,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-16",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.7,
+      "currency": "CNY",
+      "changePct": 2.27,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-17",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.99,
+      "currency": "CNY",
+      "changePct": 0.94,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-18",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 30.78,
+      "currency": "CNY",
+      "changePct": -0.68,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-19",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 28.88,
+      "currency": "CNY",
+      "changePct": -6.17,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-20",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.05,
+      "currency": "CNY",
+      "changePct": 0.59,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-21",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.15,
+      "currency": "CNY",
+      "changePct": 0.34,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-22",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.15,
+      "currency": "CNY",
+      "changePct": 0.34,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-23",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 29.15,
+      "currency": "CNY",
+      "changePct": 0.34,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-24",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 26.16,
+      "currency": "CNY",
+      "changePct": -10.26,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-25",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 26.99,
+      "currency": "CNY",
+      "changePct": 3.17,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-26",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 26.85,
+      "currency": "CNY",
+      "changePct": -0.52,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_donghua_testing_2026-08-27",
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "symbol": "300354.SZ",
+      "market": "SZSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "当前不优先",
+      "price": 27,
+      "currency": "CNY",
+      "changePct": 0.56,
+      "technicalTimingScore": 19.8,
+      "marketPayoffScore": 54.16,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘东华测试当前不列为优先关注。"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

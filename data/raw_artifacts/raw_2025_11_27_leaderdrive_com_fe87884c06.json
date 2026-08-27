@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_11_27_leaderdrive_com_fe87884c06",
+  "artifactType": "news_page",
+  "title": "Leaderdrive to Showcase Innovative Humanoid and Automotive Solutions at iREX 2025 in Tokyo",
+  "publisher": "Leaderdrive",
+  "url": "http://www.leaderdrive.com/news/30.html",
+  "sourceId": "src_leaderdrive_com_fe87884c06",
+  "fetchRunId": "fetch_2025_11_27_leaderdrive_com_fe87884c06",
+  "publishedAt": "2025-11-27",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:04e66ce6003ba1042b49eecaf6673f740125b39b87e2ed795a6d7070026db785",
+  "storagePath": "raw_artifacts/payloads/raw_2025_11_27_leaderdrive_com_fe87884c06.json",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "claimIds": [
+    "claim_2025_11_27_other_0032639480"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_f72a6cf8b81243f0; listSourceId=src_leaderdrive_official_news."
+}

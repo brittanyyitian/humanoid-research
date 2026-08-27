@@ -1,0 +1,759 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Chan Candidate Comparison Output",
+  "type": "object",
+  "required": [
+    "comparison_scope",
+    "candidate_pool_semantic_coherence",
+    "candidates",
+    "data_acquisition_summary",
+    "serenity_layer_matrix",
+    "ai_review_status_matrix",
+    "ai_research_dossier_matrix",
+    "financial_quality_matrix",
+    "customer_evidence_matrix",
+    "valuation_input_matrix",
+    "currency_normalization_matrix",
+    "growth_hypothesis_matrix",
+    "technical_timing_matrix",
+    "capital_actions",
+    "capital_action_quantification",
+    "data_consumption_audit",
+    "readiness_matrix",
+    "research_debt",
+    "research_debt_runbook",
+    "candidate_priority_ranking",
+    "report_readiness",
+    "final_decision"
+  ],
+  "properties": {
+    "comparison_scope": {
+      "type": "object",
+      "required": ["candidate_count", "as_of", "basis"],
+      "properties": {
+        "candidate_count": { "type": "integer", "minimum": 2 },
+        "as_of": { "type": "string" },
+        "basis": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "candidate_pool_semantic_coherence": {
+      "type": "object",
+      "required": ["status", "reason", "market_count", "layer_families", "decision_constraint"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["UNREVIEWED", "SAME_LAYER", "SAME_THEME_DIFFERENT_LAYERS", "CROSS_THEME_DIAGNOSTIC", "UNRELATED_DIAGNOSTIC"]
+        },
+        "reason": { "type": "string" },
+        "market_count": { "type": "integer", "minimum": 0 },
+        "layer_families": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "decision_constraint": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["symbol", "market", "currency", "rating_cap", "data_package_path"],
+        "properties": {
+          "symbol": { "type": "string" },
+          "name": { "type": "string" },
+          "market": { "type": "string" },
+          "currency": { "type": "string" },
+          "rating_cap": { "$ref": "#/$defs/rating" },
+          "data_package_path": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "data_acquisition_summary": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "serenity_layer_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "layer",
+          "bottleneck_reason",
+          "layer_score",
+          "company_fit",
+          "revenue_transmission",
+          "evidence_gap"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "layer": { "type": "string" },
+          "bottleneck_reason": { "type": "string" },
+          "layer_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+          "company_fit": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+          "revenue_transmission": { "type": "string" },
+          "evidence_gap": { "type": "string" },
+          "ai_confidence": { "type": "string" },
+          "ai_review_status": {
+            "type": "string",
+            "enum": ["NOT_RUN", "COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA", "SKIPPED_QUICK_AUDIT"]
+          },
+          "key_evidence_refs": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
+          "contrary_evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "research_questions": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "dossier_ref": { "type": "string" },
+          "thesis_quality_delta": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "evidence_confidence_delta": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "risk_adjustment": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "action_condition_summary": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "ai_review_status_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "ai_review_status",
+          "overlay_merged",
+          "layer_mapped",
+          "evidence_ref_count",
+          "research_question_count",
+          "blocking_reason"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "ai_review_status": {
+            "type": "string",
+            "enum": ["NOT_RUN", "COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA", "SKIPPED_QUICK_AUDIT"]
+          },
+          "overlay_merged": { "type": "boolean" },
+          "layer_mapped": { "type": "boolean" },
+          "evidence_ref_count": { "type": "integer", "minimum": 0 },
+          "research_question_count": { "type": "integer", "minimum": 0 },
+          "blocking_reason": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "ai_research_dossier_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "dossier_status",
+          "dossier_merged",
+          "source_read_count",
+          "observed_count",
+          "inferred_count",
+          "judgment_count",
+          "hypothesis_count",
+          "evidence_test_count",
+          "unresolved_question_count",
+          "claim_count",
+          "supported_claim_count",
+          "causal_step_count",
+          "scenario_count",
+          "trigger_count",
+          "action_condition_count",
+          "thesis_quality_delta",
+          "evidence_confidence_delta",
+          "risk_adjustment",
+          "confidence_dampers",
+          "action_condition_summary",
+          "dossier_ref",
+          "quality_score",
+          "quality_band",
+          "quality_delivery_allowed",
+          "quality_blocking_issues",
+          "quality_cap_reasons"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "dossier_status": {
+            "type": "string",
+            "enum": ["NOT_PROVIDED", "COMPLETED", "FAILED_INSUFFICIENT_EVIDENCE", "CONFLICT_WITH_DATA"]
+          },
+          "dossier_merged": { "type": "boolean" },
+          "source_read_count": { "type": "integer", "minimum": 0 },
+          "observed_count": { "type": "integer", "minimum": 0 },
+          "inferred_count": { "type": "integer", "minimum": 0 },
+          "judgment_count": { "type": "integer", "minimum": 0 },
+          "hypothesis_count": { "type": "integer", "minimum": 0 },
+          "evidence_test_count": { "type": "integer", "minimum": 0 },
+          "unresolved_question_count": { "type": "integer", "minimum": 0 },
+          "claim_count": { "type": "integer", "minimum": 0 },
+          "supported_claim_count": { "type": "integer", "minimum": 0 },
+          "causal_step_count": { "type": "integer", "minimum": 0 },
+          "scenario_count": { "type": "integer", "minimum": 0 },
+          "trigger_count": { "type": "integer", "minimum": 0 },
+          "action_condition_count": { "type": "integer", "minimum": 0 },
+          "thesis_quality_delta": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "evidence_confidence_delta": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "risk_adjustment": { "type": ["number", "null"], "minimum": -8, "maximum": 8 },
+          "confidence_dampers": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "action_condition_summary": { "type": "string" },
+          "dossier_ref": { "type": "string" },
+          "quality_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+          "quality_band": { "type": "string", "enum": ["", "A", "B", "C", "D"] },
+          "quality_delivery_allowed": { "type": "boolean" },
+          "quality_blocking_issues": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "quality_cap_reasons": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "financial_quality_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "customer_evidence_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "status",
+          "evidence_status",
+          "score",
+          "direct_evidence_count",
+          "lead_evidence_count",
+          "review_queue_count",
+          "loaded_record_count",
+          "source_name",
+          "source_level",
+          "top_evidence_refs",
+          "required_next_evidence"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["OK", "PARTIAL", "STALE", "FAILED", "PENDING", "NOT_APPLICABLE", "NOT_REQUESTED"]
+          },
+          "evidence_status": {
+            "type": "string",
+            "enum": ["DIRECT_EVIDENCE_FOUND", "DISCLOSURE_LEADS_ONLY", "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE", "NOT_AVAILABLE", "UNKNOWN"]
+          },
+          "score": { "type": "number", "minimum": 0, "maximum": 100 },
+          "direct_evidence_count": { "type": "integer", "minimum": 0 },
+          "lead_evidence_count": { "type": "integer", "minimum": 0 },
+          "review_queue_count": { "type": "integer", "minimum": 0 },
+          "loaded_record_count": { "type": "integer", "minimum": 0 },
+          "source_name": { "type": "string" },
+          "source_level": { "type": "string" },
+          "top_evidence_refs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "required_next_evidence": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "valuation_input_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "valuation_input_ref",
+          "status",
+          "valuation_stage",
+          "valuation_confidence",
+          "regular_market_price",
+          "total_shares",
+          "total_market_cap",
+          "currency",
+          "as_of_date",
+          "source_name",
+          "source_level",
+          "source_basis",
+          "share_count_basis",
+          "market_cap_basis",
+          "verification_needed",
+          "warnings",
+          "errors"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "valuation_input_ref": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["OK", "PARTIAL", "STALE", "FAILED", "PENDING", "NOT_APPLICABLE", "NOT_REQUESTED"]
+          },
+          "valuation_stage": {
+            "type": "string",
+            "enum": ["unavailable", "preflight", "verified_l0", "verified_l1", "deep_valuation"]
+          },
+          "valuation_confidence": {
+            "type": "string",
+            "enum": ["blocked", "low", "medium", "high"]
+          },
+          "regular_market_price": { "type": ["number", "null"] },
+          "total_shares": { "type": ["number", "null"] },
+          "float_shares": { "type": ["number", "null"] },
+          "total_market_cap": { "type": ["number", "null"] },
+          "float_market_cap": { "type": ["number", "null"] },
+          "currency": { "type": "string" },
+          "as_of_date": { "type": "string" },
+          "source_name": { "type": "string" },
+          "source_level": { "type": "string" },
+          "source_basis": { "type": "string" },
+          "share_count_basis": { "type": "string" },
+          "market_cap_basis": { "type": "string" },
+          "verification_needed": { "type": "boolean" },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "errors": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "currency_normalization_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "source_currency",
+          "target_currency",
+          "original_total_market_cap",
+          "normalized_total_market_cap",
+          "fx_rate",
+          "fx_rate_direction",
+          "fx_as_of_date",
+          "fx_source",
+          "fx_source_level",
+          "normalization_stage",
+          "normalization_status",
+          "reason_code",
+          "warnings",
+          "errors"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "source_currency": { "type": "string" },
+          "target_currency": { "type": "string" },
+          "original_total_market_cap": { "type": ["number", "null"] },
+          "normalized_total_market_cap": { "type": ["number", "null"] },
+          "fx_rate": { "type": ["number", "null"] },
+          "fx_rate_direction": { "type": "string" },
+          "fx_as_of_date": { "type": "string" },
+          "fx_source": { "type": "string" },
+          "fx_source_level": { "type": "string" },
+          "normalization_stage": { "type": "string", "enum": ["same_currency", "preflight_fx"] },
+          "normalization_status": { "type": "string", "enum": ["OK", "NOT_REQUIRED", "DATA_GATED", "FAILED"] },
+          "reason_code": { "type": "string" },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "errors": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "growth_hypothesis_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "valuation_input_ref",
+          "market_implied_growth",
+          "evidence_supported_growth",
+          "gap",
+          "h4_h5_evidence_bar_met",
+          "valuation_stage",
+          "valuation_confidence",
+          "required_next_evidence"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "valuation_input_ref": { "type": "string" },
+          "market_implied_growth": {
+            "type": "string",
+            "enum": ["H0", "H1", "H2", "H3", "H4", "H5", "UNKNOWN"]
+          },
+          "evidence_supported_growth": {
+            "type": "string",
+            "enum": ["H0", "H1", "H2", "H3", "H4", "H5", "UNKNOWN"]
+          },
+          "gap": { "type": "string" },
+          "h4_h5_evidence_bar_met": { "type": "boolean" },
+          "required_next_evidence": { "type": "string" },
+          "total_market_cap": { "type": ["number", "null"] },
+          "original_total_market_cap": { "type": ["number", "null"] },
+          "normalized_total_market_cap": { "type": ["number", "null"] },
+          "total_shares": { "type": ["number", "null"] },
+          "revenue_amount": { "type": ["number", "null"] },
+          "net_income_amount": { "type": ["number", "null"] },
+          "financial_statement_unit": { "type": "string" },
+          "financial_unit_multiplier": { "type": ["number", "null"] },
+          "currency_normalization_status": { "type": "string" },
+          "fx_rate": { "type": ["number", "null"] },
+          "pe_preflight": { "type": ["number", "null"] },
+          "ps_preflight": { "type": ["number", "null"] },
+          "valuation_stage": {
+            "type": "string",
+            "enum": ["unavailable", "preflight", "verified_l0", "verified_l1", "deep_valuation"]
+          },
+          "valuation_confidence": {
+            "type": "string",
+            "enum": ["blocked", "low", "medium", "high"]
+          },
+          "posterior_basis": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "technical_timing_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "capital_actions": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "capital_action_quantification": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "data_consumption_audit": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["symbol", "dataset", "raw_status", "row_count", "consumed_by", "consumption_status", "selected_period", "selection_rule", "warnings", "reason_code", "required_transform", "blocked_matrices", "ranking_impact"],
+        "properties": {
+          "symbol": { "type": "string" },
+          "dataset": { "type": "string" },
+          "raw_status": {
+            "type": "string",
+            "enum": ["OK", "PARTIAL", "STALE", "FAILED", "PENDING", "NOT_APPLICABLE", "NOT_REQUESTED"]
+          },
+          "row_count": { "type": "integer", "minimum": 0 },
+          "consumed_by": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "consumption_status": {
+            "type": "string",
+            "enum": ["OK", "PARTIAL", "DATA_GATED", "MISMATCH"]
+          },
+          "selected_period": { "type": "string" },
+          "selection_rule": { "type": "string" },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "reason_code": { "type": "string" },
+          "required_transform": { "type": "string" },
+          "blocked_matrices": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "ranking_impact": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "readiness_matrix": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "fetch_status",
+          "research_readiness",
+          "action_readiness",
+          "primary_gate",
+          "primary_gate_class",
+          "gate_classes",
+          "data_evidence_cap",
+          "decision_grade",
+          "reason_codes"
+        ],
+        "properties": {
+          "symbol": { "type": "string" },
+          "fetch_status": { "type": "string", "enum": ["PASS", "PARTIAL", "FAILED"] },
+          "research_readiness": { "type": "string", "enum": ["HIGH", "PARTIAL", "NOT_READY"] },
+          "action_readiness": { "$ref": "#/$defs/action_readiness" },
+          "primary_gate": {
+            "type": "string",
+            "enum": ["NONE", "DATA_GATED", "EVIDENCE_GATED", "VALUATION_GATED", "AI_REVIEW_GATED", "BUY_POINT_GATED", "CAPITAL_ACTION_GATED"]
+          },
+          "primary_gate_class": {
+            "type": "string",
+            "enum": ["NONE", "DATA_ACQUISITION", "EVIDENCE_VALIDATION", "RESEARCH_VALIDATION", "ACTION_TIMING"]
+          },
+          "gate_classes": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "enum": ["DATA_ACQUISITION", "EVIDENCE_VALIDATION", "RESEARCH_VALIDATION", "ACTION_TIMING"]
+            }
+          },
+          "data_evidence_cap": { "$ref": "#/$defs/rating" },
+          "decision_grade": { "type": "boolean" },
+          "reason_codes": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "research_debt": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "research_debt_runbook": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidate_table_row" }
+    },
+    "candidate_priority_ranking": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "rank",
+          "symbol",
+          "priority_score",
+          "research_priority_score",
+          "action_priority_score",
+          "rating_cap",
+          "decision_grade",
+          "action_readiness",
+          "action_gate",
+          "key_reason"
+        ],
+        "properties": {
+          "rank": { "type": "integer", "minimum": 1 },
+          "symbol": { "type": "string" },
+          "priority_score": { "type": "number", "minimum": 0, "maximum": 100 },
+          "research_priority_score": { "type": "number", "minimum": 0, "maximum": 100 },
+          "action_priority_score": { "type": "number", "minimum": 0, "maximum": 100 },
+          "rating_cap": { "$ref": "#/$defs/rating" },
+          "decision_grade": { "type": "boolean" },
+          "action_readiness": { "$ref": "#/$defs/action_readiness" },
+          "action_gate": { "$ref": "#/$defs/action_gate" },
+          "key_reason": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "final_decision": {
+      "type": "object",
+      "required": [
+        "leading_research_candidate",
+        "leading_action_candidate",
+        "decision_candidate",
+        "decision_mode",
+        "score_gap_to_runner_up",
+        "candidate_count_warning",
+        "candidate_pool_semantic_coherence",
+        "ranking_validity",
+        "decision",
+        "next_research_actions"
+      ],
+      "properties": {
+        "leading_research_candidate": { "type": "string" },
+        "leading_action_candidate": { "type": "string" },
+        "decision_candidate": { "type": "string" },
+        "decision_mode": {
+          "type": "string",
+          "enum": ["single_research_object", "clear_decision_candidate", "research_lead", "candidate_cluster", "comparison_not_decision_grade"]
+        },
+        "score_gap_to_runner_up": { "type": ["number", "null"] },
+        "candidate_count_warning": { "type": "string" },
+        "candidate_pool_semantic_coherence": {
+          "type": "object",
+          "required": ["status", "reason", "market_count", "layer_families", "decision_constraint"],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["UNREVIEWED", "SAME_LAYER", "SAME_THEME_DIFFERENT_LAYERS", "CROSS_THEME_DIAGNOSTIC", "UNRELATED_DIAGNOSTIC"]
+            },
+            "reason": { "type": "string" },
+            "market_count": { "type": "integer", "minimum": 0 },
+            "layer_families": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "decision_constraint": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "ranking_validity": {
+          "type": "object",
+          "required": ["status", "reason", "blocked_by", "partial_axes"],
+          "properties": {
+            "status": { "type": "string", "enum": ["VALID", "PARTIAL", "INVALID"] },
+            "reason": { "type": "string" },
+            "blocked_by": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "partial_axes": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "additionalProperties": false
+        },
+        "decision": { "type": "string" },
+        "next_research_actions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "report_readiness": {
+      "type": "object",
+      "required": [
+        "stage",
+        "delivery_allowed",
+        "blocking_statuses",
+        "next_phase",
+        "reason"
+      ],
+      "properties": {
+        "stage": {
+          "type": "string",
+          "enum": ["INTERNAL_BASELINE", "FINAL_REPORT_READY", "DIAGNOSTIC_ONLY"]
+        },
+        "delivery_allowed": { "type": "boolean" },
+        "blocking_statuses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["NOT_RUN", "SKIPPED_QUICK_AUDIT", "AI_DOSSIER_QUALITY_BLOCKED"]
+          }
+        },
+        "next_phase": {
+          "type": "string",
+          "enum": ["execute_agent_research", "build_strategy_input", "deliver"]
+        },
+        "reason": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "rating": {
+      "type": "string",
+      "enum": ["S", "A", "B", "C", "D", "OBSERVE_ONLY"]
+    },
+    "action_readiness": {
+      "type": "string",
+      "enum": [
+        "CORE_CANDIDATE",
+        "STRONG_OBSERVE",
+        "CANDIDATE_POOL",
+        "WAIT_FOR_BUY_POINT",
+        "DATA_GATED",
+        "RESEARCH_GATED",
+        "LEAD_TRACKING",
+        "ELIMINATE",
+        "OBSERVE_ONLY"
+      ]
+    },
+    "candidate_table_row": {
+      "type": "object",
+      "required": ["symbol"],
+      "properties": {
+        "symbol": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "action_gate": {
+      "type": "object",
+      "required": ["state", "primary_gate", "primary_gate_class", "gate_classes", "secondary_gates", "blocking_datasets", "blocking_reasons"],
+      "properties": {
+        "state": { "type": "string", "enum": ["ACTIONABLE_WATCH", "NOT_ACTIONABLE"] },
+        "primary_gate": {
+          "type": "string",
+          "enum": ["NONE", "DATA_GATED", "EVIDENCE_GATED", "VALUATION_GATED", "AI_REVIEW_GATED", "BUY_POINT_GATED", "CAPITAL_ACTION_GATED"]
+        },
+        "primary_gate_class": {
+          "type": "string",
+          "enum": ["NONE", "DATA_ACQUISITION", "EVIDENCE_VALIDATION", "RESEARCH_VALIDATION", "ACTION_TIMING"]
+        },
+        "gate_classes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "enum": ["DATA_ACQUISITION", "EVIDENCE_VALIDATION", "RESEARCH_VALIDATION", "ACTION_TIMING"]
+          }
+        },
+        "secondary_gates": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["DATA_GATED", "EVIDENCE_GATED", "VALUATION_GATED", "AI_REVIEW_GATED", "BUY_POINT_GATED", "CAPITAL_ACTION_GATED"]
+          }
+        },
+        "blocking_datasets": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "blocking_reasons": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

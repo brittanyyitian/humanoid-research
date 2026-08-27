@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_bca1c5da38",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司关于召开2026年第一次临时股东会的通知",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225349134.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bca1c5da38",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_bca1c5da38",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:0c43119210ded2eca445f9054d9c04457129297c7677d1edac20cb93a95aefa5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_bca1c5da38.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_filing_ca9dd37282"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6321608787835a3f; listSourceId=src_cninfo_600547_announcements."
+}

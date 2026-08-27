@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_d91950086a",
+  "artifactType": "filing",
+  "title": "关于召开2026年第一次临时股东会的通知",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225504499.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d91950086a",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_d91950086a",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:6efb16af28503411049818abb38881f01840dc569c163f539c39db2cc365e5a3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_d91950086a.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_56834a83f8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_43cdcd90ce732850; listSourceId=src_cninfo_002472_announcements."
+}

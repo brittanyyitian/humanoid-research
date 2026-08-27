@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_24_static_cninfo_com_cn_e9303e2e66",
+  "artifactType": "filing",
+  "title": "关于公司为全资子公司提供担保的进展公告",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225438950.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e9303e2e66",
+  "fetchRunId": "fetch_2026_07_24_static_cninfo_com_cn_e9303e2e66",
+  "publishedAt": "2026-07-24",
+  "firstSeenAt": "2026-07-24T16:16:20+08:00",
+  "capturedAt": "2026-07-24T16:16:20+08:00",
+  "contentHash": "sha256:67ea6e40bad6206b5a3ad3c4010dfff7180a79d79cb24f5353e503d31e66958c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_e9303e2e66.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_88a292ba1f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a3e98b94d1001755; listSourceId=src_cninfo_002472_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_04_static_cninfo_com_cn_1eacd45b00",
+  "artifactType": "filing",
+  "title": "关于向特定对象发行股票申请获得中国证券监督管理委员会同意注册批复的公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-04/1225408714.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1eacd45b00",
+  "fetchRunId": "fetch_2026_07_04_static_cninfo_com_cn_1eacd45b00",
+  "publishedAt": "2026-07-04",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:2f06b370847866fa159824801d3a817413bbf27bed087082371ab40967c6abaa",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_04_static_cninfo_com_cn_1eacd45b00.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_04_filing_f33998baca"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e3fdf42b4dba269c; listSourceId=src_cninfo_002156_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_985a2e1402",
+  "artifactType": "filing",
+  "title": "2026年第三次临时股东会决议公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401472.PDF",
+  "sourceId": "src_static_cninfo_com_cn_985a2e1402",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_985a2e1402",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:673f92d70f2267d2813b57ce4826e11e29511822417f019a05b4e529a56c02e2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_985a2e1402.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_1e30223ccc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_efb1868ddb244dc3; listSourceId=src_cninfo_000566_announcements."
+}

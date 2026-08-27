@@ -1,0 +1,1727 @@
+{
+  "entityId": "montage_technology",
+  "name": "澜起科技",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_montage_technology_2026-08-27",
+    "entityId": "montage_technology",
+    "name": "澜起科技",
+    "symbol": "688008.SH",
+    "market": "SSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "等待更合适的买点",
+    "actionReadiness": "WAIT_FOR_BUY_POINT",
+    "confidence": "HIGH",
+    "reason": "公司可看，价格不合适",
+    "price": 221.22,
+    "currency": "CNY",
+    "changePct": 10.06,
+    "technicalTimingScore": 39.6,
+    "marketPayoffScore": 61.72,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "收入是否兑现",
+      "90d": "收入是否兑现",
+      "180d": "复盘澜起科技值得继续观察，暂不追"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-22",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:26:04+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 223,
+      "currency": "CNY",
+      "changePct": 1.55,
+      "technicalTimingScore": 31.4,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": -10.713004484304927,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": -9.002478168515454,
+          "maxDrawdownPct": -18.710947530600016,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-23",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 225.5,
+      "currency": "CNY",
+      "changePct": 1.12,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": -11.064301552106425,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": -9.773632017285244,
+          "maxDrawdownPct": -18.710947530600016,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-24",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 233.66,
+      "currency": "CNY",
+      "changePct": 3.62,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": -14.170161773517071,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": -17.230138968080027,
+          "maxDrawdownPct": -18.710947530600016,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-25",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 233.66,
+      "currency": "CNY",
+      "changePct": 3.62,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": -14.170161773517071,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": -17.019789129939703,
+          "maxDrawdownPct": -18.710947530600016,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-26",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 233.66,
+      "currency": "CNY",
+      "changePct": 3.62,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -17.902079945219544,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": -17.196816787324806,
+          "maxDrawdownPct": -18.710947530600016,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-27",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 227.45,
+      "currency": "CNY",
+      "changePct": -2.66,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": -14.521872939107498,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": -12.706500208323416,
+          "maxDrawdownPct": -16.491536601450864,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-28",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 206.04,
+      "currency": "CNY",
+      "changePct": -9.41,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": -2.4461269656377365,
+          "poolReturnPct": 0,
+          "excessReturnPct": -2.4461269656377365,
+          "maxDrawdownPct": -14.502830146632789,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-29",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 207.5,
+      "currency": "CNY",
+      "changePct": 0.9,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 6.612048192771083,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 4.391059852959875,
+          "maxDrawdownPct": -14.502830146632789,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-30",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 196.78,
+      "currency": "CNY",
+      "changePct": -5.17,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-07-31",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 204.9,
+      "currency": "CNY",
+      "changePct": 4.13,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-01",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 204.9,
+      "currency": "CNY",
+      "changePct": 4.13,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-02",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 204.9,
+      "currency": "CNY",
+      "changePct": 4.13,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-03",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 189.94,
+      "currency": "CNY",
+      "changePct": -7.3,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-04",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 203.25,
+      "currency": "CNY",
+      "changePct": 7.01,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-05",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 212,
+      "currency": "CNY",
+      "changePct": 4.31,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-06",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:33+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 208.36,
+      "currency": "CNY",
+      "changePct": -1.72,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-07",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 215.52,
+      "currency": "CNY",
+      "changePct": 3.44,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-08",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 215.52,
+      "currency": "CNY",
+      "changePct": 3.44,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-09",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 215.52,
+      "currency": "CNY",
+      "changePct": 3.44,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-10",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 206.92,
+      "currency": "CNY",
+      "changePct": -3.99,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-11",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 206.7,
+      "currency": "CNY",
+      "changePct": -0.11,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-12",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 215.43,
+      "currency": "CNY",
+      "changePct": 4.22,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-13",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 210.22,
+      "currency": "CNY",
+      "changePct": -2.42,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-14",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 211.91,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-15",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 211.91,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-16",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 211.91,
+      "currency": "CNY",
+      "changePct": 0.8,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-17",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 224.37,
+      "currency": "CNY",
+      "changePct": 5.88,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-18",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 218,
+      "currency": "CNY",
+      "changePct": -2.84,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-19",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 200,
+      "currency": "CNY",
+      "changePct": -8.26,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得重点观察，但等待"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-20",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 199.11,
+      "currency": "CNY",
+      "changePct": -0.45,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-21",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 200.55,
+      "currency": "CNY",
+      "changePct": 0.72,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-22",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 200.55,
+      "currency": "CNY",
+      "changePct": 0.72,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-23",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 200.55,
+      "currency": "CNY",
+      "changePct": 0.72,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-24",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 191.83,
+      "currency": "CNY",
+      "changePct": -4.35,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-25",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 194.42,
+      "currency": "CNY",
+      "changePct": 1.35,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-26",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 201,
+      "currency": "CNY",
+      "changePct": 3.38,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_montage_technology_2026-08-27",
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "symbol": "688008.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 221.22,
+      "currency": "CNY",
+      "changePct": 10.06,
+      "technicalTimingScore": 39.6,
+      "marketPayoffScore": 61.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘澜起科技值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

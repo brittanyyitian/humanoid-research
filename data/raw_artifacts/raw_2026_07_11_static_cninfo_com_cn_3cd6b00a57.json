@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_3cd6b00a57",
+  "artifactType": "filing",
+  "title": "关于申请适时出售部分证券资产之授权的公告",
+  "publisher": "凌云光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225420232.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3cd6b00a57",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_3cd6b00a57",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:a848e9924443c69b691def66239edb27387ce7f54c446ef89d0c3484334521b3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_3cd6b00a57.json",
+  "entityIds": [
+    "luster_lighttech"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_931a752aa8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f5d763c30c0536a5; listSourceId=src_cninfo_688400_announcements."
+}

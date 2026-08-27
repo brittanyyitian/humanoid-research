@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_71e4b0a7e0",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225170823.PDF",
+  "sourceId": "src_static_cninfo_com_cn_71e4b0a7e0",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_71e4b0a7e0",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:318d78d88f8be4af35ed129fd6d1e8e094c383b85a084f27e7471573334884d2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_71e4b0a7e0.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_57cd5f9927"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2e346b76cca2f448; listSourceId=src_cninfo_000554_announcements."
+}

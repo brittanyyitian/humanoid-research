@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_c43fed4719",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于中国海洋石油有限公司2025年度募集资金存放、管理与实际使用情况的专项核查报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036047.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c43fed4719",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_c43fed4719",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4ba688d38b2f86661df2267020cdfb9f7d13b4b739ad99f345d7d2333eaffbd1",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_c43fed4719.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_066fb18990"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e20b70b5a5a352c9; listSourceId=src_cninfo_600938_announcements."
+}

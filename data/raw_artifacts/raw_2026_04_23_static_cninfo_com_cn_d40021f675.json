@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_d40021f675",
+  "artifactType": "filing",
+  "title": "关于2026年度第二期科技创新债券发行结果的公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225147078.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d40021f675",
+  "fetchRunId": "fetch_2026_04_23_static_cninfo_com_cn_d40021f675",
+  "publishedAt": "2026-04-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c47238637c08f3fa475e33bc57377d74c54cc64c64ea06b509fe17e0b72f5536",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_23_static_cninfo_com_cn_d40021f675.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_23_filing_31390b74a0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_63fc1072d4ade986; listSourceId=src_cninfo_002156_announcements."
+}

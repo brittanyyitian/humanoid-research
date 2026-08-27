@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_20_static_cninfo_com_cn_9cf901f5b1",
+  "artifactType": "filing",
+  "title": "H股公告-翌日披露报表",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-20/1225482790.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9cf901f5b1",
+  "fetchRunId": "fetch_2026_08_20_static_cninfo_com_cn_9cf901f5b1",
+  "publishedAt": "2026-08-20",
+  "firstSeenAt": "2026-08-20T16:16:17+08:00",
+  "capturedAt": "2026-08-20T16:16:17+08:00",
+  "contentHash": "sha256:063fa3debedd78a4759d17d708668d3357f56fb17933ba8d4c6b4869db6a578c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_20_static_cninfo_com_cn_9cf901f5b1.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_20_filing_bac172b2e3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_14ee8a151006101f; listSourceId=src_cninfo_002050_announcements."
+}

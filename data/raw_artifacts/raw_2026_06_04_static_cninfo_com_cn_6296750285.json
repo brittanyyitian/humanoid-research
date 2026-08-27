@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_04_static_cninfo_com_cn_6296750285",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2025年度股东周年大会决议公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-04/1225350134.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6296750285",
+  "fetchRunId": "fetch_2026_06_04_static_cninfo_com_cn_6296750285",
+  "publishedAt": "2026-06-04",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ae2dd7bff8c168e7c1f87db2ad67a989880abc34b094e510321fa506b25f4f66",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_04_static_cninfo_com_cn_6296750285.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_06_04_other_a5a2c6dfcd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_342ea1ce9cf8d989; listSourceId=src_cninfo_600938_announcements."
+}

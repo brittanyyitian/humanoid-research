@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_801e7d578a",
+  "artifactType": "filing",
+  "title": "中无人机董事、高级管理人员薪酬和津贴管理办法（2026年5月）",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225328624.PDF",
+  "sourceId": "src_static_cninfo_com_cn_801e7d578a",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_801e7d578a",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d28bb3a22cc51d397eb00b969e618dbed16568f07c74ba60050613810cab108d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_801e7d578a.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_bf0f317d5a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_85036f4c15aba28d; listSourceId=src_cninfo_688297_announcements."
+}

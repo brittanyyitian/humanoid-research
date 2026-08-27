@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_ce23cad647",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417801.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ce23cad647",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_ce23cad647",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:486645a44a3fc9c4653015b25684be12f10fcada708104a4c3601344e1a6c1ed",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_ce23cad647.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_5156191397"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f88312d75d88a4fd; listSourceId=src_cninfo_002747_announcements."
+}

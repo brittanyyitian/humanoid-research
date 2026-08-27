@@ -1,0 +1,22 @@
+{
+  "id": "raw_2024_07_05_unitree_com_80f413d63a",
+  "artifactType": "news_page",
+  "title": "宇树发布 Unitree G1 人形智能体 AI化身 ¥9.9万元起",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/28",
+  "sourceId": "src_unitree_com_80f413d63a",
+  "fetchRunId": "fetch_2024_07_05_unitree_com_80f413d63a",
+  "publishedAt": "2024-07-05",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:53a059e125991a318494ea73095dd430be1314c034202e09c04d23d63d3ff6e4",
+  "storagePath": "raw_artifacts/payloads/raw_2024_07_05_unitree_com_80f413d63a.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2024_07_05_product_release_027a20e48a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_b3f6c2037eae5aa0; listSourceId=src_unitree_official_news."
+}

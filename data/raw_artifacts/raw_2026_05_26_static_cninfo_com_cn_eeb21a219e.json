@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_eeb21a219e",
+  "artifactType": "filing",
+  "title": "澜起科技股东询价转让定价情况提示性公告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225328970.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eeb21a219e",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_eeb21a219e",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4667ef94e0711453bc6336a9973fb25a7734f598bf7719fc1303cb66bd1ab1aa",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_eeb21a219e.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_8408b20103"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_923fcf85f190e486; listSourceId=src_cninfo_688008_announcements."
+}

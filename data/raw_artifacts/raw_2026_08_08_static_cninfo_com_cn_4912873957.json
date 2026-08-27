@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_08_static_cninfo_com_cn_4912873957",
+  "artifactType": "filing",
+  "title": "关于选举第三届职工代表董事的公告",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-08/1225464435.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4912873957",
+  "fetchRunId": "fetch_2026_08_08_static_cninfo_com_cn_4912873957",
+  "publishedAt": "2026-08-08",
+  "firstSeenAt": "2026-08-08T16:15:49+08:00",
+  "capturedAt": "2026-08-08T16:15:49+08:00",
+  "contentHash": "sha256:1a0310cd1c970b420585e48b9727f738bea4899ede95c7cb3389686cee9260e3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_08_static_cninfo_com_cn_4912873957.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_08_filing_4377d2e274"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6aa8fed1e796a887; listSourceId=src_cninfo_688322_announcements."
+}

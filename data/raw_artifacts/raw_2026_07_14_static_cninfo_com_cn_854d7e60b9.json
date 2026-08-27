@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_854d7e60b9",
+  "artifactType": "filing",
+  "title": "关于召开2026年第二次临时股东会的通知",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422216.PDF",
+  "sourceId": "src_static_cninfo_com_cn_854d7e60b9",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_854d7e60b9",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:67f87708c446b4aaff355cf2e971c0926e9be054d76b323f930af1e037989351",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_854d7e60b9.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_1b12d6921e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ad7860a53e854b74; listSourceId=src_cninfo_688019_announcements."
+}

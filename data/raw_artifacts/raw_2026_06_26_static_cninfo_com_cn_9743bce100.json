@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_26_static_cninfo_com_cn_9743bce100",
+  "artifactType": "filing",
+  "title": "关于向特定对象发行股票申请获得中国证监会同意注册批复的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-26/1225391580.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9743bce100",
+  "fetchRunId": "fetch_2026_06_26_static_cninfo_com_cn_9743bce100",
+  "publishedAt": "2026-06-26",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:7fa9f999eddceceb4b9f69f2f9ddeb418a943ffec14fbf969a93219d37af5d2e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_26_static_cninfo_com_cn_9743bce100.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_06_26_filing_bbf876adf6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_49b25ffcbfa4991d; listSourceId=src_cninfo_301413_announcements."
+}

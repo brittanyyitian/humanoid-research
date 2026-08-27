@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_15_static_cninfo_com_cn_ad6f73222f",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "柯力传感",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_15_static_cninfo_com_cn_ad6f73222f"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_12ada8829c"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225305683.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:5ef25e08bdd2afb763cf4b34992909c93a92b1f2403a887f180d09c3097e1f00",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_ad6f73222f.json"
+    }
+  ]
+}

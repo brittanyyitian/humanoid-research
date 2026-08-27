@@ -1,0 +1,2027 @@
+{
+  "entityId": "tuopu_group",
+  "name": "拓普集团",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_tuopu_group_2026-08-27",
+    "entityId": "tuopu_group",
+    "name": "拓普集团",
+    "symbol": "601689.SH",
+    "market": "SSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "等待更合适的买点",
+    "actionReadiness": "WAIT_FOR_BUY_POINT",
+    "confidence": "HIGH",
+    "reason": "公司可看，价格不合适",
+    "price": 47.43,
+    "currency": "CNY",
+    "changePct": 1.78,
+    "technicalTimingScore": 17.6,
+    "marketPayoffScore": 52.52,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "订单是否兑现",
+      "90d": "收入是否兑现",
+      "180d": "复盘拓普集团值得继续观察，暂不追"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-15",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T17:20:46+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 54.5,
+      "currency": "CNY",
+      "changePct": 0.26,
+      "technicalTimingScore": 24,
+      "marketPayoffScore": 54.32,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -8.825688073394499,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": -6.368423116129556,
+          "maxDrawdownPct": -19.08256880733945,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-16",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:20:03+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 54.47,
+      "currency": "CNY",
+      "changePct": -0.06,
+      "technicalTimingScore": 22.8,
+      "marketPayoffScore": 54.32,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -9.105929869653021,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -9.060142323865469,
+          "maxDrawdownPct": -19.038002570222137,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-17",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:20:24+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 50.67,
+      "currency": "CNY",
+      "changePct": -6.98,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": -2.289323070850609,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": -6.065066777944431,
+          "maxDrawdownPct": -12.966252220248666,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-19",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T20:45:20+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 50.67,
+      "currency": "CNY",
+      "changePct": -6.976317238847067,
+      "technicalTimingScore": 21.4,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": -0.7104795737122546,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -12.966252220248666,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-20",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:21:51+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 48.52,
+      "currency": "CNY",
+      "changePct": -4.24,
+      "technicalTimingScore": 22.8,
+      "marketPayoffScore": 54.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 5.317394888705684,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": -5.493415922105126,
+          "maxDrawdownPct": -12.430500397140584,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-21",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:20:10+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 50.36,
+      "currency": "CNY",
+      "changePct": 3.79,
+      "technicalTimingScore": 19,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": -7.664813343923747,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": -5.724813343923749,
+          "maxDrawdownPct": -12.430500397140584,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-22",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:19:16+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 49.49,
+      "currency": "CNY",
+      "changePct": -1.73,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": -6.647807637906646,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": -4.937281322117173,
+          "maxDrawdownPct": -10.891089108910892,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-23",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.17,
+      "currency": "CNY",
+      "changePct": -2.67,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": -2.5949761262196387,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": -1.3043065913984584,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-24",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 45.62,
+      "currency": "CNY",
+      "changePct": -5.29,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 2.849627356422631,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": -0.21034983814032504,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-25",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 45.62,
+      "currency": "CNY",
+      "changePct": -5.29,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 2.849627356422631,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 0,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-26",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 45.62,
+      "currency": "CNY",
+      "changePct": -5.29,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 1.4905743095133708,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 2.1958374674081096,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-27",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.38,
+      "currency": "CNY",
+      "changePct": 1.67,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 0.9055627425614372,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 2.720935473345519,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-28",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 45.6,
+      "currency": "CNY",
+      "changePct": -1.68,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 2.1929824561403506,
+          "poolReturnPct": 0,
+          "excessReturnPct": 2.1929824561403506,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-29",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 45.58,
+      "currency": "CNY",
+      "changePct": -0.04,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 4.058797718297502,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 1.8378093784862939,
+          "maxDrawdownPct": -9.589041095890408,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-30",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 44.1,
+      "currency": "CNY",
+      "changePct": -3.25,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-07-31",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.65,
+      "currency": "CNY",
+      "changePct": 5.78,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-01",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.65,
+      "currency": "CNY",
+      "changePct": 5.78,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-02",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.65,
+      "currency": "CNY",
+      "changePct": 5.78,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-03",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 48.22,
+      "currency": "CNY",
+      "changePct": 3.37,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-04",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.75,
+      "currency": "CNY",
+      "changePct": 3.17,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-05",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.22,
+      "currency": "CNY",
+      "changePct": 0.94,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-06",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.77,
+      "currency": "CNY",
+      "changePct": -0.9,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-07",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.38,
+      "currency": "CNY",
+      "changePct": 1.23,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-08",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.38,
+      "currency": "CNY",
+      "changePct": 1.23,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-09",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.38,
+      "currency": "CNY",
+      "changePct": 1.23,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-10",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.48,
+      "currency": "CNY",
+      "changePct": -1.79,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-11",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.93,
+      "currency": "CNY",
+      "changePct": 2.93,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-12",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.3,
+      "currency": "CNY",
+      "changePct": -1.24,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-13",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.69,
+      "currency": "CNY",
+      "changePct": -1.21,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-14",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.51,
+      "currency": "CNY",
+      "changePct": -0.36,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-15",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.51,
+      "currency": "CNY",
+      "changePct": -0.36,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-16",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 49.51,
+      "currency": "CNY",
+      "changePct": -0.36,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-17",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 50.31,
+      "currency": "CNY",
+      "changePct": 1.62,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-18",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 51.1,
+      "currency": "CNY",
+      "changePct": 1.57,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-19",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.5,
+      "currency": "CNY",
+      "changePct": -9,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-20",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.2,
+      "currency": "CNY",
+      "changePct": -0.65,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-21",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.92,
+      "currency": "CNY",
+      "changePct": 1.56,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-22",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.92,
+      "currency": "CNY",
+      "changePct": 1.56,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-23",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.92,
+      "currency": "CNY",
+      "changePct": 1.56,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-24",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.3,
+      "currency": "CNY",
+      "changePct": -1.32,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-25",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.8,
+      "currency": "CNY",
+      "changePct": 1.08,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-26",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 46.6,
+      "currency": "CNY",
+      "changePct": -0.43,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_tuopu_group_2026-08-27",
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "symbol": "601689.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "公司可看，价格不合适",
+      "price": 47.43,
+      "currency": "CNY",
+      "changePct": 1.78,
+      "technicalTimingScore": 17.6,
+      "marketPayoffScore": 52.52,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘拓普集团值得继续观察，暂不追"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

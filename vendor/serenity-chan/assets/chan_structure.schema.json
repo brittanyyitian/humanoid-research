@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Chan Structure",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "bar_count",
+    "last_date",
+    "structure_status",
+    "trend_state",
+    "fractals",
+    "center",
+    "buy_point_candidates",
+    "action",
+    "confidence",
+    "evidence_notes"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_chan_structure" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "bar_count": { "type": "integer", "minimum": 0 },
+    "last_date": { "type": "string" },
+    "structure_status": {
+      "type": "string",
+      "enum": ["INSUFFICIENT_HISTORY", "STRUCTURE_DETECTED", "RANGE_STRUCTURE", "WEAK_STRUCTURE"]
+    },
+    "trend_state": {
+      "type": "string",
+      "enum": ["UP_STRUCTURE", "DOWN_STRUCTURE", "RANGE_STRUCTURE", "UNKNOWN"]
+    },
+    "fractals": {
+      "type": "object",
+      "required": ["top_count", "bottom_count", "recent_top", "recent_bottom"],
+      "properties": {
+        "top_count": { "type": "integer", "minimum": 0 },
+        "bottom_count": { "type": "integer", "minimum": 0 },
+        "recent_top": { "type": ["object", "null"] },
+        "recent_bottom": { "type": ["object", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "center": {
+      "type": "object",
+      "required": ["detected", "low", "high", "basis"],
+      "properties": {
+        "detected": { "type": "boolean" },
+        "low": { "type": ["number", "null"] },
+        "high": { "type": ["number", "null"] },
+        "basis": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "buy_point_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "status", "reason"],
+        "properties": {
+          "type": { "type": "string", "enum": ["SECOND_BUY", "THIRD_BUY"] },
+          "status": { "type": "string", "enum": ["CANDIDATE", "NOT_PRESENT"] },
+          "reason": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "action": {
+      "type": "string",
+      "enum": ["STRUCTURE_WATCH", "WAIT_FOR_BUY_POINT", "NO_BUY_POINT", "DATA_REQUIRED"]
+    },
+    "confidence": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH"] },
+    "evidence_notes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "additionalProperties": false
+}

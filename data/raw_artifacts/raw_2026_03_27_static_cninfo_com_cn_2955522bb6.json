@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_2955522bb6",
+  "artifactType": "filing",
+  "title": "安永华明会计师事务所（特殊普通合伙）关于中国海洋石油有限公司2025年年度审计报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036064.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2955522bb6",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_2955522bb6",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:83bb2378307bc73ddba6f6ddd6bc51014ce08a624d687b33c324a0fe1a06c317",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_2955522bb6.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_62f360c5cc"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_83ba458400b5de88; listSourceId=src_cninfo_600938_announcements."
+}

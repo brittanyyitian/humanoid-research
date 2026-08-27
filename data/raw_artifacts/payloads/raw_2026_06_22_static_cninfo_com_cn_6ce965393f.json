@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_06_22_static_cninfo_com_cn_6ce965393f",
+  "capturedAt": "2026-07-23T09:32:52+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-06-22/1225377888.PDF",
+    "title": "关于参加新疆辖区上市公司2026年投资者网上集体接待日活动的公告",
+    "publisher": "国际实业",
+    "publishedAt": "2026-06-22",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "international_industry"
+    ],
+    "body": "证券代码：000159 证券简称：国际实业 公告编号：2026-35\n新疆国际实业股份有限公司\n关于参加新疆辖区上市公司 2026 年投资者\n网上集体接待日活动的公告\n本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈\n述或重大遗漏。\n为进一步加强与投资者的互动交流，新疆国际实业股份有限公司（以\n下简称“公司”）将参加由新疆上市公司协会根据新疆证监局工作部署，\n联合深圳市全景网络有限公司举办的“2026 年新疆辖区上市公司投资者\n网上集体接待日活动”，现将相关事项公告如下：\n本次活动将采用网络远程的方式举行，投资者可登录“全景路演”网\n站（http://rs.p5w.net），或关注微信公众号：全景财经，或下载全景\n路演 APP，参与本次互动交流，活动时间为 2026 年 6 月 26 日（周五）\n15:00-17:30。届时公司高管将在线就公司 2025 年度业绩、公司治理、发\n展战略、经营状况和可持续发展等投资者关心的问题，与投资者进行沟通\n与交流，欢迎广大投资者踊跃参与。\n特此公告。\n新疆国际实业股份有限公司\n董事会\n2026 年 6 月 22 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:52+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 140214,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

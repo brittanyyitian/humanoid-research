@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_b8783f31d6",
+  "artifactType": "filing",
+  "title": "中国石化H股公告-翌日披露表格",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225406734.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b8783f31d6",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_b8783f31d6",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:27df81c3c4c9ce962a38389e3171d30fbfd9c445ce19425c5fd67b0400eb9364",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_b8783f31d6.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_51d9f09586"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_68559e87ae363875; listSourceId=src_cninfo_600028_announcements."
+}

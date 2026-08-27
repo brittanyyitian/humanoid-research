@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_15_52ba2b64894e",
+  "pipelineTaskId": "ptask_2026_07_15_90e61239aed3",
+  "rawArtifactId": "raw_2023_12_15_ubtrobot_com_c704a93c68",
+  "routeDecisionId": "route_2023_12_15_0f80ef1eca3b",
+  "pipeline": "event_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "claimIds": [
+    "claim_2023_12_15_other_e529df9b1e"
+  ],
+  "evidenceIds": [
+    "evd_2023_12_15_other_e529df9b1e"
+  ],
+  "ruleOutputIds": [
+    "rout_2023_12_15_event_material_v0_ac0dccafd1"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

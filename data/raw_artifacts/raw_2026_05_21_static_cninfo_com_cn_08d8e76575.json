@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_21_static_cninfo_com_cn_08d8e76575",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-21/1225320314.PDF",
+  "sourceId": "src_static_cninfo_com_cn_08d8e76575",
+  "fetchRunId": "fetch_2026_05_21_static_cninfo_com_cn_08d8e76575",
+  "publishedAt": "2026-05-21",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ae7d31c5aed210d6d24222b6bc727efcdb679d9471bc0681cb959f81c2014f44",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_21_static_cninfo_com_cn_08d8e76575.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_05_21_filing_6d632a482d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d54900e6b5982be4; listSourceId=src_cninfo_002156_announcements."
+}

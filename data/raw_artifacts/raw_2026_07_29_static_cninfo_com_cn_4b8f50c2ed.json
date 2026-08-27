@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_4b8f50c2ed",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司关于募集资金专户销户完成的公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225445155.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4b8f50c2ed",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_4b8f50c2ed",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:721dac284f0d93da93899b3a222181a19d5acb1dd439b3976b34a220925810f2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_4b8f50c2ed.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_1078956af9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fd3e48bd77713b6c; listSourceId=src_cninfo_600938_announcements."
+}

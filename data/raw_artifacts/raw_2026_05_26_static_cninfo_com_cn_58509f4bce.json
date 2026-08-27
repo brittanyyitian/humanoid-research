@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_26_static_cninfo_com_cn_58509f4bce",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司董事薪酬管理办法",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-26/1225329674.PDF",
+  "sourceId": "src_static_cninfo_com_cn_58509f4bce",
+  "fetchRunId": "fetch_2026_05_26_static_cninfo_com_cn_58509f4bce",
+  "publishedAt": "2026-05-26",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:aaeaf19c0c2266a83b867b8a231289322a0fe08d843575cf7891c18ef0c254ea",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_26_static_cninfo_com_cn_58509f4bce.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_26_filing_2b2fd178d6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_611ff73037f1396a; listSourceId=src_cninfo_600886_announcements."
+}

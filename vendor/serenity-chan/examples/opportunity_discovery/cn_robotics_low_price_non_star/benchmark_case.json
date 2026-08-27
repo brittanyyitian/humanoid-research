@@ -1,0 +1,141 @@
+{
+  "name": "cn_robotics_low_price_non_star",
+  "prompt": "当前大趋势下，A股机器人方向给点价格便宜的，不要科创板",
+  "market_scope": ["CN_A"],
+  "excluded_boards": ["STAR"],
+  "max_price": 20,
+  "themes": ["robotics"],
+  "shortlist_target": 3,
+  "preflight_snapshot": {
+    "002896.SZ": {
+      "price": 8.8,
+      "currency": "CNY",
+      "rating_cap": "B",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "OK",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 7200000000,
+        "source_basis": "benchmark_snapshot"
+      },
+      "customer_order_capacity_evidence": {
+        "evidence_status": "DISCLOSURE_LEADS_ONLY",
+        "score": 58,
+        "direct_evidence_count": 0,
+        "lead_evidence_count": 2,
+        "review_queue_count": 1
+      }
+    },
+    "002527.SZ": {
+      "price": 6.6,
+      "currency": "CNY",
+      "rating_cap": "B",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "OK",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 8500000000,
+        "source_basis": "benchmark_snapshot"
+      },
+      "customer_order_capacity_evidence": {
+        "evidence_status": "DISCLOSURE_LEADS_ONLY",
+        "score": 55,
+        "direct_evidence_count": 0,
+        "lead_evidence_count": 2,
+        "review_queue_count": 1
+      }
+    },
+    "002031.SZ": {
+      "price": 4.2,
+      "currency": "CNY",
+      "rating_cap": "B",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "OK",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 6200000000,
+        "source_basis": "benchmark_snapshot"
+      },
+      "customer_order_capacity_evidence": {
+        "evidence_status": "DISCLOSURE_LEADS_ONLY",
+        "score": 46,
+        "direct_evidence_count": 0,
+        "lead_evidence_count": 1,
+        "review_queue_count": 2
+      }
+    },
+    "300580.SZ": {
+      "price": 17.5,
+      "currency": "CNY",
+      "rating_cap": "C",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "PARTIAL",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 4600000000,
+        "source_basis": "benchmark_snapshot"
+      }
+    },
+    "002472.SZ": {
+      "price": 25.2,
+      "currency": "CNY",
+      "rating_cap": "B",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "OK",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 18000000000,
+        "source_basis": "benchmark_snapshot"
+      }
+    },
+    "688017.SH": {
+      "price": 100.0,
+      "currency": "CNY",
+      "rating_cap": "B",
+      "status_by_dataset": {
+        "current_quote": "OK",
+        "price_history_adjusted": "OK",
+        "filings_announcements": "OK",
+        "customer_order_capacity_evidence": "OK",
+        "valuation_inputs": "OK"
+      },
+      "valuation_inputs": {
+        "total_market_cap": 16000000000,
+        "source_basis": "benchmark_snapshot"
+      }
+    }
+  },
+  "assertions": {
+    "min_shortlist_count": 3,
+    "max_shortlist_count": 3,
+    "forbidden_selected_symbols": ["688017.SH", "688322.SH", "002472.SZ"],
+    "must_include_layer_keys": [
+      "robotics_precision_transmission",
+      "robotics_actuation_control",
+      "robotics_body_integration"
+    ],
+    "required_pool_contexts": ["SAME_THEME_DIFFERENT_LAYERS"],
+    "max_low_price_bonus_cap": 5,
+    "selected_quality_floor_status": "PASS"
+  }
+}

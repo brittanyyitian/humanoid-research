@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_30_static_cninfo_com_cn_b7098717dc",
+  "artifactType": "filing",
+  "title": "海南海药股份有限公司关于召开2026年第二次临时股东会的通知",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-30/1225340537.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b7098717dc",
+  "fetchRunId": "fetch_2026_05_30_static_cninfo_com_cn_b7098717dc",
+  "publishedAt": "2026-05-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:7f05fc37fafe7db5dc9573925b6eb4d04127d2a8fce99f0dfcd3d3ba62d37dc7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_30_static_cninfo_com_cn_b7098717dc.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_30_filing_0d614ef20c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_57321c0c882cb817; listSourceId=src_cninfo_000566_announcements."
+}

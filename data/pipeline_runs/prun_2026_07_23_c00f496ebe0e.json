@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_23_c00f496ebe0e",
+  "pipelineTaskId": "ptask_2026_07_23_9764eee09baf",
+  "rawArtifactId": "raw_2026_04_23_static_cninfo_com_cn_3cadced5c3",
+  "routeDecisionId": "route_2026_04_23_82aa7bb4a294",
+  "pipeline": "filing_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-23T09:56:03+08:00",
+  "finishedAt": "2026-07-23T09:56:03+08:00",
+  "claimIds": [
+    "claim_2026_04_23_filing_734f7b1454"
+  ],
+  "evidenceIds": [
+    "evd_2026_04_23_filing_734f7b1454"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_04_23_filing_material_v0_b592ec7e05"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

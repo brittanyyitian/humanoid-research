@@ -1,0 +1,1294 @@
+{
+  "id": "saout_international_industry_02240c0c2080",
+  "entityId": "international_industry",
+  "name": "国际实业",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "000159.SZ",
+    "symbol": "000159.SZ"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/data/000159/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/ai_research/000159.SZ/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/ai_research/000159.SZ/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "国际实业 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+      "国际实业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查国际实业的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘国际实业保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "油品贸易与仓储",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "000159.SZ",
+      "name": "国际实业",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 6.05,
+        "previousClose": 6.0700311026387075,
+        "changePct": -0.32999999999999885,
+        "high": 5.21,
+        "low": 5.03,
+        "open": 5.03,
+        "volume": 53686,
+        "turnover": 27641964,
+        "turnoverText": "5295.00万",
+        "currency": "CNY",
+        "asOf": "20260827161406",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 55.79,
+        "technicalTimingScore": 21.4,
+        "marketPayoffScore": 62.56,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 34,
+        "evidenceScore": 63,
+        "valuationScore": 24,
+        "timingScore": 21.4,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 33.67,
+          "fundamentalScore": 44.65,
+          "companyScore": 34,
+          "evidenceScore": 63,
+          "valuationScore": 24,
+          "timingScore": 21.4,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 65.8649,
+            "ps": 1.2605,
+            "revenueGrowth": 0.2551,
+            "profitGrowth": -0.1532,
+            "cashConversion": -2.1572,
+            "debtRatio": 0.4406,
+            "return20": 0.052
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收19.87亿元，同比-22.9%；归母净利润3801.72万元，同比-108.66%。2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。",
+          "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+          "2026-08-26复权收盘6.07元，高于20日平均成本5.77元；60日平均成本5.54元，近20个交易日涨跌+5.2%。"
+        ],
+        "possible": [
+          "国际实业当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "国际实业当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。",
+          "国际实业当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 62.56,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.79/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 21.4,
+        "dailyBuyPointScore": 1.85,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 6.72,
+            "volume": 230099,
+            "average20": 7.04,
+            "average60": 6.483
+          },
+          {
+            "date": "2026-03-16",
+            "close": 6.91,
+            "volume": 318410,
+            "average20": 7.039,
+            "average60": 6.503
+          },
+          {
+            "date": "2026-03-17",
+            "close": 6.7,
+            "volume": 278821,
+            "average20": 7.025,
+            "average60": 6.522
+          },
+          {
+            "date": "2026-03-18",
+            "close": 6.58,
+            "volume": 217428,
+            "average20": 7.011,
+            "average60": 6.541
+          },
+          {
+            "date": "2026-03-19",
+            "close": 6.45,
+            "volume": 223616,
+            "average20": 6.991,
+            "average60": 6.556
+          },
+          {
+            "date": "2026-03-20",
+            "close": 6.35,
+            "volume": 216892,
+            "average20": 6.971,
+            "average60": 6.572
+          },
+          {
+            "date": "2026-03-23",
+            "close": 6.2,
+            "volume": 229236,
+            "average20": 6.95,
+            "average60": 6.585
+          },
+          {
+            "date": "2026-03-24",
+            "close": 6.4,
+            "volume": 169530,
+            "average20": 6.919,
+            "average60": 6.6
+          },
+          {
+            "date": "2026-03-25",
+            "close": 6.49,
+            "volume": 185847,
+            "average20": 6.894,
+            "average60": 6.615
+          },
+          {
+            "date": "2026-03-26",
+            "close": 6.39,
+            "volume": 128875,
+            "average20": 6.864,
+            "average60": 6.628
+          },
+          {
+            "date": "2026-03-27",
+            "close": 6.62,
+            "volume": 179756,
+            "average20": 6.839,
+            "average60": 6.646
+          },
+          {
+            "date": "2026-03-30",
+            "close": 6.53,
+            "volume": 157445,
+            "average20": 6.777,
+            "average60": 6.658
+          },
+          {
+            "date": "2026-03-31",
+            "close": 6.48,
+            "volume": 150978,
+            "average20": 6.711,
+            "average60": 6.67
+          },
+          {
+            "date": "2026-04-01",
+            "close": 6.51,
+            "volume": 110535,
+            "average20": 6.676,
+            "average60": 6.682
+          },
+          {
+            "date": "2026-04-02",
+            "close": 6.5,
+            "volume": 118613,
+            "average20": 6.638,
+            "average60": 6.693
+          },
+          {
+            "date": "2026-04-03",
+            "close": 6.16,
+            "volume": 155132,
+            "average20": 6.587,
+            "average60": 6.696
+          },
+          {
+            "date": "2026-04-07",
+            "close": 6.42,
+            "volume": 145391,
+            "average20": 6.551,
+            "average60": 6.707
+          },
+          {
+            "date": "2026-04-08",
+            "close": 6.54,
+            "volume": 156250,
+            "average20": 6.529,
+            "average60": 6.72
+          },
+          {
+            "date": "2026-04-09",
+            "close": 6.38,
+            "volume": 120922,
+            "average20": 6.506,
+            "average60": 6.729
+          },
+          {
+            "date": "2026-04-10",
+            "close": 6.45,
+            "volume": 90746,
+            "average20": 6.489,
+            "average60": 6.74
+          },
+          {
+            "date": "2026-04-13",
+            "close": 6.33,
+            "volume": 208535,
+            "average20": 6.47,
+            "average60": 6.74
+          },
+          {
+            "date": "2026-04-14",
+            "close": 6.25,
+            "volume": 149300,
+            "average20": 6.437,
+            "average60": 6.734
+          },
+          {
+            "date": "2026-04-15",
+            "close": 6.18,
+            "volume": 117412,
+            "average20": 6.411,
+            "average60": 6.732
+          },
+          {
+            "date": "2026-04-16",
+            "close": 6.3,
+            "volume": 108912,
+            "average20": 6.396,
+            "average60": 6.734
+          },
+          {
+            "date": "2026-04-17",
+            "close": 6.21,
+            "volume": 105709,
+            "average20": 6.385,
+            "average60": 6.732
+          },
+          {
+            "date": "2026-04-20",
+            "close": 6.23,
+            "volume": 108877,
+            "average20": 6.379,
+            "average60": 6.733
+          },
+          {
+            "date": "2026-04-21",
+            "close": 6.22,
+            "volume": 109873,
+            "average20": 6.379,
+            "average60": 6.731
+          },
+          {
+            "date": "2026-04-22",
+            "close": 6.54,
+            "volume": 393182,
+            "average20": 6.387,
+            "average60": 6.734
+          },
+          {
+            "date": "2026-04-23",
+            "close": 6.68,
+            "volume": 377213,
+            "average20": 6.396,
+            "average60": 6.738
+          },
+          {
+            "date": "2026-04-24",
+            "close": 6.67,
+            "volume": 218391,
+            "average20": 6.41,
+            "average60": 6.74
+          },
+          {
+            "date": "2026-04-27",
+            "close": 6.62,
+            "volume": 158692,
+            "average20": 6.41,
+            "average60": 6.738
+          },
+          {
+            "date": "2026-04-28",
+            "close": 6.56,
+            "volume": 143016,
+            "average20": 6.412,
+            "average60": 6.723
+          },
+          {
+            "date": "2026-04-29",
+            "close": 6.48,
+            "volume": 169258,
+            "average20": 6.412,
+            "average60": 6.712
+          },
+          {
+            "date": "2026-04-30",
+            "close": 6.48,
+            "volume": 149242,
+            "average20": 6.41,
+            "average60": 6.702
+          },
+          {
+            "date": "2026-05-06",
+            "close": 6.54,
+            "volume": 162164,
+            "average20": 6.412,
+            "average60": 6.692
+          },
+          {
+            "date": "2026-05-07",
+            "close": 6.45,
+            "volume": 161233,
+            "average20": 6.426,
+            "average60": 6.682
+          },
+          {
+            "date": "2026-05-08",
+            "close": 6.54,
+            "volume": 175885,
+            "average20": 6.433,
+            "average60": 6.674
+          },
+          {
+            "date": "2026-05-11",
+            "close": 6.34,
+            "volume": 256807,
+            "average20": 6.423,
+            "average60": 6.668
+          },
+          {
+            "date": "2026-05-12",
+            "close": 6.24,
+            "volume": 167244,
+            "average20": 6.416,
+            "average60": 6.658
+          },
+          {
+            "date": "2026-05-13",
+            "close": 6.24,
+            "volume": 175754,
+            "average20": 6.405,
+            "average60": 6.646
+          },
+          {
+            "date": "2026-05-14",
+            "close": 6.87,
+            "volume": 532202,
+            "average20": 6.432,
+            "average60": 6.647
+          },
+          {
+            "date": "2026-05-15",
+            "close": 6.88,
+            "volume": 855341,
+            "average20": 6.464,
+            "average60": 6.647
+          },
+          {
+            "date": "2026-05-18",
+            "close": 6.97,
+            "volume": 512112,
+            "average20": 6.503,
+            "average60": 6.646
+          },
+          {
+            "date": "2026-05-19",
+            "close": 7.12,
+            "volume": 578596,
+            "average20": 6.544,
+            "average60": 6.651
+          },
+          {
+            "date": "2026-05-20",
+            "close": 7.04,
+            "volume": 325197,
+            "average20": 6.586,
+            "average60": 6.654
+          },
+          {
+            "date": "2026-05-21",
+            "close": 6.78,
+            "volume": 362604,
+            "average20": 6.613,
+            "average60": 6.654
+          },
+          {
+            "date": "2026-05-22",
+            "close": 7.07,
+            "volume": 553808,
+            "average20": 6.656,
+            "average60": 6.662
+          },
+          {
+            "date": "2026-05-25",
+            "close": 6.9,
+            "volume": 282122,
+            "average20": 6.673,
+            "average60": 6.66
+          },
+          {
+            "date": "2026-05-26",
+            "close": 6.77,
+            "volume": 286389,
+            "average20": 6.678,
+            "average60": 6.656
+          },
+          {
+            "date": "2026-05-27",
+            "close": 6.6,
+            "volume": 192709,
+            "average20": 6.675,
+            "average60": 6.649
+          },
+          {
+            "date": "2026-05-28",
+            "close": 6.65,
+            "volume": 184043,
+            "average20": 6.676,
+            "average60": 6.641
+          },
+          {
+            "date": "2026-05-29",
+            "close": 6.45,
+            "volume": 164708,
+            "average20": 6.671,
+            "average60": 6.62
+          },
+          {
+            "date": "2026-06-01",
+            "close": 6.87,
+            "volume": 355130,
+            "average20": 6.69,
+            "average60": 6.604
+          },
+          {
+            "date": "2026-06-02",
+            "close": 6.69,
+            "volume": 208295,
+            "average20": 6.701,
+            "average60": 6.595
+          },
+          {
+            "date": "2026-06-03",
+            "close": 6.84,
+            "volume": 237768,
+            "average20": 6.716,
+            "average60": 6.588
+          },
+          {
+            "date": "2026-06-04",
+            "close": 6.86,
+            "volume": 250071,
+            "average20": 6.736,
+            "average60": 6.583
+          },
+          {
+            "date": "2026-06-05",
+            "close": 6.98,
+            "volume": 377308,
+            "average20": 6.758,
+            "average60": 6.58
+          },
+          {
+            "date": "2026-06-08",
+            "close": 6.52,
+            "volume": 341669,
+            "average20": 6.767,
+            "average60": 6.573
+          },
+          {
+            "date": "2026-06-09",
+            "close": 6.26,
+            "volume": 331258,
+            "average20": 6.768,
+            "average60": 6.563
+          },
+          {
+            "date": "2026-06-10",
+            "close": 6.2,
+            "volume": 264756,
+            "average20": 6.766,
+            "average60": 6.553
+          },
+          {
+            "date": "2026-06-11",
+            "close": 6.03,
+            "volume": 170300,
+            "average20": 6.724,
+            "average60": 6.542
+          },
+          {
+            "date": "2026-06-12",
+            "close": 5.92,
+            "volume": 170559,
+            "average20": 6.676,
+            "average60": 6.525
+          },
+          {
+            "date": "2026-06-15",
+            "close": 5.78,
+            "volume": 226330,
+            "average20": 6.617,
+            "average60": 6.51
+          },
+          {
+            "date": "2026-06-16",
+            "close": 5.84,
+            "volume": 178728,
+            "average20": 6.553,
+            "average60": 6.498
+          },
+          {
+            "date": "2026-06-17",
+            "close": 5.74,
+            "volume": 160140,
+            "average20": 6.487,
+            "average60": 6.486
+          },
+          {
+            "date": "2026-06-18",
+            "close": 5.73,
+            "volume": 147424,
+            "average20": 6.435,
+            "average60": 6.475
+          },
+          {
+            "date": "2026-06-22",
+            "close": 5.82,
+            "volume": 193601,
+            "average20": 6.373,
+            "average60": 6.469
+          },
+          {
+            "date": "2026-06-23",
+            "close": 5.84,
+            "volume": 155901,
+            "average20": 6.32,
+            "average60": 6.46
+          },
+          {
+            "date": "2026-06-24",
+            "close": 5.77,
+            "volume": 131598,
+            "average20": 6.269,
+            "average60": 6.448
+          },
+          {
+            "date": "2026-06-25",
+            "close": 5.49,
+            "volume": 206424,
+            "average20": 6.214,
+            "average60": 6.433
+          },
+          {
+            "date": "2026-06-26",
+            "close": 5.31,
+            "volume": 114132,
+            "average20": 6.147,
+            "average60": 6.411
+          },
+          {
+            "date": "2026-06-29",
+            "close": 5.27,
+            "volume": 103536,
+            "average20": 6.088,
+            "average60": 6.39
+          },
+          {
+            "date": "2026-06-30",
+            "close": 5.36,
+            "volume": 163998,
+            "average20": 6.013,
+            "average60": 6.371
+          },
+          {
+            "date": "2026-07-01",
+            "close": 5.41,
+            "volume": 137277,
+            "average20": 5.949,
+            "average60": 6.353
+          },
+          {
+            "date": "2026-07-02",
+            "close": 5.48,
+            "volume": 167964,
+            "average20": 5.88,
+            "average60": 6.336
+          },
+          {
+            "date": "2026-07-03",
+            "close": 5.55,
+            "volume": 118072,
+            "average20": 5.815,
+            "average60": 6.326
+          },
+          {
+            "date": "2026-07-06",
+            "close": 5.55,
+            "volume": 99729,
+            "average20": 5.743,
+            "average60": 6.311
+          },
+          {
+            "date": "2026-07-07",
+            "close": 5.53,
+            "volume": 86217,
+            "average20": 5.694,
+            "average60": 6.294
+          },
+          {
+            "date": "2026-07-08",
+            "close": 5.45,
+            "volume": 77273,
+            "average20": 5.653,
+            "average60": 6.279
+          },
+          {
+            "date": "2026-07-09",
+            "close": 5.5,
+            "volume": 101573,
+            "average20": 5.619,
+            "average60": 6.263
+          },
+          {
+            "date": "2026-07-10",
+            "close": 5.54,
+            "volume": 86197,
+            "average20": 5.594,
+            "average60": 6.25
+          },
+          {
+            "date": "2026-07-13",
+            "close": 5.31,
+            "volume": 85607,
+            "average20": 5.564,
+            "average60": 6.234
+          },
+          {
+            "date": "2026-07-14",
+            "close": 5.51,
+            "volume": 109956,
+            "average20": 5.55,
+            "average60": 6.223
+          },
+          {
+            "date": "2026-07-15",
+            "close": 5.6,
+            "volume": 97237,
+            "average20": 5.538,
+            "average60": 6.212
+          },
+          {
+            "date": "2026-07-16",
+            "close": 5.5,
+            "volume": 99165,
+            "average20": 5.526,
+            "average60": 6.2
+          },
+          {
+            "date": "2026-07-17",
+            "close": 5.32,
+            "volume": 124984,
+            "average20": 5.506,
+            "average60": 6.184
+          },
+          {
+            "date": "2026-07-20",
+            "close": 5.23,
+            "volume": 134188,
+            "average20": 5.476,
+            "average60": 6.168
+          },
+          {
+            "date": "2026-07-21",
+            "close": 5.1,
+            "volume": 175784,
+            "average20": 5.439,
+            "average60": 6.144
+          },
+          {
+            "date": "2026-07-22",
+            "close": 5.06,
+            "volume": 99016,
+            "average20": 5.404,
+            "average60": 6.117
+          },
+          {
+            "date": "2026-07-23",
+            "close": 5.21,
+            "volume": 53686,
+            "average20": 5.389,
+            "average60": 6.093
+          }
+        ],
+        "plainReading": {
+          "state": "短期反弹，尚未完全转强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "最近有所修复，但更长一段时间形成的压力还没有越过。",
+          "watch": "接下来能守住 5.39 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 4.90，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 6.05,
+            "recentAverage": 5.389,
+            "longerAverage": 6.093,
+            "recentHigh": 5.67,
+            "recentLow": 4.9
+          }
+        }
+      },
+      "risk": [
+        "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，国际实业需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查国际实业的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘国际实业保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。",
+            "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+          ]
+        },
+        "upside": {
+          "summary": "国际实业的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "油气产量、销量、服务订单、成本或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "国际实业的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本5.54元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "油气产量、销量、服务订单、成本或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。继续恶化，或价格跌破60日平均成本5.54元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "油气产量、销量、服务订单、成本或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "国际实业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收19.87亿元，同比-22.9%；归母净利润3801.72万元，同比-108.66%。2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。",
+            "reason": "国际实业当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225226164.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+            "reason": "国际实业当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-11/1225092400.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-11/1225092400.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘6.07元，高于20日平均成本5.77元；60日平均成本5.54元，近20个交易日涨跌+5.2%。",
+            "reason": "国际实业当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收19.87亿元，同比-22.9%；归母净利润3801.72万元，同比-108.66%。2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。",
+          "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+          "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查国际实业的新公告是否出现油气产量、销量、服务订单、成本或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘国际实业保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收19.87亿元，同比-22.9%；归母净利润3801.72万元，同比-108.66%。2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。"
+      },
+      {
+        "label": "已确认",
+        "text": "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "已确认",
+        "text": "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘6.07元，高于20日平均成本5.77元；60日平均成本5.54元，近20个交易日涨跌+5.2%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "国际实业当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。"
+      },
+      {
+        "label": "分析",
+        "text": "国际实业当前业务信号为：报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "国际实业当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：国际实业保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+        "status": "open"
+      },
+      {
+        "text": "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，国际实业需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "status": "open"
+      },
+      {
+        "question": "国际实业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "000159.SZ",
+      "research_status": "COMPLETED",
+      "score": 94.8,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.6,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "000159.SZ",
+      "company": "国际实业",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 59.37,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 62.56,
+      "technical_timing_score": 21.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 56.63,
+      "candidate_priority_score": 55.79,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "WAIT_FOR_BUY_POINT",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 54.4,
+          "average_rating": 2.72,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2.7,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 62.56,
+          "average_rating": 3.13,
+          "details": {
+            "valuation_discount": 3.4,
+            "implied_growth_vs_evidence": 2.99,
+            "upside_downside": 1.6,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.35
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 21.4,
+          "average_rating": 1.07,
+          "details": {
+            "monthly_trend": 0.5,
+            "weekly_structure": 0.8,
+            "daily_buy_point": 1.85,
+            "gf_dma_alignment": 1.2,
+            "drawdown_position": 1
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "油品贸易与仓储处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量和销量、成本变化和现金流兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -5.1%，近60日涨跌 -21.9%。",
+          "missing_proof": "产量和销量 / 成本变化 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "产量或销量没有增长，成本却持续上升。",
+        "油价变化没有转成利润和现金流改善。",
+        "资本开支增加，但储量、产量或项目回报没有兑现。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "AVOID_FOR_NOW",
+      "label": "当前不优先",
+      "researchRating": "D",
+      "overallScore": 33.67,
+      "fundamentalScore": 44.65,
+      "companyScore": 34,
+      "evidenceScore": 63,
+      "valuationScore": 24,
+      "timingScore": 21.4,
+      "riskScore": 47,
+      "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+      "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+      "metrics": {
+        "pe": 65.8649,
+        "ps": 1.2605,
+        "revenueGrowth": 0.2551,
+        "profitGrowth": -0.1532,
+        "cashConversion": -2.1572,
+        "debtRatio": 0.4406,
+        "return20": 0.052
+      }
+    },
+    "overlay": {
+      "symbol": "000159.SZ",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "油品贸易与仓储",
+      "bottleneck_reason": "油气景气必须经过产销量、服务工作量和成本，再进入利润和现金流；本次最关键的公司原文是：国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。",
+      "revenue_transmission": "报告没有把油气产量、销量、服务订单、成本或经营现金流单独量化，行业逻辑暂时不能全部归到公司。收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+      "serenity_fit": 0.5,
+      "layer_score": 58,
+      "company_fit": 56,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "油气产量、销量、服务订单、成本或经营现金流与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收19.87亿元，同比-22.9%；归母净利润3801.72万元，同比-108.66%。2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。2026-08-26复权收盘6.07元，高于20日平均成本5.77元；60日平均成本5.54元，近20个交易日涨跌+5.2%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 0,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，国际实业需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化油气产量、销量、服务订单、成本或经营现金流？",
+        "国际实业的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收4.5亿元，较可比期+25.51%；归母净利润729.36万元，较可比期-15.32%；经营现金流-1573.38万元。",
+          "国际实业最新正式报告没有单独量化油气产量、销量、服务订单、成本或经营现金流，现阶段只能用公司整体财务和后续公告继续验证。"
+        ]
+      },
+      "upside": {
+        "summary": "国际实业的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "油气产量、销量、服务订单、成本或经营现金流",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "国际实业的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本5.54元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "油气产量、销量、服务订单、成本或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本5.77元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若本公司整体的风险管理计划针对金融市场的不可预见性，力求减少对本公司财务业绩 的潜在不利影响。继续恶化，或价格跌破60日平均成本5.54元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

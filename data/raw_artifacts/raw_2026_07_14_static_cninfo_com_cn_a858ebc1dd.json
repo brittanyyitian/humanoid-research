@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_a858ebc1dd",
+  "artifactType": "filing",
+  "title": "《安集微电子科技（上海）股份有限公司董事会议事规则（草案）》（H股发行并上市后适用）",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225422200.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a858ebc1dd",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_a858ebc1dd",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:46fea2cea9a5a460c065587258b26ff4ed58434f48c237d2d26d5e13ee4fa992",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_a858ebc1dd.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_9f0e9e410d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_aeb1f326e8668baa; listSourceId=src_cninfo_688019_announcements."
+}

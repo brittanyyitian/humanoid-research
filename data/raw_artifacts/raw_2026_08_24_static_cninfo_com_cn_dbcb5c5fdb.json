@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb",
+  "artifactType": "filing",
+  "title": "2026年半年度报告",
+  "publisher": "东华测试",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225491781.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dbcb5c5fdb",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T16:15:57+08:00",
+  "capturedAt": "2026-08-24T16:15:57+08:00",
+  "contentHash": "sha256:e49831817e47c59895daec79a1f6c245416fde709a4963d4ad9386e454383dfe",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_dbcb5c5fdb.json",
+  "entityIds": [
+    "donghua_testing"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_862393bde2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9ef1adf4404e1618; listSourceId=src_cninfo_300354_announcements."
+}

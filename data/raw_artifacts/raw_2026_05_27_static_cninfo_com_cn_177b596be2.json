@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_27_static_cninfo_com_cn_177b596be2",
+  "artifactType": "filing",
+  "title": "国投电力控股股份有限公司关于使用部分闲置募集资金进行现金管理到期赎回并继续进行现金管理的进展公告",
+  "publisher": "国投电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-27/1225330508.PDF",
+  "sourceId": "src_static_cninfo_com_cn_177b596be2",
+  "fetchRunId": "fetch_2026_05_27_static_cninfo_com_cn_177b596be2",
+  "publishedAt": "2026-05-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:66dd8e26f10fffd00a207cfaa6b6d3aaf441b2380b7755ca1c54906531f65d4b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_27_static_cninfo_com_cn_177b596be2.json",
+  "entityIds": [
+    "sdic_power"
+  ],
+  "claimIds": [
+    "claim_2026_05_27_filing_e79b124aa5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0fc7e1fe24dbd8d7; listSourceId=src_cninfo_600886_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_28_static_cninfo_com_cn_1827a6b747",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-28/1223320680.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1827a6b747",
+  "fetchRunId": "fetch_2025_04_28_static_cninfo_com_cn_1827a6b747",
+  "publishedAt": "2025-04-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:c3d746ab7d60d5a34297c3a913685d1e644224537ad5f22957937caa8b2bb0e5",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_28_static_cninfo_com_cn_1827a6b747.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2025_04_28_filing_fe10a43f8c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f82a422f1732b15a; listSourceId=src_cninfo_301269_announcements."
+}

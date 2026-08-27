@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_bf5877e396",
+  "artifactType": "filing",
+  "title": "长江电力第七届董事会第一次会议决议公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225384928.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bf5877e396",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_bf5877e396",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:3801ffaf0ebe6da01619bce81c71f5fc6a715fbf2d56d9c5f08a4febca00c293",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_bf5877e396.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_e76686f997"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3f04f1726f51a009; listSourceId=src_cninfo_600900_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_16_static_cninfo_com_cn_9af1ceb858",
+  "artifactType": "filing",
+  "title": "2025年半年度报告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-16/1224500455.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9af1ceb858",
+  "fetchRunId": "fetch_2025_08_16_static_cninfo_com_cn_9af1ceb858",
+  "publishedAt": "2025-08-16",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:9626b806c9739e95970913f62fcc07fd863d5e245899071be651ebc94149e052",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_16_static_cninfo_com_cn_9af1ceb858.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2025_08_16_filing_9525376bcb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_592dc240c4637150; listSourceId=src_cninfo_301269_announcements."
+}

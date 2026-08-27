@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_ec95ee769c",
+  "artifactType": "filing",
+  "title": "港股公告：董事会日期公告",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225448338.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ec95ee769c",
+  "fetchRunId": "fetch_2026_07_31_static_cninfo_com_cn_ec95ee769c",
+  "publishedAt": "2026-07-31",
+  "firstSeenAt": "2026-07-31T16:18:10+08:00",
+  "capturedAt": "2026-07-31T16:18:10+08:00",
+  "contentHash": "sha256:cc01191e8b84bca64b7615b62a0b5462c91404a69196abf5a82a9fbdbe459a61",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_31_static_cninfo_com_cn_ec95ee769c.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_07_31_filing_cf533f0f17"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_97718d0e9217b1fa; listSourceId=src_cninfo_688347_announcements."
+}

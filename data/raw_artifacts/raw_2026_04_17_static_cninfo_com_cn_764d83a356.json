@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_764d83a356",
+  "artifactType": "filing",
+  "title": "董事会审计委员会履职报告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225113347.PDF",
+  "sourceId": "src_static_cninfo_com_cn_764d83a356",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_764d83a356",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:57854995827b279e7e6030798bb0e85b0844f4e35ebba16c2c0ad396d3396161",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_764d83a356.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_90cd87912f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5bc02fc7066621c5; listSourceId=src_cninfo_002353_announcements."
+}

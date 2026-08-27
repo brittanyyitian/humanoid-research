@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_16_static_cninfo_com_cn_3854a6c6e3",
+  "artifactType": "filing",
+  "title": "2025年年度报告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-16/1225108553.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3854a6c6e3",
+  "fetchRunId": "fetch_2026_04_16_static_cninfo_com_cn_3854a6c6e3",
+  "publishedAt": "2026-04-16",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:db1d1003ba1979a05ae6f0bf91cd331f32be003b73a6d96222b9a7499323012f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_16_static_cninfo_com_cn_3854a6c6e3.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_16_filing_41795260c5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_731b2c225ab47603; listSourceId=src_cninfo_688019_announcements."
+}

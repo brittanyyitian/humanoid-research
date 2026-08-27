@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_3c5a19d3f2",
+  "artifactType": "filing",
+  "title": "关于续聘2026年度会计师事务所的公告",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225498978.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3c5a19d3f2",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_3c5a19d3f2",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:65daa64a388fe3f21921cf5420dfa87f9cd26498ef2b017eea8245913f5db8ca",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_3c5a19d3f2.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_d4d7e2c9e5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e6ced0b1333b745a; listSourceId=src_cninfo_300100_announcements."
+}

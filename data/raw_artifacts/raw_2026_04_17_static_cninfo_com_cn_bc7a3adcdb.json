@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_bc7a3adcdb",
+  "artifactType": "filing",
+  "title": "国泰海通证券股份有限公司关于上海硅产业集团股份有限公司使用部分暂时闲置募集资金进行现金管理的核查意见",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225114304.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bc7a3adcdb",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_bc7a3adcdb",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b9af3ed1e5c0cc7d2adb7c022539c68611dc805c957d8ba8f674757225880fcf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_bc7a3adcdb.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_c17b86b95d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_dd2038617fcd4f7d; listSourceId=src_cninfo_688126_announcements."
+}

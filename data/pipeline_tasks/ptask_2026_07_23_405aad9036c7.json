@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_405aad9036c7",
+  "rawArtifactId": "raw_2026_05_19_static_cninfo_com_cn_e481e8511e",
+  "routeDecisionId": "route_2026_05_19_48126916d4a3",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "international_industry",
+  "entityIds": [
+    "international_industry"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:09+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:09+08:00",
+  "finishedAt": "2026-07-23T09:51:09+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_19_filing_d2ed8bd8d3"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_19_filing_d2ed8bd8d3"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_19_filing_material_v0_a72a69804b"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_2bb67483a59d"
+  ]
+}

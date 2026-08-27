@@ -1,0 +1,147 @@
+{
+  "id": "saout_zijin_mining_d257fd3c86b9",
+  "entityId": "zijin_mining",
+  "name": "紫金矿业",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "2.1,\n        \"implied_growth_vs_evidence\": 2.64,\n        \"upside_downside\": 2.65,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.1\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 68.8,\n      \"average_rating\": 3.44,\n      \"details\": {\n        \"monthly_trend\": 2.6,\n        \"weekly_structure\": 4.0,\n        \"daily_buy_point\": 3.5,\n        \"gf_dma_alignment\": 3.85,\n        \"drawdown_position\": 3.25\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"金铜资源处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量变化、成本变化和项目投产。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 8 份财报或业绩材料；近20日涨跌 31.6%，近60日涨跌 -1.0%。\",\n      \"missing_proof\": \"产量变化 / 成本变化 / 项目投产 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"金属价格上涨，但产量、成本或利润没有同步改善。\",\n    \"扩产项目延期，资源量没有转成可销售产量。\",\n    \"现金流弱于利润，资本开支和负债压力上升。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "601899.SH",
+    "symbol": "601899"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_22_static_cninfo_com_cn_55c7ea5f01",
+      "raw_2026_08_22_static_cninfo_com_cn_242b7dd1f7",
+      "raw_2026_08_20_static_cninfo_com_cn_b5ff3efee4",
+      "raw_2026_07_10_static_cninfo_com_cn_b09594c5ef",
+      "raw_2026_03_21_static_cninfo_com_cn_f92bd152b2",
+      "raw_2026_03_21_static_cninfo_com_cn_c4f256510a",
+      "raw_2025_08_27_static_cninfo_com_cn_1362dbabe5",
+      "raw_2025_08_27_static_cninfo_com_cn_d7ea6987f7"
+    ],
+    "claimIds": [
+      "claim_2026_08_22_filing_e214984906",
+      "claim_2026_08_22_filing_e578f9134a",
+      "claim_2026_08_20_filing_58596f39e6",
+      "claim_2026_07_10_filing_20bec4820a",
+      "claim_2026_03_21_filing_405572190d",
+      "claim_2026_03_21_filing_50f27db912",
+      "claim_2025_08_27_filing_a1f7c25a5a",
+      "claim_2025_08_27_filing_20ec4bdec9",
+      "claim_2025_03_22_filing_a3338b967f",
+      "claim_2026_07_11_filing_8e017b39f3",
+      "claim_2026_07_11_filing_95aaddd91c",
+      "claim_2026_07_03_filing_fed2430d11",
+      "claim_2026_04_22_filing_d33075d036",
+      "claim_2025_04_12_filing_ffaf07cab3",
+      "claim_2026_08_22_filing_8727d1f685",
+      "claim_2026_08_22_filing_b8e746853e",
+      "claim_2026_08_04_filing_6f16f4f43d",
+      "claim_2026_07_30_filing_a2c38ca2ea",
+      "claim_2026_06_06_filing_0549ed25ed",
+      "claim_2026_06_06_filing_164c5039cc"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/data/601899/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "紫金矿业 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：STRONG_OBSERVE。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 56.37/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/data/601899/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_55_47_zijin_mining/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 601899.SH (紫金矿业)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **56.37 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **STRONG_OBSERVE**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.89 |\n| Evidence confidence | 77.6 |\n| Market payoff | 59.16 |\n| Technical timing | 68.8 |\n| Data readiness | 100.0 |\n| Action readiness | 77.96 |\n\n## Falsification Points\n- 金属价格上涨，但产量、成本或利润没有同步改善。\n- 扩产项目延期，资源量没有转成可销售产量。\n- 现金流弱于利润，资本开支和负债压力上升。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

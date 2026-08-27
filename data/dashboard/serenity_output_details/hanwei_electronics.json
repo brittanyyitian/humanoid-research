@@ -1,0 +1,1062 @@
+{
+  "id": "saout_hanwei_electronics_52eea77bf9c7",
+  "entityId": "hanwei_electronics",
+  "name": "汉威科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/hanwei_electronics.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "汉威科技 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：汉威科技当前不列为优先关注。",
+    "currentFocus": "Serenity 当前判断：汉威科技当前不列为优先关注。",
+    "toVerify": [
+      "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+      "汉威科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本33.47元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：汉威科技当前不列为优先关注。",
+    "followup": "未来30天：自动检查汉威科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘汉威科技当前不列为优先关注。是否被业务、财务和价格共同验证。",
+    "materialLine": "力传感器",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "300007.SZ",
+      "name": "汉威科技",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 31.59,
+        "previousClose": 30.909980430528375,
+        "changePct": 2.200000000000003,
+        "high": 31.82,
+        "low": 30.59,
+        "open": 31.82,
+        "volume": 95620,
+        "turnover": 29720,
+        "turnoverText": "1.87亿",
+        "currency": "CNY",
+        "asOf": "20260827161445",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "B",
+        "priorityScore": 41.04,
+        "technicalTimingScore": 25.4,
+        "marketPayoffScore": 54.84,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "WAIT_FOR_BUY_POINT",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 38,
+        "evidenceScore": 63,
+        "valuationScore": 52,
+        "timingScore": 25.4,
+        "riskScore": 49,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 42.93,
+          "fundamentalScore": 47.15,
+          "companyScore": 38,
+          "evidenceScore": 63,
+          "valuationScore": 52,
+          "timingScore": 25.4,
+          "riskScore": 49,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 63.5014,
+            "ps": 4.1783,
+            "revenueGrowth": -0.1561,
+            "profitGrowth": 0.4608,
+            "cashConversion": -4.4234,
+            "debtRatio": 0.388,
+            "return20": -0.1079
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收24.14亿元，同比+8.35%；归母净利润1.59亿元，同比+107.11%。2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。",
+          "汉威科技最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。",
+          "2026-08-26复权收盘30.91元，低于20日平均成本33.47元；60日平均成本34.46元，近20个交易日涨跌-10.79%。"
+        ],
+        "possible": [
+          "汉威科技当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "汉威科技当前业务信号为：报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。",
+          "汉威科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 54.84,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 41.04/100；行动就绪 WAIT_FOR_BUY_POINT。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 25.4,
+        "dailyBuyPointScore": 1.45,
+        "dmaAlignmentScore": 1.2,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 标记为等待买点，需要技术结构确认。",
+        "chart": [
+          {
+            "date": "2026-03-12",
+            "close": 48.44,
+            "volume": 87167,
+            "average20": 51.766,
+            "average60": 53.369
+          },
+          {
+            "date": "2026-03-13",
+            "close": 47.58,
+            "volume": 98552,
+            "average20": 51.49,
+            "average60": 53.313
+          },
+          {
+            "date": "2026-03-16",
+            "close": 48.01,
+            "volume": 75448,
+            "average20": 51.168,
+            "average60": 53.275
+          },
+          {
+            "date": "2026-03-17",
+            "close": 46.33,
+            "volume": 80651,
+            "average20": 50.724,
+            "average60": 53.231
+          },
+          {
+            "date": "2026-03-18",
+            "close": 46.9,
+            "volume": 63732,
+            "average20": 50.303,
+            "average60": 53.186
+          },
+          {
+            "date": "2026-03-19",
+            "close": 45.18,
+            "volume": 86047,
+            "average20": 49.845,
+            "average60": 53.149
+          },
+          {
+            "date": "2026-03-20",
+            "close": 43.57,
+            "volume": 86752,
+            "average20": 49.258,
+            "average60": 53.104
+          },
+          {
+            "date": "2026-03-23",
+            "close": 42.17,
+            "volume": 144088,
+            "average20": 48.59,
+            "average60": 53.034
+          },
+          {
+            "date": "2026-03-24",
+            "close": 42.38,
+            "volume": 104388,
+            "average20": 47.991,
+            "average60": 52.986
+          },
+          {
+            "date": "2026-03-25",
+            "close": 43,
+            "volume": 88007,
+            "average20": 47.441,
+            "average60": 52.94
+          },
+          {
+            "date": "2026-03-26",
+            "close": 42.48,
+            "volume": 93515,
+            "average20": 46.893,
+            "average60": 52.855
+          },
+          {
+            "date": "2026-03-27",
+            "close": 42.7,
+            "volume": 79813,
+            "average20": 46.41,
+            "average60": 52.795
+          },
+          {
+            "date": "2026-03-30",
+            "close": 42.58,
+            "volume": 59035,
+            "average20": 46.005,
+            "average60": 52.719
+          },
+          {
+            "date": "2026-03-31",
+            "close": 42.23,
+            "volume": 79655,
+            "average20": 45.735,
+            "average60": 52.594
+          },
+          {
+            "date": "2026-04-01",
+            "close": 43.24,
+            "volume": 74396,
+            "average20": 45.543,
+            "average60": 52.484
+          },
+          {
+            "date": "2026-04-02",
+            "close": 41.78,
+            "volume": 68035,
+            "average20": 45.221,
+            "average60": 52.331
+          },
+          {
+            "date": "2026-04-03",
+            "close": 41.31,
+            "volume": 49544,
+            "average20": 44.841,
+            "average60": 52.12
+          },
+          {
+            "date": "2026-04-07",
+            "close": 41.34,
+            "volume": 46434,
+            "average20": 44.497,
+            "average60": 51.916
+          },
+          {
+            "date": "2026-04-08",
+            "close": 43.83,
+            "volume": 102635,
+            "average20": 44.215,
+            "average60": 51.59
+          },
+          {
+            "date": "2026-04-09",
+            "close": 42.8,
+            "volume": 71648,
+            "average20": 43.893,
+            "average60": 51.27
+          },
+          {
+            "date": "2026-04-10",
+            "close": 43.5,
+            "volume": 94723,
+            "average20": 43.646,
+            "average60": 51.002
+          },
+          {
+            "date": "2026-04-13",
+            "close": 43.42,
+            "volume": 58518,
+            "average20": 43.437,
+            "average60": 50.721
+          },
+          {
+            "date": "2026-04-14",
+            "close": 44.31,
+            "volume": 81699,
+            "average20": 43.252,
+            "average60": 50.472
+          },
+          {
+            "date": "2026-04-15",
+            "close": 43.42,
+            "volume": 81051,
+            "average20": 43.107,
+            "average60": 50.162
+          },
+          {
+            "date": "2026-04-16",
+            "close": 44.19,
+            "volume": 90927,
+            "average20": 42.972,
+            "average60": 49.909
+          },
+          {
+            "date": "2026-04-17",
+            "close": 44.24,
+            "volume": 83677,
+            "average20": 42.924,
+            "average60": 49.68
+          },
+          {
+            "date": "2026-04-20",
+            "close": 44.81,
+            "volume": 114211,
+            "average20": 42.986,
+            "average60": 49.478
+          },
+          {
+            "date": "2026-04-21",
+            "close": 44.21,
+            "volume": 101087,
+            "average20": 43.088,
+            "average60": 49.242
+          },
+          {
+            "date": "2026-04-22",
+            "close": 44.43,
+            "volume": 85691,
+            "average20": 43.191,
+            "average60": 48.978
+          },
+          {
+            "date": "2026-04-23",
+            "close": 42.99,
+            "volume": 116326,
+            "average20": 43.191,
+            "average60": 48.734
+          },
+          {
+            "date": "2026-04-24",
+            "close": 42.14,
+            "volume": 83539,
+            "average20": 43.173,
+            "average60": 48.458
+          },
+          {
+            "date": "2026-04-27",
+            "close": 42.93,
+            "volume": 86088,
+            "average20": 43.185,
+            "average60": 48.209
+          },
+          {
+            "date": "2026-04-28",
+            "close": 40.95,
+            "volume": 115292,
+            "average20": 43.104,
+            "average60": 47.902
+          },
+          {
+            "date": "2026-04-29",
+            "close": 42.08,
+            "volume": 97645,
+            "average20": 43.096,
+            "average60": 47.656
+          },
+          {
+            "date": "2026-04-30",
+            "close": 42.9,
+            "volume": 95077,
+            "average20": 43.079,
+            "average60": 47.432
+          },
+          {
+            "date": "2026-05-06",
+            "close": 44.33,
+            "volume": 172853,
+            "average20": 43.206,
+            "average60": 47.241
+          },
+          {
+            "date": "2026-05-07",
+            "close": 45.65,
+            "volume": 189390,
+            "average20": 43.424,
+            "average60": 47.096
+          },
+          {
+            "date": "2026-05-08",
+            "close": 47.25,
+            "volume": 272230,
+            "average20": 43.719,
+            "average60": 46.962
+          },
+          {
+            "date": "2026-05-11",
+            "close": 46.36,
+            "volume": 181123,
+            "average20": 43.846,
+            "average60": 46.827
+          },
+          {
+            "date": "2026-05-12",
+            "close": 45.62,
+            "volume": 130612,
+            "average20": 43.987,
+            "average60": 46.659
+          },
+          {
+            "date": "2026-05-13",
+            "close": 45.82,
+            "volume": 108058,
+            "average20": 44.103,
+            "average60": 46.504
+          },
+          {
+            "date": "2026-05-14",
+            "close": 44.13,
+            "volume": 116838,
+            "average20": 44.138,
+            "average60": 46.355
+          },
+          {
+            "date": "2026-05-15",
+            "close": 47,
+            "volume": 289231,
+            "average20": 44.273,
+            "average60": 46.231
+          },
+          {
+            "date": "2026-05-18",
+            "close": 48.45,
+            "volume": 266734,
+            "average20": 44.524,
+            "average60": 46.118
+          },
+          {
+            "date": "2026-05-19",
+            "close": 50.61,
+            "volume": 297276,
+            "average20": 44.845,
+            "average60": 46.04
+          },
+          {
+            "date": "2026-05-20",
+            "close": 48.93,
+            "volume": 238557,
+            "average20": 45.08,
+            "average60": 45.949
+          },
+          {
+            "date": "2026-05-21",
+            "close": 50.63,
+            "volume": 415452,
+            "average20": 45.37,
+            "average60": 45.872
+          },
+          {
+            "date": "2026-05-22",
+            "close": 50.76,
+            "volume": 273714,
+            "average20": 45.698,
+            "average60": 45.792
+          },
+          {
+            "date": "2026-05-25",
+            "close": 49.9,
+            "volume": 215021,
+            "average20": 45.971,
+            "average60": 45.718
+          },
+          {
+            "date": "2026-05-26",
+            "close": 50.93,
+            "volume": 280204,
+            "average20": 46.368,
+            "average60": 45.667
+          },
+          {
+            "date": "2026-05-27",
+            "close": 47.47,
+            "volume": 262427,
+            "average20": 46.635,
+            "average60": 45.567
+          },
+          {
+            "date": "2026-05-28",
+            "close": 45.96,
+            "volume": 198832,
+            "average20": 46.786,
+            "average60": 45.46
+          },
+          {
+            "date": "2026-05-29",
+            "close": 41.98,
+            "volume": 220550,
+            "average20": 46.838,
+            "average60": 45.316
+          },
+          {
+            "date": "2026-06-01",
+            "close": 41.54,
+            "volume": 127293,
+            "average20": 46.811,
+            "average60": 45.214
+          },
+          {
+            "date": "2026-06-02",
+            "close": 41.65,
+            "volume": 131762,
+            "average20": 46.748,
+            "average60": 45.123
+          },
+          {
+            "date": "2026-06-03",
+            "close": 41.21,
+            "volume": 127803,
+            "average20": 46.593,
+            "average60": 45.007
+          },
+          {
+            "date": "2026-06-04",
+            "close": 41.38,
+            "volume": 141257,
+            "average20": 46.379,
+            "average60": 44.881
+          },
+          {
+            "date": "2026-06-05",
+            "close": 42.77,
+            "volume": 274355,
+            "average20": 46.155,
+            "average60": 44.79
+          },
+          {
+            "date": "2026-06-08",
+            "close": 43.31,
+            "volume": 231092,
+            "average20": 46.002,
+            "average60": 44.688
+          },
+          {
+            "date": "2026-06-09",
+            "close": 45.17,
+            "volume": 242393,
+            "average20": 45.98,
+            "average60": 44.62
+          },
+          {
+            "date": "2026-06-10",
+            "close": 42.12,
+            "volume": 181051,
+            "average20": 45.795,
+            "average60": 44.514
+          },
+          {
+            "date": "2026-06-11",
+            "close": 39.68,
+            "volume": 159777,
+            "average20": 45.572,
+            "average60": 44.383
+          },
+          {
+            "date": "2026-06-12",
+            "close": 39.21,
+            "volume": 138372,
+            "average20": 45.183,
+            "average60": 44.236
+          },
+          {
+            "date": "2026-06-15",
+            "close": 40.16,
+            "volume": 107668,
+            "average20": 44.768,
+            "average60": 44.133
+          },
+          {
+            "date": "2026-06-16",
+            "close": 40.19,
+            "volume": 126226,
+            "average20": 44.248,
+            "average60": 44.021
+          },
+          {
+            "date": "2026-06-17",
+            "close": 39.05,
+            "volume": 130728,
+            "average20": 43.753,
+            "average60": 43.919
+          },
+          {
+            "date": "2026-06-18",
+            "close": 39.93,
+            "volume": 139407,
+            "average20": 43.218,
+            "average60": 43.858
+          },
+          {
+            "date": "2026-06-22",
+            "close": 38.51,
+            "volume": 185245,
+            "average20": 42.606,
+            "average60": 43.798
+          },
+          {
+            "date": "2026-06-23",
+            "close": 37.77,
+            "volume": 128139,
+            "average20": 41.999,
+            "average60": 43.721
+          },
+          {
+            "date": "2026-06-24",
+            "close": 37.14,
+            "volume": 117410,
+            "average20": 41.31,
+            "average60": 43.623
+          },
+          {
+            "date": "2026-06-25",
+            "close": 36.1,
+            "volume": 142976,
+            "average20": 40.741,
+            "average60": 43.517
+          },
+          {
+            "date": "2026-06-26",
+            "close": 34.79,
+            "volume": 116550,
+            "average20": 40.183,
+            "average60": 43.385
+          },
+          {
+            "date": "2026-06-29",
+            "close": 34.36,
+            "volume": 140203,
+            "average20": 39.802,
+            "average60": 43.248
+          },
+          {
+            "date": "2026-06-30",
+            "close": 38.2,
+            "volume": 210799,
+            "average20": 39.635,
+            "average60": 43.181
+          },
+          {
+            "date": "2026-07-01",
+            "close": 39.99,
+            "volume": 238544,
+            "average20": 39.552,
+            "average60": 43.127
+          },
+          {
+            "date": "2026-07-02",
+            "close": 39.56,
+            "volume": 238137,
+            "average20": 39.47,
+            "average60": 43.09
+          },
+          {
+            "date": "2026-07-03",
+            "close": 43.27,
+            "volume": 372519,
+            "average20": 39.564,
+            "average60": 43.122
+          },
+          {
+            "date": "2026-07-06",
+            "close": 40.35,
+            "volume": 254963,
+            "average20": 39.443,
+            "average60": 43.106
+          },
+          {
+            "date": "2026-07-07",
+            "close": 39.26,
+            "volume": 163400,
+            "average20": 39.241,
+            "average60": 43.03
+          },
+          {
+            "date": "2026-07-08",
+            "close": 36.79,
+            "volume": 145209,
+            "average20": 38.822,
+            "average60": 42.929
+          },
+          {
+            "date": "2026-07-09",
+            "close": 37.16,
+            "volume": 109542,
+            "average20": 38.574,
+            "average60": 42.824
+          },
+          {
+            "date": "2026-07-10",
+            "close": 38.31,
+            "volume": 178118,
+            "average20": 38.505,
+            "average60": 42.739
+          },
+          {
+            "date": "2026-07-13",
+            "close": 35.3,
+            "volume": 129809,
+            "average20": 38.309,
+            "average60": 42.588
+          },
+          {
+            "date": "2026-07-14",
+            "close": 35.42,
+            "volume": 99119,
+            "average20": 38.072,
+            "average60": 42.455
+          },
+          {
+            "date": "2026-07-15",
+            "close": 35.49,
+            "volume": 97481,
+            "average20": 37.837,
+            "average60": 42.31
+          },
+          {
+            "date": "2026-07-16",
+            "close": 35.7,
+            "volume": 103913,
+            "average20": 37.67,
+            "average60": 42.168
+          },
+          {
+            "date": "2026-07-17",
+            "close": 32.71,
+            "volume": 139856,
+            "average20": 37.309,
+            "average60": 41.966
+          },
+          {
+            "date": "2026-07-20",
+            "close": 30.8,
+            "volume": 133328,
+            "average20": 36.923,
+            "average60": 41.742
+          },
+          {
+            "date": "2026-07-21",
+            "close": 31.89,
+            "volume": 129092,
+            "average20": 36.63,
+            "average60": 41.534
+          },
+          {
+            "date": "2026-07-22",
+            "close": 30.8,
+            "volume": 95620,
+            "average20": 36.313,
+            "average60": 41.33
+          }
+        ],
+        "plainReading": {
+          "state": "走势仍然偏弱",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
+          "watch": "先看能否重新站上 36.31 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 29.45，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 31.59,
+            "recentAverage": 36.313,
+            "longerAverage": 41.33,
+            "recentHigh": 44.49,
+            "recentLow": 29.45
+          }
+        }
+      },
+      "risk": [
+        "汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查汉威科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘汉威科技当前不列为优先关注。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：汉威科技当前不列为优先关注。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。",
+            "汉威科技最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。"
+          ]
+        },
+        "upside": {
+          "summary": "汉威科技的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "机器人相关客户、订单、交付、收入或产量",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本33.47元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "汉威科技的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本34.46元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "机器人相关客户、订单、交付、收入或产量继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本33.47元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。继续恶化，或价格跌破60日平均成本34.46元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "只有核心业务兑现和经营现金流重新改善，才上调关注等级。"
+        ]
+      },
+      "nextEvidence": [
+        "机器人相关客户、订单、交付、收入或产量与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化机器人相关客户、订单、交付、收入或产量？",
+        "汉威科技的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本33.47元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 3,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收24.14亿元，同比+8.35%；归母净利润1.59亿元，同比+107.11%。2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。",
+            "reason": "汉威科技当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227672.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "汉威科技最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+            "reason": "汉威科技当前业务信号为：报告没有把机器人相关客户、订单、交付、收入或产量单独量化，行业逻辑暂时不能全部归到公司。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227672.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227672.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘30.91元，低于20日平均成本33.47元；60日平均成本34.46元，近20个交易日涨跌-10.79%。",
+            "reason": "汉威科技当前价格信号为：价格仍低于近期平均成本，市场尚未确认基本面改善，当前不适合追涨。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：汉威科技当前不列为优先关注。",
+        "items": [
+          "2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。汉威科技最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "只有核心业务兑现和经营现金流重新改善，才上调关注等级。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收24.14亿元，同比+8.35%；归母净利润1.59亿元，同比+107.11%。2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。",
+          "汉威科技最新正式报告没有单独量化机器人相关客户、订单、交付、收入或产量，现阶段只能用公司整体财务和后续公告继续验证。",
+          "汉威科技最新财务中最需要警惕的是：2026-03-31营收5.09亿元，较可比期-15.61%；归母净利润2474.05万元，较可比期+46.08%；经营现金流-1.09亿元。最新期经营现金流为-1.09亿元，与净利润方向相反。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查汉威科技的新公告是否出现机器人相关客户、订单、交付、收入或产量，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘汉威科技当前不列为优先关注。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 31.59,
+    "previousClose": 30.909980430528375,
+    "changePct": 2.200000000000003,
+    "high": 31.82,
+    "low": 30.59,
+    "open": 31.82,
+    "volume": 95620,
+    "turnover": 29720,
+    "turnoverText": "1.87亿",
+    "currency": "CNY",
+    "asOf": "20260827161445",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 31.59,
+    "changePct": 2.2,
+    "turnoverText": "1.87亿",
+    "turnoverRate": 2.1,
+    "totalMarketCap": "103.44亿",
+    "floatMarketCap": "89.38亿",
+    "fiveDayChangePct": 1.06,
+    "twentyDayChangePct": -0.88,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161445",
+    "asOf": "20260827161445",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161445",
+    "latestAsOf": "20260827161445",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.71,
+    "evidence_confidence_score": 80.4,
+    "market_payoff_score": 54.84,
+    "technical_timing_score": 25.4,
+    "data_readiness_score": 100,
+    "action_readiness_score": 58.43,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 51.6,
+        "average_rating": 2.58,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 72,
+        "average_rating": 3.6,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 3,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 54.84,
+        "average_rating": 2.74,
+        "details": {
+          "valuation_discount": 3.4,
+          "implied_growth_vs_evidence": 3.16,
+          "upside_downside": 1.6,
+          "liquidity_capacity": 2.2,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 25.4,
+        "average_rating": 1.27,
+        "details": {
+          "monthly_trend": 1.9,
+          "weekly_structure": 0.8,
+          "daily_buy_point": 1.45,
+          "gf_dma_alignment": 1.2,
+          "drawdown_position": 1
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "力传感器处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺正式订单、客户名称、交付验证和供应关系。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 1 份正式公告，其中 0 份财报或业绩材料；近20日涨跌 -17.1%，近60日涨跌 -28.4%；客户或订单证据 0 条直接、3 条线索。",
+        "missing_proof": "正式订单 / 客户名称 / 交付验证 / 供应关系",
+        "confidence": "Medium"
+      }
+    ],
+    "decision_blockers": [
+      {
+        "name": "customer_order_delivery_unverified",
+        "severity": "major",
+        "effect": "rating_cap_b"
+      }
+    ],
+    "falsification_points": [
+      "后续公告或财报持续无法披露订单、客户或交付证据。",
+      "机器人相关收入或业务线无法在财报中找到可追溯兑现。",
+      "供应链或合作披露不能被官方材料交叉验证。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

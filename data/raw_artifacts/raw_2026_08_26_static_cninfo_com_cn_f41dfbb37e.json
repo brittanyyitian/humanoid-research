@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_f41dfbb37e",
+  "artifactType": "filing",
+  "title": "2026年1-6月非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "中大力德",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503753.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f41dfbb37e",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_f41dfbb37e",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:e3d4d3a1452ba811d3ef6fe785ad2311e8dcde5166e6798e3b6b348262f3dfda",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_f41dfbb37e.json",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_8dcd3e1b02"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_af00def9722aad5c; listSourceId=src_cninfo_002896_announcements."
+}

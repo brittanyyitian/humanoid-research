@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_22_static_cninfo_com_cn_b99788ac84",
+  "artifactType": "filing",
+  "title": "2026年员工持股计划（草案）摘要",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-22/1225435691.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b99788ac84",
+  "fetchRunId": "fetch_2026_07_22_static_cninfo_com_cn_b99788ac84",
+  "publishedAt": "2026-07-22",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c434e0d32c5c74bae07d355c77f162c612f56483b4c923ac0d779cee8e828ed8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_b99788ac84.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_07_22_filing_6b9541b7f3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2b75a5da6caddf42; listSourceId=src_cninfo_002371_announcements."
+}

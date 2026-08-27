@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_daa894ddf1",
+  "capturedAt": "2026-07-23T09:32:17+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225429161.PDF",
+    "title": "澜起科技关于配合韩国相关调查的说明公告",
+    "publisher": "澜起科技",
+    "publishedAt": "2026-07-17",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "montage_technology"
+    ],
+    "body": "1\n证券代码：688008 证券简称：澜起科技 公告编号：2026-040\n澜起科技股份有限公司\n关于配合韩国相关调查的说明公告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述\n或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。\n2026年7月15日，韩国首尔中央地方检察厅公平贸易调查部（以下简称“检\n察厅”）针对潜在的违反反垄断相关法规事宜，在澜起科技股份有限公司（以下\n简称“公司”）的韩国办公室开展现场搜查及取证。\n公司正全力配合检察厅的各项调查要求。截至本公告披露日，公司及其董事、\n员工均未被检察厅或任何政府机关指控存在任何不当行为。目前公司经营正常，\n公司仍将全力专注于产品研发并服务客户。\n鉴于本案尚处于调查阶段，公司现阶段无法预测调查的时间及结果。公司将\n密切跟进上述事件进展情况，并根据相关规则的规定履行信息披露义务，敬请广\n大投资者注意投资风险。\n特此公告。\n澜起科技股份有限公司\n董 事 会\n2026 年 7 月 17 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:17+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 106283,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

@@ -1,0 +1,869 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "policy": "Research gates constrain whether an entity can move from observation to review. They are not ratings and do not imply investment action.",
+  "rows": [
+    {
+      "entityId": "unitree",
+      "name": "宇树科技",
+      "gate": "READY_FOR_REVIEW",
+      "gateLabel": "可进入研究复核",
+      "gateClass": "RESEARCH_VALIDATION",
+      "blockers": [],
+      "nextEvidence": "宇树 H2 Plus：等待交付、售价和订单数据披露",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 24,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "zhiyuan_robot",
+      "name": "智元机器人",
+      "gate": "READY_FOR_REVIEW",
+      "gateLabel": "可进入研究复核",
+      "gateClass": "RESEARCH_VALIDATION",
+      "blockers": [],
+      "nextEvidence": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 26,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "ubtech",
+      "name": "优必选",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 3,
+      "acquisitionState": "ready"
+    },
+    {
+      "entityId": "anpeilong",
+      "name": "安培龙",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 18,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "keli_sensing",
+      "name": "柯力传感",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 8,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "hanwei_electronics",
+      "name": "汉威科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 14,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "donghua_testing",
+      "name": "东华测试",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 12,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 19,
+      "acquisitionState": "ready"
+    },
+    {
+      "entityId": "zhongda_leader",
+      "name": "中大力德",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 14,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "shuanghuan_driveline",
+      "name": "双环传动",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 14,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "shuanglin",
+      "name": "双林股份",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 22,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "best",
+      "name": "贝斯特",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 20,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "beite_technology",
+      "name": "北特科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 15,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "wuzhou_xinchun",
+      "name": "五洲新春",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 9,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "inovance",
+      "name": "汇川技术",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 12,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "moons",
+      "name": "鸣志电器",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 13,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "hechuan_technology",
+      "name": "禾川科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 8,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "zhaowei_machinery",
+      "name": "兆威机电",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 16,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "sanhuazk",
+      "name": "三花智控",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 29,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "tuopu_group",
+      "name": "拓普集团",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 13,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "siasun_robot",
+      "name": "机器人",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 13,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "estun",
+      "name": "埃斯顿",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 23,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "orbbec",
+      "name": "奥比中光",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 52,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "kinco",
+      "name": "步科股份",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 16,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "highly_electric",
+      "name": "华依科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 8,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "luster_lighttech",
+      "name": "凌云光",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 11,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "yeeda",
+      "name": "怡合达",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 22,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "piotech",
+      "name": "均普智能",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 16,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "longcheer_technology",
+      "name": "龙旗科技",
+      "gate": "READY_FOR_REVIEW",
+      "gateLabel": "可进入研究复核",
+      "gateClass": "RESEARCH_VALIDATION",
+      "blockers": [],
+      "nextEvidence": "智元精灵G2进驻龙旗科技3C产线：等待常态化运行和订单兑现披露",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 3,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "huada_jiutian",
+      "name": "华大九天",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 40,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 59,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "cambricon",
+      "name": "寒武纪",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 57,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "montage_technology",
+      "name": "澜起科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 48,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "smic",
+      "name": "中芯国际",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 44,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "huahong_semiconductor",
+      "name": "华虹公司",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 52,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "naura",
+      "name": "北方华创",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 50,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "amec",
+      "name": "中微公司",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 45,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "anji_microelectronics",
+      "name": "安集科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 46,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "national_silicon",
+      "name": "沪硅产业",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 46,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "jcet",
+      "name": "长电科技",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 53,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "tongfu_microelectronics",
+      "name": "通富微电",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 38,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "taiji_industry",
+      "name": "太极实业",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 46,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "avic_jonhon",
+      "name": "中航光电",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 44,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "avic_uav",
+      "name": "中无人机",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 44,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "rainbow_uav",
+      "name": "航天彩虹",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 38,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "taishan_petroleum",
+      "name": "泰山石油",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 44,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "sinopec",
+      "name": "中国石化",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 71,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "international_industry",
+      "name": "国际实业",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 39,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "tongyuan_petroleum",
+      "name": "通源石油",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 45,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "cnooc",
+      "name": "中国海油",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 42,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "jereh",
+      "name": "杰瑞股份",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 48,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "three_gorges_water",
+      "name": "三峡水利",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 51,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "datang_power",
+      "name": "大唐发电",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 56,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "cypc",
+      "name": "长江电力",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 41,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "sdic_power",
+      "name": "国投电力",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 38,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "hainan_haiyao",
+      "name": "海南海药",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 40,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "harbin_pharma",
+      "name": "哈药股份",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 47,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "hengrui",
+      "name": "恒瑞医药",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 72,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "beone",
+      "name": "百济神州",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 53,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "zijin_mining",
+      "name": "紫金矿业",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 48,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "shandong_gold",
+      "name": "山东黄金",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 49,
+      "acquisitionState": "partial"
+    },
+    {
+      "entityId": "xingye_silver",
+      "name": "兴业银锡",
+      "gate": "EVIDENCE_GATED",
+      "gateLabel": "证据门禁",
+      "gateClass": "EVIDENCE_VALIDATION",
+      "blockers": [
+        "存在待审核候选事实"
+      ],
+      "nextEvidence": "存在待审核候选事实",
+      "evidenceLevel": "has_verified_sources",
+      "nonMarketChangeCount": 51,
+      "acquisitionState": "partial"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_26_static_cninfo_com_cn_f3aabb24a0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "步科股份",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-26T16:18:47+08:00",
+  "finishedAt": "2026-08-26T22:38:45+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_26_static_cninfo_com_cn_f3aabb24a0"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_f89e679f2a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503327.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-26T16:18:47+08:00",
+      "finishedAt": "2026-08-26T16:18:47+08:00",
+      "contentHash": "sha256:2668a2cf7f74e8fc236417042d0b0a702066b7d54dc989e0702522468e875cc7",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_f3aabb24a0.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-26T22:38:45+08:00",
+      "finishedAt": "2026-08-26T22:38:45+08:00",
+      "contentHash": "sha256:1fea566dc1ade5ff66e824ceaf0a47861e8001e89aa04a6858bab31778c049ed",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_f3aabb24a0.json"
+    }
+  ]
+}

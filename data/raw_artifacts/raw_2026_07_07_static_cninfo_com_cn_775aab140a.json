@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_07_static_cninfo_com_cn_775aab140a",
+  "artifactType": "filing",
+  "title": "长江电力2026年半年度发电量完成情况公告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225411192.PDF",
+  "sourceId": "src_static_cninfo_com_cn_775aab140a",
+  "fetchRunId": "fetch_2026_07_07_static_cninfo_com_cn_775aab140a",
+  "publishedAt": "2026-07-07",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:d6fbfa6595db171a08fa808c262010e14744623fee74b0abd7c1e2ab11d6a49c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_775aab140a.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_07_07_filing_a43937e6d4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_980eb02fd10e73a9; listSourceId=src_cninfo_600900_announcements."
+}

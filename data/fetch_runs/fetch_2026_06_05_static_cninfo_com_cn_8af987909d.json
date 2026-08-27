@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_05_static_cninfo_com_cn_8af987909d",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中大力德",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:03:07+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_05_static_cninfo_com_cn_8af987909d"
+  ],
+  "claimIds": [
+    "claim_2026_06_05_filing_c14eb18ba2"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-05/1225352872.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:162f196f3eb953037bee03fb22ca43f5e17098d760275f033950d16093990581",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_05_static_cninfo_com_cn_8af987909d.json"
+    }
+  ]
+}

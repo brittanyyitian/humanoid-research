@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_f5d40d6241",
+  "artifactType": "filing",
+  "title": "2025年年度报告(更正后)",
+  "publisher": "绿的谐波",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225418036.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f5d40d6241",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_f5d40d6241",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:d5616635d1fe47e78013aa877f00fe94f2e66d376e816b8a45133885ab9608ed",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_f5d40d6241.json",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_550228c9fa"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4be4b155befdf969; listSourceId=src_cninfo_688017_announcements."
+}

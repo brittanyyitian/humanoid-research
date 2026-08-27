@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_c5a2a1dee35c",
+  "rawArtifactId": "raw_2026_05_16_static_cninfo_com_cn_b9c0d5792e",
+  "routeDecisionId": "route_2026_05_16_7639d7c162e5",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "zhongda_leader",
+  "entityIds": [
+    "zhongda_leader"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:19+08:00",
+  "finishedAt": "2026-07-23T16:16:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_16_filing_ff64a70097"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_16_filing_ff64a70097"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_16_filing_material_v0_694d631d7c"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_6694301d5b0f"
+  ]
+}

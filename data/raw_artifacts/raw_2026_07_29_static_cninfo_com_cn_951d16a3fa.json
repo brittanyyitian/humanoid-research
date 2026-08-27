@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_29_static_cninfo_com_cn_951d16a3fa",
+  "artifactType": "filing",
+  "title": "大唐发电关于超短期融资券发行的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-29/1225444998.PDF",
+  "sourceId": "src_static_cninfo_com_cn_951d16a3fa",
+  "fetchRunId": "fetch_2026_07_29_static_cninfo_com_cn_951d16a3fa",
+  "publishedAt": "2026-07-29",
+  "firstSeenAt": "2026-07-29T16:16:17+08:00",
+  "capturedAt": "2026-07-29T16:16:17+08:00",
+  "contentHash": "sha256:e7b04eb67eb536f4a1d191c17003bc4c273fb410eaf251398db93552c529fce7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_29_static_cninfo_com_cn_951d16a3fa.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_29_filing_0c6f3db226"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1b3aa92b1bbfeb66; listSourceId=src_cninfo_601991_announcements."
+}

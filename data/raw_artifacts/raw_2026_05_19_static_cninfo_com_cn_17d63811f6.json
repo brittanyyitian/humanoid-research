@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_19_static_cninfo_com_cn_17d63811f6",
+  "artifactType": "filing",
+  "title": "第九届董事会第十五次临时会议决议公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-19/1225312738.PDF",
+  "sourceId": "src_static_cninfo_com_cn_17d63811f6",
+  "fetchRunId": "fetch_2026_05_19_static_cninfo_com_cn_17d63811f6",
+  "publishedAt": "2026-05-19",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:439dded0706a48c3d239f15356e70733ddee77aeed46904d64f0994d81921db8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_19_static_cninfo_com_cn_17d63811f6.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_05_19_filing_7e3dbdd2b9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_97aa0a132ca8427e; listSourceId=src_cninfo_000159_announcements."
+}

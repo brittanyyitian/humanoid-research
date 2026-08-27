@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_1af0a75519f1",
+  "rawArtifactId": "raw_2026_05_26_static_cninfo_com_cn_14adb2c478",
+  "routeDecisionId": "route_2026_05_26_3e9853cd050e",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "kinco",
+  "entityIds": [
+    "kinco"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:17+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:17+08:00",
+  "finishedAt": "2026-07-23T16:16:17+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_26_filing_fcc2776ff2"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_26_filing_fcc2776ff2"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_26_filing_material_v0_069d2d6a47"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_f8428e3a9d61"
+  ]
+}

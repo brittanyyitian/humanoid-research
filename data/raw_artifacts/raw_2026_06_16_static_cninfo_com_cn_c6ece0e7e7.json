@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_16_static_cninfo_com_cn_c6ece0e7e7",
+  "artifactType": "filing",
+  "title": "关于回购股份通知债权人的公告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-16/1225370760.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c6ece0e7e7",
+  "fetchRunId": "fetch_2026_06_16_static_cninfo_com_cn_c6ece0e7e7",
+  "publishedAt": "2026-06-16",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:84ec6c288de96706ed19efb450c30078af5285ef0d4f192c061d74347df30ed6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_16_static_cninfo_com_cn_c6ece0e7e7.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_06_16_filing_7ee66ec2ec"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c2125ce095e34f11; listSourceId=src_cninfo_600028_announcements."
+}

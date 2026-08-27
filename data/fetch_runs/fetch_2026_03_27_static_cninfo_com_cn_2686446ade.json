@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_03_27_static_cninfo_com_cn_2686446ade",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "华虹公司",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:57:20+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_03_27_static_cninfo_com_cn_2686446ade"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_b4faf231c4"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225039291.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:af1f7bbbc73ff65846ca4ae370c38e250cf222a50d6bc8eb11e51476cbd5b7f2",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_2686446ade.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:57:20+08:00",
+      "finishedAt": "2026-07-23T09:57:20+08:00",
+      "contentHash": "sha256:38cfd3228f609e334fa640f5bfc5fc2a84c56220b0a1c00bdcc1173c7986c754",
+      "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_2686446ade.json"
+    }
+  ]
+}

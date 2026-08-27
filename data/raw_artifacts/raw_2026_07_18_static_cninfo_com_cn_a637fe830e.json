@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_18_static_cninfo_com_cn_a637fe830e",
+  "artifactType": "filing",
+  "title": "关于累计诉讼、仲裁事项的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225430623.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a637fe830e",
+  "fetchRunId": "fetch_2026_07_18_static_cninfo_com_cn_a637fe830e",
+  "publishedAt": "2026-07-18",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:11dd7379cd609596081af9afcec3984568b5c991f9b28e5a33308bdbf4cdbe95",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_a637fe830e.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_30b8498cc4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9bbb9a4f9564c1a1; listSourceId=src_cninfo_600667_announcements."
+}

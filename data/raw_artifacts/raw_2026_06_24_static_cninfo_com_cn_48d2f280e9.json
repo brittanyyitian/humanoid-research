@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_48d2f280e9",
+  "artifactType": "filing",
+  "title": "关于选举职工董事的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225384436.PDF",
+  "sourceId": "src_static_cninfo_com_cn_48d2f280e9",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_48d2f280e9",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:3ca559ed88c7604a57dbbe8cce736420d3d323c5dfcee64a5f278f02aaec1877",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_48d2f280e9.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_cbdc314831"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_27a0089337ce6a0f; listSourceId=src_cninfo_000554_announcements."
+}

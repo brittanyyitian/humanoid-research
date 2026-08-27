@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_03_static_cninfo_com_cn_a74c7cd383",
+  "artifactType": "filing",
+  "title": "关于子公司十一科技涉及重大诉讼的进展公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-03/1225346015.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a74c7cd383",
+  "fetchRunId": "fetch_2026_06_03_static_cninfo_com_cn_a74c7cd383",
+  "publishedAt": "2026-06-03",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d0c2f35675814b1476ae8477aa47edb89ed496def1cb7ca9d289dd67c860c9de",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_03_static_cninfo_com_cn_a74c7cd383.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_03_filing_2d4fdc90a3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e496c11e1a5b82f1; listSourceId=src_cninfo_600667_announcements."
+}

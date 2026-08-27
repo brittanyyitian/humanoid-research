@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_24_static_cninfo_com_cn_67c6f35ed9",
+  "artifactType": "filing",
+  "title": "关于股东减持股份结果公告",
+  "publisher": "凌云光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225438877.PDF",
+  "sourceId": "src_static_cninfo_com_cn_67c6f35ed9",
+  "fetchRunId": "fetch_2026_07_24_static_cninfo_com_cn_67c6f35ed9",
+  "publishedAt": "2026-07-24",
+  "firstSeenAt": "2026-07-24T16:16:20+08:00",
+  "capturedAt": "2026-07-24T16:16:20+08:00",
+  "contentHash": "sha256:cadcff046972f8b2cbd389bc41fa1875c52a851730404f1bcd9dede6307c6088",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_67c6f35ed9.json",
+  "entityIds": [
+    "luster_lighttech"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_5d622a769f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0b86da56a0baf179; listSourceId=src_cninfo_688400_announcements."
+}

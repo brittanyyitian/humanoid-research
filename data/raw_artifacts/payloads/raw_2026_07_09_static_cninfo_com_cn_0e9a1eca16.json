@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_07_09_static_cninfo_com_cn_0e9a1eca16",
+  "capturedAt": "2026-07-23T09:32:36+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-07-09/1225415851.PDF",
+    "title": "关于获得政府补助的公告",
+    "publisher": "概伦电子",
+    "publishedAt": "2026-07-09",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "primarius"
+    ],
+    "body": "1\n证券代码：688206 证券简称：概伦电子 公告编号：2026-046\n上海概伦电子股份有限公司\n关于获得政府补助的公告\n本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述\n或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。\n一、获得补助的基本情况\n上海概伦电子股份有限公司（以下简称“公司”）于近日收到政府补助款项\n共计人民币 600.00 万元，其中 440.00 万元为与收益相关的政府补助，占公司最\n近一个会计年度经审计净利润的 12.85%；160.00 万元为与资产相关的政府补助，\n占公司最近一个会计年度经审计总资产的 0.06%。\n二、补助的类型及其对上市公司的影响\n公司根据《企业会计准则第 16 号——政府补助》的有关规定，确认上述事\n项并划分政府补助类型。上述政府补助未经审计，具体的会计处理以及对公司相\n关年度损益的影响，最终以审计机构审计确认后的结果为准。敬请广大投资者注\n意投资风险。\n特此公告。\n上海概伦电子股份有限公司董事会\n2026 年 7 月 9 日",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:32:36+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 79797,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

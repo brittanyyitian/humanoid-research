@@ -9,9 +9,12 @@
   "publishedAt": "2026-06-29T17:11:49+08:00",
   "firstSeenAt": "2026-07-03T16:50:00+08:00",
   "capturedAt": "2026-07-03T16:50:00+08:00",
-  "contentHash": "sha256:db346b5c498fc14624cad8e8a00bb9a3a07d14133d3cb6f524d5d634d983dad0",
+  "contentHash": "sha256:0beabd279337fa0b2460149712f896c765a11bb2dedaa3da9b593681c54b430f",
   "storagePath": "raw_artifacts/payloads/raw_2026_06_29_agibot_15000_robots_downline.json",
-  "entityIds": ["zhiyuan_robot", "longcheer_technology"],
+  "entityIds": [
+    "zhiyuan_robot",
+    "longcheer_technology"
+  ],
   "claimIds": [
     "claim_2026_06_29_zhiyuan_15000_downline",
     "claim_2026_06_29_zhiyuan_g2_longcheer_delivery"

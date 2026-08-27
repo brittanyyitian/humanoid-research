@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_15_static_cninfo_com_cn_89ab2f3d28",
+  "artifactType": "filing",
+  "title": "海南海药股份有限公司2026年半年度业绩预告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225425370.PDF",
+  "sourceId": "src_static_cninfo_com_cn_89ab2f3d28",
+  "fetchRunId": "fetch_2026_07_15_static_cninfo_com_cn_89ab2f3d28",
+  "publishedAt": "2026-07-15",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:feda8df8f1b5b7ac88244e202a3ee88bef19f79a40dd5a77baf30f37ee3353e3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_89ab2f3d28.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_bd1069819e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_84ed1e9b402361b2; listSourceId=src_cninfo_000566_announcements."
+}

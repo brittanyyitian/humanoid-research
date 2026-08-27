@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_18_static_cninfo_com_cn_46c5f531f5",
+  "artifactType": "filing",
+  "title": "第三届董事会第二十一次会议决议公告",
+  "publisher": "兆威机电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-18/1225430670.PDF",
+  "sourceId": "src_static_cninfo_com_cn_46c5f531f5",
+  "fetchRunId": "fetch_2026_07_18_static_cninfo_com_cn_46c5f531f5",
+  "publishedAt": "2026-07-18",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:835f9a42180496135fa66794bb5b0efe115ce47d393524ada1a5c8d5122e809a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_18_static_cninfo_com_cn_46c5f531f5.json",
+  "entityIds": [
+    "zhaowei_machinery"
+  ],
+  "claimIds": [
+    "claim_2026_07_18_filing_42cb6fa02d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_26252558b1d8ac4e; listSourceId=src_cninfo_003021_announcements."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_03_static_cninfo_com_cn_f8038bb76a",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "禾川科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T16:16:14+08:00",
+  "finishedAt": "2026-07-23T16:16:14+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_03_static_cninfo_com_cn_f8038bb76a"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_2e8bf43d6a"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405084.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T16:16:14+08:00",
+      "finishedAt": "2026-07-23T16:16:14+08:00",
+      "contentHash": "sha256:1cb258c6abb40eb21ebac2bb1b46e63404eb6a5fd3a581a49acb14d61b389460",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_f8038bb76a.json"
+    }
+  ]
+}

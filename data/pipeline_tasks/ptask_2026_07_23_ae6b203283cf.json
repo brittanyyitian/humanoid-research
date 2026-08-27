@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_ae6b203283cf",
+  "rawArtifactId": "raw_2026_05_27_static_cninfo_com_cn_11bbac7f33",
+  "routeDecisionId": "route_2026_05_27_73bd515ff499",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "shuanghuan_driveline",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T16:16:14+08:00",
+  "updatedAt": "2026-07-23T16:16:17+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T16:16:17+08:00",
+  "finishedAt": "2026-07-23T16:16:17+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_05_27_filing_d890e781d6"
+  ],
+  "evidenceIds": [
+    "evd_2026_05_27_filing_d890e781d6"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_05_27_filing_material_v0_5c7447eeb1"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_9725dc4d6bae"
+  ]
+}

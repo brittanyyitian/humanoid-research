@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_03_static_cninfo_com_cn_289f327f61",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "禾川科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:26+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_03_static_cninfo_com_cn_289f327f61"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_442ec7ff7a"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225405093.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:461412513ee2fc0b0e18d1255d28f164100b29d6c2d38690f37feba024ba4207",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_289f327f61.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:26+08:00",
+      "finishedAt": "2026-07-15T11:30:26+08:00",
+      "contentHash": "sha256:0b460102783b9e306c3418220aa8c64240fa4e943246401ee656ee9bb2fc9725",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_289f327f61.json"
+    }
+  ]
+}

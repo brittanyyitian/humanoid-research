@@ -1,0 +1,37 @@
+{
+  "ticker": "ABC",
+  "company": "Invalid Market Co",
+  "market": "CN",
+  "as_of_date": "2026-06-22",
+  "layer": {
+    "x": 5
+  },
+  "company_thesis": {
+    "x": 5
+  },
+  "evidence_confidence": {
+    "x": 5
+  },
+  "market_payoff": {
+    "x": 5
+  },
+  "technical_timing": {
+    "x": 5
+  },
+  "risk_controls": {
+    "x": 5
+  },
+  "data_acquisition": {
+    "status_by_dataset": {
+      "current_quote": "OK",
+      "price_history_adjusted": "OK",
+      "valuation_inputs": "OK",
+      "financials": "OK",
+      "filings_announcements": "OK"
+    },
+    "data_gaps": [],
+    "research_debt": [],
+    "manual_retrieval_tasks": []
+  },
+  "blockers": []
+}

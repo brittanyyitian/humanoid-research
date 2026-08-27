@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_15_static_cninfo_com_cn_40bd6d0f49",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于北京华大九天科技股份有限公司2025年度持续督导定期现场检查报告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-15/1225308393.PDF",
+  "sourceId": "src_static_cninfo_com_cn_40bd6d0f49",
+  "fetchRunId": "fetch_2026_05_15_static_cninfo_com_cn_40bd6d0f49",
+  "publishedAt": "2026-05-15",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9932d3ecfc059a29607814b30e2b5d17d9ea0fa32e989b3cc3d837b89ef67cad",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_15_static_cninfo_com_cn_40bd6d0f49.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_05_15_filing_ea6ee9162a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_55573c020e3624d4; listSourceId=src_cninfo_301269_announcements."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_04_24_static_cninfo_com_cn_906b9440af",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "太极实业",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:56:42+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_04_24_static_cninfo_com_cn_906b9440af"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_14bb517a6b"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225165928.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:0bda98bc94216ed2a35c08de4efbee5083bb9295757c5819248798a4d1e2789e",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_906b9440af.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:56:42+08:00",
+      "finishedAt": "2026-07-23T09:56:42+08:00",
+      "contentHash": "sha256:c75d0818820abcc83b60a5113dc478b76b1187a3b4c39e0a9156415b1e43ac99",
+      "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_906b9440af.json"
+    }
+  ]
+}

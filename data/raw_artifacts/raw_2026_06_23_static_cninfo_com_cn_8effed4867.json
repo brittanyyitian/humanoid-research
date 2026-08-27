@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_static_cninfo_com_cn_8effed4867",
+  "artifactType": "filing",
+  "title": "第七届董事会第四次会议决议公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225380354.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8effed4867",
+  "fetchRunId": "fetch_2026_06_23_static_cninfo_com_cn_8effed4867",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5fa574cf7bb16a9189fac3540849cee2475cc49d4b152dcdf2a65611c2d4e05c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_8effed4867.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_e7fdddc291"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5b5bb190e7159ae6; listSourceId=src_cninfo_002353_announcements."
+}

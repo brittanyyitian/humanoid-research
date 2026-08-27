@@ -1,0 +1,378 @@
+{
+  "id": "saout_unitree_a95b6ce81131",
+  "entityId": "unitree",
+  "name": "宇树科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "research_brief",
+  "provider": {
+    "name": "research_brief_compiler_v0",
+    "type": "local_compiler",
+    "externalCall": false,
+    "note": "本地编译器根据 inputPack 生成研究重点；不是外部 Serenity/LLM 的分析结论。"
+  },
+  "sourceInputPack": {
+    "dashboardGeneratedAt": "2026-08-27T08:34:23.784Z",
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    }
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_06_01_unitree_com_1b70ceffc7",
+      "raw_2026_03_04_unitree_com_54c022b9ea",
+      "raw_2024_07_05_unitree_com_80f413d63a",
+      "raw_2024_04_16_unitree_com_97f450a6a8",
+      "raw_2024_02_29_unitree_com_312c2f80ae",
+      "raw_2023_08_28_unitree_com_89e0908bed",
+      "raw_2023_07_14_unitree_com_cf2f1f1492",
+      "raw_2023_03_22_unitree_com_d99a941ffd"
+    ],
+    "claimIds": [
+      "claim_2026_06_01_product_release_ae7b877425",
+      "claim_2026_03_04_other_7d192a8f4d",
+      "claim_2024_07_05_product_release_027a20e48a",
+      "claim_2024_04_16_other_013d1a0460",
+      "claim_2024_02_29_other_37caa4016b",
+      "claim_2023_08_28_product_release_e4ddb21ba9",
+      "claim_2023_07_14_product_release_fc5f3ad611",
+      "claim_2023_03_22_other_6ada36970e",
+      "claim_2023_03_22_other_a62373385c",
+      "claim_2023_03_20_other_9393528408",
+      "claim_2026_07_04_product_release_5e689f029f",
+      "claim_2026_08_05_other_30fd63f373",
+      "claim_2026_08_05_other_c6ff6699a9",
+      "claim_2025_02_26_other_e4e89e89b1",
+      "claim_2025_02_05_other_4cc803b3c4",
+      "claim_2024_01_11_other_c99adc3df4",
+      "claim_2023_11_07_product_release_1ab466b363",
+      "claim_2023_06_07_other_c1337847c9",
+      "claim_2023_03_29_other_1a27996cbd",
+      "claim_2023_03_22_other_ab996efdf7"
+    ],
+    "evidenceIds": [
+      "evd_2026_08_05_other_30fd63f373",
+      "evd_2026_08_05_other_c6ff6699a9",
+      "evd_2026_07_04_product_release_5e689f029f",
+      "evd_2026_06_01_product_release_ae7b877425",
+      "evd_2026_03_04_other_7d192a8f4d",
+      "evd_2024_07_05_product_release_027a20e48a",
+      "evd_2024_04_16_other_013d1a0460",
+      "evd_2024_02_29_other_37caa4016b",
+      "evd_2023_08_28_product_release_e4ddb21ba9",
+      "evd_2023_07_14_product_release_fc5f3ad611",
+      "evd_2023_03_22_other_6ada36970e"
+    ],
+    "sourceIds": [
+      "src_unitree_com_9ed4ddc103",
+      "src_unitree_com_432d7a83cf",
+      "src_unitree_h2plus_product",
+      "src_unitree_com_1b70ceffc7",
+      "src_unitree_news_center",
+      "src_unitree_com_54c022b9ea"
+    ],
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/serenity_materials.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "research_brief",
+    "label": "研究重点",
+    "title": "宇树科技 研究重点",
+    "summary": "整机厂处于公开材料观察阶段。",
+    "currentFocus": "整机厂处于公开材料观察阶段。",
+    "toVerify": [
+      "正式订单",
+      "供应关系",
+      "材料正文"
+    ],
+    "viewLabel": "系统整理",
+    "view": "目前主要依据官方新闻，只能支持跟踪和复核，不能支持兑现判断。",
+    "followup": "下一期财报或公告是否补充收入、客户或业务线信息。",
+    "materialLine": "主要材料：官方新闻 8",
+    "statusLabel": "可进入分析",
+    "inputState": "11 条可读材料"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "对象画像",
+        "text": "宇树科技 的产业角色为 整机厂，上市状态为 非上市。",
+        "refs": {
+          "dashboardRefs": [
+            "research_reading.profile"
+          ]
+        }
+      },
+      {
+        "label": "已覆盖证据",
+        "text": "已覆盖证据：产品材料、官方来源。",
+        "refs": {
+          "dashboardRefs": [
+            "research_reading.researchSummary.verifiedEvidence"
+          ]
+        }
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "候选 Claim",
+        "text": "候选层有 22 条 Claim 待审；人工复核前不进入事实层。",
+        "refs": {
+          "claimIds": [
+            "claim_2026_06_01_product_release_ae7b877425",
+            "claim_2026_03_04_other_7d192a8f4d",
+            "claim_2024_07_05_product_release_027a20e48a",
+            "claim_2024_04_16_other_013d1a0460",
+            "claim_2024_02_29_other_37caa4016b",
+            "claim_2023_08_28_product_release_e4ddb21ba9",
+            "claim_2023_07_14_product_release_fc5f3ad611",
+            "claim_2023_03_22_other_6ada36970e",
+            "claim_2023_03_22_other_a62373385c",
+            "claim_2023_03_20_other_9393528408"
+          ]
+        }
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "材料结构",
+        "text": "当前材料主要集中在 官方新闻；阅读时应先核对原文，再判断候选 Claim 是否可提升。",
+        "basis": "material_distribution",
+        "refs": {
+          "materialRawArtifactIds": [
+            "raw_2026_06_01_unitree_com_1b70ceffc7",
+            "raw_2026_03_04_unitree_com_54c022b9ea",
+            "raw_2024_07_05_unitree_com_80f413d63a",
+            "raw_2024_04_16_unitree_com_97f450a6a8",
+            "raw_2024_02_29_unitree_com_312c2f80ae",
+            "raw_2023_08_28_unitree_com_89e0908bed"
+          ]
+        }
+      },
+      {
+        "label": "研究缺口",
+        "text": "当前最需要补齐的是：正式订单、客户名称、交付验证、财务兑现、供应关系。这些缺口决定下一轮材料抓取和人工复核顺序。",
+        "basis": "missing_evidence",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "正式订单",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "客户名称",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "交付验证",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "财务兑现",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "供应关系",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "需要抓取网页正文",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      },
+      {
+        "text": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.missingEvidence"
+          ]
+        }
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "查公告、调研纪要或客户披露是否出现正式订单、客户名称和交付记录",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ]
+        }
+      },
+      {
+        "question": "查财报/公告是否披露机器人相关收入、订单或兑现进展",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ]
+        }
+      },
+      {
+        "question": "查供应链公告或合作方披露是否确认供货关系",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ]
+        }
+      },
+      {
+        "question": "需要抓取网页正文",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ]
+        }
+      },
+      {
+        "question": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+        "status": "open",
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ]
+        }
+      }
+    ],
+    "marketContext": {
+      "mode": "watchlist_snapshot",
+      "label": "观察池市场快照",
+      "note": "按最新涨跌幅排序，不表示与当前对象或当前事件存在因果关系。",
+      "refs": {
+        "dashboardRefs": [
+          "research_reading.marketContext"
+        ]
+      }
+    },
+    "forecastCandidates": [
+      {
+        "id": "fc_unitree_1",
+        "question": "后续公开材料是否会明确公告、调研纪要或客户披露是否出现正式订单、客户名称和交付记录？",
+        "status": "candidate_not_activated",
+        "probability": null,
+        "horizon": "next_90_days",
+        "resolutionCriteria": [
+          "公开材料披露客户名称、订单信息或交付记录",
+          "来源为官方公告、客户披露或可回溯材料",
+          "记录披露时间和实体归属"
+        ],
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ],
+          "materialRawArtifactIds": [
+            "raw_2026_06_01_unitree_com_1b70ceffc7",
+            "raw_2026_03_04_unitree_com_54c022b9ea",
+            "raw_2024_07_05_unitree_com_80f413d63a",
+            "raw_2024_04_16_unitree_com_97f450a6a8",
+            "raw_2024_02_29_unitree_com_312c2f80ae"
+          ]
+        }
+      },
+      {
+        "id": "fc_unitree_2",
+        "question": "后续公开材料是否会明确财报/公告是否披露机器人相关收入、订单或兑现进展？",
+        "status": "candidate_not_activated",
+        "probability": null,
+        "horizon": "next_reporting_period",
+        "resolutionCriteria": [
+          "财报或公告中出现可引用字段",
+          "字段能对应到当前研究对象或业务线",
+          "保留原文链接和发布日期"
+        ],
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ],
+          "materialRawArtifactIds": [
+            "raw_2026_06_01_unitree_com_1b70ceffc7",
+            "raw_2026_03_04_unitree_com_54c022b9ea",
+            "raw_2024_07_05_unitree_com_80f413d63a",
+            "raw_2024_04_16_unitree_com_97f450a6a8",
+            "raw_2024_02_29_unitree_com_312c2f80ae"
+          ]
+        }
+      },
+      {
+        "id": "fc_unitree_3",
+        "question": "后续公开材料是否会明确供应链公告或合作方披露是否确认供货关系？",
+        "status": "candidate_not_activated",
+        "probability": null,
+        "horizon": "next_60_days",
+        "resolutionCriteria": [
+          "出现新的官方材料或公告",
+          "材料可回溯到 source 和发布时间",
+          "人工复核后决定是否进入事实层"
+        ],
+        "refs": {
+          "dashboardRefs": [
+            "serenity_analysis.nextQuestions"
+          ],
+          "materialRawArtifactIds": [
+            "raw_2026_06_01_unitree_com_1b70ceffc7",
+            "raw_2026_03_04_unitree_com_54c022b9ea",
+            "raw_2024_07_05_unitree_com_80f413d63a",
+            "raw_2024_04_16_unitree_com_97f450a6a8",
+            "raw_2024_02_29_unitree_com_312c2f80ae"
+          ]
+        }
+      }
+    ]
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "后续如用户采纳某个 forecastCandidate，应创建独立 forecast ledger，并设置复盘日期和判定标准。"
+  },
+  "guardrails": [
+    "分析层不写入事实层。",
+    "候选 Claim 不等于已验证事实。",
+    "不输出买卖建议。",
+    "不输出受益判断。",
+    "不把市场涨跌解释为事件影响。",
+    "所有分析句子必须能回溯到 material、claim、evidence、source 和时间。"
+  ]
+}

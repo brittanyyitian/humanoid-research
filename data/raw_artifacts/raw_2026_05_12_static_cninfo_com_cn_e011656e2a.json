@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_12_static_cninfo_com_cn_e011656e2a",
+  "artifactType": "filing",
+  "title": "关联交易管理制度（2026年5月）",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225292576.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e011656e2a",
+  "fetchRunId": "fetch_2026_05_12_static_cninfo_com_cn_e011656e2a",
+  "publishedAt": "2026-05-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:3e526b22b65d4f6d09aa6c6d9b49f005df823fde358b769f1a68a52708d9bf8e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_e011656e2a.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_88af06a8c3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6edf078df67a5d1a; listSourceId=src_cninfo_002371_announcements."
+}

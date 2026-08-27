@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_af25198f05",
+  "artifactType": "filing",
+  "title": "第十届董事会第三十九次会议决议公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225428692.PDF",
+  "sourceId": "src_static_cninfo_com_cn_af25198f05",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_af25198f05",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:a03d72c643a5fa264e5ecce4b3db25433e833ce80de174d17b83792919c88bed",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_af25198f05.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_09f95b7475"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_37d455c2db5b8539; listSourceId=src_cninfo_000426_announcements."
+}

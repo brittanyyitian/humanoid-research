@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_28_static_cninfo_com_cn_9040474722",
+  "artifactType": "filing",
+  "title": "关于向香港联交所递交境外上市股份（H股）发行并上市申请并刊发申请资料的公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-28/1225334583.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9040474722",
+  "fetchRunId": "fetch_2026_05_28_static_cninfo_com_cn_9040474722",
+  "publishedAt": "2026-05-28",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:b02695297152aedfd214171a37858e5fedefe676553783cefb4b2eee35ba9c4e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_28_static_cninfo_com_cn_9040474722.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_05_28_filing_28ab595b0b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8e1bdea2f2cb1131; listSourceId=src_cninfo_300007_announcements."
+}

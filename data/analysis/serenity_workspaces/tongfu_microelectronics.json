@@ -1,0 +1,142 @@
+{
+  "id": "saout_tongfu_microelectronics_e6241e3ea0e7",
+  "entityId": "tongfu_microelectronics",
+  "name": "通富微电",
+  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "},\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 58.8,\n      \"average_rating\": 2.94,\n      \"details\": {\n        \"monthly_trend\": 4.9,\n        \"weekly_structure\": 1.4,\n        \"daily_buy_point\": 1.15,\n        \"gf_dma_alignment\": 3.95,\n        \"drawdown_position\": 3.3\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"封装测试处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -6.8%，近60日涨跌 50.0%；客户或订单证据 0 条直接、2 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "002156.SZ",
+    "symbol": "002156"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_07_15_static_cninfo_com_cn_f7f3212ffc",
+      "raw_2026_04_17_static_cninfo_com_cn_78c95d4a20",
+      "raw_2026_04_17_static_cninfo_com_cn_1716a3ba32",
+      "raw_2025_08_29_static_cninfo_com_cn_de7e310435",
+      "raw_2025_08_29_static_cninfo_com_cn_b3e0ae7aa1",
+      "raw_2025_04_12_static_cninfo_com_cn_9faa27c48b",
+      "raw_2025_04_12_static_cninfo_com_cn_aea7d892c4",
+      "raw_2026_07_04_static_cninfo_com_cn_1eacd45b00"
+    ],
+    "claimIds": [
+      "claim_2026_07_15_filing_df8fee566d",
+      "claim_2026_04_17_filing_e5b6df1985",
+      "claim_2026_04_17_filing_30f49ec805",
+      "claim_2025_08_29_filing_d5d777ac29",
+      "claim_2025_08_29_filing_813c986ff8",
+      "claim_2025_04_12_filing_9af08f2c83",
+      "claim_2025_04_12_filing_cc6eb74783",
+      "claim_2026_07_04_filing_f33998baca",
+      "claim_2026_07_04_filing_5258e832cf",
+      "claim_2026_06_05_filing_a8075d2b96",
+      "claim_2026_06_05_filing_01a778db56",
+      "claim_2026_04_30_filing_aa7e3a0c47",
+      "claim_2025_04_30_filing_b0fffe44d9",
+      "claim_2026_07_31_filing_54b7468c0f",
+      "claim_2026_06_05_filing_29344cc5f7",
+      "claim_2026_06_05_filing_eb7e4116ad",
+      "claim_2026_06_04_filing_71869c8fa3",
+      "claim_2026_06_02_filing_5de3f3e227",
+      "claim_2026_06_02_filing_12f7b03137",
+      "claim_2026_06_02_filing_a3b80fa5c5"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/data/002156/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "通富微电 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 B，当前状态：STRONG_OBSERVE。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 B，当前状态：STRONG_OBSERVE。",
+    "toVerify": [
+      "订单、客户和交付仍缺正式验证"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 57.02/100",
+    "inputState": "LEAD_TRACKING · 证据等级 B"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/data/002156/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_48_00_tongfu_microelectronics/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "订单、客户和交付仍缺正式验证",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 002156.SZ (通富微电)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **57.02 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **B**\n- Rating cap: **B**\n- Action readiness: **STRONG_OBSERVE**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 58.39 |\n| Evidence confidence | 79.28 |\n| Market payoff | 63.12 |\n| Technical timing | 58.8 |\n| Data readiness | 100.0 |\n| Action readiness | 73.46 |\n\n## Decision Blockers\n- customer_order_delivery_unverified: rating_cap_b\n\n## Falsification Points\n- 后续财报仍看不到核心产品收入、客户验证或份额提升。\n- 研发和扩产投入增加，但订单、收入与现金流没有同步改善。\n- 行业景气回落，价格或库存变化削弱原来的增长判断。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

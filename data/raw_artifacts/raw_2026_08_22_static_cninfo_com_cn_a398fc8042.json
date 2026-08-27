@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_a398fc8042",
+  "artifactType": "filing",
+  "title": "第五届董事会第四次会议决议的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225491290.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a398fc8042",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_a398fc8042",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:d45af6de6f47b003c689e77d24e3d66f66eeaeb3a1b1fc88c52d1afb5802ff80",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_a398fc8042.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_95e76b2e03"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_48402124e6c7b9a0; listSourceId=src_cninfo_300580_announcements."
+}

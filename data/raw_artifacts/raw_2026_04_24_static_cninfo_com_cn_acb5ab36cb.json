@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_acb5ab36cb",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225158415.PDF",
+  "sourceId": "src_static_cninfo_com_cn_acb5ab36cb",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_acb5ab36cb",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:702e2ff38f7383f44bf34ab108cfa58235e143631348057b89829493aeb5cd8e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_acb5ab36cb.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_c5ba8f2d3a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9145ff83f69dc907; listSourceId=src_cninfo_300164_announcements."
+}

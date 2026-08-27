@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_17_static_cninfo_com_cn_f86013d30c",
+  "artifactType": "filing",
+  "title": "哈药集团股份有限公司关于调整分公司挂牌出租部分闲置资产的公告",
+  "publisher": "哈药股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-17/1225427626.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f86013d30c",
+  "fetchRunId": "fetch_2026_07_17_static_cninfo_com_cn_f86013d30c",
+  "publishedAt": "2026-07-17",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:79e1ae5026df025599d07e50244fb10c1239706f7951280965e16e82286a66c6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_17_static_cninfo_com_cn_f86013d30c.json",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "claimIds": [
+    "claim_2026_07_17_filing_605ec02102"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8f1a3e823045bdaf; listSourceId=src_cninfo_600664_announcements."
+}

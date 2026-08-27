@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_7c31b9e424bf",
+  "rawArtifactId": "raw_2026_04_23_static_cninfo_com_cn_0886a70464",
+  "routeDecisionId": "route_2026_04_23_a54a9bb67e17",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "harbin_pharma",
+  "entityIds": [
+    "harbin_pharma"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:19+08:00",
+  "finishedAt": "2026-07-23T09:51:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_04_23_filing_acbd2e3131"
+  ],
+  "evidenceIds": [
+    "evd_2026_04_23_filing_acbd2e3131"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_04_23_filing_material_v0_ffd32443c1"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_d4102d968060"
+  ]
+}

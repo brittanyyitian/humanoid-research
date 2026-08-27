@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_fca25ae3c1",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225255187.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fca25ae3c1",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_fca25ae3c1",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:435af3458ed07b4c2b1ffe4332010c768a0180faec71c7462f1e50efcd0a5500",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_fca25ae3c1.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_13b19082aa"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6ba00d62d680fcb3; listSourceId=src_cninfo_000426_announcements."
+}

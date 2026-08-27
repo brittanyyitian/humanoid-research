@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_5ca9af99b1",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225226164.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5ca9af99b1",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_5ca9af99b1",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:81d4e9f77686812977db9b96e559baa891d84e74d231a103467a410d9fcc82bc",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_5ca9af99b1.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_04fecfe8c1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f54024328736ef3f; listSourceId=src_cninfo_000159_announcements."
+}

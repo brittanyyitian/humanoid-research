@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_15_63a2f8863f72",
+  "rawArtifactId": "raw_2024_04_16_unitree_com_97f450a6a8",
+  "routeDecisionId": "route_2024_04_16_d37eac534ece",
+  "pipeline": "event_pipeline",
+  "type": "event",
+  "entityId": "unitree",
+  "entityIds": [
+    "unitree"
+  ],
+  "inputType": "url",
+  "sourceKind": "official",
+  "status": "completed",
+  "createdAt": "2026-07-15T10:58:14+08:00",
+  "updatedAt": "2026-07-15T10:58:14+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-15T10:58:14+08:00",
+  "finishedAt": "2026-07-15T10:58:14+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2024_04_16_other_013d1a0460"
+  ],
+  "evidenceIds": [
+    "evd_2024_04_16_other_013d1a0460"
+  ],
+  "ruleOutputIds": [
+    "rout_2024_04_16_event_material_v0_319b4f603c"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_15_bb743146719a"
+  ]
+}

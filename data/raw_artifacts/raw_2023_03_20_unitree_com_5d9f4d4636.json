@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_03_20_unitree_com_5d9f4d4636",
+  "artifactType": "news_page",
+  "title": "宇树开源教育 │ 新书首发《四足机器人控制算法》",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/20",
+  "sourceId": "src_unitree_com_5d9f4d4636",
+  "fetchRunId": "fetch_2023_03_20_unitree_com_5d9f4d4636",
+  "publishedAt": "2023-03-20",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:e75479a2c33ad3541e829fa533a34ca65f558e9a056ecf02582d3440e275e364",
+  "storagePath": "raw_artifacts/payloads/raw_2023_03_20_unitree_com_5d9f4d4636.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_03_20_other_9393528408"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_2cc0e3cd9c8d0982; listSourceId=src_unitree_official_news."
+}

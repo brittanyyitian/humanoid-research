@@ -1,0 +1,1294 @@
+{
+  "id": "saout_three_gorges_water_14f1813cedb3",
+  "entityId": "three_gorges_water",
+  "name": "三峡水利",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600116.SH",
+    "symbol": "600116.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_52_05_three_gorges_water",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_52_05_three_gorges_water/data/600116/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_52_05_three_gorges_water/ai_research/600116.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_52_05_three_gorges_water/ai_research/600116.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "三峡水利 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+      "三峡水利的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查三峡水利的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘三峡水利保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "区域电网与水电",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600116.SH",
+      "name": "三峡水利",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 6.31,
+        "previousClose": 6.3397970461167485,
+        "changePct": -0.47000000000000347,
+        "high": 6.55,
+        "low": 6.35,
+        "open": 6.41,
+        "volume": 231169,
+        "turnover": 149429799,
+        "turnoverText": "7739.00万",
+        "currency": "CNY",
+        "asOf": "20260827161443",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 57.84,
+        "technicalTimingScore": 65.6,
+        "marketPayoffScore": 64.16,
+        "dataReadinessScore": 100,
+        "type": "当前不优先",
+        "currentAction": "只有核心业务和现金流明显改善，才重新评估。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 40,
+        "evidenceScore": 76,
+        "valuationScore": 72,
+        "timingScore": 57,
+        "riskScore": 47,
+        "decisionReason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "AVOID_FOR_NOW",
+          "label": "当前不优先",
+          "researchRating": "D",
+          "overallScore": 58.18,
+          "fundamentalScore": 51.85,
+          "companyScore": 40,
+          "evidenceScore": 76,
+          "valuationScore": 72,
+          "timingScore": 57,
+          "riskScore": 47,
+          "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+          "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+          "metrics": {
+            "pe": 28.4249,
+            "ps": 1.218,
+            "revenueGrowth": 0.1399,
+            "profitGrowth": -8.4696,
+            "cashConversion": -4.7708,
+            "debtRatio": 0.5333,
+            "return20": -0.0246
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收101.73亿元，同比-1.44%；归母净利润4.36亿元，同比+40.75%。2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。",
+          "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；",
+          "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+          "2026-08-26复权收盘6.34元，低于20日平均成本6.37元；60日平均成本6.23元，近20个交易日涨跌-2.46%。"
+        ],
+        "possible": [
+          "三峡水利当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+          "三峡水利当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。",
+          "三峡水利当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 64.16,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.84/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 65.6,
+        "dailyBuyPointScore": 3.2,
+        "dmaAlignmentScore": 3.85,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 6.99,
+            "volume": 338213,
+            "average20": 6.805,
+            "average60": 6.637
+          },
+          {
+            "date": "2026-03-16",
+            "close": 6.9,
+            "volume": 242923,
+            "average20": 6.82,
+            "average60": 6.646
+          },
+          {
+            "date": "2026-03-17",
+            "close": 6.85,
+            "volume": 173186,
+            "average20": 6.831,
+            "average60": 6.655
+          },
+          {
+            "date": "2026-03-18",
+            "close": 6.88,
+            "volume": 263410,
+            "average20": 6.846,
+            "average60": 6.664
+          },
+          {
+            "date": "2026-03-19",
+            "close": 6.86,
+            "volume": 235668,
+            "average20": 6.858,
+            "average60": 6.672
+          },
+          {
+            "date": "2026-03-20",
+            "close": 6.91,
+            "volume": 377470,
+            "average20": 6.872,
+            "average60": 6.681
+          },
+          {
+            "date": "2026-03-23",
+            "close": 6.64,
+            "volume": 375452,
+            "average20": 6.88,
+            "average60": 6.684
+          },
+          {
+            "date": "2026-03-24",
+            "close": 7.01,
+            "volume": 488934,
+            "average20": 6.896,
+            "average60": 6.693
+          },
+          {
+            "date": "2026-03-25",
+            "close": 7.23,
+            "volume": 695328,
+            "average20": 6.918,
+            "average60": 6.704
+          },
+          {
+            "date": "2026-03-26",
+            "close": 7.2,
+            "volume": 519602,
+            "average20": 6.936,
+            "average60": 6.715
+          },
+          {
+            "date": "2026-03-27",
+            "close": 7.19,
+            "volume": 503293,
+            "average20": 6.95,
+            "average60": 6.727
+          },
+          {
+            "date": "2026-03-30",
+            "close": 6.88,
+            "volume": 455673,
+            "average20": 6.949,
+            "average60": 6.734
+          },
+          {
+            "date": "2026-03-31",
+            "close": 6.7,
+            "volume": 377900,
+            "average20": 6.942,
+            "average60": 6.737
+          },
+          {
+            "date": "2026-04-01",
+            "close": 6.81,
+            "volume": 287822,
+            "average20": 6.942,
+            "average60": 6.741
+          },
+          {
+            "date": "2026-04-02",
+            "close": 6.74,
+            "volume": 282225,
+            "average20": 6.937,
+            "average60": 6.744
+          },
+          {
+            "date": "2026-04-03",
+            "close": 6.43,
+            "volume": 352928,
+            "average20": 6.914,
+            "average60": 6.742
+          },
+          {
+            "date": "2026-04-07",
+            "close": 6.48,
+            "volume": 169798,
+            "average20": 6.891,
+            "average60": 6.742
+          },
+          {
+            "date": "2026-04-08",
+            "close": 6.58,
+            "volume": 329827,
+            "average20": 6.872,
+            "average60": 6.744
+          },
+          {
+            "date": "2026-04-09",
+            "close": 6.45,
+            "volume": 168754,
+            "average20": 6.842,
+            "average60": 6.744
+          },
+          {
+            "date": "2026-04-10",
+            "close": 6.49,
+            "volume": 131963,
+            "average20": 6.811,
+            "average60": 6.745
+          },
+          {
+            "date": "2026-04-13",
+            "close": 6.56,
+            "volume": 160827,
+            "average20": 6.789,
+            "average60": 6.747
+          },
+          {
+            "date": "2026-04-14",
+            "close": 6.55,
+            "volume": 112243,
+            "average20": 6.772,
+            "average60": 6.748
+          },
+          {
+            "date": "2026-04-15",
+            "close": 6.56,
+            "volume": 112078,
+            "average20": 6.758,
+            "average60": 6.748
+          },
+          {
+            "date": "2026-04-16",
+            "close": 6.59,
+            "volume": 114896,
+            "average20": 6.743,
+            "average60": 6.749
+          },
+          {
+            "date": "2026-04-17",
+            "close": 6.75,
+            "volume": 571098,
+            "average20": 6.737,
+            "average60": 6.753
+          },
+          {
+            "date": "2026-04-20",
+            "close": 6.63,
+            "volume": 363913,
+            "average20": 6.724,
+            "average60": 6.754
+          },
+          {
+            "date": "2026-04-21",
+            "close": 6.64,
+            "volume": 213755,
+            "average20": 6.723,
+            "average60": 6.755
+          },
+          {
+            "date": "2026-04-22",
+            "close": 6.65,
+            "volume": 200292,
+            "average20": 6.706,
+            "average60": 6.755
+          },
+          {
+            "date": "2026-04-23",
+            "close": 6.7,
+            "volume": 345407,
+            "average20": 6.679,
+            "average60": 6.756
+          },
+          {
+            "date": "2026-04-24",
+            "close": 6.59,
+            "volume": 243405,
+            "average20": 6.649,
+            "average60": 6.755
+          },
+          {
+            "date": "2026-04-27",
+            "close": 6.54,
+            "volume": 197191,
+            "average20": 6.616,
+            "average60": 6.753
+          },
+          {
+            "date": "2026-04-28",
+            "close": 6.55,
+            "volume": 279512,
+            "average20": 6.6,
+            "average60": 6.749
+          },
+          {
+            "date": "2026-04-29",
+            "close": 6.6,
+            "volume": 240635,
+            "average20": 6.595,
+            "average60": 6.747
+          },
+          {
+            "date": "2026-04-30",
+            "close": 6.58,
+            "volume": 206969,
+            "average20": 6.583,
+            "average60": 6.744
+          },
+          {
+            "date": "2026-05-06",
+            "close": 6.68,
+            "volume": 301262,
+            "average20": 6.58,
+            "average60": 6.743
+          },
+          {
+            "date": "2026-05-07",
+            "close": 6.72,
+            "volume": 255583,
+            "average20": 6.595,
+            "average60": 6.743
+          },
+          {
+            "date": "2026-05-08",
+            "close": 6.76,
+            "volume": 317388,
+            "average20": 6.608,
+            "average60": 6.742
+          },
+          {
+            "date": "2026-05-11",
+            "close": 6.78,
+            "volume": 228583,
+            "average20": 6.619,
+            "average60": 6.745
+          },
+          {
+            "date": "2026-05-12",
+            "close": 6.85,
+            "volume": 282184,
+            "average20": 6.639,
+            "average60": 6.75
+          },
+          {
+            "date": "2026-05-13",
+            "close": 6.89,
+            "volume": 341552,
+            "average20": 6.658,
+            "average60": 6.752
+          },
+          {
+            "date": "2026-05-14",
+            "close": 6.76,
+            "volume": 377120,
+            "average20": 6.668,
+            "average60": 6.754
+          },
+          {
+            "date": "2026-05-15",
+            "close": 6.7,
+            "volume": 323198,
+            "average20": 6.676,
+            "average60": 6.756
+          },
+          {
+            "date": "2026-05-18",
+            "close": 6.77,
+            "volume": 232807,
+            "average20": 6.687,
+            "average60": 6.758
+          },
+          {
+            "date": "2026-05-19",
+            "close": 6.97,
+            "volume": 425171,
+            "average20": 6.706,
+            "average60": 6.765
+          },
+          {
+            "date": "2026-05-20",
+            "close": 6.61,
+            "volume": 487125,
+            "average20": 6.699,
+            "average60": 6.764
+          },
+          {
+            "date": "2026-05-21",
+            "close": 6.52,
+            "volume": 330122,
+            "average20": 6.693,
+            "average60": 6.763
+          },
+          {
+            "date": "2026-05-22",
+            "close": 6.57,
+            "volume": 250473,
+            "average20": 6.689,
+            "average60": 6.764
+          },
+          {
+            "date": "2026-05-25",
+            "close": 6.69,
+            "volume": 317213,
+            "average20": 6.691,
+            "average60": 6.764
+          },
+          {
+            "date": "2026-05-26",
+            "close": 6.72,
+            "volume": 264473,
+            "average20": 6.692,
+            "average60": 6.763
+          },
+          {
+            "date": "2026-05-27",
+            "close": 6.7,
+            "volume": 263837,
+            "average20": 6.698,
+            "average60": 6.761
+          },
+          {
+            "date": "2026-05-28",
+            "close": 6.77,
+            "volume": 406878,
+            "average20": 6.71,
+            "average60": 6.759
+          },
+          {
+            "date": "2026-05-29",
+            "close": 6.92,
+            "volume": 594608,
+            "average20": 6.728,
+            "average60": 6.759
+          },
+          {
+            "date": "2026-06-01",
+            "close": 7.04,
+            "volume": 621219,
+            "average20": 6.75,
+            "average60": 6.762
+          },
+          {
+            "date": "2026-06-02",
+            "close": 6.99,
+            "volume": 422211,
+            "average20": 6.771,
+            "average60": 6.765
+          },
+          {
+            "date": "2026-06-03",
+            "close": 7.01,
+            "volume": 482987,
+            "average20": 6.787,
+            "average60": 6.768
+          },
+          {
+            "date": "2026-06-04",
+            "close": 6.89,
+            "volume": 361146,
+            "average20": 6.795,
+            "average60": 6.768
+          },
+          {
+            "date": "2026-06-05",
+            "close": 6.76,
+            "volume": 413278,
+            "average20": 6.795,
+            "average60": 6.765
+          },
+          {
+            "date": "2026-06-08",
+            "close": 6.52,
+            "volume": 440652,
+            "average20": 6.783,
+            "average60": 6.758
+          },
+          {
+            "date": "2026-06-09",
+            "close": 6.55,
+            "volume": 355882,
+            "average20": 6.768,
+            "average60": 6.749
+          },
+          {
+            "date": "2026-06-10",
+            "close": 6.35,
+            "volume": 344367,
+            "average20": 6.74,
+            "average60": 6.737
+          },
+          {
+            "date": "2026-06-11",
+            "close": 6.19,
+            "volume": 298985,
+            "average20": 6.712,
+            "average60": 6.723
+          },
+          {
+            "date": "2026-06-12",
+            "close": 6.27,
+            "volume": 347506,
+            "average20": 6.691,
+            "average60": 6.713
+          },
+          {
+            "date": "2026-06-15",
+            "close": 6.31,
+            "volume": 228604,
+            "average20": 6.667,
+            "average60": 6.704
+          },
+          {
+            "date": "2026-06-16",
+            "close": 6.26,
+            "volume": 182737,
+            "average20": 6.632,
+            "average60": 6.693
+          },
+          {
+            "date": "2026-06-17",
+            "close": 6.21,
+            "volume": 154456,
+            "average20": 6.612,
+            "average60": 6.683
+          },
+          {
+            "date": "2026-06-18",
+            "close": 5.97,
+            "volume": 317529,
+            "average20": 6.585,
+            "average60": 6.667
+          },
+          {
+            "date": "2026-06-22",
+            "close": 6.02,
+            "volume": 247215,
+            "average20": 6.557,
+            "average60": 6.657
+          },
+          {
+            "date": "2026-06-23",
+            "close": 5.95,
+            "volume": 180494,
+            "average20": 6.52,
+            "average60": 6.639
+          },
+          {
+            "date": "2026-06-24",
+            "close": 5.8,
+            "volume": 156447,
+            "average20": 6.474,
+            "average60": 6.615
+          },
+          {
+            "date": "2026-06-25",
+            "close": 5.68,
+            "volume": 192418,
+            "average20": 6.423,
+            "average60": 6.59
+          },
+          {
+            "date": "2026-06-26",
+            "close": 5.6,
+            "volume": 174558,
+            "average20": 6.364,
+            "average60": 6.563
+          },
+          {
+            "date": "2026-06-29",
+            "close": 5.61,
+            "volume": 147664,
+            "average20": 6.299,
+            "average60": 6.542
+          },
+          {
+            "date": "2026-06-30",
+            "close": 5.6,
+            "volume": 106929,
+            "average20": 6.227,
+            "average60": 6.524
+          },
+          {
+            "date": "2026-07-01",
+            "close": 5.69,
+            "volume": 146166,
+            "average20": 6.162,
+            "average60": 6.505
+          },
+          {
+            "date": "2026-07-02",
+            "close": 5.69,
+            "volume": 149045,
+            "average20": 6.096,
+            "average60": 6.488
+          },
+          {
+            "date": "2026-07-03",
+            "close": 5.72,
+            "volume": 123921,
+            "average20": 6.037,
+            "average60": 6.476
+          },
+          {
+            "date": "2026-07-06",
+            "close": 6.02,
+            "volume": 389720,
+            "average20": 6,
+            "average60": 6.468
+          },
+          {
+            "date": "2026-07-07",
+            "close": 5.77,
+            "volume": 247263,
+            "average20": 5.963,
+            "average60": 6.455
+          },
+          {
+            "date": "2026-07-08",
+            "close": 5.75,
+            "volume": 134792,
+            "average20": 5.923,
+            "average60": 6.443
+          },
+          {
+            "date": "2026-07-09",
+            "close": 5.7,
+            "volume": 140409,
+            "average20": 5.89,
+            "average60": 6.43
+          },
+          {
+            "date": "2026-07-10",
+            "close": 5.74,
+            "volume": 162959,
+            "average20": 5.868,
+            "average60": 6.416
+          },
+          {
+            "date": "2026-07-13",
+            "close": 5.8,
+            "volume": 197145,
+            "average20": 5.844,
+            "average60": 6.404
+          },
+          {
+            "date": "2026-07-14",
+            "close": 5.83,
+            "volume": 174104,
+            "average20": 5.82,
+            "average60": 6.391
+          },
+          {
+            "date": "2026-07-15",
+            "close": 6.2,
+            "volume": 521953,
+            "average20": 5.817,
+            "average60": 6.385
+          },
+          {
+            "date": "2026-07-16",
+            "close": 6.15,
+            "volume": 261152,
+            "average20": 5.814,
+            "average60": 6.375
+          },
+          {
+            "date": "2026-07-17",
+            "close": 6.29,
+            "volume": 456535,
+            "average20": 5.83,
+            "average60": 6.369
+          },
+          {
+            "date": "2026-07-20",
+            "close": 6.42,
+            "volume": 510481,
+            "average20": 5.851,
+            "average60": 6.366
+          },
+          {
+            "date": "2026-07-21",
+            "close": 6.35,
+            "volume": 460077,
+            "average20": 5.87,
+            "average60": 6.361
+          },
+          {
+            "date": "2026-07-22",
+            "close": 6.39,
+            "volume": 352069,
+            "average20": 5.9,
+            "average60": 6.356
+          },
+          {
+            "date": "2026-07-23",
+            "close": 6.48,
+            "volume": 231169,
+            "average20": 5.94,
+            "average60": 6.354
+          }
+        ],
+        "plainReading": {
+          "state": "短期反弹，尚未完全转强",
+          "what": "现价在近一个月平均成本上方；今天成交与平时接近。",
+          "meaning": "最近有所修复，但更长一段时间形成的压力还没有越过。",
+          "watch": "接下来能守住 5.94 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 5.60，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 6.31,
+            "recentAverage": 5.94,
+            "longerAverage": 6.354,
+            "recentHigh": 6.55,
+            "recentLow": 5.6
+          }
+        }
+      },
+      "risk": [
+        "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，三峡水利需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查三峡水利的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘三峡水利保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。",
+            "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；"
+          ]
+        },
+        "upside": {
+          "summary": "三峡水利的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "发电量、上网电量、电价、利用小时或燃料成本",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "三峡水利的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本6.23元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "发电量、上网电量、电价、利用小时或燃料成本继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。继续恶化，或价格跌破60日平均成本6.23元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "发电量、上网电量、电价、利用小时或燃料成本与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "三峡水利的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 1,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收101.73亿元，同比-1.44%；归母净利润4.36亿元，同比+40.75%。2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。",
+            "reason": "三峡水利当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225150378.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；",
+            "reason": "三峡水利当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225150377.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-23/1225150377.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘6.34元，低于20日平均成本6.37元；60日平均成本6.23元，近20个交易日涨跌-2.46%。",
+            "reason": "三峡水利当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收101.73亿元，同比-1.44%；归母净利润4.36亿元，同比+40.75%。2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。",
+          "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；",
+          "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查三峡水利的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘三峡水利保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收101.73亿元，同比-1.44%；归母净利润4.36亿元，同比+40.75%。2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；"
+      },
+      {
+        "label": "已确认",
+        "text": "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘6.34元，低于20日平均成本6.37元；60日平均成本6.23元，近20个交易日涨跌-2.46%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "三峡水利当前财务信号为：收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。"
+      },
+      {
+        "label": "分析",
+        "text": "三峡水利当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "三峡水利当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；"
+      },
+      {
+        "label": "判断",
+        "text": "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+        "status": "open"
+      },
+      {
+        "text": "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，三峡水利需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "status": "open"
+      },
+      {
+        "question": "三峡水利的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "600116.SH",
+      "research_status": "COMPLETED",
+      "score": 94.4,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 12,
+        "causal_chain": 11.2,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "600116.SH",
+      "company": "三峡水利",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 59.37,
+      "evidence_confidence_score": 79.28,
+      "market_payoff_score": 64.16,
+      "technical_timing_score": 65.6,
+      "data_readiness_score": 100,
+      "action_readiness_score": 76.52,
+      "candidate_priority_score": 57.84,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 54.4,
+          "average_rating": 2.72,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2.7,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 70.4,
+          "average_rating": 3.52,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 3,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 64.16,
+          "average_rating": 3.21,
+          "details": {
+            "valuation_discount": 3,
+            "implied_growth_vs_evidence": 2.99,
+            "upside_downside": 2.65,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.1
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 65.6,
+          "average_rating": 3.28,
+          "details": {
+            "monthly_trend": 2.6,
+            "weekly_structure": 3.45,
+            "daily_buy_point": 3.2,
+            "gf_dma_alignment": 3.85,
+            "drawdown_position": 3.3
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "区域电网与水电处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺发电量、电价和成本和现金流兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 14.1%，近60日涨跌 -1.7%。",
+          "missing_proof": "发电量 / 电价和成本 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "发电量或利用小时下降，电价和成本又没有改善。",
+        "利润增长没有转成经营现金流，负债压力继续上升。",
+        "水情、煤价或新增装机变化削弱原来的盈利判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "AVOID_FOR_NOW",
+      "label": "当前不优先",
+      "researchRating": "D",
+      "overallScore": 58.18,
+      "fundamentalScore": 51.85,
+      "companyScore": 40,
+      "evidenceScore": 76,
+      "valuationScore": 72,
+      "timingScore": 57,
+      "riskScore": 47,
+      "reason": "现有业务兑现、财务质量或风险收益不足以支持行动。",
+      "nextCondition": "只有核心业务和现金流明显改善，才重新评估。",
+      "metrics": {
+        "pe": 28.4249,
+        "ps": 1.218,
+        "revenueGrowth": 0.1399,
+        "profitGrowth": -8.4696,
+        "cashConversion": -4.7708,
+        "debtRatio": 0.5333,
+        "return20": -0.0246
+      }
+    },
+    "overlay": {
+      "symbol": "600116.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "区域电网与水电",
+      "bottleneck_reason": "电力资产价值必须经过发电量、电价、利用小时和成本，再进入现金流；本次最关键的公司原文是：发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；",
+      "revenue_transmission": "这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+      "serenity_fit": 0.5,
+      "layer_score": 58,
+      "company_fit": 56,
+      "evidence_supported_growth": "H2",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "发电量、上网电量、电价、利用小时或燃料成本与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收101.73亿元，同比-1.44%；归母净利润4.36亿元，同比+40.75%。2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。2026-08-26复权收盘6.34元，低于20日平均成本6.37元；60日平均成本6.23元，近20个交易日涨跌-2.46%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 0,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -3,
+      "action_condition_summary": "等业务原文、财务现金流和价格三项至少有两项同时改善。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+        "收入、利润或现金流没有同向改善，说明当前增长质量存在明显缺口。",
+        "若价格跌回60日平均成本下方且基本面没有上修，三峡水利需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "三峡水利的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收25.89亿元，较可比期+13.99%；归母净利润3232.46万元，较可比期-846.96%；经营现金流-1.54亿元。",
+          "发电量（亿千瓦时） 上网电量（亿千瓦时） 售电量（亿千瓦时） 变动比例 变动比例 变动比例 2025年 2024年 2025年 2024年 2025年 2024年 （%） （%） （%） 23.7069 21.0438 12.66 23.4345 20.7928 12.70 142.7041 142.4648 0.17 报告期内，公司推动各项工作取得重要进展：持续巩固配售电基本盘，自有电源装机保障能 力稳步增强，自发电量同比较大幅提升，配售电量创同期历史新高，电力保供和极端天气应急抢 险任务圆满完成；"
+        ]
+      },
+      "upside": {
+        "summary": "三峡水利的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "发电量、上网电量、电价、利用小时或燃料成本",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "三峡水利的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本6.23元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "发电量、上网电量、电价、利用小时或燃料成本继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本6.37元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若五是公司商誉规模较大，可能因区域电力市场萎缩、用户电价下降 等造成减值风险。继续恶化，或价格跌破60日平均成本6.23元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

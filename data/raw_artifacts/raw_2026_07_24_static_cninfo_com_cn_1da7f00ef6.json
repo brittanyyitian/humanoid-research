@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_24_static_cninfo_com_cn_1da7f00ef6",
+  "artifactType": "filing",
+  "title": "关于公司股价异动公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225438685.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1da7f00ef6",
+  "fetchRunId": "fetch_2026_07_24_static_cninfo_com_cn_1da7f00ef6",
+  "publishedAt": "2026-07-24",
+  "firstSeenAt": "2026-07-24T16:16:20+08:00",
+  "capturedAt": "2026-07-24T16:16:20+08:00",
+  "contentHash": "sha256:b6425f10be3f6b4957df7b5ea2386bef1d6cc4f72764f2f18e221fe6f72fc72f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_1da7f00ef6.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_fc42c2e590"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_beae1fccf5fa23b7; listSourceId=src_cninfo_000426_announcements."
+}

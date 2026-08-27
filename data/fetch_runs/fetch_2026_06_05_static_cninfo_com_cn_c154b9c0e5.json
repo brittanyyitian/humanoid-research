@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_06_05_static_cninfo_com_cn_c154b9c0e5",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "百济神州",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_06_05_static_cninfo_com_cn_c154b9c0e5"
+  ],
+  "claimIds": [
+    "claim_2026_06_05_filing_eebedca692"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-05/1225352046.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:b5ac70a2cea2f9a8b9835b886273a83400b65db5cb199a6207d8487432f1a03b",
+      "storagePath": "raw_artifacts/payloads/raw_2026_06_05_static_cninfo_com_cn_c154b9c0e5.json"
+    }
+  ]
+}

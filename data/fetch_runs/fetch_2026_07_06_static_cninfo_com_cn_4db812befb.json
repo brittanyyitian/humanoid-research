@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_07_06_static_cninfo_com_cn_4db812befb",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "贝斯特",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-15T11:03:07+08:00",
+  "finishedAt": "2026-07-15T11:30:25+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_07_06_static_cninfo_com_cn_4db812befb"
+  ],
+  "claimIds": [
+    "claim_2026_07_06_filing_7b4fc96b1b"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-06/1225409765.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-15T11:03:07+08:00",
+      "finishedAt": "2026-07-15T11:03:07+08:00",
+      "contentHash": "sha256:584c9928e593b3d730db92c41dcbd47c48c4044c321eb857d263bc16b5c38da1",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_06_static_cninfo_com_cn_4db812befb.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-15T11:30:25+08:00",
+      "finishedAt": "2026-07-15T11:30:25+08:00",
+      "contentHash": "sha256:c90c4d8597acd19fe4cb5d91fc74dd1861430a062f08f95d061db0c707b620b9",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_06_static_cninfo_com_cn_4db812befb.json"
+    }
+  ]
+}

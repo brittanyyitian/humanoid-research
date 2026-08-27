@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_28_static_cninfo_com_cn_5cfa7b5fc8",
+  "artifactType": "filing",
+  "title": "关于子公司发生安全事故的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-28/1225444125.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5cfa7b5fc8",
+  "fetchRunId": "fetch_2026_07_28_static_cninfo_com_cn_5cfa7b5fc8",
+  "publishedAt": "2026-07-28",
+  "firstSeenAt": "2026-07-28T16:16:24+08:00",
+  "capturedAt": "2026-07-28T16:16:24+08:00",
+  "contentHash": "sha256:cd40f3f9f43cd551599e2faa05d31cb8342b75a92f0dd1a083476f35e293b488",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_28_static_cninfo_com_cn_5cfa7b5fc8.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_28_filing_f2acac27f9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_42583a58b38d13bf; listSourceId=src_cninfo_000426_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_11_static_cninfo_com_cn_6687b70008",
+  "artifactType": "filing",
+  "title": "关于使用部分闲置募集资金进行现金管理的公告",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-11/1225418754.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6687b70008",
+  "fetchRunId": "fetch_2026_07_11_static_cninfo_com_cn_6687b70008",
+  "publishedAt": "2026-07-11",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ab924268fcc682b1d607995ab7e64afa244b38df53f9a118344d92a91d8690ea",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_11_static_cninfo_com_cn_6687b70008.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_07_11_filing_ce5fc8e0f9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c8d4e3127d2b8906; listSourceId=src_cninfo_002353_announcements."
+}

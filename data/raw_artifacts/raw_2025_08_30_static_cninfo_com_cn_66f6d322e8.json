@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_30_static_cninfo_com_cn_66f6d322e8",
+  "artifactType": "filing",
+  "title": "长江电力2025年半年度报告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-30/1224627986.PDF",
+  "sourceId": "src_static_cninfo_com_cn_66f6d322e8",
+  "fetchRunId": "fetch_2025_08_30_static_cninfo_com_cn_66f6d322e8",
+  "publishedAt": "2025-08-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:c7ef11ae934a304bf0c09294ca0abfb202258eedbb2296be271afbd153d2c658",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_30_static_cninfo_com_cn_66f6d322e8.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2025_08_30_filing_9b75e5c83b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b593ff9ecc185877; listSourceId=src_cninfo_600900_announcements."
+}

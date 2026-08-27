@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_09_static_cninfo_com_cn_3b7666a042",
+  "artifactType": "filing",
+  "title": "关于向特定对象发行股票限售股上市流通公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-09/1225085814.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3b7666a042",
+  "fetchRunId": "fetch_2026_04_09_static_cninfo_com_cn_3b7666a042",
+  "publishedAt": "2026-04-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2b9158e117cd31fb75fed8ab9620a197f93f730ecbdcdc30f1246a8dac77b0bb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_09_static_cninfo_com_cn_3b7666a042.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_04_09_filing_d1ed207755"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c0bef322cc6d02f4; listSourceId=src_cninfo_688256_announcements."
+}

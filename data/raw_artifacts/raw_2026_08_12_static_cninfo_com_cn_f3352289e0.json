@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_12_static_cninfo_com_cn_f3352289e0",
+  "artifactType": "filing",
+  "title": "关于总经理代行财务总监职责的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-12/1225467786.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f3352289e0",
+  "fetchRunId": "fetch_2026_08_12_static_cninfo_com_cn_f3352289e0",
+  "publishedAt": "2026-08-12",
+  "firstSeenAt": "2026-08-12T16:17:44+08:00",
+  "capturedAt": "2026-08-12T16:17:44+08:00",
+  "contentHash": "sha256:00cf46a736177bc618f580f91bdbe5cda6a0bb6f00eb8672ca5d6062950b7ef5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_12_static_cninfo_com_cn_f3352289e0.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_12_filing_e2ad918935"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8431e65123b57720; listSourceId=src_cninfo_300580_announcements."
+}

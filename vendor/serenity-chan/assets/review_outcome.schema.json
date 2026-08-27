@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Review Outcome",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "reviewed_at",
+    "source_watchlist_path",
+    "outcomes"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_review_outcome" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "reviewed_at": { "type": "string", "format": "date-time" },
+    "source_watchlist_path": { "type": "string" },
+    "outcomes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "horizon",
+          "judgment_delta",
+          "action_delta",
+          "checked_evidence",
+          "next_state",
+          "next_review_date",
+          "notes"
+        ],
+        "properties": {
+          "symbol": { "type": "string", "minLength": 1 },
+          "horizon": { "type": "string", "enum": ["30d", "90d", "180d"] },
+          "judgment_delta": {
+            "type": "string",
+            "enum": ["CONFIRMED", "WEAKENED", "BROKEN", "UPGRADED", "UNCHANGED"]
+          },
+          "action_delta": {
+            "type": "string",
+            "enum": ["HOLD_WATCH", "UPGRADE_WATCH", "DOWNGRADE_WATCH", "ACTION_READY", "REMOVE"]
+          },
+          "checked_evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "next_state": {
+            "type": "string",
+            "enum": ["ACTION_CANDIDATE", "EVIDENCE_FIRST", "WAIT_FOR_BUY_POINT", "WATCHLIST", "REMOVED"]
+          },
+          "next_review_date": { "type": "string", "format": "date" },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

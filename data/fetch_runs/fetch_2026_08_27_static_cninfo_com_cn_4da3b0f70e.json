@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_27_static_cninfo_com_cn_4da3b0f70e",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "安集科技",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-27T16:32:40+08:00",
+  "finishedAt": "2026-08-27T16:34:05+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_313b769b43"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513831.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-27T16:32:40+08:00",
+      "finishedAt": "2026-08-27T16:32:40+08:00",
+      "contentHash": "sha256:306e4f0286ba4b3b796e74ea5bb1774fde1bb05b1be0dd123937ab8af120a07b",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-27T16:34:05+08:00",
+      "finishedAt": "2026-08-27T16:34:05+08:00",
+      "contentHash": "sha256:d29de5f3153fbdfb4124ea70839560e897d85ab13c09b7f006f5d22fd58a9916",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e.json"
+    }
+  ]
+}

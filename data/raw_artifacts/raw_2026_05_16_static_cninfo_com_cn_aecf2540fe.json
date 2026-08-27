@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_16_static_cninfo_com_cn_aecf2540fe",
+  "artifactType": "filing",
+  "title": "中信证券股份有限公司关于上海华依科技集团股份有限公司2025年度持续督导跟踪报告",
+  "publisher": "华依科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-16/1225310040.PDF",
+  "sourceId": "src_static_cninfo_com_cn_aecf2540fe",
+  "fetchRunId": "fetch_2026_05_16_static_cninfo_com_cn_aecf2540fe",
+  "publishedAt": "2026-05-16",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:19cfca4241563312ef8d77808b0811378949e23c493a842737e31fba900acc3a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_16_static_cninfo_com_cn_aecf2540fe.json",
+  "entityIds": [
+    "highly_electric"
+  ],
+  "claimIds": [
+    "claim_2026_05_16_filing_b89d378174"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_613c5be620cc351b; listSourceId=src_cninfo_688071_announcements."
+}

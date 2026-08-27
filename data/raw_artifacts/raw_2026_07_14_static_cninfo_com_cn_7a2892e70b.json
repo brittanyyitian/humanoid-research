@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_7a2892e70b",
+  "artifactType": "filing",
+  "title": "关于董事辞职及补选董事的公告",
+  "publisher": "兴业银锡",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225420838.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7a2892e70b",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_7a2892e70b",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b9fed0fb73c29d75e382e5493d159095a4651b0661ef15988732b17c9285f1fd",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_7a2892e70b.json",
+  "entityIds": [
+    "xingye_silver"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_2963741bca"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5d3cb93552facbcb; listSourceId=src_cninfo_000426_announcements."
+}

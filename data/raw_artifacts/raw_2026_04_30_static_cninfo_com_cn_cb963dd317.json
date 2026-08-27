@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_cb963dd317",
+  "artifactType": "filing",
+  "title": "前次募集资金使用情况鉴证报告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225261887.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cb963dd317",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_cb963dd317",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b1dcc3d92472cde1f0151f3c5e6347083dafaa99a7ec36597f532a1097b431bb",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_cb963dd317.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_8aab011f88"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_110536b147255094; listSourceId=src_cninfo_002156_announcements."
+}

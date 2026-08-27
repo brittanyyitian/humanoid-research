@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_25_static_cninfo_com_cn_305b200354",
+  "artifactType": "filing",
+  "title": "2025年第一季度报告",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-25/1223281418.PDF",
+  "sourceId": "src_static_cninfo_com_cn_305b200354",
+  "fetchRunId": "fetch_2025_04_25_static_cninfo_com_cn_305b200354",
+  "publishedAt": "2025-04-25",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:fdb2cffc6572130eafa28ca0ae571a1ac90493f0396e0031dd5cebd5bfde5031",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_25_static_cninfo_com_cn_305b200354.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2025_04_25_filing_7ac3c0bf17"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f9a9b73dd6a0e451; listSourceId=src_cninfo_688012_announcements."
+}

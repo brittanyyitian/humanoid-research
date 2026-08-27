@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_07_24_static_cninfo_com_cn_1da7f00ef6",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "兴业银锡",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-24T16:16:20+08:00",
+  "finishedAt": "2026-07-24T16:16:20+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_24_static_cninfo_com_cn_1da7f00ef6"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_fc42c2e590"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225438685.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-24T16:16:20+08:00",
+      "finishedAt": "2026-07-24T16:16:20+08:00",
+      "contentHash": "sha256:b6425f10be3f6b4957df7b5ea2386bef1d6cc4f72764f2f18e221fe6f72fc72f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_1da7f00ef6.json"
+    }
+  ]
+}

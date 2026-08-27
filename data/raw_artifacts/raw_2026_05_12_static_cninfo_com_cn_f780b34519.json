@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_12_static_cninfo_com_cn_f780b34519",
+  "artifactType": "filing",
+  "title": "2025年度股东会决议公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225292572.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f780b34519",
+  "fetchRunId": "fetch_2026_05_12_static_cninfo_com_cn_f780b34519",
+  "publishedAt": "2026-05-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:f56e9118fe37a94e5617fe77e658c281beb4fbd6c3bba72e867462168ff8e03e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_f780b34519.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_a5150723f2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9ddc4220ca771a69; listSourceId=src_cninfo_002371_announcements."
+}

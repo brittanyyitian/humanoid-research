@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_02_05_unitree_com_ebabbf2920",
+  "artifactType": "news_page",
+  "title": "Unitree H1:一岁半“出道”上春晚",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/30",
+  "sourceId": "src_unitree_com_ebabbf2920",
+  "fetchRunId": "fetch_2025_02_05_unitree_com_ebabbf2920",
+  "publishedAt": "2025-02-05",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:6826a1d2cffdcc959d897414dd1b7956c7acda9e27d50bcf55276b16375aadc1",
+  "storagePath": "raw_artifacts/payloads/raw_2025_02_05_unitree_com_ebabbf2920.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2025_02_05_other_4cc803b3c4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_5f1dd396bddd294e; listSourceId=src_unitree_official_news."
+}

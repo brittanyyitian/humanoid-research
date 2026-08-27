@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_0945f6429267",
+  "rawArtifactId": "raw_2026_06_06_static_cninfo_com_cn_c5db08265e",
+  "routeDecisionId": "route_2026_06_06_39986210042c",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "zijin_mining",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:01+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:01+08:00",
+  "finishedAt": "2026-07-23T09:51:01+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_06_filing_e36a4c2505"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_06_filing_e36a4c2505"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_06_filing_material_v0_cca318589e"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_eb7870ac72cb"
+  ]
+}

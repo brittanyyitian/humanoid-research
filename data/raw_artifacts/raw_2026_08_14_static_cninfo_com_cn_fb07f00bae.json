@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_14_static_cninfo_com_cn_fb07f00bae",
+  "artifactType": "filing",
+  "title": "股票交易异常波动公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-14/1225472124.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fb07f00bae",
+  "fetchRunId": "fetch_2026_08_14_static_cninfo_com_cn_fb07f00bae",
+  "publishedAt": "2026-08-14",
+  "firstSeenAt": "2026-08-14T16:17:04+08:00",
+  "capturedAt": "2026-08-14T16:17:04+08:00",
+  "contentHash": "sha256:2ab12ae7898bd576875923cda9ce7aca4107dd2d2fea369e5a22169fb33121ae",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_14_static_cninfo_com_cn_fb07f00bae.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_08_14_filing_6844065822"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_36e947e3b1d7775f; listSourceId=src_cninfo_600667_announcements."
+}

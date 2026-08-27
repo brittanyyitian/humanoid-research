@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_b09594c5ef",
+  "artifactType": "filing",
+  "title": "紫金矿业集团股份有限公司2026年半年度业绩预增公告",
+  "publisher": "紫金矿业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417751.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b09594c5ef",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_b09594c5ef",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:e08c30f17524e75cb4dc7ae3de9a07c7baecafa26bfef7474ed89989d719051c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_b09594c5ef.json",
+  "entityIds": [
+    "zijin_mining"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_20bec4820a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f00e144a56b272b5; listSourceId=src_cninfo_601899_announcements."
+}

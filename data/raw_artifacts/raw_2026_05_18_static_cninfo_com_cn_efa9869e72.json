@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_18_static_cninfo_com_cn_efa9869e72",
+  "artifactType": "filing",
+  "title": "关于新增2026年度日常关联交易预计额度的公告",
+  "publisher": "机器人",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-18/1225314897.PDF",
+  "sourceId": "src_static_cninfo_com_cn_efa9869e72",
+  "fetchRunId": "fetch_2026_05_18_static_cninfo_com_cn_efa9869e72",
+  "publishedAt": "2026-05-18",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:7a00b47881de7d9657b000ba7e630dbaab2502691730c7d621968283542fcb28",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_18_static_cninfo_com_cn_efa9869e72.json",
+  "entityIds": [
+    "siasun_robot"
+  ],
+  "claimIds": [
+    "claim_2026_05_18_filing_d25e7c3d2a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ac013faf3a9c6a41; listSourceId=src_cninfo_300024_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_21d1d400ee",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2025年度内部控制评价报告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036046.PDF",
+  "sourceId": "src_static_cninfo_com_cn_21d1d400ee",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_21d1d400ee",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d69553b3da08f0d2f4497008c5be7934f76fd5a197f2c4ead527a38103c85f77",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_21d1d400ee.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_65e0d11eb8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_0f24de5f3c75e01f; listSourceId=src_cninfo_600938_announcements."
+}

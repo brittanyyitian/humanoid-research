@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_b40392ecb1",
+  "artifactType": "filing",
+  "title": "长江电力2026年一季度报告",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225262110.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b40392ecb1",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_b40392ecb1",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:f24b67f5ee9483ecc354e21b83fd0eb2d109d0c5e7144657e6bc7e6097ecf888",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_b40392ecb1.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_066d626ff3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_c9431e5e42e1a8d2; listSourceId=src_cninfo_600900_announcements."
+}

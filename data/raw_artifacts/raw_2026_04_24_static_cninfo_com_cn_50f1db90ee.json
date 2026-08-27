@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_50f1db90ee",
+  "artifactType": "filing",
+  "title": "关于股份回购结果暨股份变动的公告",
+  "publisher": "中航光电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225172117.PDF",
+  "sourceId": "src_static_cninfo_com_cn_50f1db90ee",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_50f1db90ee",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d042b906a87c463df03bdf72e6111d9a353c31af57b6f9ca6a41a4311c2ae92c",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_50f1db90ee.json",
+  "entityIds": [
+    "avic_jonhon"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_c9e243261f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5b81be53a5deda39; listSourceId=src_cninfo_002179_announcements."
+}

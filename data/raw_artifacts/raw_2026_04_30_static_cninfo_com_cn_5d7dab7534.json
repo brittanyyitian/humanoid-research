@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_5d7dab7534",
+  "artifactType": "filing",
+  "title": "简式权益变动报告书（上海建元）",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225274334.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5d7dab7534",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_5d7dab7534",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:6a24b71d934d2f67a0c298f30512499fe2c8e71847123b273d1910d462fcf686",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_5d7dab7534.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_00dceafdde"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_32be01c883c64f7d; listSourceId=src_cninfo_301269_announcements."
+}

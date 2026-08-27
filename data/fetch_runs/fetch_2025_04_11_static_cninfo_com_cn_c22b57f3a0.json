@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_04_11_static_cninfo_com_cn_c22b57f3a0",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "通源石油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T16:16:40+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_04_11_static_cninfo_com_cn_c22b57f3a0"
+  ],
+  "claimIds": [
+    "claim_2025_04_11_filing_f7c6c5aed3"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-04-11/1223056593.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:54430e26f8055baaf670a4de8ad2c1f06edb2ad33928415004d3ec20f0625831",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_11_static_cninfo_com_cn_c22b57f3a0.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T16:16:40+08:00",
+      "finishedAt": "2026-07-23T16:16:40+08:00",
+      "contentHash": "sha256:10eb32c6c7f5f3aba613b4a0d5668f50828327668081c6f560180558020c2bd7",
+      "storagePath": "raw_artifacts/payloads/raw_2025_04_11_static_cninfo_com_cn_c22b57f3a0.json"
+    }
+  ]
+}

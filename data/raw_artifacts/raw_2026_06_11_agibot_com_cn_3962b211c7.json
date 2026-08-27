@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_11_agibot_com_cn_3962b211c7",
+  "artifactType": "news_page",
+  "title": "2026元苼生态共建行动计划",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/169.html",
+  "sourceId": "src_agibot_com_cn_3962b211c7",
+  "fetchRunId": "fetch_2026_06_11_agibot_com_cn_3962b211c7",
+  "publishedAt": "2026-06-11",
+  "firstSeenAt": "2026-07-06T12:02:00+08:00",
+  "capturedAt": "2026-07-06T12:02:00+08:00",
+  "contentHash": "sha256:3c45d01f50e561da881c58dca55480f7f42db08779d0e4fb590e84b24186ae60",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_11_agibot_com_cn_3962b211c7.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_06_11_other_d38f172a12"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_746685b041b908ca; listSourceId=src_agibot_official_news."
+}

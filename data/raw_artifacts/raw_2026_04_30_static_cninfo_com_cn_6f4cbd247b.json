@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_6f4cbd247b",
+  "artifactType": "filing",
+  "title": "2026年一季度报告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225259650.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6f4cbd247b",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_6f4cbd247b",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b7c1e711da018ea1d135eaedd6807b91279b280de7f247368cea6af8f21e1b29",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_6f4cbd247b.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_f321d3cbae"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_21a4917f62392339; listSourceId=src_cninfo_002371_announcements."
+}

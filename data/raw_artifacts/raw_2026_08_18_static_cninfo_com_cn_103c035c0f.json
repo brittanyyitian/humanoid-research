@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_18_static_cninfo_com_cn_103c035c0f",
+  "artifactType": "filing",
+  "title": "第五届董事会第三次会议决议的公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225477740.PDF",
+  "sourceId": "src_static_cninfo_com_cn_103c035c0f",
+  "fetchRunId": "fetch_2026_08_18_static_cninfo_com_cn_103c035c0f",
+  "publishedAt": "2026-08-18",
+  "firstSeenAt": "2026-08-18T16:15:56+08:00",
+  "capturedAt": "2026-08-18T16:15:56+08:00",
+  "contentHash": "sha256:042f16cb66fa0b6f35cabf68a1d81cd34efeb548301158bc0552912e9aac5454",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_18_static_cninfo_com_cn_103c035c0f.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_08_18_filing_8c57d6139e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b2c1a8795450b1e3; listSourceId=src_cninfo_300580_announcements."
+}

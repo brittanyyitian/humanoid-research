@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_fcfbc8cbb0",
+  "artifactType": "filing",
+  "title": "关于上海证券交易所并购重组审核委员会审核公司发行股份购买资产并募集配套资金暨关联交易事项会议安排的公告",
+  "publisher": "华虹宏力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225367030.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fcfbc8cbb0",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_fcfbc8cbb0",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:54e0764f1af0b8d1ea9fa4fd78b4b21cdbe3accaf60b1bf4a6ecab36eb04b5f5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_fcfbc8cbb0.json",
+  "entityIds": [
+    "huahong_semiconductor"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_31de88efc4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_52d09aeac957a652; listSourceId=src_cninfo_688347_announcements."
+}

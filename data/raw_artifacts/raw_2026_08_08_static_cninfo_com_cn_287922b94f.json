@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_08_static_cninfo_com_cn_287922b94f",
+  "artifactType": "filing",
+  "title": "大唐发电关于完成2026年科技创新可续期公司债券（第三期）发行的公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-08/1225463767.PDF",
+  "sourceId": "src_static_cninfo_com_cn_287922b94f",
+  "fetchRunId": "fetch_2026_08_08_static_cninfo_com_cn_287922b94f",
+  "publishedAt": "2026-08-08",
+  "firstSeenAt": "2026-08-08T16:15:49+08:00",
+  "capturedAt": "2026-08-08T16:15:49+08:00",
+  "contentHash": "sha256:7622880e09a8705a87c1e62e9a2d696e21921fdf9faf8a2f1902778fe9e04ac6",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_08_static_cninfo_com_cn_287922b94f.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_08_08_filing_c6096f7eee"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2a3ff40897f15ad6; listSourceId=src_cninfo_601991_announcements."
+}

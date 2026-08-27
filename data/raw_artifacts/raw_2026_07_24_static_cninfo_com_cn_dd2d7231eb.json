@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_24_static_cninfo_com_cn_dd2d7231eb",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于获得药品注册批准的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-24/1225439253.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dd2d7231eb",
+  "fetchRunId": "fetch_2026_07_24_static_cninfo_com_cn_dd2d7231eb",
+  "publishedAt": "2026-07-24",
+  "firstSeenAt": "2026-07-24T16:16:20+08:00",
+  "capturedAt": "2026-07-24T16:16:20+08:00",
+  "contentHash": "sha256:92233782b2e027504a520584ab1bdf4ee5fa6aa340c6bd9d567412acb7077529",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_24_static_cninfo_com_cn_dd2d7231eb.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_24_filing_9c0ce357e6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4402e7373dd71973; listSourceId=src_cninfo_600276_announcements."
+}

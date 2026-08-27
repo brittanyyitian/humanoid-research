@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_08_15_static_cninfo_com_cn_5ddb18b720",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "概伦电子",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-15T16:16:04+08:00",
+  "finishedAt": "2026-08-15T16:16:04+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_08_15_static_cninfo_com_cn_5ddb18b720"
+  ],
+  "claimIds": [
+    "claim_2026_08_15_filing_e0cb5a72e8"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-15/1225474510.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-15T16:16:04+08:00",
+      "finishedAt": "2026-08-15T16:16:04+08:00",
+      "contentHash": "sha256:fc029390114976e53333f37133631d4cc9cacbbe4764df0305a821fe14ffa567",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_15_static_cninfo_com_cn_5ddb18b720.json"
+    }
+  ]
+}

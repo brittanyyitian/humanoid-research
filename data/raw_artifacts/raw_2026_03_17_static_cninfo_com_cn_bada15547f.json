@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_17_static_cninfo_com_cn_bada15547f",
+  "artifactType": "filing",
+  "title": "会计师事务所关于中无人机2025年度涉及财务公司关联交易的存款、贷款等金融业务的专项说明",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-17/1225013008.PDF",
+  "sourceId": "src_static_cninfo_com_cn_bada15547f",
+  "fetchRunId": "fetch_2026_03_17_static_cninfo_com_cn_bada15547f",
+  "publishedAt": "2026-03-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1d3c493fe6d4b9b080c15eb42ede4f98ad64a8db51f7e92a543cd39d04715b52",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_17_static_cninfo_com_cn_bada15547f.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_17_filing_966d416420"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_934d961f8a410220; listSourceId=src_cninfo_688297_announcements."
+}

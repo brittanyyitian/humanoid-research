@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_c36ba05b3c",
+  "artifactType": "filing",
+  "title": "关于续聘会计师事务所的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225170836.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c36ba05b3c",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_c36ba05b3c",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:88ec22eceeaa0fd67ca59be2cbbead8cd6f1e9b0bd2183cfed46fc500580fc56",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_c36ba05b3c.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_550491da2e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_da01aa6c80c47014; listSourceId=src_cninfo_000554_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_ddccbd7d89",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司2025年年度报告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225035639.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ddccbd7d89",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_ddccbd7d89",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:5bb42d55dd00d45963c30c7f1bf1181a5c76d8d4ca6b051653d679243ced6b94",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_ddccbd7d89.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_5717c96eba"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b7441a050e77831c; listSourceId=src_cninfo_600547_announcements."
+}

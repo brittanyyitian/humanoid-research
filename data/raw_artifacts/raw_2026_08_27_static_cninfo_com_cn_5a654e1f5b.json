@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_static_cninfo_com_cn_5a654e1f5b",
+  "artifactType": "filing",
+  "title": "关于召开2026年第一次临时股东会的通知",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514009.PDF",
+  "sourceId": "src_static_cninfo_com_cn_5a654e1f5b",
+  "fetchRunId": "fetch_2026_08_27_static_cninfo_com_cn_5a654e1f5b",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T16:32:40+08:00",
+  "capturedAt": "2026-08-27T16:32:40+08:00",
+  "contentHash": "sha256:f81ecb0028467a12f75cf0be718da61b9e06cd6511c48f036511fd8fe0d20399",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_5a654e1f5b.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_filing_fbacd77759"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_631d7358a220a4b3; listSourceId=src_cninfo_002050_announcements."
+}

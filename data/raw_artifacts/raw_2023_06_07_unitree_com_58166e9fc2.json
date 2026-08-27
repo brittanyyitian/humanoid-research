@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_06_07_unitree_com_58166e9fc2",
+  "artifactType": "news_page",
+  "title": "Unitree 闪耀亮相 ICRA 2023",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/17",
+  "sourceId": "src_unitree_com_58166e9fc2",
+  "fetchRunId": "fetch_2023_06_07_unitree_com_58166e9fc2",
+  "publishedAt": "2023-06-07",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:78f86cc717da06fddb5ea9eb94afed63e664e70b5c52d75d39e66130228f6feb",
+  "storagePath": "raw_artifacts/payloads/raw_2023_06_07_unitree_com_58166e9fc2.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_06_07_other_c1337847c9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_2edaecd1e90d7fa4; listSourceId=src_unitree_official_news."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_31_static_cninfo_com_cn_41387bd106",
+  "artifactType": "filing",
+  "title": "百济神州有限公司章程",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-31/1225449102.PDF",
+  "sourceId": "src_static_cninfo_com_cn_41387bd106",
+  "fetchRunId": "fetch_2026_07_31_static_cninfo_com_cn_41387bd106",
+  "publishedAt": "2026-07-31",
+  "firstSeenAt": "2026-07-31T16:18:10+08:00",
+  "capturedAt": "2026-07-31T16:18:10+08:00",
+  "contentHash": "sha256:3881a54a2321c8cbe4ef04d26bc8a752e80f5bedc4eda65c653dab34e12f7471",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_31_static_cninfo_com_cn_41387bd106.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_07_31_filing_dce8650fe3"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2c07e136e4780cd1; listSourceId=src_cninfo_688235_announcements."
+}

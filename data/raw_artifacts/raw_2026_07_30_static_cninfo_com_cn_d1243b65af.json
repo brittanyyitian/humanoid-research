@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_30_static_cninfo_com_cn_d1243b65af",
+  "artifactType": "filing",
+  "title": "澜起科技关于回购A股股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-30/1225447118.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d1243b65af",
+  "fetchRunId": "fetch_2026_07_30_static_cninfo_com_cn_d1243b65af",
+  "publishedAt": "2026-07-30",
+  "firstSeenAt": "2026-07-30T16:16:17+08:00",
+  "capturedAt": "2026-07-30T16:16:17+08:00",
+  "contentHash": "sha256:27a11d434e32b9b8be374f65728a34d1bc0db4c578f6d34998a6b60d452c27ef",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_30_static_cninfo_com_cn_d1243b65af.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_07_30_filing_b3dc197cba"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_67a5668ac7c62c2e; listSourceId=src_cninfo_688008_announcements."
+}

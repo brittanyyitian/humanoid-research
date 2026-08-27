@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_08_static_cninfo_com_cn_f366ce219e",
+  "artifactType": "filing",
+  "title": "2025年度股东会决议公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-08/1225285808.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f366ce219e",
+  "fetchRunId": "fetch_2026_05_08_static_cninfo_com_cn_f366ce219e",
+  "publishedAt": "2026-05-08",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:6105b3cc6f7980352aa4e81c2d553741df6bb7736d4d6d39acd7445c31d77267",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_08_static_cninfo_com_cn_f366ce219e.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_05_08_filing_d4e43f7e07"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_59b942438ae29f83; listSourceId=src_cninfo_300007_announcements."
+}

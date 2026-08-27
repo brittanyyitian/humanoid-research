@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_e407eca81899",
+  "rawArtifactId": "raw_2026_07_21_static_cninfo_com_cn_f944ae5b11",
+  "routeDecisionId": "route_2026_07_21_8d25bebb9881",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "datang_power",
+  "entityIds": [
+    "datang_power"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:31:19+08:00",
+  "updatedAt": "2026-07-23T09:31:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_21_filing_908edf96dc"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_21_filing_908edf96dc"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_21_filing_material_v0_d72c185c7a"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_1612ede34585"
+  ]
+}

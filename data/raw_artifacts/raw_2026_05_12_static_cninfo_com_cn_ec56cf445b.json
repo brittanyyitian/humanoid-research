@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_12_static_cninfo_com_cn_ec56cf445b",
+  "artifactType": "filing",
+  "title": "百济神州有限公司2026年第一季度报告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-12/1225291734.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ec56cf445b",
+  "fetchRunId": "fetch_2026_05_12_static_cninfo_com_cn_ec56cf445b",
+  "publishedAt": "2026-05-12",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ff1fd92bc33a02f51c609869c8b9235618ce615f45d208d436bac24ebfe93c55",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_12_static_cninfo_com_cn_ec56cf445b.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_05_12_filing_87077f9113"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_85ce5accba0c175b; listSourceId=src_cninfo_688235_announcements."
+}

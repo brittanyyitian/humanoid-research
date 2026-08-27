@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_6f8602b074",
+  "artifactType": "filing",
+  "title": "山东黄金矿业股份有限公司2026年第一季度报告",
+  "publisher": "山东黄金",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225256109.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6f8602b074",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_6f8602b074",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:4d3a78b748c1fb7cdb53a08092258a13a21b60fbffd64fba52e091fb1001a6f5",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_6f8602b074.json",
+  "entityIds": [
+    "shandong_gold"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_7f0918e43e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5bdfeb6bd032a30a; listSourceId=src_cninfo_600547_announcements."
+}

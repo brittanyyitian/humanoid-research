@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2025_03_28_static_cninfo_com_cn_c19d9cd7d3",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中国海油",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:56:01+08:00",
+  "finishedAt": "2026-07-23T09:58:44+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2025_03_28_static_cninfo_com_cn_c19d9cd7d3"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_eed12b5733"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222929636.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:56:01+08:00",
+      "finishedAt": "2026-07-23T09:56:01+08:00",
+      "contentHash": "sha256:eceb9607ca38803566986455e352cbc5cb8f3f3540851277727fed42519cb35d",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_c19d9cd7d3.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-07-23T09:58:44+08:00",
+      "finishedAt": "2026-07-23T09:58:44+08:00",
+      "contentHash": "sha256:218a851f7e144df46c855d6d1f365e8ba2b08847a2e6c1fb3077bba84d292203",
+      "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_c19d9cd7d3.json"
+    }
+  ]
+}

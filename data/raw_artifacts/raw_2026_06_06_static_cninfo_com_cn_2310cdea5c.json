@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_2310cdea5c",
+  "artifactType": "filing",
+  "title": "关于调整向特定对象发行股票发行价格和发行数量的公告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225353665.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2310cdea5c",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_2310cdea5c",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:c045900668d348bfc6864cced2bbbca52c9ed6a51fa9672ecb0cec431bfe9ce4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_2310cdea5c.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_c69001c191"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1a79cfb8e4d8423d; listSourceId=src_cninfo_000159_announcements."
+}

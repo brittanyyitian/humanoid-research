@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_ea740f9cbf",
+  "artifactType": "filing",
+  "title": "关于股票交易异常波动的公告",
+  "publisher": "步科股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225406496.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ea740f9cbf",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_ea740f9cbf",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:0429c1a6b83acbd4c70ad094b1b56bc617732dae31e006e7ac2e7620d2198190",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_ea740f9cbf.json",
+  "entityIds": [
+    "kinco"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_2bd0a51c8d"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6e7d947d51dd7b43; listSourceId=src_cninfo_688160_announcements."
+}

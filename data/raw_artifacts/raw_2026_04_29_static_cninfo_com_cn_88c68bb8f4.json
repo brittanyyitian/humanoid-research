@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_88c68bb8f4",
+  "artifactType": "filing",
+  "title": "中国石化2026年第一季度报告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225235941.PDF",
+  "sourceId": "src_static_cninfo_com_cn_88c68bb8f4",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_88c68bb8f4",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:2d9633f6f1c0fc684b498b55799d7abea05d44a9a60de1e0b36dc2c0553dbb9e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_88c68bb8f4.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_796b1b94f6"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8abad0de72f6716b; listSourceId=src_cninfo_600028_announcements."
+}

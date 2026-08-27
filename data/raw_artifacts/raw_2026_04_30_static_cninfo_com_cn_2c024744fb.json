@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_2c024744fb",
+  "artifactType": "filing",
+  "title": "拓普集团2025年年度股东会决议公告",
+  "publisher": "拓普集团",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225257694.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2c024744fb",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_2c024744fb",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:133e4822f7faa540f8cf4d89154047d9c8712e2f19664bd21878ecceec16c638",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_2c024744fb.json",
+  "entityIds": [
+    "tuopu_group"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_5080a5dd0f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_41d3b409e7e82bf6; listSourceId=src_cninfo_601689_announcements."
+}

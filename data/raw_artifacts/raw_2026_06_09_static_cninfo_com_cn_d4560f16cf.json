@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_d4560f16cf",
+  "artifactType": "filing",
+  "title": "关于收到项目中标通知书的公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225360361.PDF",
+  "sourceId": "src_static_cninfo_com_cn_d4560f16cf",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_d4560f16cf",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:2749826b849de86974354e2bcd16d13e3b897b4889ceefbe017b193fc823d695",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_d4560f16cf.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_94244c97fd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_226351d51ba51eb4; listSourceId=src_cninfo_300164_announcements."
+}

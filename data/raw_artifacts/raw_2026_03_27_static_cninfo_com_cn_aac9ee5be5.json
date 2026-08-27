@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_aac9ee5be5",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2026年第二次董事会决议公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036084.PDF",
+  "sourceId": "src_static_cninfo_com_cn_aac9ee5be5",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_aac9ee5be5",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:51c6643b4af50f0af17295851ab61a51dad36bef88ca8fca2d248079a7b26f97",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_aac9ee5be5.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_2229817688"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bf706abb2564ef1d; listSourceId=src_cninfo_600938_announcements."
+}

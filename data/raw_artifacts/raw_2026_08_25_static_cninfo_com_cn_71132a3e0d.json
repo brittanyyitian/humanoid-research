@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_25_static_cninfo_com_cn_71132a3e0d",
+  "artifactType": "filing",
+  "title": "关于召开2026年第二次临时股东会的通知",
+  "publisher": "双林股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-25/1225498974.PDF",
+  "sourceId": "src_static_cninfo_com_cn_71132a3e0d",
+  "fetchRunId": "fetch_2026_08_25_static_cninfo_com_cn_71132a3e0d",
+  "publishedAt": "2026-08-25",
+  "firstSeenAt": "2026-08-25T16:16:13+08:00",
+  "capturedAt": "2026-08-25T16:16:13+08:00",
+  "contentHash": "sha256:a96f6786d94285f01001e02a8f48bb90c630d6067a6314ce9df5aaaa153abbc3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_25_static_cninfo_com_cn_71132a3e0d.json",
+  "entityIds": [
+    "shuanglin"
+  ],
+  "claimIds": [
+    "claim_2026_08_25_filing_c7e045e693"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_053bb74da04488ff; listSourceId=src_cninfo_300100_announcements."
+}

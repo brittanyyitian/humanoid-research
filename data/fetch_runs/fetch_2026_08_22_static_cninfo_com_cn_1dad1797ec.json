@@ -1,0 +1,37 @@
+{
+  "id": "fetch_2026_08_22_static_cninfo_com_cn_1dad1797ec",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "埃斯顿",
+  "sourceType": "ingestion",
+  "startedAt": "2026-08-22T16:15:52+08:00",
+  "finishedAt": "2026-08-22T16:16:01+08:00",
+  "status": "success",
+  "artifactIds": [
+    "raw_2026_08_22_static_cninfo_com_cn_1dad1797ec"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_3fbaa222a4"
+  ],
+  "error": null,
+  "gaps": [],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225490662.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-08-22T16:15:52+08:00",
+      "finishedAt": "2026-08-22T16:15:52+08:00",
+      "contentHash": "sha256:8052253c64d770202695afcaf124f7f2689a8a07afc2c869ce0360bc0b5bcacc",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_1dad1797ec.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-22T16:16:01+08:00",
+      "finishedAt": "2026-08-22T16:16:01+08:00",
+      "contentHash": "sha256:561c67fd66fb6cbf5620ead05e3a168c52ea92af041ec0cde603fdc147650d9f",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_1dad1797ec.json"
+    }
+  ]
+}

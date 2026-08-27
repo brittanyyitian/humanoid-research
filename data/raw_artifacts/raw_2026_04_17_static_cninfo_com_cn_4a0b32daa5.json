@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_17_static_cninfo_com_cn_4a0b32daa5",
+  "artifactType": "filing",
+  "title": "2025 Environmental, Social, and Governance (ESG) Report",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225113340.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4a0b32daa5",
+  "fetchRunId": "fetch_2026_04_17_static_cninfo_com_cn_4a0b32daa5",
+  "publishedAt": "2026-04-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:288d13bdcc96b8ca5bba360f443e3bd94480f119cc6588b689a8cde47d2e612a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_17_static_cninfo_com_cn_4a0b32daa5.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_04_17_filing_6ef711f6d5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5501ba885dd05edd; listSourceId=src_cninfo_002353_announcements."
+}

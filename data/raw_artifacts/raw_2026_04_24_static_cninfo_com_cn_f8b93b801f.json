@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_f8b93b801f",
+  "artifactType": "filing",
+  "title": "关于会计政策变更的公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225166146.PDF",
+  "sourceId": "src_static_cninfo_com_cn_f8b93b801f",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_f8b93b801f",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:7dbb7d3bfee053da2ff7655a9946efaa7f0b170e031c7b609d35532529191d4e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_f8b93b801f.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_7775de030a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b377475f50176250; listSourceId=src_cninfo_600667_announcements."
+}

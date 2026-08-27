@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_08_static_cninfo_com_cn_41896d3e0e",
+  "artifactType": "filing",
+  "title": "2025年度A股权益分派实施公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-08/1225413829.PDF",
+  "sourceId": "src_static_cninfo_com_cn_41896d3e0e",
+  "fetchRunId": "fetch_2026_07_08_static_cninfo_com_cn_41896d3e0e",
+  "publishedAt": "2026-07-08",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:c58444fcffaa4bbbd0aedc68173bbb7ca5c895daf971b777212a985001ce4768",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_08_static_cninfo_com_cn_41896d3e0e.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_07_08_filing_5687c27f2b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_57846033e32d7468; listSourceId=src_cninfo_002050_announcements."
+}

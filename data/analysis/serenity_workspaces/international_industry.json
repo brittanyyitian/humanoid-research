@@ -1,0 +1,147 @@
+{
+  "id": "saout_international_industry_b43ee6cab230",
+  "entityId": "international_industry",
+  "name": "国际实业",
+  "generatedAt": "2026-08-27T16:37:26+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_formal_scorecard",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "mode": "scorecard_only_refresh",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity_chan_scorecard.py",
+      "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/scorecard_filled.json",
+      "--format",
+      "json"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry",
+    "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
+    "exitCode": 0,
+    "stdoutTail": "4,\n        \"implied_growth_vs_evidence\": 2.99,\n        \"upside_downside\": 1.6,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.35\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 21.4,\n      \"average_rating\": 1.07,\n      \"details\": {\n        \"monthly_trend\": 0.5,\n        \"weekly_structure\": 0.8,\n        \"daily_buy_point\": 1.85,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.0\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"油品贸易与仓储处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量和销量、成本变化和现金流兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -5.1%，近60日涨跌 -21.9%。\",\n      \"missing_proof\": \"产量和销量 / 成本变化 / 现金流兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"产量或销量没有增长，成本却持续上升。\",\n    \"油价变化没有转成利润和现金流改善。\",\n    \"资本开支增加，但储量、产量或项目回报没有兑现。\"\n  ]\n}\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "000159.SZ",
+    "symbol": "000159"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_04_11_static_cninfo_com_cn_f89b7afac1",
+      "raw_2026_04_11_static_cninfo_com_cn_54e1dde177",
+      "raw_2025_07_25_static_cninfo_com_cn_940b84badc",
+      "raw_2025_07_25_static_cninfo_com_cn_38e7712711",
+      "raw_2025_03_28_static_cninfo_com_cn_25765f0e94",
+      "raw_2025_03_28_static_cninfo_com_cn_6afb179f26",
+      "raw_2026_06_22_static_cninfo_com_cn_6ce965393f",
+      "raw_2026_06_16_static_cninfo_com_cn_4afb1dc379"
+    ],
+    "claimIds": [
+      "claim_2026_04_11_filing_7e518c8de7",
+      "claim_2026_04_11_filing_221d94b422",
+      "claim_2025_07_25_filing_41711b03d2",
+      "claim_2025_07_25_filing_e198f0f5d3",
+      "claim_2025_03_28_filing_29b0b6a767",
+      "claim_2025_03_28_filing_5f4a5a10f1",
+      "claim_2026_06_22_filing_5d69cc98cc",
+      "claim_2026_06_16_filing_5a4d370980",
+      "claim_2026_06_06_filing_c69001c191",
+      "claim_2026_06_06_filing_4f09fec603",
+      "claim_2026_04_29_filing_04fecfe8c1",
+      "claim_2025_04_25_filing_55e9f67f94",
+      "claim_2026_08_08_filing_cf7f9fe73b",
+      "claim_2026_06_06_filing_0eacd5b7f3",
+      "claim_2026_05_19_filing_d7efd78260",
+      "claim_2026_05_19_filing_d2ed8bd8d3",
+      "claim_2026_05_13_filing_ccc89bc4ea",
+      "claim_2026_05_12_filing_bd4ce5d4d2",
+      "claim_2026_05_12_filing_c25dda3588",
+      "claim_2026_05_12_filing_ba03bfb6e3"
+    ],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/data/000159/manifest.json",
+    "dataAuditPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/data_audit.md",
+    "scorecardInputPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/scorecard_filled.json",
+    "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/scorecard_result.json",
+    "scoreMarkdownPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/scorecard.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_formal_scorecard",
+    "label": "Serenity 正式评分卡",
+    "title": "国际实业 Serenity 正式评分卡",
+    "summary": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "currentFocus": "Serenity 已生成正式评分卡：评级上限 S，当前状态：WAIT_FOR_BUY_POINT。",
+    "toVerify": [
+      "人工复核正式研究备忘录",
+      "跟踪订单、客户和交付证据",
+      "复查财报兑现字段"
+    ],
+    "viewLabel": "Serenity 看法",
+    "view": "线索跟踪：适合继续观察，不适合作为核心候选",
+    "followup": "下一步需要人工复核正式备忘录，并持续验证订单、客户、交付和财务兑现。",
+    "materialLine": "候选优先级 55.79/100",
+    "inputState": "LEAD_TRACKING · 证据等级 A"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "数据准备",
+        "text": "Serenity data readiness: 100/100。",
+        "refs": {
+          "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/data/000159/manifest.json"
+        }
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "Scorecard verdict",
+        "text": "线索跟踪：适合继续观察，不适合作为核心候选",
+        "refs": {
+          "scoreResultPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_53_36_international_industry/scorecard_result.json"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "人工复核正式研究备忘录",
+        "status": "open"
+      },
+      {
+        "question": "跟踪订单、客户和交付证据",
+        "status": "open"
+      },
+      {
+        "question": "复查财报兑现字段",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "scorecardMarkdownExcerpt": "# Serenity + Chan Decision Scorecard: 000159.SZ (国际实业)\n\n- Market: CN_A\n- As of: 2026-08-27\n- Score purpose: **candidate_priority_and_action_readiness**\n- Candidate priority score: **55.79 / 100**\n- Research rating: **C**\n- Evidence confidence rating: **A**\n- Rating cap: **S**\n- Action readiness: **WAIT_FOR_BUY_POINT**\n- Watchlist bucket: **LEAD_TRACKING**\n- Verdict: 线索跟踪：适合继续观察，不适合作为核心候选\n\n## Decision Scores\n| Dimension | Score |\n|---|---:|\n| Thesis quality | 59.37 |\n| Evidence confidence | 79.28 |\n| Market payoff | 62.56 |\n| Technical timing | 21.4 |\n| Data readiness | 100.0 |\n| Action readiness | 56.63 |\n\n## Falsification Points\n- 产量或销量没有增长，成本却持续上升。\n- 油价变化没有转成利润和现金流改善。\n- 资本开支增加，但储量、产量或项目回报没有兑现。\n\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "Formal scorecard does not create a forecast ledger until the user activates specific claims."
+  },
+  "guardrails": [
+    "Serenity 正式评分卡属于分析层输出，不进入事实层晋级。",
+    "不输出买卖建议。",
+    "行动状态来自评分卡，不代表用户应执行交易。"
+  ]
+}

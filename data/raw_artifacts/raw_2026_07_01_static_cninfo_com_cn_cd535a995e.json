@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_cd535a995e",
+  "artifactType": "filing",
+  "title": "中微公司章程（2026年6月修订）",
+  "publisher": "中微公司",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225401862.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cd535a995e",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_cd535a995e",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e94ec17dbd7b6e791c753103e013ac43560288c0f7bba3a191a788aa48044f70",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_cd535a995e.json",
+  "entityIds": [
+    "amec"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_bafc67f95e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e238a564abfab701; listSourceId=src_cninfo_688012_announcements."
+}

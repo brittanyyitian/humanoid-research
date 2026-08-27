@@ -1,0 +1,71 @@
+{
+  "ticker": "688019.SH",
+  "company": "Example Co",
+  "market": "CN_A",
+  "as_of_date": "YYYY-MM-DD",
+  "layer": {
+    "value_chain_bottleneck": 0,
+    "scarcity_and_entry_barrier": 0,
+    "demand_inflection_capture": 0,
+    "industry_positioning": 0
+  },
+  "company_thesis": {
+    "bottleneck_ownership": 0,
+    "revenue_translation": 0,
+    "financial_quality": 0,
+    "management_execution": 0,
+    "durability": 0
+  },
+  "evidence_confidence": {
+    "primary_source_coverage": 0,
+    "financial_statement_verification": 0,
+    "claim_traceability": 0,
+    "cross_source_consistency": 0,
+    "freshness": 0
+  },
+  "market_payoff": {
+    "valuation_discount": 0,
+    "implied_growth_vs_evidence": 0,
+    "upside_downside": 0,
+    "liquidity_capacity": 0,
+    "crowding_control": 0
+  },
+  "technical_timing": {
+    "monthly_trend": 0,
+    "weekly_structure": 0,
+    "daily_buy_point": 0,
+    "gf_dma_alignment": 0,
+    "drawdown_position": 0
+  },
+  "risk_controls": {
+    "falsification_clarity": 0,
+    "governance_accounting_risk_control": 0,
+    "balance_sheet_dilution_control": 0,
+    "cycle_policy_risk_control": 0,
+    "liquidity_event_risk_control": 0
+  },
+  "data_acquisition": {
+    "status_by_dataset": {
+      "current_quote": "NOT_REQUESTED",
+      "price_history_adjusted": "NOT_REQUESTED",
+      "valuation_inputs": "NOT_REQUESTED",
+      "financials": "NOT_REQUESTED",
+      "filings_announcements": "NOT_REQUESTED"
+    },
+    "data_gaps": [],
+    "research_debt": [],
+    "manual_retrieval_tasks": []
+  },
+  "blockers": [],
+  "evidence_notes": [
+    {
+      "claim": "",
+      "source": "",
+      "source_level": "",
+      "supports": "",
+      "missing_proof": "",
+      "confidence": ""
+    }
+  ],
+  "falsification_points": ["", "", ""]
+}

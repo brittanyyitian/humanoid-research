@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_orbbec_com_cn_d1eadfea62",
+  "artifactType": "news_page",
+  "title": "WRC 2026 奥比中光黄源浩：行业急需一套可衡量、可复用的数据采集标准",
+  "publisher": "奥比中光科技集团股份有限公司",
+  "url": "https://www.orbbec.com.cn/index/News/info.html?cate=31&id=383",
+  "sourceId": "src_orbbec_com_cn_d1eadfea62",
+  "fetchRunId": "fetch_2026_08_22_orbbec_com_cn_d1eadfea62",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-23T16:15:58+08:00",
+  "capturedAt": "2026-08-23T16:15:58+08:00",
+  "contentHash": "sha256:48256c9257f6cb2363b29c04979cff167bbd98f9f0dc8a47932a64bfb5b32b8e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_orbbec_com_cn_d1eadfea62.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_other_ef2082d797"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_a8955ec19a5782b9; listSourceId=src_orbbec_official_news."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fetch_2026_07_22_static_cninfo_com_cn_2e14af93f1",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "中芯国际",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-22T16:15:52+08:00",
+  "finishedAt": "2026-07-23T09:32:08+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_07_22_static_cninfo_com_cn_2e14af93f1"
+  ],
+  "claimIds": [
+    "claim_2026_07_22_filing_69256166d8"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    },
+    {
+      "kind": "body_extraction_empty",
+      "description": "Material body fetch ran but extracted too little text.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-07-22/1225435765.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-22T16:15:52+08:00",
+      "finishedAt": "2026-07-22T16:15:52+08:00",
+      "contentHash": "sha256:68b0b64f41b64500e9ae8383db073e89d20476d9ea3080cddaff9d388d60aea3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_2e14af93f1.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "partial",
+      "startedAt": "2026-07-23T09:32:08+08:00",
+      "finishedAt": "2026-07-23T09:32:08+08:00",
+      "contentHash": "sha256:68b0b64f41b64500e9ae8383db073e89d20476d9ea3080cddaff9d388d60aea3",
+      "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_2e14af93f1.json"
+    }
+  ]
+}

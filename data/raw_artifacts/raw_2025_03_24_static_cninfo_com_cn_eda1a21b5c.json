@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_24_static_cninfo_com_cn_eda1a21b5c",
+  "artifactType": "filing",
+  "title": "中国石化2024年年度报告",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-24/1222873281.PDF",
+  "sourceId": "src_static_cninfo_com_cn_eda1a21b5c",
+  "fetchRunId": "fetch_2025_03_24_static_cninfo_com_cn_eda1a21b5c",
+  "publishedAt": "2025-03-24",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:71fbbfd36cd9a4801c1d90273d1afef0631d449cd6dbf87f9b9645961a3f0075",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_24_static_cninfo_com_cn_eda1a21b5c.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2025_03_24_filing_0f7c413552"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_af6494eb0991684d; listSourceId=src_cninfo_600028_announcements."
+}

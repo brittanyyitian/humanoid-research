@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_1e768a0229",
+  "artifactType": "filing",
+  "title": "沪硅产业关于召开2025年度暨2026年第一季度业绩说明会的公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225260281.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1e768a0229",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_1e768a0229",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:d89a26cead1a5f743e870d93f8fea7a84eb5d8ba61f25c496357402ecc6472c2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_1e768a0229.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_c8e122d108"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_32eb8115d8782496; listSourceId=src_cninfo_688126_announcements."
+}

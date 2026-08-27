@@ -1,0 +1,35 @@
+{
+  "id": "fetch_2026_05_09_static_cninfo_com_cn_4bf0d290de",
+  "fetcher": "ingestion_entry_v1",
+  "sourceName": "通富微电",
+  "sourceType": "ingestion",
+  "startedAt": "2026-07-23T09:50:52+08:00",
+  "finishedAt": "2026-07-23T09:50:52+08:00",
+  "status": "partial",
+  "artifactIds": [
+    "raw_2026_05_09_static_cninfo_com_cn_4bf0d290de"
+  ],
+  "claimIds": [
+    "claim_2026_05_09_filing_4e3bf4d5ee"
+  ],
+  "error": null,
+  "gaps": [
+    {
+      "kind": "raw_payload_not_fetched",
+      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+      "severity": "medium"
+    }
+  ],
+  "attemptLedger": [
+    {
+      "kind": "source_capture",
+      "inputType": "url",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-05-09/1225284641.PDF",
+      "status": "metadata_only",
+      "startedAt": "2026-07-23T09:50:52+08:00",
+      "finishedAt": "2026-07-23T09:50:52+08:00",
+      "contentHash": "sha256:b2cf070c74d632ae0f9835af3de0d8f4884295f6475cb12c23243055583d2abc",
+      "storagePath": "raw_artifacts/payloads/raw_2026_05_09_static_cninfo_com_cn_4bf0d290de.json"
+    }
+  ]
+}

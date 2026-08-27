@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_dd9f0dd466",
+  "artifactType": "filing",
+  "title": "长江电力2026年第一次临时股东会通知",
+  "publisher": "长江电力",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225354342.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dd9f0dd466",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_dd9f0dd466",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:b8c886ec2a80874ff7b6ffbb12243e92b46aed1ca66fea815fdb277506dceb5d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_dd9f0dd466.json",
+  "entityIds": [
+    "cypc"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_7fcf2c3df4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ceac73bd411cdc56; listSourceId=src_cninfo_600900_announcements."
+}

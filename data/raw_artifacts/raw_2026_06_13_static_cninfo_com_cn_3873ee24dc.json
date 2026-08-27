@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_3873ee24dc",
+  "artifactType": "filing",
+  "title": "港股公告：董事名单及其角色与职能",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225367140.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3873ee24dc",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_3873ee24dc",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:41e8ea0ba2723d452039920ac463338cef07431e859b07eff1430494b020d67a",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_3873ee24dc.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_bdd238e75a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_78ce3f91109fc631; listSourceId=src_cninfo_688235_announcements."
+}

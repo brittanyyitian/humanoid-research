@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_9d71311b0c",
+  "artifactType": "filing",
+  "title": "非经营性资金占用及其他关联资金往来情况汇总表",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225488880.PDF",
+  "sourceId": "src_static_cninfo_com_cn_9d71311b0c",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_9d71311b0c",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:60eea268684668cc06e2a742ce776c4b3d80bef94af13e4ce6d5727639f684af",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_9d71311b0c.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_01b4763856"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_972fb451765bd003; listSourceId=src_cninfo_300164_announcements."
+}

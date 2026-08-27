@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_24_static_cninfo_com_cn_af00472321",
+  "artifactType": "filing",
+  "title": "关于控股股东、实际控制人及其一致行动人因公司向特定对象发行股票导致合计持股比例被动稀释触及5%整数倍的公告",
+  "publisher": "安培龙",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-24/1225498129.PDF",
+  "sourceId": "src_static_cninfo_com_cn_af00472321",
+  "fetchRunId": "fetch_2026_08_24_static_cninfo_com_cn_af00472321",
+  "publishedAt": "2026-08-24",
+  "firstSeenAt": "2026-08-24T21:15:36+08:00",
+  "capturedAt": "2026-08-24T21:15:36+08:00",
+  "contentHash": "sha256:3ec19e9c49c6c60122687348015fdb4541456fccc78a7d7a5be0ddfc372d236d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_24_static_cninfo_com_cn_af00472321.json",
+  "entityIds": [
+    "anpeilong"
+  ],
+  "claimIds": [
+    "claim_2026_08_24_filing_d26cf01990"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2297d3e67f90c85d; listSourceId=src_cninfo_301413_announcements."
+}

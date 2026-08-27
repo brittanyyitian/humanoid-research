@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_25_static_cninfo_com_cn_a61eaa9b55",
+  "artifactType": "filing",
+  "title": "2025年一季度报告",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-25/1223266587.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a61eaa9b55",
+  "fetchRunId": "fetch_2025_04_25_static_cninfo_com_cn_a61eaa9b55",
+  "publishedAt": "2025-04-25",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:5b2a96843e2dedd1c9459c96ddab4657c6fc102f28a0ea2e01375e11e3ab972e",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_25_static_cninfo_com_cn_a61eaa9b55.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2025_04_25_filing_55e9f67f94"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e5a3d04664e1af5f; listSourceId=src_cninfo_000159_announcements."
+}

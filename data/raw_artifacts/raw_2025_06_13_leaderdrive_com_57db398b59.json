@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_06_13_leaderdrive_com_57db398b59",
+  "artifactType": "news_page",
+  "title": "Leaderdrive to Showcase Revolutionary Motion Control Solutions at AUTOMATICA 2025 in Munich",
+  "publisher": "Leaderdrive",
+  "url": "http://www.leaderdrive.com/news/27.html",
+  "sourceId": "src_leaderdrive_com_57db398b59",
+  "fetchRunId": "fetch_2025_06_13_leaderdrive_com_57db398b59",
+  "publishedAt": "2025-06-13",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:ff185ef9ce2731a974d63ebb6c1438650f780d6a37c0b6069b479a208037a9b8",
+  "storagePath": "raw_artifacts/payloads/raw_2025_06_13_leaderdrive_com_57db398b59.json",
+  "entityIds": [
+    "leaderdrive"
+  ],
+  "claimIds": [
+    "claim_2025_06_13_other_75df2d1f40"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_b4b62e83282421cf; listSourceId=src_leaderdrive_official_news."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_15_static_cninfo_com_cn_3571b44212",
+  "artifactType": "filing",
+  "title": "2026年半年度业绩预告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-15/1225424842.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3571b44212",
+  "fetchRunId": "fetch_2026_07_15_static_cninfo_com_cn_3571b44212",
+  "publishedAt": "2026-07-15",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:afa8fffc89187e5ec2a92d71d9265b6af7b39b56efff6637619a9ff38a4ec0e8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_15_static_cninfo_com_cn_3571b44212.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_15_filing_e8d221a183"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_77c33cc0781ea913; listSourceId=src_cninfo_002747_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_8f70842649",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司关于实际控制人增持公司股份计划延期的公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036021.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8f70842649",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_8f70842649",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:fd9500f7a80b69c962c4fb8e0710151e5986c8d106dc1eb69d3ef256c6c9ef62",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_8f70842649.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_e7663fb4b1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_97dedc7788cb05e0; listSourceId=src_cninfo_600938_announcements."
+}

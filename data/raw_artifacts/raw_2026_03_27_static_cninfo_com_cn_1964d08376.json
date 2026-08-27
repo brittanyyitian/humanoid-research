@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_1964d08376",
+  "artifactType": "filing",
+  "title": "关于计提商誉减值准备的公告",
+  "publisher": "航天彩虹",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225036400.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1964d08376",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_1964d08376",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a16c2787b3c784b6f9d1243f911cb4b0cdde8b0432a6fc6560da3362da07b3d2",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_1964d08376.json",
+  "entityIds": [
+    "rainbow_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_418831ba1a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8250dff725377940; listSourceId=src_cninfo_002389_announcements."
+}

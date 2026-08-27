@@ -1,0 +1,1984 @@
+{
+  "contractType": "serenity_judgment_history_v0",
+  "entityId": "leaderdrive",
+  "name": "绿的谐波",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "snapshots": [
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-15",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-15",
+      "capturedAt": "2026-07-15T21:11:12+08:00",
+      "analysisGeneratedAt": "2026-07-15T19:41:32+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 386.08,
+      "currency": "CNY",
+      "changePct": -0.2,
+      "technicalTimingScore": 54.2,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-13",
+          "checkedAt": "2026-08-13",
+          "status": "verified",
+          "stockReturnPct": -10.381268130957311,
+          "poolReturnPct": -2.457264957264943,
+          "excessReturnPct": -7.924003173692368,
+          "maxDrawdownPct": -32.39743058433485,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-16",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-16",
+      "capturedAt": "2026-07-16T16:32:47+08:00",
+      "analysisGeneratedAt": "2026-07-16T16:18:41+08:00",
+      "analysisType": "deep_review",
+      "action": "值得重点观察",
+      "actionReadiness": "STRONG_OBSERVE",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 378.61,
+      "currency": "CNY",
+      "changePct": -1.93,
+      "technicalTimingScore": 51.6,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-14",
+          "checkedAt": "2026-08-14",
+          "status": "verified",
+          "stockReturnPct": -7.57507725627955,
+          "poolReturnPct": -0.045787545787552945,
+          "excessReturnPct": -7.529289710491997,
+          "maxDrawdownPct": -31.063627479464355,
+          "result": "市场不支持"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-17",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-17",
+      "capturedAt": "2026-07-17T16:32:22+08:00",
+      "analysisGeneratedAt": "2026-07-17T16:19:03+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 326.1,
+      "currency": "CNY",
+      "changePct": -13.87,
+      "technicalTimingScore": 40.2,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-15",
+          "checkedAt": "2026-08-15",
+          "status": "verified",
+          "stockReturnPct": 7.3075743636921136,
+          "poolReturnPct": 3.7757437070938225,
+          "excessReturnPct": 3.531830656598291,
+          "maxDrawdownPct": -20.10041021245332,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-19",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": null,
+      "date": "2026-07-19",
+      "capturedAt": "2026-07-19T21:50:41+08:00",
+      "analysisGeneratedAt": "2026-07-19T14:20:43+08:00",
+      "analysisType": "deep_review",
+      "action": "关键数据不足",
+      "actionReadiness": "DATA_GATED",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 326.1,
+      "currency": "CNY",
+      "changePct": -13.869152954227301,
+      "technicalTimingScore": 40.2,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-17",
+          "checkedAt": "2026-08-17",
+          "status": "verified",
+          "stockReturnPct": 11.061024225697636,
+          "poolReturnPct": null,
+          "excessReturnPct": null,
+          "maxDrawdownPct": -20.10041021245332,
+          "result": "仅记录"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-20",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-20",
+      "capturedAt": "2026-07-20T16:33:24+08:00",
+      "analysisGeneratedAt": "2026-07-20T16:20:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 300.88,
+      "currency": "CNY",
+      "changePct": -7.73,
+      "technicalTimingScore": 39.2,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-18",
+          "checkedAt": "2026-08-18",
+          "status": "verified",
+          "stockReturnPct": 26.562084551980863,
+          "poolReturnPct": 10.81081081081081,
+          "excessReturnPct": 15.751273741170053,
+          "maxDrawdownPct": -20.10041021245332,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-21",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-21",
+      "capturedAt": "2026-07-21T16:32:50+08:00",
+      "analysisGeneratedAt": "2026-07-21T16:18:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 326.66,
+      "currency": "CNY",
+      "changePct": 8.57,
+      "technicalTimingScore": 37.8,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-19",
+          "checkedAt": "2026-08-19",
+          "status": "verified",
+          "stockReturnPct": -4.01946978509767,
+          "poolReturnPct": -1.9399999999999977,
+          "excessReturnPct": -2.0794697850976727,
+          "maxDrawdownPct": -20.10041021245332,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-22",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:18:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄",
+      "price": 316.7,
+      "currency": "CNY",
+      "changePct": -3.05,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": -2.11556678244395,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": -0.40504046665447757,
+          "maxDrawdownPct": -18.59243697478992,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-23",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 308.29,
+      "currency": "CNY",
+      "changePct": -2.66,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 1.9656816633689063,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 3.2563511981900866,
+          "maxDrawdownPct": -18.59243697478992,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-24",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 295.3,
+      "currency": "CNY",
+      "changePct": -4.21,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 6.451066711818493,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 3.391089517255537,
+          "maxDrawdownPct": -18.59243697478992,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-25",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 295.3,
+      "currency": "CNY",
+      "changePct": -4.21,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 6.451066711818493,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 3.601439355395862,
+          "maxDrawdownPct": -18.59243697478992,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-26",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 295.3,
+      "currency": "CNY",
+      "changePct": -4.21,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": -0.05079580088047209,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 0.6544673570142666,
+          "maxDrawdownPct": -22.492121848739504,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-27",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 311.5,
+      "currency": "CNY",
+      "changePct": 5.49,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": -3.1268057784911747,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": -1.3114330477070926,
+          "maxDrawdownPct": -22.492121848739504,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-28",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 293.03,
+      "currency": "CNY",
+      "changePct": -5.93,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": -0.05460191789235511,
+          "poolReturnPct": 0,
+          "excessReturnPct": -0.05460191789235511,
+          "maxDrawdownPct": -23.090861344537817,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-29",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 283.66,
+      "currency": "CNY",
+      "changePct": -3.2,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 5.513643093844738,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 3.2926547540335305,
+          "maxDrawdownPct": -23.090861344537817,
+          "result": "等待合理"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-30",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 261,
+      "currency": "CNY",
+      "changePct": -7.99,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-07-31",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 303.65,
+      "currency": "CNY",
+      "changePct": 16.34,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-01",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 303.65,
+      "currency": "CNY",
+      "changePct": 16.34,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-02",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 303.65,
+      "currency": "CNY",
+      "changePct": 16.34,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-03",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 311.95,
+      "currency": "CNY",
+      "changePct": 2.73,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-04",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 326,
+      "currency": "CNY",
+      "changePct": 4.5,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-05",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 340.54,
+      "currency": "CNY",
+      "changePct": 4.46,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-06",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 336.04,
+      "currency": "CNY",
+      "changePct": -1.32,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-07",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 347.76,
+      "currency": "CNY",
+      "changePct": 3.49,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-08",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 347.76,
+      "currency": "CNY",
+      "changePct": 3.49,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-09",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 347.76,
+      "currency": "CNY",
+      "changePct": 3.49,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-10",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 333.89,
+      "currency": "CNY",
+      "changePct": -3.99,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-11",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 365,
+      "currency": "CNY",
+      "changePct": 9.32,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-12",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 354.99,
+      "currency": "CNY",
+      "changePct": -2.74,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-13",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 346,
+      "currency": "CNY",
+      "changePct": -2.53,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-14",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 349.93,
+      "currency": "CNY",
+      "changePct": 1.14,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-15",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 349.93,
+      "currency": "CNY",
+      "changePct": 1.14,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-16",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 349.93,
+      "currency": "CNY",
+      "changePct": 1.14,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-17",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 362.17,
+      "currency": "CNY",
+      "changePct": 3.5,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-18",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 380.8,
+      "currency": "CNY",
+      "changePct": 5.14,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-19",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 313.53,
+      "currency": "CNY",
+      "changePct": -17.67,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-20",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 310,
+      "currency": "CNY",
+      "changePct": -1.13,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-21",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 314.35,
+      "currency": "CNY",
+      "changePct": 1.4,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-22",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 314.35,
+      "currency": "CNY",
+      "changePct": 1.4,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-23",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 314.35,
+      "currency": "CNY",
+      "changePct": 1.4,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-24",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 295.15,
+      "currency": "CNY",
+      "changePct": -6.11,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-25",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 301.76,
+      "currency": "CNY",
+      "changePct": 2.24,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-26",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 292.87,
+      "currency": "CNY",
+      "changePct": -2.95,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_leaderdrive_2026-08-27",
+      "entityId": "leaderdrive",
+      "name": "绿的谐波",
+      "symbol": "688017.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "MEDIUM",
+      "reason": "公司可看，价格不合适",
+      "price": 299.3,
+      "currency": "CNY",
+      "changePct": 2.2,
+      "technicalTimingScore": 35,
+      "marketPayoffScore": 63.48,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "订单是否兑现"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

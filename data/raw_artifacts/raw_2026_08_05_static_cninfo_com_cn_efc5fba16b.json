@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_05_static_cninfo_com_cn_efc5fba16b",
+  "artifactType": "filing",
+  "title": "关于召开2026年半年度业绩说明会的公告",
+  "publisher": "寒武纪",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-05/1225457845.PDF",
+  "sourceId": "src_static_cninfo_com_cn_efc5fba16b",
+  "fetchRunId": "fetch_2026_08_05_static_cninfo_com_cn_efc5fba16b",
+  "publishedAt": "2026-08-05",
+  "firstSeenAt": "2026-08-05T16:16:18+08:00",
+  "capturedAt": "2026-08-05T16:16:18+08:00",
+  "contentHash": "sha256:f101d9cd09b34d2e8fa3b5399377a9ef31f24ca1e125576d1638d5a636705089",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_05_static_cninfo_com_cn_efc5fba16b.json",
+  "entityIds": [
+    "cambricon"
+  ],
+  "claimIds": [
+    "claim_2026_08_05_filing_67aa625427"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_07a9b62dc8193691; listSourceId=src_cninfo_688256_announcements."
+}

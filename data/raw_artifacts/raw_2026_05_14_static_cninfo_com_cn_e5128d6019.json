@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_14_static_cninfo_com_cn_e5128d6019",
+  "artifactType": "filing",
+  "title": "关于公司提起诉讼的公告",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-14/1225304153.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e5128d6019",
+  "fetchRunId": "fetch_2026_05_14_static_cninfo_com_cn_e5128d6019",
+  "publishedAt": "2026-05-14",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:f94e8b21ba1a70d4e81fbc146a6dec9ab8406d08557d2cc8512e0114555d9b3d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_14_static_cninfo_com_cn_e5128d6019.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_05_14_filing_b293175479"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5d04f867fde4a2ba; listSourceId=src_cninfo_000566_announcements."
+}

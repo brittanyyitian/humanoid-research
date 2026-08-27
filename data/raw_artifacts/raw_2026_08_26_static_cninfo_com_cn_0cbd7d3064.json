@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_0cbd7d3064",
+  "artifactType": "filing",
+  "title": "关于召开2026年第二次临时股东会的通知",
+  "publisher": "鸣志电器",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225506166.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0cbd7d3064",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_0cbd7d3064",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:5bfe8c3163df65a66c0604b26520641b2886135dff151d6bcb3e6a70a789de05",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_0cbd7d3064.json",
+  "entityIds": [
+    "moons"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_a57be8ace9"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_36eb40e216193af0; listSourceId=src_cninfo_603728_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_11_static_cninfo_com_cn_3c5fa8a28a",
+  "artifactType": "filing",
+  "title": "五洲新春关于公司实际控制人之一股票质押延期购回的公告",
+  "publisher": "五洲新春",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-11/1225465618.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3c5fa8a28a",
+  "fetchRunId": "fetch_2026_08_11_static_cninfo_com_cn_3c5fa8a28a",
+  "publishedAt": "2026-08-11",
+  "firstSeenAt": "2026-08-11T16:16:22+08:00",
+  "capturedAt": "2026-08-11T16:16:22+08:00",
+  "contentHash": "sha256:d02bae80025f5888c3e60790cec3bf1e544df0fd66cb1b6a16d89143f2b0b82e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_11_static_cninfo_com_cn_3c5fa8a28a.json",
+  "entityIds": [
+    "wuzhou_xinchun"
+  ],
+  "claimIds": [
+    "claim_2026_08_11_filing_7b37be9d75"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_d997a89cf4e67d35; listSourceId=src_cninfo_603667_announcements."
+}

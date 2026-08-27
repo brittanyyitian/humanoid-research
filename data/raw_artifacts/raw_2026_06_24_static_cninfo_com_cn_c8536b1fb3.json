@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_c8536b1fb3",
+  "artifactType": "filing",
+  "title": "公司章程（2026年06月)",
+  "publisher": "海南海药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225384149.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c8536b1fb3",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_c8536b1fb3",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1f3913c415ed639fb516d62be97531abe4570c67179a30bcaaf9f1730afe64ad",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_c8536b1fb3.json",
+  "entityIds": [
+    "hainan_haiyao"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_efc4c5ea44"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4330cc7da9b66a87; listSourceId=src_cninfo_000566_announcements."
+}

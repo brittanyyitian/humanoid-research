@@ -1,0 +1,28 @@
+{
+  "id": "raw_2026_04_23_static_cninfo_com_cn_bba805594e",
+  "capturedAt": "2026-07-23T09:53:48+08:00",
+  "retrievalStatus": "captured_payload",
+  "content": {
+    "inputType": "url",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225148935.PDF",
+    "title": "港股公告：2026年第一季度财务业绩公布日期及审计委员会行动通告",
+    "publisher": "百济神州",
+    "publishedAt": "2026-04-23",
+    "sourceType": "exchange",
+    "artifactType": "filing",
+    "entityIds": [
+      "beone"
+    ],
+    "body": "׌\nΪԱ፠\nዄ΂Оப΂f\nBeOne Medicines Ltd.\nʮ̡\nʮ̡\n΅˾໮j06160\n2026ึБਗஷѓ\nʮ̡  ͉ʮ̡׵2026 ϋ5˜6ಂɧ у\nึ\n࿚Ї 2026 ϋ3˜31ৌਕุᐶf͉ʮ̡໨\n׵2026 ϋ5˜6ࡘ2026ৌ\nਕุᐶf\nග 2026 ϋ5 ˜6͍\nග 2026 ϋ5˜6͍ ᑘБཥ༑ึᙄf\nࠫڷ\nމhttps://ir.beonemedicines.com ίཫ\nЇˇ 15ᅧ\nf\n໨ԫึն\nʮ̡\nࢩ\nᆄཤ੶΋͛\nಥd2026 ϋ4˜22 ˚\nੂБ໨ԫˮ\nੂБ໨ԫ Olivier Brandicourt ௹ɻeMargaret Han Dugan\n௹ɻeMichael Goller ΋͛eAnthony C. Hooper ΋͛eRanjeev Krishana ΋͛e\nAlessandro Riva ௹ɻeCorazon (Corsee) D. Sanders ௹ɻeShalini Sharp׸\n૶૶΋͛f",
+    "bodyFormat": "pdf_text"
+  },
+  "bodyFetch": {
+    "fetchedAt": "2026-07-23T09:53:48+08:00",
+    "contentType": "application/pdf",
+    "byteLength": 136793,
+    "method": "pypdf",
+    "pageCount": 1,
+    "pagesRead": 1,
+    "truncated": false
+  }
+}

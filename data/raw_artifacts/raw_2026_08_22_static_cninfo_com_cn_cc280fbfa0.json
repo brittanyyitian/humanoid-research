@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_22_static_cninfo_com_cn_cc280fbfa0",
+  "artifactType": "filing",
+  "title": "关于聘请H股股票发行并上市审计机构的公告",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-22/1225493714.PDF",
+  "sourceId": "src_static_cninfo_com_cn_cc280fbfa0",
+  "fetchRunId": "fetch_2026_08_22_static_cninfo_com_cn_cc280fbfa0",
+  "publishedAt": "2026-08-22",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:98295d113e9c1ee6810ade2a9a4e9f627325ee7ebb8656132149f0f73631e9bf",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_22_static_cninfo_com_cn_cc280fbfa0.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_08_22_filing_49ac3fcd08"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_290294ca6fbe7abb; listSourceId=src_cninfo_688322_announcements."
+}

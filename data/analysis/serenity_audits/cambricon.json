@@ -1,0 +1,161 @@
+{
+  "id": "saout_cambricon_aa81c08a6075",
+  "entityId": "cambricon",
+  "name": "寒武纪",
+  "generatedAt": "2026-08-21T16:18:06+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_data_audit",
+  "provider": {
+    "name": "serenity_chan_cli_v0",
+    "type": "vendored_cli",
+    "externalCall": true,
+    "serenityHome": "/Users/edy/humanoid-research/vendor/serenity-chan",
+    "python": "/Users/edy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "command": [
+      "scripts/serenity.py",
+      "ask",
+      "寒武纪 数据面怎么样",
+      "--symbols",
+      "688256",
+      "--out-dir",
+      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon"
+    ],
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon",
+    "note": "调用 vendored Serenity Chan CLI 获取公开数据审计结果。",
+    "exitCode": 0,
+    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon/research_brief.md\nnext (formal): python scripts/serenity.py ask \"寒武纪 数据面怎么样\" --formal --symbols 688256\n",
+    "stderrTail": ""
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "688256.SH",
+    "symbol": "688256"
+  },
+  "inputRefs": {
+    "materialRawArtifactIds": [
+      "raw_2026_08_08_static_cninfo_com_cn_12f412d69a",
+      "raw_2026_08_08_static_cninfo_com_cn_d0295e22c7",
+      "raw_2026_08_08_static_cninfo_com_cn_e431bb6df7",
+      "raw_2026_08_05_static_cninfo_com_cn_efc5fba16b",
+      "raw_2026_07_25_static_cninfo_com_cn_4d1ac797c6",
+      "raw_2026_05_23_static_cninfo_com_cn_a7146d9875",
+      "raw_2026_05_23_static_cninfo_com_cn_b7332c8d6c",
+      "raw_2026_03_13_static_cninfo_com_cn_c2f33c7782"
+    ],
+    "claimIds": [
+      "claim_2026_08_08_filing_137d6cee51",
+      "claim_2026_08_08_filing_e09b48800d",
+      "claim_2026_08_08_filing_92405cef75",
+      "claim_2026_08_05_filing_67aa625427",
+      "claim_2026_07_25_filing_e00d0e674f",
+      "claim_2026_05_23_filing_ba7b79360d",
+      "claim_2026_05_23_filing_6825e8f413",
+      "claim_2026_03_13_filing_ca181de869",
+      "claim_2026_03_13_filing_0a194f1901",
+      "claim_2025_08_27_filing_e4d9bebf5c",
+      "claim_2025_08_27_filing_d0179e8cb0",
+      "claim_2025_04_19_filing_b8a52cc094",
+      "claim_2025_04_19_filing_901deeaedc",
+      "claim_2026_07_01_filing_09ae5b8287",
+      "claim_2026_06_12_filing_b3c35507db",
+      "claim_2026_04_15_filing_1bfd634c57",
+      "claim_2026_03_13_filing_9f738c4de2",
+      "claim_2025_04_19_filing_fbb394cd5b",
+      "claim_2026_08_18_filing_dfbcfee8c2",
+      "claim_2026_08_18_filing_31196ca993"
+    ],
+    "evidenceIds": [],
+    "sourceIds": [],
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon/data/688256/manifest.json",
+    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon/research_brief.md",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_data_audit",
+    "label": "Serenity 数据审计",
+    "title": "寒武纪 Serenity 数据审计",
+    "summary": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
+    "currentFocus": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
+    "toVerify": [
+      "可进入正式研究"
+    ],
+    "viewLabel": "Serenity 数据审计",
+    "view": "数据审计通过，可进入正式研究；这仍不是投资结论。",
+    "followup": "需要正式分析时，进入 Serenity formal dossier 工作流。",
+    "materialLine": "manifest: manifest.json",
+    "inputState": "6/6 数据集 OK"
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "current_quote",
+        "text": "current_quote: OK",
+        "refs": {}
+      },
+      {
+        "label": "price_history_adjusted",
+        "text": "price_history_adjusted: OK",
+        "refs": {}
+      },
+      {
+        "label": "financials",
+        "text": "financials: OK",
+        "refs": {}
+      },
+      {
+        "label": "filings_announcements",
+        "text": "filings_announcements: OK",
+        "refs": {}
+      },
+      {
+        "label": "customer_order_capacity_evidence",
+        "text": "customer_order_capacity_evidence: OK",
+        "refs": {}
+      },
+      {
+        "label": "valuation_inputs",
+        "text": "valuation_inputs: OK",
+        "refs": {}
+      }
+    ],
+    "candidateSignals": [],
+    "analysisNotes": [
+      {
+        "label": "数据审计边界",
+        "text": "Serenity quick route 只输出取数与校验事实；正式 AI 深研需要 formal dossier 工作流。",
+        "refs": {
+          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon"
+        }
+      }
+    ],
+    "evidenceGaps": [],
+    "nextVerificationQuestions": [
+      {
+        "question": "可进入正式研究",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "researchBriefExcerpt": "# 688256.SH 数据审计报告\n\n## 1. Market Resolution\n- Input：688256\n- Normalized：688256.SH\n- Market：CN_A\n- Exchange：SH\n- Currency：CNY\n- Retrieved at：2026-08-21T08:18:42.745726+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-21 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-21 | - |\n| financials | OK | CNINFO_FinancialReports_L0 | L0_OFFICIAL_DISCLOSURE | 2026-03-31 | CNINFO official financial report PDFs were parsed into core financial lines where machine-readable page text was available.; Use consolidated statements; do not mix parent-company statements with consolidated revenue, cash flow, assets, liabilities, or equity.; OCF/net income is low in period 2025-12-31; explain working-capital quality. |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-17 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-07 | 客户/订单/产能证据 lane 未在已扫描披露中找到直接 L0 客户、订单、招投标或产能证据。 |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-21 | - |\n\n## 3. Data Gaps And Research Debt\n- 无数据缺口（gap_count=0）。\n\n## 4. Manual Retrieval Tasks\n- 无待补任务。\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：650863898280.0\n- 市值口径偏差：1.5628456943386023e-07\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：S\n- 完整研究评级上限：S\n- full_research_ready：True\n- 取数尝试：30 次；缺口 0；研究债务 0；补数任务 0\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_21_16_18_06_cambricon/data/688256/manifest.json\n"
+  },
+  "calibration": {
+    "status": "not_started",
+    "note": "数据审计不生成预测账本。"
+  },
+  "guardrails": [
+    "Serenity 数据审计不是正式研究结论。",
+    "不输出买卖建议。",
+    "不把市场涨跌解释为事件影响。"
+  ]
+}

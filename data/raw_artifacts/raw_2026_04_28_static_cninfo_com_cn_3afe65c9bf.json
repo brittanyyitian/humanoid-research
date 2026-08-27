@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_3afe65c9bf",
+  "artifactType": "filing",
+  "title": "关于控股股东部分股份解除质押的公告",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225199555.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3afe65c9bf",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_3afe65c9bf",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:32bf5341033455b559a5c431933f555d4bc6b87425f957342952b56c0e03b965",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_3afe65c9bf.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_c75b6f8462"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f8c59bd3c8521229; listSourceId=src_cninfo_002156_announcements."
+}

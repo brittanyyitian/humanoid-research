@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_05_20_static_cninfo_com_cn_7db09b221d",
+  "artifactType": "filing",
+  "title": "沪硅产业关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-05-20/1225316468.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7db09b221d",
+  "fetchRunId": "fetch_2026_05_20_static_cninfo_com_cn_7db09b221d",
+  "publishedAt": "2026-05-20",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:607bc614dbfe04caea66a82b6830331510d15b771deabeb8813cc3c1c49b65ed",
+  "storagePath": "raw_artifacts/payloads/raw_2026_05_20_static_cninfo_com_cn_7db09b221d.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_05_20_filing_05f4eda34c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8f4c859bb730b450; listSourceId=src_cninfo_688126_announcements."
+}

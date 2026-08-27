@@ -1,0 +1,1294 @@
+{
+  "id": "saout_cypc_45d9d99ee142",
+  "entityId": "cypc",
+  "name": "长江电力",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "contractType": "serenity_analysis_output_v0",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "sourceInputPack": {
+    "contractType": "serenity_analysis_input_v0",
+    "analysisStatus": {
+      "key": "ready_for_serenity",
+      "label": "可进入分析",
+      "reason": "已有可读材料；Serenity 输出仍需单独生成并引用来源。"
+    },
+    "ticker": "600900.SH",
+    "symbol": "600900.SH"
+  },
+  "inputRefs": {
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_58_17_cypc",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_58_17_cypc/data/600900/manifest.json",
+    "dossierPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_58_17_cypc/ai_research/600900.SH/ai_research_dossier.json",
+    "overlayPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_58_17_cypc/ai_research/600900.SH/ai_research_overlay.json",
+    "dashboardRefs": [
+      "dashboard/serenity_analysis.json",
+      "dashboard/research_reading.json"
+    ]
+  },
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "长江电力 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+      "长江电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查长江电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘长江电力值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "大型水电",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600900.SH",
+      "name": "长江电力",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 28.1,
+        "previousClose": 28.241206030150757,
+        "changePct": -0.5000000000000049,
+        "high": 29.17,
+        "low": 28.66,
+        "open": 29.09,
+        "volume": 546728,
+        "turnover": 1576320687,
+        "turnoverText": "26.58亿",
+        "currency": "CNY",
+        "asOf": "20260827161455",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 56.47,
+        "technicalTimingScore": 71.4,
+        "marketPayoffScore": 59.16,
+        "dataReadinessScore": 100,
+        "type": "适合买入候选",
+        "currentAction": "继续确认下一份正式披露没有削弱财务和业务判断。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 96,
+        "evidenceScore": 96,
+        "valuationScore": 65,
+        "timingScore": 71.4,
+        "riskScore": 64,
+        "decisionReason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "BUY_CANDIDATE",
+          "label": "适合买入候选",
+          "researchRating": "A",
+          "overallScore": 79.7,
+          "fundamentalScore": 91.2,
+          "companyScore": 96,
+          "evidenceScore": 96,
+          "valuationScore": 65,
+          "timingScore": 71.4,
+          "riskScore": 64,
+          "reason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+          "nextCondition": "继续确认下一份正式披露没有削弱财务和业务判断。",
+          "metrics": {
+            "pe": 20.4878,
+            "ps": 8.1966,
+            "revenueGrowth": 0.0644,
+            "profitGrowth": 0.305,
+            "cashConversion": 1.7321,
+            "debtRatio": 0.5733,
+            "return20": 0.0177
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收862.42亿元，同比+2.07%；归母净利润345.03亿元，同比+6.17%。2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。",
+          "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。",
+          "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+          "2026-08-26复权收盘28.24元，高于20日平均成本28.07元；60日平均成本27.74元，近20个交易日涨跌+1.77%。"
+        ],
+        "possible": [
+          "长江电力当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "长江电力当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。",
+          "长江电力当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 59.16,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 56.47/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 71.4,
+        "dailyBuyPointScore": 2.85,
+        "dmaAlignmentScore": 4.6,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 26.63,
+            "volume": 942776,
+            "average20": 25.852,
+            "average60": 25.999
+          },
+          {
+            "date": "2026-03-16",
+            "close": 26.57,
+            "volume": 872038,
+            "average20": 25.904,
+            "average60": 25.994
+          },
+          {
+            "date": "2026-03-17",
+            "close": 26.7,
+            "volume": 850289,
+            "average20": 25.966,
+            "average60": 25.991
+          },
+          {
+            "date": "2026-03-18",
+            "close": 26.5,
+            "volume": 800290,
+            "average20": 26.012,
+            "average60": 25.982
+          },
+          {
+            "date": "2026-03-19",
+            "close": 26.47,
+            "volume": 1015258,
+            "average20": 26.062,
+            "average60": 25.973
+          },
+          {
+            "date": "2026-03-20",
+            "close": 26.39,
+            "volume": 845555,
+            "average20": 26.115,
+            "average60": 25.963
+          },
+          {
+            "date": "2026-03-23",
+            "close": 25.95,
+            "volume": 1757271,
+            "average20": 26.152,
+            "average60": 25.947
+          },
+          {
+            "date": "2026-03-24",
+            "close": 26.31,
+            "volume": 910767,
+            "average20": 26.204,
+            "average60": 25.934
+          },
+          {
+            "date": "2026-03-25",
+            "close": 26.42,
+            "volume": 860545,
+            "average20": 26.266,
+            "average60": 25.927
+          },
+          {
+            "date": "2026-03-26",
+            "close": 26.52,
+            "volume": 845014,
+            "average20": 26.33,
+            "average60": 25.926
+          },
+          {
+            "date": "2026-03-27",
+            "close": 26.46,
+            "volume": 685517,
+            "average20": 26.39,
+            "average60": 25.922
+          },
+          {
+            "date": "2026-03-30",
+            "close": 26.35,
+            "volume": 692781,
+            "average20": 26.419,
+            "average60": 25.917
+          },
+          {
+            "date": "2026-03-31",
+            "close": 26.25,
+            "volume": 802589,
+            "average20": 26.422,
+            "average60": 25.911
+          },
+          {
+            "date": "2026-04-01",
+            "close": 26.09,
+            "volume": 906082,
+            "average20": 26.412,
+            "average60": 25.901
+          },
+          {
+            "date": "2026-04-02",
+            "close": 26.22,
+            "volume": 739849,
+            "average20": 26.408,
+            "average60": 25.896
+          },
+          {
+            "date": "2026-04-03",
+            "close": 25.91,
+            "volume": 656277,
+            "average20": 26.386,
+            "average60": 25.89
+          },
+          {
+            "date": "2026-04-07",
+            "close": 25.69,
+            "volume": 726272,
+            "average20": 26.351,
+            "average60": 25.881
+          },
+          {
+            "date": "2026-04-08",
+            "close": 25.79,
+            "volume": 806200,
+            "average20": 26.322,
+            "average60": 25.873
+          },
+          {
+            "date": "2026-04-09",
+            "close": 25.6,
+            "volume": 691285,
+            "average20": 26.276,
+            "average60": 25.859
+          },
+          {
+            "date": "2026-04-10",
+            "close": 25.61,
+            "volume": 665589,
+            "average20": 26.221,
+            "average60": 25.849
+          },
+          {
+            "date": "2026-04-13",
+            "close": 25.63,
+            "volume": 626264,
+            "average20": 26.172,
+            "average60": 25.838
+          },
+          {
+            "date": "2026-04-14",
+            "close": 25.63,
+            "volume": 701166,
+            "average20": 26.125,
+            "average60": 25.827
+          },
+          {
+            "date": "2026-04-15",
+            "close": 25.76,
+            "volume": 970566,
+            "average20": 26.078,
+            "average60": 25.817
+          },
+          {
+            "date": "2026-04-16",
+            "close": 25.76,
+            "volume": 719586,
+            "average20": 26.041,
+            "average60": 25.807
+          },
+          {
+            "date": "2026-04-17",
+            "close": 25.59,
+            "volume": 836067,
+            "average20": 25.997,
+            "average60": 25.803
+          },
+          {
+            "date": "2026-04-20",
+            "close": 26.05,
+            "volume": 950418,
+            "average20": 25.98,
+            "average60": 25.807
+          },
+          {
+            "date": "2026-04-21",
+            "close": 26.34,
+            "volume": 904432,
+            "average20": 25.999,
+            "average60": 25.82
+          },
+          {
+            "date": "2026-04-22",
+            "close": 26.07,
+            "volume": 741609,
+            "average20": 25.987,
+            "average60": 25.825
+          },
+          {
+            "date": "2026-04-23",
+            "close": 26.16,
+            "volume": 845908,
+            "average20": 25.974,
+            "average60": 25.83
+          },
+          {
+            "date": "2026-04-24",
+            "close": 26.02,
+            "volume": 564464,
+            "average20": 25.949,
+            "average60": 25.837
+          },
+          {
+            "date": "2026-04-27",
+            "close": 25.87,
+            "volume": 562599,
+            "average20": 25.919,
+            "average60": 25.846
+          },
+          {
+            "date": "2026-04-28",
+            "close": 25.94,
+            "volume": 700608,
+            "average20": 25.899,
+            "average60": 25.862
+          },
+          {
+            "date": "2026-04-29",
+            "close": 25.98,
+            "volume": 855961,
+            "average20": 25.885,
+            "average60": 25.879
+          },
+          {
+            "date": "2026-04-30",
+            "close": 26.53,
+            "volume": 1914637,
+            "average20": 25.907,
+            "average60": 25.905
+          },
+          {
+            "date": "2026-05-06",
+            "close": 26.41,
+            "volume": 1237750,
+            "average20": 25.917,
+            "average60": 25.935
+          },
+          {
+            "date": "2026-05-07",
+            "close": 26.26,
+            "volume": 973283,
+            "average20": 25.935,
+            "average60": 25.955
+          },
+          {
+            "date": "2026-05-08",
+            "close": 26.21,
+            "volume": 804423,
+            "average20": 25.961,
+            "average60": 25.969
+          },
+          {
+            "date": "2026-05-11",
+            "close": 26.22,
+            "volume": 1030953,
+            "average20": 25.982,
+            "average60": 25.987
+          },
+          {
+            "date": "2026-05-12",
+            "close": 26.25,
+            "volume": 1011762,
+            "average20": 26.015,
+            "average60": 26.008
+          },
+          {
+            "date": "2026-05-13",
+            "close": 26.21,
+            "volume": 1396919,
+            "average20": 26.045,
+            "average60": 26.022
+          },
+          {
+            "date": "2026-05-14",
+            "close": 26.15,
+            "volume": 1102942,
+            "average20": 26.071,
+            "average60": 26.031
+          },
+          {
+            "date": "2026-05-15",
+            "close": 26.24,
+            "volume": 1187555,
+            "average20": 26.101,
+            "average60": 26.043
+          },
+          {
+            "date": "2026-05-18",
+            "close": 26.1,
+            "volume": 915898,
+            "average20": 26.118,
+            "average60": 26.054
+          },
+          {
+            "date": "2026-05-19",
+            "close": 26.46,
+            "volume": 1725646,
+            "average20": 26.153,
+            "average60": 26.069
+          },
+          {
+            "date": "2026-05-20",
+            "close": 26.11,
+            "volume": 1284344,
+            "average20": 26.179,
+            "average60": 26.079
+          },
+          {
+            "date": "2026-05-21",
+            "close": 25.87,
+            "volume": 1166100,
+            "average20": 26.17,
+            "average60": 26.088
+          },
+          {
+            "date": "2026-05-22",
+            "close": 25.77,
+            "volume": 915888,
+            "average20": 26.141,
+            "average60": 26.098
+          },
+          {
+            "date": "2026-05-25",
+            "close": 25.88,
+            "volume": 841544,
+            "average20": 26.132,
+            "average60": 26.108
+          },
+          {
+            "date": "2026-05-26",
+            "close": 26.35,
+            "volume": 1626530,
+            "average20": 26.141,
+            "average60": 26.127
+          },
+          {
+            "date": "2026-05-27",
+            "close": 26.45,
+            "volume": 1112715,
+            "average20": 26.163,
+            "average60": 26.147
+          },
+          {
+            "date": "2026-05-28",
+            "close": 26.43,
+            "volume": 1146573,
+            "average20": 26.191,
+            "average60": 26.167
+          },
+          {
+            "date": "2026-05-29",
+            "close": 26.96,
+            "volume": 2134371,
+            "average20": 26.242,
+            "average60": 26.187
+          },
+          {
+            "date": "2026-06-01",
+            "close": 26.98,
+            "volume": 1392781,
+            "average20": 26.292,
+            "average60": 26.2
+          },
+          {
+            "date": "2026-06-02",
+            "close": 27.17,
+            "volume": 1257574,
+            "average20": 26.324,
+            "average60": 26.215
+          },
+          {
+            "date": "2026-06-03",
+            "close": 27.1,
+            "volume": 1143006,
+            "average20": 26.359,
+            "average60": 26.228
+          },
+          {
+            "date": "2026-06-04",
+            "close": 26.93,
+            "volume": 874972,
+            "average20": 26.392,
+            "average60": 26.238
+          },
+          {
+            "date": "2026-06-05",
+            "close": 26.82,
+            "volume": 1094136,
+            "average20": 26.423,
+            "average60": 26.245
+          },
+          {
+            "date": "2026-06-08",
+            "close": 26.72,
+            "volume": 1180655,
+            "average20": 26.448,
+            "average60": 26.25
+          },
+          {
+            "date": "2026-06-09",
+            "close": 26.84,
+            "volume": 882536,
+            "average20": 26.477,
+            "average60": 26.256
+          },
+          {
+            "date": "2026-06-10",
+            "close": 26.9,
+            "volume": 887500,
+            "average20": 26.512,
+            "average60": 26.259
+          },
+          {
+            "date": "2026-06-11",
+            "close": 27.1,
+            "volume": 991250,
+            "average20": 26.559,
+            "average60": 26.267
+          },
+          {
+            "date": "2026-06-12",
+            "close": 27.49,
+            "volume": 1494245,
+            "average20": 26.621,
+            "average60": 26.282
+          },
+          {
+            "date": "2026-06-15",
+            "close": 26.78,
+            "volume": 2076612,
+            "average20": 26.655,
+            "average60": 26.284
+          },
+          {
+            "date": "2026-06-16",
+            "close": 26.4,
+            "volume": 1205993,
+            "average20": 26.652,
+            "average60": 26.282
+          },
+          {
+            "date": "2026-06-17",
+            "close": 26.21,
+            "volume": 1034442,
+            "average20": 26.658,
+            "average60": 26.278
+          },
+          {
+            "date": "2026-06-18",
+            "close": 25.87,
+            "volume": 1295945,
+            "average20": 26.657,
+            "average60": 26.269
+          },
+          {
+            "date": "2026-06-22",
+            "close": 26.15,
+            "volume": 1497329,
+            "average20": 26.677,
+            "average60": 26.272
+          },
+          {
+            "date": "2026-06-23",
+            "close": 26.08,
+            "volume": 1185655,
+            "average20": 26.686,
+            "average60": 26.269
+          },
+          {
+            "date": "2026-06-24",
+            "close": 25.81,
+            "volume": 1134561,
+            "average20": 26.659,
+            "average60": 26.258
+          },
+          {
+            "date": "2026-06-25",
+            "close": 25.43,
+            "volume": 1321876,
+            "average20": 26.608,
+            "average60": 26.24
+          },
+          {
+            "date": "2026-06-26",
+            "close": 25.86,
+            "volume": 1282652,
+            "average20": 26.58,
+            "average60": 26.23
+          },
+          {
+            "date": "2026-06-29",
+            "close": 26.05,
+            "volume": 1232579,
+            "average20": 26.534,
+            "average60": 26.225
+          },
+          {
+            "date": "2026-06-30",
+            "close": 25.68,
+            "volume": 1022777,
+            "average20": 26.47,
+            "average60": 26.216
+          },
+          {
+            "date": "2026-07-01",
+            "close": 25.85,
+            "volume": 909398,
+            "average20": 26.403,
+            "average60": 26.212
+          },
+          {
+            "date": "2026-07-02",
+            "close": 26.16,
+            "volume": 1400553,
+            "average20": 26.357,
+            "average60": 26.211
+          },
+          {
+            "date": "2026-07-03",
+            "close": 26.26,
+            "volume": 1028243,
+            "average20": 26.323,
+            "average60": 26.216
+          },
+          {
+            "date": "2026-07-06",
+            "close": 26.4,
+            "volume": 924577,
+            "average20": 26.302,
+            "average60": 26.228
+          },
+          {
+            "date": "2026-07-07",
+            "close": 26.62,
+            "volume": 1268220,
+            "average20": 26.297,
+            "average60": 26.242
+          },
+          {
+            "date": "2026-07-08",
+            "close": 27.04,
+            "volume": 1648440,
+            "average20": 26.307,
+            "average60": 26.266
+          },
+          {
+            "date": "2026-07-09",
+            "close": 26.98,
+            "volume": 1160399,
+            "average20": 26.311,
+            "average60": 26.289
+          },
+          {
+            "date": "2026-07-10",
+            "close": 27.24,
+            "volume": 1470743,
+            "average20": 26.318,
+            "average60": 26.316
+          },
+          {
+            "date": "2026-07-13",
+            "close": 27.63,
+            "volume": 2008092,
+            "average20": 26.325,
+            "average60": 26.349
+          },
+          {
+            "date": "2026-07-14",
+            "close": 27.76,
+            "volume": 1592410,
+            "average20": 26.374,
+            "average60": 26.383
+          },
+          {
+            "date": "2026-07-15",
+            "close": 27.89,
+            "volume": 1193609,
+            "average20": 26.449,
+            "average60": 26.418
+          },
+          {
+            "date": "2026-07-16",
+            "close": 27.45,
+            "volume": 1461135,
+            "average20": 26.511,
+            "average60": 26.449
+          },
+          {
+            "date": "2026-07-17",
+            "close": 27.99,
+            "volume": 2428601,
+            "average20": 26.616,
+            "average60": 26.481
+          },
+          {
+            "date": "2026-07-20",
+            "close": 28.98,
+            "volume": 2292669,
+            "average20": 26.758,
+            "average60": 26.525
+          },
+          {
+            "date": "2026-07-21",
+            "close": 28.73,
+            "volume": 2550056,
+            "average20": 26.89,
+            "average60": 26.57
+          },
+          {
+            "date": "2026-07-22",
+            "close": 29.09,
+            "volume": 1682826,
+            "average20": 27.055,
+            "average60": 26.619
+          },
+          {
+            "date": "2026-07-23",
+            "close": 28.87,
+            "volume": 547248,
+            "average20": 27.226,
+            "average60": 26.666
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交明显减少。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 27.23 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 26.81，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 28.1,
+            "recentAverage": 27.226,
+            "longerAverage": 26.666,
+            "recentHigh": 29.54,
+            "recentLow": 26.81
+          }
+        }
+      },
+      "risk": [
+        "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+        "若下一期现金流明显落后于利润，长江电力的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，长江电力需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查长江电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘长江电力值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。",
+            "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。"
+          ]
+        },
+        "upside": {
+          "summary": "长江电力的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "发电量、上网电量、电价、利用小时或燃料成本",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "长江电力的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本27.74元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "发电量、上网电量、电价、利用小时或燃料成本继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。继续恶化，或价格跌破60日平均成本27.74元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "发电量、上网电量、电价、利用小时或燃料成本与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "长江电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收862.42亿元，同比+2.07%；归母净利润345.03亿元，同比+6.17%。2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。",
+            "reason": "长江电力当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262110.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。",
+            "reason": "长江电力当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262036.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262036.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘28.24元，高于20日平均成本28.07元；60日平均成本27.74元，近20个交易日涨跌+1.77%。",
+            "reason": "长江电力当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。",
+          "先看价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收862.42亿元，同比+2.07%；归母净利润345.03亿元，同比+6.17%。2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。",
+          "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。",
+          "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查长江电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘长江电力值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "layers": {
+    "factNotes": [
+      {
+        "label": "已确认",
+        "text": "2025年营收862.42亿元，同比+2.07%；归母净利润345.03亿元，同比+6.17%。2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。"
+      },
+      {
+        "label": "已确认",
+        "text": "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。"
+      },
+      {
+        "label": "已确认",
+        "text": "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。"
+      },
+      {
+        "label": "已确认",
+        "text": "2026-08-26复权收盘28.24元，高于20日平均成本28.07元；60日平均成本27.74元，近20个交易日涨跌+1.77%。"
+      }
+    ],
+    "candidateSignals": [
+      {
+        "label": "分析",
+        "text": "长江电力当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。"
+      },
+      {
+        "label": "分析",
+        "text": "长江电力当前业务信号为：这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。"
+      },
+      {
+        "label": "分析",
+        "text": "长江电力当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+      }
+    ],
+    "analysisNotes": [
+      {
+        "label": "判断",
+        "text": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。"
+      },
+      {
+        "label": "判断",
+        "text": "2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。"
+      },
+      {
+        "label": "判断",
+        "text": "先看价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断。"
+      }
+    ],
+    "evidenceGaps": [
+      {
+        "text": "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+        "status": "open"
+      },
+      {
+        "text": "若下一期现金流明显落后于利润，长江电力的增长质量需要下调。",
+        "status": "open"
+      },
+      {
+        "text": "若价格跌回60日平均成本下方且基本面没有上修，长江电力需要重新判断。",
+        "status": "open"
+      }
+    ],
+    "nextVerificationQuestions": [
+      {
+        "question": "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "status": "open"
+      },
+      {
+        "question": "长江电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "status": "open"
+      },
+      {
+        "question": "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断",
+        "status": "open"
+      }
+    ],
+    "marketContext": {},
+    "forecastCandidates": []
+  },
+  "rawArtifacts": {
+    "aiReviewStatus": "COMPLETED",
+    "dossierScore": {
+      "contract_type": "serenity_ai_research_dossier_score",
+      "schema_version": "1.0",
+      "symbol": "600900.SH",
+      "research_status": "COMPLETED",
+      "score": 92.4,
+      "quality_band": "A",
+      "delivery_allowed": true,
+      "delivery_score_floor": 70,
+      "dimension_scores": {
+        "research_question": 10,
+        "source_reading": 15,
+        "evidence_tests": 12,
+        "claim_graph": 10,
+        "causal_chain": 11.2,
+        "revenue_transmission": 10,
+        "bear_case": 8,
+        "scenario_action": 9.2,
+        "uncertainty_controls": 7
+      },
+      "blocking_issues": [],
+      "cap_reasons": [],
+      "gate_effects": {
+        "report_readiness": "PASS",
+        "ai_confidence_cap": "HIGH",
+        "action_gate": "NONE"
+      }
+    },
+    "scorecard": {
+      "ticker": "600900.SH",
+      "company": "长江电力",
+      "market": "CN_A",
+      "as_of_date": "2026-08-27",
+      "score_purpose": "candidate_priority_and_action_readiness",
+      "thesis_quality_score": 58.89,
+      "evidence_confidence_score": 77.6,
+      "market_payoff_score": 59.16,
+      "technical_timing_score": 71.4,
+      "data_readiness_score": 100,
+      "action_readiness_score": 79.13,
+      "candidate_priority_score": 56.47,
+      "raw_research_rating": "C",
+      "rating_cap": "S",
+      "research_rating": "C",
+      "final_rating": "C",
+      "evidence_confidence_rating": "A",
+      "action_readiness": "STRONG_OBSERVE",
+      "watchlist_bucket": "LEAD_TRACKING",
+      "verdict": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "module_results": {
+        "layer": {
+          "score": 57.5,
+          "average_rating": 2.88,
+          "details": {
+            "value_chain_bottleneck": 3,
+            "scarcity_and_entry_barrier": 2.5,
+            "demand_inflection_capture": 3,
+            "industry_positioning": 3
+          },
+          "label": "Layer Quality"
+        },
+        "company_thesis": {
+          "score": 54.4,
+          "average_rating": 2.72,
+          "details": {
+            "bottleneck_ownership": 2.5,
+            "revenue_translation": 2.7,
+            "financial_quality": 3.4,
+            "management_execution": 2.5,
+            "durability": 2.5
+          },
+          "label": "Company Thesis"
+        },
+        "evidence_confidence": {
+          "score": 68,
+          "average_rating": 3.4,
+          "details": {
+            "primary_source_coverage": 4,
+            "financial_statement_verification": 4,
+            "claim_traceability": 2.4,
+            "cross_source_consistency": 2.6,
+            "freshness": 4
+          },
+          "label": "Evidence Confidence"
+        },
+        "market_payoff": {
+          "score": 59.16,
+          "average_rating": 2.96,
+          "details": {
+            "valuation_discount": 2.1,
+            "implied_growth_vs_evidence": 2.64,
+            "upside_downside": 2.65,
+            "liquidity_capacity": 4.3,
+            "crowding_control": 3.1
+          },
+          "label": "Market Payoff"
+        },
+        "technical_timing": {
+          "score": 71.4,
+          "average_rating": 3.57,
+          "details": {
+            "monthly_trend": 3.7,
+            "weekly_structure": 3.45,
+            "daily_buy_point": 2.85,
+            "gf_dma_alignment": 4.6,
+            "drawdown_position": 3.25
+          },
+          "label": "Technical Timing"
+        },
+        "risk_controls": {
+          "score": 60,
+          "average_rating": 3,
+          "details": {
+            "falsification_clarity": 3,
+            "governance_accounting_risk_control": 3,
+            "balance_sheet_dilution_control": 3,
+            "cycle_policy_risk_control": 3,
+            "liquidity_event_risk_control": 3
+          },
+          "label": "Risk Controls"
+        }
+      },
+      "data_readiness": {
+        "score": 100,
+        "details": {
+          "current_quote": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.18
+          },
+          "price_history_adjusted": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          },
+          "valuation_inputs": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.12
+          },
+          "financials": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.26
+          },
+          "filings_announcements": {
+            "status": "OK",
+            "score": 100,
+            "weight": 0.22
+          }
+        }
+      },
+      "decision_blockers": [],
+      "evidence_notes": [
+        {
+          "claim": "大型水电处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺发电量、电价和成本和现金流兑现。",
+          "source": "research_reading + Serenity formal artifacts",
+          "source_level": "A/L0-L2",
+          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 13.5%，近60日涨跌 11.0%。",
+          "missing_proof": "发电量 / 电价和成本 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+          "confidence": "Strong"
+        }
+      ],
+      "falsification_points": [
+        "发电量或利用小时下降，电价和成本又没有改善。",
+        "利润增长没有转成经营现金流，负债压力继续上升。",
+        "水情、煤价或新增装机变化削弱原来的盈利判断。"
+      ]
+    },
+    "actionGrade": {
+      "methodology": "serenity_evidence_first_action_grade_v2",
+      "tier": "BUY_CANDIDATE",
+      "label": "适合买入候选",
+      "researchRating": "A",
+      "overallScore": 79.7,
+      "fundamentalScore": 91.2,
+      "companyScore": 96,
+      "evidenceScore": 96,
+      "valuationScore": 65,
+      "timingScore": 71.4,
+      "riskScore": 64,
+      "reason": "公司兑现、证据、价格和走势四项都达到 Serenity 的行动门槛。",
+      "nextCondition": "继续确认下一份正式披露没有削弱财务和业务判断。",
+      "metrics": {
+        "pe": 20.4878,
+        "ps": 8.1966,
+        "revenueGrowth": 0.0644,
+        "profitGrowth": 0.305,
+        "cashConversion": 1.7321,
+        "debtRatio": 0.5733,
+        "return20": 0.0177
+      }
+    },
+    "overlay": {
+      "symbol": "600900.SH",
+      "as_of_date": "2026-08-27",
+      "dossier_ref": "ai_research_dossier.json",
+      "layer": "大型水电",
+      "bottleneck_reason": "电力资产价值必须经过发电量、电价、利用小时和成本，再进入现金流；本次最关键的公司原文是：四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。",
+      "revenue_transmission": "这条原文直接说明发电量、上网电量、电价、利用小时或燃料成本已经出现，能检验行业逻辑是否落到公司。收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+      "serenity_fit": 0.8,
+      "layer_score": 84,
+      "company_fit": 86,
+      "evidence_supported_growth": "H3",
+      "h4_h5_evidence_bar_met": false,
+      "required_next_evidence": "发电量、上网电量、电价、利用小时或燃料成本与下一期现金流继续同向验证",
+      "posterior_basis": "2025年营收862.42亿元，同比+2.07%；归母净利润345.03亿元，同比+6.17%。2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。2026-08-26复权收盘28.24元，高于20日平均成本28.07元；60日平均成本27.74元，近20个交易日涨跌+1.77%。",
+      "ai_confidence": "HIGH",
+      "thesis_quality_delta": 4,
+      "evidence_confidence_delta": 2,
+      "risk_adjustment": -1,
+      "action_condition_summary": "先看价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断。",
+      "key_evidence_refs": [
+        {
+          "claim": "官方财务报表已抽取收入、利润、现金流、资产、负债和权益核心字段。",
+          "source_ref": "financials:CNINFO_FinancialReports_L0",
+          "source_level": "L0",
+          "confidence": 0.84
+        },
+        {
+          "claim": "客户、订单和产能判断只使用正式披露证据通道，并保留未验证边界。",
+          "source_ref": "customer_order_capacity_evidence:CNINFO_Announcements_L0",
+          "source_level": "L0",
+          "confidence": 0.8
+        }
+      ],
+      "contrary_evidence": [
+        "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+        "若下一期现金流明显落后于利润，长江电力的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，长江电力需要重新判断。"
+      ],
+      "research_questions": [
+        "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "长江电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+      ]
+    },
+    "scenarioView": {
+      "base": {
+        "summary": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
+        "probability": 0.55,
+        "conditions": [
+          "2026-03-31营收181.12亿元，较可比期+6.44%；归母净利润67.61亿元，较可比期+30.5%；经营现金流117.11亿元。",
+          "四、报告期内主要经营情况 2025年，公司总发电量为3097.35亿千瓦时，同比增加118.14亿千瓦时，增长3.97%。"
+        ]
+      },
+      "upside": {
+        "summary": "长江电力的业务与财务继续同向改善，关注等级上调。",
+        "probability": 0.25,
+        "conditions": [
+          "发电量、上网电量、电价、利用小时或燃料成本",
+          "下一期收入、利润和经营现金流继续改善",
+          "价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+        ]
+      },
+      "downside": {
+        "summary": "长江电力的业务兑现或现金质量转弱，关注等级下调。",
+        "probability": 0.2,
+        "conditions": [
+          "公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。",
+          "经营现金流持续弱于利润",
+          "价格跌破60日平均成本27.74元，同时公司基本面没有改善"
+        ]
+      }
+    },
+    "actionConditions": {
+      "upgrade_to_action": [
+        "发电量、上网电量、电价、利用小时或燃料成本继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "add_or_size_up": [
+        "本站只训练判断，不提供仓位指令。"
+      ],
+      "trim_or_exit": [
+        "若公司多个新能源基建项目和大水电技术改造项目建设同期 快速推进，点多面广，浙江天台抽蓄电站逐步接管，安全风险防控面临新挑战。继续恶化，或价格跌破60日平均成本27.74元，同时公司基本面没有改善，则下调研究等级。"
+      ],
+      "stay_research_only": [
+        "先看价格站上20日平均成本28.07元并保持，且下一份正式披露没有削弱业务判断。"
+      ]
+    },
+    "dailyRefresh": {
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "source": "serenity_formal_scorecard",
+      "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+    }
+  }
+}

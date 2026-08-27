@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_30_static_cninfo_com_cn_fb09daf513",
+  "artifactType": "filing",
+  "title": "关于持股5%以上股东减持至5%以下暨权益变动的提示性公告",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225274336.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fb09daf513",
+  "fetchRunId": "fetch_2026_04_30_static_cninfo_com_cn_fb09daf513",
+  "publishedAt": "2026-04-30",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c181f6c8d54515f21b0d3a836bb8853fa3c8d0e67625ed029d173f2729e89270",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_30_static_cninfo_com_cn_fb09daf513.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_30_filing_f7f167bbc8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ebe3b903888b17ff; listSourceId=src_cninfo_301269_announcements."
+}

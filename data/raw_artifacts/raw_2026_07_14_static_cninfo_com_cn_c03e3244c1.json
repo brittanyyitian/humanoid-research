@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_14_static_cninfo_com_cn_c03e3244c1",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于药物纳入突破性治疗品种名单的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-14/1225421176.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c03e3244c1",
+  "fetchRunId": "fetch_2026_07_14_static_cninfo_com_cn_c03e3244c1",
+  "publishedAt": "2026-07-14",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:ce86dd9a22ac7a252bf29a4145f65983cc63b043eba1851c6fcbd1d6dc00b500",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_14_static_cninfo_com_cn_c03e3244c1.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_07_14_filing_25016fd4a2"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a02a8f5ad115f38d; listSourceId=src_cninfo_600276_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_29_static_cninfo_com_cn_015b600c12",
+  "artifactType": "filing",
+  "title": "独立董事候选人声明（李淑贤）",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225232616.PDF",
+  "sourceId": "src_static_cninfo_com_cn_015b600c12",
+  "fetchRunId": "fetch_2026_04_29_static_cninfo_com_cn_015b600c12",
+  "publishedAt": "2026-04-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:466db10a8e26fde1fd2ed2c3d1b028673c169deed40964273e3090d53c09f300",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_29_static_cninfo_com_cn_015b600c12.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_04_29_filing_f18f500673"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8243d0a396418c5d; listSourceId=src_cninfo_600938_announcements."
+}

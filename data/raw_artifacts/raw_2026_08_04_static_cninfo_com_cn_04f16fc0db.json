@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_04_static_cninfo_com_cn_04f16fc0db",
+  "artifactType": "filing",
+  "title": "关于证券事务代表联系方式变更的公告",
+  "publisher": "三花智控",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-04/1225454938.PDF",
+  "sourceId": "src_static_cninfo_com_cn_04f16fc0db",
+  "fetchRunId": "fetch_2026_08_04_static_cninfo_com_cn_04f16fc0db",
+  "publishedAt": "2026-08-04",
+  "firstSeenAt": "2026-08-04T16:16:54+08:00",
+  "capturedAt": "2026-08-04T16:16:54+08:00",
+  "contentHash": "sha256:052fbe84d395cdf580fe1ce53fc4c714e77750ca51f44799b7ca82dd5801e1c7",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_04_static_cninfo_com_cn_04f16fc0db.json",
+  "entityIds": [
+    "sanhuazk"
+  ],
+  "claimIds": [
+    "claim_2026_08_04_filing_90f07fe3d5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_bd51b4f3df364989; listSourceId=src_cninfo_002050_announcements."
+}

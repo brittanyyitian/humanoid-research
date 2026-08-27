@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_13_static_cninfo_com_cn_2d1eee78b1",
+  "artifactType": "filing",
+  "title": "2026年第二次临时股东会决议公告",
+  "publisher": "太极实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-13/1225368226.PDF",
+  "sourceId": "src_static_cninfo_com_cn_2d1eee78b1",
+  "fetchRunId": "fetch_2026_06_13_static_cninfo_com_cn_2d1eee78b1",
+  "publishedAt": "2026-06-13",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c27d440cb6fc2579eb4a2c0474ea652aefb8169271a15b17148ca184e73fcd5e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_13_static_cninfo_com_cn_2d1eee78b1.json",
+  "entityIds": [
+    "taiji_industry"
+  ],
+  "claimIds": [
+    "claim_2026_06_13_filing_450ae82b8b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_6f853e110d6be55c; listSourceId=src_cninfo_600667_announcements."
+}

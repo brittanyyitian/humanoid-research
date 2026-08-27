@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity External Evidence",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "registered_at",
+    "dataset",
+    "source_name",
+    "source_level",
+    "status",
+    "evidence_path",
+    "evidence_sha256",
+    "claim_boundary"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_manual_evidence" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "registered_at": { "type": "string", "minLength": 1 },
+    "dataset": { "type": "string", "minLength": 1 },
+    "source_name": { "type": "string", "minLength": 1 },
+    "source_level": {
+      "type": "string",
+      "enum": [
+        "L0_OFFICIAL_DISCLOSURE",
+        "L1_LICENSED_OR_PRO_DATABASE",
+        "L2_FREE_API_OR_OPEN_SOURCE",
+        "L3_MEDIA_F10_RESEARCH",
+        "L4_RUMOR_OR_UNVERIFIED"
+      ]
+    },
+    "status": { "type": "string", "enum": ["OK", "PARTIAL"] },
+    "evidence_path": { "type": "string", "minLength": 1 },
+    "evidence_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "structured_payload_path": { "type": "string" },
+    "structured_payload_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "claim_boundary": { "type": "string", "minLength": 1 },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

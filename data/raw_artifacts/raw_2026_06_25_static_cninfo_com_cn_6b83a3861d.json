@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_25_static_cninfo_com_cn_6b83a3861d",
+  "artifactType": "filing",
+  "title": "中芯国际关于股东权益变动的提示性公告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-25/1225386191.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6b83a3861d",
+  "fetchRunId": "fetch_2026_06_25_static_cninfo_com_cn_6b83a3861d",
+  "publishedAt": "2026-06-25",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:6fb4d3014278cb88c0e8eea23638346285a8108cb34056ece32abc1ea757cf28",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_25_static_cninfo_com_cn_6b83a3861d.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_06_25_filing_de9d7f3d90"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5b8fdcfcb027738f; listSourceId=src_cninfo_688981_announcements."
+}

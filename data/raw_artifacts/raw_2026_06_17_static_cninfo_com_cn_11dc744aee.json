@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_17_static_cninfo_com_cn_11dc744aee",
+  "artifactType": "filing",
+  "title": "第七届董事会第六次会议决议公告",
+  "publisher": "汉威科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-17/1225375383.PDF",
+  "sourceId": "src_static_cninfo_com_cn_11dc744aee",
+  "fetchRunId": "fetch_2026_06_17_static_cninfo_com_cn_11dc744aee",
+  "publishedAt": "2026-06-17",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:5dca0e55ed0bd73518ebe562ae73527899f15e102fe2bb90a0ade9346da402da",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_17_static_cninfo_com_cn_11dc744aee.json",
+  "entityIds": [
+    "hanwei_electronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_17_filing_54ad74475e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_381faad8634ef021; listSourceId=src_cninfo_300007_announcements."
+}

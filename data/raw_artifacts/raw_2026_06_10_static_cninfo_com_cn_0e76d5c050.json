@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_10_static_cninfo_com_cn_0e76d5c050",
+  "artifactType": "filing",
+  "title": "沪硅产业关于召开2025年年度股东会的通知",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-10/1225361241.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0e76d5c050",
+  "fetchRunId": "fetch_2026_06_10_static_cninfo_com_cn_0e76d5c050",
+  "publishedAt": "2026-06-10",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:a33c0e81b98a5aa1b993507f18dae022623a40e5316ed4a0cfe2b5131534a8e8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_10_static_cninfo_com_cn_0e76d5c050.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_06_10_filing_ed4954635e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_fae3054f03c45466; listSourceId=src_cninfo_688126_announcements."
+}

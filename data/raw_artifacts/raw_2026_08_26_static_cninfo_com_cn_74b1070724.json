@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_static_cninfo_com_cn_74b1070724",
+  "artifactType": "filing",
+  "title": "2026年半年度报告摘要",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225501902.PDF",
+  "sourceId": "src_static_cninfo_com_cn_74b1070724",
+  "fetchRunId": "fetch_2026_08_26_static_cninfo_com_cn_74b1070724",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:ac7e451918c17aed09a578264a51c3205176f99056c553bd1a95bc9f84dca074",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_static_cninfo_com_cn_74b1070724.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_filing_9cb324584e"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_67b02c935f2a8309; listSourceId=src_cninfo_002371_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_26_static_cninfo_com_cn_dfadfafceb",
+  "artifactType": "filing",
+  "title": "简式权益变动报告书",
+  "publisher": "通富微电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-26/1225388683.PDF",
+  "sourceId": "src_static_cninfo_com_cn_dfadfafceb",
+  "fetchRunId": "fetch_2026_06_26_static_cninfo_com_cn_dfadfafceb",
+  "publishedAt": "2026-06-26",
+  "firstSeenAt": "2026-07-22T16:15:52+08:00",
+  "capturedAt": "2026-07-22T16:15:52+08:00",
+  "contentHash": "sha256:ecda165ff38e0a43de413dda14220661f5f00bf25512425dce22448c5a3302a4",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_26_static_cninfo_com_cn_dfadfafceb.json",
+  "entityIds": [
+    "tongfu_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_06_26_filing_029eb6c151"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_a1941056b1ad87de; listSourceId=src_cninfo_002156_announcements."
+}

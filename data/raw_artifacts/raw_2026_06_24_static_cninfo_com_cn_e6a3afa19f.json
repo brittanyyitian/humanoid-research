@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_24_static_cninfo_com_cn_e6a3afa19f",
+  "artifactType": "filing",
+  "title": "恒瑞医药关于撤回药品注册申请的公告",
+  "publisher": "恒瑞医药",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-24/1225383767.PDF",
+  "sourceId": "src_static_cninfo_com_cn_e6a3afa19f",
+  "fetchRunId": "fetch_2026_06_24_static_cninfo_com_cn_e6a3afa19f",
+  "publishedAt": "2026-06-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:110e8edf03a4736042354f6f11ef6e2a0d2feb5e5de074f7bb33653496e93969",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_24_static_cninfo_com_cn_e6a3afa19f.json",
+  "entityIds": [
+    "hengrui"
+  ],
+  "claimIds": [
+    "claim_2026_06_24_filing_c432b2acbd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_428d70c1b6897e07; listSourceId=src_cninfo_600276_announcements."
+}

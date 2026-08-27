@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Agent Behavior Case",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "name",
+    "transcript",
+    "expectations"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_agent_behavior_case" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "name": { "type": "string", "minLength": 1 },
+    "transcript": { "type": "string", "minLength": 1 },
+    "expectations": {
+      "type": "object",
+      "properties": {
+        "required_patterns": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "forbidden_patterns": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "required_commands": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "required_artifacts": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

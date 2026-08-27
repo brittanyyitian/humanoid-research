@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_03_static_cninfo_com_cn_0c7f9a32e9",
+  "artifactType": "filing",
+  "title": "中国海洋石油有限公司2025年A股末期股息分派实施公告",
+  "publisher": "中国海油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-03/1225406290.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0c7f9a32e9",
+  "fetchRunId": "fetch_2026_07_03_static_cninfo_com_cn_0c7f9a32e9",
+  "publishedAt": "2026-07-03",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:531703ac62529abfc18456f5b5ea254c848bcd53ddd9c57fb2f04518634cd55d",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_03_static_cninfo_com_cn_0c7f9a32e9.json",
+  "entityIds": [
+    "cnooc"
+  ],
+  "claimIds": [
+    "claim_2026_07_03_filing_972e0d23a4"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_393451b25095986c; listSourceId=src_cninfo_600938_announcements."
+}

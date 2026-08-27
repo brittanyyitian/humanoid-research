@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_29_static_cninfo_com_cn_33789d8e00",
+  "artifactType": "filing",
+  "title": "第九届董事会第一次会议决议公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-29/1225396534.PDF",
+  "sourceId": "src_static_cninfo_com_cn_33789d8e00",
+  "fetchRunId": "fetch_2026_06_29_static_cninfo_com_cn_33789d8e00",
+  "publishedAt": "2026-06-29",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:1687c918ef203ecdb19bbf38a2d8303b6db87c273e35b7d755f5632d3ef1e378",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_29_static_cninfo_com_cn_33789d8e00.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_29_filing_00afe456eb"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_e35b74f4e6fe240c; listSourceId=src_cninfo_300164_announcements."
+}

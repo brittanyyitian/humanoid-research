@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_21_static_cninfo_com_cn_8102792294",
+  "artifactType": "filing",
+  "title": "百济神州有限公司关于召开2026年半年度业绩说明会的公告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-08-21/1225485139.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8102792294",
+  "fetchRunId": "fetch_2026_08_21_static_cninfo_com_cn_8102792294",
+  "publishedAt": "2026-08-21",
+  "firstSeenAt": "2026-08-22T16:15:52+08:00",
+  "capturedAt": "2026-08-22T16:15:52+08:00",
+  "contentHash": "sha256:f3d936ad98a3329b8f041047e2f58f5b66e11b729e9b06e241e3542ffb66b8f8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_21_static_cninfo_com_cn_8102792294.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2026_08_21_filing_128c259b25"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3e2ea2d6cee6efcc; listSourceId=src_cninfo_688235_announcements."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "prun_2026_07_06_5e706db7f2c0",
+  "pipelineTaskId": "ptask_2026_07_06_f8c917c564f5",
+  "rawArtifactId": "raw_2026_06_08_agibot_com_cn_f4c5371683",
+  "routeDecisionId": "route_2026_06_08_9ed095f87214",
+  "pipeline": "company_pipeline",
+  "status": "completed",
+  "startedAt": "2026-07-06T12:02:00+08:00",
+  "finishedAt": "2026-07-06T12:02:00+08:00",
+  "claimIds": [
+    "claim_2026_06_08_other_0d68cbb3b2"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_08_other_0d68cbb3b2"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_08_company_material_v0_d447b16a18"
+  ],
+  "error": null,
+  "notes": "Pipeline execution created rule_output plus inbox claim/evidence candidates only."
+}

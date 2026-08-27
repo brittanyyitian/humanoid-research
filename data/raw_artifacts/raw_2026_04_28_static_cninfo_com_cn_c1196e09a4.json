@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_28_static_cninfo_com_cn_c1196e09a4",
+  "artifactType": "filing",
+  "title": "独立董事述职报告（陈岚）",
+  "publisher": "华大九天",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225217343.PDF",
+  "sourceId": "src_static_cninfo_com_cn_c1196e09a4",
+  "fetchRunId": "fetch_2026_04_28_static_cninfo_com_cn_c1196e09a4",
+  "publishedAt": "2026-04-28",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:e4363f1ec915e170810dfebb0b1cbe0e71e6841dedafec6509aa55799d13c452",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_28_static_cninfo_com_cn_c1196e09a4.json",
+  "entityIds": [
+    "huada_jiutian"
+  ],
+  "claimIds": [
+    "claim_2026_04_28_filing_cef238a7d8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9c2237c59e90aec4; listSourceId=src_cninfo_301269_announcements."
+}

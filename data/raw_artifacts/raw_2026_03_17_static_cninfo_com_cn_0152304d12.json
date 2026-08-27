@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_17_static_cninfo_com_cn_0152304d12",
+  "artifactType": "filing",
+  "title": "中无人机会计师事务所履职情况评估报告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-17/1225013007.PDF",
+  "sourceId": "src_static_cninfo_com_cn_0152304d12",
+  "fetchRunId": "fetch_2026_03_17_static_cninfo_com_cn_0152304d12",
+  "publishedAt": "2026-03-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:8c41a6546273f0501cf2b97af81d3819d2bea120d8a1370aaeac58fb86406475",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_17_static_cninfo_com_cn_0152304d12.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_17_filing_3cb314673b"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5d648d326e2738bb; listSourceId=src_cninfo_688297_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_01_static_cninfo_com_cn_349a842922",
+  "artifactType": "filing",
+  "title": "2026年第一次临时股东会决议公告",
+  "publisher": "贝斯特",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-01/1225400623.PDF",
+  "sourceId": "src_static_cninfo_com_cn_349a842922",
+  "fetchRunId": "fetch_2026_07_01_static_cninfo_com_cn_349a842922",
+  "publishedAt": "2026-07-01",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:8ec26ee102cf3f7d8fe896e1091ebcb872aa6c2f604557555809e2c341fadbd0",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_01_static_cninfo_com_cn_349a842922.json",
+  "entityIds": [
+    "best"
+  ],
+  "claimIds": [
+    "claim_2026_07_01_filing_023560b6d5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_604800935c5ba082; listSourceId=src_cninfo_300580_announcements."
+}

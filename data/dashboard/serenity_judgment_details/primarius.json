@@ -1,0 +1,1727 @@
+{
+  "entityId": "primarius",
+  "name": "概伦电子",
+  "updatedAt": "2026-08-27T16:37:52+08:00",
+  "latest": {
+    "id": "serenity_judgment_primarius_2026-08-27",
+    "entityId": "primarius",
+    "name": "概伦电子",
+    "symbol": "688206.SH",
+    "market": "SSE",
+    "date": "2026-08-27",
+    "capturedAt": "2026-08-27T16:37:52+08:00",
+    "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+    "analysisType": "deep_review",
+    "action": "等待更合适的买点",
+    "actionReadiness": "WAIT_FOR_BUY_POINT",
+    "confidence": "HIGH",
+    "reason": "继续观察，等证据",
+    "price": 43.76,
+    "currency": "CNY",
+    "changePct": 3.45,
+    "technicalTimingScore": 22.6,
+    "marketPayoffScore": 63.12,
+    "rating": "C",
+    "judgmentChanged": false,
+    "triggers": {
+      "30d": "收入是否兑现",
+      "90d": "收入是否兑现",
+      "180d": "复盘概伦电子保留观察，但现在不急"
+    },
+    "validation": [
+      {
+        "days": 30,
+        "dueDate": "2026-09-25",
+        "status": "pending"
+      },
+      {
+        "days": 90,
+        "dueDate": "2026-11-24",
+        "status": "pending"
+      },
+      {
+        "days": 180,
+        "dueDate": "2027-02-22",
+        "status": "pending"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "id": "serenity_judgment_primarius_2026-07-22",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-22",
+      "capturedAt": "2026-07-22T21:35:48+08:00",
+      "analysisGeneratedAt": "2026-07-22T21:25:37+08:00",
+      "analysisType": "scorecard",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "B",
+      "reason": "线索跟踪：适合继续观察，不适合作为核心候选",
+      "price": 36.29,
+      "currency": "CNY",
+      "changePct": -2.18,
+      "technicalTimingScore": 28.4,
+      "marketPayoffScore": 54.72,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "订单是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "供应链或合作披露不能被官方材料交"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-20",
+          "checkedAt": "2026-08-20",
+          "status": "verified",
+          "stockReturnPct": 7.688068338385228,
+          "poolReturnPct": -1.7105263157894723,
+          "excessReturnPct": 9.3985946541747,
+          "maxDrawdownPct": -15.596583080738496,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-23",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-23",
+      "capturedAt": "2026-07-23T21:18:20+08:00",
+      "analysisGeneratedAt": "2026-07-23T21:18:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34,
+      "currency": "CNY",
+      "changePct": -6.31,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": true,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-21",
+          "checkedAt": "2026-08-21",
+          "status": "verified",
+          "stockReturnPct": 27.35294117647058,
+          "poolReturnPct": -1.2906695348211803,
+          "excessReturnPct": 28.64361071129176,
+          "maxDrawdownPct": -11.982758620689651,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-24",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-24",
+      "capturedAt": "2026-07-24T21:21:01+08:00",
+      "analysisGeneratedAt": "2026-07-24T21:21:01+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.18,
+      "currency": "CNY",
+      "changePct": 0.53,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-22",
+          "checkedAt": "2026-08-22",
+          "status": "verified",
+          "stockReturnPct": 26.682270333528376,
+          "poolReturnPct": 3.059977194562956,
+          "excessReturnPct": 23.622293138965418,
+          "maxDrawdownPct": -11.982758620689651,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-25",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-25",
+      "capturedAt": "2026-07-25T16:21:31+08:00",
+      "analysisGeneratedAt": "2026-07-25T16:21:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.18,
+      "currency": "CNY",
+      "changePct": 0.53,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-23",
+          "checkedAt": "2026-08-23",
+          "status": "verified",
+          "stockReturnPct": 26.682270333528376,
+          "poolReturnPct": 2.849627356422631,
+          "excessReturnPct": 23.832642977105746,
+          "maxDrawdownPct": -11.982758620689651,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-26",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-26",
+      "capturedAt": "2026-07-26T21:26:30+08:00",
+      "analysisGeneratedAt": "2026-07-26T21:26:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.18,
+      "currency": "CNY",
+      "changePct": 0.53,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-24",
+          "checkedAt": "2026-08-24",
+          "status": "verified",
+          "stockReturnPct": 20.80163838502048,
+          "poolReturnPct": -0.7052631578947387,
+          "excessReturnPct": 21.506901542915216,
+          "maxDrawdownPct": -11.982758620689651,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-27",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-27",
+      "capturedAt": "2026-07-27T16:21:47+08:00",
+      "analysisGeneratedAt": "2026-07-27T16:21:46+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.8,
+      "currency": "CNY",
+      "changePct": 1.81,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-25",
+          "checkedAt": "2026-08-25",
+          "status": "verified",
+          "stockReturnPct": 19.02298850574714,
+          "poolReturnPct": -1.8153727307840821,
+          "excessReturnPct": 20.83836123653122,
+          "maxDrawdownPct": -11.982758620689651,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-22",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-28",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-28",
+      "capturedAt": "2026-07-28T16:20:39+08:00",
+      "analysisGeneratedAt": "2026-07-28T16:20:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 32.4,
+      "currency": "CNY",
+      "changePct": -6.9,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-26",
+          "checkedAt": "2026-08-26",
+          "status": "verified",
+          "stockReturnPct": 30.555555555555554,
+          "poolReturnPct": 0,
+          "excessReturnPct": 30.555555555555554,
+          "maxDrawdownPct": -6.7303102625298346,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-25",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-23",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-29",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-29",
+      "capturedAt": "2026-07-29T16:19:07+08:00",
+      "analysisGeneratedAt": "2026-07-29T16:19:07+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 32.46,
+      "currency": "CNY",
+      "changePct": 0.19,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-27",
+          "checkedAt": "2026-08-27",
+          "status": "verified",
+          "stockReturnPct": 34.81207640172519,
+          "poolReturnPct": 2.220988339811208,
+          "excessReturnPct": 32.591088061913986,
+          "maxDrawdownPct": -6.7303102625298346,
+          "result": "可能错过"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-26",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-24",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-30",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-30",
+      "capturedAt": "2026-07-30T18:13:18+08:00",
+      "analysisGeneratedAt": "2026-07-30T18:13:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 30.63,
+      "currency": "CNY",
+      "changePct": -5.64,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-28",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-27",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-25",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-07-31",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-07-31",
+      "capturedAt": "2026-07-31T21:18:16+08:00",
+      "analysisGeneratedAt": "2026-07-31T21:18:16+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 31.8,
+      "currency": "CNY",
+      "changePct": 3.82,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-29",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-28",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-26",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-01",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-01",
+      "capturedAt": "2026-08-01T16:19:02+08:00",
+      "analysisGeneratedAt": "2026-08-01T16:19:02+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 31.8,
+      "currency": "CNY",
+      "changePct": 3.82,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-30",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-29",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-27",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-02",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-02",
+      "capturedAt": "2026-08-02T16:18:53+08:00",
+      "analysisGeneratedAt": "2026-08-02T16:18:53+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 31.8,
+      "currency": "CNY",
+      "changePct": 3.82,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-08-31",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-30",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-28",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-03",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-03",
+      "capturedAt": "2026-08-03T21:16:24+08:00",
+      "analysisGeneratedAt": "2026-08-03T21:16:23+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 31.61,
+      "currency": "CNY",
+      "changePct": -0.6,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-01",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-10-31",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-29",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-04",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-04",
+      "capturedAt": "2026-08-04T21:17:14+08:00",
+      "analysisGeneratedAt": "2026-08-04T21:17:14+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 32.55,
+      "currency": "CNY",
+      "changePct": 2.97,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-02",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-01",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-30",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-05",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-05",
+      "capturedAt": "2026-08-05T21:18:31+08:00",
+      "analysisGeneratedAt": "2026-08-05T21:18:31+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.2,
+      "currency": "CNY",
+      "changePct": 5.07,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-03",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-02",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-01-31",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-06",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-06",
+      "capturedAt": "2026-08-06T16:24:55+08:00",
+      "analysisGeneratedAt": "2026-08-06T16:24:35+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 34.29,
+      "currency": "CNY",
+      "changePct": 0.26,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-04",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-03",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-01",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-07",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-07",
+      "capturedAt": "2026-08-07T16:19:43+08:00",
+      "analysisGeneratedAt": "2026-08-07T16:19:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 36.14,
+      "currency": "CNY",
+      "changePct": 5.4,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-05",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-04",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-02",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-08",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-08",
+      "capturedAt": "2026-08-08T16:18:48+08:00",
+      "analysisGeneratedAt": "2026-08-08T16:18:48+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 36.14,
+      "currency": "CNY",
+      "changePct": 5.4,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-06",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-05",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-03",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-09",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-09",
+      "capturedAt": "2026-08-09T21:16:42+08:00",
+      "analysisGeneratedAt": "2026-08-09T21:16:41+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 36.14,
+      "currency": "CNY",
+      "changePct": 5.4,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-07",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-06",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-04",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-10",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-10",
+      "capturedAt": "2026-08-10T21:25:04+08:00",
+      "analysisGeneratedAt": "2026-08-10T21:25:04+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 35.16,
+      "currency": "CNY",
+      "changePct": -2.71,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-08",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-07",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-05",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-11",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-11",
+      "capturedAt": "2026-08-11T16:19:22+08:00",
+      "analysisGeneratedAt": "2026-08-11T16:19:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 36.11,
+      "currency": "CNY",
+      "changePct": 2.7,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-09",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-08",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-06",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-12",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-12",
+      "capturedAt": "2026-08-12T21:21:06+08:00",
+      "analysisGeneratedAt": "2026-08-12T21:21:06+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 36.77,
+      "currency": "CNY",
+      "changePct": 1.83,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-10",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-09",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-07",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-13",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-13",
+      "capturedAt": "2026-08-13T16:19:36+08:00",
+      "analysisGeneratedAt": "2026-08-13T16:19:36+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 35.38,
+      "currency": "CNY",
+      "changePct": -3.78,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-11",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-10",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-08",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-14",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-14",
+      "capturedAt": "2026-08-14T21:18:18+08:00",
+      "analysisGeneratedAt": "2026-08-14T21:18:18+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 35.72,
+      "currency": "CNY",
+      "changePct": 0.96,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-12",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-11",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-09",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-15",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-15",
+      "capturedAt": "2026-08-15T16:19:08+08:00",
+      "analysisGeneratedAt": "2026-08-15T16:19:08+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 35.72,
+      "currency": "CNY",
+      "changePct": 0.96,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-13",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-12",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-10",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-16",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-16",
+      "capturedAt": "2026-08-16T16:18:42+08:00",
+      "analysisGeneratedAt": "2026-08-16T16:18:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 35.72,
+      "currency": "CNY",
+      "changePct": 0.96,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-14",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-13",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-11",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-17",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-17",
+      "capturedAt": "2026-08-17T16:20:13+08:00",
+      "analysisGeneratedAt": "2026-08-17T16:20:13+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 41.57,
+      "currency": "CNY",
+      "changePct": 16.38,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-15",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-14",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-12",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-18",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-18",
+      "capturedAt": "2026-08-18T16:19:25+08:00",
+      "analysisGeneratedAt": "2026-08-18T16:19:25+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 41.9,
+      "currency": "CNY",
+      "changePct": 0.79,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-16",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-15",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-13",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-19",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-19",
+      "capturedAt": "2026-08-19T21:18:25+08:00",
+      "analysisGeneratedAt": "2026-08-19T21:18:24+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 39.71,
+      "currency": "CNY",
+      "changePct": -5.23,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-17",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-16",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-20",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-20",
+      "capturedAt": "2026-08-20T21:17:20+08:00",
+      "analysisGeneratedAt": "2026-08-20T21:17:20+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 39.08,
+      "currency": "CNY",
+      "changePct": -1.59,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-18",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-17",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-15",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-21",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-21",
+      "capturedAt": "2026-08-21T16:19:11+08:00",
+      "analysisGeneratedAt": "2026-08-21T16:19:11+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 43.3,
+      "currency": "CNY",
+      "changePct": 10.8,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-19",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-18",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-16",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-22",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-22",
+      "capturedAt": "2026-08-22T16:18:57+08:00",
+      "analysisGeneratedAt": "2026-08-22T16:18:57+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 43.3,
+      "currency": "CNY",
+      "changePct": 10.8,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-20",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-19",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-17",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-23",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-23",
+      "capturedAt": "2026-08-23T21:21:31+08:00",
+      "analysisGeneratedAt": "2026-08-23T21:21:30+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 43.3,
+      "currency": "CNY",
+      "changePct": 10.8,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-21",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-20",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-18",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-24",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-24",
+      "capturedAt": "2026-08-24T21:18:22+08:00",
+      "analysisGeneratedAt": "2026-08-24T21:18:22+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 41.29,
+      "currency": "CNY",
+      "changePct": -4.64,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-22",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-21",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-19",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-25",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-25",
+      "capturedAt": "2026-08-25T16:19:39+08:00",
+      "analysisGeneratedAt": "2026-08-25T16:19:39+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 41.42,
+      "currency": "CNY",
+      "changePct": 0.31,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-23",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-22",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-20",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-26",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-26",
+      "capturedAt": "2026-08-26T22:57:42+08:00",
+      "analysisGeneratedAt": "2026-08-26T22:57:42+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 42.3,
+      "currency": "CNY",
+      "changePct": 2.12,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-24",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-23",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-21",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "serenity_judgment_primarius_2026-08-27",
+      "entityId": "primarius",
+      "name": "概伦电子",
+      "symbol": "688206.SH",
+      "market": "SSE",
+      "date": "2026-08-27",
+      "capturedAt": "2026-08-27T16:37:52+08:00",
+      "analysisGeneratedAt": "2026-08-27T16:37:52+08:00",
+      "analysisType": "deep_review",
+      "action": "等待更合适的买点",
+      "actionReadiness": "WAIT_FOR_BUY_POINT",
+      "confidence": "HIGH",
+      "reason": "继续观察，等证据",
+      "price": 43.76,
+      "currency": "CNY",
+      "changePct": 3.45,
+      "technicalTimingScore": 22.6,
+      "marketPayoffScore": 63.12,
+      "rating": "C",
+      "judgmentChanged": false,
+      "triggers": {
+        "30d": "收入是否兑现",
+        "90d": "收入是否兑现",
+        "180d": "复盘概伦电子保留观察，但现在不急"
+      },
+      "validation": [
+        {
+          "days": 30,
+          "dueDate": "2026-09-25",
+          "status": "pending"
+        },
+        {
+          "days": 90,
+          "dueDate": "2026-11-24",
+          "status": "pending"
+        },
+        {
+          "days": 180,
+          "dueDate": "2027-02-22",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

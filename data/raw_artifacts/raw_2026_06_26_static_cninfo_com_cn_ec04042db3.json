@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_26_static_cninfo_com_cn_ec04042db3",
+  "artifactType": "filing",
+  "title": "2025年年度权益分派实施公告",
+  "publisher": "双环传动",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-26/1225387240.PDF",
+  "sourceId": "src_static_cninfo_com_cn_ec04042db3",
+  "fetchRunId": "fetch_2026_06_26_static_cninfo_com_cn_ec04042db3",
+  "publishedAt": "2026-06-26",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:537bd789a7527d89732db7bc89190e0398dc049553b81a97d7046c362e4ac2ec",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_26_static_cninfo_com_cn_ec04042db3.json",
+  "entityIds": [
+    "shuanghuan_driveline"
+  ],
+  "claimIds": [
+    "claim_2026_06_26_filing_b7875bf8c0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_39e3cd9af748d817; listSourceId=src_cninfo_002472_announcements."
+}

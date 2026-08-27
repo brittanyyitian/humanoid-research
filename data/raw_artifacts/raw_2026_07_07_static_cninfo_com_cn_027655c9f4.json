@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_07_static_cninfo_com_cn_027655c9f4",
+  "artifactType": "filing",
+  "title": "股东询价转让结果报告书暨持股5%以上股东持有权益变动触及1%刻度的提示性公告",
+  "publisher": "安集科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225411172.PDF",
+  "sourceId": "src_static_cninfo_com_cn_027655c9f4",
+  "fetchRunId": "fetch_2026_07_07_static_cninfo_com_cn_027655c9f4",
+  "publishedAt": "2026-07-07",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:db481add78daa719117a9f871d38e4af5322c09598c23c72617b721994bc856f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_07_static_cninfo_com_cn_027655c9f4.json",
+  "entityIds": [
+    "anji_microelectronics"
+  ],
+  "claimIds": [
+    "claim_2026_07_07_filing_f301bd990f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_8d1575e94ed5c109; listSourceId=src_cninfo_688019_announcements."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_048ae68536e1",
+  "rawArtifactId": "raw_2026_03_17_static_cninfo_com_cn_328035ce92",
+  "routeDecisionId": "route_2026_03_17_1ec13017eb70",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "avic_uav",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:50:52+08:00",
+  "updatedAt": "2026-07-23T09:51:27+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:51:27+08:00",
+  "finishedAt": "2026-07-23T09:51:27+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_03_17_filing_ff635f45e1"
+  ],
+  "evidenceIds": [
+    "evd_2026_03_17_filing_ff635f45e1"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_03_17_filing_material_v0_4f5b5a3fcf"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_9838f998998f"
+  ]
+}

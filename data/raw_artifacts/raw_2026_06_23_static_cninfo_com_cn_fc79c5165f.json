@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_23_static_cninfo_com_cn_fc79c5165f",
+  "artifactType": "filing",
+  "title": "关于召开2026年第一次临时股东会的通知",
+  "publisher": "杰瑞股份",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-23/1225380355.PDF",
+  "sourceId": "src_static_cninfo_com_cn_fc79c5165f",
+  "fetchRunId": "fetch_2026_06_23_static_cninfo_com_cn_fc79c5165f",
+  "publishedAt": "2026-06-23",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:4abababd293a989da1c8accaf92f235702c33c20a86b1013da60e83e226a8e7f",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_23_static_cninfo_com_cn_fc79c5165f.json",
+  "entityIds": [
+    "jereh"
+  ],
+  "claimIds": [
+    "claim_2026_06_23_filing_9c57ab91f8"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_1cc33ccd6572e632; listSourceId=src_cninfo_002353_announcements."
+}

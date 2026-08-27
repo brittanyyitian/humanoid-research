@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_17_static_cninfo_com_cn_35b790c9fd",
+  "artifactType": "filing",
+  "title": "中无人机2025年度内部控制评价报告",
+  "publisher": "中无人机",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-17/1225013013.PDF",
+  "sourceId": "src_static_cninfo_com_cn_35b790c9fd",
+  "fetchRunId": "fetch_2026_03_17_static_cninfo_com_cn_35b790c9fd",
+  "publishedAt": "2026-03-17",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:301b76af419da5dce4ff6a50b9f8aac8d27b04eba41a4364c6a735890f05b3a3",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_17_static_cninfo_com_cn_35b790c9fd.json",
+  "entityIds": [
+    "avic_uav"
+  ],
+  "claimIds": [
+    "claim_2026_03_17_filing_5a9860f978"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_9edf4e76003fdda6; listSourceId=src_cninfo_688297_announcements."
+}

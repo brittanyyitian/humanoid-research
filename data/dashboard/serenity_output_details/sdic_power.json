@@ -1,0 +1,1056 @@
+{
+  "id": "saout_sdic_power_81825782230f",
+  "entityId": "sdic_power",
+  "name": "国投电力",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/sdic_power.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "国投电力 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
+    "currentFocus": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
+    "toVerify": [
+      "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+      "国投电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本13.96元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
+    "followup": "未来30天：自动检查国投电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘国投电力保留观察，但现在不急着买。是否被业务、财务和价格共同验证。",
+    "materialLine": "水电与新能源",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600886.SH",
+      "name": "国投电力",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 13.91,
+        "previousClose": 14.05050505050505,
+        "changePct": -0.9999999999999966,
+        "high": 15.35,
+        "low": 15.11,
+        "open": 15.33,
+        "volume": 202094,
+        "turnover": 307800769,
+        "turnoverText": "2.90亿",
+        "currency": "CNY",
+        "asOf": "20260827161438",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 57.46,
+        "technicalTimingScore": 73.6,
+        "marketPayoffScore": 60.92,
+        "dataReadinessScore": 100,
+        "type": "继续观察，等证据",
+        "currentAction": "等待下一份财报或公告补齐最关键的公司级证据。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 54,
+        "evidenceScore": 68,
+        "valuationScore": 74,
+        "timingScore": 57,
+        "riskScore": 64,
+        "decisionReason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "WATCH_FOR_EVIDENCE",
+          "label": "继续观察，等证据",
+          "researchRating": "C",
+          "overallScore": 62.6,
+          "fundamentalScore": 59.7,
+          "companyScore": 54,
+          "evidenceScore": 68,
+          "valuationScore": 74,
+          "timingScore": 57,
+          "riskScore": 64,
+          "reason": "公司存在值得跟踪的事实，但业务、财务或反方风险尚未形成完整闭环。",
+          "nextCondition": "等待下一份财报或公告补齐最关键的公司级证据。",
+          "metrics": {
+            "pe": 18.267,
+            "ps": 2.0987,
+            "revenueGrowth": -0.0463,
+            "profitGrowth": 0.0191,
+            "cashConversion": 3.2478,
+            "debtRatio": 0.5958,
+            "return20": -0.0558
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2024年营收578.19亿元，同比+0%；归母净利润66.43亿元，同比+0%。2026-03-31营收125.14亿元，较可比期-4.63%；归母净利润21.18亿元，较可比期+1.91%；经营现金流68.79亿元。",
+          "主要经营成果 2024年 截至2024年底 578.19 2,965.37 公司实现营业收入 亿元 公司总资产 亿元 同比增加1.95% 较上期期末增加191.74亿元 66.43 63.22 归属于上市公司股东的净利润 亿元 资产负债率 % 同比减少0.92% 较上期期末增加0.04个百分点 0.8669 基本每股收益 元/股 同比减少0.97% 1,720.72 4,463.47 发电量 亿千瓦时 已投产控股装机容量 万千瓦 同比增加6.24% 同比增加368.71万千瓦 1,677.22 3,143.39 上网电量 亿千瓦时 其中清洁能源装机 万千瓦 同比增加6.40% 占比70.42% 同比增加1.11个百分点 0.359 上网电价 元/千瓦时 同比减少4.01% 业务发展情况 业务开发加快布局 …",
+          "一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；",
+          "2026-08-26复权收盘14.05元，高于20日平均成本13.96元；60日平均成本14.15元，近20个交易日涨跌-5.58%。"
+        ],
+        "possible": [
+          "国投电力当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "国投电力当前业务信号为：这条原文暴露了发电量、上网电量、电价、利用小时或燃料成本传导中的阻力，不能只看行业景气。",
+          "国投电力当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 60.92,
+        "crowdingControl": 3.1,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 57.46/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 73.6,
+        "dailyBuyPointScore": 2.85,
+        "dmaAlignmentScore": 4.6,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 14.78,
+            "volume": 573196,
+            "average20": 13.557,
+            "average60": 13.378
+          },
+          {
+            "date": "2026-03-16",
+            "close": 14.56,
+            "volume": 412787,
+            "average20": 13.632,
+            "average60": 13.39
+          },
+          {
+            "date": "2026-03-17",
+            "close": 14.67,
+            "volume": 304920,
+            "average20": 13.711,
+            "average60": 13.405
+          },
+          {
+            "date": "2026-03-18",
+            "close": 14.57,
+            "volume": 205165,
+            "average20": 13.788,
+            "average60": 13.419
+          },
+          {
+            "date": "2026-03-19",
+            "close": 14.56,
+            "volume": 249066,
+            "average20": 13.868,
+            "average60": 13.434
+          },
+          {
+            "date": "2026-03-20",
+            "close": 14.51,
+            "volume": 196124,
+            "average20": 13.95,
+            "average60": 13.449
+          },
+          {
+            "date": "2026-03-23",
+            "close": 14.14,
+            "volume": 324684,
+            "average20": 14.018,
+            "average60": 13.459
+          },
+          {
+            "date": "2026-03-24",
+            "close": 14.47,
+            "volume": 300910,
+            "average20": 14.091,
+            "average60": 13.473
+          },
+          {
+            "date": "2026-03-25",
+            "close": 14.68,
+            "volume": 312043,
+            "average20": 14.177,
+            "average60": 13.493
+          },
+          {
+            "date": "2026-03-26",
+            "close": 14.88,
+            "volume": 348195,
+            "average20": 14.266,
+            "average60": 13.517
+          },
+          {
+            "date": "2026-03-27",
+            "close": 14.64,
+            "volume": 228878,
+            "average20": 14.336,
+            "average60": 13.538
+          },
+          {
+            "date": "2026-03-30",
+            "close": 14.39,
+            "volume": 189388,
+            "average20": 14.382,
+            "average60": 13.553
+          },
+          {
+            "date": "2026-03-31",
+            "close": 14.16,
+            "volume": 191593,
+            "average20": 14.41,
+            "average60": 13.566
+          },
+          {
+            "date": "2026-04-01",
+            "close": 14.01,
+            "volume": 176648,
+            "average20": 14.433,
+            "average60": 13.575
+          },
+          {
+            "date": "2026-04-02",
+            "close": 14.15,
+            "volume": 209411,
+            "average20": 14.454,
+            "average60": 13.591
+          },
+          {
+            "date": "2026-04-03",
+            "close": 13.85,
+            "volume": 176873,
+            "average20": 14.454,
+            "average60": 13.604
+          },
+          {
+            "date": "2026-04-07",
+            "close": 13.45,
+            "volume": 267087,
+            "average20": 14.425,
+            "average60": 13.609
+          },
+          {
+            "date": "2026-04-08",
+            "close": 13.54,
+            "volume": 197993,
+            "average20": 14.384,
+            "average60": 13.616
+          },
+          {
+            "date": "2026-04-09",
+            "close": 13.46,
+            "volume": 137228,
+            "average20": 14.324,
+            "average60": 13.62
+          },
+          {
+            "date": "2026-04-10",
+            "close": 13.41,
+            "volume": 172814,
+            "average20": 14.244,
+            "average60": 13.622
+          },
+          {
+            "date": "2026-04-13",
+            "close": 13.29,
+            "volume": 225874,
+            "average20": 14.169,
+            "average60": 13.622
+          },
+          {
+            "date": "2026-04-14",
+            "close": 13.22,
+            "volume": 213182,
+            "average20": 14.103,
+            "average60": 13.621
+          },
+          {
+            "date": "2026-04-15",
+            "close": 13.38,
+            "volume": 190752,
+            "average20": 14.038,
+            "average60": 13.622
+          },
+          {
+            "date": "2026-04-16",
+            "close": 13.33,
+            "volume": 195173,
+            "average20": 13.976,
+            "average60": 13.621
+          },
+          {
+            "date": "2026-04-17",
+            "close": 13.2,
+            "volume": 180457,
+            "average20": 13.908,
+            "average60": 13.62
+          },
+          {
+            "date": "2026-04-20",
+            "close": 13.41,
+            "volume": 379760,
+            "average20": 13.853,
+            "average60": 13.624
+          },
+          {
+            "date": "2026-04-21",
+            "close": 13.67,
+            "volume": 337418,
+            "average20": 13.83,
+            "average60": 13.632
+          },
+          {
+            "date": "2026-04-22",
+            "close": 13.51,
+            "volume": 249354,
+            "average20": 13.781,
+            "average60": 13.635
+          },
+          {
+            "date": "2026-04-23",
+            "close": 13.51,
+            "volume": 232324,
+            "average20": 13.723,
+            "average60": 13.635
+          },
+          {
+            "date": "2026-04-24",
+            "close": 13.37,
+            "volume": 217956,
+            "average20": 13.647,
+            "average60": 13.637
+          },
+          {
+            "date": "2026-04-27",
+            "close": 13.4,
+            "volume": 203137,
+            "average20": 13.585,
+            "average60": 13.638
+          },
+          {
+            "date": "2026-04-28",
+            "close": 13.6,
+            "volume": 320929,
+            "average20": 13.546,
+            "average60": 13.645
+          },
+          {
+            "date": "2026-04-29",
+            "close": 13.61,
+            "volume": 225415,
+            "average20": 13.518,
+            "average60": 13.653
+          },
+          {
+            "date": "2026-04-30",
+            "close": 13.63,
+            "volume": 596655,
+            "average20": 13.499,
+            "average60": 13.663
+          },
+          {
+            "date": "2026-05-06",
+            "close": 13.66,
+            "volume": 474016,
+            "average20": 13.475,
+            "average60": 13.676
+          },
+          {
+            "date": "2026-05-07",
+            "close": 13.61,
+            "volume": 343854,
+            "average20": 13.463,
+            "average60": 13.686
+          },
+          {
+            "date": "2026-05-08",
+            "close": 13.56,
+            "volume": 318125,
+            "average20": 13.468,
+            "average60": 13.7
+          },
+          {
+            "date": "2026-05-11",
+            "close": 13.56,
+            "volume": 311846,
+            "average20": 13.47,
+            "average60": 13.712
+          },
+          {
+            "date": "2026-05-12",
+            "close": 13.57,
+            "volume": 642511,
+            "average20": 13.475,
+            "average60": 13.724
+          },
+          {
+            "date": "2026-05-13",
+            "close": 13.57,
+            "volume": 648031,
+            "average20": 13.483,
+            "average60": 13.733
+          },
+          {
+            "date": "2026-05-14",
+            "close": 13.38,
+            "volume": 713624,
+            "average20": 13.487,
+            "average60": 13.738
+          },
+          {
+            "date": "2026-05-15",
+            "close": 13.36,
+            "volume": 545824,
+            "average20": 13.494,
+            "average60": 13.743
+          },
+          {
+            "date": "2026-05-18",
+            "close": 13.23,
+            "volume": 357268,
+            "average20": 13.487,
+            "average60": 13.745
+          },
+          {
+            "date": "2026-05-19",
+            "close": 13.73,
+            "volume": 724914,
+            "average20": 13.507,
+            "average60": 13.757
+          },
+          {
+            "date": "2026-05-20",
+            "close": 13.34,
+            "volume": 445110,
+            "average20": 13.514,
+            "average60": 13.763
+          },
+          {
+            "date": "2026-05-21",
+            "close": 13.28,
+            "volume": 366181,
+            "average20": 13.507,
+            "average60": 13.77
+          },
+          {
+            "date": "2026-05-22",
+            "close": 13.35,
+            "volume": 342279,
+            "average20": 13.491,
+            "average60": 13.78
+          },
+          {
+            "date": "2026-05-25",
+            "close": 13.49,
+            "volume": 307893,
+            "average20": 13.491,
+            "average60": 13.788
+          },
+          {
+            "date": "2026-05-26",
+            "close": 13.87,
+            "volume": 559449,
+            "average20": 13.508,
+            "average60": 13.803
+          },
+          {
+            "date": "2026-05-27",
+            "close": 13.78,
+            "volume": 347055,
+            "average20": 13.529,
+            "average60": 13.814
+          },
+          {
+            "date": "2026-05-28",
+            "close": 13.81,
+            "volume": 385110,
+            "average20": 13.55,
+            "average60": 13.824
+          },
+          {
+            "date": "2026-05-29",
+            "close": 14.3,
+            "volume": 708542,
+            "average20": 13.585,
+            "average60": 13.838
+          },
+          {
+            "date": "2026-06-01",
+            "close": 14.51,
+            "volume": 649974,
+            "average20": 13.629,
+            "average60": 13.853
+          },
+          {
+            "date": "2026-06-02",
+            "close": 14.46,
+            "volume": 671381,
+            "average20": 13.671,
+            "average60": 13.868
+          },
+          {
+            "date": "2026-06-03",
+            "close": 14.3,
+            "volume": 543822,
+            "average20": 13.703,
+            "average60": 13.877
+          },
+          {
+            "date": "2026-06-04",
+            "close": 14.03,
+            "volume": 441442,
+            "average20": 13.724,
+            "average60": 13.88
+          },
+          {
+            "date": "2026-06-05",
+            "close": 13.74,
+            "volume": 379753,
+            "average20": 13.733,
+            "average60": 13.876
+          },
+          {
+            "date": "2026-06-08",
+            "close": 13.53,
+            "volume": 337755,
+            "average20": 13.732,
+            "average60": 13.861
+          },
+          {
+            "date": "2026-06-09",
+            "close": 13.63,
+            "volume": 332343,
+            "average20": 13.735,
+            "average60": 13.845
+          },
+          {
+            "date": "2026-06-10",
+            "close": 13.63,
+            "volume": 257891,
+            "average20": 13.738,
+            "average60": 13.821
+          },
+          {
+            "date": "2026-06-11",
+            "close": 13.77,
+            "volume": 370890,
+            "average20": 13.757,
+            "average60": 13.805
+          },
+          {
+            "date": "2026-06-12",
+            "close": 14.03,
+            "volume": 486289,
+            "average20": 13.79,
+            "average60": 13.796
+          },
+          {
+            "date": "2026-06-15",
+            "close": 13.79,
+            "volume": 407734,
+            "average20": 13.819,
+            "average60": 13.781
+          },
+          {
+            "date": "2026-06-16",
+            "close": 13.57,
+            "volume": 409147,
+            "average20": 13.811,
+            "average60": 13.764
+          },
+          {
+            "date": "2026-06-17",
+            "close": 13.32,
+            "volume": 435642,
+            "average20": 13.809,
+            "average60": 13.744
+          },
+          {
+            "date": "2026-06-18",
+            "close": 13.07,
+            "volume": 518405,
+            "average20": 13.799,
+            "average60": 13.72
+          },
+          {
+            "date": "2026-06-22",
+            "close": 13.18,
+            "volume": 497200,
+            "average20": 13.79,
+            "average60": 13.704
+          },
+          {
+            "date": "2026-06-23",
+            "close": 13.33,
+            "volume": 436401,
+            "average20": 13.782,
+            "average60": 13.685
+          },
+          {
+            "date": "2026-06-24",
+            "close": 13.17,
+            "volume": 309486,
+            "average20": 13.747,
+            "average60": 13.66
+          },
+          {
+            "date": "2026-06-25",
+            "close": 12.99,
+            "volume": 370833,
+            "average20": 13.708,
+            "average60": 13.628
+          },
+          {
+            "date": "2026-06-26",
+            "close": 13.06,
+            "volume": 347137,
+            "average20": 13.67,
+            "average60": 13.602
+          },
+          {
+            "date": "2026-06-29",
+            "close": 13.35,
+            "volume": 391154,
+            "average20": 13.623,
+            "average60": 13.584
+          },
+          {
+            "date": "2026-06-30",
+            "close": 13.31,
+            "volume": 285556,
+            "average20": 13.563,
+            "average60": 13.57
+          },
+          {
+            "date": "2026-07-01",
+            "close": 13.39,
+            "volume": 269508,
+            "average20": 13.509,
+            "average60": 13.56
+          },
+          {
+            "date": "2026-07-02",
+            "close": 13.55,
+            "volume": 386860,
+            "average20": 13.472,
+            "average60": 13.55
+          },
+          {
+            "date": "2026-07-03",
+            "close": 13.42,
+            "volume": 291758,
+            "average20": 13.442,
+            "average60": 13.543
+          },
+          {
+            "date": "2026-07-06",
+            "close": 13.49,
+            "volume": 236310,
+            "average20": 13.429,
+            "average60": 13.543
+          },
+          {
+            "date": "2026-07-07",
+            "close": 13.45,
+            "volume": 211809,
+            "average20": 13.425,
+            "average60": 13.542
+          },
+          {
+            "date": "2026-07-08",
+            "close": 13.46,
+            "volume": 250755,
+            "average20": 13.416,
+            "average60": 13.542
+          },
+          {
+            "date": "2026-07-09",
+            "close": 13.73,
+            "volume": 449766,
+            "average20": 13.421,
+            "average60": 13.547
+          },
+          {
+            "date": "2026-07-10",
+            "close": 13.73,
+            "volume": 332679,
+            "average20": 13.419,
+            "average60": 13.555
+          },
+          {
+            "date": "2026-07-13",
+            "close": 13.98,
+            "volume": 435117,
+            "average20": 13.417,
+            "average60": 13.567
+          },
+          {
+            "date": "2026-07-14",
+            "close": 14.23,
+            "volume": 457296,
+            "average20": 13.439,
+            "average60": 13.582
+          },
+          {
+            "date": "2026-07-15",
+            "close": 14.54,
+            "volume": 502886,
+            "average20": 13.487,
+            "average60": 13.602
+          },
+          {
+            "date": "2026-07-16",
+            "close": 14.49,
+            "volume": 737572,
+            "average20": 13.546,
+            "average60": 13.623
+          },
+          {
+            "date": "2026-07-17",
+            "close": 14.76,
+            "volume": 836430,
+            "average20": 13.63,
+            "average60": 13.646
+          },
+          {
+            "date": "2026-07-20",
+            "close": 14.95,
+            "volume": 796736,
+            "average20": 13.719,
+            "average60": 13.667
+          },
+          {
+            "date": "2026-07-21",
+            "close": 15.03,
+            "volume": 783477,
+            "average20": 13.804,
+            "average60": 13.692
+          },
+          {
+            "date": "2026-07-22",
+            "close": 15.3,
+            "volume": 659346,
+            "average20": 13.91,
+            "average60": 13.722
+          },
+          {
+            "date": "2026-07-23",
+            "close": 15.19,
+            "volume": 202094,
+            "average20": 14.02,
+            "average60": 13.752
+          }
+        ],
+        "plainReading": {
+          "state": "上涨后正在回落确认",
+          "what": "现价还在近一个月平均成本下方；今天成交明显减少。",
+          "meaning": "中期方向还没有明显走坏，但短期需要重新站稳。",
+          "watch": "先看能否重新站上 14.02 附近并保持几天，再谈走势变强。",
+          "risk": "如果跌破近期低点 13.45，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 13.91,
+            "recentAverage": 14.02,
+            "longerAverage": 13.752,
+            "recentHigh": 15.46,
+            "recentLow": 13.45
+          }
+        }
+      },
+      "risk": [
+        "一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；",
+        "若下一期现金流明显落后于利润，国投电力的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，国投电力需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查国投电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘国投电力保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收125.14亿元，较可比期-4.63%；归母净利润21.18亿元，较可比期+1.91%；经营现金流68.79亿元。",
+            "主要经营成果 2024年 截至2024年底 578.19 2,965.37 公司实现营业收入 亿元 公司总资产 亿元 同比增加1.95% 较上期期末增加191.74亿元 66.43 63.22 归属于上市公司股东的净利润 亿元 资产负债率 % 同比减少0.92% 较上期期末增加0.04个百分点 0.8669 基本每股收益 元/股 同比减少0.97% 1,720.72 4,463.47 发电量 亿千瓦时 已投产控股装机容量 万千瓦 同比增加6.24% 同比增加368.71万千瓦 1,677.22 3,143.39 上网电量 亿千瓦时 其中清洁能源装机 万千瓦 同比增加6.40% 占比70.42% 同比增加1.11个百分点 0.359 上网电价 元/千瓦时 同比减少4.01% 业务发展情况 业务开发加快布局 …"
+          ]
+        },
+        "upside": {
+          "summary": "国投电力的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "发电量、上网电量、电价、利用小时或燃料成本",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本13.96元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "国投电力的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本14.15元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "发电量、上网电量、电价、利用小时或燃料成本继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本13.96元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；继续恶化，或价格跌破60日平均成本14.15元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      "nextEvidence": [
+        "发电量、上网电量、电价、利用小时或燃料成本与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化发电量、上网电量、电价、利用小时或燃料成本？",
+        "国投电力的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本13.96元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 2,
+        "customerOrderStatus": "DISCLOSURE_LEADS_ONLY",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2024年营收578.19亿元，同比+0%；归母净利润66.43亿元，同比+0%。2026-03-31营收125.14亿元，较可比期-4.63%；归母净利润21.18亿元，较可比期+1.91%；经营现金流68.79亿元。",
+            "reason": "国投电力当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225257619.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "主要经营成果 2024年 截至2024年底 578.19 2,965.37 公司实现营业收入 亿元 公司总资产 亿元 同比增加1.95% 较上期期末增加191.74亿元 66.43 63.22 归属于上市公司股东的净利润 亿元 资产负债率 % 同比减少0.92% 较上期期末增加0.04个百分点 0.8669 基本每股收益 元/股 同比减少0.97% 1,720.72 4,463.47 发电量 亿千瓦时 已投产控股装机容量 万千瓦 同比增加6.24% 同比增加368.71万千瓦 1,677.22 3,143.39 上网电量 亿千瓦时 其中清洁能源装机 万千瓦 同比增加6.40% 占比70.42% 同比增加1.11个百分点 0.359 上网电价 元/千瓦时 同比减少4.01% 业务发展情况 业务开发加快布局 …",
+            "reason": "国投电力当前业务信号为：这条原文暴露了发电量、上网电量、电价、利用小时或燃料成本传导中的阻力，不能只看行业景气。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2025-04-30/1223414927.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2025-04-30/1223414927.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘14.05元，高于20日平均成本13.96元；60日平均成本14.15元，近20个交易日涨跌-5.58%。",
+            "reason": "国投电力当前价格信号为：价格没有给出清晰方向，只能等待基本面与走势共同确认。",
+            "status": "LEAD",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
+        "items": [
+          "2026-03-31营收125.14亿元，较可比期-4.63%；归母净利润21.18亿元，较可比期+1.91%；经营现金流68.79亿元。主要经营成果 2024年 截至2024年底 578.19 2,965.37 公司实现营业收入 亿元 公司总资产 亿元 同比增加1.95% 较上期期末增加191.74亿元 66.43 63.22 归属于上市公司股东的净利润 亿元 资产负债率 % 同比减少0.92% 较上期期末增加0.04个百分点 0.8669 基本每股收益 元/股 同比减少0.97% 1,720.72 4,463.47 发电量 亿千瓦时 已投产控股装机容量 万千瓦 同比增加6.24% 同比增加368.71万千瓦 1,677.22 3,143.39 上网电量 亿千瓦时 其中清洁能源装机 万千瓦 同比增加6.40% 占比70.42% 同比增加1.11个百分点 0.359 上网电价 元/千瓦时 同比减少4.01% 业务发展情况 业务开发加快布局 …",
+          "等业务原文、财务现金流和价格三项至少有两项同时改善。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2024年营收578.19亿元，同比+0%；归母净利润66.43亿元，同比+0%。2026-03-31营收125.14亿元，较可比期-4.63%；归母净利润21.18亿元，较可比期+1.91%；经营现金流68.79亿元。",
+          "主要经营成果 2024年 截至2024年底 578.19 2,965.37 公司实现营业收入 亿元 公司总资产 亿元 同比增加1.95% 较上期期末增加191.74亿元 66.43 63.22 归属于上市公司股东的净利润 亿元 资产负债率 % 同比减少0.92% 较上期期末增加0.04个百分点 0.8669 基本每股收益 元/股 同比减少0.97% 1,720.72 4,463.47 发电量 亿千瓦时 已投产控股装机容量 万千瓦 同比增加6.24% 同比增加368.71万千瓦 1,677.22 3,143.39 上网电量 亿千瓦时 其中清洁能源装机 万千瓦 同比增加6.40% 占比70.42% 同比增加1.11个百分点 0.359 上网电价 元/千瓦时 同比减少4.01% 业务发展情况 业务开发加快布局 …",
+          "一是受区域内火电机组及新能源项目集中投产的双 2 国投北疆 15.42 1,049.47 -1,034.05 -98.53% 重挤压，发电量同比下滑；"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查国投电力的新公告是否出现发电量、上网电量、电价、利用小时或燃料成本，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘国投电力保留观察，但现在不急着买。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 13.91,
+    "previousClose": 14.05050505050505,
+    "changePct": -0.9999999999999966,
+    "high": 15.35,
+    "low": 15.11,
+    "open": 15.33,
+    "volume": 202094,
+    "turnover": 307800769,
+    "turnoverText": "2.90亿",
+    "currency": "CNY",
+    "asOf": "20260827161438",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 13.91,
+    "changePct": -1,
+    "turnoverText": "2.90亿",
+    "turnoverRate": 0.28,
+    "totalMarketCap": "1113.43亿",
+    "floatMarketCap": "1036.88亿",
+    "fiveDayChangePct": -0.22,
+    "twentyDayChangePct": -6.78,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161438",
+    "asOf": "20260827161438",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161438",
+    "latestAsOf": "20260827161438",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 59.37,
+    "evidence_confidence_score": 79.28,
+    "market_payoff_score": 60.92,
+    "technical_timing_score": 73.6,
+    "data_readiness_score": 100,
+    "action_readiness_score": 80.12,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 70.4,
+        "average_rating": 3.52,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 3,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 60.92,
+        "average_rating": 3.05,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 3.08,
+          "upside_downside": 2.65,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.1
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 73.6,
+        "average_rating": 3.68,
+        "details": {
+          "monthly_trend": 3.7,
+          "weekly_structure": 4,
+          "daily_buy_point": 2.85,
+          "gf_dma_alignment": 4.6,
+          "drawdown_position": 3.25
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "水电与新能源处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺发电量、电价和成本和现金流兑现。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 16.9%，近60日涨跌 13.6%。",
+        "missing_proof": "发电量 / 电价和成本 / 现金流兑现 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "发电量或利用小时下降，电价和成本又没有改善。",
+      "利润增长没有转成经营现金流，负债压力继续上升。",
+      "水情、煤价或新增装机变化削弱原来的盈利判断。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_04_29_static_cninfo_com_cn_1fe347e9fd",
+  "artifactType": "filing",
+  "title": "百济神州有限公司2024年年度报告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223387705.PDF",
+  "sourceId": "src_static_cninfo_com_cn_1fe347e9fd",
+  "fetchRunId": "fetch_2025_04_29_static_cninfo_com_cn_1fe347e9fd",
+  "publishedAt": "2025-04-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:7a3398aed20d7c1eb515ce690a5283bd4a7cce63516d36185f5615d5ee5cbcea",
+  "storagePath": "raw_artifacts/payloads/raw_2025_04_29_static_cninfo_com_cn_1fe347e9fd.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2025_04_29_filing_11a3dcbe38"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_ee222bbee8ce883f; listSourceId=src_cninfo_688235_announcements."
+}

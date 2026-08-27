@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_22_e53cb6cfdbc5",
+  "rawArtifactId": "raw_2026_06_19_static_cninfo_com_cn_50056f6f9f",
+  "routeDecisionId": "route_2026_06_19_ffa66f07c890",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "national_silicon",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-22T16:15:52+08:00",
+  "updatedAt": "2026-07-22T16:15:53+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-22T16:15:53+08:00",
+  "finishedAt": "2026-07-22T16:15:53+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_06_19_filing_671fc9b628"
+  ],
+  "evidenceIds": [
+    "evd_2026_06_19_filing_671fc9b628"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_06_19_filing_material_v0_6f555eda8d"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_22_173fcf762831"
+  ]
+}

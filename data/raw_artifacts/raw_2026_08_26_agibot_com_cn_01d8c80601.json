@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_26_agibot_com_cn_01d8c80601",
+  "artifactType": "news_page",
+  "title": "一手打天下，智元子公司临界点赢得机器人运动会7枚金牌",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/186.html",
+  "sourceId": "src_agibot_com_cn_01d8c80601",
+  "fetchRunId": "fetch_2026_08_26_agibot_com_cn_01d8c80601",
+  "publishedAt": "2026-08-26",
+  "firstSeenAt": "2026-08-26T16:18:47+08:00",
+  "capturedAt": "2026-08-26T16:18:47+08:00",
+  "contentHash": "sha256:b46872182651443f3a7a110ad58f2e5b9dbe770439e0c8a5445dc83fee5aead8",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_26_agibot_com_cn_01d8c80601.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_26_other_a708264b6a"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_db9fe0742a8a704a; listSourceId=src_agibot_official_news."
+}

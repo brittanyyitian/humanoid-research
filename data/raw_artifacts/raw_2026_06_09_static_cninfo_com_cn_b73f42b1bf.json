@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_09_static_cninfo_com_cn_b73f42b1bf",
+  "artifactType": "filing",
+  "title": "第八届董事会第三十次会议决议公告",
+  "publisher": "通源石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-09/1225357135.PDF",
+  "sourceId": "src_static_cninfo_com_cn_b73f42b1bf",
+  "fetchRunId": "fetch_2026_06_09_static_cninfo_com_cn_b73f42b1bf",
+  "publishedAt": "2026-06-09",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9aca0626e993f54bb3db8f4ecdb24d0a11bba4dab81e782432c15ca41e0fdc15",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_09_static_cninfo_com_cn_b73f42b1bf.json",
+  "entityIds": [
+    "tongyuan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_06_09_filing_bd2eef5c58"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f9a0d17e7caed31d; listSourceId=src_cninfo_300164_announcements."
+}

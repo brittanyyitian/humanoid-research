@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_02_static_cninfo_com_cn_20f2124f40",
+  "artifactType": "filing",
+  "title": "澜起科技第三届董事会第十七次会议决议公告",
+  "publisher": "澜起科技",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-02/1225344087.PDF",
+  "sourceId": "src_static_cninfo_com_cn_20f2124f40",
+  "fetchRunId": "fetch_2026_06_02_static_cninfo_com_cn_20f2124f40",
+  "publishedAt": "2026-06-02",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:9009fc6b8697e0b41279937ffe4cc864ab7ef39f820178591026a8f80222f898",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_02_static_cninfo_com_cn_20f2124f40.json",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "claimIds": [
+    "claim_2026_06_02_filing_a37bf93fd5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_552be5fcca5769ed; listSourceId=src_cninfo_688008_announcements."
+}

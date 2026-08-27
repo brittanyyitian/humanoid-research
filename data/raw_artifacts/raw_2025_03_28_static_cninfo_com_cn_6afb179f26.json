@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_03_28_static_cninfo_com_cn_6afb179f26",
+  "artifactType": "filing",
+  "title": "2024年年度报告摘要",
+  "publisher": "国际实业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-03-28/1222926801.PDF",
+  "sourceId": "src_static_cninfo_com_cn_6afb179f26",
+  "fetchRunId": "fetch_2025_03_28_static_cninfo_com_cn_6afb179f26",
+  "publishedAt": "2025-03-28",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:d1cd02624fbb335a22f9edb606577c90a98a18dd4d487a2946b61f0304f1a375",
+  "storagePath": "raw_artifacts/payloads/raw_2025_03_28_static_cninfo_com_cn_6afb179f26.json",
+  "entityIds": [
+    "international_industry"
+  ],
+  "claimIds": [
+    "claim_2025_03_28_filing_5f4a5a10f1"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b0948647270520ef; listSourceId=src_cninfo_000159_announcements."
+}

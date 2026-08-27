@@ -1,0 +1,33 @@
+{
+  "id": "ptask_2026_07_23_b876cc9b5659",
+  "rawArtifactId": "raw_2026_07_23_static_cninfo_com_cn_159ac49f30",
+  "routeDecisionId": "route_2026_07_23_3a1f86e10e12",
+  "pipeline": "filing_pipeline",
+  "type": "filing",
+  "entityId": "montage_technology",
+  "entityIds": [
+    "montage_technology"
+  ],
+  "inputType": "url",
+  "sourceKind": "filing",
+  "status": "completed",
+  "createdAt": "2026-07-23T09:31:19+08:00",
+  "updatedAt": "2026-07-23T09:31:19+08:00",
+  "nextAction": "review generated claim candidates",
+  "notes": "Pipeline generated claim/evidence candidates. Review is still required before promotion.",
+  "startedAt": "2026-07-23T09:31:19+08:00",
+  "finishedAt": "2026-07-23T09:31:19+08:00",
+  "error": null,
+  "claimIds": [
+    "claim_2026_07_23_filing_ac8e381e63"
+  ],
+  "evidenceIds": [
+    "evd_2026_07_23_filing_ac8e381e63"
+  ],
+  "ruleOutputIds": [
+    "rout_2026_07_23_filing_material_v0_a89d175edb"
+  ],
+  "pipelineRunIds": [
+    "prun_2026_07_23_bac9bd211be9"
+  ]
+}

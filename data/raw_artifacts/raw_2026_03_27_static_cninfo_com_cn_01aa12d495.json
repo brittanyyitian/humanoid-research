@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_03_27_static_cninfo_com_cn_01aa12d495",
+  "artifactType": "filing",
+  "title": "中芯国际2025年年度报告",
+  "publisher": "中芯国际",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-03-27/1225037057.PDF",
+  "sourceId": "src_static_cninfo_com_cn_01aa12d495",
+  "fetchRunId": "fetch_2026_03_27_static_cninfo_com_cn_01aa12d495",
+  "publishedAt": "2026-03-27",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:7b7b8d8762b988460e4f91ffc56b4fc73a51fc89bc12e504a67d876eab3160ac",
+  "storagePath": "raw_artifacts/payloads/raw_2026_03_27_static_cninfo_com_cn_01aa12d495.json",
+  "entityIds": [
+    "smic"
+  ],
+  "claimIds": [
+    "claim_2026_03_27_filing_b30c1c3f41"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b91a038df036e735; listSourceId=src_cninfo_688981_announcements."
+}

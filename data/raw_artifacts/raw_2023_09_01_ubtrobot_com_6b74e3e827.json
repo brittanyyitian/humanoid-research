@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_09_01_ubtrobot_com_6b74e3e827",
+  "artifactType": "news_page",
+  "title": "UBTECH Robotics to Play a Key Role in Hosting the IEEE RO-MAN 2024",
+  "publisher": "UBTECH ROBOTICS CORP LTD",
+  "url": "https://www.ubtrobot.com/en/about/news/473378826465349",
+  "sourceId": "src_ubtrobot_com_6b74e3e827",
+  "fetchRunId": "fetch_2023_09_01_ubtrobot_com_6b74e3e827",
+  "publishedAt": "2023-09-01",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:a356eb6ff3920a8e578c698ead6d0d1a8cf0ce9935b291a343c42ae26945832e",
+  "storagePath": "raw_artifacts/payloads/raw_2023_09_01_ubtrobot_com_6b74e3e827.json",
+  "entityIds": [
+    "ubtech"
+  ],
+  "claimIds": [
+    "claim_2023_09_01_other_46cb0fde41"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_5ab31bfef1946269; listSourceId=src_ubtech_official_news."
+}

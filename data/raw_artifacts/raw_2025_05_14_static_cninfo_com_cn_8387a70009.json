@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_05_14_static_cninfo_com_cn_8387a70009",
+  "artifactType": "filing",
+  "title": "百济神州有限公司2025年第一季度报告",
+  "publisher": "百济神州",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-05-14/1223536994.PDF",
+  "sourceId": "src_static_cninfo_com_cn_8387a70009",
+  "fetchRunId": "fetch_2025_05_14_static_cninfo_com_cn_8387a70009",
+  "publishedAt": "2025-05-14",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:4acc54e7a74de17df7dd5abd648eb15bd815f955035a515b2164c205549b8268",
+  "storagePath": "raw_artifacts/payloads/raw_2025_05_14_static_cninfo_com_cn_8387a70009.json",
+  "entityIds": [
+    "beone"
+  ],
+  "claimIds": [
+    "claim_2025_05_14_filing_71415ee79c"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_5e747980c1f801b8; listSourceId=src_cninfo_688235_announcements."
+}

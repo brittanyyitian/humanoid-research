@@ -1,0 +1,22 @@
+{
+  "id": "raw_2023_03_22_unitree_com_af2307d378",
+  "artifactType": "news_page",
+  "title": "【美国超级碗】宇树机器狗Go1惊艳亮相，令世界瞩目",
+  "publisher": "宇树科技股份有限公司",
+  "url": "https://www.unitree.com/cn/news/16",
+  "sourceId": "src_unitree_com_af2307d378",
+  "fetchRunId": "fetch_2023_03_22_unitree_com_af2307d378",
+  "publishedAt": "2023-03-22",
+  "firstSeenAt": "2026-07-15T10:58:14+08:00",
+  "capturedAt": "2026-07-15T10:58:14+08:00",
+  "contentHash": "sha256:d572315c5fd7b4491873de4ad910cd97326d2e32465affc3b8a4d41f754374c6",
+  "storagePath": "raw_artifacts/payloads/raw_2023_03_22_unitree_com_af2307d378.json",
+  "entityIds": [
+    "unitree"
+  ],
+  "claimIds": [
+    "claim_2023_03_22_other_ab996efdf7"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_2980eeaa10610e95; listSourceId=src_unitree_official_news."
+}

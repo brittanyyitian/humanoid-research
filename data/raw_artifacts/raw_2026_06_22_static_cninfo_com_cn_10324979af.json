@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_22_static_cninfo_com_cn_10324979af",
+  "artifactType": "filing",
+  "title": "关于公司高级管理人员辞职的公告",
+  "publisher": "北方华创",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-22/1225378612.PDF",
+  "sourceId": "src_static_cninfo_com_cn_10324979af",
+  "fetchRunId": "fetch_2026_06_22_static_cninfo_com_cn_10324979af",
+  "publishedAt": "2026-06-22",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:c094a52b92c9d852b47b11f982e4b8b69ab1cdd46c7feafa1c7d3c207168515b",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_22_static_cninfo_com_cn_10324979af.json",
+  "entityIds": [
+    "naura"
+  ],
+  "claimIds": [
+    "claim_2026_06_22_filing_61f506c9c0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_b8810a231bdcff5e; listSourceId=src_cninfo_002371_announcements."
+}

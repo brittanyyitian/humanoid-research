@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_21_static_cninfo_com_cn_82e4ab76f6",
+  "artifactType": "filing",
+  "title": "大唐发电2026年半年度上网电量完成情况公告",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-21/1225432568.PDF",
+  "sourceId": "src_static_cninfo_com_cn_82e4ab76f6",
+  "fetchRunId": "fetch_2026_07_21_static_cninfo_com_cn_82e4ab76f6",
+  "publishedAt": "2026-07-21",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:4d07a02fad71c0ab08caada84e9dbd1c539dd75c59191c15d4fc90946d29c845",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_21_static_cninfo_com_cn_82e4ab76f6.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_21_filing_a201e61024"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_3908ea2690c0e4c2; listSourceId=src_cninfo_601991_announcements."
+}

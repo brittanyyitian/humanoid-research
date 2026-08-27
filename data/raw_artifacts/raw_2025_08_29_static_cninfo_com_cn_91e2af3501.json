@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_29_static_cninfo_com_cn_91e2af3501",
+  "artifactType": "filing",
+  "title": "沪硅产业2025年半年度报告摘要",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224611607.PDF",
+  "sourceId": "src_static_cninfo_com_cn_91e2af3501",
+  "fetchRunId": "fetch_2025_08_29_static_cninfo_com_cn_91e2af3501",
+  "publishedAt": "2025-08-29",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:379522e1124be119cd9008fcde3d56ebf44e551b6f7c8d2b63bf816c82fff249",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_29_static_cninfo_com_cn_91e2af3501.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2025_08_29_filing_e019008397"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_90f67e1929466ee5; listSourceId=src_cninfo_688126_announcements."
+}

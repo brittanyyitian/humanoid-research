@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_06_static_cninfo_com_cn_3276b6412d",
+  "artifactType": "filing",
+  "title": "沪硅产业股东减持股份结果公告",
+  "publisher": "沪硅产业",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-06/1225354356.PDF",
+  "sourceId": "src_static_cninfo_com_cn_3276b6412d",
+  "fetchRunId": "fetch_2026_06_06_static_cninfo_com_cn_3276b6412d",
+  "publishedAt": "2026-06-06",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:419b73941b506f90bead1c41bf9856612d014ca5920f87a6b5259c4a493fb69e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_06_static_cninfo_com_cn_3276b6412d.json",
+  "entityIds": [
+    "national_silicon"
+  ],
+  "claimIds": [
+    "claim_2026_06_06_filing_15e7f6b9c5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_7b456b60aab29ce6; listSourceId=src_cninfo_688126_announcements."
+}

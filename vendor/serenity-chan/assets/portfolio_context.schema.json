@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Serenity Portfolio Context",
+  "type": "object",
+  "required": [
+    "contract_type",
+    "schema_version",
+    "provided",
+    "generated_at",
+    "account_scope",
+    "positions",
+    "constraints",
+    "decision_boundary"
+  ],
+  "properties": {
+    "contract_type": { "type": "string", "const": "serenity_portfolio_context" },
+    "schema_version": { "type": "string", "const": "1.0" },
+    "provided": { "type": "boolean" },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "account_scope": { "type": "string" },
+    "positions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "weight_pct"],
+        "properties": {
+          "symbol": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "weight_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+          "cost_basis": { "type": ["number", "null"] },
+          "current_price": { "type": ["number", "null"] }
+        },
+        "additionalProperties": true
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "max_single_position_pct": { "type": ["number", "null"], "minimum": 0 },
+        "cash_pct": { "type": ["number", "null"], "minimum": 0 },
+        "risk_profile": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "decision_boundary": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_22_static_cninfo_com_cn_a687a55dca",
+  "artifactType": "filing",
+  "title": "大唐发电H股通函",
+  "publisher": "大唐发电",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-22/1225435074.PDF",
+  "sourceId": "src_static_cninfo_com_cn_a687a55dca",
+  "fetchRunId": "fetch_2026_07_22_static_cninfo_com_cn_a687a55dca",
+  "publishedAt": "2026-07-22",
+  "firstSeenAt": "2026-07-23T09:31:19+08:00",
+  "capturedAt": "2026-07-23T09:31:19+08:00",
+  "contentHash": "sha256:713514d307e671ace335b318af04b48edb6c8383799e3f8abfd4ab36c307a145",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_22_static_cninfo_com_cn_a687a55dca.json",
+  "entityIds": [
+    "datang_power"
+  ],
+  "claimIds": [
+    "claim_2026_07_22_filing_b0941a748f"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_052fafabdcfe95e9; listSourceId=src_cninfo_601991_announcements."
+}

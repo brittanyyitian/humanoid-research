@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_04_24_static_cninfo_com_cn_49bd26f6c8",
+  "artifactType": "filing",
+  "title": "关于2026年度投资计划的公告",
+  "publisher": "泰山石油",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225170837.PDF",
+  "sourceId": "src_static_cninfo_com_cn_49bd26f6c8",
+  "fetchRunId": "fetch_2026_04_24_static_cninfo_com_cn_49bd26f6c8",
+  "publishedAt": "2026-04-24",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:ef68523a21690b412f061ef866094418ca9ea5a01875b60cb3e6e8febd4c4c0e",
+  "storagePath": "raw_artifacts/payloads/raw_2026_04_24_static_cninfo_com_cn_49bd26f6c8.json",
+  "entityIds": [
+    "taishan_petroleum"
+  ],
+  "claimIds": [
+    "claim_2026_04_24_filing_62a273d5da"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_4f36c97aec7fb0f1; listSourceId=src_cninfo_000554_announcements."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_10_static_cninfo_com_cn_4d10226ceb",
+  "artifactType": "filing",
+  "title": "关于选举职工代表董事的公告",
+  "publisher": "埃斯顿",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-10/1225417803.PDF",
+  "sourceId": "src_static_cninfo_com_cn_4d10226ceb",
+  "fetchRunId": "fetch_2026_07_10_static_cninfo_com_cn_4d10226ceb",
+  "publishedAt": "2026-07-10",
+  "firstSeenAt": "2026-07-15T11:03:07+08:00",
+  "capturedAt": "2026-07-15T11:03:07+08:00",
+  "contentHash": "sha256:f0f16d371ff096e306bcb6e43dd17622b450e61a9e6d745f105e293dc92d4015",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_10_static_cninfo_com_cn_4d10226ceb.json",
+  "entityIds": [
+    "estun"
+  ],
+  "claimIds": [
+    "claim_2026_07_10_filing_5cdaac4a93"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_32a7554ddc758039; listSourceId=src_cninfo_002747_announcements."
+}

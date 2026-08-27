@@ -1,0 +1,1056 @@
+{
+  "id": "saout_shandong_gold_bc9d44d710c7",
+  "entityId": "shandong_gold",
+  "name": "山东黄金",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "serenity_ai_review",
+  "provider": {
+    "name": "serenity_chan_ai_reviewer_v0",
+    "type": "ai_review",
+    "mode": "validated_dossier_projection",
+    "externalCall": true,
+    "note": "直接读取并校验 Serenity formal workspace 生成的 dossier 与 overlay。"
+  },
+  "storagePath": "analysis/serenity_outputs/shandong_gold.json",
+  "display": {
+    "mode": "serenity_ai_review",
+    "label": "Serenity 深度分析",
+    "title": "山东黄金 · Serenity 深度分析",
+    "summary": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
+    "currentFocus": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
+    "toVerify": [
+      "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+      "山东黄金的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+      "价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断"
+    ],
+    "viewLabel": "Serenity 当前判断",
+    "view": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
+    "followup": "未来30天：自动检查山东黄金的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。；未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。；未来180天：复盘山东黄金值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。",
+    "materialLine": "黄金开采",
+    "inputState": "深度分析已通过 Serenity 校验 · A · 行情每日更新",
+    "stockRadar": {
+      "source": "serenity",
+      "symbol": "600547.SH",
+      "name": "山东黄金",
+      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "quote": {
+        "price": 34.89,
+        "previousClose": 34.48991696322657,
+        "changePct": 1.160000000000008,
+        "high": 28.09,
+        "low": 27,
+        "open": 27.26,
+        "volume": 697073,
+        "turnover": 1914544238,
+        "turnoverText": "35.06亿",
+        "currency": "CNY",
+        "asOf": "20260827161455",
+        "source": "daily_market_snapshot"
+      },
+      "ai": {
+        "rating": "C",
+        "ratingCap": "S",
+        "priorityScore": 55.05,
+        "technicalTimingScore": 52.6,
+        "marketPayoffScore": 55.96,
+        "dataReadinessScore": 100,
+        "type": "接近买点",
+        "currentAction": "等待走势进一步确认。",
+        "actionReadiness": "STRONG_OBSERVE",
+        "watchlistBucket": "LEAD_TRACKING",
+        "confidence": "HIGH",
+        "companyScore": 100,
+        "evidenceScore": 96,
+        "valuationScore": 76,
+        "timingScore": 52.6,
+        "riskScore": 64,
+        "decisionReason": "公司和证据基本通过，但价格或走势只达到临界水平，还不够稳。",
+        "actionGrade": {
+          "methodology": "serenity_evidence_first_action_grade_v2",
+          "tier": "NEAR_BUY_POINT",
+          "label": "接近买点",
+          "researchRating": "A",
+          "overallScore": 78.85,
+          "fundamentalScore": 93.4,
+          "companyScore": 100,
+          "evidenceScore": 96,
+          "valuationScore": 76,
+          "timingScore": 52.6,
+          "riskScore": 64,
+          "reason": "公司和证据基本通过，但价格或走势只达到临界水平，还不够稳。",
+          "nextCondition": "等待走势进一步确认。",
+          "metrics": {
+            "pe": 27.167,
+            "ps": 1.2346,
+            "revenueGrowth": 0.2537,
+            "profitGrowth": 0.4087,
+            "cashConversion": 4.2164,
+            "debtRatio": 0.6257,
+            "return20": 0.1512
+          }
+        }
+      },
+      "movement": {
+        "confirmed": [
+          "2025年营收1042.87亿元，同比+26.38%；归母净利润47.39亿元，同比+60.57%。2026-03-31营收325.16亿元，较可比期+25.37%；归母净利润14.46亿元，较可比期+40.87%；经营现金流60.95亿元。",
+          "五、报告期内主要经营情况 2025年，公司矿产金产量48.89吨，同比增加2.72吨，增幅5.89%。",
+          "另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。",
+          "2026-08-26复权收盘34.49元，高于20日平均成本32.37元；60日平均成本28元，近20个交易日涨跌+15.12%。"
+        ],
+        "possible": [
+          "山东黄金当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+          "山东黄金当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+          "山东黄金当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。"
+        ],
+        "unexplained": []
+      },
+      "sentiment": {
+        "available": true,
+        "marketPayoffScore": 55.96,
+        "crowdingControl": 3.35,
+        "evidenceSupportedGrowth": null,
+        "note": "候选优先级 55.05/100；行动就绪 STRONG_OBSERVE。"
+      },
+      "trend": {
+        "available": true,
+        "technicalTimingScore": 52.6,
+        "dailyBuyPointScore": 3.5,
+        "dmaAlignmentScore": 2.75,
+        "state": "Serenity formal scorecard 技术时机字段。",
+        "buyPoint": "Serenity 未输出明确买点；只显示技术时机分。",
+        "chart": [
+          {
+            "date": "2026-03-13",
+            "close": 46.33,
+            "volume": 444479,
+            "average20": 46.905,
+            "average60": 44.897
+          },
+          {
+            "date": "2026-03-16",
+            "close": 43.91,
+            "volume": 702718,
+            "average20": 46.861,
+            "average60": 45.047
+          },
+          {
+            "date": "2026-03-17",
+            "close": 44.32,
+            "volume": 481540,
+            "average20": 46.809,
+            "average60": 45.206
+          },
+          {
+            "date": "2026-03-18",
+            "close": 43.55,
+            "volume": 376066,
+            "average20": 46.735,
+            "average60": 45.335
+          },
+          {
+            "date": "2026-03-19",
+            "close": 40.47,
+            "volume": 690591,
+            "average20": 46.4,
+            "average60": 45.401
+          },
+          {
+            "date": "2026-03-20",
+            "close": 39.51,
+            "volume": 630804,
+            "average20": 46.037,
+            "average60": 45.478
+          },
+          {
+            "date": "2026-03-23",
+            "close": 36.86,
+            "volume": 841156,
+            "average20": 45.619,
+            "average60": 45.492
+          },
+          {
+            "date": "2026-03-24",
+            "close": 38.49,
+            "volume": 614589,
+            "average20": 45.201,
+            "average60": 45.518
+          },
+          {
+            "date": "2026-03-25",
+            "close": 39.38,
+            "volume": 682756,
+            "average20": 44.819,
+            "average60": 45.571
+          },
+          {
+            "date": "2026-03-26",
+            "close": 37.85,
+            "volume": 501563,
+            "average20": 44.39,
+            "average60": 45.57
+          },
+          {
+            "date": "2026-03-27",
+            "close": 38.4,
+            "volume": 657290,
+            "average20": 43.954,
+            "average60": 45.534
+          },
+          {
+            "date": "2026-03-30",
+            "close": 40.51,
+            "volume": 736026,
+            "average20": 43.386,
+            "average60": 45.544
+          },
+          {
+            "date": "2026-03-31",
+            "close": 40.07,
+            "volume": 581214,
+            "average20": 42.886,
+            "average60": 45.566
+          },
+          {
+            "date": "2026-04-01",
+            "close": 40.95,
+            "volume": 493146,
+            "average20": 42.544,
+            "average60": 45.59
+          },
+          {
+            "date": "2026-04-02",
+            "close": 39.85,
+            "volume": 449854,
+            "average20": 42.203,
+            "average60": 45.613
+          },
+          {
+            "date": "2026-04-03",
+            "close": 40.01,
+            "volume": 273827,
+            "average20": 41.911,
+            "average60": 45.641
+          },
+          {
+            "date": "2026-04-07",
+            "close": 39.52,
+            "volume": 272030,
+            "average20": 41.55,
+            "average60": 45.657
+          },
+          {
+            "date": "2026-04-08",
+            "close": 42.31,
+            "volume": 663637,
+            "average20": 41.303,
+            "average60": 45.696
+          },
+          {
+            "date": "2026-04-09",
+            "close": 41.09,
+            "volume": 427551,
+            "average20": 41.005,
+            "average60": 45.7
+          },
+          {
+            "date": "2026-04-10",
+            "close": 40.02,
+            "volume": 493765,
+            "average20": 40.67,
+            "average60": 45.686
+          },
+          {
+            "date": "2026-04-13",
+            "close": 39.32,
+            "volume": 384962,
+            "average20": 40.32,
+            "average60": 45.654
+          },
+          {
+            "date": "2026-04-14",
+            "close": 39.22,
+            "volume": 352678,
+            "average20": 40.085,
+            "average60": 45.582
+          },
+          {
+            "date": "2026-04-15",
+            "close": 38.6,
+            "volume": 483469,
+            "average20": 39.799,
+            "average60": 45.478
+          },
+          {
+            "date": "2026-04-16",
+            "close": 39.07,
+            "volume": 400422,
+            "average20": 39.575,
+            "average60": 45.361
+          },
+          {
+            "date": "2026-04-17",
+            "close": 38.26,
+            "volume": 447608,
+            "average20": 39.465,
+            "average60": 45.229
+          },
+          {
+            "date": "2026-04-20",
+            "close": 37.94,
+            "volume": 519189,
+            "average20": 39.386,
+            "average60": 45.073
+          },
+          {
+            "date": "2026-04-21",
+            "close": 37.62,
+            "volume": 394415,
+            "average20": 39.424,
+            "average60": 44.938
+          },
+          {
+            "date": "2026-04-22",
+            "close": 37.07,
+            "volume": 547931,
+            "average20": 39.353,
+            "average60": 44.773
+          },
+          {
+            "date": "2026-04-23",
+            "close": 35.66,
+            "volume": 665016,
+            "average20": 39.167,
+            "average60": 44.578
+          },
+          {
+            "date": "2026-04-24",
+            "close": 35.66,
+            "volume": 548074,
+            "average20": 39.058,
+            "average60": 44.317
+          },
+          {
+            "date": "2026-04-27",
+            "close": 35.46,
+            "volume": 336703,
+            "average20": 38.91,
+            "average60": 44.07
+          },
+          {
+            "date": "2026-04-28",
+            "close": 34.61,
+            "volume": 366747,
+            "average20": 38.616,
+            "average60": 43.804
+          },
+          {
+            "date": "2026-04-29",
+            "close": 35.22,
+            "volume": 427761,
+            "average20": 38.373,
+            "average60": 43.465
+          },
+          {
+            "date": "2026-04-30",
+            "close": 34.2,
+            "volume": 776545,
+            "average20": 38.036,
+            "average60": 43.134
+          },
+          {
+            "date": "2026-05-06",
+            "close": 35.47,
+            "volume": 805218,
+            "average20": 37.817,
+            "average60": 42.734
+          },
+          {
+            "date": "2026-05-07",
+            "close": 35.79,
+            "volume": 769177,
+            "average20": 37.606,
+            "average60": 42.323
+          },
+          {
+            "date": "2026-05-08",
+            "close": 36.32,
+            "volume": 909467,
+            "average20": 37.446,
+            "average60": 42.023
+          },
+          {
+            "date": "2026-05-11",
+            "close": 35.2,
+            "volume": 642452,
+            "average20": 37.09,
+            "average60": 41.794
+          },
+          {
+            "date": "2026-05-12",
+            "close": 34.65,
+            "volume": 523074,
+            "average20": 36.768,
+            "average60": 41.561
+          },
+          {
+            "date": "2026-05-13",
+            "close": 34.57,
+            "volume": 460710,
+            "average20": 36.496,
+            "average60": 41.345
+          },
+          {
+            "date": "2026-05-14",
+            "close": 33.41,
+            "volume": 515974,
+            "average20": 36.2,
+            "average60": 41.141
+          },
+          {
+            "date": "2026-05-15",
+            "close": 31.72,
+            "volume": 726727,
+            "average20": 35.825,
+            "average60": 40.924
+          },
+          {
+            "date": "2026-05-18",
+            "close": 31.08,
+            "volume": 579602,
+            "average20": 35.449,
+            "average60": 40.685
+          },
+          {
+            "date": "2026-05-19",
+            "close": 30.67,
+            "volume": 414837,
+            "average20": 35.029,
+            "average60": 40.446
+          },
+          {
+            "date": "2026-05-20",
+            "close": 30.27,
+            "volume": 466102,
+            "average20": 34.629,
+            "average60": 40.165
+          },
+          {
+            "date": "2026-05-21",
+            "close": 29.42,
+            "volume": 467793,
+            "average20": 34.203,
+            "average60": 39.875
+          },
+          {
+            "date": "2026-05-22",
+            "close": 29.87,
+            "volume": 437245,
+            "average20": 33.816,
+            "average60": 39.62
+          },
+          {
+            "date": "2026-05-25",
+            "close": 29.88,
+            "volume": 482809,
+            "average20": 33.456,
+            "average60": 39.337
+          },
+          {
+            "date": "2026-05-26",
+            "close": 31.28,
+            "volume": 813503,
+            "average20": 33.237,
+            "average60": 39.074
+          },
+          {
+            "date": "2026-05-27",
+            "close": 29.72,
+            "volume": 526536,
+            "average20": 32.941,
+            "average60": 38.796
+          },
+          {
+            "date": "2026-05-28",
+            "close": 28.78,
+            "volume": 549151,
+            "average20": 32.606,
+            "average60": 38.49
+          },
+          {
+            "date": "2026-05-29",
+            "close": 28.69,
+            "volume": 493213,
+            "average20": 32.311,
+            "average60": 38.104
+          },
+          {
+            "date": "2026-06-01",
+            "close": 29.23,
+            "volume": 576250,
+            "average20": 32.011,
+            "average60": 37.757
+          },
+          {
+            "date": "2026-06-02",
+            "close": 29.75,
+            "volume": 459719,
+            "average20": 31.789,
+            "average60": 37.456
+          },
+          {
+            "date": "2026-06-03",
+            "close": 29.21,
+            "volume": 412352,
+            "average20": 31.476,
+            "average60": 37.165
+          },
+          {
+            "date": "2026-06-04",
+            "close": 28.53,
+            "volume": 379013,
+            "average20": 31.113,
+            "average60": 36.876
+          },
+          {
+            "date": "2026-06-05",
+            "close": 27.87,
+            "volume": 410621,
+            "average20": 30.69,
+            "average60": 36.562
+          },
+          {
+            "date": "2026-06-08",
+            "close": 26.28,
+            "volume": 629309,
+            "average20": 30.244,
+            "average60": 36.212
+          },
+          {
+            "date": "2026-06-09",
+            "close": 27.12,
+            "volume": 490945,
+            "average20": 29.867,
+            "average60": 35.88
+          },
+          {
+            "date": "2026-06-10",
+            "close": 26.43,
+            "volume": 544203,
+            "average20": 29.46,
+            "average60": 35.542
+          },
+          {
+            "date": "2026-06-11",
+            "close": 26.77,
+            "volume": 542603,
+            "average20": 29.128,
+            "average60": 35.216
+          },
+          {
+            "date": "2026-06-12",
+            "close": 27.61,
+            "volume": 827809,
+            "average20": 28.923,
+            "average60": 34.944
+          },
+          {
+            "date": "2026-06-15",
+            "close": 28.48,
+            "volume": 806173,
+            "average20": 28.793,
+            "average60": 34.68
+          },
+          {
+            "date": "2026-06-16",
+            "close": 28.07,
+            "volume": 533475,
+            "average20": 28.663,
+            "average60": 34.422
+          },
+          {
+            "date": "2026-06-17",
+            "close": 28.08,
+            "volume": 377581,
+            "average20": 28.554,
+            "average60": 34.216
+          },
+          {
+            "date": "2026-06-18",
+            "close": 26.73,
+            "volume": 635842,
+            "average20": 28.419,
+            "average60": 34.003
+          },
+          {
+            "date": "2026-06-22",
+            "close": 27.11,
+            "volume": 746775,
+            "average20": 28.281,
+            "average60": 33.84
+          },
+          {
+            "date": "2026-06-23",
+            "close": 24.68,
+            "volume": 1070123,
+            "average20": 28.021,
+            "average60": 33.61
+          },
+          {
+            "date": "2026-06-24",
+            "close": 24.58,
+            "volume": 594226,
+            "average20": 27.686,
+            "average60": 33.364
+          },
+          {
+            "date": "2026-06-25",
+            "close": 23.75,
+            "volume": 776253,
+            "average20": 27.387,
+            "average60": 33.129
+          },
+          {
+            "date": "2026-06-26",
+            "close": 22.82,
+            "volume": 598051,
+            "average20": 27.09,
+            "average60": 32.869
+          },
+          {
+            "date": "2026-06-29",
+            "close": 23.37,
+            "volume": 638515,
+            "average20": 26.824,
+            "average60": 32.583
+          },
+          {
+            "date": "2026-06-30",
+            "close": 22.91,
+            "volume": 550534,
+            "average20": 26.508,
+            "average60": 32.297
+          },
+          {
+            "date": "2026-07-01",
+            "close": 23.02,
+            "volume": 514315,
+            "average20": 26.171,
+            "average60": 31.998
+          },
+          {
+            "date": "2026-07-02",
+            "close": 24,
+            "volume": 1082375,
+            "average20": 25.911,
+            "average60": 31.734
+          },
+          {
+            "date": "2026-07-03",
+            "close": 25.9,
+            "volume": 1562312,
+            "average20": 25.779,
+            "average60": 31.499
+          },
+          {
+            "date": "2026-07-06",
+            "close": 25.62,
+            "volume": 1106314,
+            "average20": 25.666,
+            "average60": 31.267
+          },
+          {
+            "date": "2026-07-07",
+            "close": 24.59,
+            "volume": 584651,
+            "average20": 25.582,
+            "average60": 30.972
+          },
+          {
+            "date": "2026-07-08",
+            "close": 24.47,
+            "volume": 595496,
+            "average20": 25.449,
+            "average60": 30.695
+          },
+          {
+            "date": "2026-07-09",
+            "close": 24.28,
+            "volume": 693476,
+            "average20": 25.342,
+            "average60": 30.433
+          },
+          {
+            "date": "2026-07-10",
+            "close": 24.96,
+            "volume": 789248,
+            "average20": 25.251,
+            "average60": 30.193
+          },
+          {
+            "date": "2026-07-13",
+            "close": 23.96,
+            "volume": 530785,
+            "average20": 25.069,
+            "average60": 29.939
+          },
+          {
+            "date": "2026-07-14",
+            "close": 25.26,
+            "volume": 748976,
+            "average20": 24.908,
+            "average60": 29.717
+          },
+          {
+            "date": "2026-07-15",
+            "close": 24.69,
+            "volume": 539999,
+            "average20": 24.739,
+            "average60": 29.477
+          },
+          {
+            "date": "2026-07-16",
+            "close": 24.76,
+            "volume": 559901,
+            "average20": 24.573,
+            "average60": 29.252
+          },
+          {
+            "date": "2026-07-17",
+            "close": 23.76,
+            "volume": 849955,
+            "average20": 24.424,
+            "average60": 29.016
+          },
+          {
+            "date": "2026-07-20",
+            "close": 24.42,
+            "volume": 691912,
+            "average20": 24.29,
+            "average60": 28.796
+          },
+          {
+            "date": "2026-07-21",
+            "close": 25.87,
+            "volume": 965245,
+            "average20": 24.349,
+            "average60": 28.609
+          },
+          {
+            "date": "2026-07-22",
+            "close": 27.4,
+            "volume": 1328953,
+            "average20": 24.49,
+            "average60": 28.471
+          },
+          {
+            "date": "2026-07-23",
+            "close": 28,
+            "volume": 697073,
+            "average20": 24.703,
+            "average60": 28.344
+          }
+        ],
+        "plainReading": {
+          "state": "走势正在变强",
+          "what": "现价在近一个月平均成本上方；今天成交与平时接近。",
+          "meaning": "价格高于近期多数人的平均成本，而且近期平均成本也在抬高。",
+          "watch": "接下来能守住 24.70 附近，上涨时成交没有明显缩小，才算继续变好。",
+          "risk": "如果跌破近期低点 23.23，说明走势比现在更差，需要重新判断。",
+          "levels": {
+            "current": 34.89,
+            "recentAverage": 24.703,
+            "longerAverage": 28.344,
+            "recentHigh": 28.09,
+            "recentLow": 23.23
+          }
+        }
+      },
+      "risk": [
+        "另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。",
+        "若下一期现金流明显落后于利润，山东黄金的增长质量需要下调。",
+        "若价格跌回60日平均成本下方且基本面没有上修，山东黄金需要重新判断。"
+      ],
+      "triggers": {
+        "30d": [
+          "自动检查山东黄金的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。"
+        ],
+        "90d": [
+          "下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。"
+        ],
+        "180d": [
+          "复盘山东黄金值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      },
+      "scenarios": {
+        "base": {
+          "summary": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
+          "probability": 0.55,
+          "conditions": [
+            "2026-03-31营收325.16亿元，较可比期+25.37%；归母净利润14.46亿元，较可比期+40.87%；经营现金流60.95亿元。",
+            "五、报告期内主要经营情况 2025年，公司矿产金产量48.89吨，同比增加2.72吨，增幅5.89%。"
+          ]
+        },
+        "upside": {
+          "summary": "山东黄金的业务与财务继续同向改善，关注等级上调。",
+          "probability": 0.25,
+          "conditions": [
+            "资源量、储量、产量、单位成本、销量或经营现金流",
+            "下一期收入、利润和经营现金流继续改善",
+            "价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断"
+          ]
+        },
+        "downside": {
+          "summary": "山东黄金的业务兑现或现金质量转弱，关注等级下调。",
+          "probability": 0.2,
+          "conditions": [
+            "另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。",
+            "经营现金流持续弱于利润",
+            "价格跌破60日平均成本28元，同时公司基本面没有改善"
+          ]
+        }
+      },
+      "actionConditions": {
+        "upgrade_to_action": [
+          "资源量、储量、产量、单位成本、销量或经营现金流继续得到原文和数字验证，财务与价格同时满足：价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断"
+        ],
+        "add_or_size_up": [
+          "本站只训练判断，不提供仓位指令。"
+        ],
+        "trim_or_exit": [
+          "若另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。继续恶化，或价格跌破60日平均成本28元，同时公司基本面没有改善，则下调研究等级。"
+        ],
+        "stay_research_only": [
+          "先看价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      "nextEvidence": [
+        "资源量、储量、产量、单位成本、销量或经营现金流与下一期现金流继续同向验证",
+        "下一份正式披露能否继续量化资源量、储量、产量、单位成本、销量或经营现金流？",
+        "山东黄金的经营现金流能否跟上净利润，且应收、库存或投入不再更快占用现金？",
+        "价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断"
+      ],
+      "evidence": {
+        "directCustomerOrderCount": 0,
+        "leadCustomerOrderCount": 0,
+        "customerOrderStatus": "NO_DIRECT_CUSTOMER_ORDER_CAPACITY_DISCLOSURE",
+        "h4h5EvidenceBarMet": null,
+        "cards": [
+          {
+            "title": "财务是否真正兑现",
+            "fact": "2025年营收1042.87亿元，同比+26.38%；归母净利润47.39亿元，同比+60.57%。2026-03-31营收325.16亿元，较可比期+25.37%；归母净利润14.46亿元，较可比期+40.87%；经营现金流60.95亿元。",
+            "reason": "山东黄金当前财务信号为：收入、利润和经营现金流方向较一致，说明增长不只停留在账面利润。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-04-30/1225256109.PDF"
+            ]
+          },
+          {
+            "title": "核心业务是否落到公司",
+            "fact": "五、报告期内主要经营情况 2025年，公司矿产金产量48.89吨，同比增加2.72吨，增幅5.89%。",
+            "reason": "山东黄金当前业务信号为：这条原文直接说明资源量、储量、产量、单位成本、销量或经营现金流已经出现，能检验行业逻辑是否落到公司。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-27/1225035639.PDF"
+            ]
+          },
+          {
+            "title": "最重要的反方是什么",
+            "fact": "另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。",
+            "reason": "这条反方事实会直接拖慢收入、利润或现金流兑现，是判断能否成立的主要风险。",
+            "status": "CONFLICTED",
+            "sourceRefs": [
+              "https://static.cninfo.com.cn/finalpage/2026-03-27/1225035639.PDF"
+            ]
+          },
+          {
+            "title": "价格有没有确认",
+            "fact": "2026-08-26复权收盘34.49元，高于20日平均成本32.37元；60日平均成本28元，近20个交易日涨跌+15.12%。",
+            "reason": "山东黄金当前价格信号为：价格已回到近期多数交易者平均成本上方，但只能作为时点确认，不能反推基本面。",
+            "status": "DIRECT",
+            "sourceRefs": [
+              "price_history_adjusted"
+            ]
+          }
+        ]
+      },
+      "dailyRefresh": {
+        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "source": "serenity_formal_scorecard",
+        "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
+      }
+    },
+    "analysisSections": [
+      {
+        "title": "当前判断",
+        "body": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
+        "items": [
+          "2026-03-31营收325.16亿元，较可比期+25.37%；归母净利润14.46亿元，较可比期+40.87%；经营现金流60.95亿元。五、报告期内主要经营情况 2025年，公司矿产金产量48.89吨，同比增加2.72吨，增幅5.89%。",
+          "先看价格站上20日平均成本32.37元并保持，且下一份正式披露没有削弱业务判断。"
+        ]
+      },
+      {
+        "title": "核心事实",
+        "items": [
+          "2025年营收1042.87亿元，同比+26.38%；归母净利润47.39亿元，同比+60.57%。2026-03-31营收325.16亿元，较可比期+25.37%；归母净利润14.46亿元，较可比期+40.87%；经营现金流60.95亿元。",
+          "五、报告期内主要经营情况 2025年，公司矿产金产量48.89吨，同比增加2.72吨，增幅5.89%。",
+          "另一方 面，美国债务风险不断攀升，美联储独立性被干扰导致货币宽松预期增强，美元资产信用进一步 下降。"
+        ]
+      },
+      {
+        "title": "接下来盯什么",
+        "items": [
+          "未来30天：自动检查山东黄金的新公告是否出现资源量、储量、产量、单位成本、销量或经营现金流，出现后重新读取正文。",
+          "未来90天：下一次财报发布后，重新计算营收、利润、现金流和负债变化，不沿用本次结论。",
+          "未来180天：复盘山东黄金值得重点观察，但等待价格与下一次兑现共同确认。是否被业务、财务和价格共同验证。"
+        ]
+      }
+    ]
+  },
+  "analysisQuote": {
+    "price": 34.89,
+    "previousClose": 34.48991696322657,
+    "changePct": 1.160000000000008,
+    "high": 28.09,
+    "low": 27,
+    "open": 27.26,
+    "volume": 697073,
+    "turnover": 1914544238,
+    "turnoverText": "35.06亿",
+    "currency": "CNY",
+    "asOf": "20260827161455",
+    "source": "daily_market_snapshot"
+  },
+  "latestQuote": {
+    "price": 34.89,
+    "changePct": 1.16,
+    "turnoverText": "35.06亿",
+    "turnoverRate": 2.76,
+    "totalMarketCap": "1608.40亿",
+    "floatMarketCap": "1261.08亿",
+    "fiveDayChangePct": -1.16,
+    "twentyDayChangePct": 26.46,
+    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "quoteTime": "20260827161455",
+    "asOf": "20260827161455",
+    "source": "daily_market_snapshot"
+  },
+  "quoteStatus": {
+    "displaySource": "latest_market",
+    "latestAvailable": true,
+    "analysisAsOf": "20260827161455",
+    "latestAsOf": "20260827161455",
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": {
+    "thesis_quality_score": 58.89,
+    "evidence_confidence_score": 77.6,
+    "market_payoff_score": 55.96,
+    "technical_timing_score": 52.6,
+    "data_readiness_score": 100,
+    "action_readiness_score": 70.67,
+    "module_results": {
+      "layer": {
+        "score": 57.5,
+        "average_rating": 2.88,
+        "details": {
+          "value_chain_bottleneck": 3,
+          "scarcity_and_entry_barrier": 2.5,
+          "demand_inflection_capture": 3,
+          "industry_positioning": 3
+        },
+        "label": "Layer Quality"
+      },
+      "company_thesis": {
+        "score": 54.4,
+        "average_rating": 2.72,
+        "details": {
+          "bottleneck_ownership": 2.5,
+          "revenue_translation": 2.7,
+          "financial_quality": 3.4,
+          "management_execution": 2.5,
+          "durability": 2.5
+        },
+        "label": "Company Thesis"
+      },
+      "evidence_confidence": {
+        "score": 68,
+        "average_rating": 3.4,
+        "details": {
+          "primary_source_coverage": 4,
+          "financial_statement_verification": 4,
+          "claim_traceability": 2.4,
+          "cross_source_consistency": 2.6,
+          "freshness": 4
+        },
+        "label": "Evidence Confidence"
+      },
+      "market_payoff": {
+        "score": 55.96,
+        "average_rating": 2.8,
+        "details": {
+          "valuation_discount": 2.1,
+          "implied_growth_vs_evidence": 2.64,
+          "upside_downside": 1.6,
+          "liquidity_capacity": 4.3,
+          "crowding_control": 3.35
+        },
+        "label": "Market Payoff"
+      },
+      "technical_timing": {
+        "score": 52.6,
+        "average_rating": 2.63,
+        "details": {
+          "monthly_trend": 1.1,
+          "weekly_structure": 4,
+          "daily_buy_point": 3.5,
+          "gf_dma_alignment": 2.75,
+          "drawdown_position": 1.8
+        },
+        "label": "Technical Timing"
+      },
+      "risk_controls": {
+        "score": 60,
+        "average_rating": 3,
+        "details": {
+          "falsification_clarity": 3,
+          "governance_accounting_risk_control": 3,
+          "balance_sheet_dilution_control": 3,
+          "cycle_policy_risk_control": 3,
+          "liquidity_event_risk_control": 3
+        },
+        "label": "Risk Controls"
+      }
+    },
+    "evidence_notes": [
+      {
+        "claim": "黄金开采处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺产量变化、成本变化和项目投产。",
+        "source": "research_reading + Serenity formal artifacts",
+        "source_level": "A/L0-L2",
+        "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 17.9%，近60日涨跌 -21.5%。",
+        "missing_proof": "产量变化 / 成本变化 / 项目投产 / 需要抓取/解析公告 PDF 正文",
+        "confidence": "Strong"
+      }
+    ],
+    "decision_blockers": [],
+    "falsification_points": [
+      "金属价格上涨，但产量、成本或利润没有同步改善。",
+      "扩产项目延期，资源量没有转成可销售产量。",
+      "现金流弱于利润，资本开支和负债压力上升。"
+    ]
+  },
+  "inputRefs": {
+    "materialCount": 0,
+    "claimCount": 0,
+    "evidenceCount": 0,
+    "sourceCount": 0
+  },
+  "layerCounts": {
+    "factNotes": 4,
+    "candidateSignals": 3,
+    "analysisNotes": 3,
+    "evidenceGaps": 3,
+    "nextVerificationQuestions": 3,
+    "forecastCandidates": 0
+  },
+  "guardrails": []
+}

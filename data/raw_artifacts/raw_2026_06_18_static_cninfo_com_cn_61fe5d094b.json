@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_06_18_static_cninfo_com_cn_61fe5d094b",
+  "artifactType": "filing",
+  "title": "重庆三峡水利电力（集团）股份有限公司关于终止对外投资并注销项目公司的公告",
+  "publisher": "三峡水利",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-06-18/1225376803.PDF",
+  "sourceId": "src_static_cninfo_com_cn_61fe5d094b",
+  "fetchRunId": "fetch_2026_06_18_static_cninfo_com_cn_61fe5d094b",
+  "publishedAt": "2026-06-18",
+  "firstSeenAt": "2026-07-23T09:50:52+08:00",
+  "capturedAt": "2026-07-23T09:50:52+08:00",
+  "contentHash": "sha256:5896e81a9ddeb090d13c2c10a0631f0dc87bdd08ea26bd4e760b4756953ee024",
+  "storagePath": "raw_artifacts/payloads/raw_2026_06_18_static_cninfo_com_cn_61fe5d094b.json",
+  "entityIds": [
+    "three_gorges_water"
+  ],
+  "claimIds": [
+    "claim_2026_06_18_filing_c38df47ba5"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_06b91b8e068488fa; listSourceId=src_cninfo_600116_announcements."
+}

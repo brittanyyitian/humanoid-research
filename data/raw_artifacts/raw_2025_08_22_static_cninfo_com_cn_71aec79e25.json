@@ -1,0 +1,22 @@
+{
+  "id": "raw_2025_08_22_static_cninfo_com_cn_71aec79e25",
+  "artifactType": "filing",
+  "title": "2025年半年度报告摘要",
+  "publisher": "中国石化",
+  "url": "http://static.cninfo.com.cn/finalpage/2025-08-22/1224532888.PDF",
+  "sourceId": "src_static_cninfo_com_cn_71aec79e25",
+  "fetchRunId": "fetch_2025_08_22_static_cninfo_com_cn_71aec79e25",
+  "publishedAt": "2025-08-22",
+  "firstSeenAt": "2026-07-23T09:56:01+08:00",
+  "capturedAt": "2026-07-23T09:56:01+08:00",
+  "contentHash": "sha256:f5a77b6b653e24ffaf2522ecc6dd2c1bdf5b8ae9baeae84c9f94cc4e73444974",
+  "storagePath": "raw_artifacts/payloads/raw_2025_08_22_static_cninfo_com_cn_71aec79e25.json",
+  "entityIds": [
+    "sinopec"
+  ],
+  "claimIds": [
+    "claim_2025_08_22_filing_624bb8efbd"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_f9c1a48ec8cd14a1; listSourceId=src_cninfo_600028_announcements."
+}

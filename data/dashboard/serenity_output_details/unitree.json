@@ -1,0 +1,64 @@
+{
+  "id": "saout_unitree_a95b6ce81131",
+  "entityId": "unitree",
+  "name": "宇树科技",
+  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "status": "research_brief",
+  "provider": {
+    "name": "research_brief_compiler_v0",
+    "type": "local_compiler",
+    "externalCall": false,
+    "note": "本地编译器根据 inputPack 生成研究重点；不是外部 Serenity/LLM 的分析结论。"
+  },
+  "storagePath": "analysis/serenity_outputs/unitree.json",
+  "display": {
+    "mode": "research_brief",
+    "label": "研究重点",
+    "title": "宇树科技 研究重点",
+    "summary": "整机厂处于公开材料观察阶段。",
+    "currentFocus": "整机厂处于公开材料观察阶段。",
+    "toVerify": [
+      "正式订单",
+      "供应关系",
+      "材料正文"
+    ],
+    "viewLabel": "系统整理",
+    "view": "目前主要依据官方新闻，只能支持跟踪和复核，不能支持兑现判断。",
+    "followup": "下一期财报或公告是否补充收入、客户或业务线信息。",
+    "materialLine": "主要材料：官方新闻 8",
+    "statusLabel": "可进入分析",
+    "inputState": "11 条可读材料"
+  },
+  "analysisQuote": null,
+  "latestQuote": null,
+  "quoteStatus": {
+    "displaySource": "missing",
+    "latestAvailable": false,
+    "analysisAsOf": "2026-08-27T16:37:52+08:00",
+    "latestAsOf": null,
+    "analysisIsOlder": false
+  },
+  "scorecardSummary": null,
+  "inputRefs": {
+    "materialCount": 8,
+    "claimCount": 20,
+    "evidenceCount": 11,
+    "sourceCount": 6
+  },
+  "layerCounts": {
+    "factNotes": 2,
+    "candidateSignals": 1,
+    "analysisNotes": 2,
+    "evidenceGaps": 7,
+    "nextVerificationQuestions": 5,
+    "forecastCandidates": 3
+  },
+  "guardrails": [
+    "分析层不写入事实层。",
+    "候选 Claim 不等于已验证事实。",
+    "不输出买卖建议。",
+    "不输出受益判断。",
+    "不把市场涨跌解释为事件影响。",
+    "所有分析句子必须能回溯到 material、claim、evidence、source 和时间。"
+  ]
+}

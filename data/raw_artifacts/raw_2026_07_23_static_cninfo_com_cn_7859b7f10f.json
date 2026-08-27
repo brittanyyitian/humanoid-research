@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_07_23_static_cninfo_com_cn_7859b7f10f",
+  "artifactType": "filing",
+  "title": "董事会提名委员会关于第三届董事会董事候选人任职资格的核查意见",
+  "publisher": "奥比中光",
+  "url": "http://static.cninfo.com.cn/finalpage/2026-07-23/1225437968.PDF",
+  "sourceId": "src_static_cninfo_com_cn_7859b7f10f",
+  "fetchRunId": "fetch_2026_07_23_static_cninfo_com_cn_7859b7f10f",
+  "publishedAt": "2026-07-23",
+  "firstSeenAt": "2026-07-23T16:16:14+08:00",
+  "capturedAt": "2026-07-23T16:16:14+08:00",
+  "contentHash": "sha256:ada97e41f3dff21b76abd17bacafaee58973039fbb2f96b44f31a6f65b6f0f11",
+  "storagePath": "raw_artifacts/payloads/raw_2026_07_23_static_cninfo_com_cn_7859b7f10f.json",
+  "entityIds": [
+    "orbbec"
+  ],
+  "claimIds": [
+    "claim_2026_07_23_filing_e83a6187a0"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from announcement_candidate_2cac5e7322ea1015; listSourceId=src_cninfo_688322_announcements."
+}
