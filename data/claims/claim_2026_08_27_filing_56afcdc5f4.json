@@ -40,13 +40,7 @@
       "dueAt": null
     }
   ],
-  "dataGaps": [
-    {
-      "kind": "raw_payload_not_fetched",
-      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
-      "severity": "medium"
-    }
-  ],
+  "dataGaps": [],
   "reviewRequirements": [
     {
       "kind": "read_disclosure_body",

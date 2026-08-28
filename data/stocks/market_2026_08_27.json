@@ -7,24 +7,24 @@
     "market": "HKEX",
     "snapshotType": "intraday_or_latest",
     "isFinal": false,
-    "price": 83.05,
-    "changePct": 1.65,
-    "turnoverAmount": "2.43亿",
+    "price": 82.95,
+    "changePct": 1.53,
+    "turnoverAmount": "2.47亿",
     "turnoverRate": 0.0,
-    "totalMarketCap": "418.07亿港元",
-    "floatMarketCap": "363.92亿港元",
+    "totalMarketCap": "417.57亿港元",
+    "floatMarketCap": "363.48亿港元",
     "mainNetInflow": null,
     "fiveDayChangePct": 2.09,
     "twentyDayChangePct": 6.76,
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=hk09880",
     "quoteUrl": "https://qt.gtimg.cn/q=hk09880",
     "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
-    "quoteTime": "2026/08/27 16:03:12"
+    "quoteTime": "2026/08/27 16:08:35"
   },
   {
     "id": "stock_2026-08-27_anpeilong",
@@ -46,7 +46,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz301413",
     "quoteUrl": "https://qt.gtimg.cn/q=sz301413",
@@ -73,7 +73,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh603662",
     "quoteUrl": "https://qt.gtimg.cn/q=sh603662",
@@ -100,7 +100,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300007",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300007",
@@ -127,7 +127,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300354",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300354",
@@ -154,7 +154,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688017",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688017",
@@ -181,7 +181,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002896",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002896",
@@ -208,7 +208,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002472",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002472",
@@ -235,7 +235,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300100",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300100",
@@ -262,7 +262,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300580",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300580",
@@ -289,7 +289,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
     "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
@@ -316,7 +316,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh603667",
     "quoteUrl": "https://qt.gtimg.cn/q=sh603667",
@@ -343,7 +343,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300124",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300124",
@@ -370,7 +370,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh603728",
     "quoteUrl": "https://qt.gtimg.cn/q=sh603728",
@@ -397,7 +397,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688320",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688320",
@@ -424,7 +424,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz003021",
     "quoteUrl": "https://qt.gtimg.cn/q=sz003021",
@@ -451,7 +451,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002050",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002050",
@@ -478,7 +478,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh601689",
     "quoteUrl": "https://qt.gtimg.cn/q=sh601689",
@@ -505,7 +505,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300024",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300024",
@@ -532,7 +532,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002747",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002747",
@@ -559,7 +559,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688322",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688322",
@@ -586,7 +586,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688160",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688160",
@@ -613,7 +613,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688071",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688071",
@@ -640,7 +640,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688400",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688400",
@@ -667,7 +667,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz301029",
     "quoteUrl": "https://qt.gtimg.cn/q=sz301029",
@@ -694,7 +694,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688306",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688306",
@@ -721,7 +721,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh603341",
     "quoteUrl": "https://qt.gtimg.cn/q=sh603341",
@@ -748,7 +748,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz301269",
     "quoteUrl": "https://qt.gtimg.cn/q=sz301269",
@@ -775,7 +775,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688206",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688206",
@@ -802,7 +802,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688256",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688256",
@@ -829,7 +829,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
@@ -856,7 +856,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688981",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688981",
@@ -883,7 +883,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688347",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688347",
@@ -910,7 +910,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002371",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002371",
@@ -937,7 +937,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688012",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688012",
@@ -964,7 +964,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
@@ -991,7 +991,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688126",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688126",
@@ -1018,7 +1018,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600584",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600584",
@@ -1045,7 +1045,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002156",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002156",
@@ -1072,7 +1072,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600667",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600667",
@@ -1099,7 +1099,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
@@ -1126,7 +1126,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688297",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688297",
@@ -1153,7 +1153,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002389",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002389",
@@ -1180,7 +1180,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz000554",
     "quoteUrl": "https://qt.gtimg.cn/q=sz000554",
@@ -1207,7 +1207,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600028",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600028",
@@ -1234,7 +1234,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz000159",
     "quoteUrl": "https://qt.gtimg.cn/q=sz000159",
@@ -1261,7 +1261,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz300164",
     "quoteUrl": "https://qt.gtimg.cn/q=sz300164",
@@ -1288,7 +1288,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600938",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600938",
@@ -1315,7 +1315,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz002353",
     "quoteUrl": "https://qt.gtimg.cn/q=sz002353",
@@ -1342,7 +1342,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600116",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600116",
@@ -1369,7 +1369,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh601991",
     "quoteUrl": "https://qt.gtimg.cn/q=sh601991",
@@ -1396,7 +1396,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600900",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600900",
@@ -1423,7 +1423,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600886",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600886",
@@ -1450,7 +1450,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz000566",
     "quoteUrl": "https://qt.gtimg.cn/q=sz000566",
@@ -1477,7 +1477,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
@@ -1504,7 +1504,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600276",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600276",
@@ -1531,7 +1531,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh688235",
     "quoteUrl": "https://qt.gtimg.cn/q=sh688235",
@@ -1558,7 +1558,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh601899",
     "quoteUrl": "https://qt.gtimg.cn/q=sh601899",
@@ -1585,7 +1585,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sh600547",
     "quoteUrl": "https://qt.gtimg.cn/q=sh600547",
@@ -1612,7 +1612,7 @@
     "sourceIds": [
       "src_tencent_market_quote"
     ],
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "provider": "tencent",
     "providerSourceUrl": "https://qt.gtimg.cn/q=sz000426",
     "quoteUrl": "https://qt.gtimg.cn/q=sz000426",

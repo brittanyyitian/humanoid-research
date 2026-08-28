@@ -1,0 +1,22 @@
+{
+  "id": "raw_2026_08_27_agibot_com_cn_a6cc344c4b",
+  "artifactType": "news_page",
+  "title": "运动会46枚奖牌圆满收官，部署态征程继续！",
+  "publisher": "智元创新（上海）科技股份有限公司",
+  "url": "https://www.agibot.com.cn/article/315/detail/189.html",
+  "sourceId": "src_agibot_com_cn_a6cc344c4b",
+  "fetchRunId": "fetch_2026_08_27_agibot_com_cn_a6cc344c4b",
+  "publishedAt": "2026-08-27",
+  "firstSeenAt": "2026-08-27T21:16:49+08:00",
+  "capturedAt": "2026-08-27T21:16:49+08:00",
+  "contentHash": "sha256:65e8cb2bd0679f2458230eff17e9083d868ae94bdeeab53433bbfcd8190c48ee",
+  "storagePath": "raw_artifacts/payloads/raw_2026_08_27_agibot_com_cn_a6cc344c4b.json",
+  "entityIds": [
+    "zhiyuan_robot"
+  ],
+  "claimIds": [
+    "claim_2026_08_27_other_a8e0717173"
+  ],
+  "status": "active",
+  "notes": "Official News Intake v0 from news_candidate_03c84c1b08166036; listSourceId=src_agibot_official_news."
+}

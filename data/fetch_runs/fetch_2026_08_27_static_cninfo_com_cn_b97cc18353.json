@@ -4,8 +4,8 @@
   "sourceName": "均普智能",
   "sourceType": "ingestion",
   "startedAt": "2026-08-27T16:32:40+08:00",
-  "finishedAt": "2026-08-27T16:32:40+08:00",
-  "status": "partial",
+  "finishedAt": "2026-08-27T21:16:54+08:00",
+  "status": "success",
   "artifactIds": [
     "raw_2026_08_27_static_cninfo_com_cn_b97cc18353"
   ],
@@ -13,13 +13,7 @@
     "claim_2026_08_27_filing_43e7f7383c"
   ],
   "error": null,
-  "gaps": [
-    {
-      "kind": "raw_payload_not_fetched",
-      "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
-      "severity": "medium"
-    }
-  ],
+  "gaps": [],
   "attemptLedger": [
     {
       "kind": "source_capture",
@@ -29,6 +23,14 @@
       "startedAt": "2026-08-27T16:32:40+08:00",
       "finishedAt": "2026-08-27T16:32:40+08:00",
       "contentHash": "sha256:e19e8ecb0e7b377e43084f69ff9ca351b8faac25f67d573fb8b0692adf01b05b",
+      "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_b97cc18353.json"
+    },
+    {
+      "kind": "material_body_fetch",
+      "status": "success",
+      "startedAt": "2026-08-27T21:16:54+08:00",
+      "finishedAt": "2026-08-27T21:16:54+08:00",
+      "contentHash": "sha256:149933644c61929f5ec77744b4066d5383046a1ffa3a6697a2d07aa60f16b710",
       "storagePath": "raw_artifacts/payloads/raw_2026_08_27_static_cninfo_com_cn_b97cc18353.json"
     }
   ]

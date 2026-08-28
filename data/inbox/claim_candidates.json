@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "capturedAt": "2026-08-27T16:33:08+08:00",
+  "capturedAt": "2026-08-27T21:16:50+08:00",
   "reviewStatus": "pending_manual_review",
   "policy": "Claim candidates are not formal truth until promoted by review.",
   "candidates": [
@@ -98605,6 +98605,198 @@
       "reviewStatus": "pending",
       "processedAt": "2026-08-27T16:33:08+08:00",
       "sourceTitle": "运动会46枚奖牌圆满收官，部署态征程继续！"
+    },
+    {
+      "id": "claim_candidate_82a0d4c47c",
+      "claimId": "claim_2026_08_27_other_7dddf81c70",
+      "rawArtifactId": "raw_2026_08_27_agibot_com_cn_f2665a2181",
+      "evidenceId": "evd_2026_08_27_other_7dddf81c70",
+      "ruleOutputId": "rout_2026_08_27_company_material_v0_4f4eb57157",
+      "text": "智元创新（上海）科技股份有限公司存在待审核材料《金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶》。",
+      "normalizedFact": "智元创新（上海）科技股份有限公司 has review material: \"金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶\".",
+      "claimType": "other",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "sourceId": "src_agibot_com_cn_f2665a2181",
+      "sourceLevel": "A",
+      "confidence": "low",
+      "unknowns": [
+        {
+          "field": "claim_specificity",
+          "reason": "该 pipeline 尚未实现专用规则，候选事实粒度较粗。",
+          "severity": "medium"
+        }
+      ],
+      "followupHints": [
+        {
+          "kind": "rule_upgrade",
+          "description": "为 company_pipeline 补充专用 Skill Rule Contract 实现。",
+          "priority": "medium",
+          "dueAt": null
+        }
+      ],
+      "dataGaps": [
+        {
+          "kind": "raw_payload_not_fetched",
+          "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+          "severity": "medium"
+        }
+      ],
+      "reviewRequirements": [
+        {
+          "kind": "manual_claim_extraction",
+          "description": "人工确认事实字段后再 promotion。",
+          "required": true
+        }
+      ],
+      "reviewStatus": "pending",
+      "processedAt": "2026-08-27T21:16:50+08:00",
+      "sourceTitle": "金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶"
+    },
+    {
+      "id": "claim_candidate_a4a175be46",
+      "claimId": "claim_2026_08_27_other_a8e0717173",
+      "rawArtifactId": "raw_2026_08_27_agibot_com_cn_a6cc344c4b",
+      "evidenceId": "evd_2026_08_27_other_a8e0717173",
+      "ruleOutputId": "rout_2026_08_27_event_material_v0_3eadd0c575",
+      "text": "智元创新（上海）科技股份有限公司存在待审核材料《运动会46枚奖牌圆满收官，部署态征程继续！》。",
+      "normalizedFact": "智元创新（上海）科技股份有限公司 has review material: \"运动会46枚奖牌圆满收官，部署态征程继续！\".",
+      "claimType": "other",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "sourceId": "src_agibot_com_cn_a6cc344c4b",
+      "sourceLevel": "A",
+      "confidence": "low",
+      "unknowns": [
+        {
+          "field": "claim_specificity",
+          "reason": "该 pipeline 尚未实现专用规则，候选事实粒度较粗。",
+          "severity": "medium"
+        }
+      ],
+      "followupHints": [
+        {
+          "kind": "rule_upgrade",
+          "description": "为 event_pipeline 补充专用 Skill Rule Contract 实现。",
+          "priority": "medium",
+          "dueAt": null
+        }
+      ],
+      "dataGaps": [
+        {
+          "kind": "raw_payload_not_fetched",
+          "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+          "severity": "medium"
+        }
+      ],
+      "reviewRequirements": [
+        {
+          "kind": "manual_claim_extraction",
+          "description": "人工确认事实字段后再 promotion。",
+          "required": true
+        }
+      ],
+      "reviewStatus": "pending",
+      "processedAt": "2026-08-27T21:16:50+08:00",
+      "sourceTitle": "运动会46枚奖牌圆满收官，部署态征程继续！"
+    },
+    {
+      "id": "claim_candidate_5d44e4fecd",
+      "claimId": "claim_2026_08_25_other_3b53ebc14a",
+      "rawArtifactId": "raw_2026_08_25_agibot_com_cn_874d0b8bb5",
+      "evidenceId": "evd_2026_08_25_other_3b53ebc14a",
+      "ruleOutputId": "rout_2026_08_25_company_material_v0_673cea6aa7",
+      "text": "智元创新（上海）科技股份有限公司存在待审核材料《机器人运动会开赛，智元两金三银两铜位列第一》。",
+      "normalizedFact": "智元创新（上海）科技股份有限公司 has review material: \"机器人运动会开赛，智元两金三银两铜位列第一\".",
+      "claimType": "other",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "sourceId": "src_agibot_com_cn_874d0b8bb5",
+      "sourceLevel": "A",
+      "confidence": "low",
+      "unknowns": [
+        {
+          "field": "claim_specificity",
+          "reason": "该 pipeline 尚未实现专用规则，候选事实粒度较粗。",
+          "severity": "medium"
+        }
+      ],
+      "followupHints": [
+        {
+          "kind": "rule_upgrade",
+          "description": "为 company_pipeline 补充专用 Skill Rule Contract 实现。",
+          "priority": "medium",
+          "dueAt": null
+        }
+      ],
+      "dataGaps": [
+        {
+          "kind": "raw_payload_not_fetched",
+          "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+          "severity": "medium"
+        }
+      ],
+      "reviewRequirements": [
+        {
+          "kind": "manual_claim_extraction",
+          "description": "人工确认事实字段后再 promotion。",
+          "required": true
+        }
+      ],
+      "reviewStatus": "pending",
+      "processedAt": "2026-08-27T21:16:50+08:00",
+      "sourceTitle": "机器人运动会开赛，智元两金三银两铜位列第一"
+    },
+    {
+      "id": "claim_candidate_4a1431cd61",
+      "claimId": "claim_2026_08_25_other_da084c4bab",
+      "rawArtifactId": "raw_2026_08_25_agibot_com_cn_fda07ce6ac",
+      "evidenceId": "evd_2026_08_25_other_da084c4bab",
+      "ruleOutputId": "rout_2026_08_25_company_material_v0_479c50dd36",
+      "text": "智元创新（上海）科技股份有限公司存在待审核材料《智元携手长隆打造全球首个具身智能主题乐园》。",
+      "normalizedFact": "智元创新（上海）科技股份有限公司 has review material: \"智元携手长隆打造全球首个具身智能主题乐园\".",
+      "claimType": "other",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "sourceId": "src_agibot_com_cn_fda07ce6ac",
+      "sourceLevel": "A",
+      "confidence": "low",
+      "unknowns": [
+        {
+          "field": "claim_specificity",
+          "reason": "该 pipeline 尚未实现专用规则，候选事实粒度较粗。",
+          "severity": "medium"
+        }
+      ],
+      "followupHints": [
+        {
+          "kind": "rule_upgrade",
+          "description": "为 company_pipeline 补充专用 Skill Rule Contract 实现。",
+          "priority": "medium",
+          "dueAt": null
+        }
+      ],
+      "dataGaps": [
+        {
+          "kind": "raw_payload_not_fetched",
+          "description": "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet.",
+          "severity": "medium"
+        }
+      ],
+      "reviewRequirements": [
+        {
+          "kind": "manual_claim_extraction",
+          "description": "人工确认事实字段后再 promotion。",
+          "required": true
+        }
+      ],
+      "reviewStatus": "pending",
+      "processedAt": "2026-08-27T21:16:50+08:00",
+      "sourceTitle": "智元携手长隆打造全球首个具身智能主题乐园"
     }
   ]
 }
