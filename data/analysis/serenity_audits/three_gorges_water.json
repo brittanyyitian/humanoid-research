@@ -1,8 +1,8 @@
 {
-  "id": "saout_three_gorges_water_b41bce83e4cc",
+  "id": "saout_three_gorges_water_d8ca0e248ed7",
   "entityId": "three_gorges_water",
   "name": "三峡水利",
-  "generatedAt": "2026-08-27T16:36:46+08:00",
+  "generatedAt": "2026-08-27T21:20:33+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_data_audit",
   "provider": {
@@ -18,12 +18,12 @@
       "--symbols",
       "600116",
       "--out-dir",
-      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water"
+      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water"
     ],
-    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water",
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water",
     "note": "调用 vendored Serenity Chan CLI 获取公开数据审计结果。",
     "exitCode": 0,
-    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water/research_brief.md\nnext (formal): python scripts/serenity.py ask \"三峡水利 数据面怎么样\" --formal --symbols 600116\n",
+    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water/research_brief.md\nnext (formal): python scripts/serenity.py ask \"三峡水利 数据面怎么样\" --formal --symbols 600116\n",
     "stderrTail": ""
   },
   "sourceInputPack": {
@@ -71,9 +71,9 @@
     ],
     "evidenceIds": [],
     "sourceIds": [],
-    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water",
-    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water/data/600116/manifest.json",
-    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water/research_brief.md",
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water/data/600116/manifest.json",
+    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water/research_brief.md",
     "dashboardRefs": [
       "dashboard/serenity_analysis.json"
     ]
@@ -82,14 +82,13 @@
     "mode": "serenity_data_audit",
     "label": "Serenity 数据审计",
     "title": "三峡水利 Serenity 数据审计",
-    "summary": "Serenity 已完成 6/6 个数据集取数，仍有 1 个数据缺口。",
-    "currentFocus": "Serenity 已完成 6/6 个数据集取数，仍有 1 个数据缺口。",
+    "summary": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
+    "currentFocus": "Serenity 已完成 6/6 个数据集取数，当前无数据缺口。",
     "toVerify": [
-      "Verify the latest core financial statement lines before issuing an S/A research rating.",
-      "Reconcile revenue, profit, cash flow, assets, liabilities, and equity against official filings or an L1 database export."
+      "可进入正式研究"
     ],
     "viewLabel": "Serenity 数据审计",
-    "view": "数据审计存在缺口，应先补齐取数或人工复核，再进入正式研究。",
+    "view": "数据审计通过，可进入正式研究；这仍不是投资结论。",
     "followup": "需要正式分析时，进入 Serenity formal dossier 工作流。",
     "materialLine": "manifest: manifest.json",
     "inputState": "6/6 数据集 OK"
@@ -133,23 +132,14 @@
         "label": "数据审计边界",
         "text": "Serenity quick route 只输出取数与校验事实；正式 AI 深研需要 formal dossier 工作流。",
         "refs": {
-          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water"
+          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water"
         }
       }
     ],
-    "evidenceGaps": [
-      {
-        "text": "Reconcile revenue, profit, cash flow, assets, liabilities, and equity against official filings or an L1 database export.",
-        "status": "open"
-      }
-    ],
+    "evidenceGaps": [],
     "nextVerificationQuestions": [
       {
-        "question": "Verify the latest core financial statement lines before issuing an S/A research rating.",
-        "status": "open"
-      },
-      {
-        "question": "Reconcile revenue, profit, cash flow, assets, liabilities, and equity against official filings or an L1 database export.",
+        "question": "可进入正式研究",
         "status": "open"
       }
     ],
@@ -157,7 +147,7 @@
     "forecastCandidates": []
   },
   "rawArtifacts": {
-    "researchBriefExcerpt": "# 600116.SH 数据审计报告\n\n## 1. Market Resolution\n- Input：600116\n- Normalized：600116.SH\n- Market：CN_A\n- Exchange：SH\n- Currency：CNY\n- Retrieved at：2026-08-27T08:37:24.135063+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| financials | OK | Eastmoney_F10_Financials_L3 | L3_MEDIA_F10_RESEARCH | 2026-06-30 | Eastmoney F10 provides L3 structured preflight financial data; verify important conclusions against CNINFO/exchange report PDFs or L1 databases.; A-share income and cash-flow fields use reported cumulative statement periods; do not treat interim periods as standalone quarters without conversion.; Financials use L3/F10 structured preflight data; final S/A research ratings require L0/L1 verification. |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-20 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-20 | 客户/订单/产能证据 lane 未在已扫描披露中找到直接 L0 客户、订单、招投标或产能证据。 |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n\n## 3. Data Gaps And Research Debt\n| Dataset | Gap Type | Decision Impact | Rating Impact | Next Action |\n|---|---|---|---|---|\n| financials | NOT_MACHINE_READABLE | EVIDENCE_IMPACT | S/A research ratings require L0/L1 verification of key financial statements. | Reconcile revenue, profit, cash flow, assets, liabilities, and equity against official filings or an L1 database export. |\n\n## 4. Manual Retrieval Tasks\n| Dataset | Priority | Target Source | Objective |\n|---|---|---|---|\n| financials | critical | Official filing PDF/XBRL or L1 financial database | Verify the latest core financial statement lines before issuing an S/A research rating. |\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：12065621724.24\n- 市值口径偏差：3.135055196421589e-05\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：B\n- 完整研究评级上限：B\n- full_research_ready：False\n- 取数尝试：31 次；缺口 1；研究债务 1；补数任务 1\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_46_three_gorges_water/data/600116/manifest.json\n"
+    "researchBriefExcerpt": "# 600116.SH 数据审计报告\n\n## 1. Market Resolution\n- Input：600116\n- Normalized：600116.SH\n- Market：CN_A\n- Exchange：SH\n- Currency：CNY\n- Retrieved at：2026-08-27T13:21:14.655778+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Eastmoney_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| financials | OK | CNINFO_FinancialReports_L0 | L0_OFFICIAL_DISCLOSURE | 2026-03-31 | CNINFO official financial report PDFs were parsed into core financial lines where machine-readable page text was available.; Use consolidated statements; do not mix parent-company statements with consolidated revenue, cash flow, assets, liabilities, or equity.; annual 2026-08-19 extraction status=FAILED missing=['revenue', 'net_income', 'operating_cash_flow', 'assets', 'liabilities', 'equity'] |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-20 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-20 | 客户/订单/产能证据 lane 未在已扫描披露中找到直接 L0 客户、订单、招投标或产能证据。 |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n\n## 3. Data Gaps And Research Debt\n- 无数据缺口（gap_count=0）。\n\n## 4. Manual Retrieval Tasks\n- 无待补任务。\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：12065621724.24\n- 市值口径偏差：3.135055196421589e-05\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：S\n- 完整研究评级上限：S\n- full_research_ready：True\n- 取数尝试：28 次；缺口 0；研究债务 0；补数任务 0\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_20_33_three_gorges_water/data/600116/manifest.json\n"
   },
   "calibration": {
     "status": "not_started",

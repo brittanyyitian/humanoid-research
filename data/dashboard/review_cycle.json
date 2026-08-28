@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "contractType": "humanoid_research_review_cycle_v0",
   "policy": "Review cycle turns next-evidence questions into dated public-material checks. It does not resolve claims automatically yet.",
   "dueBefore": "2026-08-27",
@@ -30907,6 +30907,22 @@
       "sourceChangeId": "chg_evt_2026_06_25_zhiyuan_3c_line_live"
     },
     {
+      "id": "chg_claim_2026_08_25_other_3b53ebc14a_review",
+      "sourceType": "change_next_question",
+      "subject": "待验证：人工确认事实字段后再 promotion。",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "status": "required",
+      "cadenceDays": 30,
+      "dueAt": "2026-09-24",
+      "probeType": "filing_or_news",
+      "sourceChangeId": "chg_claim_2026_08_25_other_3b53ebc14a"
+    },
+    {
       "id": "chg_claim_2026_08_25_other_77075462d4_review",
       "sourceType": "change_next_question",
       "subject": "待验证：人工确认事实字段后再 promotion。",
@@ -30937,6 +30953,22 @@
       "dueAt": "2026-09-24",
       "probeType": "filing_or_news",
       "sourceChangeId": "chg_claim_2026_08_25_other_7f8acee3d1"
+    },
+    {
+      "id": "chg_claim_2026_08_25_other_da084c4bab_review",
+      "sourceType": "change_next_question",
+      "subject": "待验证：人工确认事实字段后再 promotion。",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "status": "required",
+      "cadenceDays": 30,
+      "dueAt": "2026-09-24",
+      "probeType": "filing_or_news",
+      "sourceChangeId": "chg_claim_2026_08_25_other_da084c4bab"
     },
     {
       "id": "chg_claim_2026_08_25_filing_0605e52995_review",
@@ -31897,6 +31929,38 @@
       "dueAt": "2026-09-25",
       "probeType": "filing_or_news",
       "sourceChangeId": "chg_claim_2026_08_26_filing_f955848db5"
+    },
+    {
+      "id": "chg_claim_2026_08_27_other_7dddf81c70_review",
+      "sourceType": "change_next_question",
+      "subject": "待验证：人工确认事实字段后再 promotion。",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "status": "required",
+      "cadenceDays": 30,
+      "dueAt": "2026-09-26",
+      "probeType": "filing_or_news",
+      "sourceChangeId": "chg_claim_2026_08_27_other_7dddf81c70"
+    },
+    {
+      "id": "chg_claim_2026_08_27_other_a8e0717173_review",
+      "sourceType": "change_next_question",
+      "subject": "待验证：人工确认事实字段后再 promotion。",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "status": "required",
+      "cadenceDays": 30,
+      "dueAt": "2026-09-26",
+      "probeType": "filing_or_news",
+      "sourceChangeId": "chg_claim_2026_08_27_other_a8e0717173"
     },
     {
       "id": "chg_claim_2026_08_27_other_ce3fd98a5a_review",
@@ -32960,10 +33024,10 @@
     }
   ],
   "summary": {
-    "total": 2059,
+    "total": 2063,
     "due": 1561,
     "byProbeType": {
-      "filing_or_news": 2038,
+      "filing_or_news": 2042,
       "public_material": 21
     }
   }

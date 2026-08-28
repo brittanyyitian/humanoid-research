@@ -1,8 +1,8 @@
 {
-  "id": "saout_huahong_semiconductor_f64f654d15cb",
+  "id": "saout_huahong_semiconductor_b9876bfdb063",
   "entityId": "huahong_semiconductor",
   "name": "华虹公司",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "688347.SH",
       "name": "华虹公司",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 252.72,
         "previousClose": 244.00888288114317,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "1030.47亿",
     "fiveDayChangePct": 8.61,
     "twentyDayChangePct": 9.88,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161459",
     "asOf": "20260827161459",
     "source": "daily_market_snapshot"
@@ -1026,7 +1026,7 @@
         "claim": "晶圆制造处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
         "source": "research_reading + Serenity formal artifacts",
         "source_level": "A/L0-L2",
-        "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 3.9%，近60日涨跌 147.2%；客户或订单证据 0 条直接、4 条线索。",
+        "supports": "已读取 8 份正式公告，其中 5 份财报或业绩材料；近20日涨跌 3.9%，近60日涨跌 147.2%；客户或订单证据 0 条直接、4 条线索。",
         "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
         "confidence": "Medium"
       }

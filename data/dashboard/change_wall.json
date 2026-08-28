@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "title": "Change Wall",
   "policy": "Change Wall only places product, company, supply-chain, policy and market changes side by side. It does not infer causality or make recommendations.",
   "lanes": [
@@ -14,7 +14,7 @@
       "id": "company",
       "label": "公司动态",
       "description": "公司事件、公告、合作和经营动作",
-      "count": 2038
+      "count": 2042
     },
     {
       "id": "supply_chain",
@@ -41,7 +41,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "anji_microelectronics",
       "objectName": "安集科技",
       "title": "安集科技 +6.10%，成交额 17.33亿",
@@ -88,7 +88,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -131,7 +131,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "avic_jonhon",
       "objectName": "中航光电",
       "title": "中航光电 +6.38%，成交额 15.89亿",
@@ -178,7 +178,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -221,7 +221,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "beite_technology",
       "objectName": "北特科技",
       "title": "北特科技 +5.09%，成交额 4.07亿",
@@ -268,7 +268,7 @@
           "turnoverRate": 2.53,
           "fiveDayChangePct": 4.24,
           "twentyDayChangePct": 31.99,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -311,7 +311,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "harbin_pharma",
       "objectName": "哈药股份",
       "title": "哈药股份 +6.97%，成交额 32.28亿",
@@ -358,7 +358,7 @@
           "turnoverRate": 14.99,
           "fiveDayChangePct": -3.63,
           "twentyDayChangePct": 57.37,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -401,7 +401,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "huahong_semiconductor",
       "objectName": "华虹公司",
       "title": "华虹公司 +3.57%，成交额 50.14亿",
@@ -448,7 +448,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -491,7 +491,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "jcet",
       "objectName": "长电科技",
       "title": "长电科技 +3.97%，成交额 73.78亿",
@@ -538,7 +538,7 @@
           "turnoverRate": 5.45,
           "fiveDayChangePct": -3.7,
           "twentyDayChangePct": 18.65,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -581,7 +581,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "luster_lighttech",
       "objectName": "凌云光",
       "title": "凌云光 +3.89%，成交额 3.92亿",
@@ -628,7 +628,7 @@
           "turnoverRate": 1.84,
           "fiveDayChangePct": 0.3,
           "twentyDayChangePct": 21,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -671,7 +671,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "montage_technology",
       "objectName": "澜起科技",
       "title": "澜起科技 +10.06%，成交额 144.63亿",
@@ -718,7 +718,7 @@
           "turnoverRate": 5.88,
           "fiveDayChangePct": 11.1,
           "twentyDayChangePct": 12.42,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -761,7 +761,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "national_silicon",
       "objectName": "沪硅产业",
       "title": "沪硅产业 +4.00%，成交额 15.72亿",
@@ -808,7 +808,7 @@
           "turnoverRate": 2.21,
           "fiveDayChangePct": 3.15,
           "twentyDayChangePct": 11.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -851,7 +851,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "orbbec",
       "objectName": "奥比中光",
       "title": "奥比中光 +3.53%，成交额 6.37亿",
@@ -898,7 +898,7 @@
           "turnoverRate": 2.07,
           "fiveDayChangePct": -2.72,
           "twentyDayChangePct": 21.63,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -941,7 +941,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "tongfu_microelectronics",
       "objectName": "通富微电",
       "title": "通富微电 +4.05%，成交额 54.45亿",
@@ -988,7 +988,7 @@
           "turnoverRate": 5.7,
           "fiveDayChangePct": 0.92,
           "twentyDayChangePct": 14.03,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1031,7 +1031,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "wuzhou_xinchun",
       "objectName": "五洲新春",
       "title": "五洲新春 +3.67%，成交额 8.17亿",
@@ -1078,7 +1078,7 @@
           "turnoverRate": 4.3,
           "fiveDayChangePct": 6.85,
           "twentyDayChangePct": 8.93,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1181,7 +1181,7 @@
           "turnoverRate": 10.61,
           "fiveDayChangePct": -5.04,
           "twentyDayChangePct": 28.61,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1284,7 +1284,7 @@
           "turnoverRate": 0.62,
           "fiveDayChangePct": 1.49,
           "twentyDayChangePct": -0.56,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1387,7 +1387,7 @@
           "turnoverRate": 3.54,
           "fiveDayChangePct": 1.1,
           "twentyDayChangePct": 1.51,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1490,7 +1490,7 @@
           "turnoverRate": 3.5,
           "fiveDayChangePct": -6.4,
           "twentyDayChangePct": 7.8,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1593,7 +1593,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1696,7 +1696,7 @@
           "turnoverRate": 2.29,
           "fiveDayChangePct": 11.98,
           "twentyDayChangePct": 42.87,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1799,7 +1799,7 @@
           "turnoverRate": 3.5,
           "fiveDayChangePct": -6.4,
           "twentyDayChangePct": 7.8,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -1902,7 +1902,7 @@
           "turnoverRate": 1.22,
           "fiveDayChangePct": -3.82,
           "twentyDayChangePct": -12.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2005,7 +2005,7 @@
           "turnoverRate": 2.29,
           "fiveDayChangePct": 11.98,
           "twentyDayChangePct": 42.87,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2108,7 +2108,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2211,7 +2211,7 @@
           "turnoverRate": 3.5,
           "fiveDayChangePct": -6.4,
           "twentyDayChangePct": 7.8,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2314,7 +2314,7 @@
           "turnoverRate": 1.14,
           "fiveDayChangePct": 1.88,
           "twentyDayChangePct": 3.84,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2417,7 +2417,7 @@
           "turnoverRate": 3.5,
           "fiveDayChangePct": -6.4,
           "twentyDayChangePct": 7.8,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2520,7 +2520,7 @@
           "turnoverRate": 0.18,
           "fiveDayChangePct": 2.92,
           "twentyDayChangePct": 0.38,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2623,7 +2623,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2726,7 +2726,7 @@
           "turnoverRate": 1.41,
           "fiveDayChangePct": 1.56,
           "twentyDayChangePct": 3.9,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2829,7 +2829,7 @@
           "turnoverRate": 4.1,
           "fiveDayChangePct": -3.45,
           "twentyDayChangePct": 14.67,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -2932,7 +2932,7 @@
           "turnoverRate": 1.41,
           "fiveDayChangePct": 1.56,
           "twentyDayChangePct": 3.9,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3035,7 +3035,7 @@
           "turnoverRate": 0.62,
           "fiveDayChangePct": 1.49,
           "twentyDayChangePct": -0.56,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3138,7 +3138,7 @@
           "turnoverRate": 4.1,
           "fiveDayChangePct": -3.45,
           "twentyDayChangePct": 14.67,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3241,7 +3241,7 @@
           "turnoverRate": 10.61,
           "fiveDayChangePct": -5.04,
           "twentyDayChangePct": 28.61,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3344,7 +3344,7 @@
           "turnoverRate": 4.1,
           "fiveDayChangePct": -3.45,
           "twentyDayChangePct": 14.67,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3447,7 +3447,7 @@
           "turnoverRate": 2.29,
           "fiveDayChangePct": 11.98,
           "twentyDayChangePct": 42.87,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3550,7 +3550,7 @@
           "turnoverRate": 10.61,
           "fiveDayChangePct": -5.04,
           "twentyDayChangePct": 28.61,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3653,7 +3653,7 @@
           "turnoverRate": 3.54,
           "fiveDayChangePct": 1.1,
           "twentyDayChangePct": 1.51,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3756,7 +3756,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3859,7 +3859,7 @@
           "turnoverRate": 4.1,
           "fiveDayChangePct": -3.45,
           "twentyDayChangePct": 14.67,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -3962,7 +3962,7 @@
           "turnoverRate": 2.29,
           "fiveDayChangePct": 11.98,
           "twentyDayChangePct": 42.87,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4065,7 +4065,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4168,7 +4168,7 @@
           "turnoverRate": 3.5,
           "fiveDayChangePct": -6.4,
           "twentyDayChangePct": 7.8,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4271,7 +4271,7 @@
           "turnoverRate": 0.62,
           "fiveDayChangePct": 1.49,
           "twentyDayChangePct": -0.56,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4374,7 +4374,7 @@
           "turnoverRate": 3.73,
           "fiveDayChangePct": -11.1,
           "twentyDayChangePct": 8.36,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4477,7 +4477,7 @@
           "turnoverRate": 4.1,
           "fiveDayChangePct": -3.45,
           "twentyDayChangePct": 14.67,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4580,7 +4580,7 @@
           "turnoverRate": 1.14,
           "fiveDayChangePct": 1.88,
           "twentyDayChangePct": 3.84,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4683,7 +4683,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4786,7 +4786,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4889,7 +4889,7 @@
           "turnoverRate": 1.41,
           "fiveDayChangePct": 1.56,
           "twentyDayChangePct": 3.9,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -4992,7 +4992,7 @@
           "turnoverRate": 10.61,
           "fiveDayChangePct": -5.04,
           "twentyDayChangePct": 28.61,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5095,7 +5095,7 @@
           "turnoverRate": 1.41,
           "fiveDayChangePct": 1.56,
           "twentyDayChangePct": 3.9,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5198,7 +5198,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5301,7 +5301,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5404,7 +5404,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5507,7 +5507,7 @@
           "turnoverRate": 1.02,
           "fiveDayChangePct": 2.66,
           "twentyDayChangePct": 7.55,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5610,7 +5610,7 @@
           "turnoverRate": 3.73,
           "fiveDayChangePct": -11.1,
           "twentyDayChangePct": 8.36,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5713,7 +5713,7 @@
           "turnoverRate": 10.61,
           "fiveDayChangePct": -5.04,
           "twentyDayChangePct": 28.61,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5816,7 +5816,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -5919,7 +5919,7 @@
           "turnoverRate": 3.54,
           "fiveDayChangePct": 1.1,
           "twentyDayChangePct": 1.51,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6022,7 +6022,7 @@
           "turnoverRate": 1.41,
           "fiveDayChangePct": 1.56,
           "twentyDayChangePct": 3.9,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6125,7 +6125,7 @@
           "turnoverRate": 3.54,
           "fiveDayChangePct": 1.1,
           "twentyDayChangePct": 1.51,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6228,7 +6228,7 @@
           "turnoverRate": 1.14,
           "fiveDayChangePct": 1.88,
           "twentyDayChangePct": 3.84,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6331,7 +6331,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6434,7 +6434,7 @@
           "turnoverRate": 3.54,
           "fiveDayChangePct": 1.1,
           "twentyDayChangePct": 1.51,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6537,7 +6537,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6640,7 +6640,7 @@
           "turnoverRate": 0.62,
           "fiveDayChangePct": 1.49,
           "twentyDayChangePct": -0.56,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6743,7 +6743,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6846,7 +6846,7 @@
           "turnoverRate": 0.62,
           "fiveDayChangePct": 1.49,
           "twentyDayChangePct": -0.56,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -6949,7 +6949,7 @@
           "turnoverRate": 2.29,
           "fiveDayChangePct": 11.98,
           "twentyDayChangePct": 42.87,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7052,7 +7052,7 @@
           "turnoverRate": 1.14,
           "fiveDayChangePct": 1.88,
           "twentyDayChangePct": 3.84,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7155,7 +7155,7 @@
           "turnoverRate": 3.73,
           "fiveDayChangePct": -11.1,
           "twentyDayChangePct": 8.36,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7258,7 +7258,7 @@
           "turnoverRate": 1.22,
           "fiveDayChangePct": -3.82,
           "twentyDayChangePct": -12.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7361,7 +7361,7 @@
           "turnoverRate": 1.14,
           "fiveDayChangePct": 1.88,
           "twentyDayChangePct": 3.84,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7464,7 +7464,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7501,6 +7501,146 @@
         "hasOfficialSource": true
       },
       "nextQuestion": "待验证：人工阅读披露正文后再决定是否 promotion。"
+    },
+    {
+      "id": "chg_claim_2026_08_27_other_7dddf81c70",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-08-27",
+      "time": "2026-08-27",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元创新（上海）科技股份有限公司存在待审核材料《金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶》。",
+      "change": "智元创新（上海）科技股份有限公司 has review material: \"金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶\".",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "low",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_com_cn_f2665a2181",
+          "title": "金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "news",
+          "url": "https://www.agibot.com.cn/article/315/detail/188.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_08_27_other_7dddf81c70",
+          "relation": "mentions",
+          "sourceLevel": "A",
+          "strength": "weak",
+          "source": {
+            "id": "src_agibot_com_cn_f2665a2181",
+            "title": "金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶",
+            "publisher": "智元创新（上海）科技股份有限公司",
+            "sourceType": "news",
+            "url": "https://www.agibot.com.cn/article/315/detail/188.html",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "manual_claim_extraction",
+          "subject": "人工确认事实字段后再 promotion。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "candidate claims are not facts until review",
+      "changeType": "company_public_update",
+      "changeLabel": "公司 / 公开动态",
+      "verificationState": "pending_review",
+      "verificationLabel": "待审核",
+      "evidenceSummary": {
+        "level": "A",
+        "sourceType": "news",
+        "sourceLabel": "新闻/文章",
+        "sourceCount": 1,
+        "claimCount": 1,
+        "evidenceCount": 1,
+        "strongestSourceLevel": "A",
+        "hasOfficialSource": false
+      },
+      "nextQuestion": "待验证：人工确认事实字段后再 promotion。"
+    },
+    {
+      "id": "chg_claim_2026_08_27_other_a8e0717173",
+      "sourceType": "claim",
+      "lane": "company",
+      "date": "2026-08-27",
+      "time": "2026-08-27",
+      "objectId": "zhiyuan_robot",
+      "objectName": "智元机器人",
+      "title": "智元创新（上海）科技股份有限公司存在待审核材料《运动会46枚奖牌圆满收官，部署态征程继续！》。",
+      "change": "智元创新（上海）科技股份有限公司 has review material: \"运动会46枚奖牌圆满收官，部署态征程继续！\".",
+      "status": "pending_review",
+      "evidenceLevel": "A",
+      "confidence": "low",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "sources": [
+        {
+          "id": "src_agibot_com_cn_a6cc344c4b",
+          "title": "运动会46枚奖牌圆满收官，部署态征程继续！",
+          "publisher": "智元创新（上海）科技股份有限公司",
+          "sourceType": "news",
+          "url": "https://www.agibot.com.cn/article/315/detail/189.html",
+          "evidenceLevel": "A"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evd_2026_08_27_other_a8e0717173",
+          "relation": "mentions",
+          "sourceLevel": "A",
+          "strength": "weak",
+          "source": {
+            "id": "src_agibot_com_cn_a6cc344c4b",
+            "title": "运动会46枚奖牌圆满收官，部署态征程继续！",
+            "publisher": "智元创新（上海）科技股份有限公司",
+            "sourceType": "news",
+            "url": "https://www.agibot.com.cn/article/315/detail/189.html",
+            "evidenceLevel": "A"
+          }
+        }
+      ],
+      "verificationItems": [
+        {
+          "id": "manual_claim_extraction",
+          "subject": "人工确认事实字段后再 promotion。",
+          "status": "required"
+        }
+      ],
+      "marketContext": [],
+      "noCausalityPolicy": "candidate claims are not facts until review",
+      "changeType": "company_public_update",
+      "changeLabel": "公司 / 公开动态",
+      "verificationState": "pending_review",
+      "verificationLabel": "待审核",
+      "evidenceSummary": {
+        "level": "A",
+        "sourceType": "news",
+        "sourceLabel": "新闻/文章",
+        "sourceCount": 1,
+        "claimCount": 1,
+        "evidenceCount": 1,
+        "strongestSourceLevel": "A",
+        "hasOfficialSource": false
+      },
+      "nextQuestion": "待验证：人工确认事实字段后再 promotion。"
     },
     {
       "id": "chg_claim_2026_08_27_other_ce3fd98a5a",
@@ -7707,7 +7847,7 @@
           "turnoverRate": 0.85,
           "fiveDayChangePct": 0.76,
           "twentyDayChangePct": 7.47,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7810,7 +7950,7 @@
           "turnoverRate": 1.7,
           "fiveDayChangePct": -0.36,
           "twentyDayChangePct": 0.28,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -7826,212 +7966,6 @@
               "publisher": "腾讯财经",
               "sourceType": "market_data",
               "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
-              "evidenceLevel": "B"
-            }
-          ]
-        }
-      ],
-      "noCausalityPolicy": "candidate claims are not facts until review",
-      "changeType": "company_disclosure",
-      "changeLabel": "公司 / 公告材料",
-      "verificationState": "pending_review",
-      "verificationLabel": "待审核",
-      "evidenceSummary": {
-        "level": "A",
-        "sourceType": "exchange",
-        "sourceLabel": "交易所公告",
-        "sourceCount": 1,
-        "claimCount": 1,
-        "evidenceCount": 1,
-        "strongestSourceLevel": "A",
-        "hasOfficialSource": true
-      },
-      "nextQuestion": "待验证：人工阅读披露正文后再决定是否 promotion。"
-    },
-    {
-      "id": "chg_claim_2026_08_26_filing_05cd2aecb8",
-      "sourceType": "claim",
-      "lane": "company",
-      "date": "2026-08-26",
-      "time": "2026-08-26",
-      "objectId": "kinco",
-      "objectName": "步科股份",
-      "title": "步科股份存在待审核公告/披露材料《2026年半年度募集资金存放、管理与实际使用情况的专项报告》。",
-      "change": "步科股份 has filing/disclosure material: \"2026年半年度募集资金存放、管理与实际使用情况的专项报告\".",
-      "status": "pending_review",
-      "evidenceLevel": "A",
-      "confidence": "medium",
-      "entityIds": [
-        "kinco"
-      ],
-      "entityNames": [
-        "步科股份"
-      ],
-      "sources": [
-        {
-          "id": "src_static_cninfo_com_cn_3cbae80623",
-          "title": "2026年半年度募集资金存放、管理与实际使用情况的专项报告",
-          "publisher": "步科股份",
-          "sourceType": "exchange",
-          "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503330.PDF",
-          "evidenceLevel": "A"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "evd_2026_08_26_filing_05cd2aecb8",
-          "relation": "mentions",
-          "sourceLevel": "A",
-          "strength": "medium",
-          "source": {
-            "id": "src_static_cninfo_com_cn_3cbae80623",
-            "title": "2026年半年度募集资金存放、管理与实际使用情况的专项报告",
-            "publisher": "步科股份",
-            "sourceType": "exchange",
-            "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503330.PDF",
-            "evidenceLevel": "A"
-          }
-        }
-      ],
-      "verificationItems": [
-        {
-          "id": "read_disclosure_body",
-          "subject": "人工阅读披露正文后再决定是否 promotion。",
-          "status": "required"
-        }
-      ],
-      "marketContext": [
-        {
-          "id": "stock_2026-08-27_kinco",
-          "entityId": "kinco",
-          "company": "步科股份",
-          "stockCode": "688160",
-          "market": "SSE",
-          "price": 99.56,
-          "changePct": 2.68,
-          "turnoverAmount": "1.02亿",
-          "turnoverRate": 1.13,
-          "fiveDayChangePct": -0.4,
-          "twentyDayChangePct": -0.57,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
-          "sources": [
-            {
-              "id": "src_tencent_market_quote",
-              "title": "腾讯财经行情接口 · 688160",
-              "publisher": "腾讯财经",
-              "sourceType": "market_data",
-              "url": "https://qt.gtimg.cn/q=sh688160",
-              "evidenceLevel": "B"
-            },
-            {
-              "id": "src_tencent_market_quote_kline_688160",
-              "title": "腾讯财经K线接口 · 688160",
-              "publisher": "腾讯财经",
-              "sourceType": "market_data",
-              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688160,day,,,30,qfq",
-              "evidenceLevel": "B"
-            }
-          ]
-        }
-      ],
-      "noCausalityPolicy": "candidate claims are not facts until review",
-      "changeType": "company_disclosure",
-      "changeLabel": "公司 / 公告材料",
-      "verificationState": "pending_review",
-      "verificationLabel": "待审核",
-      "evidenceSummary": {
-        "level": "A",
-        "sourceType": "exchange",
-        "sourceLabel": "交易所公告",
-        "sourceCount": 1,
-        "claimCount": 1,
-        "evidenceCount": 1,
-        "strongestSourceLevel": "A",
-        "hasOfficialSource": true
-      },
-      "nextQuestion": "待验证：人工阅读披露正文后再决定是否 promotion。"
-    },
-    {
-      "id": "chg_claim_2026_08_26_filing_11458c1863",
-      "sourceType": "claim",
-      "lane": "company",
-      "date": "2026-08-26",
-      "time": "2026-08-26",
-      "objectId": "zhongda_leader",
-      "objectName": "中大力德",
-      "title": "中大力德存在待审核公告/披露材料《2026年半年度报告摘要》。",
-      "change": "中大力德 has filing/disclosure material: \"2026年半年度报告摘要\".",
-      "status": "pending_review",
-      "evidenceLevel": "A",
-      "confidence": "medium",
-      "entityIds": [
-        "zhongda_leader"
-      ],
-      "entityNames": [
-        "中大力德"
-      ],
-      "sources": [
-        {
-          "id": "src_static_cninfo_com_cn_37090ada37",
-          "title": "2026年半年度报告摘要",
-          "publisher": "中大力德",
-          "sourceType": "exchange",
-          "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503751.PDF",
-          "evidenceLevel": "A"
-        }
-      ],
-      "evidence": [
-        {
-          "id": "evd_2026_08_26_filing_11458c1863",
-          "relation": "mentions",
-          "sourceLevel": "A",
-          "strength": "medium",
-          "source": {
-            "id": "src_static_cninfo_com_cn_37090ada37",
-            "title": "2026年半年度报告摘要",
-            "publisher": "中大力德",
-            "sourceType": "exchange",
-            "url": "http://static.cninfo.com.cn/finalpage/2026-08-26/1225503751.PDF",
-            "evidenceLevel": "A"
-          }
-        }
-      ],
-      "verificationItems": [
-        {
-          "id": "read_disclosure_body",
-          "subject": "人工阅读披露正文后再决定是否 promotion。",
-          "status": "required"
-        }
-      ],
-      "marketContext": [
-        {
-          "id": "stock_2026-08-27_zhongda_leader",
-          "entityId": "zhongda_leader",
-          "company": "中大力德",
-          "stockCode": "002896",
-          "market": "SZSE",
-          "price": 64.52,
-          "changePct": 1.59,
-          "turnoverAmount": "4.53亿",
-          "turnoverRate": 3.6,
-          "fiveDayChangePct": -6.17,
-          "twentyDayChangePct": 8.78,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
-          "sources": [
-            {
-              "id": "src_tencent_market_quote",
-              "title": "腾讯财经行情接口 · 002896",
-              "publisher": "腾讯财经",
-              "sourceType": "market_data",
-              "url": "https://qt.gtimg.cn/q=sz002896",
-              "evidenceLevel": "B"
-            },
-            {
-              "id": "src_tencent_market_quote_kline_002896",
-              "title": "腾讯财经K线接口 · 002896",
-              "publisher": "腾讯财经",
-              "sourceType": "market_data",
-              "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
               "evidenceLevel": "B"
             }
           ]
@@ -8156,7 +8090,7 @@
             "id": "chg_market_stock_2026-08-27_anji_microelectronics",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "anji_microelectronics",
             "objectName": "安集科技",
             "title": "安集科技 +6.10%，成交额 17.33亿",
@@ -8185,7 +8119,7 @@
             "id": "chg_market_stock_2026-08-27_avic_jonhon",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "avic_jonhon",
             "objectName": "中航光电",
             "title": "中航光电 +6.38%，成交额 15.89亿",
@@ -8214,7 +8148,7 @@
             "id": "chg_market_stock_2026-08-27_beite_technology",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "beite_technology",
             "objectName": "北特科技",
             "title": "北特科技 +5.09%，成交额 4.07亿",
@@ -8241,7 +8175,7 @@
           }
         ]
       },
-      "total": 76
+      "total": 78
     },
     {
       "date": "2026-08-26",
@@ -8439,7 +8373,7 @@
         "policy": [],
         "market": []
       },
-      "total": 20
+      "total": 22
     },
     {
       "date": "2026-08-24",
@@ -9073,7 +9007,7 @@
             "id": "chg_market_stock_2026-08-27_anji_microelectronics",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "anji_microelectronics",
             "objectName": "安集科技",
             "title": "安集科技 +6.10%，成交额 17.33亿",
@@ -9105,7 +9039,7 @@
           "id": "chg_market_stock_2026-08-27_anji_microelectronics",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "anji_microelectronics",
           "objectName": "安集科技",
           "title": "安集科技 +6.10%，成交额 17.33亿",
@@ -9374,7 +9308,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -9445,7 +9379,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "orbbec",
@@ -9640,7 +9574,7 @@
             "id": "chg_market_stock_2026-08-27_orbbec",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "orbbec",
             "objectName": "奥比中光",
             "title": "奥比中光 +3.53%，成交额 6.37亿",
@@ -9672,7 +9606,7 @@
           "id": "chg_market_stock_2026-08-27_orbbec",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "orbbec",
           "objectName": "奥比中光",
           "title": "奥比中光 +3.53%，成交额 6.37亿",
@@ -9941,7 +9875,7 @@
           "turnoverRate": 2.07,
           "fiveDayChangePct": -2.72,
           "twentyDayChangePct": 21.63,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -10018,7 +9952,7 @@
         "C"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "beite_technology",
@@ -10125,7 +10059,7 @@
             "id": "chg_market_stock_2026-08-27_beite_technology",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "beite_technology",
             "objectName": "北特科技",
             "title": "北特科技 +5.09%，成交额 4.07亿",
@@ -10157,7 +10091,7 @@
           "id": "chg_market_stock_2026-08-27_beite_technology",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "beite_technology",
           "objectName": "北特科技",
           "title": "北特科技 +5.09%，成交额 4.07亿",
@@ -10426,7 +10360,7 @@
           "turnoverRate": 2.53,
           "fiveDayChangePct": 4.24,
           "twentyDayChangePct": 31.99,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -10466,7 +10400,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "harbin_pharma",
@@ -10573,7 +10507,7 @@
             "id": "chg_market_stock_2026-08-27_harbin_pharma",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "harbin_pharma",
             "objectName": "哈药股份",
             "title": "哈药股份 +6.97%，成交额 32.28亿",
@@ -10605,7 +10539,7 @@
           "id": "chg_market_stock_2026-08-27_harbin_pharma",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "harbin_pharma",
           "objectName": "哈药股份",
           "title": "哈药股份 +6.97%，成交额 32.28亿",
@@ -10874,7 +10808,7 @@
           "turnoverRate": 14.99,
           "fiveDayChangePct": -3.63,
           "twentyDayChangePct": 57.37,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -10946,7 +10880,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "national_silicon",
@@ -11053,7 +10987,7 @@
             "id": "chg_market_stock_2026-08-27_national_silicon",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "national_silicon",
             "objectName": "沪硅产业",
             "title": "沪硅产业 +4.00%，成交额 15.72亿",
@@ -11085,7 +11019,7 @@
           "id": "chg_market_stock_2026-08-27_national_silicon",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "national_silicon",
           "objectName": "沪硅产业",
           "title": "沪硅产业 +4.00%，成交额 15.72亿",
@@ -11354,7 +11288,7 @@
           "turnoverRate": 2.21,
           "fiveDayChangePct": 3.15,
           "twentyDayChangePct": 11.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -11425,7 +11359,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "huahong_semiconductor",
@@ -11532,7 +11466,7 @@
             "id": "chg_market_stock_2026-08-27_huahong_semiconductor",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "huahong_semiconductor",
             "objectName": "华虹公司",
             "title": "华虹公司 +3.57%，成交额 50.14亿",
@@ -11564,7 +11498,7 @@
           "id": "chg_market_stock_2026-08-27_huahong_semiconductor",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "huahong_semiconductor",
           "objectName": "华虹公司",
           "title": "华虹公司 +3.57%，成交额 50.14亿",
@@ -11833,7 +11767,7 @@
           "turnoverRate": 4.94,
           "fiveDayChangePct": 8.61,
           "twentyDayChangePct": 9.88,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -11910,7 +11844,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "montage_technology",
@@ -12017,7 +11951,7 @@
             "id": "chg_market_stock_2026-08-27_montage_technology",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "montage_technology",
             "objectName": "澜起科技",
             "title": "澜起科技 +10.06%，成交额 144.63亿",
@@ -12049,7 +11983,7 @@
           "id": "chg_market_stock_2026-08-27_montage_technology",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "montage_technology",
           "objectName": "澜起科技",
           "title": "澜起科技 +10.06%，成交额 144.63亿",
@@ -12318,7 +12252,7 @@
           "turnoverRate": 5.88,
           "fiveDayChangePct": 11.1,
           "twentyDayChangePct": 12.42,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -12391,7 +12325,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     },
     {
       "id": "luster_lighttech",
@@ -12498,7 +12432,7 @@
             "id": "chg_market_stock_2026-08-27_luster_lighttech",
             "lane": "market",
             "date": "2026-08-27",
-            "time": "2026-08-27T16:18:18+08:00",
+            "time": "2026-08-27T21:15:42+08:00",
             "objectId": "luster_lighttech",
             "objectName": "凌云光",
             "title": "凌云光 +3.89%，成交额 3.92亿",
@@ -12530,7 +12464,7 @@
           "id": "chg_market_stock_2026-08-27_luster_lighttech",
           "lane": "market",
           "date": "2026-08-27",
-          "time": "2026-08-27T16:18:18+08:00",
+          "time": "2026-08-27T21:15:42+08:00",
           "objectId": "luster_lighttech",
           "objectName": "凌云光",
           "title": "凌云光 +3.89%，成交额 3.92亿",
@@ -12799,7 +12733,7 @@
           "turnoverRate": 1.84,
           "fiveDayChangePct": 0.3,
           "twentyDayChangePct": 21,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -12835,7 +12769,7 @@
         "A"
       ],
       "strongestEvidenceLevel": "A",
-      "lastChangedAt": "2026-08-27T16:18:18+08:00"
+      "lastChangedAt": "2026-08-27T21:15:42+08:00"
     }
   ],
   "marketChanges": [
@@ -12844,7 +12778,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "montage_technology",
       "objectName": "澜起科技",
       "title": "澜起科技 +10.06%，成交额 144.63亿",
@@ -12891,7 +12825,7 @@
           "turnoverRate": 5.88,
           "fiveDayChangePct": 11.1,
           "twentyDayChangePct": 12.42,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -12919,7 +12853,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "harbin_pharma",
       "objectName": "哈药股份",
       "title": "哈药股份 +6.97%，成交额 32.28亿",
@@ -12966,7 +12900,7 @@
           "turnoverRate": 14.99,
           "fiveDayChangePct": -3.63,
           "twentyDayChangePct": 57.37,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -12994,7 +12928,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "avic_jonhon",
       "objectName": "中航光电",
       "title": "中航光电 +6.38%，成交额 15.89亿",
@@ -13041,7 +12975,7 @@
           "turnoverRate": 2.16,
           "fiveDayChangePct": 3.83,
           "twentyDayChangePct": 6.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13069,7 +13003,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "anji_microelectronics",
       "objectName": "安集科技",
       "title": "安集科技 +6.10%，成交额 17.33亿",
@@ -13116,7 +13050,7 @@
           "turnoverRate": 3.09,
           "fiveDayChangePct": -0.14,
           "twentyDayChangePct": 8.11,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13144,7 +13078,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "beite_technology",
       "objectName": "北特科技",
       "title": "北特科技 +5.09%，成交额 4.07亿",
@@ -13191,7 +13125,7 @@
           "turnoverRate": 2.53,
           "fiveDayChangePct": 4.24,
           "twentyDayChangePct": 31.99,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13219,7 +13153,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "tongfu_microelectronics",
       "objectName": "通富微电",
       "title": "通富微电 +4.05%，成交额 54.45亿",
@@ -13266,7 +13200,7 @@
           "turnoverRate": 5.7,
           "fiveDayChangePct": 0.92,
           "twentyDayChangePct": 14.03,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13294,7 +13228,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "national_silicon",
       "objectName": "沪硅产业",
       "title": "沪硅产业 +4.00%，成交额 15.72亿",
@@ -13341,7 +13275,7 @@
           "turnoverRate": 2.21,
           "fiveDayChangePct": 3.15,
           "twentyDayChangePct": 11.35,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13369,7 +13303,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "jcet",
       "objectName": "长电科技",
       "title": "长电科技 +3.97%，成交额 73.78亿",
@@ -13416,7 +13350,7 @@
           "turnoverRate": 5.45,
           "fiveDayChangePct": -3.7,
           "twentyDayChangePct": 18.65,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13444,7 +13378,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "luster_lighttech",
       "objectName": "凌云光",
       "title": "凌云光 +3.89%，成交额 3.92亿",
@@ -13491,7 +13425,7 @@
           "turnoverRate": 1.84,
           "fiveDayChangePct": 0.3,
           "twentyDayChangePct": 21,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13519,7 +13453,7 @@
       "sourceType": "market",
       "lane": "market",
       "date": "2026-08-27",
-      "time": "2026-08-27T16:18:18+08:00",
+      "time": "2026-08-27T21:15:42+08:00",
       "objectId": "wuzhou_xinchun",
       "objectName": "五洲新春",
       "title": "五洲新春 +3.67%，成交额 8.17亿",
@@ -13566,7 +13500,7 @@
           "turnoverRate": 4.3,
           "fiveDayChangePct": 6.85,
           "twentyDayChangePct": 8.93,
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "sources": [
             {
               "id": "src_tencent_market_quote",
@@ -13852,13 +13786,13 @@
     }
   ],
   "summary": {
-    "totalChanges": 2067,
+    "totalChanges": 2071,
     "objectCards": 8,
     "marketChanges": 12,
     "pendingVerification": 12,
     "byLane": {
       "market": 12,
-      "company": 2038,
+      "company": 2042,
       "product": 16,
       "supply_chain": 1
     }

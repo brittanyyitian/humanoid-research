@@ -1,8 +1,8 @@
 {
-  "id": "saout_international_industry_02240c0c2080",
+  "id": "saout_international_industry_be8696b5ea52",
   "entityId": "international_industry",
   "name": "国际实业",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "000159.SZ",
       "name": "国际实业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 6.05,
         "previousClose": 6.0700311026387075,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "29.08亿",
     "fiveDayChangePct": 5.58,
     "twentyDayChangePct": 15.9,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161406",
     "asOf": "20260827161406",
     "source": "daily_market_snapshot"

@@ -1,8 +1,8 @@
 {
-  "id": "saout_xingye_silver_e955b5fe34e0",
+  "id": "saout_xingye_silver_32feac8f438e",
   "entityId": "xingye_silver",
   "name": "兴业银锡",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "000426.SZ",
       "name": "兴业银锡",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 40.69,
         "previousClose": 40.128205128205124,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "722.33亿",
     "fiveDayChangePct": 5.83,
     "twentyDayChangePct": 29.63,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161454",
     "asOf": "20260827161454",
     "source": "daily_market_snapshot"

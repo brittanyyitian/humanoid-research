@@ -1,8 +1,8 @@
 {
-  "id": "saout_taiji_industry_713fbfa2e7c0",
+  "id": "saout_taiji_industry_70ff00678050",
   "entityId": "taiji_industry",
   "name": "太极实业",
-  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "generatedAt": "2026-08-27T21:21:16+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_formal_scorecard",
   "provider": {
@@ -21,7 +21,7 @@
     "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_51_40_taiji_industry",
     "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
     "exitCode": 0,
-    "stdoutTail": "    \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 36.6,\n      \"average_rating\": 1.83,\n      \"details\": {\n        \"monthly_trend\": 3.5,\n        \"weekly_structure\": 2.1,\n        \"daily_buy_point\": 0.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.8\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"晶圆制造服务与工程处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -34.6%，近60日涨跌 71.1%；客户或订单证据 0 条直接、1 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
+    "stdoutTail": "    \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 36.6,\n      \"average_rating\": 1.83,\n      \"details\": {\n        \"monthly_trend\": 3.5,\n        \"weekly_structure\": 2.1,\n        \"daily_buy_point\": 0.55,\n        \"gf_dma_alignment\": 1.2,\n        \"drawdown_position\": 1.8\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [\n    {\n      \"name\": \"customer_order_delivery_unverified\",\n      \"severity\": \"major\",\n      \"effect\": \"rating_cap_b\"\n    }\n  ],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"晶圆制造服务与工程处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -34.6%，近60日涨跌 71.1%；客户或订单证据 0 条直接、1 条线索。\",\n      \"missing_proof\": \"核心产品收入 / 客户验证 / 份额提升 / 供应关系\",\n      \"confidence\": \"Medium\"\n    }\n  ],\n  \"falsification_points\": [\n    \"后续财报仍看不到核心产品收入、客户验证或份额提升。\",\n    \"研发和扩产投入增加，但订单、收入与现金流没有同步改善。\",\n    \"行业景气回落，价格或库存变化削弱原来的增长判断。\"\n  ]\n}\n",
     "stderrTail": ""
   },
   "sourceInputPack": {
@@ -37,17 +37,19 @@
   "inputRefs": {
     "materialRawArtifactIds": [
       "raw_2026_08_27_static_cninfo_com_cn_0c500ab30f",
+      "raw_2026_08_27_static_cninfo_com_cn_c47265237c",
       "raw_2026_08_27_static_cninfo_com_cn_140cc70419",
+      "raw_2026_08_27_static_cninfo_com_cn_f7164d5bed",
       "raw_2026_04_24_static_cninfo_com_cn_cfb9da9e38",
       "raw_2026_04_24_static_cninfo_com_cn_e64b62445d",
       "raw_2025_08_29_static_cninfo_com_cn_82ddd4a02f",
-      "raw_2025_08_29_static_cninfo_com_cn_8e855b8d21",
-      "raw_2025_04_26_static_cninfo_com_cn_7d67cf606a",
-      "raw_2025_04_26_static_cninfo_com_cn_250551bc88"
+      "raw_2025_08_29_static_cninfo_com_cn_8e855b8d21"
     ],
     "claimIds": [
       "claim_2026_08_27_filing_9ee1d840b3",
+      "claim_2026_08_27_filing_c492b972c1",
       "claim_2026_08_27_filing_4d339b3a34",
+      "claim_2026_08_27_filing_56afcdc5f4",
       "claim_2026_04_24_filing_6011be1e42",
       "claim_2026_04_24_filing_94a38727f5",
       "claim_2025_08_29_filing_f1f71a21de",
@@ -60,8 +62,6 @@
       "claim_2026_06_19_filing_1fef633e7e",
       "claim_2026_05_16_filing_ca9d0444dc",
       "claim_2026_04_24_filing_14bb517a6b",
-      "claim_2026_08_27_filing_c492b972c1",
-      "claim_2026_08_27_filing_56afcdc5f4",
       "claim_2026_08_14_filing_6844065822",
       "claim_2026_08_12_filing_b129bb9bd0",
       "claim_2026_06_18_filing_f608f9281b",

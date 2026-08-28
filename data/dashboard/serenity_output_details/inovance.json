@@ -1,8 +1,8 @@
 {
-  "id": "saout_inovance_21cf662e8a3a",
+  "id": "saout_inovance_15ab9e6c7a81",
   "entityId": "inovance",
   "name": "汇川技术",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "300124.SZ",
       "name": "汇川技术",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 62.12,
         "previousClose": 61.89717018732562,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "1497.29亿",
     "fiveDayChangePct": 5.07,
     "twentyDayChangePct": -2.19,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161412",
     "asOf": "20260827161412",
     "source": "daily_market_snapshot"

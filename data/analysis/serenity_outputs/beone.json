@@ -1,8 +1,8 @@
 {
-  "id": "saout_beone_ed754b2b3006",
+  "id": "saout_beone_7d96d01af5da",
   "entityId": "beone",
   "name": "百济神州",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_ai_review",
   "provider": {
@@ -52,7 +52,7 @@
       "source": "serenity",
       "symbol": "688235.SH",
       "name": "百济神州",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 279.75,
         "previousClose": 278.9967088860078,
@@ -894,7 +894,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -1164,7 +1164,7 @@
           "claim": "创新药研发与全球销售处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。",
           "source": "research_reading + Serenity formal artifacts",
           "source_level": "A/L0-L2",
-          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。",
+          "supports": "已读取 8 份正式公告，其中 5 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。",
           "missing_proof": "临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文",
           "confidence": "Strong"
         }
@@ -1286,7 +1286,7 @@
       ]
     },
     "dailyRefresh": {
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "source": "serenity_formal_scorecard",
       "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
     }

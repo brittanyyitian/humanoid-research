@@ -1,8 +1,8 @@
 {
-  "id": "saout_taiji_industry_fc12affccb13",
+  "id": "saout_taiji_industry_6be65ff72f02",
   "entityId": "taiji_industry",
   "name": "太极实业",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_ai_review",
   "provider": {
@@ -52,7 +52,7 @@
       "source": "serenity",
       "symbol": "600667.SH",
       "name": "太极实业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 20.14,
         "previousClose": 19.62962962962963,
@@ -894,7 +894,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -1170,7 +1170,7 @@
           "claim": "晶圆制造服务与工程处于公告材料跟踪阶段。已有财务/公告材料；官方来源部分覆盖；缺核心产品收入、客户验证、份额提升和供应关系。",
           "source": "research_reading + Serenity formal artifacts",
           "source_level": "A/L0-L2",
-          "supports": "已读取 8 份正式公告，其中 7 份财报或业绩材料；近20日涨跌 -34.6%，近60日涨跌 71.1%；客户或订单证据 0 条直接、1 条线索。",
+          "supports": "已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 -34.6%，近60日涨跌 71.1%；客户或订单证据 0 条直接、1 条线索。",
           "missing_proof": "核心产品收入 / 客户验证 / 份额提升 / 供应关系",
           "confidence": "Medium"
         }
@@ -1292,7 +1292,7 @@
       ]
     },
     "dailyRefresh": {
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "source": "serenity_formal_scorecard",
       "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
     }

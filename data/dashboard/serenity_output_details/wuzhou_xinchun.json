@@ -1,8 +1,8 @@
 {
-  "id": "saout_wuzhou_xinchun_d495a01b1f26",
+  "id": "saout_wuzhou_xinchun_ee66312a8120",
   "entityId": "wuzhou_xinchun",
   "name": "五洲新春",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -33,7 +33,7 @@
       "source": "serenity",
       "symbol": "603667.SH",
       "name": "五洲新春",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 52.55,
         "previousClose": 50.68968843445548,
@@ -920,7 +920,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -976,7 +976,7 @@
     "floatMarketCap": "192.44亿",
     "fiveDayChangePct": 6.85,
     "twentyDayChangePct": 8.93,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161449",
     "asOf": "20260827161449",
     "source": "daily_market_snapshot"

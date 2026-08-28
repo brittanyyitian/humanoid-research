@@ -1,8 +1,8 @@
 {
-  "id": "saout_zhiyuan_robot_3fada7f46644",
+  "id": "saout_zhiyuan_robot_8aee605288cd",
   "entityId": "zhiyuan_robot",
   "name": "智元机器人",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:14+08:00",
   "status": "research_brief",
   "provider": {
     "name": "research_brief_compiler_v0",
@@ -27,14 +27,14 @@
     "followup": "下一期财报或公告是否补充收入、客户或业务线信息。",
     "materialLine": "主要材料：官方新闻 8",
     "statusLabel": "可进入分析",
-    "inputState": "13 条可读材料"
+    "inputState": "15 条可读材料"
   },
   "analysisQuote": null,
   "latestQuote": null,
   "quoteStatus": {
     "displaySource": "missing",
     "latestAvailable": false,
-    "analysisAsOf": "2026-08-27T16:37:52+08:00",
+    "analysisAsOf": "2026-08-27T21:22:14+08:00",
     "latestAsOf": null,
     "analysisIsOlder": false
   },
@@ -42,7 +42,7 @@
   "inputRefs": {
     "materialCount": 8,
     "claimCount": 20,
-    "evidenceCount": 11,
+    "evidenceCount": 12,
     "sourceCount": 6
   },
   "layerCounts": {

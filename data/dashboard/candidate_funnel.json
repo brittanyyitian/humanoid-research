@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "contractType": "humanoid_research_candidate_funnel_v0",
   "policy": "Layer-first candidate funnel ranks research priority from public evidence readiness, layer role, and data gaps. It is not a buy/sell recommendation.",
   "theme": "人形机器人产业链",
@@ -422,7 +422,7 @@
           "listed": false,
           "gate": "READY_FOR_REVIEW",
           "gateLabel": "可进入研究复核",
-          "priorityScore": 305,
+          "priorityScore": 345,
           "stage": "shortlist_candidate",
           "reason": "进入机器人观察池；用于跟踪整机厂环节；已有公开材料进入证据链",
           "nextEvidence": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新"
@@ -1059,6 +1059,20 @@
       "nextEvidence": "存在待审核候选事实"
     },
     {
+      "entityId": "zhiyuan_robot",
+      "name": "智元机器人",
+      "ticker": null,
+      "layerId": "robot_oem",
+      "layerLabel": "整机厂",
+      "listed": false,
+      "gate": "READY_FOR_REVIEW",
+      "gateLabel": "可进入研究复核",
+      "priorityScore": 345,
+      "stage": "shortlist_candidate",
+      "reason": "进入机器人观察池；用于跟踪整机厂环节；已有公开材料进入证据链",
+      "nextEvidence": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新"
+    },
+    {
       "entityId": "sanhuazk",
       "name": "三花智控",
       "ticker": "002050.SZ",
@@ -1071,20 +1085,6 @@
       "stage": "evidence_repair",
       "reason": "进入机器人观察池；用于跟踪执行器 / 热管理环节；有上市公司行情/公告入口；已有公开材料进入证据链",
       "nextEvidence": "存在待审核候选事实"
-    },
-    {
-      "entityId": "zhiyuan_robot",
-      "name": "智元机器人",
-      "ticker": null,
-      "layerId": "robot_oem",
-      "layerLabel": "整机厂",
-      "listed": false,
-      "gate": "READY_FOR_REVIEW",
-      "gateLabel": "可进入研究复核",
-      "priorityScore": 305,
-      "stage": "shortlist_candidate",
-      "reason": "进入机器人观察池；用于跟踪整机厂环节；已有公开材料进入证据链",
-      "nextEvidence": "智元2026元苼生态共建行动计划：等待投入进展和生态伙伴名单更新"
     },
     {
       "entityId": "shuanglin",

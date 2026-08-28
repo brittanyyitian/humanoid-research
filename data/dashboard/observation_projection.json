@@ -1,13 +1,13 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:14+08:00",
   "policy": "Observations are projected only from formal events with promoted claims and supporting evidence. Pipeline candidates stay in inbox.",
-  "latestRunId": "obsrun_2026_08_27_91fa77aa1e0e",
+  "latestRunId": "obsrun_2026_08_27_85d9ad12e36c",
   "status": "completed",
   "totals": {
     "observations": 1,
     "projected": 1,
-    "excludedClaims": 2049,
+    "excludedClaims": 2053,
     "violations": 0
   },
   "rows": [
@@ -11681,6 +11681,12 @@
       "reason": "claim_not_promoted"
     },
     {
+      "claimId": "claim_2026_08_25_other_3b53ebc14a",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
       "claimId": "claim_2026_08_25_other_77075462d4",
       "status": "candidate",
       "reviewStatus": "inbox",
@@ -11688,6 +11694,12 @@
     },
     {
       "claimId": "claim_2026_08_25_other_7f8acee3d1",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_08_25_other_da084c4bab",
       "status": "candidate",
       "reviewStatus": "inbox",
       "reason": "claim_not_promoted"
@@ -12312,6 +12324,18 @@
     },
     {
       "claimId": "claim_2026_08_27_filing_fe8fe4fcd3",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_08_27_other_7dddf81c70",
+      "status": "candidate",
+      "reviewStatus": "inbox",
+      "reason": "claim_not_promoted"
+    },
+    {
+      "claimId": "claim_2026_08_27_other_a8e0717173",
       "status": "candidate",
       "reviewStatus": "inbox",
       "reason": "claim_not_promoted"

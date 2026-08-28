@@ -1,8 +1,8 @@
 {
-  "id": "saout_shuanglin_fd8ad08a7a5a",
+  "id": "saout_shuanglin_8a9992a6905b",
   "entityId": "shuanglin",
   "name": "双林股份",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "300100.SZ",
       "name": "双林股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 21.75,
         "previousClose": 21.59023228111971,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "121.28亿",
     "fiveDayChangePct": 4.32,
     "twentyDayChangePct": 3.67,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161442",
     "asOf": "20260827161442",
     "source": "daily_market_snapshot"

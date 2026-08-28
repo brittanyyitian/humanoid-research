@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "policy": "Data acquisition matrix describes whether public research inputs exist for each entity. It is a research-readiness view, not an investment rating.",
   "rows": [
     {
@@ -78,11 +78,11 @@
           "status": "OK",
           "statusLabel": "已取得",
           "evidenceRefs": [
+            "src_agibot_com_cn_f2665a2181",
+            "src_agibot_com_cn_a6cc344c4b",
             "src_agibot_com_cn_3a2e3fadb0",
             "src_agibot_com_cn_37a8354e2d",
-            "src_agibot_com_cn_1bd6261c2f",
-            "src_agibot_com_cn_f381cbe667",
-            "src_agibot_com_cn_01d8c80601"
+            "src_agibot_com_cn_1bd6261c2f"
           ],
           "gap": ""
         },

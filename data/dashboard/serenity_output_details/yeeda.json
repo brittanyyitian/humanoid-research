@@ -1,8 +1,8 @@
 {
-  "id": "saout_yeeda_aa32b9630017",
+  "id": "saout_yeeda_e04b8f4554e6",
   "entityId": "yeeda",
   "name": "怡合达",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -33,7 +33,7 @@
       "source": "serenity",
       "symbol": "301029.SZ",
       "name": "怡合达",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 25.96,
         "previousClose": 25.810300258500696,
@@ -922,7 +922,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -978,7 +978,7 @@
     "floatMarketCap": "117.56亿",
     "fiveDayChangePct": 4.51,
     "twentyDayChangePct": 7.36,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161409",
     "asOf": "20260827161409",
     "source": "daily_market_snapshot"

@@ -1,8 +1,8 @@
 {
-  "id": "saout_ubtech_777449853e00",
+  "id": "saout_ubtech_49707059785f",
   "entityId": "ubtech",
   "name": "优必选",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,19 +32,19 @@
       "source": "serenity",
       "symbol": "9880.HK",
       "name": "优必选",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
-        "price": 83.05,
-        "previousClose": 81.70191834727004,
-        "changePct": 1.6500000000000046,
+        "price": 82.95,
+        "previousClose": 81.69999015069438,
+        "changePct": 1.5300000000000038,
         "high": null,
         "low": null,
         "open": null,
         "volume": null,
-        "turnover": 243000000.00000003,
-        "turnoverText": "2.43亿",
+        "turnover": 247000000.00000003,
+        "turnoverText": "2.47亿",
         "currency": "CNY",
-        "asOf": "2026/08/27 16:03:12",
+        "asOf": "2026/08/27 16:08:35",
         "source": "daily_market_snapshot"
       },
       "ai": {
@@ -478,22 +478,22 @@
           },
           {
             "date": "2026-08-27",
-            "close": 83.05,
+            "close": 82.95,
             "volume": null,
-            "average20": 87.225,
-            "average60": 86.098
+            "average20": 87.22,
+            "average60": 86.096
           }
         ],
         "plainReading": {
           "state": "走势仍然偏弱",
           "what": "现价还在近一个月平均成本下方；成交数据暂时不足。",
           "meaning": "价格低于近期多数人的平均成本，反弹还没有改变原来的弱势。",
-          "watch": "先看能否重新站上 87.23 附近并保持几天，再谈走势变强。",
+          "watch": "先看能否重新站上 87.22 附近并保持几天，再谈走势变强。",
           "risk": "如果跌破近期低点 79.65，说明走势比现在更差，需要重新判断。",
           "levels": {
-            "current": 83.05,
-            "recentAverage": 87.225,
-            "longerAverage": 86.098,
+            "current": 82.95,
+            "recentAverage": 87.22,
+            "longerAverage": 86.096,
             "recentHigh": 94.8,
             "recentLow": 79.65
           }
@@ -608,7 +608,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -641,38 +641,38 @@
     ]
   },
   "analysisQuote": {
-    "price": 83.05,
-    "previousClose": 81.70191834727004,
-    "changePct": 1.6500000000000046,
+    "price": 82.95,
+    "previousClose": 81.69999015069438,
+    "changePct": 1.5300000000000038,
     "high": null,
     "low": null,
     "open": null,
     "volume": null,
-    "turnover": 243000000.00000003,
-    "turnoverText": "2.43亿",
+    "turnover": 247000000.00000003,
+    "turnoverText": "2.47亿",
     "currency": "CNY",
-    "asOf": "2026/08/27 16:03:12",
+    "asOf": "2026/08/27 16:08:35",
     "source": "daily_market_snapshot"
   },
   "latestQuote": {
-    "price": 83.05,
-    "changePct": 1.65,
-    "turnoverText": "2.43亿",
+    "price": 82.95,
+    "changePct": 1.53,
+    "turnoverText": "2.47亿",
     "turnoverRate": 0,
-    "totalMarketCap": "418.07亿港元",
-    "floatMarketCap": "363.92亿港元",
+    "totalMarketCap": "417.57亿港元",
+    "floatMarketCap": "363.48亿港元",
     "fiveDayChangePct": 2.09,
     "twentyDayChangePct": 6.76,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
-    "quoteTime": "2026/08/27 16:03:12",
-    "asOf": "2026/08/27 16:03:12",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
+    "quoteTime": "2026/08/27 16:08:35",
+    "asOf": "2026/08/27 16:08:35",
     "source": "daily_market_snapshot"
   },
   "quoteStatus": {
     "displaySource": "latest_market",
     "latestAvailable": true,
-    "analysisAsOf": "2026/08/27 16:03:12",
-    "latestAsOf": "2026/08/27 16:03:12",
+    "analysisAsOf": "2026/08/27 16:08:35",
+    "latestAsOf": "2026/08/27 16:08:35",
     "analysisIsOlder": false
   },
   "scorecardSummary": {

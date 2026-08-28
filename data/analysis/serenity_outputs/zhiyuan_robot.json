@@ -1,8 +1,8 @@
 {
-  "id": "saout_zhiyuan_robot_3fada7f46644",
+  "id": "saout_zhiyuan_robot_8aee605288cd",
   "entityId": "zhiyuan_robot",
   "name": "智元机器人",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:14+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "research_brief",
   "provider": {
@@ -12,7 +12,7 @@
     "note": "本地编译器根据 inputPack 生成研究重点；不是外部 Serenity/LLM 的分析结论。"
   },
   "sourceInputPack": {
-    "dashboardGeneratedAt": "2026-08-27T08:34:23.784Z",
+    "dashboardGeneratedAt": "2026-08-27T13:16:57.893Z",
     "contractType": "serenity_analysis_input_v0",
     "analysisStatus": {
       "key": "ready_for_serenity",
@@ -23,18 +23,20 @@
   "inputRefs": {
     "materialRawArtifactIds": [
       "raw_2026_08_27_agibot_com_cn_3a2e3fadb0",
+      "raw_2026_08_27_agibot_com_cn_f2665a2181",
       "raw_2026_08_26_agibot_com_cn_01d8c80601",
       "raw_2026_08_25_agibot_com_cn_262e14394f",
+      "raw_2026_08_25_agibot_com_cn_874d0b8bb5",
       "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
       "raw_2026_08_19_agibot_com_cn_7097856bda",
-      "raw_2026_07_29_agibot_com_cn_9370b2ec2e",
-      "raw_2026_07_20_agibot_com_cn_a968d44424",
-      "raw_2026_07_20_agibot_com_cn_7289d33025"
+      "raw_2026_07_29_agibot_com_cn_9370b2ec2e"
     ],
     "claimIds": [
       "claim_2026_08_27_other_ce3fd98a5a",
+      "claim_2026_08_27_other_7dddf81c70",
       "claim_2026_08_26_other_a708264b6a",
       "claim_2026_08_25_other_77075462d4",
+      "claim_2026_08_25_other_3b53ebc14a",
       "claim_2026_08_25_other_7f8acee3d1",
       "claim_2026_08_19_other_4c1c52b997",
       "claim_2026_07_29_other_a434dee970",
@@ -46,33 +48,32 @@
       "claim_2026_06_25_other_6174c63668",
       "claim_2026_06_29_zhiyuan_15000_downline",
       "claim_2026_06_29_zhiyuan_g2_longcheer_delivery",
+      "claim_2026_08_25_other_da084c4bab",
       "claim_2026_08_27_other_d5962f0556",
-      "claim_2026_08_26_other_927f76a169",
-      "claim_2026_08_26_other_2607e63156",
-      "claim_2026_07_29_other_b24cdbe0de",
-      "claim_2026_07_19_other_f19adbc87f",
-      "claim_2026_06_11_other_d38f172a12"
+      "claim_2026_08_27_other_a8e0717173",
+      "claim_2026_08_26_other_927f76a169"
     ],
     "evidenceIds": [
+      "evd_2026_08_27_other_7dddf81c70",
+      "evd_2026_08_27_other_a8e0717173",
       "evd_2026_08_27_other_ce3fd98a5a",
       "evd_2026_08_27_other_d5962f0556",
       "evd_2026_08_26_other_2607e63156",
       "evd_2026_08_26_other_927f76a169",
       "evd_2026_08_26_other_a708264b6a",
       "evd_2026_08_25_other_77075462d4",
+      "evd_2026_08_25_other_3b53ebc14a",
       "evd_2026_08_25_other_7f8acee3d1",
       "evd_2026_08_19_other_4c1c52b997",
-      "evd_2026_07_29_other_a434dee970",
-      "evd_2026_07_20_other_2cba24a9b9",
-      "evd_2026_07_20_other_98ddb6ac97"
+      "evd_2026_07_29_other_a434dee970"
     ],
     "sourceIds": [
+      "src_agibot_com_cn_f2665a2181",
+      "src_agibot_com_cn_a6cc344c4b",
       "src_agibot_com_cn_3a2e3fadb0",
       "src_agibot_com_cn_37a8354e2d",
       "src_agibot_com_cn_1bd6261c2f",
-      "src_agibot_com_cn_f381cbe667",
-      "src_agibot_com_cn_01d8c80601",
-      "src_agibot_com_cn_262e14394f"
+      "src_agibot_com_cn_f381cbe667"
     ],
     "dashboardRefs": [
       "dashboard/serenity_analysis.json",
@@ -96,7 +97,7 @@
     "followup": "下一期财报或公告是否补充收入、客户或业务线信息。",
     "materialLine": "主要材料：官方新闻 8",
     "statusLabel": "可进入分析",
-    "inputState": "13 条可读材料"
+    "inputState": "15 条可读材料"
   },
   "layers": {
     "factNotes": [
@@ -122,19 +123,19 @@
     "candidateSignals": [
       {
         "label": "候选 Claim",
-        "text": "候选层有 22 条 Claim 待审；人工复核前不进入事实层。",
+        "text": "候选层有 26 条 Claim 待审；人工复核前不进入事实层。",
         "refs": {
           "claimIds": [
             "claim_2026_08_27_other_ce3fd98a5a",
+            "claim_2026_08_27_other_7dddf81c70",
             "claim_2026_08_26_other_a708264b6a",
             "claim_2026_08_25_other_77075462d4",
+            "claim_2026_08_25_other_3b53ebc14a",
             "claim_2026_08_25_other_7f8acee3d1",
             "claim_2026_08_19_other_4c1c52b997",
             "claim_2026_07_29_other_a434dee970",
             "claim_2026_07_20_other_2cba24a9b9",
-            "claim_2026_07_20_other_98ddb6ac97",
-            "claim_2026_07_19_other_ed327a8e3e",
-            "claim_2026_07_17_other_9552215e95"
+            "claim_2026_07_20_other_98ddb6ac97"
           ]
         }
       }
@@ -147,11 +148,11 @@
         "refs": {
           "materialRawArtifactIds": [
             "raw_2026_08_27_agibot_com_cn_3a2e3fadb0",
+            "raw_2026_08_27_agibot_com_cn_f2665a2181",
             "raw_2026_08_26_agibot_com_cn_01d8c80601",
             "raw_2026_08_25_agibot_com_cn_262e14394f",
-            "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
-            "raw_2026_08_19_agibot_com_cn_7097856bda",
-            "raw_2026_07_29_agibot_com_cn_9370b2ec2e"
+            "raw_2026_08_25_agibot_com_cn_874d0b8bb5",
+            "raw_2026_08_25_agibot_com_cn_90cc5e9e82"
           ]
         }
       },
@@ -297,10 +298,10 @@
           ],
           "materialRawArtifactIds": [
             "raw_2026_08_27_agibot_com_cn_3a2e3fadb0",
+            "raw_2026_08_27_agibot_com_cn_f2665a2181",
             "raw_2026_08_26_agibot_com_cn_01d8c80601",
             "raw_2026_08_25_agibot_com_cn_262e14394f",
-            "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
-            "raw_2026_08_19_agibot_com_cn_7097856bda"
+            "raw_2026_08_25_agibot_com_cn_874d0b8bb5"
           ]
         }
       },
@@ -321,10 +322,10 @@
           ],
           "materialRawArtifactIds": [
             "raw_2026_08_27_agibot_com_cn_3a2e3fadb0",
+            "raw_2026_08_27_agibot_com_cn_f2665a2181",
             "raw_2026_08_26_agibot_com_cn_01d8c80601",
             "raw_2026_08_25_agibot_com_cn_262e14394f",
-            "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
-            "raw_2026_08_19_agibot_com_cn_7097856bda"
+            "raw_2026_08_25_agibot_com_cn_874d0b8bb5"
           ]
         }
       },
@@ -345,10 +346,10 @@
           ],
           "materialRawArtifactIds": [
             "raw_2026_08_27_agibot_com_cn_3a2e3fadb0",
+            "raw_2026_08_27_agibot_com_cn_f2665a2181",
             "raw_2026_08_26_agibot_com_cn_01d8c80601",
             "raw_2026_08_25_agibot_com_cn_262e14394f",
-            "raw_2026_08_25_agibot_com_cn_90cc5e9e82",
-            "raw_2026_08_19_agibot_com_cn_7097856bda"
+            "raw_2026_08_25_agibot_com_cn_874d0b8bb5"
           ]
         }
       }

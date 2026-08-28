@@ -1,8 +1,8 @@
 {
-  "id": "saout_orbbec_762f205464a9",
+  "id": "saout_orbbec_3df10067f6c4",
   "entityId": "orbbec",
   "name": "奥比中光",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "688322.SH",
       "name": "奥比中光",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 97.28,
         "previousClose": 93.96310248237226,
@@ -864,7 +864,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -919,7 +919,7 @@
     "floatMarketCap": "311.55亿",
     "fiveDayChangePct": -2.72,
     "twentyDayChangePct": 21.63,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161453",
     "asOf": "20260827161453",
     "source": "daily_market_snapshot"

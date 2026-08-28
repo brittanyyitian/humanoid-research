@@ -1,8 +1,8 @@
 {
-  "id": "saout_kinco_9b9f05d43c78",
+  "id": "saout_kinco_02189138f871",
   "entityId": "kinco",
   "name": "步科股份",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_ai_review",
   "provider": {
@@ -52,7 +52,7 @@
       "source": "serenity",
       "symbol": "688160.SH",
       "name": "步科股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 99.56,
         "previousClose": 96.96143358005455,
@@ -894,7 +894,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -1292,7 +1292,7 @@
       ]
     },
     "dailyRefresh": {
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "source": "serenity_formal_scorecard",
       "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
     }

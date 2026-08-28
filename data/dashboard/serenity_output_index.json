@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "contractType": "serenity_analysis_outputs_index_v0",
   "totals": {
     "outputs": 62,
@@ -12,10 +12,10 @@
   },
   "rows": [
     {
-      "id": "saout_amec_e9ca571fe2eb",
+      "id": "saout_amec_2e337f975e9b",
       "entityId": "amec",
       "name": "中微公司",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -24,7 +24,7 @@
       "display": {
         "summary": "Serenity 当前判断：中微公司值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688012.SH",
           "quote": {
             "price": 376.01,
@@ -75,7 +75,7 @@
         "floatMarketCap": "3542.76亿",
         "fiveDayChangePct": 2.88,
         "twentyDayChangePct": 8.52,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161435",
         "asOf": "20260827161435",
         "source": "daily_market_snapshot"
@@ -89,10 +89,10 @@
       }
     },
     {
-      "id": "saout_anji_microelectronics_9b3d3d060a84",
+      "id": "saout_anji_microelectronics_8c6233444228",
       "entityId": "anji_microelectronics",
       "name": "安集科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -101,7 +101,7 @@
       "display": {
         "summary": "Serenity 当前判断：安集科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688019.SH",
           "quote": {
             "price": 248.06,
@@ -152,7 +152,7 @@
         "floatMarketCap": "566.46亿",
         "fiveDayChangePct": -0.14,
         "twentyDayChangePct": 8.11,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161448",
         "asOf": "20260827161448",
         "source": "daily_market_snapshot"
@@ -166,10 +166,10 @@
       }
     },
     {
-      "id": "saout_anpeilong_0647bf72e059",
+      "id": "saout_anpeilong_2bca8d4e1128",
       "entityId": "anpeilong",
       "name": "安培龙",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -178,7 +178,7 @@
       "display": {
         "summary": "Serenity 当前判断：安培龙保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "301413.SZ",
           "quote": {
             "price": 61.86,
@@ -229,7 +229,7 @@
         "floatMarketCap": "47.25亿",
         "fiveDayChangePct": -0.91,
         "twentyDayChangePct": 17.72,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161448",
         "asOf": "20260827161448",
         "source": "daily_market_snapshot"
@@ -243,10 +243,10 @@
       }
     },
     {
-      "id": "saout_avic_jonhon_e8156ee99a42",
+      "id": "saout_avic_jonhon_ed7d7c617247",
       "entityId": "avic_jonhon",
       "name": "中航光电",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -255,7 +255,7 @@
       "display": {
         "summary": "Serenity 当前判断：中航光电保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002179.SZ",
           "quote": {
             "price": 35.5,
@@ -306,7 +306,7 @@
         "floatMarketCap": "744.23亿",
         "fiveDayChangePct": 3.83,
         "twentyDayChangePct": 6.35,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161409",
         "asOf": "20260827161409",
         "source": "daily_market_snapshot"
@@ -320,10 +320,10 @@
       }
     },
     {
-      "id": "saout_avic_uav_3547cb6598e9",
+      "id": "saout_avic_uav_d0a5aa7b66fa",
       "entityId": "avic_uav",
       "name": "中无人机",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -332,7 +332,7 @@
       "display": {
         "summary": "Serenity 当前判断：中无人机值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688297.SH",
           "quote": {
             "price": 38.9,
@@ -383,7 +383,7 @@
         "floatMarketCap": "262.57亿",
         "fiveDayChangePct": 0.03,
         "twentyDayChangePct": -2.51,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161441",
         "asOf": "20260827161441",
         "source": "daily_market_snapshot"
@@ -397,10 +397,10 @@
       }
     },
     {
-      "id": "saout_beite_technology_e8dd0e85e57e",
+      "id": "saout_beite_technology_b46270714551",
       "entityId": "beite_technology",
       "name": "北特科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -409,7 +409,7 @@
       "display": {
         "summary": "Serenity 当前判断：北特科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "603009.SH",
           "quote": {
             "price": 46.91,
@@ -460,7 +460,7 @@
         "floatMarketCap": "162.49亿",
         "fiveDayChangePct": 4.24,
         "twentyDayChangePct": 31.99,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161458",
         "asOf": "20260827161458",
         "source": "daily_market_snapshot"
@@ -474,10 +474,10 @@
       }
     },
     {
-      "id": "saout_beone_ed754b2b3006",
+      "id": "saout_beone_7d96d01af5da",
       "entityId": "beone",
       "name": "百济神州",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -486,7 +486,7 @@
       "display": {
         "summary": "Serenity 当前判断：百济神州值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688235.SH",
           "quote": {
             "price": 279.75,
@@ -537,7 +537,7 @@
         "floatMarketCap": "321.87亿",
         "fiveDayChangePct": -6.4,
         "twentyDayChangePct": 7.8,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161447",
         "asOf": "20260827161447",
         "source": "daily_market_snapshot"
@@ -551,10 +551,10 @@
       }
     },
     {
-      "id": "saout_best_324220e3e8f1",
+      "id": "saout_best_d9a507c72f1a",
       "entityId": "best",
       "name": "贝斯特",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -563,7 +563,7 @@
       "display": {
         "summary": "Serenity 当前判断：贝斯特值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300580.SZ",
           "quote": {
             "price": 20.17,
@@ -614,7 +614,7 @@
         "floatMarketCap": "95.32亿",
         "fiveDayChangePct": 1.61,
         "twentyDayChangePct": 0.85,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161436",
         "asOf": "20260827161436",
         "source": "daily_market_snapshot"
@@ -628,10 +628,10 @@
       }
     },
     {
-      "id": "saout_cambricon_41216a0e0ede",
+      "id": "saout_cambricon_3bd2017d4fd0",
       "entityId": "cambricon",
       "name": "寒武纪",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -640,7 +640,7 @@
       "display": {
         "summary": "Serenity 当前判断：寒武纪值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688256.SH",
           "quote": {
             "price": 1048,
@@ -691,7 +691,7 @@
         "floatMarketCap": "6590.39亿",
         "fiveDayChangePct": 3.67,
         "twentyDayChangePct": 0.53,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161449",
         "asOf": "20260827161449",
         "source": "daily_market_snapshot"
@@ -705,10 +705,10 @@
       }
     },
     {
-      "id": "saout_cnooc_48ba54ab0a86",
+      "id": "saout_cnooc_857ec210f357",
       "entityId": "cnooc",
       "name": "中国海油",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -717,7 +717,7 @@
       "display": {
         "summary": "Serenity 当前判断：中国海油值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600938.SH",
           "quote": {
             "price": 33.82,
@@ -768,7 +768,7 @@
         "floatMarketCap": "1011.22亿",
         "fiveDayChangePct": 1.56,
         "twentyDayChangePct": 3.9,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161444",
         "asOf": "20260827161444",
         "source": "daily_market_snapshot"
@@ -782,10 +782,10 @@
       }
     },
     {
-      "id": "saout_cypc_45d9d99ee142",
+      "id": "saout_cypc_d4a7f19128cd",
       "entityId": "cypc",
       "name": "长江电力",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -794,7 +794,7 @@
       "display": {
         "summary": "Serenity 当前判断：长江电力值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600900.SH",
           "quote": {
             "price": 28.1,
@@ -845,7 +845,7 @@
         "floatMarketCap": "6875.57亿",
         "fiveDayChangePct": -0.21,
         "twentyDayChangePct": -4.71,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -859,10 +859,10 @@
       }
     },
     {
-      "id": "saout_datang_power_644e21120a99",
+      "id": "saout_datang_power_8996fff6c89a",
       "entityId": "datang_power",
       "name": "大唐发电",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -871,7 +871,7 @@
       "display": {
         "summary": "Serenity 当前判断：大唐发电值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "601991.SH",
           "quote": {
             "price": 5.95,
@@ -922,7 +922,7 @@
         "floatMarketCap": "737.57亿",
         "fiveDayChangePct": -0.12,
         "twentyDayChangePct": 3.89,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161454",
         "asOf": "20260827161454",
         "source": "daily_market_snapshot"
@@ -936,10 +936,10 @@
       }
     },
     {
-      "id": "saout_donghua_testing_2d3d119d1b49",
+      "id": "saout_donghua_testing_5917176e485e",
       "entityId": "donghua_testing",
       "name": "东华测试",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -948,7 +948,7 @@
       "display": {
         "summary": "Serenity 当前判断：东华测试当前不列为优先关注。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300354.SZ",
           "quote": {
             "price": 27,
@@ -999,7 +999,7 @@
         "floatMarketCap": "22.53亿",
         "fiveDayChangePct": -7.06,
         "twentyDayChangePct": -2.39,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161427",
         "asOf": "20260827161427",
         "source": "daily_market_snapshot"
@@ -1013,10 +1013,10 @@
       }
     },
     {
-      "id": "saout_estun_92e75e36c76e",
+      "id": "saout_estun_8e936d3033b1",
       "entityId": "estun",
       "name": "埃斯顿",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1025,7 +1025,7 @@
       "display": {
         "summary": "Judgment：Serenity fit 为中等。埃斯顿拥有可识别的一体化业务链和已兑现的机器人板块增长，但整机/系统层竞争激烈，客户订单证据与同层稀缺性验证不足。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002747.SZ",
           "quote": {
             "price": 31.81,
@@ -1076,7 +1076,7 @@
         "floatMarketCap": "248.89亿",
         "fiveDayChangePct": -2.93,
         "twentyDayChangePct": 13.81,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161436",
         "asOf": "20260827161436",
         "source": "daily_market_snapshot"
@@ -1090,10 +1090,10 @@
       }
     },
     {
-      "id": "saout_hainan_haiyao_e78b0a181458",
+      "id": "saout_hainan_haiyao_3f01402b53e4",
       "entityId": "hainan_haiyao",
       "name": "海南海药",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1102,7 +1102,7 @@
       "display": {
         "summary": "Serenity 当前判断：海南海药保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "000566.SZ",
           "quote": {
             "price": 5.05,
@@ -1153,7 +1153,7 @@
         "floatMarketCap": "65.49亿",
         "fiveDayChangePct": -2.51,
         "twentyDayChangePct": -15.13,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161433",
         "asOf": "20260827161433",
         "source": "daily_market_snapshot"
@@ -1167,10 +1167,10 @@
       }
     },
     {
-      "id": "saout_hanwei_electronics_52eea77bf9c7",
+      "id": "saout_hanwei_electronics_0838ca734476",
       "entityId": "hanwei_electronics",
       "name": "汉威科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1179,7 +1179,7 @@
       "display": {
         "summary": "Serenity 当前判断：汉威科技当前不列为优先关注。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300007.SZ",
           "quote": {
             "price": 31.59,
@@ -1230,7 +1230,7 @@
         "floatMarketCap": "89.38亿",
         "fiveDayChangePct": 1.06,
         "twentyDayChangePct": -0.88,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161445",
         "asOf": "20260827161445",
         "source": "daily_market_snapshot"
@@ -1244,10 +1244,10 @@
       }
     },
     {
-      "id": "saout_harbin_pharma_a1d9e8ffadb1",
+      "id": "saout_harbin_pharma_93962839141b",
       "entityId": "harbin_pharma",
       "name": "哈药股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1256,7 +1256,7 @@
       "display": {
         "summary": "Serenity 当前判断：哈药股份保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600664.SH",
           "quote": {
             "price": 8.75,
@@ -1307,7 +1307,7 @@
         "floatMarketCap": "220.37亿",
         "fiveDayChangePct": -3.63,
         "twentyDayChangePct": 57.37,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -1321,10 +1321,10 @@
       }
     },
     {
-      "id": "saout_hechuan_technology_23f41b968596",
+      "id": "saout_hechuan_technology_90a0f09f4cc4",
       "entityId": "hechuan_technology",
       "name": "禾川科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1333,7 +1333,7 @@
       "display": {
         "summary": "Serenity 当前判断：禾川科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688320.SH",
           "quote": {
             "price": 35.9,
@@ -1384,7 +1384,7 @@
         "floatMarketCap": "54.21亿",
         "fiveDayChangePct": 9.95,
         "twentyDayChangePct": 28.63,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161456",
         "asOf": "20260827161456",
         "source": "daily_market_snapshot"
@@ -1398,10 +1398,10 @@
       }
     },
     {
-      "id": "saout_hengrui_70136f0a643c",
+      "id": "saout_hengrui_e95a5953cd2f",
       "entityId": "hengrui",
       "name": "恒瑞医药",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1410,7 +1410,7 @@
       "display": {
         "summary": "Serenity 当前判断：恒瑞医药值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600276.SH",
           "quote": {
             "price": 47.61,
@@ -1461,7 +1461,7 @@
         "floatMarketCap": "3037.04亿",
         "fiveDayChangePct": -3.82,
         "twentyDayChangePct": -12.88,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161442",
         "asOf": "20260827161442",
         "source": "daily_market_snapshot"
@@ -1475,10 +1475,10 @@
       }
     },
     {
-      "id": "saout_highly_electric_d607e90adfd3",
+      "id": "saout_highly_electric_3b719e9cdee7",
       "entityId": "highly_electric",
       "name": "华依科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1487,7 +1487,7 @@
       "display": {
         "summary": "Serenity 当前判断：华依科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688071.SH",
           "quote": {
             "price": 33.29,
@@ -1538,7 +1538,7 @@
         "floatMarketCap": "28.23亿",
         "fiveDayChangePct": 1.68,
         "twentyDayChangePct": -13.8,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -1552,10 +1552,10 @@
       }
     },
     {
-      "id": "saout_huada_jiutian_ca35f7cd7463",
+      "id": "saout_huada_jiutian_84e7515fb2f9",
       "entityId": "huada_jiutian",
       "name": "华大九天",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1564,7 +1564,7 @@
       "display": {
         "summary": "Serenity 当前判断：华大九天值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "301269.SZ",
           "quote": {
             "price": 96.62,
@@ -1615,7 +1615,7 @@
         "floatMarketCap": "529.36亿",
         "fiveDayChangePct": 2.09,
         "twentyDayChangePct": 13.02,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161424",
         "asOf": "20260827161424",
         "source": "daily_market_snapshot"
@@ -1629,10 +1629,10 @@
       }
     },
     {
-      "id": "saout_huahong_semiconductor_f64f654d15cb",
+      "id": "saout_huahong_semiconductor_b9876bfdb063",
       "entityId": "huahong_semiconductor",
       "name": "华虹公司",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1641,7 +1641,7 @@
       "display": {
         "summary": "Serenity 当前判断：华虹公司值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688347.SH",
           "quote": {
             "price": 252.72,
@@ -1692,7 +1692,7 @@
         "floatMarketCap": "1030.47亿",
         "fiveDayChangePct": 8.61,
         "twentyDayChangePct": 9.88,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161459",
         "asOf": "20260827161459",
         "source": "daily_market_snapshot"
@@ -1706,10 +1706,10 @@
       }
     },
     {
-      "id": "saout_inovance_21cf662e8a3a",
+      "id": "saout_inovance_15ab9e6c7a81",
       "entityId": "inovance",
       "name": "汇川技术",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1718,7 +1718,7 @@
       "display": {
         "summary": "Serenity 当前判断：汇川技术值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300124.SZ",
           "quote": {
             "price": 62.12,
@@ -1769,7 +1769,7 @@
         "floatMarketCap": "1497.29亿",
         "fiveDayChangePct": 5.07,
         "twentyDayChangePct": -2.19,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161412",
         "asOf": "20260827161412",
         "source": "daily_market_snapshot"
@@ -1783,10 +1783,10 @@
       }
     },
     {
-      "id": "saout_international_industry_02240c0c2080",
+      "id": "saout_international_industry_be8696b5ea52",
       "entityId": "international_industry",
       "name": "国际实业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1795,7 +1795,7 @@
       "display": {
         "summary": "Serenity 当前判断：国际实业保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "000159.SZ",
           "quote": {
             "price": 6.05,
@@ -1846,7 +1846,7 @@
         "floatMarketCap": "29.08亿",
         "fiveDayChangePct": 5.58,
         "twentyDayChangePct": 15.9,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161406",
         "asOf": "20260827161406",
         "source": "daily_market_snapshot"
@@ -1860,10 +1860,10 @@
       }
     },
     {
-      "id": "saout_jcet_cce479d0c2a4",
+      "id": "saout_jcet_1cf317adfbfc",
       "entityId": "jcet",
       "name": "长电科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1872,7 +1872,7 @@
       "display": {
         "summary": "Serenity 当前判断：长电科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600584.SH",
           "quote": {
             "price": 76.54,
@@ -1923,7 +1923,7 @@
         "floatMarketCap": "1369.62亿",
         "fiveDayChangePct": -3.7,
         "twentyDayChangePct": 18.65,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161454",
         "asOf": "20260827161454",
         "source": "daily_market_snapshot"
@@ -1937,10 +1937,10 @@
       }
     },
     {
-      "id": "saout_jereh_88c890d58c89",
+      "id": "saout_jereh_f4e3120a5560",
       "entityId": "jereh",
       "name": "杰瑞股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -1949,7 +1949,7 @@
       "display": {
         "summary": "Serenity 当前判断：杰瑞股份值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002353.SZ",
           "quote": {
             "price": 136.24,
@@ -2000,7 +2000,7 @@
         "floatMarketCap": "941.51亿",
         "fiveDayChangePct": -11.1,
         "twentyDayChangePct": 8.36,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161442",
         "asOf": "20260827161442",
         "source": "daily_market_snapshot"
@@ -2014,10 +2014,10 @@
       }
     },
     {
-      "id": "saout_keli_sensing_a963c2f720e6",
+      "id": "saout_keli_sensing_58cf9254e8b2",
       "entityId": "keli_sensing",
       "name": "柯力传感",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2026,7 +2026,7 @@
       "display": {
         "summary": "Serenity 当前判断：柯力传感值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "603662.SH",
           "quote": {
             "price": 49.66,
@@ -2077,7 +2077,7 @@
         "floatMarketCap": "139.46亿",
         "fiveDayChangePct": 1.24,
         "twentyDayChangePct": 6.27,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161443",
         "asOf": "20260827161443",
         "source": "daily_market_snapshot"
@@ -2091,10 +2091,10 @@
       }
     },
     {
-      "id": "saout_kinco_9b9f05d43c78",
+      "id": "saout_kinco_02189138f871",
       "entityId": "kinco",
       "name": "步科股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2103,7 +2103,7 @@
       "display": {
         "summary": "Serenity 当前判断：步科股份值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688160.SH",
           "quote": {
             "price": 99.56,
@@ -2154,7 +2154,7 @@
         "floatMarketCap": "90.81亿",
         "fiveDayChangePct": -0.4,
         "twentyDayChangePct": -0.57,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161457",
         "asOf": "20260827161457",
         "source": "daily_market_snapshot"
@@ -2168,10 +2168,10 @@
       }
     },
     {
-      "id": "saout_leaderdrive_0f4e758d48ed",
+      "id": "saout_leaderdrive_4d575ec4e91b",
       "entityId": "leaderdrive",
       "name": "绿的谐波",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2180,7 +2180,7 @@
       "display": {
         "summary": "公司位于机器人与高端自动化的精密传动核心零部件层，谐波减速器具备较强产业链位置，但尚未证明对最窄瓶颈拥有不可替代控制力。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688017.SH",
           "quote": {
             "price": 299.3,
@@ -2231,7 +2231,7 @@
         "floatMarketCap": "548.71亿",
         "fiveDayChangePct": -3.45,
         "twentyDayChangePct": 14.67,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161435",
         "asOf": "20260827161435",
         "source": "daily_market_snapshot"
@@ -2245,10 +2245,10 @@
       }
     },
     {
-      "id": "saout_longcheer_technology_b8e4ab4ec74f",
+      "id": "saout_longcheer_technology_07f8d8eac26e",
       "entityId": "longcheer_technology",
       "name": "龙旗科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2257,7 +2257,7 @@
       "display": {
         "summary": "Serenity 当前判断：龙旗科技当前不列为优先关注。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "603341.SH",
           "quote": {
             "price": 38.1,
@@ -2308,7 +2308,7 @@
         "floatMarketCap": "101.88亿",
         "fiveDayChangePct": 4.1,
         "twentyDayChangePct": 9.14,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161451",
         "asOf": "20260827161451",
         "source": "daily_market_snapshot"
@@ -2322,10 +2322,10 @@
       }
     },
     {
-      "id": "saout_luster_lighttech_17fc826ef6c7",
+      "id": "saout_luster_lighttech_15acdabd2617",
       "entityId": "luster_lighttech",
       "name": "凌云光",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2334,7 +2334,7 @@
       "display": {
         "summary": "Serenity 当前判断：凌云光保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688400.SH",
           "quote": {
             "price": 47.25,
@@ -2385,7 +2385,7 @@
         "floatMarketCap": "216.17亿",
         "fiveDayChangePct": 0.3,
         "twentyDayChangePct": 21,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161459",
         "asOf": "20260827161459",
         "source": "daily_market_snapshot"
@@ -2399,10 +2399,10 @@
       }
     },
     {
-      "id": "saout_montage_technology_c30a64049d73",
+      "id": "saout_montage_technology_d2d8ba1fe15c",
       "entityId": "montage_technology",
       "name": "澜起科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2411,7 +2411,7 @@
       "display": {
         "summary": "Serenity 当前判断：澜起科技值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688008.SH",
           "quote": {
             "price": 221.22,
@@ -2462,7 +2462,7 @@
         "floatMarketCap": "2532.45亿",
         "fiveDayChangePct": 11.1,
         "twentyDayChangePct": 12.42,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -2476,10 +2476,10 @@
       }
     },
     {
-      "id": "saout_moons_4e9c27d5ad29",
+      "id": "saout_moons_d2686300a982",
       "entityId": "moons",
       "name": "鸣志电器",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2488,7 +2488,7 @@
       "display": {
         "summary": "Serenity 当前判断：鸣志电器值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "603728.SH",
           "quote": {
             "price": 47.88,
@@ -2539,7 +2539,7 @@
         "floatMarketCap": "200.56亿",
         "fiveDayChangePct": 1.87,
         "twentyDayChangePct": 5.77,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161431",
         "asOf": "20260827161431",
         "source": "daily_market_snapshot"
@@ -2553,10 +2553,10 @@
       }
     },
     {
-      "id": "saout_national_silicon_abbee4c8dee3",
+      "id": "saout_national_silicon_dcccad28fcd1",
       "entityId": "national_silicon",
       "name": "沪硅产业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2565,7 +2565,7 @@
       "display": {
         "summary": "Serenity 当前判断：沪硅产业值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688126.SH",
           "quote": {
             "price": 25.22,
@@ -2616,7 +2616,7 @@
         "floatMarketCap": "720.69亿",
         "fiveDayChangePct": 3.15,
         "twentyDayChangePct": 11.35,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161453",
         "asOf": "20260827161453",
         "source": "daily_market_snapshot"
@@ -2630,10 +2630,10 @@
       }
     },
     {
-      "id": "saout_naura_660f44baec27",
+      "id": "saout_naura_8e346d5077c1",
       "entityId": "naura",
       "name": "北方华创",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2642,7 +2642,7 @@
       "display": {
         "summary": "Serenity 当前判断：北方华创值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002371.SZ",
           "quote": {
             "price": 718,
@@ -2693,7 +2693,7 @@
         "floatMarketCap": "5206.12亿",
         "fiveDayChangePct": 0.76,
         "twentyDayChangePct": 7.47,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161439",
         "asOf": "20260827161439",
         "source": "daily_market_snapshot"
@@ -2707,10 +2707,10 @@
       }
     },
     {
-      "id": "saout_orbbec_762f205464a9",
+      "id": "saout_orbbec_3df10067f6c4",
       "entityId": "orbbec",
       "name": "奥比中光",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2719,7 +2719,7 @@
       "display": {
         "summary": "Serenity 当前判断：放观察池，不升级为核心候选。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688322.SH",
           "quote": {
             "price": 97.28,
@@ -2770,7 +2770,7 @@
         "floatMarketCap": "311.55亿",
         "fiveDayChangePct": -2.72,
         "twentyDayChangePct": 21.63,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161453",
         "asOf": "20260827161453",
         "source": "daily_market_snapshot"
@@ -2784,10 +2784,10 @@
       }
     },
     {
-      "id": "saout_piotech_2dc829576a90",
+      "id": "saout_piotech_edc3f8856231",
       "entityId": "piotech",
       "name": "均普智能",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2796,7 +2796,7 @@
       "display": {
         "summary": "本地证据足以完成一个有边界的overlay：公司属于定制化智能制造装备与工业场景系统集成层，收入传导链可以被L0披露解释；但并未证明控制独占性瓶颈。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688306.SH",
           "quote": {
             "price": 8.83,
@@ -2847,7 +2847,7 @@
         "floatMarketCap": "108.46亿",
         "fiveDayChangePct": 1.49,
         "twentyDayChangePct": -0.56,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161452",
         "asOf": "20260827161452",
         "source": "daily_market_snapshot"
@@ -2861,10 +2861,10 @@
       }
     },
     {
-      "id": "saout_primarius_fa1b364db820",
+      "id": "saout_primarius_96cf838f5250",
       "entityId": "primarius",
       "name": "概伦电子",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2873,7 +2873,7 @@
       "display": {
         "summary": "Serenity 当前判断：概伦电子保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688206.SH",
           "quote": {
             "price": 43.76,
@@ -2924,7 +2924,7 @@
         "floatMarketCap": "191.05亿",
         "fiveDayChangePct": 11.98,
         "twentyDayChangePct": 42.87,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161444",
         "asOf": "20260827161444",
         "source": "daily_market_snapshot"
@@ -2938,10 +2938,10 @@
       }
     },
     {
-      "id": "saout_rainbow_uav_1cb6d5a61a8f",
+      "id": "saout_rainbow_uav_088080606186",
       "entityId": "rainbow_uav",
       "name": "航天彩虹",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -2950,7 +2950,7 @@
       "display": {
         "summary": "Serenity 当前判断：航天彩虹保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002389.SZ",
           "quote": {
             "price": 18.09,
@@ -3001,7 +3001,7 @@
         "floatMarketCap": "178.14亿",
         "fiveDayChangePct": 2.73,
         "twentyDayChangePct": -3.16,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161415",
         "asOf": "20260827161415",
         "source": "daily_market_snapshot"
@@ -3015,10 +3015,10 @@
       }
     },
     {
-      "id": "saout_sanhuazk_719ea3aa2dcf",
+      "id": "saout_sanhuazk_1920bcfae5d1",
       "entityId": "sanhuazk",
       "name": "三花智控",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3027,7 +3027,7 @@
       "display": {
         "summary": "Serenity判断为“现有热管理业务质量较好、智能驱动新业务仍待订单和收入验证”，适合继续重点跟踪，但当前不适合买入。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002050.SZ",
           "quote": {
             "price": 36.82,
@@ -3078,7 +3078,7 @@
         "floatMarketCap": "1359.04亿",
         "fiveDayChangePct": 1.88,
         "twentyDayChangePct": 3.84,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161409",
         "asOf": "20260827161409",
         "source": "daily_market_snapshot"
@@ -3092,10 +3092,10 @@
       }
     },
     {
-      "id": "saout_sdic_power_81825782230f",
+      "id": "saout_sdic_power_68598561b80e",
       "entityId": "sdic_power",
       "name": "国投电力",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3104,7 +3104,7 @@
       "display": {
         "summary": "Serenity 当前判断：国投电力保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600886.SH",
           "quote": {
             "price": 13.91,
@@ -3155,7 +3155,7 @@
         "floatMarketCap": "1036.88亿",
         "fiveDayChangePct": -0.22,
         "twentyDayChangePct": -6.78,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161438",
         "asOf": "20260827161438",
         "source": "daily_market_snapshot"
@@ -3169,10 +3169,10 @@
       }
     },
     {
-      "id": "saout_shandong_gold_bc9d44d710c7",
+      "id": "saout_shandong_gold_00c9abeff0df",
       "entityId": "shandong_gold",
       "name": "山东黄金",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3181,7 +3181,7 @@
       "display": {
         "summary": "Serenity 当前判断：山东黄金值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600547.SH",
           "quote": {
             "price": 34.89,
@@ -3232,7 +3232,7 @@
         "floatMarketCap": "1261.08亿",
         "fiveDayChangePct": -1.16,
         "twentyDayChangePct": 26.46,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -3246,10 +3246,10 @@
       }
     },
     {
-      "id": "saout_shuanghuan_driveline_0dabf07e0027",
+      "id": "saout_shuanghuan_driveline_5f8a5f05e064",
       "entityId": "shuanghuan_driveline",
       "name": "双环传动",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3258,7 +3258,7 @@
       "display": {
         "summary": "Serenity 当前判断：双环传动保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002472.SZ",
           "quote": {
             "price": 35.79,
@@ -3309,7 +3309,7 @@
         "floatMarketCap": "270.92亿",
         "fiveDayChangePct": -0.36,
         "twentyDayChangePct": 0.28,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161403",
         "asOf": "20260827161403",
         "source": "daily_market_snapshot"
@@ -3323,10 +3323,10 @@
       }
     },
     {
-      "id": "saout_shuanglin_fd8ad08a7a5a",
+      "id": "saout_shuanglin_8a9992a6905b",
       "entityId": "shuanglin",
       "name": "双林股份",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3335,7 +3335,7 @@
       "display": {
         "summary": "Serenity 当前判断：双林股份当前不列为优先关注。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300100.SZ",
           "quote": {
             "price": 21.75,
@@ -3386,7 +3386,7 @@
         "floatMarketCap": "121.28亿",
         "fiveDayChangePct": 4.32,
         "twentyDayChangePct": 3.67,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161442",
         "asOf": "20260827161442",
         "source": "daily_market_snapshot"
@@ -3400,10 +3400,10 @@
       }
     },
     {
-      "id": "saout_siasun_robot_8e8d54eb3632",
+      "id": "saout_siasun_robot_19c10b93deb9",
       "entityId": "siasun_robot",
       "name": "机器人",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3412,7 +3412,7 @@
       "display": {
         "summary": "Serenity 当前判断：机器人保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300024.SZ",
           "quote": {
             "price": 14.6,
@@ -3463,7 +3463,7 @@
         "floatMarketCap": "228.52亿",
         "fiveDayChangePct": -2.28,
         "twentyDayChangePct": -2.6,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161415",
         "asOf": "20260827161415",
         "source": "daily_market_snapshot"
@@ -3477,10 +3477,10 @@
       }
     },
     {
-      "id": "saout_sinopec_092f2fe0735e",
+      "id": "saout_sinopec_c4987addbf93",
       "entityId": "sinopec",
       "name": "中国石化",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3489,7 +3489,7 @@
       "display": {
         "summary": "Serenity 当前判断：中国石化值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600028.SH",
           "quote": {
             "price": 5.29,
@@ -3540,7 +3540,7 @@
         "floatMarketCap": "5012.41亿",
         "fiveDayChangePct": 2.92,
         "twentyDayChangePct": 0.38,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161443",
         "asOf": "20260827161443",
         "source": "daily_market_snapshot"
@@ -3554,10 +3554,10 @@
       }
     },
     {
-      "id": "saout_smic_87289dddd2a0",
+      "id": "saout_smic_3b3f0e07b9f4",
       "entityId": "smic",
       "name": "中芯国际",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3566,7 +3566,7 @@
       "display": {
         "summary": "Serenity 当前判断：中芯国际值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "688981.SH",
           "quote": {
             "price": 126.33,
@@ -3617,7 +3617,7 @@
         "floatMarketCap": "2526.05亿",
         "fiveDayChangePct": 0.66,
         "twentyDayChangePct": 2.72,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161437",
         "asOf": "20260827161437",
         "source": "daily_market_snapshot"
@@ -3631,10 +3631,10 @@
       }
     },
     {
-      "id": "saout_taiji_industry_fc12affccb13",
+      "id": "saout_taiji_industry_6be65ff72f02",
       "entityId": "taiji_industry",
       "name": "太极实业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3643,7 +3643,7 @@
       "display": {
         "summary": "Serenity 当前判断：太极实业保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600667.SH",
           "quote": {
             "price": 20.14,
@@ -3694,7 +3694,7 @@
         "floatMarketCap": "421.24亿",
         "fiveDayChangePct": -5.04,
         "twentyDayChangePct": 28.61,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161455",
         "asOf": "20260827161455",
         "source": "daily_market_snapshot"
@@ -3708,10 +3708,10 @@
       }
     },
     {
-      "id": "saout_taishan_petroleum_708c22574715",
+      "id": "saout_taishan_petroleum_5c2af219e676",
       "entityId": "taishan_petroleum",
       "name": "泰山石油",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3720,7 +3720,7 @@
       "display": {
         "summary": "Serenity 当前判断：泰山石油值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "000554.SZ",
           "quote": {
             "price": 6.46,
@@ -3771,7 +3771,7 @@
         "floatMarketCap": "23.21亿",
         "fiveDayChangePct": 1.1,
         "twentyDayChangePct": 1.51,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161403",
         "asOf": "20260827161403",
         "source": "daily_market_snapshot"
@@ -3785,10 +3785,10 @@
       }
     },
     {
-      "id": "saout_three_gorges_water_14f1813cedb3",
+      "id": "saout_three_gorges_water_2b8bd0936466",
       "entityId": "three_gorges_water",
       "name": "三峡水利",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3797,7 +3797,7 @@
       "display": {
         "summary": "Serenity 当前判断：三峡水利保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "600116.SH",
           "quote": {
             "price": 6.31,
@@ -3848,7 +3848,7 @@
         "floatMarketCap": "120.66亿",
         "fiveDayChangePct": 0,
         "twentyDayChangePct": -5.11,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161443",
         "asOf": "20260827161443",
         "source": "daily_market_snapshot"
@@ -3862,10 +3862,10 @@
       }
     },
     {
-      "id": "saout_tongfu_microelectronics_62458a451f4b",
+      "id": "saout_tongfu_microelectronics_8c9e87408b84",
       "entityId": "tongfu_microelectronics",
       "name": "通富微电",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3874,7 +3874,7 @@
       "display": {
         "summary": "Serenity 当前判断：通富微电值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002156.SZ",
           "quote": {
             "price": 63.73,
@@ -3925,7 +3925,7 @@
         "floatMarketCap": "967.07亿",
         "fiveDayChangePct": 0.92,
         "twentyDayChangePct": 14.03,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161457",
         "asOf": "20260827161457",
         "source": "daily_market_snapshot"
@@ -3939,10 +3939,10 @@
       }
     },
     {
-      "id": "saout_tongyuan_petroleum_4ed4ffbd5ffd",
+      "id": "saout_tongyuan_petroleum_8b9981b1c23e",
       "entityId": "tongyuan_petroleum",
       "name": "通源石油",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -3951,7 +3951,7 @@
       "display": {
         "summary": "Serenity 当前判断：通源石油当前不列为优先关注。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "300164.SZ",
           "quote": {
             "price": 9.83,
@@ -4002,7 +4002,7 @@
         "floatMarketCap": "57.33亿",
         "fiveDayChangePct": -5.66,
         "twentyDayChangePct": -17.67,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161424",
         "asOf": "20260827161424",
         "source": "daily_market_snapshot"
@@ -4016,10 +4016,10 @@
       }
     },
     {
-      "id": "saout_tuopu_group_b351981c0bb5",
+      "id": "saout_tuopu_group_ed1da72e5db0",
       "entityId": "tuopu_group",
       "name": "拓普集团",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4028,7 +4028,7 @@
       "display": {
         "summary": "Serenity 当前判断：拓普集团值得继续观察，暂不追涨。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "601689.SH",
           "quote": {
             "price": 47.43,
@@ -4079,7 +4079,7 @@
         "floatMarketCap": "824.26亿",
         "fiveDayChangePct": 2.66,
         "twentyDayChangePct": 7.55,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161444",
         "asOf": "20260827161444",
         "source": "daily_market_snapshot"
@@ -4093,10 +4093,10 @@
       }
     },
     {
-      "id": "saout_ubtech_777449853e00",
+      "id": "saout_ubtech_49707059785f",
       "entityId": "ubtech",
       "name": "优必选",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4105,20 +4105,20 @@
       "display": {
         "summary": "Serenity 当前判断：优必选保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "9880.HK",
           "quote": {
-            "price": 83.05,
-            "previousClose": 81.70191834727004,
-            "changePct": 1.6500000000000046,
+            "price": 82.95,
+            "previousClose": 81.69999015069438,
+            "changePct": 1.5300000000000038,
             "high": null,
             "low": null,
             "open": null,
             "volume": null,
-            "turnover": 243000000.00000003,
-            "turnoverText": "2.43亿",
+            "turnover": 247000000.00000003,
+            "turnoverText": "2.47亿",
             "currency": "CNY",
-            "asOf": "2026/08/27 16:03:12",
+            "asOf": "2026/08/27 16:08:35",
             "source": "daily_market_snapshot"
           },
           "ai": {
@@ -4134,46 +4134,46 @@
         }
       },
       "analysisQuote": {
-        "price": 83.05,
-        "previousClose": 81.70191834727004,
-        "changePct": 1.6500000000000046,
+        "price": 82.95,
+        "previousClose": 81.69999015069438,
+        "changePct": 1.5300000000000038,
         "high": null,
         "low": null,
         "open": null,
         "volume": null,
-        "turnover": 243000000.00000003,
-        "turnoverText": "2.43亿",
+        "turnover": 247000000.00000003,
+        "turnoverText": "2.47亿",
         "currency": "CNY",
-        "asOf": "2026/08/27 16:03:12",
+        "asOf": "2026/08/27 16:08:35",
         "source": "daily_market_snapshot"
       },
       "latestQuote": {
-        "price": 83.05,
-        "changePct": 1.65,
-        "turnoverText": "2.43亿",
+        "price": 82.95,
+        "changePct": 1.53,
+        "turnoverText": "2.47亿",
         "turnoverRate": 0,
-        "totalMarketCap": "418.07亿港元",
-        "floatMarketCap": "363.92亿港元",
+        "totalMarketCap": "417.57亿港元",
+        "floatMarketCap": "363.48亿港元",
         "fiveDayChangePct": 2.09,
         "twentyDayChangePct": 6.76,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
-        "quoteTime": "2026/08/27 16:03:12",
-        "asOf": "2026/08/27 16:03:12",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
+        "quoteTime": "2026/08/27 16:08:35",
+        "asOf": "2026/08/27 16:08:35",
         "source": "daily_market_snapshot"
       },
       "quoteStatus": {
         "displaySource": "latest_market",
         "latestAvailable": true,
-        "analysisAsOf": "2026/08/27 16:03:12",
-        "latestAsOf": "2026/08/27 16:03:12",
+        "analysisAsOf": "2026/08/27 16:08:35",
+        "latestAsOf": "2026/08/27 16:08:35",
         "analysisIsOlder": false
       }
     },
     {
-      "id": "saout_wuzhou_xinchun_d495a01b1f26",
+      "id": "saout_wuzhou_xinchun_ee66312a8120",
       "entityId": "wuzhou_xinchun",
       "name": "五洲新春",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4182,7 +4182,7 @@
       "display": {
         "summary": "五洲新春位于轴承与精密丝杠零部件层，具备真实产品、客户对接和小批量供货，但尚未证明对机器人最窄瓶颈拥有不可替代控制力。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "603667.SH",
           "quote": {
             "price": 52.55,
@@ -4233,7 +4233,7 @@
         "floatMarketCap": "192.44亿",
         "fiveDayChangePct": 6.85,
         "twentyDayChangePct": 8.93,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161449",
         "asOf": "20260827161449",
         "source": "daily_market_snapshot"
@@ -4247,10 +4247,10 @@
       }
     },
     {
-      "id": "saout_xingye_silver_e955b5fe34e0",
+      "id": "saout_xingye_silver_32feac8f438e",
       "entityId": "xingye_silver",
       "name": "兴业银锡",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4259,7 +4259,7 @@
       "display": {
         "summary": "Serenity 当前判断：兴业银锡值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "000426.SZ",
           "quote": {
             "price": 40.69,
@@ -4310,7 +4310,7 @@
         "floatMarketCap": "722.33亿",
         "fiveDayChangePct": 5.83,
         "twentyDayChangePct": 29.63,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161454",
         "asOf": "20260827161454",
         "source": "daily_market_snapshot"
@@ -4324,10 +4324,10 @@
       }
     },
     {
-      "id": "saout_yeeda_aa32b9630017",
+      "id": "saout_yeeda_e04b8f4554e6",
       "entityId": "yeeda",
       "name": "怡合达",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4336,7 +4336,7 @@
       "display": {
         "summary": "怡合达位于FA工厂自动化长尾零部件一站式平台层，平台宽度、客户密度、履约和数字化能力构成较强公司级竞争优势，但不是机器人单一瓶颈供应商。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "301029.SZ",
           "quote": {
             "price": 25.96,
@@ -4387,7 +4387,7 @@
         "floatMarketCap": "117.56亿",
         "fiveDayChangePct": 4.51,
         "twentyDayChangePct": 7.36,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161409",
         "asOf": "20260827161409",
         "source": "daily_market_snapshot"
@@ -4401,10 +4401,10 @@
       }
     },
     {
-      "id": "saout_zhaowei_machinery_0c86d6e9c9f9",
+      "id": "saout_zhaowei_machinery_14834057f215",
       "entityId": "zhaowei_machinery",
       "name": "兆威机电",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4413,7 +4413,7 @@
       "display": {
         "summary": "Serenity 当前判断：兆威机电保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "003021.SZ",
           "quote": {
             "price": 71.55,
@@ -4464,7 +4464,7 @@
         "floatMarketCap": "148.35亿",
         "fiveDayChangePct": 5.16,
         "twentyDayChangePct": -1.62,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161412",
         "asOf": "20260827161412",
         "source": "daily_market_snapshot"
@@ -4478,10 +4478,10 @@
       }
     },
     {
-      "id": "saout_zhongda_leader_ac49fa3958ed",
+      "id": "saout_zhongda_leader_55726a00fc16",
       "entityId": "zhongda_leader",
       "name": "中大力德",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4490,7 +4490,7 @@
       "display": {
         "summary": "Serenity 当前判断：中大力德保留观察，但现在不急着买。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "002896.SZ",
           "quote": {
             "price": 64.52,
@@ -4541,7 +4541,7 @@
         "floatMarketCap": "126.80亿",
         "fiveDayChangePct": -6.17,
         "twentyDayChangePct": 8.78,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161454",
         "asOf": "20260827161454",
         "source": "daily_market_snapshot"
@@ -4555,10 +4555,10 @@
       }
     },
     {
-      "id": "saout_zijin_mining_bbaa28619c2b",
+      "id": "saout_zijin_mining_1a09c9219418",
       "entityId": "zijin_mining",
       "name": "紫金矿业",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "status": "serenity_ai_review",
       "provider": {
         "externalCall": true
@@ -4567,7 +4567,7 @@
       "display": {
         "summary": "Serenity 当前判断：紫金矿业值得重点观察，但等待价格与下一次兑现共同确认。",
         "stockRadar": {
-          "generatedAt": "2026-08-27T16:37:52+08:00",
+          "generatedAt": "2026-08-27T21:22:13+08:00",
           "symbol": "601899.SH",
           "quote": {
             "price": 34.57,
@@ -4618,7 +4618,7 @@
         "floatMarketCap": "7122.04亿",
         "fiveDayChangePct": 2.19,
         "twentyDayChangePct": 7.09,
-        "capturedAt": "2026-08-27T16:18:18+08:00",
+        "capturedAt": "2026-08-27T21:15:42+08:00",
         "quoteTime": "20260827161453",
         "asOf": "20260827161453",
         "source": "daily_market_snapshot"
@@ -4632,10 +4632,10 @@
       }
     },
     {
-      "id": "saout_unitree_a95b6ce81131",
+      "id": "saout_unitree_15770736443e",
       "entityId": "unitree",
       "name": "宇树科技",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:14+08:00",
       "status": "research_brief",
       "provider": {
         "externalCall": false
@@ -4650,16 +4650,16 @@
       "quoteStatus": {
         "displaySource": "missing",
         "latestAvailable": false,
-        "analysisAsOf": "2026-08-27T16:37:52+08:00",
+        "analysisAsOf": "2026-08-27T21:22:14+08:00",
         "latestAsOf": null,
         "analysisIsOlder": false
       }
     },
     {
-      "id": "saout_zhiyuan_robot_3fada7f46644",
+      "id": "saout_zhiyuan_robot_8aee605288cd",
       "entityId": "zhiyuan_robot",
       "name": "智元机器人",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:14+08:00",
       "status": "research_brief",
       "provider": {
         "externalCall": false
@@ -4674,7 +4674,7 @@
       "quoteStatus": {
         "displaySource": "missing",
         "latestAvailable": false,
-        "analysisAsOf": "2026-08-27T16:37:52+08:00",
+        "analysisAsOf": "2026-08-27T21:22:14+08:00",
         "latestAsOf": null,
         "analysisIsOlder": false
       }

@@ -1,12 +1,12 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "policy": "Freshness describes whether data was checked recently. It does not mean the underlying event happened today.",
   "rows": [
     {
       "id": "market",
       "label": "Watchlist 行情",
-      "lastSeenAt": "2026-08-27T16:18:18+08:00",
+      "lastSeenAt": "2026-08-27T21:15:42+08:00",
       "status": "fresh",
       "count": 60,
       "maxAgeHours": 24
@@ -14,27 +14,27 @@
     {
       "id": "official_artifacts",
       "label": "产业原始材料",
-      "lastSeenAt": "2026-08-27T16:32:40+08:00",
+      "lastSeenAt": "2026-08-27T21:16:49+08:00",
       "status": "fresh",
-      "count": 2051,
+      "count": 2055,
       "maxAgeHours": 72
     },
     {
       "id": "claim_review",
       "label": "Claim 审核",
-      "lastSeenAt": "2026-08-27T16:33:08+08:00",
+      "lastSeenAt": "2026-08-27T21:16:50+08:00",
       "status": "needs_review",
-      "count": 2051,
-      "pendingCount": 2049
+      "count": 2055,
+      "pendingCount": 2053
     },
     {
       "id": "fetch_runs",
       "label": "抓取运行",
-      "lastSeenAt": "2026-08-27T16:34:15+08:00",
+      "lastSeenAt": "2026-08-27T21:16:55+08:00",
       "status": "has_gaps",
-      "count": 2049,
+      "count": 2053,
       "failedCount": 0,
-      "gapCount": 1389
+      "gapCount": 1382
     },
     {
       "id": "scheduler",
@@ -9217,6 +9217,13 @@
       "error": null
     },
     {
+      "id": "fetch_2026_08_25_agibot_com_cn_fda07ce6ac",
+      "sourceName": "智元创新（上海）科技股份有限公司",
+      "status": "partial",
+      "finishedAt": "2026-08-27T21:16:49+08:00",
+      "error": null
+    },
+    {
       "id": "fetch_2026_08_25_static_cninfo_com_cn_1d96708b3f",
       "sourceName": "怡合达",
       "status": "partial",
@@ -9476,6 +9483,13 @@
       "error": null
     },
     {
+      "id": "fetch_2026_08_27_agibot_com_cn_a6cc344c4b",
+      "sourceName": "智元创新（上海）科技股份有限公司",
+      "status": "partial",
+      "finishedAt": "2026-08-27T21:16:49+08:00",
+      "error": null
+    },
+    {
       "id": "fetch_2026_08_27_static_cninfo_com_cn_07c6822d28",
       "sourceName": "泰山石油",
       "status": "partial",
@@ -9609,20 +9623,6 @@
       "error": null
     },
     {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_91865f3666",
-      "sourceName": "华虹宏力",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_92f8ec7dc3",
-      "sourceName": "百济神州",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
       "id": "fetch_2026_08_27_static_cninfo_com_cn_95a3bc479f",
       "sourceName": "拓普集团",
       "status": "partial",
@@ -9632,13 +9632,6 @@
     {
       "id": "fetch_2026_08_27_static_cninfo_com_cn_9aabfdf796",
       "sourceName": "安集科技",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_9f3cc7d4a5",
-      "sourceName": "均普智能",
       "status": "partial",
       "finishedAt": "2026-08-27T16:32:40+08:00",
       "error": null
@@ -9672,43 +9665,8 @@
       "error": null
     },
     {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_b97cc18353",
-      "sourceName": "均普智能",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_be19ec55a7",
-      "sourceName": "华虹宏力",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_c47265237c",
-      "sourceName": "太极实业",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_c48212040a",
-      "sourceName": "安集科技",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
       "id": "fetch_2026_08_27_static_cninfo_com_cn_ca77f53f74",
       "sourceName": "泰山石油",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_cebeea728e",
-      "sourceName": "百济神州",
       "status": "partial",
       "finishedAt": "2026-08-27T16:32:40+08:00",
       "error": null
@@ -9761,19 +9719,12 @@
       "status": "partial",
       "finishedAt": "2026-08-27T16:32:40+08:00",
       "error": null
-    },
-    {
-      "id": "fetch_2026_08_27_static_cninfo_com_cn_f7164d5bed",
-      "sourceName": "太极实业",
-      "status": "partial",
-      "finishedAt": "2026-08-27T16:32:40+08:00",
-      "error": null
     }
   ],
   "totals": {
-    "pendingInbox": 6140,
-    "pendingClaims": 2049,
-    "fetchRuns": 2049,
+    "pendingInbox": 6152,
+    "pendingClaims": 2053,
+    "fetchRuns": 2053,
     "fetchFailures": 0,
     "schedulerRuns": 1,
     "schedulerFailures": 0

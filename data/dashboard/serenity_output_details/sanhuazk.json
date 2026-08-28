@@ -1,8 +1,8 @@
 {
-  "id": "saout_sanhuazk_719ea3aa2dcf",
+  "id": "saout_sanhuazk_1920bcfae5d1",
   "entityId": "sanhuazk",
   "name": "三花智控",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -33,7 +33,7 @@
       "source": "serenity",
       "symbol": "002050.SZ",
       "name": "三花智控",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 36.82,
         "previousClose": 36.140557518649395,
@@ -896,7 +896,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -952,7 +952,7 @@
     "floatMarketCap": "1359.04亿",
     "fiveDayChangePct": 1.88,
     "twentyDayChangePct": 3.84,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161409",
     "asOf": "20260827161409",
     "source": "daily_market_snapshot"

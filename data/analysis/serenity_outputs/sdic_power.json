@@ -1,8 +1,8 @@
 {
-  "id": "saout_sdic_power_81825782230f",
+  "id": "saout_sdic_power_68598561b80e",
   "entityId": "sdic_power",
   "name": "国投电力",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_ai_review",
   "provider": {
@@ -52,7 +52,7 @@
       "source": "serenity",
       "symbol": "600886.SH",
       "name": "国投电力",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 13.91,
         "previousClose": 14.05050505050505,
@@ -894,7 +894,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -1286,7 +1286,7 @@
       ]
     },
     "dailyRefresh": {
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "source": "serenity_formal_scorecard",
       "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
     }

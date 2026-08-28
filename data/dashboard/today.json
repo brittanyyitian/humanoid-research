@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "status": "ready",
   "signals": {
     "changes": "neutral",
@@ -12,7 +12,7 @@
     "events": 0,
     "relations": 0,
     "stocks": 60,
-    "sources": 2056,
+    "sources": 2060,
     "importantEvents": 0,
     "pendingFollowups": 4
   },
@@ -107,7 +107,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603341",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603341",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,30,qfq",
@@ -161,7 +161,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -213,7 +213,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
           "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -265,7 +265,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
           "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -317,7 +317,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -369,7 +369,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -568,7 +568,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603341",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603341",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,30,qfq",
@@ -622,7 +622,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -674,7 +674,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
           "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -726,7 +726,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
           "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -778,7 +778,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -830,7 +830,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -1017,7 +1017,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -1069,7 +1069,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
           "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -1121,7 +1121,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
           "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -1173,7 +1173,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -1225,7 +1225,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -1410,7 +1410,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -1462,7 +1462,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
           "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -1514,7 +1514,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
           "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -1566,7 +1566,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -1618,7 +1618,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -1779,7 +1779,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -1831,7 +1831,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
           "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -1883,7 +1883,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
           "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -1935,7 +1935,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
           "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -1987,7 +1987,7 @@
               "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
             }
           ],
-          "capturedAt": "2026-08-27T16:18:18+08:00",
+          "capturedAt": "2026-08-27T21:15:42+08:00",
           "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
           "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
           "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -2068,12 +2068,12 @@
       "market": "HKEX",
       "snapshotType": "intraday_or_latest",
       "isFinal": false,
-      "price": 83.05,
-      "changePct": 1.65,
-      "turnoverAmount": "2.43亿",
+      "price": 82.95,
+      "changePct": 1.53,
+      "turnoverAmount": "2.47亿",
       "turnoverRate": 0,
-      "totalMarketCap": "418.07亿港元",
-      "floatMarketCap": "363.92亿港元",
+      "totalMarketCap": "417.57亿港元",
+      "floatMarketCap": "363.48亿港元",
       "mainNetInflow": null,
       "fiveDayChangePct": 2.09,
       "twentyDayChangePct": 6.76,
@@ -2106,11 +2106,11 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=hk09880",
       "quoteUrl": "https://qt.gtimg.cn/q=hk09880",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk09880,day,,,30,qfq",
-      "quoteTime": "2026/08/27 16:03:12"
+      "quoteTime": "2026/08/27 16:08:35"
     },
     {
       "id": "stock_2026-08-27_anpeilong",
@@ -2158,7 +2158,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz301413",
       "quoteUrl": "https://qt.gtimg.cn/q=sz301413",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301413,day,,,30,qfq",
@@ -2210,7 +2210,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh603662",
       "quoteUrl": "https://qt.gtimg.cn/q=sh603662",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603662,day,,,30,qfq",
@@ -2262,7 +2262,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300007",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300007",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300007,day,,,30,qfq",
@@ -2314,7 +2314,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300354",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300354",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300354,day,,,30,qfq",
@@ -2366,7 +2366,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688017",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688017",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688017,day,,,30,qfq",
@@ -2418,7 +2418,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002896",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002896",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002896,day,,,30,qfq",
@@ -2470,7 +2470,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002472",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002472",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002472,day,,,30,qfq",
@@ -2522,7 +2522,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300100",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300100",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300100,day,,,30,qfq",
@@ -2574,7 +2574,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300580",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300580",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300580,day,,,30,qfq",
@@ -2626,7 +2626,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh603009",
       "quoteUrl": "https://qt.gtimg.cn/q=sh603009",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603009,day,,,30,qfq",
@@ -2678,7 +2678,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh603667",
       "quoteUrl": "https://qt.gtimg.cn/q=sh603667",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603667,day,,,30,qfq",
@@ -2730,7 +2730,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300124",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300124",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300124,day,,,30,qfq",
@@ -2782,7 +2782,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh603728",
       "quoteUrl": "https://qt.gtimg.cn/q=sh603728",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603728,day,,,30,qfq",
@@ -2834,7 +2834,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688320",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688320",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688320,day,,,30,qfq",
@@ -2886,7 +2886,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz003021",
       "quoteUrl": "https://qt.gtimg.cn/q=sz003021",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,30,qfq",
@@ -2938,7 +2938,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002050",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002050",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002050,day,,,30,qfq",
@@ -2990,7 +2990,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh601689",
       "quoteUrl": "https://qt.gtimg.cn/q=sh601689",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601689,day,,,30,qfq",
@@ -3042,7 +3042,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300024",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300024",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300024,day,,,30,qfq",
@@ -3094,7 +3094,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002747",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002747",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002747,day,,,30,qfq",
@@ -3146,7 +3146,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688322",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688322",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688322,day,,,30,qfq",
@@ -3198,7 +3198,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688160",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688160",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688160,day,,,30,qfq",
@@ -3250,7 +3250,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688071",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688071",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688071,day,,,30,qfq",
@@ -3302,7 +3302,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688400",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688400",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688400,day,,,30,qfq",
@@ -3354,7 +3354,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz301029",
       "quoteUrl": "https://qt.gtimg.cn/q=sz301029",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301029,day,,,30,qfq",
@@ -3406,7 +3406,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688306",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688306",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688306,day,,,30,qfq",
@@ -3458,7 +3458,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh603341",
       "quoteUrl": "https://qt.gtimg.cn/q=sh603341",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,30,qfq",
@@ -3510,7 +3510,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz301269",
       "quoteUrl": "https://qt.gtimg.cn/q=sz301269",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz301269,day,,,30,qfq",
@@ -3562,7 +3562,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688206",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688206",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688206,day,,,30,qfq",
@@ -3614,7 +3614,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688256",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688256",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688256,day,,,30,qfq",
@@ -3666,7 +3666,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688008",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688008",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,30,qfq",
@@ -3718,7 +3718,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688981",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688981",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688981,day,,,30,qfq",
@@ -3770,7 +3770,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688347",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688347",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688347,day,,,30,qfq",
@@ -3822,7 +3822,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002371",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002371",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002371,day,,,30,qfq",
@@ -3874,7 +3874,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688012",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688012",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688012,day,,,30,qfq",
@@ -3926,7 +3926,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688019",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688019",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688019,day,,,30,qfq",
@@ -3978,7 +3978,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688126",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688126",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688126,day,,,30,qfq",
@@ -4030,7 +4030,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600584",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600584",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600584,day,,,30,qfq",
@@ -4082,7 +4082,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002156",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002156",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002156,day,,,30,qfq",
@@ -4134,7 +4134,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600667",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600667",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600667,day,,,30,qfq",
@@ -4186,7 +4186,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002179",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002179",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002179,day,,,30,qfq",
@@ -4238,7 +4238,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688297",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688297",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688297,day,,,30,qfq",
@@ -4290,7 +4290,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002389",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002389",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002389,day,,,30,qfq",
@@ -4342,7 +4342,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz000554",
       "quoteUrl": "https://qt.gtimg.cn/q=sz000554",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000554,day,,,30,qfq",
@@ -4394,7 +4394,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600028",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600028",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600028,day,,,30,qfq",
@@ -4446,7 +4446,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz000159",
       "quoteUrl": "https://qt.gtimg.cn/q=sz000159",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000159,day,,,30,qfq",
@@ -4498,7 +4498,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz300164",
       "quoteUrl": "https://qt.gtimg.cn/q=sz300164",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300164,day,,,30,qfq",
@@ -4550,7 +4550,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600938",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600938",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600938,day,,,30,qfq",
@@ -4602,7 +4602,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz002353",
       "quoteUrl": "https://qt.gtimg.cn/q=sz002353",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002353,day,,,30,qfq",
@@ -4654,7 +4654,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600116",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600116",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600116,day,,,30,qfq",
@@ -4706,7 +4706,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh601991",
       "quoteUrl": "https://qt.gtimg.cn/q=sh601991",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601991,day,,,30,qfq",
@@ -4758,7 +4758,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600900",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600900",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600900,day,,,30,qfq",
@@ -4810,7 +4810,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600886",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600886",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600886,day,,,30,qfq",
@@ -4862,7 +4862,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz000566",
       "quoteUrl": "https://qt.gtimg.cn/q=sz000566",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000566,day,,,30,qfq",
@@ -4914,7 +4914,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600664",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600664",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600664,day,,,30,qfq",
@@ -4966,7 +4966,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600276",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600276",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600276,day,,,30,qfq",
@@ -5018,7 +5018,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh688235",
       "quoteUrl": "https://qt.gtimg.cn/q=sh688235",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688235,day,,,30,qfq",
@@ -5070,7 +5070,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh601899",
       "quoteUrl": "https://qt.gtimg.cn/q=sh601899",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,30,qfq",
@@ -5122,7 +5122,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sh600547",
       "quoteUrl": "https://qt.gtimg.cn/q=sh600547",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600547,day,,,30,qfq",
@@ -5174,7 +5174,7 @@
           "notes": "用于记录股票行情事实；不用于产业事件因果判断。"
         }
       ],
-      "capturedAt": "2026-08-27T16:18:18+08:00",
+      "capturedAt": "2026-08-27T21:15:42+08:00",
       "providerSourceUrl": "https://qt.gtimg.cn/q=sz000426",
       "quoteUrl": "https://qt.gtimg.cn/q=sz000426",
       "klineSourceUrl": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000426,day,,,30,qfq",

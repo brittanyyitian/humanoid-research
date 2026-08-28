@@ -1,8 +1,8 @@
 {
-  "id": "saout_zhaowei_machinery_0c86d6e9c9f9",
+  "id": "saout_zhaowei_machinery_14834057f215",
   "entityId": "zhaowei_machinery",
   "name": "兆威机电",
-  "generatedAt": "2026-08-27T16:37:52+08:00",
+  "generatedAt": "2026-08-27T21:22:13+08:00",
   "status": "serenity_ai_review",
   "provider": {
     "name": "serenity_chan_ai_reviewer_v0",
@@ -32,7 +32,7 @@
       "source": "serenity",
       "symbol": "003021.SZ",
       "name": "兆威机电",
-      "generatedAt": "2026-08-27T16:37:52+08:00",
+      "generatedAt": "2026-08-27T21:22:13+08:00",
       "quote": {
         "price": 71.55,
         "previousClose": 70.96102350490925,
@@ -874,7 +874,7 @@
         ]
       },
       "dailyRefresh": {
-        "generatedAt": "2026-08-27T16:37:52+08:00",
+        "generatedAt": "2026-08-27T21:22:13+08:00",
         "source": "serenity_formal_scorecard",
         "note": "保留已校验 AI dossier 的业务事实，每日刷新行情、估值、技术时机和行动就绪度。"
       }
@@ -929,7 +929,7 @@
     "floatMarketCap": "148.35亿",
     "fiveDayChangePct": 5.16,
     "twentyDayChangePct": -1.62,
-    "capturedAt": "2026-08-27T16:18:18+08:00",
+    "capturedAt": "2026-08-27T21:15:42+08:00",
     "quoteTime": "20260827161412",
     "asOf": "20260827161412",
     "source": "daily_market_snapshot"

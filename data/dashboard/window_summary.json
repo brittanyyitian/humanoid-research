@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "policy": "Past windows count happened/published/discovered evidence. Future windows count public verification milestones only.",
   "windows": [
     {
@@ -9,8 +9,8 @@
       "days": 0,
       "direction": "past",
       "events": 0,
-      "claims": 64,
-      "evidence": 64,
+      "claims": 68,
+      "evidence": 68,
       "stateTransitions": 0,
       "observations": 0
     },
@@ -20,8 +20,8 @@
       "days": 7,
       "direction": "past",
       "events": 0,
-      "claims": 207,
-      "evidence": 207,
+      "claims": 211,
+      "evidence": 211,
       "stateTransitions": 0,
       "observations": 0
     },
@@ -31,8 +31,8 @@
       "days": 30,
       "direction": "past",
       "events": 0,
-      "claims": 493,
-      "evidence": 493,
+      "claims": 497,
+      "evidence": 497,
       "stateTransitions": 0,
       "observations": 0
     },
@@ -42,8 +42,8 @@
       "days": 90,
       "direction": "past",
       "events": 4,
-      "claims": 2051,
-      "evidence": 2051,
+      "claims": 2055,
+      "evidence": 2055,
       "stateTransitions": 2,
       "observations": 1
     },
@@ -53,8 +53,8 @@
       "days": 180,
       "direction": "past",
       "events": 4,
-      "claims": 2051,
-      "evidence": 2051,
+      "claims": 2055,
+      "evidence": 2055,
       "stateTransitions": 2,
       "observations": 1
     },

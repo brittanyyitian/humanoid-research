@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T08:37:54.241Z",
+  "generatedAt": "2026-08-27T13:22:16.233Z",
   "contractType": "serenity_research_materials_v0",
   "policy": "Serenity Research Agent reads this material pool as inputs. Materials and candidate claims are not formal facts until reviewed and promoted.",
   "rows": [
@@ -280,9 +280,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 2798,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_c49e5719c160",
@@ -307,11 +307,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_d67f9742a3",
@@ -544,9 +541,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 24768,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_369606884df7",
@@ -571,11 +568,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_211e2f8b1c",
@@ -649,9 +643,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 5219,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_d1be0bb98f55",
@@ -676,11 +670,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_8e9f6aacf9",
@@ -1501,9 +1492,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 1568,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_e9938d572a92",
@@ -1528,11 +1519,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_c774dffdf9",
@@ -1606,9 +1594,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 1205,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_2e7f96f437da",
@@ -1633,11 +1621,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_c48212040a",
@@ -1660,9 +1645,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 11151,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_51abd8cdf864",
@@ -1687,11 +1672,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_c40d717e69",
@@ -1765,9 +1747,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 2461,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_9147db853713",
@@ -1792,11 +1774,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_9aabfdf796",
@@ -2600,6 +2579,57 @@
       "nextAction": "人工审核候选事实"
     },
     {
+      "id": "material_raw_2026_08_27_agibot_com_cn_f2665a2181",
+      "rawArtifactId": "raw_2026_08_27_agibot_com_cn_f2665a2181",
+      "sourceId": "src_agibot_com_cn_f2665a2181",
+      "fetchRunId": "fetch_2026_08_27_agibot_com_cn_f2665a2181",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "title": "金牌榜奖牌榜双第一！智元首次出征机器人运动会实力登顶",
+      "url": "https://www.agibot.com.cn/article/315/detail/188.html",
+      "publisher": "智元创新（上海）科技股份有限公司",
+      "materialType": "官方新闻",
+      "artifactType": "news_page",
+      "sourceType": "news",
+      "sourceLevel": "A",
+      "publishedAt": "2026-08-27",
+      "capturedAt": "2026-08-27T21:16:49+08:00",
+      "firstSeenAt": "2026-08-27T21:16:49+08:00",
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 4121,
+      "priority": "high",
+      "route": {
+        "id": "route_2026_08_27_54d7ad993186",
+        "type": "company",
+        "pipeline": "company_pipeline",
+        "status": "routed"
+      },
+      "pipelineTaskIds": [
+        "ptask_2026_08_27_b34732753ee2"
+      ],
+      "pipelineStatuses": [
+        "completed"
+      ],
+      "claimIds": [
+        "claim_2026_08_27_other_7dddf81c70"
+      ],
+      "pendingClaimCount": 1,
+      "promotedClaimCount": 0,
+      "evidenceIds": [
+        "evd_2026_08_27_other_7dddf81c70"
+      ],
+      "evidenceRelations": [
+        "mentions"
+      ],
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
+    },
+    {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_9f3cc7d4a5",
       "rawArtifactId": "raw_2026_08_27_static_cninfo_com_cn_9f3cc7d4a5",
       "sourceId": "src_static_cninfo_com_cn_9f3cc7d4a5",
@@ -2620,9 +2650,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 8050,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_3b53396db355",
@@ -2647,11 +2677,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_b97cc18353",
@@ -2674,9 +2701,9 @@
       "publishedAt": "2026-08-27",
       "capturedAt": "2026-08-27T16:32:40+08:00",
       "firstSeenAt": "2026-08-27T16:32:40+08:00",
-      "bodyStatus": "metadata_only",
-      "bodyStatusLabel": "仅标题/元数据",
-      "textLength": 0,
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 6538,
       "priority": "high",
       "route": {
         "id": "route_2026_08_27_7bf40baa2060",
@@ -2701,11 +2728,8 @@
       "evidenceRelations": [
         "mentions"
       ],
-      "dataGaps": [
-        "需要抓取/解析公告 PDF 正文",
-        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
-      ],
-      "nextAction": "抓取并解析 PDF 正文"
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
     },
     {
       "id": "material_raw_2026_08_27_static_cninfo_com_cn_914ad5b20f",
@@ -3069,6 +3093,60 @@
       "promotedClaimCount": 0,
       "evidenceIds": [
         "evd_2026_08_27_other_d5962f0556"
+      ],
+      "evidenceRelations": [
+        "mentions"
+      ],
+      "dataGaps": [
+        "需要抓取网页正文",
+        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
+      ],
+      "nextAction": "抓取网页正文"
+    },
+    {
+      "id": "material_raw_2026_08_27_agibot_com_cn_a6cc344c4b",
+      "rawArtifactId": "raw_2026_08_27_agibot_com_cn_a6cc344c4b",
+      "sourceId": "src_agibot_com_cn_a6cc344c4b",
+      "fetchRunId": "fetch_2026_08_27_agibot_com_cn_a6cc344c4b",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "title": "运动会46枚奖牌圆满收官，部署态征程继续！",
+      "url": "https://www.agibot.com.cn/article/315/detail/189.html",
+      "publisher": "智元创新（上海）科技股份有限公司",
+      "materialType": "官方新闻",
+      "artifactType": "news_page",
+      "sourceType": "news",
+      "sourceLevel": "A",
+      "publishedAt": "2026-08-27",
+      "capturedAt": "2026-08-27T21:16:49+08:00",
+      "firstSeenAt": "2026-08-27T21:16:49+08:00",
+      "bodyStatus": "metadata_only",
+      "bodyStatusLabel": "仅标题/元数据",
+      "textLength": 0,
+      "priority": "medium",
+      "route": {
+        "id": "route_2026_08_27_d2061ab3561e",
+        "type": "event",
+        "pipeline": "event_pipeline",
+        "status": "routed"
+      },
+      "pipelineTaskIds": [
+        "ptask_2026_08_27_927e60f53a22"
+      ],
+      "pipelineStatuses": [
+        "completed"
+      ],
+      "claimIds": [
+        "claim_2026_08_27_other_a8e0717173"
+      ],
+      "pendingClaimCount": 1,
+      "promotedClaimCount": 0,
+      "evidenceIds": [
+        "evd_2026_08_27_other_a8e0717173"
       ],
       "evidenceRelations": [
         "mentions"
@@ -6509,6 +6587,57 @@
       "nextAction": "人工审核候选事实"
     },
     {
+      "id": "material_raw_2026_08_25_agibot_com_cn_874d0b8bb5",
+      "rawArtifactId": "raw_2026_08_25_agibot_com_cn_874d0b8bb5",
+      "sourceId": "src_agibot_com_cn_874d0b8bb5",
+      "fetchRunId": "fetch_2026_08_25_agibot_com_cn_874d0b8bb5",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "title": "机器人运动会开赛，智元两金三银两铜位列第一",
+      "url": "https://www.agibot.com.cn/article/315/detail/185.html",
+      "publisher": "智元创新（上海）科技股份有限公司",
+      "materialType": "官方新闻",
+      "artifactType": "news_page",
+      "sourceType": "news",
+      "sourceLevel": "A",
+      "publishedAt": "2026-08-25",
+      "capturedAt": "2026-08-27T21:16:49+08:00",
+      "firstSeenAt": "2026-08-27T21:16:49+08:00",
+      "bodyStatus": "full_text",
+      "bodyStatusLabel": "已抓正文",
+      "textLength": 4229,
+      "priority": "high",
+      "route": {
+        "id": "route_2026_08_25_4016c9a6e32c",
+        "type": "company",
+        "pipeline": "company_pipeline",
+        "status": "routed"
+      },
+      "pipelineTaskIds": [
+        "ptask_2026_08_27_69339718e508"
+      ],
+      "pipelineStatuses": [
+        "completed"
+      ],
+      "claimIds": [
+        "claim_2026_08_25_other_3b53ebc14a"
+      ],
+      "pendingClaimCount": 1,
+      "promotedClaimCount": 0,
+      "evidenceIds": [
+        "evd_2026_08_25_other_3b53ebc14a"
+      ],
+      "evidenceRelations": [
+        "mentions"
+      ],
+      "dataGaps": [],
+      "nextAction": "人工审核候选事实"
+    },
+    {
       "id": "material_raw_2026_08_25_static_cninfo_com_cn_b6c0582d8d",
       "rawArtifactId": "raw_2026_08_25_static_cninfo_com_cn_b6c0582d8d",
       "sourceId": "src_static_cninfo_com_cn_b6c0582d8d",
@@ -6612,6 +6741,60 @@
       ],
       "dataGaps": [],
       "nextAction": "人工审核候选事实"
+    },
+    {
+      "id": "material_raw_2026_08_25_agibot_com_cn_fda07ce6ac",
+      "rawArtifactId": "raw_2026_08_25_agibot_com_cn_fda07ce6ac",
+      "sourceId": "src_agibot_com_cn_fda07ce6ac",
+      "fetchRunId": "fetch_2026_08_25_agibot_com_cn_fda07ce6ac",
+      "entityIds": [
+        "zhiyuan_robot"
+      ],
+      "entityNames": [
+        "智元机器人"
+      ],
+      "title": "智元携手长隆打造全球首个具身智能主题乐园",
+      "url": "https://www.agibot.com.cn/article/315/detail/184.html",
+      "publisher": "智元创新（上海）科技股份有限公司",
+      "materialType": "官方新闻",
+      "artifactType": "news_page",
+      "sourceType": "news",
+      "sourceLevel": "A",
+      "publishedAt": "2026-08-25",
+      "capturedAt": "2026-08-27T21:16:49+08:00",
+      "firstSeenAt": "2026-08-27T21:16:49+08:00",
+      "bodyStatus": "metadata_only",
+      "bodyStatusLabel": "仅标题/元数据",
+      "textLength": 0,
+      "priority": "high",
+      "route": {
+        "id": "route_2026_08_25_ecf3a1013772",
+        "type": "company",
+        "pipeline": "company_pipeline",
+        "status": "routed"
+      },
+      "pipelineTaskIds": [
+        "ptask_2026_08_27_69de2399150d"
+      ],
+      "pipelineStatuses": [
+        "completed"
+      ],
+      "claimIds": [
+        "claim_2026_08_25_other_da084c4bab"
+      ],
+      "pendingClaimCount": 1,
+      "promotedClaimCount": 0,
+      "evidenceIds": [
+        "evd_2026_08_25_other_da084c4bab"
+      ],
+      "evidenceRelations": [
+        "mentions"
+      ],
+      "dataGaps": [
+        "需要抓取网页正文",
+        "Ingestion captured source metadata only; raw body retrieval is not enabled for this source yet."
+      ],
+      "nextAction": "抓取网页正文"
     },
     {
       "id": "material_raw_2026_08_25_static_cninfo_com_cn_878909db83",
@@ -108793,17 +108976,17 @@
       "entityId": "zhiyuan_robot",
       "name": "智元机器人",
       "role": "整机厂",
-      "total": 23,
-      "highPriority": 13,
-      "fullText": 13,
-      "metadataOnly": 10,
-      "pendingClaims": 22,
+      "total": 27,
+      "highPriority": 16,
+      "fullText": 15,
+      "metadataOnly": 12,
+      "pendingClaims": 26,
       "byType": {
-        "官方新闻": 23
+        "官方新闻": 27
       },
       "byBodyStatus": {
-        "full_text": 13,
-        "metadata_only": 10
+        "full_text": 15,
+        "metadata_only": 12
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -109440,15 +109623,15 @@
       "role": "智能制造装备",
       "total": 16,
       "highPriority": 7,
-      "fullText": 4,
-      "metadataOnly": 12,
+      "fullText": 6,
+      "metadataOnly": 10,
       "pendingClaims": 16,
       "byType": {
         "公告/披露": 16
       },
       "byBodyStatus": {
-        "metadata_only": 12,
-        "full_text": 4
+        "full_text": 6,
+        "metadata_only": 10
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -109608,15 +109791,15 @@
       "role": "晶圆制造",
       "total": 52,
       "highPriority": 11,
-      "fullText": 16,
-      "metadataOnly": 36,
+      "fullText": 18,
+      "metadataOnly": 34,
       "pendingClaims": 52,
       "byType": {
         "公告/披露": 52
       },
       "byBodyStatus": {
-        "full_text": 16,
-        "metadata_only": 36
+        "full_text": 18,
+        "metadata_only": 34
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -109683,15 +109866,15 @@
       "role": "制造材料",
       "total": 46,
       "highPriority": 8,
-      "fullText": 14,
-      "metadataOnly": 32,
+      "fullText": 15,
+      "metadataOnly": 31,
       "pendingClaims": 46,
       "byType": {
         "公告/披露": 46
       },
       "byBodyStatus": {
-        "full_text": 14,
-        "metadata_only": 32
+        "full_text": 15,
+        "metadata_only": 31
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -109783,15 +109966,15 @@
       "role": "晶圆制造服务与工程",
       "total": 46,
       "highPriority": 10,
-      "fullText": 14,
-      "metadataOnly": 32,
+      "fullText": 16,
+      "metadataOnly": 30,
       "pendingClaims": 46,
       "byType": {
         "公告/披露": 46
       },
       "byBodyStatus": {
-        "full_text": 14,
-        "metadata_only": 32
+        "full_text": 16,
+        "metadata_only": 30
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -110208,15 +110391,15 @@
       "role": "创新药研发与全球销售",
       "total": 53,
       "highPriority": 12,
-      "fullText": 24,
-      "metadataOnly": 29,
+      "fullText": 26,
+      "metadataOnly": 27,
       "pendingClaims": 53,
       "byType": {
         "公告/披露": 53
       },
       "byBodyStatus": {
-        "metadata_only": 29,
-        "full_text": 24
+        "full_text": 26,
+        "metadata_only": 27
       },
       "latestMaterialAt": "2026-08-27",
       "topGaps": [
@@ -110304,21 +110487,21 @@
     }
   ],
   "totals": {
-    "materials": 2051,
+    "materials": 2055,
     "entitiesWithMaterials": 62,
-    "fullText": 658,
+    "fullText": 669,
     "structuredPayload": 5,
-    "metadataOnly": 1388,
+    "metadataOnly": 1381,
     "missingPayload": 0,
-    "pendingClaims": 2049,
+    "pendingClaims": 2053,
     "byType": {
       "公告/披露": 1977,
-      "官方新闻": 73,
+      "官方新闻": 77,
       "产品材料": 1
     },
     "byBodyStatus": {
-      "full_text": 658,
-      "metadata_only": 1388,
+      "full_text": 669,
+      "metadata_only": 1381,
       "structured_payload": 5
     }
   }

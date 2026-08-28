@@ -1,8 +1,8 @@
 {
-  "id": "saout_national_silicon_a43cf4367f58",
+  "id": "saout_national_silicon_7735ccbcb7c1",
   "entityId": "national_silicon",
   "name": "沪硅产业",
-  "generatedAt": "2026-08-27T16:36:17+08:00",
+  "generatedAt": "2026-08-27T21:19:52+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_data_audit",
   "provider": {
@@ -18,12 +18,12 @@
       "--symbols",
       "688126",
       "--out-dir",
-      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon"
+      "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon"
     ],
-    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon",
+    "runDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon",
     "note": "调用 vendored Serenity Chan CLI 获取公开数据审计结果。",
     "exitCode": 0,
-    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon/research_brief.md\nnext (formal): python scripts/serenity.py ask \"沪硅产业 数据面怎么样\" --formal --symbols 688126\n",
+    "stdoutTail": "route: quick_single\nrun dir: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon\nresearch brief: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon/research_brief.md\nnext (formal): python scripts/serenity.py ask \"沪硅产业 数据面怎么样\" --formal --symbols 688126\n",
     "stderrTail": ""
   },
   "sourceInputPack": {
@@ -71,9 +71,9 @@
     ],
     "evidenceIds": [],
     "sourceIds": [],
-    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon",
-    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon/data/688126/manifest.json",
-    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon/research_brief.md",
+    "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon",
+    "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon/data/688126/manifest.json",
+    "briefPath": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon/research_brief.md",
     "dashboardRefs": [
       "dashboard/serenity_analysis.json"
     ]
@@ -132,7 +132,7 @@
         "label": "数据审计边界",
         "text": "Serenity quick route 只输出取数与校验事实；正式 AI 深研需要 formal dossier 工作流。",
         "refs": {
-          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon"
+          "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon"
         }
       }
     ],
@@ -147,7 +147,7 @@
     "forecastCandidates": []
   },
   "rawArtifacts": {
-    "researchBriefExcerpt": "# 688126.SH 数据审计报告\n\n## 1. Market Resolution\n- Input：688126\n- Normalized：688126.SH\n- Market：CN_A\n- Exchange：SH\n- Currency：CNY\n- Retrieved at：2026-08-27T08:36:46.809847+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| financials | OK | CNINFO_FinancialReports_L0 | L0_OFFICIAL_DISCLOSURE | 2026-03-31 | CNINFO official financial report PDFs were parsed into core financial lines where machine-readable page text was available.; Use consolidated statements; do not mix parent-company statements with consolidated revenue, cash flow, assets, liabilities, or equity.; annual 2026-07-28 extraction status=FAILED missing=['revenue', 'net_income', 'operating_cash_flow', 'assets', 'liabilities', 'equity'] |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-24 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-19 | - |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n\n## 3. Data Gaps And Research Debt\n- 无数据缺口（gap_count=0）。\n\n## 4. Manual Retrieval Tasks\n- 无待补任务。\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：83352689971.45999\n- 市值口径偏差：3.71946468643654e-06\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：S\n- 完整研究评级上限：S\n- full_research_ready：True\n- 取数尝试：30 次；缺口 0；研究债务 0；补数任务 0\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_16_36_17_national_silicon/data/688126/manifest.json\n"
+    "researchBriefExcerpt": "# 688126.SH 数据审计报告\n\n## 1. Market Resolution\n- Input：688126\n- Normalized：688126.SH\n- Market：CN_A\n- Exchange：SH\n- Currency：CNY\n- Retrieved at：2026-08-27T13:20:33.355326+00:00\n\n## 2. Data Manifest\n| Dataset | Status | Source | Level | As-of | Warnings |\n|---|---|---|---|---|---|\n| current_quote | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| price_history_adjusted | OK | CNINFO_Tencent_Adjusted_Kline_L0L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n| financials | OK | CNINFO_FinancialReports_L0 | L0_OFFICIAL_DISCLOSURE | 2026-03-31 | CNINFO official financial report PDFs were parsed into core financial lines where machine-readable page text was available.; Use consolidated statements; do not mix parent-company statements with consolidated revenue, cash flow, assets, liabilities, or equity.; annual 2026-07-28 extraction status=FAILED missing=['revenue', 'net_income', 'operating_cash_flow', 'assets', 'liabilities', 'equity'] |\n| filings_announcements | OK | CNINFO_Announcements_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-24 | CNINFO metadata/PDF links fetched; financial statement tables are not parsed by this adapter. |\n| customer_order_capacity_evidence | OK | Disclosure_Customer_Order_Capacity_Evidence_L0 | L0_OFFICIAL_DISCLOSURE | 2026-08-19 | - |\n| valuation_inputs | OK | Tencent_Quote_Kline_L2 | L2_FREE_API_OR_OPEN_SOURCE | 2026-08-27 | - |\n\n## 3. Data Gaps And Research Debt\n- 无数据缺口（gap_count=0）。\n\n## 4. Manual Retrieval Tasks\n- 无待补任务。\n\n## 5. 估值输入快照\n- 当前价可用：True\n- 总股本可用：True\n- 总市值可用：True\n- 隐含总市值：83352689971.45999\n- 市值口径偏差：3.71946468643654e-06\n\n## 6. Validation Errors\n- 无校验错误。\n\n## 7. Rating Cap\n- 当前请求范围评级上限：S\n- 完整研究评级上限：S\n- full_research_ready：True\n- 取数尝试：30 次；缺口 0；研究债务 0；补数任务 0\n\n> 本报告只呈现取数与校验事实，不构成研究结论。深入单股研究请按 references/05_output_templates.md 的单股 memo 模板执行。\n> manifest: /Users/edy/humanoid-research/data/serenity_provider/runs/2026_08_27_21_19_52_national_silicon/data/688126/manifest.json\n"
   },
   "calibration": {
     "status": "not_started",

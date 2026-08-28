@@ -1,8 +1,8 @@
 {
-  "id": "saout_anji_microelectronics_ee3daede105e",
+  "id": "saout_anji_microelectronics_0c75799e4e6b",
   "entityId": "anji_microelectronics",
   "name": "安集科技",
-  "generatedAt": "2026-08-27T16:37:25+08:00",
+  "generatedAt": "2026-08-27T21:21:17+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_formal_scorecard",
   "provider": {
@@ -38,16 +38,17 @@
     "materialRawArtifactIds": [
       "raw_2026_08_27_static_cninfo_com_cn_54a28b611a",
       "raw_2026_08_27_static_cninfo_com_cn_4da3b0f70e",
+      "raw_2026_08_27_static_cninfo_com_cn_c48212040a",
       "raw_2026_04_16_static_cninfo_com_cn_3854a6c6e3",
       "raw_2026_04_16_static_cninfo_com_cn_fd00edfed5",
       "raw_2025_08_26_static_cninfo_com_cn_cd7a252031",
       "raw_2025_04_16_static_cninfo_com_cn_79d5219cba",
-      "raw_2025_04_16_static_cninfo_com_cn_7422f94d6d",
-      "raw_2026_07_14_static_cninfo_com_cn_5b298620c4"
+      "raw_2025_04_16_static_cninfo_com_cn_7422f94d6d"
     ],
     "claimIds": [
       "claim_2026_08_27_filing_fe8fe4fcd3",
       "claim_2026_08_27_filing_313b769b43",
+      "claim_2026_08_27_filing_ca1f1c5b33",
       "claim_2026_04_16_filing_41795260c5",
       "claim_2026_04_16_filing_2a77ed8260",
       "claim_2025_08_26_filing_ccd4315f75",
@@ -59,7 +60,6 @@
       "claim_2026_04_29_filing_ddd50d2e02",
       "claim_2025_08_26_filing_7ff6fa7622",
       "claim_2025_04_29_filing_31a9dc070d",
-      "claim_2026_08_27_filing_ca1f1c5b33",
       "claim_2026_07_18_filing_603b4c57ce",
       "claim_2026_08_27_filing_8933d2297e",
       "claim_2026_08_27_filing_d8a6c37953",

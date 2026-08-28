@@ -1,8 +1,8 @@
 {
-  "id": "saout_beone_dadb5251324a",
+  "id": "saout_beone_7d13e497ecce",
   "entityId": "beone",
   "name": "百济神州",
-  "generatedAt": "2026-08-27T16:37:24+08:00",
+  "generatedAt": "2026-08-27T21:21:15+08:00",
   "contractType": "serenity_analysis_output_v0",
   "status": "serenity_formal_scorecard",
   "provider": {
@@ -21,7 +21,7 @@
     "runDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone",
     "note": "调用 vendored Serenity Chan formal single workflow，并通过 Serenity scorecard validator 渲染评分卡。",
     "exitCode": 0,
-    "stdoutTail": "lied_growth_vs_evidence\": 3.08,\n        \"upside_downside\": 2.65,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.1\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 67.2,\n      \"average_rating\": 3.36,\n      \"details\": {\n        \"monthly_trend\": 3.7,\n        \"weekly_structure\": 3.45,\n        \"daily_buy_point\": 1.8,\n        \"gf_dma_alignment\": 4.6,\n        \"drawdown_position\": 3.25\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"创新药研发与全球销售处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 6 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。\",\n      \"missing_proof\": \"临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"关键临床、审批或商业化进度晚于原计划。\",\n    \"研发投入继续增加，但获批产品销售没有形成增长。\",\n    \"核心产品出现安全性、竞争或医保价格压力。\"\n  ]\n}\n",
+    "stdoutTail": "lied_growth_vs_evidence\": 3.08,\n        \"upside_downside\": 2.65,\n        \"liquidity_capacity\": 4.3,\n        \"crowding_control\": 3.1\n      },\n      \"label\": \"Market Payoff\"\n    },\n    \"technical_timing\": {\n      \"score\": 67.2,\n      \"average_rating\": 3.36,\n      \"details\": {\n        \"monthly_trend\": 3.7,\n        \"weekly_structure\": 3.45,\n        \"daily_buy_point\": 1.8,\n        \"gf_dma_alignment\": 4.6,\n        \"drawdown_position\": 3.25\n      },\n      \"label\": \"Technical Timing\"\n    },\n    \"risk_controls\": {\n      \"score\": 60.0,\n      \"average_rating\": 3.0,\n      \"details\": {\n        \"falsification_clarity\": 3.0,\n        \"governance_accounting_risk_control\": 3.0,\n        \"balance_sheet_dilution_control\": 3.0,\n        \"cycle_policy_risk_control\": 3.0,\n        \"liquidity_event_risk_control\": 3.0\n      },\n      \"label\": \"Risk Controls\"\n    }\n  },\n  \"data_readiness\": {\n    \"score\": 100.0,\n    \"details\": {\n      \"current_quote\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.18\n      },\n      \"price_history_adjusted\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      },\n      \"valuation_inputs\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.12\n      },\n      \"financials\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.26\n      },\n      \"filings_announcements\": {\n        \"status\": \"OK\",\n        \"score\": 100.0,\n        \"weight\": 0.22\n      }\n    }\n  },\n  \"decision_blockers\": [],\n  \"evidence_notes\": [\n    {\n      \"claim\": \"创新药研发与全球销售处于公告材料跟踪阶段。已有财务/公告材料；供应链线索和官方来源部分覆盖；缺临床和审批进度、产品销售和研发兑现。\",\n      \"source\": \"research_reading + Serenity formal artifacts\",\n      \"source_level\": \"A/L0-L2\",\n      \"supports\": \"已读取 8 份正式公告，其中 5 份财报或业绩材料；近20日涨跌 10.6%，近60日涨跌 14.3%。\",\n      \"missing_proof\": \"临床和审批进度 / 产品销售 / 研发兑现 / 需要抓取/解析公告 PDF 正文\",\n      \"confidence\": \"Strong\"\n    }\n  ],\n  \"falsification_points\": [\n    \"关键临床、审批或商业化进度晚于原计划。\",\n    \"研发投入继续增加，但获批产品销售没有形成增长。\",\n    \"核心产品出现安全性、竞争或医保价格压力。\"\n  ]\n}\n",
     "stderrTail": ""
   },
   "sourceInputPack": {
@@ -36,17 +36,19 @@
   },
   "inputRefs": {
     "materialRawArtifactIds": [
+      "raw_2026_08_27_static_cninfo_com_cn_92f8ec7dc3",
       "raw_2026_08_27_static_cninfo_com_cn_211e2f8b1c",
+      "raw_2026_08_27_static_cninfo_com_cn_cebeea728e",
       "raw_2026_08_21_static_cninfo_com_cn_8102792294",
       "raw_2026_08_06_static_cninfo_com_cn_785f056ade",
       "raw_2026_04_28_static_cninfo_com_cn_a5420e748e",
       "raw_2026_04_15_static_cninfo_com_cn_d77ba7184c",
-      "raw_2026_04_15_static_cninfo_com_cn_3d26d9467f",
-      "raw_2025_08_30_static_cninfo_com_cn_0f0a4e8765",
-      "raw_2025_08_30_static_cninfo_com_cn_156b50d05e"
+      "raw_2026_04_15_static_cninfo_com_cn_3d26d9467f"
     ],
     "claimIds": [
+      "claim_2026_08_27_filing_0783db430e",
       "claim_2026_08_27_filing_1a0492c8fc",
+      "claim_2026_08_27_filing_74b468d3dc",
       "claim_2026_08_21_filing_128c259b25",
       "claim_2026_08_06_filing_76eef96618",
       "claim_2026_04_28_filing_d2769ee346",
@@ -63,9 +65,7 @@
       "claim_2026_07_01_filing_cfd1beef9e",
       "claim_2026_06_27_filing_69cd39367d",
       "claim_2026_05_14_filing_84b71dd434",
-      "claim_2026_05_12_filing_87077f9113",
-      "claim_2026_05_07_filing_d847a94a54",
-      "claim_2026_05_07_filing_2f909e3890"
+      "claim_2026_05_12_filing_87077f9113"
     ],
     "providerRunDir": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone",
     "manifestPath": "/Users/edy/humanoid-research/data/serenity_provider/formal_runs/2026_07_23_10_43_12_beone/data/688235/manifest.json",
